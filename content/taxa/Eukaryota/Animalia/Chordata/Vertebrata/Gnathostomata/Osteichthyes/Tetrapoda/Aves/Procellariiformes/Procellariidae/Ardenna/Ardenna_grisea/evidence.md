@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardenna grisea
       en: Ardenna grisea
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

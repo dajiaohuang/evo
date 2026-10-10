@@ -9,7 +9,6 @@ records:
     name:
       zh: Purgatorius coracis
       en: Purgatorius coracis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

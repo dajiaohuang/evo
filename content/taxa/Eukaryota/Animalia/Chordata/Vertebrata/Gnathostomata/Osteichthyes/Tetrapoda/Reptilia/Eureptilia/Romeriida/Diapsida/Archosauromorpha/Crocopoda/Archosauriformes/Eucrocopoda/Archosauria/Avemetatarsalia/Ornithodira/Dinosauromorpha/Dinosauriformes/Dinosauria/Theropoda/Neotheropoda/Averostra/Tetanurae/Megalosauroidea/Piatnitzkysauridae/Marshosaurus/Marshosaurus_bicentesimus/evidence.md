@@ -9,7 +9,6 @@ records:
     name:
       zh: Marshosaurus bicentesimus
       en: Marshosaurus bicentesimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

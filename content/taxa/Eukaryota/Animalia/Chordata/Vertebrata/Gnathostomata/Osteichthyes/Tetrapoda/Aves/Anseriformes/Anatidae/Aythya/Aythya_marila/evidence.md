@@ -9,7 +9,6 @@ records:
     name:
       zh: Aythya marila
       en: Aythya marila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

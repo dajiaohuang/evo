@@ -9,7 +9,6 @@ records:
     name:
       en: Scaphiophryne spinosa
       zh: Scaphiophryne spinosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

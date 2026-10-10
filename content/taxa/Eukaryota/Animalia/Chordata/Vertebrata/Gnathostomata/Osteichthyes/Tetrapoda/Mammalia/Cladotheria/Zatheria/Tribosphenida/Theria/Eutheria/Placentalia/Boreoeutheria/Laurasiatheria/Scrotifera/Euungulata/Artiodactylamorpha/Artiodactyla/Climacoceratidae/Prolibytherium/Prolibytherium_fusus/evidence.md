@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolibytherium fusus
       en: Prolibytherium fusus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

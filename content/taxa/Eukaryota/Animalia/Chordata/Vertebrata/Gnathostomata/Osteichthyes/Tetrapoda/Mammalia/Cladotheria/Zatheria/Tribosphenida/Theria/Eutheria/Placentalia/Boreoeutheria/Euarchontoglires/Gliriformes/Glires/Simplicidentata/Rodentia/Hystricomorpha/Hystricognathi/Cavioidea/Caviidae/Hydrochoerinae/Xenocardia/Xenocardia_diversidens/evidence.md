@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenocardia diversidens
       en: Xenocardia diversidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

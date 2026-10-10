@@ -9,7 +9,6 @@ records:
     name:
       zh: Danjiangia pingi
       en: Danjiangia pingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

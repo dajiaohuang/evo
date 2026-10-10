@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis xestus
       zh: Pristimantis xestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

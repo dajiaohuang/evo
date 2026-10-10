@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus mertensi
       zh: Colostethus mertensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

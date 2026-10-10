@@ -9,7 +9,6 @@ records:
     name:
       zh: Epictia vellardi
       en: Epictia vellardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

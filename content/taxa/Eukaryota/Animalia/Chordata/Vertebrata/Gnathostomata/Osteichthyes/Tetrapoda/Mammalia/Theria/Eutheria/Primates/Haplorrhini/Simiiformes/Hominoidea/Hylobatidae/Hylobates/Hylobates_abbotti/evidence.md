@@ -9,7 +9,6 @@ records:
     name:
       en: Western Gray Gibbon
       zh: 西部灰长臂猿
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: survey

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-野外和地点证据具有历史性且集中于 Bemaraha；本页不提供当前分布或数量估计。 本页尚未经过外部领域专家评审。
+野外和地点证据具有历史性且集中于 Bemaraha；本页不提供当前分布或数量估计。 。
 <!-- /evo:text -->

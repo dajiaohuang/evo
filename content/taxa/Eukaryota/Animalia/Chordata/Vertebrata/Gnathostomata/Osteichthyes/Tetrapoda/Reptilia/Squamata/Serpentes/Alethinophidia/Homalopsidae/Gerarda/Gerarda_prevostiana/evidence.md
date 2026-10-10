@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerarda prevostiana
       en: Gerarda prevostiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

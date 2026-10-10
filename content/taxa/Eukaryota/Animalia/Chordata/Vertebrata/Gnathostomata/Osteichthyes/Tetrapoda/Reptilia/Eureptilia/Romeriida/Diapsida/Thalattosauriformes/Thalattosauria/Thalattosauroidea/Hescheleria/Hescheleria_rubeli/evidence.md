@@ -9,7 +9,6 @@ records:
     name:
       zh: Hescheleria rubeli
       en: Hescheleria rubeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

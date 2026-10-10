@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes gunungensis
       zh: Limnonectes gunungensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

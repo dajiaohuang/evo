@@ -9,7 +9,6 @@ records:
     name:
       zh: Cophoscincopus durus
       en: Cophoscincopus durus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

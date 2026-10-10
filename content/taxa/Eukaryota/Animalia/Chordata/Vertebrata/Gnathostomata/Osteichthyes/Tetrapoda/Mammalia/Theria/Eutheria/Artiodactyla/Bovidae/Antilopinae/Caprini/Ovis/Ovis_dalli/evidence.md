@@ -9,7 +9,6 @@ records:
     name:
       zh: Ovis dalli
       en: Ovis dalli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

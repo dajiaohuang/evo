@@ -9,7 +9,6 @@ records:
     name:
       zh: Pannoniamys paragovensis
       en: Pannoniamys paragovensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

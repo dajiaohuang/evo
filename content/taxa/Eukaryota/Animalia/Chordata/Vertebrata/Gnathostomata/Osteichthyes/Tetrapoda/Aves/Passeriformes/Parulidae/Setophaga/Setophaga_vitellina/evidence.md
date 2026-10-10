@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga vitellina
       en: Setophaga vitellina
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

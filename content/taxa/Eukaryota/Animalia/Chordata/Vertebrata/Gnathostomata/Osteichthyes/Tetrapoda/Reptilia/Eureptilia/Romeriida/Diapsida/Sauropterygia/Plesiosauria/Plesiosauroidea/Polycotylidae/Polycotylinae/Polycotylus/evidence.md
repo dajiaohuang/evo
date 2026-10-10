@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: okeefe-2011-polycotylus-viviparity concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: okeefe-2011-polycotylus-viviparity
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: okeefe-2011-polycotylus-viviparity
           locator: pp. 870–873; Figure 1; Supporting Online Material
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Polycotylus
     rank: genus
@@ -73,7 +69,6 @@ records:
     name:
       zh: Polycotylus
       en: Polycotylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Psilopogon nuchalis
       en: Psilopogon nuchalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

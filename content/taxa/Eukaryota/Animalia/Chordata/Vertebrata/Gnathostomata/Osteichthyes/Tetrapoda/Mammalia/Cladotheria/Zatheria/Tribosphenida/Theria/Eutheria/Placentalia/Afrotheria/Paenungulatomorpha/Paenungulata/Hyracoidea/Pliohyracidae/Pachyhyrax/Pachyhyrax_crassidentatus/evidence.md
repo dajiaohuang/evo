@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachyhyrax crassidentatus
       en: Pachyhyrax crassidentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

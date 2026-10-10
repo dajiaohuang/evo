@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: aria-caron-2017-tokummia DOI-linked primary source
       referenceLinks:
         - referenceId: aria-caron-2017-tokummia
           relation: supports

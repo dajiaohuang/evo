@@ -9,7 +9,6 @@ records:
     name:
       zh: Nisaetus floris
       en: Nisaetus floris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

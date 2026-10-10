@@ -9,7 +9,6 @@ records:
     name:
       en: Milne-Edwards's Sifaka
       zh: 米尔恩—爱德华西法卡
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

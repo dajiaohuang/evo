@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimotona lii
       en: Mimotona lii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

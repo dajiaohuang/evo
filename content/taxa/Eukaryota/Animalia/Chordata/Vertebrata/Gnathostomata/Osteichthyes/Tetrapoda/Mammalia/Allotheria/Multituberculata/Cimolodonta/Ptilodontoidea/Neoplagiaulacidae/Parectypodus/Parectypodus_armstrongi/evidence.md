@@ -9,7 +9,6 @@ records:
     name:
       zh: Parectypodus armstrongi
       en: Parectypodus armstrongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

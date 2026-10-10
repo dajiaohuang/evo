@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinella kanalchutchan
       en: Rhadinella kanalchutchan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

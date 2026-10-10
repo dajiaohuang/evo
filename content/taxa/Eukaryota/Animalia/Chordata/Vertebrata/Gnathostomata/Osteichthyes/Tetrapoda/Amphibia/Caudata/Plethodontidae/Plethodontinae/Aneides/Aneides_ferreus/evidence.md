@@ -9,7 +9,6 @@ records:
     name:
       en: Aneides ferreus
       zh: Aneides ferreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Opisthotropis voquyi
       en: Opisthotropis voquyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

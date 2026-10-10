@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardenna bulleri
       en: Ardenna bulleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

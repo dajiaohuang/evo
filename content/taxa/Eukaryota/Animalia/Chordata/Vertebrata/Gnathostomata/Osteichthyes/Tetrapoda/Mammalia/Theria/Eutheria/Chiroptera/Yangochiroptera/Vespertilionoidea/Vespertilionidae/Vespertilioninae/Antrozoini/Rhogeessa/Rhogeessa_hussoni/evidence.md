@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhogeessa hussoni
       en: Rhogeessa hussoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

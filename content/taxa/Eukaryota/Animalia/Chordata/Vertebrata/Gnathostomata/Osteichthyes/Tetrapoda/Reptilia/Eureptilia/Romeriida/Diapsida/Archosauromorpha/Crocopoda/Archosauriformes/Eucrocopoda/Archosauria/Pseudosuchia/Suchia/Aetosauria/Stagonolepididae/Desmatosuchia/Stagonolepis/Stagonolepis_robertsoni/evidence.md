@@ -9,7 +9,6 @@ records:
     name:
       zh: Stagonolepis robertsoni
       en: Stagonolepis robertsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

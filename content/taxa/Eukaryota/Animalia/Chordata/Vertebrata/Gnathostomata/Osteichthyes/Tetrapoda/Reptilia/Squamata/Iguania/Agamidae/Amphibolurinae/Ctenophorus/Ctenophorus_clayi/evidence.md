@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenophorus clayi
       en: Ctenophorus clayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

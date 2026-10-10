@@ -9,7 +9,6 @@ records:
     name:
       zh: Nevadadromeus schmitti
       en: Nevadadromeus schmitti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

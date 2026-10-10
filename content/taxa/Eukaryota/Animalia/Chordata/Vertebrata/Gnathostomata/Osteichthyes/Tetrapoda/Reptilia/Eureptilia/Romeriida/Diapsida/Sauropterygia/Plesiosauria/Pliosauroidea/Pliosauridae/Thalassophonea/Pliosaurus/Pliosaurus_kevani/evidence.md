@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliosaurus kevani
       en: Pliosaurus kevani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

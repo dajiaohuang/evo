@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus tanu
       zh: Pseudophilautus tanu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

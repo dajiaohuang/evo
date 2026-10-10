@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoxanta conicodentata
       en: Palaeoxanta conicodentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

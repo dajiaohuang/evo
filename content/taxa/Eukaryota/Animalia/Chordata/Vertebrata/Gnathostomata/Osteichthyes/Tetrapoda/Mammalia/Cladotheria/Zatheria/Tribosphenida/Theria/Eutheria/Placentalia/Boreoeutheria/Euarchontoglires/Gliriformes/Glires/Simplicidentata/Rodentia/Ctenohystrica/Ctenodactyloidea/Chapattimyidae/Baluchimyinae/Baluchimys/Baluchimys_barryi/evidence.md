@@ -9,7 +9,6 @@ records:
     name:
       zh: Baluchimys barryi
       en: Baluchimys barryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

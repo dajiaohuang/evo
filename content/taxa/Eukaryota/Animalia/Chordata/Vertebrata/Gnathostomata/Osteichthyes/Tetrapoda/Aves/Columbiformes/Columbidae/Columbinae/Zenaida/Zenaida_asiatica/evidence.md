@@ -9,7 +9,6 @@ records:
     name:
       zh: Zenaida asiatica
       en: Zenaida asiatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

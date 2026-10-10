@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis poecilonotus
       zh: Arthroleptis poecilonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyseps gastrostictus
       en: Brachyseps gastrostictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

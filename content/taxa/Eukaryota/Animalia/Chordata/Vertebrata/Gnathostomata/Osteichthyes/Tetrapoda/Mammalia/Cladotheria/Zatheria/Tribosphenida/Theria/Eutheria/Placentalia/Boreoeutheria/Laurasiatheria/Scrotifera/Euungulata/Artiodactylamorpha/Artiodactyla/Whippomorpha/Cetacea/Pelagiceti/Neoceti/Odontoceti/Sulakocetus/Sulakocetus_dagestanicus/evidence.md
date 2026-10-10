@@ -9,7 +9,6 @@ records:
     name:
       zh: Sulakocetus dagestanicus
       en: Sulakocetus dagestanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

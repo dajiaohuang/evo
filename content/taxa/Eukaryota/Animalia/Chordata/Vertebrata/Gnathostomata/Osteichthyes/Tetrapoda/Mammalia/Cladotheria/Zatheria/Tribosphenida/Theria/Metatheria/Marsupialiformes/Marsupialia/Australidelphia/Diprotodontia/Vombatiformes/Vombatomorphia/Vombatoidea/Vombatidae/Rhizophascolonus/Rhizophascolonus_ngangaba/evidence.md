@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhizophascolonus ngangaba
       en: Rhizophascolonus ngangaba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ombrana sikimensis
       zh: Ombrana sikimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

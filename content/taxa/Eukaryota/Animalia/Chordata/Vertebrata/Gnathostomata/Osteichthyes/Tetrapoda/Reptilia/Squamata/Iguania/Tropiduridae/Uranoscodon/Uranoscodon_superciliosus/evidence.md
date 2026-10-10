@@ -9,7 +9,6 @@ records:
     name:
       zh: Uranoscodon superciliosus
       en: Uranoscodon superciliosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

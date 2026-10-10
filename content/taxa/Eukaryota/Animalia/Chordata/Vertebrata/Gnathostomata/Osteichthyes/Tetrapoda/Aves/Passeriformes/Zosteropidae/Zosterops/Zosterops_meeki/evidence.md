@@ -9,7 +9,6 @@ records:
     name:
       zh: Zosterops meeki
       en: Zosterops meeki
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

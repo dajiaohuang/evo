@@ -109,9 +109,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Luo et al. 2015 DOI 10.1073/pnas.1519387112; MorphoBank Project 2292
       referenceLinks:
         - referenceId: luo-2015-haramiyavia
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Camelodon arapahovius
       en: Camelodon arapahovius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus pipanaco
       en: Liolaemus pipanaco
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prothryptacodon albertensis
       en: Prothryptacodon albertensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

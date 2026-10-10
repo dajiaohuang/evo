@@ -9,7 +9,6 @@ records:
     name:
       zh: Pardinamys humahuaquensis
       en: Pardinamys humahuaquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

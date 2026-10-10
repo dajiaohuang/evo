@@ -9,7 +9,6 @@ records:
     name:
       en: Hoplobatrachus litoralis
       zh: Hoplobatrachus litoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

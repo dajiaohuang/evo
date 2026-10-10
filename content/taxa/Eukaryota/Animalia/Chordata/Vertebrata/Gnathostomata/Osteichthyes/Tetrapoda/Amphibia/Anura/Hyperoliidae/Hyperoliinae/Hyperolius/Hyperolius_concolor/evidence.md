@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius concolor
       zh: Hyperolius concolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

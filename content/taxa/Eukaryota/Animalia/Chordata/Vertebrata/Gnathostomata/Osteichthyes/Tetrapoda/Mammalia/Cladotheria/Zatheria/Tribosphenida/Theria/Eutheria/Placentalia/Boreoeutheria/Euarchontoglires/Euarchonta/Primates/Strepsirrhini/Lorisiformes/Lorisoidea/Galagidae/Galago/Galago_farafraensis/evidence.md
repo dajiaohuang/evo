@@ -9,7 +9,6 @@ records:
     name:
       zh: Galago farafraensis
       en: Galago farafraensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

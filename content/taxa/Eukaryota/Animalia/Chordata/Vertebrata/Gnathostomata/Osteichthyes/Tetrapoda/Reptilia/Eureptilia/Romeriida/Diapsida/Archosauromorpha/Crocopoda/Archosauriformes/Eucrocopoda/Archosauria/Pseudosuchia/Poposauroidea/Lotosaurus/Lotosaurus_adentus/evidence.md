@@ -9,7 +9,6 @@ records:
     name:
       zh: Lotosaurus adentus
       en: Lotosaurus adentus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

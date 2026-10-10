@@ -9,7 +9,6 @@ records:
     name:
       en: Callimedusa baltea
       zh: Callimedusa baltea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

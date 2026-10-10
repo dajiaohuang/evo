@@ -9,7 +9,6 @@ records:
     name:
       zh: Waluchelys cavitesta
       en: Waluchelys cavitesta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

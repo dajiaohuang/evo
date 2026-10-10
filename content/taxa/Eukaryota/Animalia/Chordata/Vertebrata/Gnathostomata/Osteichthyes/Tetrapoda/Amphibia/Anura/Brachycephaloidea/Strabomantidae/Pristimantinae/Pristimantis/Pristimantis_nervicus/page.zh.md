@@ -90,7 +90,7 @@ AmphiTherm curated snapshot — 原始数据集
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-分类读本包含明确限定为历史来源概念的性状材料；当前概念等同性、底层原始文献及其余生物学主题仍需核对。本页不是完整物种档案，未经过外部领域专家评审。
+分类读本包含明确限定为历史来源概念的性状材料；当前概念等同性、底层原始文献及其余生物学主题仍需核对。本页不是完整物种档案。
 <!-- /evo:text -->
 
 ## 研究正文待整理

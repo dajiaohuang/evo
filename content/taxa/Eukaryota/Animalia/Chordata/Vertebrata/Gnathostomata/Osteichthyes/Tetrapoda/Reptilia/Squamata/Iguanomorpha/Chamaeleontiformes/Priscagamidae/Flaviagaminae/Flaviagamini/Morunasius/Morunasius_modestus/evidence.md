@@ -9,7 +9,6 @@ records:
     name:
       zh: Morunasius modestus
       en: Morunasius modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

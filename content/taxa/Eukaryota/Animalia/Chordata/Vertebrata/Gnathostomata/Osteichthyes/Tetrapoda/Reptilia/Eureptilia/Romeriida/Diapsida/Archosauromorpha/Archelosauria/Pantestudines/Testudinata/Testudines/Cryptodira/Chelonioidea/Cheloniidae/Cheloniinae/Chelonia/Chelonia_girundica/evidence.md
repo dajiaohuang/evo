@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelonia girundica
       en: Chelonia girundica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

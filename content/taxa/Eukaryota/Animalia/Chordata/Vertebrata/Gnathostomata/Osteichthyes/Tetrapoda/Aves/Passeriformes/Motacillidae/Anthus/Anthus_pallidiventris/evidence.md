@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus pallidiventris
       en: Anthus pallidiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

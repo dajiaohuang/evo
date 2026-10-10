@@ -9,7 +9,6 @@ records:
     name:
       en: Quasipaa robertingeri
       zh: Quasipaa robertingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

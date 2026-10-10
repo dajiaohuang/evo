@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla laterite
       zh: Microhyla laterite
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

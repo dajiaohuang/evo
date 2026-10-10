@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucoelophysis baldwini
       en: Eucoelophysis baldwini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

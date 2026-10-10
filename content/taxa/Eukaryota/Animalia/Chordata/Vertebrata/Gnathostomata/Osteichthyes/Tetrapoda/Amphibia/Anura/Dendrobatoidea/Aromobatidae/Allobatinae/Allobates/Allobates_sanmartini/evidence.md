@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates sanmartini
       zh: Allobates sanmartini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

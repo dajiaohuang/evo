@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus callipeza
       zh: Hyloscirtus callipeza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

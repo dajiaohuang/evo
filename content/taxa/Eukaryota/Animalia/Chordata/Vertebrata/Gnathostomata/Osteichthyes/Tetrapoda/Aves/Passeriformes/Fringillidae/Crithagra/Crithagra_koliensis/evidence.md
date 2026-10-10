@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra koliensis
       en: Crithagra koliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

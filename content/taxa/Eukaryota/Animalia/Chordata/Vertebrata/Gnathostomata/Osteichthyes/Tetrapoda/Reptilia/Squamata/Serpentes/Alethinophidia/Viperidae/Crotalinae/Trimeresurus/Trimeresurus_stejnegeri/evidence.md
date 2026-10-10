@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus stejnegeri
       en: Trimeresurus stejnegeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates peruvianus
       zh: Allobates peruvianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

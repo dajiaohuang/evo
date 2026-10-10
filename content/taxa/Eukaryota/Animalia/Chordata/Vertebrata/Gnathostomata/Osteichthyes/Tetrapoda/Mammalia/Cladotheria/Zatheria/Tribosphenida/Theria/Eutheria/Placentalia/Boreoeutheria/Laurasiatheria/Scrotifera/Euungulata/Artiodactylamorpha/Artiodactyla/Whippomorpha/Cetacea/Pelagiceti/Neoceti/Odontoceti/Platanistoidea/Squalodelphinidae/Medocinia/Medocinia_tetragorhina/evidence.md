@@ -9,7 +9,6 @@ records:
     name:
       zh: Medocinia tetragorhina
       en: Medocinia tetragorhina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

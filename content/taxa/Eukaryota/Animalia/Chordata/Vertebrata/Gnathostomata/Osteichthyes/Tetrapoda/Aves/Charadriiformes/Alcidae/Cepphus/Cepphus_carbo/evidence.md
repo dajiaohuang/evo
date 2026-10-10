@@ -9,7 +9,6 @@ records:
     name:
       zh: Cepphus carbo
       en: Cepphus carbo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

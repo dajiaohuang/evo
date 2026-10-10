@@ -9,7 +9,6 @@ records:
     name:
       zh: Tinamus tao
       en: Tinamus tao
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

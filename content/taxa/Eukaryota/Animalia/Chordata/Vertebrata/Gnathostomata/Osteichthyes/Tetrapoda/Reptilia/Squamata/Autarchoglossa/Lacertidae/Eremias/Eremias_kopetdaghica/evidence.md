@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremias kopetdaghica
       en: Eremias kopetdaghica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

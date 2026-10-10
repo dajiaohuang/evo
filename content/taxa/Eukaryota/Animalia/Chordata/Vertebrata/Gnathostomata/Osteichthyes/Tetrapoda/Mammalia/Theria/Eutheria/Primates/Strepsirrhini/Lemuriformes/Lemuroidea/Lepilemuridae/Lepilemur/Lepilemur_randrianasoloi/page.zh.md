@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-接受名使用 2017 年正式拼写 randrianasoloi；候选河流边界仍是假说，形态与记录反映当时有限样本。中文名为编辑翻译，尚未经过外部领域专家评审。
+接受名使用 2017 年正式拼写 randrianasoloi；候选河流边界仍是假说，形态与记录反映当时有限样本。中文名为编辑翻译。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Teratohyla adenocheira
       zh: Teratohyla adenocheira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

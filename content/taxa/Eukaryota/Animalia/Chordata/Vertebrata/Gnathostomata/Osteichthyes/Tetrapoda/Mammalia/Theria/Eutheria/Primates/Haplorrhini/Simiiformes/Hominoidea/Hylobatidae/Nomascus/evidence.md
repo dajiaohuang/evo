@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑冠长臂猿属
       en: Crested gibbons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

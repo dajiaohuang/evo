@@ -9,7 +9,6 @@ records:
     name:
       zh: Pheugopedius atrogularis
       en: Pheugopedius atrogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

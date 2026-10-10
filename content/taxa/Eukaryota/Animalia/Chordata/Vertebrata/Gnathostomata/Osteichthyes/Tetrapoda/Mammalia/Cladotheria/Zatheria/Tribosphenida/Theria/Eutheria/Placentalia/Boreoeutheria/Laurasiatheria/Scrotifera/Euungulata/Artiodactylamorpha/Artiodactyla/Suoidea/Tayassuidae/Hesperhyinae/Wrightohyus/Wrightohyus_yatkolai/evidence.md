@@ -9,7 +9,6 @@ records:
     name:
       zh: Wrightohyus yatkolai
       en: Wrightohyus yatkolai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

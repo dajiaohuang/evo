@@ -9,7 +9,6 @@ records:
     name:
       en: Barygenys maculata
       zh: Barygenys maculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

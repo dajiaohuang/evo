@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllotis caprinus
       en: Phyllotis caprinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

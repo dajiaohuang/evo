@@ -9,7 +9,6 @@ records:
     name:
       zh: Igdamanosaurus aegyptiacus
       en: Igdamanosaurus aegyptiacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

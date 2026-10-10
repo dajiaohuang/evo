@@ -9,7 +9,6 @@ records:
     name:
       zh: Telescopus dhara
       en: Telescopus dhara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Faxinalipterus
       en: Faxinalipterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

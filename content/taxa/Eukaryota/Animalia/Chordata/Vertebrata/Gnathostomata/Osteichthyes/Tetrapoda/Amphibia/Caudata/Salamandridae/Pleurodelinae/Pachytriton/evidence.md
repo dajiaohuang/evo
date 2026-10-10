@@ -9,7 +9,6 @@ records:
     name:
       en: Pachytriton
       zh: Pachytriton
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

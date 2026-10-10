@@ -9,7 +9,6 @@ records:
     name:
       zh: Neuquensuchus universitas
       en: Neuquensuchus universitas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

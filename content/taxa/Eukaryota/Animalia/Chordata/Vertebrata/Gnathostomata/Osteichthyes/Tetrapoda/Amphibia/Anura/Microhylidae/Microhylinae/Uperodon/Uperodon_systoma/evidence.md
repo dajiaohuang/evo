@@ -9,7 +9,6 @@ records:
     name:
       en: Uperodon systoma
       zh: Uperodon systoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

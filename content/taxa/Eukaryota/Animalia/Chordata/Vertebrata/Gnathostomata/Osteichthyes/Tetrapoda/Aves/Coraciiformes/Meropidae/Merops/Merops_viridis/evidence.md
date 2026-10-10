@@ -9,7 +9,6 @@ records:
     name:
       zh: Merops viridis
       en: Merops viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

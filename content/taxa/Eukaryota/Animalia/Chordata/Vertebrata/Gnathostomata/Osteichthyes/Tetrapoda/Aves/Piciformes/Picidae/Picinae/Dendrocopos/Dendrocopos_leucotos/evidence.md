@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocopos leucotos
       en: Dendrocopos leucotos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Purgatorius janisae
       en: Purgatorius janisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

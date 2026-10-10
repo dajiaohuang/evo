@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes kubori
       zh: Nyctimystes kubori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes saravacensis
       en: Pseudocalotes saravacensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinosternon acutum
       en: Kinosternon acutum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

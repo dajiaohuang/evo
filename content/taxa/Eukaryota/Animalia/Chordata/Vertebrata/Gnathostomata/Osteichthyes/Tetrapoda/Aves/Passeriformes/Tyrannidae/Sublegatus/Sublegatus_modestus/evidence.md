@@ -9,7 +9,6 @@ records:
     name:
       zh: Sublegatus modestus
       en: Sublegatus modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

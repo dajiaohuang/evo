@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoreomys pinturensis
       en: Neoreomys pinturensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

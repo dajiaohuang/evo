@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassictis robusta
       en: Thalassictis robusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

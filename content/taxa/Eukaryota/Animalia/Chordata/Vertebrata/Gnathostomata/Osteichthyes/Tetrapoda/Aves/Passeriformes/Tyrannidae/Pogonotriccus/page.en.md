@@ -10,7 +10,7 @@ status: source-linked
 ## Follow Phylloscartes in both name crosswalks
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This entry organizes seven historical guides under COL26.8 Pogonotriccus (CQWQQ) and Tyrannidae (HMW). BirdLife uses the page names; eBird and BirdTree each use the corresponding older Phylloscartes combination in one-to-one links. Respective BirdLife/eBird Avibase IDs match. Seven exact older combinations have catalogue synonyms pointing to current accepted IDs without proving identical species boundaries across dates. The genus record has nine immediate children; seven guides do not complete genus coverage, natural history or expert review.
+This entry organizes seven historical guides under COL26.8 Pogonotriccus (CQWQQ) and Tyrannidae (HMW). BirdLife uses the page names; eBird and BirdTree each use the corresponding older Phylloscartes combination in one-to-one links. Respective BirdLife/eBird Avibase IDs match. Seven exact older combinations have catalogue synonyms pointing to current accepted IDs without proving identical species boundaries across dates. The genus record has nine immediate children; seven guides do not complete genus coverage, natural history.
 <!-- /evo:text -->
 
 ## Separate seventeen total birds from four complete sets
@@ -38,5 +38,5 @@ Group 2: [Pogonotriccus ophthalmicus](Pogonotriccus_ophthalmicus/page.en.md), [P
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Seven selected historical rows and exact Phylloscartes synonyms do not complete content for nine catalogue children. Both older-name crosswalks, total birds, complete sets, unsexed birds and independently compiled mass retain their scopes. Forest, vegetation density and lifestyle remain separate without invented feeding actions, precise strata, breeding, current maps, complete natural history or expert review.
+Seven selected historical rows and exact Phylloscartes synonyms do not complete content for nine catalogue children. Both older-name crosswalks, total birds, complete sets, unsexed birds and independently compiled mass retain their scopes. Forest, vegetation density and lifestyle remain separate without invented feeding actions, precise strata, breeding, current maps, complete natural history.
 <!-- /evo:text -->

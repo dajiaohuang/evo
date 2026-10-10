@@ -9,7 +9,6 @@ records:
     name:
       zh: Meurthodon gallicus
       en: Meurthodon gallicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops mediodiscus
       zh: Callulops mediodiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

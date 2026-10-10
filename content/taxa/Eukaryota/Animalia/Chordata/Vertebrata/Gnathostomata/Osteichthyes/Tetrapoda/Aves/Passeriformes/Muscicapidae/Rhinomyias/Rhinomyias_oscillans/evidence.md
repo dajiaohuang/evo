@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinomyias oscillans
       en: Rhinomyias oscillans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

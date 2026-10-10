@@ -9,7 +9,6 @@ records:
     name:
       zh: Iberolacerta martinezricai
       en: Iberolacerta martinezricai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

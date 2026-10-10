@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucocarbo carunculatus
       en: Leucocarbo carunculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

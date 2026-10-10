@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer schmidti
       zh: Cornufer schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

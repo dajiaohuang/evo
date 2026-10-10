@@ -9,7 +9,6 @@ records:
     name:
       zh: Nilssonia leithii
       en: Nilssonia leithii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

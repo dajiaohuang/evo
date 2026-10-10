@@ -9,7 +9,6 @@ records:
     name:
       zh: Perognathoides quartus
       en: Perognathoides quartus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

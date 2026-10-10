@@ -9,7 +9,6 @@ records:
     name:
       zh: Hatcheriformes
       en: Hatcheriformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

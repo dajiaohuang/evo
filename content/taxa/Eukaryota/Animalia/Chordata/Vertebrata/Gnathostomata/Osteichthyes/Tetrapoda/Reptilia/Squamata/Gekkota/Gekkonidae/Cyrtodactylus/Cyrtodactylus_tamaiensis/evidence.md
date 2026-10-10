@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus tamaiensis
       en: Cyrtodactylus tamaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

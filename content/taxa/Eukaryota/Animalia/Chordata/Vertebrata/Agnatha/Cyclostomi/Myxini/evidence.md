@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Miyashita et al. 2019 DOI 10.1073/pnas.1814794116; PubMed PMID 30670644 abstract
       referenceLinks:
         - referenceId: miyashita-2019-tethymyxine
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Miyashita et al. 2019 DOI 10.1073/pnas.1814794116
       referenceLinks:
         - relation: supports
           referenceId: miyashita-2019-tethymyxine
@@ -88,7 +82,6 @@ records:
       referenceLocators:
         - referenceId: miyashita-2019-tethymyxine
           locator: pp. 2146–2151; Figures 1–3; systematic and phylogenetic results
-      reviewStatus: not-reviewed
       evidenceLevel: literature-synthesized
 ---
 

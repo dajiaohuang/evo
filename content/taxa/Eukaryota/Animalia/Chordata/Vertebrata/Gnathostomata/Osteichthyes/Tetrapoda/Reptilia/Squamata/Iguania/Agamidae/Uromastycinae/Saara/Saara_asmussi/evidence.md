@@ -9,7 +9,6 @@ records:
     name:
       zh: Saara asmussi
       en: Saara asmussi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

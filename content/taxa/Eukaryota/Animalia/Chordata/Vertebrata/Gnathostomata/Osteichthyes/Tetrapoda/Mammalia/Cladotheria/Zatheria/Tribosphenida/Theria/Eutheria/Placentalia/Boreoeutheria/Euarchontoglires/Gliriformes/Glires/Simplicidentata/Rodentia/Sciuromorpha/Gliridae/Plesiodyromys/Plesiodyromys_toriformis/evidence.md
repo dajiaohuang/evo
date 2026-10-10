@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiodyromys toriformis
       en: Plesiodyromys toriformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

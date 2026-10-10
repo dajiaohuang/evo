@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus colomai
       zh: Nymphargus colomai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

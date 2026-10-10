@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaesaura aenea
       en: Chamaesaura aenea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

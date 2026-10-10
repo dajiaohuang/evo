@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer exedrus
       zh: Cornufer exedrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

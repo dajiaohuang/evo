@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristurus celerrimus
       en: Pristurus celerrimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

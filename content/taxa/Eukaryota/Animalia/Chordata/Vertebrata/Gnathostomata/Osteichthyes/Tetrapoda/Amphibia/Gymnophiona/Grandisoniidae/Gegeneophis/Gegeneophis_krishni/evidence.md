@@ -9,7 +9,6 @@ records:
     name:
       en: Gegeneophis krishni
       zh: Gegeneophis krishni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

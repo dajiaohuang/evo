@@ -9,7 +9,6 @@ records:
     name:
       zh: Dermotherium major
       en: Dermotherium major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zuolong salleei
       en: Zuolong salleei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

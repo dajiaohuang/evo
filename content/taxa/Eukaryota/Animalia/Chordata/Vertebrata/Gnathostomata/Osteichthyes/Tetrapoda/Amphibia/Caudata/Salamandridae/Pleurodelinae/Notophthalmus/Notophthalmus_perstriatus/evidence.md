@@ -9,7 +9,6 @@ records:
     name:
       en: Notophthalmus perstriatus
       zh: Notophthalmus perstriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

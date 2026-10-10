@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypolagus edensis
       en: Hypolagus edensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

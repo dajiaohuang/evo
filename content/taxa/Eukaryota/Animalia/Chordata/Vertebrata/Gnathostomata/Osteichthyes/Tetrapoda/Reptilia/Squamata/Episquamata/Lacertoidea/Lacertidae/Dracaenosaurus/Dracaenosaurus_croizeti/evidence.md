@@ -9,7 +9,6 @@ records:
     name:
       zh: Dracaenosaurus croizeti
       en: Dracaenosaurus croizeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

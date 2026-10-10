@@ -9,7 +9,6 @@ records:
     name:
       zh: Ageitonomys neimongolensis
       en: Ageitonomys neimongolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

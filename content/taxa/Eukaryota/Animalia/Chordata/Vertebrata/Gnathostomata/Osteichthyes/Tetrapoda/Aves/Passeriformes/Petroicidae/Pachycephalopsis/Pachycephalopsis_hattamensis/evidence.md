@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephalopsis hattamensis
       en: Pachycephalopsis hattamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

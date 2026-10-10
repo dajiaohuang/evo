@@ -9,7 +9,6 @@ records:
     name:
       zh: 靴足猕猴
       en: Booted Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

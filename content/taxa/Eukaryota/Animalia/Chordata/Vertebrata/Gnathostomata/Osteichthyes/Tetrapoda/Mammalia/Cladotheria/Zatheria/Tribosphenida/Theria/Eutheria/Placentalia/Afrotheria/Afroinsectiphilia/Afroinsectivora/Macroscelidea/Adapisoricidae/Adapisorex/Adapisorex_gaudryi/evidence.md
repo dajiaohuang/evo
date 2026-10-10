@@ -9,7 +9,6 @@ records:
     name:
       zh: Adapisorex gaudryi
       en: Adapisorex gaudryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Columba thomensis
       en: Columba thomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

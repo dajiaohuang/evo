@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasyurus maculatus
       en: Dasyurus maculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligopteryx floridanus
       en: Oligopteryx floridanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

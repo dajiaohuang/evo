@@ -9,7 +9,6 @@ records:
     name:
       en: Jingophrys vegrandis
       zh: Jingophrys vegrandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

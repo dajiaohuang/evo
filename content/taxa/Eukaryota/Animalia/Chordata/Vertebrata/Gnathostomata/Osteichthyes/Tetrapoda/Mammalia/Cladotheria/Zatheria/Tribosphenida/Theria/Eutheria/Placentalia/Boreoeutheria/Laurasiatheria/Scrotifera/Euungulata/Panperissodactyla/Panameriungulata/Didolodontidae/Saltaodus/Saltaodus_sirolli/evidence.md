@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltaodus sirolli
       en: Saltaodus sirolli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

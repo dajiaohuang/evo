@@ -9,7 +9,6 @@ records:
     name:
       zh: Eunectes stirtoni
       en: Eunectes stirtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

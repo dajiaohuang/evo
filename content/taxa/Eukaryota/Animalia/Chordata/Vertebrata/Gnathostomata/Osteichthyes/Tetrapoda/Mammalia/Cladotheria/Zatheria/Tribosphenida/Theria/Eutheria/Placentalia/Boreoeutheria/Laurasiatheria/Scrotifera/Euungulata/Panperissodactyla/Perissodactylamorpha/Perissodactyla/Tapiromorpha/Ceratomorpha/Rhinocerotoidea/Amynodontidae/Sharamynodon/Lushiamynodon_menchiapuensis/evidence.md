@@ -9,7 +9,6 @@ records:
     name:
       zh: Lushiamynodon menchiapuensis
       en: Lushiamynodon menchiapuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreolagus wallacei
       en: Oreolagus wallacei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

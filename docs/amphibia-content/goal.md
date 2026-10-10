@@ -46,7 +46,7 @@ The user's 2026-10-02 bulk-first instruction supersedes the parent plan's
 per-batch projection and commit schedule. Taxonomic orientation does not count
 as completed biological content. Full scientific dossiers remain governed by
 `../species-dossier-standard.md`; reader prose, seven-facet dossiers and external
-expert review are separate quantities.
+
 
 ## Source collection decisions
 
@@ -113,7 +113,7 @@ the existing reference schema while retaining original metadata and rights in
 the source variants. This is an authoring change; final validation is pending.
 
 The TetrapodTraits 2026 revision history reports corrections affecting some
-earlier amphibian body-mass and microhabitat records. `source-revision-review.json`
+earlier amphibian body-mass and microhabitat records. `source-revision-limits.json`
 tracks 6,295 AmphiBIO source readers with 6,884 sections requiring a row-level
 revision comparison. Original values remain preserved; no replacement values
 are inferred and no blanket error designation is made. Direct Zenodo record,
@@ -150,7 +150,7 @@ The latter article reports conflicting locality elevations (1300 versus about
 
 `primary-literature-discovery.json` records systematic literal-name Europe PMC
 searches for the 1,092 species lacking a captured trait candidate. Index hits
-are leads requiring actual article reading and taxon-concept review; zero hits
+are leads requiring actual article reading and taxon identity verification; zero hits
 do not show that no research exists. Search pagination and missing requests are
 recorded independently of biological authoring completeness.
 

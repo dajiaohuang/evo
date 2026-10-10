@@ -9,7 +9,6 @@ records:
     name:
       zh: Sperrgebietomeryx wardi
       en: Sperrgebietomeryx wardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristurus abdelkuri
       en: Pristurus abdelkuri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

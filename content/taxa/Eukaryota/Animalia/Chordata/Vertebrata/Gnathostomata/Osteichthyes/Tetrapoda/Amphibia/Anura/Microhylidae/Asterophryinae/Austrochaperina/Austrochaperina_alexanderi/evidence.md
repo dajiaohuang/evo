@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina alexanderi
       zh: Austrochaperina alexanderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Laniarius erythrogaster
       en: Laniarius erythrogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

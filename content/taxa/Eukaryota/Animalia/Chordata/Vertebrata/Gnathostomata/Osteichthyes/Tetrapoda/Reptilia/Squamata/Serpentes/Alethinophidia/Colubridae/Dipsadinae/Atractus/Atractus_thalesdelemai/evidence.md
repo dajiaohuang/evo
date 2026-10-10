@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus thalesdelemai
       en: Atractus thalesdelemai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

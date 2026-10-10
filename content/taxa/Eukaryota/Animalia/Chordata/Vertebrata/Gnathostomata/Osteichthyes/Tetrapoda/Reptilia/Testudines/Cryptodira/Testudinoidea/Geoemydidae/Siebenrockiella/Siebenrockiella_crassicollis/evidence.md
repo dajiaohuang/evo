@@ -9,7 +9,6 @@ records:
     name:
       zh: Siebenrockiella crassicollis
       en: Siebenrockiella crassicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

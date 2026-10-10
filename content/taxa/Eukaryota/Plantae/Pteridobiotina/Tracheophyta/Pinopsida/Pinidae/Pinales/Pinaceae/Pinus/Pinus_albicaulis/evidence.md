@@ -260,12 +260,6 @@ records:
       reasons:
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/0
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Pinus albicaulis
@@ -436,10 +430,4 @@ No current conservation assessment, population trend, or threat analysis was rev
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/0 -->
 2 facets have partial claims from one regional flora account; all other facets remain not assessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kentriodon diusinus
       en: Kentriodon diusinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

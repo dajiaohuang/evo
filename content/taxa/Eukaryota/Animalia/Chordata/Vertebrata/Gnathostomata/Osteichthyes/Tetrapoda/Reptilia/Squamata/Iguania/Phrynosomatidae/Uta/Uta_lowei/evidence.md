@@ -9,7 +9,6 @@ records:
     name:
       zh: Uta lowei
       en: Uta lowei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

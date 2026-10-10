@@ -9,7 +9,6 @@ records:
     name:
       zh: Hsiuannania maguensis
       en: Hsiuannania maguensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon jacksoni
       zh: Plethodon jacksoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

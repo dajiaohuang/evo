@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus atim
       zh: Physalaemus atim
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

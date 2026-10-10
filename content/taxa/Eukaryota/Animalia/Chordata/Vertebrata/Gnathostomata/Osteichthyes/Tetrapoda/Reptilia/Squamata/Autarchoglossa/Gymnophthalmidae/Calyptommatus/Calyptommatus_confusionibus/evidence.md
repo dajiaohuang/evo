@@ -9,7 +9,6 @@ records:
     name:
       zh: Calyptommatus confusionibus
       en: Calyptommatus confusionibus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

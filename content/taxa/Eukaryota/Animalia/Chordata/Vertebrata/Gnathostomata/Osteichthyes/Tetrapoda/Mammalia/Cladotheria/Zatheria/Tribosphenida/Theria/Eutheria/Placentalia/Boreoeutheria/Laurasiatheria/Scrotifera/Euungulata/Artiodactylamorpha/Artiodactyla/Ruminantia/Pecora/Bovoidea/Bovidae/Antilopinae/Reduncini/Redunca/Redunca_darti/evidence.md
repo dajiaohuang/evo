@@ -9,7 +9,6 @@ records:
     name:
       zh: Redunca darti
       en: Redunca darti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

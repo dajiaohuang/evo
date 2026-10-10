@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis albipunctatus
       zh: Boophis albipunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

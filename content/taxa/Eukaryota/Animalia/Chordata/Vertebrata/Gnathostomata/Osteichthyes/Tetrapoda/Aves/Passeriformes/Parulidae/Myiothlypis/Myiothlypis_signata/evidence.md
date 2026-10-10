@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiothlypis signata
       en: Myiothlypis signata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

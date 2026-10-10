@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucis dohrnii
       en: Glaucis dohrnii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

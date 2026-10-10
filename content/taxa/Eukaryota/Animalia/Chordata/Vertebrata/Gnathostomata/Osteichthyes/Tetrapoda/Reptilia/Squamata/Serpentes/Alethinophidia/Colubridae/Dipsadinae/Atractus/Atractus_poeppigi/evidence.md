@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus poeppigi
       en: Atractus poeppigi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

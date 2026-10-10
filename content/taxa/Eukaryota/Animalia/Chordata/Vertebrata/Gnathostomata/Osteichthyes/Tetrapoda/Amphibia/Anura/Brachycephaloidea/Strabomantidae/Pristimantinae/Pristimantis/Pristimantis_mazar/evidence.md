@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis mazar
       zh: Pristimantis mazar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

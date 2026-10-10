@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidoscincus boreus
       en: Tropidoscincus boreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

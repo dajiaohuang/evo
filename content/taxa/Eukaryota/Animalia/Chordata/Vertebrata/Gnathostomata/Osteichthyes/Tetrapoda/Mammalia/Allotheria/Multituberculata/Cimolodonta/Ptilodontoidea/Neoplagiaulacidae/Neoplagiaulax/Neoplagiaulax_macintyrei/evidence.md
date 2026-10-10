@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoplagiaulax macintyrei
       en: Neoplagiaulax macintyrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

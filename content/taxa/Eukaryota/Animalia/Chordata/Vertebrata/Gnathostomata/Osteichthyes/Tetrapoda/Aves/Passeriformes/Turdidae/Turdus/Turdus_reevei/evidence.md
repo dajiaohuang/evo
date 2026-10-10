@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus reevei
       en: Turdus reevei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

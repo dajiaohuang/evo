@@ -9,7 +9,6 @@ records:
     name:
       en: Discoglossus scovazzi
       zh: Discoglossus scovazzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

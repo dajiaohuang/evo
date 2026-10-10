@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus jimzimkusi
       zh: Phrynobatrachus jimzimkusi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

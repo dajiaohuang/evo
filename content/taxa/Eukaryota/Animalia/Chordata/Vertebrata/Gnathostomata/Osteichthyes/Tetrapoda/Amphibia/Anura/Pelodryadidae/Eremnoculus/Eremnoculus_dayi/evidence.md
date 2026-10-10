@@ -9,7 +9,6 @@ records:
     name:
       en: Eremnoculus dayi
       zh: Eremnoculus dayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

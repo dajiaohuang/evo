@@ -9,7 +9,6 @@ records:
     name:
       zh: Penetrigonias sagittatus
       en: Penetrigonias sagittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

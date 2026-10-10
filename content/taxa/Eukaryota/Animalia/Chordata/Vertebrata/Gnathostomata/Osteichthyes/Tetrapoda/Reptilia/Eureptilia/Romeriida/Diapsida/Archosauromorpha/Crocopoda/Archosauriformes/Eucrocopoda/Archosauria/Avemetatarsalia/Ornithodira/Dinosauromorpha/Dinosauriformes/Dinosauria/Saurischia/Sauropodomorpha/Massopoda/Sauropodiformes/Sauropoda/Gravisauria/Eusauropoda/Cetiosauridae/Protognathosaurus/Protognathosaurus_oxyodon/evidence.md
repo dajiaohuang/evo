@@ -9,7 +9,6 @@ records:
     name:
       zh: Protognathosaurus oxyodon
       en: Protognathosaurus oxyodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gomphotherium simplicidens
       en: Gomphotherium simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelecanus schreiberi
       en: Pelecanus schreiberi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

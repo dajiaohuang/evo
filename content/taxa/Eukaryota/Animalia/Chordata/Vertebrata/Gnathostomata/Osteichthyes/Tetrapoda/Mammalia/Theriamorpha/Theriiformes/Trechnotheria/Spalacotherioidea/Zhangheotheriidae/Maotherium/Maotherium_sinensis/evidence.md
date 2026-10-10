@@ -9,7 +9,6 @@ records:
     name:
       zh: Maotherium sinensis
       en: Maotherium sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

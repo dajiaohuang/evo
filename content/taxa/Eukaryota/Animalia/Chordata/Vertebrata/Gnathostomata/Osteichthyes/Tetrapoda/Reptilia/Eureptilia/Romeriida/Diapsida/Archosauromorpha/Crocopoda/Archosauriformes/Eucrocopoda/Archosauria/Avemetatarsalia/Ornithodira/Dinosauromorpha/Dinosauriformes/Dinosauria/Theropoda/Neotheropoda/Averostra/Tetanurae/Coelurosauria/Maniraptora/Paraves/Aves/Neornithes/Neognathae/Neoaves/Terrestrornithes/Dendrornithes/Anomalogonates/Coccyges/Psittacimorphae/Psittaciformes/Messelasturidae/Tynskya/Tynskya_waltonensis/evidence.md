@@ -9,7 +9,6 @@ records:
     name:
       zh: Tynskya waltonensis
       en: Tynskya waltonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

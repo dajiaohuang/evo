@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus leucorhinus
       zh: Pseudophilautus leucorhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

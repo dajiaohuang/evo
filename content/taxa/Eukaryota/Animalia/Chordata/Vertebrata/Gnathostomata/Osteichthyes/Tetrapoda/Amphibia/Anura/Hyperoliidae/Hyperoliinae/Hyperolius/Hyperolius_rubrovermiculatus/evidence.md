@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius rubrovermiculatus
       zh: Hyperolius rubrovermiculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

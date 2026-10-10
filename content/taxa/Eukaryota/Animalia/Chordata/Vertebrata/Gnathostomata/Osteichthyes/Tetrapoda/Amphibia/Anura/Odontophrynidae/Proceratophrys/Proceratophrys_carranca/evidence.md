@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys carranca
       zh: Proceratophrys carranca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

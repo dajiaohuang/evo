@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaethornis koepckeae
       en: Phaethornis koepckeae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

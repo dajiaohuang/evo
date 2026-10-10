@@ -9,7 +9,6 @@ records:
     name:
       zh: 裸耳松鼠猴
       en: Bare-eared Squirrel Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

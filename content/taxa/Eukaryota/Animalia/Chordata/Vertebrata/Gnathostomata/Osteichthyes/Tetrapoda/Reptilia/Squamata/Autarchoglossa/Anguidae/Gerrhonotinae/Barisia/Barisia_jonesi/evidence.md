@@ -9,7 +9,6 @@ records:
     name:
       zh: Barisia jonesi
       en: Barisia jonesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

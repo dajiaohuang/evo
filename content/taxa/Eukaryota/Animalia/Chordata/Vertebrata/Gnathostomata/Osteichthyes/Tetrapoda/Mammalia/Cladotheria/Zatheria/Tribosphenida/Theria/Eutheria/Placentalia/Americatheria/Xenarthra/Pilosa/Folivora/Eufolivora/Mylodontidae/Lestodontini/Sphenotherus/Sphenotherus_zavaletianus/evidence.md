@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenotherus zavaletianus
       en: Sphenotherus zavaletianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

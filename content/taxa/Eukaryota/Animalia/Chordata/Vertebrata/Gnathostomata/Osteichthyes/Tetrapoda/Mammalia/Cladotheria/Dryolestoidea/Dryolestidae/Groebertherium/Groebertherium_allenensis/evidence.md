@@ -9,7 +9,6 @@ records:
     name:
       zh: Groebertherium allenensis
       en: Groebertherium allenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

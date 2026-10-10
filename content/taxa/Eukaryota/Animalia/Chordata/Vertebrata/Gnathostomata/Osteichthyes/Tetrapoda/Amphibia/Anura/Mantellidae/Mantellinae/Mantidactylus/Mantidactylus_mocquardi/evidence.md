@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus mocquardi
       zh: Mantidactylus mocquardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

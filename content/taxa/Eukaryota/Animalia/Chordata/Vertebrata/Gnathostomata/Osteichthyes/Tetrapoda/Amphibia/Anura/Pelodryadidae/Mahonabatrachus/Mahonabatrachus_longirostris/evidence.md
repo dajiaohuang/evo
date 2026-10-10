@@ -9,7 +9,6 @@ records:
     name:
       en: Mahonabatrachus longirostris
       zh: Mahonabatrachus longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

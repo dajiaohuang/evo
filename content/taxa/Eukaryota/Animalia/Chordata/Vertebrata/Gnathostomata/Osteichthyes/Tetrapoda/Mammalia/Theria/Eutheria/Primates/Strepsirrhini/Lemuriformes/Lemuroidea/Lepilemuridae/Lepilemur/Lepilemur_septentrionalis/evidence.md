@@ -9,7 +9,6 @@ records:
     name:
       zh: 北部运动狐猴
       en: Northern Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: species delimitation

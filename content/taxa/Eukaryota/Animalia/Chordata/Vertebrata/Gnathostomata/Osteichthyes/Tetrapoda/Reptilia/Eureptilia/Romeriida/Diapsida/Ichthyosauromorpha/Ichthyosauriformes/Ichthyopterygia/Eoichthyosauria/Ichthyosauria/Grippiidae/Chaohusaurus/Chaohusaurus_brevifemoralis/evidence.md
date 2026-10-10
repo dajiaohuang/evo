@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaohusaurus brevifemoralis
       en: Chaohusaurus brevifemoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cossypha caffra
       en: Cossypha caffra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

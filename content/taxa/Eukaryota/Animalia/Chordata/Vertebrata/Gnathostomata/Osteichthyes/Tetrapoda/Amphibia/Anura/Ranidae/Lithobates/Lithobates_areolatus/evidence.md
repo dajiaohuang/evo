@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates areolatus
       zh: Lithobates areolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

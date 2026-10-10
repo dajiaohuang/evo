@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachystropheus rhaeticus
       en: Pachystropheus rhaeticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

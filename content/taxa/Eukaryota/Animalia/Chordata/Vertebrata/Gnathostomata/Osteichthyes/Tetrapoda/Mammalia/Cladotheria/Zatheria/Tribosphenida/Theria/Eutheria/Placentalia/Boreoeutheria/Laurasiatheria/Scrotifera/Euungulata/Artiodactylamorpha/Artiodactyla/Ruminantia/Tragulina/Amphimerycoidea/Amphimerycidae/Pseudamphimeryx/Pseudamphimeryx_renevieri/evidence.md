@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudamphimeryx renevieri
       en: Pseudamphimeryx renevieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

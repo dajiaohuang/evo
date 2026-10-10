@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanosuchus sakonnakhonensis
       en: Varanosuchus sakonnakhonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

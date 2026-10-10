@@ -9,7 +9,6 @@ records:
     name:
       zh: Piranga ludoviciana
       en: Piranga ludoviciana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

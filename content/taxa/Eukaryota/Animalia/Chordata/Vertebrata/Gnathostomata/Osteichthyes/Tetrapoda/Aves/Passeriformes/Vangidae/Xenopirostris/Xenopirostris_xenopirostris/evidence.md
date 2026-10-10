@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenopirostris xenopirostris
       en: Xenopirostris xenopirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis afrox
       zh: Pristimantis afrox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

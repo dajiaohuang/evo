@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotaphytus nebrius
       en: Crotaphytus nebrius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

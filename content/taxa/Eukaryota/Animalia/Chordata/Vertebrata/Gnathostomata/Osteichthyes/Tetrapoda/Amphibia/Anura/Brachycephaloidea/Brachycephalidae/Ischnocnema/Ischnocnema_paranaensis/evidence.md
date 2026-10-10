@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema paranaensis
       zh: Ischnocnema paranaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

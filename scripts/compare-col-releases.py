@@ -236,7 +236,7 @@ def compare(old_archive, new_archive, old_provenance, new_provenance, output, sc
                           'Unresolved correspondence contributes unmatched additions or losses; these are not claims of newly discovered species or extinction.',
                           'Name/authorship changes are reported verbatim; recombination is not asserted without an explicit nomenclatural relation.',
                           'Synonym targets are compared through the record correspondence, so target ID churn alone is not a synonym reassignment. Missing correspondence is reported separately.',
-                          'The active application registry, package ownership, sources, authority sidecars and dossier maturity remain pinned to their existing release.',
+                          'The active application registry, package ownership, sources, authority sidecars remain pinned to their existing release.',
                           'Change categories may overlap. Parent-record differences are raw identifier changes, not a phylogenetic inference.',
                       ]}
             (output / 'manifest.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

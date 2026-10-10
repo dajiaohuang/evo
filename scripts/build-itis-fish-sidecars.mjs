@@ -266,7 +266,7 @@ async function buildOne({ definition, col, source, sourceBytes, registryBytes, o
       itis: { datasetId: source.datasetId, exportDate: source.release.exportDate, rootTsn: String(definition.itisRoot.tsn), scientificName: definition.itisRoot.scientificName, rank: definition.itisRoot.rank, sourceLedgerPath: repoPath(SOURCE_PATH), sourceLedgerSha256: sha256(sourceBytes), license: source.license.spdx, citationDoi: source.citation.doi },
     },
     exactMatching: matching,
-    evidenceBoundary: { en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or expert-review record.' },
+    evidenceBoundary: { en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record.' },
     counts,
     colUsageIdLocator: { key: 'colUsageId', ordering: 'Unicode code-unit ascending', sourceShardLimitBytes: SHARD_SOURCE_LIMIT_BYTES, stableAddressing: 'Binary-search non-overlapping inclusive COL usage-ID ranges; one detail request loads one immutable JSONL gzip shard.', files },
     upstreamOnly: { colOwnership: null, stableAddressing: 'No COL usage ID is assigned; the complete ITIS-only current-species partition is a separate immutable JSONL gzip shard when non-empty.', files: upstreamFiles },

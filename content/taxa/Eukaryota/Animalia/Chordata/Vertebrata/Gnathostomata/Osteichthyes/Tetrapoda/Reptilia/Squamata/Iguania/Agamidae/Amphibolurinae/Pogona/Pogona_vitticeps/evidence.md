@@ -232,9 +232,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
   catalogue-profile:
     scientificName: Pogona vitticeps
     rank: species
@@ -242,7 +239,6 @@ records:
     name:
       zh: Pogona vitticeps
       en: Pogona vitticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -626,5 +622,5 @@ The evidence is limited to captive-bred animals in one laboratory study and does
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets and complete geographic, fossil, conservation, and external review coverage remain unassessed.
+Most biological facets and complete geographic, fossil and conservation coverage remain unassessed.
 <!-- /evo:text -->

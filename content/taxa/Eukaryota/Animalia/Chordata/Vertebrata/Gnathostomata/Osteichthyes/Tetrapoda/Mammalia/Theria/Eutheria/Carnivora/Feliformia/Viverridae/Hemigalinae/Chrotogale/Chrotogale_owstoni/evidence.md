@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrotogale owstoni
       en: Chrotogale owstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

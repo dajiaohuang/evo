@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo bankorensis
       zh: Bufo bankorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

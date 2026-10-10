@@ -9,7 +9,6 @@ records:
     name:
       zh: Cedarpelta bilbeyhallorum
       en: Cedarpelta bilbeyhallorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

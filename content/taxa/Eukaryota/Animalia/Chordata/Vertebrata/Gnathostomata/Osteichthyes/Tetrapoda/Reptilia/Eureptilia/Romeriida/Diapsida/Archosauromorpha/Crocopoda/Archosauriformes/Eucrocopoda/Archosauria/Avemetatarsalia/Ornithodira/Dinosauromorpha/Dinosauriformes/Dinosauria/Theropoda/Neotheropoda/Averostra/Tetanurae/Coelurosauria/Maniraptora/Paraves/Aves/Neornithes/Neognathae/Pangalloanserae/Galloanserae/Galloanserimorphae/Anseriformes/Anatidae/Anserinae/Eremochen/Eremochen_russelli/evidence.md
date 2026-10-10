@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremochen russelli
       en: Eremochen russelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

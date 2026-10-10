@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypolagus brachygnathus
       en: Hypolagus brachygnathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

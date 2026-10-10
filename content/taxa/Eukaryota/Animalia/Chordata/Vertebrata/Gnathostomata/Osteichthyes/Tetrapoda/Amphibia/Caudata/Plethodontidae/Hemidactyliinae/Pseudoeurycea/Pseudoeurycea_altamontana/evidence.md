@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea altamontana
       zh: Pseudoeurycea altamontana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

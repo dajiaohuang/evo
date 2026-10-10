@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: thompson-2012-ankylosauria-phylogeny concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: thompson-2012-ankylosauria-phylogeny
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: thompson-2012-ankylosauria-phylogeny
           locator: 301–312; Methods; strict-consensus results; discussion of Nodosauridae resolution
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodryas guentheri
       en: Lycodryas guentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

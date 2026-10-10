@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristidactylus casuhatiensis
       en: Pristidactylus casuhatiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

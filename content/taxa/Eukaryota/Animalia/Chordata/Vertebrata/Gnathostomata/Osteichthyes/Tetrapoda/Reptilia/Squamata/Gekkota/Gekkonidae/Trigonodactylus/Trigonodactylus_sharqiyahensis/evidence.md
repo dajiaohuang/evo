@@ -9,7 +9,6 @@ records:
     name:
       zh: Trigonodactylus sharqiyahensis
       en: Trigonodactylus sharqiyahensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

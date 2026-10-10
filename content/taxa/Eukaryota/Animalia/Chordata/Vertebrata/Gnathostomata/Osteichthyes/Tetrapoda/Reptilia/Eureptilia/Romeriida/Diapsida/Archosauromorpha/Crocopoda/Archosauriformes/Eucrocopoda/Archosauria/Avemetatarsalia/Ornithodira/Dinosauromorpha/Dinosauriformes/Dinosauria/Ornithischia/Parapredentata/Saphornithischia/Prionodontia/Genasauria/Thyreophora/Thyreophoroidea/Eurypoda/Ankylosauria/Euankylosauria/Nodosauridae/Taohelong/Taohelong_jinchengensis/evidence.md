@@ -9,7 +9,6 @@ records:
     name:
       zh: Taohelong jinchengensis
       en: Taohelong jinchengensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

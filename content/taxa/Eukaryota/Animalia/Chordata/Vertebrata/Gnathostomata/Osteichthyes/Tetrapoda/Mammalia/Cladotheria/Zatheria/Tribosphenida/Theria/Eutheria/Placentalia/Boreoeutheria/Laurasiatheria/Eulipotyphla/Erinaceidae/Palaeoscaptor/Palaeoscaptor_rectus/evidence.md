@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoscaptor rectus
       en: Palaeoscaptor rectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Poyntonophrynus fenoulheti
       zh: Poyntonophrynus fenoulheti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

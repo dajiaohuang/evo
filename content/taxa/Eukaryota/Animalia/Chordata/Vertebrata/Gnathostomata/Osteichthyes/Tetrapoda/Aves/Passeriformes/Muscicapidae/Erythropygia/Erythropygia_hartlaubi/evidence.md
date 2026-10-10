@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythropygia hartlaubi
       en: Erythropygia hartlaubi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

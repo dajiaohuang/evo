@@ -9,7 +9,6 @@ records:
     name:
       en: Rentapia flavomaculata
       zh: Rentapia flavomaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

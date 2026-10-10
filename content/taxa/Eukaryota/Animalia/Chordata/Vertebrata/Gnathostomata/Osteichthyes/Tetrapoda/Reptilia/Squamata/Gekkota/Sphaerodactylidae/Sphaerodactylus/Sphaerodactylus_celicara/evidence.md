@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus celicara
       en: Sphaerodactylus celicara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

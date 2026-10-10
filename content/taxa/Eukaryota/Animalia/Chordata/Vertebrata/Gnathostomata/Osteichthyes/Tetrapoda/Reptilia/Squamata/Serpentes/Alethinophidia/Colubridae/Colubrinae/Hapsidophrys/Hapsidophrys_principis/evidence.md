@@ -9,7 +9,6 @@ records:
     name:
       zh: Hapsidophrys principis
       en: Hapsidophrys principis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

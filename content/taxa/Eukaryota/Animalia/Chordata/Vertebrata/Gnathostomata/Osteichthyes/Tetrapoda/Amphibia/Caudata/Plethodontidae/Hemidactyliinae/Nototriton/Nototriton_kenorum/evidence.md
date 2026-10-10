@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton kenorum
       zh: Nototriton kenorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

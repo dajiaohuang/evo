@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne minuta
       zh: Oreophryne minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

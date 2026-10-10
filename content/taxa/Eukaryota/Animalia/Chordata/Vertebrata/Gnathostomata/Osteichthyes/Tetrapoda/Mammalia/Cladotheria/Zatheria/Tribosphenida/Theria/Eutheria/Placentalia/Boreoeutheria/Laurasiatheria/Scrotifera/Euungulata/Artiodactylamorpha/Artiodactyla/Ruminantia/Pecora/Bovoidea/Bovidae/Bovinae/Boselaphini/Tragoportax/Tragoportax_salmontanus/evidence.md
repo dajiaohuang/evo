@@ -9,7 +9,6 @@ records:
     name:
       zh: Tragoportax salmontanus
       en: Tragoportax salmontanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

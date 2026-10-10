@@ -9,7 +9,6 @@ records:
     name:
       zh: Arremon brunneinucha
       en: Arremon brunneinucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

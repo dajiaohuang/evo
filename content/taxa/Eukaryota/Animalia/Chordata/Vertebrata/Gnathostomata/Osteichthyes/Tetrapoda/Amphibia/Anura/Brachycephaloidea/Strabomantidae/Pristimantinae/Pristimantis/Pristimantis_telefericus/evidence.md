@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis telefericus
       zh: Pristimantis telefericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvisorex ollula
       en: Sylvisorex ollula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

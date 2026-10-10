@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodaptes hazelae
       en: Carpodaptes hazelae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

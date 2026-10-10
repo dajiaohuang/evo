@@ -9,7 +9,6 @@ records:
     name:
       zh: Apatosagittarius terrenus
       en: Apatosagittarius terrenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

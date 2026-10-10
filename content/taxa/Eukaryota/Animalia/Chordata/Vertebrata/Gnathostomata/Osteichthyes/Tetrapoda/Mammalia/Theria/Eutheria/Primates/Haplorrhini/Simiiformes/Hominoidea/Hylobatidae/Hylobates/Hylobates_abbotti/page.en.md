@@ -16,5 +16,5 @@ A 2019 study in Gunung Niut Nature Reserve, West Kalimantan, used pooled local e
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This single-landscape estimate comes from pooled local opinion and is not a direct species-wide census. It does not provide a current population figure or a complete ecology account. This profile is not externally expert-reviewed.
+This single-landscape estimate comes from pooled local opinion and is not a direct species-wide census. It does not provide a current population figure or a complete ecology account. This profile is.
 <!-- /evo:text -->

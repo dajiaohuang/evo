@@ -9,7 +9,6 @@ records:
     name:
       zh: Proterixoides davisi
       en: Proterixoides davisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

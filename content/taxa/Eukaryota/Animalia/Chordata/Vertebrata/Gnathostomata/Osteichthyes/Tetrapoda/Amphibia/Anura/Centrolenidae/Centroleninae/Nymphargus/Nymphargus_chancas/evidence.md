@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus chancas
       zh: Nymphargus chancas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Uromastyx geyri
       en: Uromastyx geyri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

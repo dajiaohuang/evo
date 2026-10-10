@@ -9,7 +9,6 @@ records:
     name:
       zh: Piscocetus sacaco
       en: Piscocetus sacaco
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

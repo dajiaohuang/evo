@@ -9,7 +9,6 @@ records:
     name:
       zh: Boa constrictor
       en: Boa constrictor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Enhydrocyon stenocephalus
       en: Enhydrocyon stenocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

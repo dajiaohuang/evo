@@ -9,7 +9,6 @@ records:
     name:
       zh: Nisaetus nanus
       en: Nisaetus nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -532,9 +532,6 @@ records:
             lifeStatus:
               markdown: evidence.md
               field: /records/catalogue-dossier/facets/morphology/claims/0/lifeStatus
-            semanticReview:
-              markdown: evidence.md
-              field: /records/catalogue-dossier/facets/morphology/claims/0/semanticReview
           - text:
               markdown: evidence.md
               field: /records/catalogue-dossier/facets/morphology/claims/1/text
@@ -551,9 +548,6 @@ records:
             lifeStatus:
               markdown: evidence.md
               field: /records/catalogue-dossier/facets/morphology/claims/1/lifeStatus
-            semanticReview:
-              markdown: evidence.md
-              field: /records/catalogue-dossier/facets/morphology/claims/1/semanticReview
         gaps:
           - markdown: evidence.md
             field: /records/catalogue-dossier/facets/morphology/gaps/0
@@ -624,12 +618,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Vitex masoniana
@@ -850,12 +838,6 @@ Morphological description in the Flora of Panama source version retrieved 2026-0
 The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
 <!-- /evo:text -->
 
-## morphology / claims / semanticReview
-
-<!-- evo:text /records/catalogue-dossier/facets/morphology/claims/0/semanticReview -->
-Paragraph manually reviewed for direct morphological content in the Flora of Panama batch audit dated 2026-09-27; this is internal source review, not external expert review.
-<!-- /evo:text -->
-
 ## morphology / claims / text
 
 <!-- evo:text /records/catalogue-dossier/facets/morphology/claims/1/text -->
@@ -878,12 +860,6 @@ Morphological description in the Flora of Panama source version retrieved 2026-0
 
 <!-- evo:text /records/catalogue-dossier/facets/morphology/claims/1/lifeStatus -->
 The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
-<!-- /evo:text -->
-
-## morphology / claims / semanticReview
-
-<!-- evo:text /records/catalogue-dossier/facets/morphology/claims/1/semanticReview -->
-Paragraph manually reviewed for direct morphological content in the Flora of Panama batch audit dated 2026-09-27; this is internal source review, not external expert review.
 <!-- /evo:text -->
 
 ## facets / morphology / gaps
@@ -986,10 +962,4 @@ Paragraph-level review maps eligible general excerpts to partial morphology; the
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 Morphology beyond any prior independently sourced claims, lifeHistory, ecology, evolution, fossil, and conservation remain incomplete or not assessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus anthracinus
       zh: Hyloxalus anthracinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

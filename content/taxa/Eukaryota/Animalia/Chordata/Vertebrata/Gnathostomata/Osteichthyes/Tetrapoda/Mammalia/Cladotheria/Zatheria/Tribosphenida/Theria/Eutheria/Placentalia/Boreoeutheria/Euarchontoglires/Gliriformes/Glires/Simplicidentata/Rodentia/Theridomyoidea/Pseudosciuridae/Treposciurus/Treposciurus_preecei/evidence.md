@@ -9,7 +9,6 @@ records:
     name:
       zh: Treposciurus preecei
       en: Treposciurus preecei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

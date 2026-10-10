@@ -9,7 +9,6 @@ records:
     name:
       zh: Trichechus hesperamazonicus
       en: Trichechus hesperamazonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

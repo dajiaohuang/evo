@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus nasutus
       en: Ctenotus nasutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

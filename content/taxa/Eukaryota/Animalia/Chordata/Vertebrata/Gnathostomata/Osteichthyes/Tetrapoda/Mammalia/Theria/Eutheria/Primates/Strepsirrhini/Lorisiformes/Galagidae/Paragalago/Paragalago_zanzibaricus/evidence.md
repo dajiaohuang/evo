@@ -9,7 +9,6 @@ records:
     name:
       zh: 坦桑尼亚海岸矮伽拉戈
       en: Tanzania Coast Dwarf Galago
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: taxonomy_and_evidence

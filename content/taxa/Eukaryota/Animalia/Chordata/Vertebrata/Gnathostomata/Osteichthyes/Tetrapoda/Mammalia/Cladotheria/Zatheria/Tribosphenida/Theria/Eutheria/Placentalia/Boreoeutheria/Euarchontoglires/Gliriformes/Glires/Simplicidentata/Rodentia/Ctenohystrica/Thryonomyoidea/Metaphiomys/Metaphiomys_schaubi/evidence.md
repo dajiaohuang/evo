@@ -9,7 +9,6 @@ records:
     name:
       zh: Metaphiomys schaubi
       en: Metaphiomys schaubi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

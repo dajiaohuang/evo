@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus baeobatrachus
       zh: Anomaloglossus baeobatrachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

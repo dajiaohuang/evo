@@ -9,7 +9,6 @@ records:
     name:
       zh: Tadarida aegyptiaca
       en: Tadarida aegyptiaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptictis dakotensis
       en: Leptictis dakotensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

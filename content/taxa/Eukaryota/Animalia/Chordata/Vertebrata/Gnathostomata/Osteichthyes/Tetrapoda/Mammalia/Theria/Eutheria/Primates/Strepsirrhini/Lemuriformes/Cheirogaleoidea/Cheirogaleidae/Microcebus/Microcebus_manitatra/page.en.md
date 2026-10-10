@@ -28,5 +28,5 @@ The name manitatra comes from Malagasy for “range expansion.” It records the
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-COL26.8 accepts this name, while the local MDD exact-name crosswalk has no matching entry; the page preserves the pinned COL identity and 2016 sample-based conclusions without claiming global taxonomic consensus. No current full-range or conservation assessment is included; the common-name label is editorial and not externally reviewed. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments. The page is not externally expert-reviewed.
+COL26.8 accepts this name, while the local MDD exact-name crosswalk has no matching entry; the page preserves the pinned COL identity and 2016 sample-based conclusions without claiming global taxonomic consensus. No current full-range or conservation assessment is included; the common-name label is editorial and not externally reviewed. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments. The page is.
 <!-- /evo:text -->

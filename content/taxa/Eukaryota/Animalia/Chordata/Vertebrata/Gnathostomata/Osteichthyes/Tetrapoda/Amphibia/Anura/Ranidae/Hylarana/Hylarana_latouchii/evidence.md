@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana latouchii
       zh: Hylarana latouchii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

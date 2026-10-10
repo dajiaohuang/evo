@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayotyphlops manilae
       en: Malayotyphlops manilae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

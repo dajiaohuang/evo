@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudis bolbodactyla
       zh: Pseudis bolbodactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Luantus sompallwei
       en: Luantus sompallwei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

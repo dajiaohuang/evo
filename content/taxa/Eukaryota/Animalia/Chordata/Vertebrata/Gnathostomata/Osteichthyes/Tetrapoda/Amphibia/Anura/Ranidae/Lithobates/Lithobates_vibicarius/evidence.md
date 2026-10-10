@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates vibicarius
       zh: Lithobates vibicarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

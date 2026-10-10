@@ -28,5 +28,5 @@ The Tanzania Forest Conservation Group selected six sites in Rondo Reserve for s
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The two direct reports are local surveys at individual reserves and are historical. The Pande number was extrapolated from a rough density estimate, while the Rondo Reserve survey recorded one call. This page does not present these materials as current status or a complete range. Source-linked bilingual draft; not externally expert-reviewed.
+The two direct reports are local surveys at individual reserves and are historical. The Pande number was extrapolated from a rough density estimate, while the Rondo Reserve survey recorded one call. This page does not present these materials as current status or a complete range. Source-linked bilingual draft;.
 <!-- /evo:text -->

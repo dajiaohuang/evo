@@ -226,14 +226,13 @@ function makeDossier(item) {
         'Only morphology and ecology are partially supported by one taxonomic treatment; five facets remain not assessed.',
         'Claims are limited to the treatment rows, stated comparative samples, examined specimens, collection localities, and label-derived observations.',
         'The article-level text reuse license is unknown; the ledger CC0 declaration applies only to extracted Plazi rows.',
-        'The source ZIP is absent from this checkout and its embedded EML was not rechecked; no independent external review has been completed.',
+        'The source ZIP is absent from this checkout and its embedded EML was not rechecked.',
       ],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.equal(dossier.sources.find(source => source.id === archiveSourceId)?.licenseAssessment, 'aggregate-declaration-only')
   assert.equal(dossier.sources.find(source => source.id === item.article.sourceId)?.licenseAssessment, 'unknown')
   return dossier
@@ -310,7 +309,7 @@ const manifest = {
     notAssessedFacets: Object.entries(facets).filter(([, facet]) => facet.status === 'not-assessed').map(([name]) => name),
   })),
   sourceRows: input.records.map(item => ({ colId: item.colId, sourceArchive: item.sourceArchive, archiveSha256: item.archiveSha256, treatmentId: item.treatmentId, reviewedRows: item.reviewedRows, claimRows: Object.values(item.claims).flatMap(claim => claim.rows) })),
-  rights: { claimSourceRightsUnresolved: 2, completeDossiersAdded: 0, externallyReviewedDossiersAdded: 0 },
+  rights: { claimSourceRightsUnresolved: 2, completeDossiersAdded: 0},
   newShard: {
     path: SHARD,
     rawPath: RAW,
@@ -341,7 +340,7 @@ sourceLedger.auditedDossierBatches.push({
   sourceRows: input.records.map(item => ({ colId: item.colId, sourceArchive: item.sourceArchive, archiveSha256: item.archiveSha256, treatmentId: item.treatmentId, reviewedRows: item.reviewedRows, claimRows: Object.values(item.claims).flatMap(claim => claim.rows) })),
   claimPolicy: 'Two incomplete accepted-species dossiers with comparative morphology and sample-bounded ecology only; each source archive retains its own name and SHA-256; source ZIP EML was not rechecked; article item-level rights unknown; CC0 applies only to extracted Plazi rows.',
   completeDossiersAdded: 0,
-  externallyReviewedDossiersAdded: 0,
+
 })
 writeFileSync(join(ROOT, LEDGER), `${JSON.stringify(sourceLedger, null, 2)}\n`, 'utf8')
 

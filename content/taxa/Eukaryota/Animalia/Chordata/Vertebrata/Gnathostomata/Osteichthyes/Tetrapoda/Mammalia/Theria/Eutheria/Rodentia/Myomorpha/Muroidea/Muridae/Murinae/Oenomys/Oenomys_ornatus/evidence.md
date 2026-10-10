@@ -9,7 +9,6 @@ records:
     name:
       zh: Oenomys ornatus
       en: Oenomys ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

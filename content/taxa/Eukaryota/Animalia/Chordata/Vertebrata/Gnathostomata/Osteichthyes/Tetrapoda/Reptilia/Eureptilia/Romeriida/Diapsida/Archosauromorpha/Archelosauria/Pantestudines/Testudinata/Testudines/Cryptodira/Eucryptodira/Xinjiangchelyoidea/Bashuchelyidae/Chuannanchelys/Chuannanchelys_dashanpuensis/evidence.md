@@ -9,7 +9,6 @@ records:
     name:
       zh: Chuannanchelys dashanpuensis
       en: Chuannanchelys dashanpuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

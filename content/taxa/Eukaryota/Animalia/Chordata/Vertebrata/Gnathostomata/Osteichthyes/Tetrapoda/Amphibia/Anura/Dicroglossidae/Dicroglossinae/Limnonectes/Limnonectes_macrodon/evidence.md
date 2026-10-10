@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes macrodon
       zh: Limnonectes macrodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

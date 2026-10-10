@@ -9,7 +9,6 @@ records:
     name:
       zh: Graomys griseoflavus
       en: Graomys griseoflavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

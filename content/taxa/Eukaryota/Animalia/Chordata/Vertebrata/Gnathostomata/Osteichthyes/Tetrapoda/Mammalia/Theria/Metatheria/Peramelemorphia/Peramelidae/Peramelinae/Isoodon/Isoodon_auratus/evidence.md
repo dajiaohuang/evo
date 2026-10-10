@@ -9,7 +9,6 @@ records:
     name:
       zh: Isoodon auratus
       en: Isoodon auratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ocyceros griseus
       en: Ocyceros griseus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

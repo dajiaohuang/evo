@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrogenis crassigenis
       en: Macrogenis crassigenis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

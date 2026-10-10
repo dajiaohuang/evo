@@ -9,7 +9,6 @@ records:
     name:
       en: Typhlonectes compressicauda
       zh: Typhlonectes compressicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

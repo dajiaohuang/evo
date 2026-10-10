@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella dong
       zh: Leptobrachella dong
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

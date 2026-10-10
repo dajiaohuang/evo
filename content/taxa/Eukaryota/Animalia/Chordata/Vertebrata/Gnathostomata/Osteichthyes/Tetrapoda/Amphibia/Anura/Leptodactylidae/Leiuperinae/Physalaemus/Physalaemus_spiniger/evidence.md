@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus spiniger
       zh: Physalaemus spiniger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

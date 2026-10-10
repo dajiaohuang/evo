@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius aucoinae
       zh: Incilius aucoinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor ranoides
       zh: Craugastor ranoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

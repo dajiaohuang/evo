@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobisorex kingae
       en: Gobisorex kingae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

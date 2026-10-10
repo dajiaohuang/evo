@@ -9,7 +9,6 @@ records:
     name:
       zh: Saproscincus hannahae
       en: Saproscincus hannahae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

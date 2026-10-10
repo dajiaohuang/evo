@@ -9,7 +9,6 @@ records:
     name:
       en: Dryopsophus phyllochrous
       zh: Dryopsophus phyllochrous
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys nanlingensis
       zh: Boulenophrys nanlingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

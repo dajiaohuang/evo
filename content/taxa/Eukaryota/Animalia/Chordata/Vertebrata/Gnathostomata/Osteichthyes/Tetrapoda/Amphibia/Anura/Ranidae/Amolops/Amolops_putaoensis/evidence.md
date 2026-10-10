@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops putaoensis
       zh: Amolops putaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

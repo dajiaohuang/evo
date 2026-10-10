@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristerognathus platyrhinus
       en: Pristerognathus platyrhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

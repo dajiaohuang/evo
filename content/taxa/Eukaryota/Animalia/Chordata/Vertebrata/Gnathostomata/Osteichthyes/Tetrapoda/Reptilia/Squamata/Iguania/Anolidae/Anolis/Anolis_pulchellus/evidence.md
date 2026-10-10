@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis pulchellus
       en: Anolis pulchellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

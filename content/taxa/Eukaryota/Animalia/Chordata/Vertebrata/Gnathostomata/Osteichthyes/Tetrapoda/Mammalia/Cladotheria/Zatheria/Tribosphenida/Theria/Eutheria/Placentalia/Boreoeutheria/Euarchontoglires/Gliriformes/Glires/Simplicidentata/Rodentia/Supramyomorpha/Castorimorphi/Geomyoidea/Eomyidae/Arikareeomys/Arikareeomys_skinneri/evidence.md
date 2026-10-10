@@ -9,7 +9,6 @@ records:
     name:
       zh: Arikareeomys skinneri
       en: Arikareeomys skinneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

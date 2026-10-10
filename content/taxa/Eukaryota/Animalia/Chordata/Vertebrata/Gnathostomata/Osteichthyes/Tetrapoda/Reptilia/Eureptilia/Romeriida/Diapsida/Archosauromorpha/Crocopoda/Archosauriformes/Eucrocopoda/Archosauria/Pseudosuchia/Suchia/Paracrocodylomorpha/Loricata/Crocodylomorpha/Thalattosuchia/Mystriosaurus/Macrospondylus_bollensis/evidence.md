@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrospondylus bollensis
       en: Macrospondylus bollensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

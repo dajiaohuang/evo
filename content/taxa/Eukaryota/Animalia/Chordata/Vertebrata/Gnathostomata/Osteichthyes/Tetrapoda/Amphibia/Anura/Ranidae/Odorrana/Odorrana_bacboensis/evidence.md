@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana bacboensis
       zh: Odorrana bacboensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

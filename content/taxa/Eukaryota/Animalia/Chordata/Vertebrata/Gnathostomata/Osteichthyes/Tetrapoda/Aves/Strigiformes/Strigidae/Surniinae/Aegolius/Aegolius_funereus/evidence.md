@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegolius funereus
       en: Aegolius funereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

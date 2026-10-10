@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus griphus
       zh: Eleutherodactylus griphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

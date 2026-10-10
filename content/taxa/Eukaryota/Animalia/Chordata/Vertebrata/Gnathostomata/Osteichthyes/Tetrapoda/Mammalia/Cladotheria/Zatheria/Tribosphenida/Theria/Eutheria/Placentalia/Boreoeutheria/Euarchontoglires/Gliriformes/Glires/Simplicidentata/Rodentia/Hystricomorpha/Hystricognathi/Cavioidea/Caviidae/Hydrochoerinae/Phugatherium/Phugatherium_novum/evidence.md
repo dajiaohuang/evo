@@ -9,7 +9,6 @@ records:
     name:
       zh: Phugatherium novum
       en: Phugatherium novum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

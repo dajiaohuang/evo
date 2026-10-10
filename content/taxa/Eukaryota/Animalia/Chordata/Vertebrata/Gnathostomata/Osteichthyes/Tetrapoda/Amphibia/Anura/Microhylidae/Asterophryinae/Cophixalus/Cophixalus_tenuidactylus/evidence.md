@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus tenuidactylus
       zh: Cophixalus tenuidactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

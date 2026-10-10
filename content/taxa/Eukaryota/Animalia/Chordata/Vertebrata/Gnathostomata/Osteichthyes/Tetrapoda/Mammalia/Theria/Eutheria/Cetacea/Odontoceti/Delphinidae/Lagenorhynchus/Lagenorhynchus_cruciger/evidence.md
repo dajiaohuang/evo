@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagenorhynchus cruciger
       en: Lagenorhynchus cruciger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

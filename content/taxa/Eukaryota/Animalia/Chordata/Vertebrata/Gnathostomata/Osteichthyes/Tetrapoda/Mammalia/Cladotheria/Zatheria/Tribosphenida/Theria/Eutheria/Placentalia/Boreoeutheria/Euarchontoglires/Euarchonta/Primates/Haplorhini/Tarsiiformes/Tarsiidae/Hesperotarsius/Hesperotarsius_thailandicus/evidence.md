@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperotarsius thailandicus
       en: Hesperotarsius thailandicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

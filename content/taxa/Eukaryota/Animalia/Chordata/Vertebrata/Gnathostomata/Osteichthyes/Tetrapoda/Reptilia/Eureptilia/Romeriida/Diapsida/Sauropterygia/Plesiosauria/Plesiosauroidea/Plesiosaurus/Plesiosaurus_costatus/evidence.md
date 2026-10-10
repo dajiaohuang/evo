@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosaurus costatus
       en: Plesiosaurus costatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

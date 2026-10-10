@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoficimia frontalis
       en: Pseudoficimia frontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus coriaceus
       zh: Trachycephalus coriaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

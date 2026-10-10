@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligolagus welleri
       en: Oligolagus welleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

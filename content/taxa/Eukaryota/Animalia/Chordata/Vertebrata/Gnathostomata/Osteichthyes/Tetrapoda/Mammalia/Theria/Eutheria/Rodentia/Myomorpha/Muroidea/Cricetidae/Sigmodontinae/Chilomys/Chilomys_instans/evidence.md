@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilomys instans
       en: Chilomys instans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

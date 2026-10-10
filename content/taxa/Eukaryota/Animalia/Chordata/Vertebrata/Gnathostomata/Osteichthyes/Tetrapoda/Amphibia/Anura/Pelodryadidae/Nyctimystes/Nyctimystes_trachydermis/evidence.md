@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes trachydermis
       zh: Nyctimystes trachydermis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

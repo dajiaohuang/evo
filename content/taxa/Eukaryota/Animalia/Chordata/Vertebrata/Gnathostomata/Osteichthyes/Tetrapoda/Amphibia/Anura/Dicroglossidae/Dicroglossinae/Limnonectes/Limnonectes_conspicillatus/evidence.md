@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes conspicillatus
       zh: Limnonectes conspicillatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

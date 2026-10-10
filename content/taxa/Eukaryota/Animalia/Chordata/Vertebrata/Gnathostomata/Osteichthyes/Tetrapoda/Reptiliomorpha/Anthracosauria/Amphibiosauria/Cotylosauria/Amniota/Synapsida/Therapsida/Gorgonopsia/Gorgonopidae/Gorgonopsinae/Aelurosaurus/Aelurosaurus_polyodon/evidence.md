@@ -9,7 +9,6 @@ records:
     name:
       zh: Aelurosaurus polyodon
       en: Aelurosaurus polyodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

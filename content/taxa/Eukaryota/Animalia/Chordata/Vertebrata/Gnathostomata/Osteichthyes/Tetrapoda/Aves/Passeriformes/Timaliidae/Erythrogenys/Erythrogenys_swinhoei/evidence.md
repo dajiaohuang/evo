@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrogenys swinhoei
       en: Erythrogenys swinhoei
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia deserticola
       zh: Crinia deserticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

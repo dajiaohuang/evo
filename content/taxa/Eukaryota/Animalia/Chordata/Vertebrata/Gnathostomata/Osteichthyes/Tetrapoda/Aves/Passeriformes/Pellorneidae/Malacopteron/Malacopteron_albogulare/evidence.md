@@ -9,7 +9,6 @@ records:
     name:
       zh: Malacopteron albogulare
       en: Malacopteron albogulare
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

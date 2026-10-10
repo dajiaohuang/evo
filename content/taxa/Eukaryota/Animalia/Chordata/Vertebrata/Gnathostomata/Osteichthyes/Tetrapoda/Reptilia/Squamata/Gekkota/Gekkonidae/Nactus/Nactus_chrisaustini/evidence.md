@@ -9,7 +9,6 @@ records:
     name:
       zh: Nactus chrisaustini
       en: Nactus chrisaustini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

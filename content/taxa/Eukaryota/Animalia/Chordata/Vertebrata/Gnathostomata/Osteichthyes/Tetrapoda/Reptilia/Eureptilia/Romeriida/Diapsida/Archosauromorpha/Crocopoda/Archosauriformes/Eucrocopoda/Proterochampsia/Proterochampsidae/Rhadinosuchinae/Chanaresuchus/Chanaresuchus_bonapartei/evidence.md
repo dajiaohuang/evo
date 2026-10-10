@@ -9,7 +9,6 @@ records:
     name:
       zh: Chanaresuchus bonapartei
       en: Chanaresuchus bonapartei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

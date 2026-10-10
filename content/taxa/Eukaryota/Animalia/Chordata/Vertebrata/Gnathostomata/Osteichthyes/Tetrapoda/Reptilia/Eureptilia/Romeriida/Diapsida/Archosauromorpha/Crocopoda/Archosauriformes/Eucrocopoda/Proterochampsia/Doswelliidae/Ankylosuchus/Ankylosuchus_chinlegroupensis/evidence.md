@@ -9,7 +9,6 @@ records:
     name:
       zh: Ankylosuchus chinlegroupensis
       en: Ankylosuchus chinlegroupensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

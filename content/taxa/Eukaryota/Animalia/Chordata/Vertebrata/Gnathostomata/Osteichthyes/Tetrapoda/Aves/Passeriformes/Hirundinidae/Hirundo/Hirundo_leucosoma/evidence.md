@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundo leucosoma
       en: Hirundo leucosoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

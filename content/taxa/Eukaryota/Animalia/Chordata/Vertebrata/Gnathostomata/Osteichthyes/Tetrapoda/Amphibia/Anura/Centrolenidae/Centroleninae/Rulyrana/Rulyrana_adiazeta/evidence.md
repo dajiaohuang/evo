@@ -9,7 +9,6 @@ records:
     name:
       en: Rulyrana adiazeta
       zh: Rulyrana adiazeta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

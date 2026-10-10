@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia infralineolata
       en: Lipinia infralineolata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

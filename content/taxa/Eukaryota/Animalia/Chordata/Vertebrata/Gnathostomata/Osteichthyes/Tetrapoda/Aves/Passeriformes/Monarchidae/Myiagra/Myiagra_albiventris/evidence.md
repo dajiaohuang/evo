@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiagra albiventris
       en: Myiagra albiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

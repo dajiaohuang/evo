@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax multipunctatus
       zh: Oreolalax multipunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

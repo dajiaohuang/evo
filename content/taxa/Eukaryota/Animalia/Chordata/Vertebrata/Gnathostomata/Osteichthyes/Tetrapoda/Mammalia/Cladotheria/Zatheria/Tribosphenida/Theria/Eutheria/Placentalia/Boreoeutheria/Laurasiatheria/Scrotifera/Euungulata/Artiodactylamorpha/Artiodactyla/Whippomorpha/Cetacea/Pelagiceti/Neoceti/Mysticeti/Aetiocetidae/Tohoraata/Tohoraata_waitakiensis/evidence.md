@@ -9,7 +9,6 @@ records:
     name:
       zh: Tohoraata waitakiensis
       en: Tohoraata waitakiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

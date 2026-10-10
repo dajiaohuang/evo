@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus valentinei
       zh: Desmognathus valentinei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

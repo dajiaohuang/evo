@@ -9,7 +9,6 @@ records:
     name:
       zh: Gongylosoma baliodeira
       en: Gongylosoma baliodeira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

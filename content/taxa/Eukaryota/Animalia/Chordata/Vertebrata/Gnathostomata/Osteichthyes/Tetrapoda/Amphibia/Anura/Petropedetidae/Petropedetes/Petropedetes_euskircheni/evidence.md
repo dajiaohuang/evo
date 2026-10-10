@@ -9,7 +9,6 @@ records:
     name:
       en: Petropedetes euskircheni
       zh: Petropedetes euskircheni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

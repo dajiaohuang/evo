@@ -9,7 +9,6 @@ records:
     name:
       zh: Tragopan satyra
       en: Tragopan satyra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

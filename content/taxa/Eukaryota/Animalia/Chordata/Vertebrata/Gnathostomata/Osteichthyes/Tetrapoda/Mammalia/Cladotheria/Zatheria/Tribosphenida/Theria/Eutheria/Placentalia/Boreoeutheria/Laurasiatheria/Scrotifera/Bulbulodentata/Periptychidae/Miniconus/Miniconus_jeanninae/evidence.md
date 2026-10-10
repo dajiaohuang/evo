@@ -9,7 +9,6 @@ records:
     name:
       zh: Miniconus jeanninae
       en: Miniconus jeanninae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

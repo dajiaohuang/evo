@@ -9,7 +9,6 @@ records:
     name:
       zh: Caloperdix oculeus
       en: Caloperdix oculeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

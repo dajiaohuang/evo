@@ -9,7 +9,6 @@ records:
     name:
       zh: Ekshmer bissektensis
       en: Ekshmer bissektensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

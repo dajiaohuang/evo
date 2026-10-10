@@ -9,7 +9,6 @@ records:
     name:
       zh: Subathumys globulus
       en: Subathumys globulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

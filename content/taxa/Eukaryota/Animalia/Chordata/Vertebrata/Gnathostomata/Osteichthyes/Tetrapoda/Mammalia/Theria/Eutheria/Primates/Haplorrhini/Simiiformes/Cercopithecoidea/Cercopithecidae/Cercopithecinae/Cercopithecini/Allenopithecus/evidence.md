@@ -10,7 +10,6 @@ records:
     name:
       en: Allenopithecus
       zh: 艾伦沼泽猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

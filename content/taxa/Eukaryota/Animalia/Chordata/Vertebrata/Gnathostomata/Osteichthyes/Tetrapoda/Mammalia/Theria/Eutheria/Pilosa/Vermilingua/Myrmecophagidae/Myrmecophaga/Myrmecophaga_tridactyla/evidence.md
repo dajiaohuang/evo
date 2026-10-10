@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmecophaga tridactyla
       en: Myrmecophaga tridactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

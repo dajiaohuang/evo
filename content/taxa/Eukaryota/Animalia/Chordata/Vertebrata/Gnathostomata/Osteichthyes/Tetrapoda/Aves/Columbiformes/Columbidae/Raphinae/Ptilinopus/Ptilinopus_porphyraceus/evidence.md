@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus porphyraceus
       en: Ptilinopus porphyraceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

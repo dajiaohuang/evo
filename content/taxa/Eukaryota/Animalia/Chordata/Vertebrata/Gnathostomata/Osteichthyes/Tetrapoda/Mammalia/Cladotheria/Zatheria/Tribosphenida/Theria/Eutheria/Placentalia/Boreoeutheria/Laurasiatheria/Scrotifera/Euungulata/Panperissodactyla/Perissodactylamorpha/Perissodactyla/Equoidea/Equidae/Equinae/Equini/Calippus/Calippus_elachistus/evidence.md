@@ -9,7 +9,6 @@ records:
     name:
       zh: Calippus elachistus
       en: Calippus elachistus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

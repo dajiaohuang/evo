@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelomedusoidea 总科
       en: Pelomedusoidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

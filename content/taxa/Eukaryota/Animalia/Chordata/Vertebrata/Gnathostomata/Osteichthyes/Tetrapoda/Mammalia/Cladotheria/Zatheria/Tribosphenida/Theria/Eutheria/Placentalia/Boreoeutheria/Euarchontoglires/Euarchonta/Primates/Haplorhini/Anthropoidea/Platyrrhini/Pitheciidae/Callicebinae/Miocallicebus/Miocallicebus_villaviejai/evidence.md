@@ -9,7 +9,6 @@ records:
     name:
       zh: Miocallicebus villaviejai
       en: Miocallicebus villaviejai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

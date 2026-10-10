@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana okinavana
       zh: Nidirana okinavana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

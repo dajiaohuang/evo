@@ -9,7 +9,6 @@ records:
     name:
       en: Dicamptodon ensatus
       zh: Dicamptodon ensatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Synthetoceras tricornatus
       en: Synthetoceras tricornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus pulcher
       zh: Atelopus pulcher
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

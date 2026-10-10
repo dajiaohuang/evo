@@ -28,5 +28,5 @@ Fieldwork in the Morona basin from 2019 to 2024 recorded family groups, with all
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The COL26.8 accepted name and ID are retained. The MDD v2.5 source row uses Saguinus with Leontocebus as a subgenus, and the local cross-snapshot join is unmatched. Bank-side observations, interviews and local density estimates remain tied to their sites, years and methods, not generalized to a full range or abundance. This bilingual page has not received external expert review. This page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+The COL26.8 accepted name and ID are retained. The MDD v2.5 source row uses Saguinus with Leontocebus as a subgenus, and the local cross-snapshot join is unmatched. Bank-side observations, interviews and local density estimates remain tied to their sites, years and methods, not generalized to a full range or abundance. This bilingual page. This page has not been. This page is.
 <!-- /evo:text -->

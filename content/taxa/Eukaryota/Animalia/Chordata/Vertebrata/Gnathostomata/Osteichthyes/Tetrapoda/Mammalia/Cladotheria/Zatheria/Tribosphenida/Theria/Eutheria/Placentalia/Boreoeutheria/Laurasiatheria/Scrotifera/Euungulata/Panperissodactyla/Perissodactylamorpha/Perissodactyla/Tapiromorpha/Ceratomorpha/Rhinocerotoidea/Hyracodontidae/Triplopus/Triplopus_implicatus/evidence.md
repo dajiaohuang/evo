@@ -9,7 +9,6 @@ records:
     name:
       zh: Triplopus implicatus
       en: Triplopus implicatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

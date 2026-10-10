@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops marmoratus
       zh: Callulops marmoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

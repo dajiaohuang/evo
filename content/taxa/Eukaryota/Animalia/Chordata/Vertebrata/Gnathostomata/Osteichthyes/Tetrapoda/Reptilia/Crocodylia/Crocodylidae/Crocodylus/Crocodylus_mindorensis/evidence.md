@@ -9,7 +9,6 @@ records:
     name:
       zh: 菲律宾鳄
       en: Philippine crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

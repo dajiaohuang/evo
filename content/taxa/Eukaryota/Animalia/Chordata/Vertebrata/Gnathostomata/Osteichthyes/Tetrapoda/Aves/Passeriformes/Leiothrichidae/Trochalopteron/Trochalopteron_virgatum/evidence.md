@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron virgatum
       en: Trochalopteron virgatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

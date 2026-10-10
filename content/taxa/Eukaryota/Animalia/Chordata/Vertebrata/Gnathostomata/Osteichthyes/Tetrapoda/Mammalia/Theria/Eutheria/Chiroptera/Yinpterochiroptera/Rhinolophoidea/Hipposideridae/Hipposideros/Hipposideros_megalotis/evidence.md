@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipposideros megalotis
       en: Hipposideros megalotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

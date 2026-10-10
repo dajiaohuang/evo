@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus kirbyi
       en: Sphaerodactylus kirbyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

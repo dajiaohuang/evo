@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligopteryx hamaxitos
       en: Oligopteryx hamaxitos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

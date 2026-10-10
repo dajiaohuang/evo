@@ -9,7 +9,6 @@ records:
     name:
       zh: Tiphyocetus temblorensis
       en: Tiphyocetus temblorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

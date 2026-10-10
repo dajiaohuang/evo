@@ -9,7 +9,6 @@ records:
     name:
       en: Hylobates gibbons
       zh: 长臂猿属
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanzosaura rubricauda
       en: Vanzosaura rubricauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

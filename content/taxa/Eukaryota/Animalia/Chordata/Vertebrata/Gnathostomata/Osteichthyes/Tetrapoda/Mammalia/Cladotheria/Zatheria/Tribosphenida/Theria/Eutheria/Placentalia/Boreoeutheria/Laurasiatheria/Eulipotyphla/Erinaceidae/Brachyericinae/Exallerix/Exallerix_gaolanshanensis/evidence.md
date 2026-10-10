@@ -9,7 +9,6 @@ records:
     name:
       zh: Exallerix gaolanshanensis
       en: Exallerix gaolanshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

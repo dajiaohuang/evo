@@ -9,7 +9,6 @@ records:
     name:
       zh: Microakodontomys transitorius
       en: Microakodontomys transitorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

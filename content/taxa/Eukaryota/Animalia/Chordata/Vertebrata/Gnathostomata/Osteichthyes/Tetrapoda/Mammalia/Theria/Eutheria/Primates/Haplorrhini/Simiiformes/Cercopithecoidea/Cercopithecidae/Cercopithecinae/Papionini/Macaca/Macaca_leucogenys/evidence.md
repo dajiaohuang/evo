@@ -9,7 +9,6 @@ records:
     name:
       zh: 白颊猕猴
       en: White-cheeked Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomic study and habitat

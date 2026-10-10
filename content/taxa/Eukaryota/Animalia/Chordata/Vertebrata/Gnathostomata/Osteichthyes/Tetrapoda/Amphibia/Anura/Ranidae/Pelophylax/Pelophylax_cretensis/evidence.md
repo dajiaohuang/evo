@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophylax cretensis
       zh: Pelophylax cretensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

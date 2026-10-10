@@ -9,7 +9,6 @@ records:
     name:
       en: Oreolalax puxiongensis
       zh: Oreolalax puxiongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

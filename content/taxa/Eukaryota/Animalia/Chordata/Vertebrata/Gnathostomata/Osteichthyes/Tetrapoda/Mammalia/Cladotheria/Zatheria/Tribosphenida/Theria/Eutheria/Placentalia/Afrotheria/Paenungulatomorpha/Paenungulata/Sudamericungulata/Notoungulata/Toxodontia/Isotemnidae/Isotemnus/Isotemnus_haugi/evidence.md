@@ -9,7 +9,6 @@ records:
     name:
       zh: Isotemnus haugi
       en: Isotemnus haugi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

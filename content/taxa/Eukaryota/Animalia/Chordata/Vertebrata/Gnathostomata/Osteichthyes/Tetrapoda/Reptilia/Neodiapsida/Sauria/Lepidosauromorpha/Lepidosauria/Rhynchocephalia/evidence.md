@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: herrera-flores-2017-rhynchocephalia concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: herrera-flores-2017-rhynchocephalia
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: herrera-flores-2017-rhynchocephalia; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: herrera-flores-2017-rhynchocephalia
@@ -90,7 +84,6 @@ records:
       referenceLocators:
         - referenceId: herrera-flores-2017-rhynchocephalia
           locator: 319–328; Figures 1–4; time-scaled phylogeny; Fossil diversity, disparity and living Sphenodon sample
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Rhynchocephalia
     rank: order
@@ -98,7 +91,6 @@ records:
     name:
       zh: Rhynchocephalia
       en: Rhynchocephalia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

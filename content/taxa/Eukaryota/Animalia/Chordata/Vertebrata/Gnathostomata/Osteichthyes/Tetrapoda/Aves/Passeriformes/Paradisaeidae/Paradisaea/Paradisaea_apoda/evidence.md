@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradisaea apoda
       en: Paradisaea apoda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xinjiangchelys chowi
       en: Xinjiangchelys chowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

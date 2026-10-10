@@ -9,7 +9,6 @@ records:
     name:
       zh: Esthonyx acutidens
       en: Esthonyx acutidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -110,10 +110,8 @@ dossier.completeness = {
     'Ecology now combines a regional habitat note with one controlled drought-response experiment on selected ecotypes; neither establishes ecological response across the full species range or all populations.',
     'Life history, evolution, full distribution, fossil evidence and conservation remain unassessed; morphology is limited to the regional flora account.',
     'A systematic literature review and complete comparison of source circumscriptions with the COL26.8 accepted species concept remain incomplete.',
-    'Independent external expert review has not been completed.',
   ],
 }
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.equal(dossier.facets.ecology.claims.length, target.facets.ecology.claims.length + 1)
 assert.ok(dossier.facets.ecology.claims.every(claim => claim.sourceIds?.every(id => dossier.sources.some(item => item.id === id))))

@@ -9,7 +9,6 @@ records:
     name:
       zh: Incaspiza ortizi
       en: Incaspiza ortizi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

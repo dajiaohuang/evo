@@ -9,7 +9,6 @@ records:
     name:
       zh: Rytiodus heali
       en: Rytiodus heali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

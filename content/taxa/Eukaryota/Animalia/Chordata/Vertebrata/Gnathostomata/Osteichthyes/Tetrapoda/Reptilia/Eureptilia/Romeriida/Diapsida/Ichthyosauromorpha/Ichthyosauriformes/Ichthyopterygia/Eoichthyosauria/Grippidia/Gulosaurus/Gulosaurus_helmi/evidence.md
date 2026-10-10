@@ -9,7 +9,6 @@ records:
     name:
       zh: Gulosaurus helmi
       en: Gulosaurus helmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

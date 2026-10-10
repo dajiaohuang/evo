@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucopternis kuhli
       en: Leucopternis kuhli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

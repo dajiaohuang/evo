@@ -9,7 +9,6 @@ records:
     name:
       zh: Vulpes riffautae
       en: Vulpes riffautae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

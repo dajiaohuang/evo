@@ -9,7 +9,6 @@ records:
     name:
       zh: Coragyps occidentalis
       en: Coragyps occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

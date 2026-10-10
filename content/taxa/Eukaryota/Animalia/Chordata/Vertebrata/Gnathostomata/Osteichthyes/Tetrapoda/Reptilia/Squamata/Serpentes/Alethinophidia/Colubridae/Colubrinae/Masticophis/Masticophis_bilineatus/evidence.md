@@ -9,7 +9,6 @@ records:
     name:
       zh: Masticophis bilineatus
       en: Masticophis bilineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

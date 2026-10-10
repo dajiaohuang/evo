@@ -9,7 +9,6 @@ records:
     name:
       en: Rana dalmatina
       zh: Rana dalmatina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

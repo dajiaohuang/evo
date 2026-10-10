@@ -9,7 +9,6 @@ records:
     name:
       en: Leucostethus fugax
       zh: Leucostethus fugax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

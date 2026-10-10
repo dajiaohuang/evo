@@ -9,7 +9,6 @@ records:
     name:
       zh: Patriocetus denggi
       en: Patriocetus denggi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

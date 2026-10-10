@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis picardi
       zh: Boophis picardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

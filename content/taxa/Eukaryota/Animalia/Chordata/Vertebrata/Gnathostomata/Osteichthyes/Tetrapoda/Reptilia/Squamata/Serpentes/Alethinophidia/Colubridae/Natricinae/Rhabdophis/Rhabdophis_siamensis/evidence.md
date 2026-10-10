@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdophis siamensis
       en: Rhabdophis siamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

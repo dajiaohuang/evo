@@ -9,7 +9,6 @@ records:
     name:
       zh: Spatula querquedula
       en: Spatula querquedula
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis sallaei
       en: Geophis sallaei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

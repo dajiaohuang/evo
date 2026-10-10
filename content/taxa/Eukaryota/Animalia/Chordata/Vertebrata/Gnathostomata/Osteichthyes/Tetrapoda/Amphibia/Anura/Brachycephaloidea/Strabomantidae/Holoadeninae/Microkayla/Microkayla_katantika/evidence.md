@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla katantika
       zh: Microkayla katantika
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

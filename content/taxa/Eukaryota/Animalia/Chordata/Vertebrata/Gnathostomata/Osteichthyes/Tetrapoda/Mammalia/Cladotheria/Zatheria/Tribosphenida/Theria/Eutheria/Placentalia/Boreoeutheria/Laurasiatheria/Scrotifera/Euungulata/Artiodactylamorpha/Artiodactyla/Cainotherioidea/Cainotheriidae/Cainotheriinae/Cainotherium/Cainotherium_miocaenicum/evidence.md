@@ -9,7 +9,6 @@ records:
     name:
       zh: Cainotherium miocaenicum
       en: Cainotherium miocaenicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

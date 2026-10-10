@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptomeryx antecedens
       en: Leptomeryx antecedens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

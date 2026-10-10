@@ -9,7 +9,6 @@ records:
     name:
       zh: Alicornops alfambrense
       en: Alicornops alfambrense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

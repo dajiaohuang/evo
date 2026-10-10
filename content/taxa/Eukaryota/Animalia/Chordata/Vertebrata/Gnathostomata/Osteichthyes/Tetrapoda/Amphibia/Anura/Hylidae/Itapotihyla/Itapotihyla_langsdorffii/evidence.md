@@ -9,7 +9,6 @@ records:
     name:
       en: Itapotihyla langsdorffii
       zh: Itapotihyla langsdorffii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

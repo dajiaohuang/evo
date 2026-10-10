@@ -28,5 +28,5 @@ The 2024 account's title uses Callicebus oenanthe, while its text records the 20
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Much of the evidence comes from local studies at different sites and times; the review title retains Callicebus while COL26.8 uses Plecturocebus. The Chinese name is editorial; this guide is not externally expert-reviewed.
+Much of the evidence comes from local studies at different sites and times; the review title retains Callicebus while COL26.8 uses Plecturocebus. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

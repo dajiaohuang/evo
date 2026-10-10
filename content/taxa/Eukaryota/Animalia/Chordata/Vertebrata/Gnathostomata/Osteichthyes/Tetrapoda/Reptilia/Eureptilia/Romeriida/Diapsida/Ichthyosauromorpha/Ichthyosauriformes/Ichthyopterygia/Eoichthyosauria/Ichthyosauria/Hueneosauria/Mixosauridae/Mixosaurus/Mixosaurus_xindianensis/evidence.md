@@ -9,7 +9,6 @@ records:
     name:
       zh: Mixosaurus xindianensis
       en: Mixosaurus xindianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelotes caffer
       en: Scelotes caffer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

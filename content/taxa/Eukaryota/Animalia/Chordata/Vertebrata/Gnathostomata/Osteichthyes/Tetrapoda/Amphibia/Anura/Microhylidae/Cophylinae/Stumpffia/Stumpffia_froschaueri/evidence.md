@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia froschaueri
       zh: Stumpffia froschaueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

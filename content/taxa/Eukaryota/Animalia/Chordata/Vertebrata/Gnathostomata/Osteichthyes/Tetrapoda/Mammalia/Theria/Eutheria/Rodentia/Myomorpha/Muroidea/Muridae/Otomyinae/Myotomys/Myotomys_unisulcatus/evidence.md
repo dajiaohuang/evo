@@ -9,7 +9,6 @@ records:
     name:
       zh: Myotomys unisulcatus
       en: Myotomys unisulcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

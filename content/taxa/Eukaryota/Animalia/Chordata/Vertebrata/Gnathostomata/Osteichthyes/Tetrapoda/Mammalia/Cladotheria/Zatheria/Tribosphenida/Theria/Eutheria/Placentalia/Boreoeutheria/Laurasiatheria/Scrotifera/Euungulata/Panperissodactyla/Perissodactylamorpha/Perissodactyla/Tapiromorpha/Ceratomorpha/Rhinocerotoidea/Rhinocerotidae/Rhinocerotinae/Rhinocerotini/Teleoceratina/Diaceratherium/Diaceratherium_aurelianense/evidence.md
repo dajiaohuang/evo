@@ -9,7 +9,6 @@ records:
     name:
       zh: Diaceratherium aurelianense
       en: Diaceratherium aurelianense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

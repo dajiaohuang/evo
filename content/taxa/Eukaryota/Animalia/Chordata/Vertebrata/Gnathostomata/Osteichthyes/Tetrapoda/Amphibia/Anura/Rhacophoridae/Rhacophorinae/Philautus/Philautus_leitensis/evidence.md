@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus leitensis
       zh: Philautus leitensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Schaubeumys sabrae
       en: Schaubeumys sabrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

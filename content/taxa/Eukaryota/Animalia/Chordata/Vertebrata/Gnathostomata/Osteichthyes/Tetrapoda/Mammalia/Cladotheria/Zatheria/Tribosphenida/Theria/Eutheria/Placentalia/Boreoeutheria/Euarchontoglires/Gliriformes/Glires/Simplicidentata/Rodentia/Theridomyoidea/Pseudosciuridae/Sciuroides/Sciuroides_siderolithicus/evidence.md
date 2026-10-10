@@ -9,7 +9,6 @@ records:
     name:
       zh: Sciuroides siderolithicus
       en: Sciuroides siderolithicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus lacteus
       zh: Afrixalus lacteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

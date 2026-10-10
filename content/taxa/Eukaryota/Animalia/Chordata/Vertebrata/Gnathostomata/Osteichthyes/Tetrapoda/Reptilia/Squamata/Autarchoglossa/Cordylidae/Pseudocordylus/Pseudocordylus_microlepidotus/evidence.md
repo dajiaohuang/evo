@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocordylus microlepidotus
       en: Pseudocordylus microlepidotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

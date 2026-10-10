@@ -9,7 +9,6 @@ records:
     name:
       en: Boana courtoisae
       zh: Boana courtoisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

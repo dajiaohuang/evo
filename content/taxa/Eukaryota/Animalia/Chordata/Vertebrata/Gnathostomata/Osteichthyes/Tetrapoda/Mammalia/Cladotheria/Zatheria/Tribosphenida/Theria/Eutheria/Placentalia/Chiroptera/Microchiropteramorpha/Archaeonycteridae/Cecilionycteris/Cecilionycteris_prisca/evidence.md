@@ -9,7 +9,6 @@ records:
     name:
       zh: Cecilionycteris prisca
       en: Cecilionycteris prisca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

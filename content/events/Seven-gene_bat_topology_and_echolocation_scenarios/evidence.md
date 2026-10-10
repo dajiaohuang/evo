@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Teeling et al. 2000 DOI 10.1038/35003188
       referenceLinks:
         - referenceId: teeling-2000-bat-echolocation-topology
           relation: supports

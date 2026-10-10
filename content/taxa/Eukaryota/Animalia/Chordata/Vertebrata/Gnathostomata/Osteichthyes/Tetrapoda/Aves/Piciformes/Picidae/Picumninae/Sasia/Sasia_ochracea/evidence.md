@@ -9,7 +9,6 @@ records:
     name:
       zh: Sasia ochracea
       en: Sasia ochracea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

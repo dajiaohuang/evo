@@ -9,7 +9,6 @@ records:
     name:
       en: Mixophyes iteratus
       zh: Mixophyes iteratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

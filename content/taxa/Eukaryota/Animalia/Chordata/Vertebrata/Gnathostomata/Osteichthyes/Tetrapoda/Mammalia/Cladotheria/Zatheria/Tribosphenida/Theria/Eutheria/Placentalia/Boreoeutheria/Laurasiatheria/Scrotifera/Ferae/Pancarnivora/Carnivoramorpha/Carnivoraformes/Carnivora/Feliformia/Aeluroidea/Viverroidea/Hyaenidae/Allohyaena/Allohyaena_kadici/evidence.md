@@ -9,7 +9,6 @@ records:
     name:
       zh: Allohyaena kadici
       en: Allohyaena kadici
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera kweti
       zh: Adenomera kweti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

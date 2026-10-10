@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinosternon skullridgescens
       en: Kinosternon skullridgescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

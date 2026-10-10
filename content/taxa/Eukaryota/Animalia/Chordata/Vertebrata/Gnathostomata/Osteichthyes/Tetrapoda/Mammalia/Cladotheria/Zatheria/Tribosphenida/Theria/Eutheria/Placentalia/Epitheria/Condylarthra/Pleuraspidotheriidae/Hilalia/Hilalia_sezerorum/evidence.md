@@ -9,7 +9,6 @@ records:
     name:
       zh: Hilalia sezerorum
       en: Hilalia sezerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

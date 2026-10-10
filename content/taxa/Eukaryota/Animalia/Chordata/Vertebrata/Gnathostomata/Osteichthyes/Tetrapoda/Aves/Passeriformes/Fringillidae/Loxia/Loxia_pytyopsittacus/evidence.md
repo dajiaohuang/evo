@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxia pytyopsittacus
       en: Loxia pytyopsittacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

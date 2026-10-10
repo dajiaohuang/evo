@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypogeomys antimena
       en: Hypogeomys antimena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

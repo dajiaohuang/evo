@@ -9,7 +9,6 @@ records:
     name:
       zh: Eubelodon morrilli
       en: Eubelodon morrilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

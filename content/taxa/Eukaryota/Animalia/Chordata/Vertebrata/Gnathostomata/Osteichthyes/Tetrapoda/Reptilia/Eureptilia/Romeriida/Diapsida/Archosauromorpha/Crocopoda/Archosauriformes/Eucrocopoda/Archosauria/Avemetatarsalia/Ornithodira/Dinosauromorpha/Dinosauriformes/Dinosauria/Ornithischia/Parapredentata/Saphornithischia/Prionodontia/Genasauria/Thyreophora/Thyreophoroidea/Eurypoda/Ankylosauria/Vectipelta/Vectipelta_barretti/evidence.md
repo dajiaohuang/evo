@@ -9,7 +9,6 @@ records:
     name:
       zh: Vectipelta barretti
       en: Vectipelta barretti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

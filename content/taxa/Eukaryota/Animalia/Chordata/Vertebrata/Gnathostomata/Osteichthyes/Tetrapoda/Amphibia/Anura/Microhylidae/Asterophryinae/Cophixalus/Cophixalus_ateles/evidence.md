@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus ateles
       zh: Cophixalus ateles
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

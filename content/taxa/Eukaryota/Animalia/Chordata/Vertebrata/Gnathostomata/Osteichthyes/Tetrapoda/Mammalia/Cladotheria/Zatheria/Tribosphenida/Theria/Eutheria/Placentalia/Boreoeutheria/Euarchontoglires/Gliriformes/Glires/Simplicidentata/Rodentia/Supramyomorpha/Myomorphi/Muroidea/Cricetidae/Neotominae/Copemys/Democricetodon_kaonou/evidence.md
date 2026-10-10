@@ -9,7 +9,6 @@ records:
     name:
       zh: Democricetodon kaonou
       en: Democricetodon kaonou
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

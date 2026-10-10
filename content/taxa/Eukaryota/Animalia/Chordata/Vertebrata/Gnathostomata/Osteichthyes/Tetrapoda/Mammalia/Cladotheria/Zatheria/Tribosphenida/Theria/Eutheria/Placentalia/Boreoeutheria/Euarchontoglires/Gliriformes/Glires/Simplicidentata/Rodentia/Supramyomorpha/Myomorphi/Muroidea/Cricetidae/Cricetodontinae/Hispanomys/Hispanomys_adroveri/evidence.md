@@ -9,7 +9,6 @@ records:
     name:
       zh: Hispanomys adroveri
       en: Hispanomys adroveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

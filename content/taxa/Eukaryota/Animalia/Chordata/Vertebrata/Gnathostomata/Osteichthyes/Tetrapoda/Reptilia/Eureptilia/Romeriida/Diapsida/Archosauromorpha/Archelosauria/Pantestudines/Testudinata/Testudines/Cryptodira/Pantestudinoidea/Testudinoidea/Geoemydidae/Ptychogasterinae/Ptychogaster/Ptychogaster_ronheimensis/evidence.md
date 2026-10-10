@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptychogaster ronheimensis
       en: Ptychogaster ronheimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina chortiorum
       zh: Oedipina chortiorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

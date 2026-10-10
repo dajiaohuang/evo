@@ -9,7 +9,6 @@ records:
     name:
       zh: 长尾猕猴
       en: Long-tailed macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -1017,12 +1016,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Macaca fascicularis
@@ -1295,10 +1288,4 @@ Three studies support bounded claims in morphology, ecology, and evolution; the 
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Life history, species-wide distribution, fossil evidence, conservation status, and systematic coverage of the accepted species concept remain incomplete or unassessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->

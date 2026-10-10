@@ -9,7 +9,6 @@ records:
     name:
       zh: Muriwaimanu tuatahi
       en: Muriwaimanu tuatahi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

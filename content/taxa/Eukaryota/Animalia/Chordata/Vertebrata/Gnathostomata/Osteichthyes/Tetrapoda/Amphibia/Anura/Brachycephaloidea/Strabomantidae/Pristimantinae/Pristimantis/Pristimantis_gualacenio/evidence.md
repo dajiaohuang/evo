@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis gualacenio
       zh: Pristimantis gualacenio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

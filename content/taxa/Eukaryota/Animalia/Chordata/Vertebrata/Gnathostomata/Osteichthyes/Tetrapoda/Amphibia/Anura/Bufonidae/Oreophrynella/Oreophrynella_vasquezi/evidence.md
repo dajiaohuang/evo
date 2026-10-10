@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophrynella vasquezi
       zh: Oreophrynella vasquezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

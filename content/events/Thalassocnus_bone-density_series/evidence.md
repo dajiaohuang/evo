@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Amson et al. 2014 DOI 10.1098/rspb.2014.0192
       referenceLinks:
         - referenceId: amson-2014-thalassocnus-bone-density
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Notopithecus adapinus
       en: Notopithecus adapinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

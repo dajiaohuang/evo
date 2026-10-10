@@ -9,7 +9,6 @@ records:
     name:
       zh: Limosa limosa
       en: Limosa limosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

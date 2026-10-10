@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomasomys niveipes
       en: Thomasomys niveipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliodoxa schreibersii
       en: Heliodoxa schreibersii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

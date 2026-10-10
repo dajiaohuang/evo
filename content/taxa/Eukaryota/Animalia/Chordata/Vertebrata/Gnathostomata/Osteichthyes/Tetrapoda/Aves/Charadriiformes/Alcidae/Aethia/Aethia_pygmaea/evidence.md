@@ -9,7 +9,6 @@ records:
     name:
       zh: Aethia pygmaea
       en: Aethia pygmaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

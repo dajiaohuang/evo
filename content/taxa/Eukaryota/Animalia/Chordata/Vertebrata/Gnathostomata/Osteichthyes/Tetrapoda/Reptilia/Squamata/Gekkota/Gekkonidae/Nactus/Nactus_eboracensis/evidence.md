@@ -9,7 +9,6 @@ records:
     name:
       zh: Nactus eboracensis
       en: Nactus eboracensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

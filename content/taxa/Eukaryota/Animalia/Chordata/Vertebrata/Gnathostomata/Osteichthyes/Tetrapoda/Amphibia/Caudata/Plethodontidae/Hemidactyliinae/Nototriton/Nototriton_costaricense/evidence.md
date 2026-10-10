@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton costaricense
       zh: Nototriton costaricense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

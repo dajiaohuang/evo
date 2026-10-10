@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella xishuiensis
       zh: Leptobrachella xishuiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

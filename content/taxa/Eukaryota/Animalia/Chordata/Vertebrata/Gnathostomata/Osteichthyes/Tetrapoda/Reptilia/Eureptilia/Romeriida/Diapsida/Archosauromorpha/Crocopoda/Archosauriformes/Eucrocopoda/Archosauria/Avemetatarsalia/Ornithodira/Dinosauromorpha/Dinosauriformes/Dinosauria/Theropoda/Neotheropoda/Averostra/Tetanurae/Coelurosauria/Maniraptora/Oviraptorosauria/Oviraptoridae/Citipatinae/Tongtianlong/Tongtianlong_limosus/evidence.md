@@ -9,7 +9,6 @@ records:
     name:
       zh: Tongtianlong limosus
       en: Tongtianlong limosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipilo chlorurus
       en: Pipilo chlorurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

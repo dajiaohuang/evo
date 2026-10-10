@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus stingi
       zh: Dendropsophus stingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

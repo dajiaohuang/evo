@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus longipes
       zh: Xenopus longipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

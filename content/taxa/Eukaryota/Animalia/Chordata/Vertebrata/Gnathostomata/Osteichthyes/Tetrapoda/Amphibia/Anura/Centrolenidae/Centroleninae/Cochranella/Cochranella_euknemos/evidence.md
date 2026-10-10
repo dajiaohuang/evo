@@ -9,7 +9,6 @@ records:
     name:
       en: Cochranella euknemos
       zh: Cochranella euknemos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

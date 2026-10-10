@@ -9,7 +9,6 @@ records:
     name:
       zh: Lampornis viridipallens
       en: Lampornis viridipallens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

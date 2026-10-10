@@ -9,7 +9,6 @@ records:
     name:
       zh: Percrocuta miocenica
       en: Percrocuta miocenica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

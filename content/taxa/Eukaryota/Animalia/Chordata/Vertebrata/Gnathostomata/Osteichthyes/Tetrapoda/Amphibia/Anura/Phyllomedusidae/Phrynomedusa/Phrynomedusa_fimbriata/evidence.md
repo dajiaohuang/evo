@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynomedusa fimbriata
       zh: Phrynomedusa fimbriata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis wahlbergii
       zh: Arthroleptis wahlbergii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

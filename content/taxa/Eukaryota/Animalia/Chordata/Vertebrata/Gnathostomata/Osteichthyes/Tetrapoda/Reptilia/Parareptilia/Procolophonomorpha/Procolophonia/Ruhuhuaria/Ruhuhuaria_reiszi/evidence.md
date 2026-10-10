@@ -9,7 +9,6 @@ records:
     name:
       zh: Ruhuhuaria reiszi
       en: Ruhuhuaria reiszi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

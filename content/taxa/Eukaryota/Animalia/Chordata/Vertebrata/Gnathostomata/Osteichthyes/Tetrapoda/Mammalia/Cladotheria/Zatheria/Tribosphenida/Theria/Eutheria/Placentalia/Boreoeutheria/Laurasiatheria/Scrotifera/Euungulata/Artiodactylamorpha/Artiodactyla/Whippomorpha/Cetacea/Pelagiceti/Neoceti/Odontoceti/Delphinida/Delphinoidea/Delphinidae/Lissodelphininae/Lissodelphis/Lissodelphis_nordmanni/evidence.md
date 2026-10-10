@@ -9,7 +9,6 @@ records:
     name:
       zh: Lissodelphis nordmanni
       en: Lissodelphis nordmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectocentrocristus foxi
       en: Ectocentrocristus foxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

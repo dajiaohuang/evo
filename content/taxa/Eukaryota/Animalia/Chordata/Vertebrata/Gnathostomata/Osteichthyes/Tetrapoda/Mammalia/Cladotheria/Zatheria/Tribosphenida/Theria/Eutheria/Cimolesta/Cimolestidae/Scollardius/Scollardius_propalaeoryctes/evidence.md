@@ -9,7 +9,6 @@ records:
     name:
       zh: Scollardius propalaeoryctes
       en: Scollardius propalaeoryctes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

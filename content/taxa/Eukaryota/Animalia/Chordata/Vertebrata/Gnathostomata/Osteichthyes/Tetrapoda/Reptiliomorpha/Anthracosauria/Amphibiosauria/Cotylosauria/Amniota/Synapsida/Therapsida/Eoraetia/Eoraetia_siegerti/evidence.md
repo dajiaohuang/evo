@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoraetia siegerti
       en: Eoraetia siegerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

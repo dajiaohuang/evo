@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne anulata
       zh: Oreophryne anulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

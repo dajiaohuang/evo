@@ -9,7 +9,6 @@ records:
     name:
       zh: Pytilia afra
       en: Pytilia afra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

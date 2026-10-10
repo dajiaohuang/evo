@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus cameronicus
       en: Sphenomorphus cameronicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Piscator tenuirostris
       en: Piscator tenuirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

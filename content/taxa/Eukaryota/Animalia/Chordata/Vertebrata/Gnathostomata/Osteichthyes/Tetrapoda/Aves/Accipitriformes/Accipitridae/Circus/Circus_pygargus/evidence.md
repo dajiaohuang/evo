@@ -9,7 +9,6 @@ records:
     name:
       zh: Circus pygargus
       en: Circus pygargus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: motani-2014-chaohusaurus-viviparity
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.09-static-v5-rc83
       referenceLinks:
         - referenceId: motani-2014-chaohusaurus-viviparity
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.09-static-v5-rc83
       referenceLinks:
         - referenceId: motani-2014-chaohusaurus-viviparity
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.09-static-v5-rc83
       referenceLinks:
         - referenceId: motani-2014-chaohusaurus-viviparity
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: motani-2014-chaohusaurus-viviparity concrete-locator audit at 2026.09-static-v5-rc83
       referenceLinks:
         - referenceId: motani-2014-chaohusaurus-viviparity
           relation: supports
@@ -197,7 +182,6 @@ records:
       referenceLocators:
         - referenceId: motani-2014-chaohusaurus-viviparity
           locator: Figure 1; Geological setting; Results
-      reviewStatus: automated-audit-passed
 ---
 
 # Chaohusaurus

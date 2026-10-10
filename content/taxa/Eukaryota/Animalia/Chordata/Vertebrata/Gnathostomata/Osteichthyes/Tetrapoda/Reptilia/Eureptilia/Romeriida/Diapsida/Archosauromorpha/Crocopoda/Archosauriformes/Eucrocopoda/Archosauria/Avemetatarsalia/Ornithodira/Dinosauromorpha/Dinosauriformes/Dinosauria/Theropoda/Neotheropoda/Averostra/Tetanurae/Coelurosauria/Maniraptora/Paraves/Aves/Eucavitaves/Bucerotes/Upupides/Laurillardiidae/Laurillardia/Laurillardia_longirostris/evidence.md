@@ -9,7 +9,6 @@ records:
     name:
       zh: Laurillardia longirostris
       en: Laurillardia longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

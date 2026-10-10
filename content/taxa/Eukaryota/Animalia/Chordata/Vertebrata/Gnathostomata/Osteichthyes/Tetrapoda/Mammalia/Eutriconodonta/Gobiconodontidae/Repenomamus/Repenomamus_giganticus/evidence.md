@@ -9,7 +9,6 @@ records:
     name:
       zh: Repenomamus giganticus
       en: Repenomamus giganticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

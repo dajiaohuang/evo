@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus ardila
       zh: Atelopus ardila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

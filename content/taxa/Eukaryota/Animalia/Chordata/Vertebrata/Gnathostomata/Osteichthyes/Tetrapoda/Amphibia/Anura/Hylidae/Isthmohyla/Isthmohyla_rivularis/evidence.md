@@ -9,7 +9,6 @@ records:
     name:
       en: Isthmohyla rivularis
       zh: Isthmohyla rivularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

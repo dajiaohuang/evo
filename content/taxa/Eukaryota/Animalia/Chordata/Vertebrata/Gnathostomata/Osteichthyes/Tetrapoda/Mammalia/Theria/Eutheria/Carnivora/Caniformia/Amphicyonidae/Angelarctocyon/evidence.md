@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: tomiya-tseng-2016-beardogs concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: tomiya-tseng-2016-beardogs
@@ -67,7 +64,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Angelarctocyon

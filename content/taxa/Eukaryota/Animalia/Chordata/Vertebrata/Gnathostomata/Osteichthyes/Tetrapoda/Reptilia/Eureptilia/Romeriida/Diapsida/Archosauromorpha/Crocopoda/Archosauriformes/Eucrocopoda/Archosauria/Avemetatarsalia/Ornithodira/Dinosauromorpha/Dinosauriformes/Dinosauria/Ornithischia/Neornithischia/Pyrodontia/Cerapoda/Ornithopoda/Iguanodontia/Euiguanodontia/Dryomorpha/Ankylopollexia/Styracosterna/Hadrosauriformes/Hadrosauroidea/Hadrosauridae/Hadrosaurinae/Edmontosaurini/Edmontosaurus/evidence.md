@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated primary-source review
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Campione and Evans 2011 DOI 10.1371/journal.pone.0025186; publisher full text inspected 2026-09-05
       referenceLinks:
         - referenceId: campione-evans-2011-edmontosaur-taxonomy
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: campione-evans-2011-edmontosaur-taxonomy concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: campione-evans-2011-edmontosaur-taxonomy
           relation: supports
@@ -67,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: campione-evans-2011-edmontosaur-taxonomy @ DOI 10.1371/journal.pone.0025186
       referenceLinks:
         - relation: supports
           referenceId: campione-evans-2011-edmontosaur-taxonomy
@@ -120,7 +111,6 @@ records:
           locator: 1–12; Specimen sample; geometric morphometrics; growth results; taxonomic implications
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Edmontosaurus
@@ -129,7 +119,6 @@ records:
     name:
       zh: Edmontosaurus
       en: Edmontosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

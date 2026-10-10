@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinomylus zhaii
       en: Sinomylus zhaii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

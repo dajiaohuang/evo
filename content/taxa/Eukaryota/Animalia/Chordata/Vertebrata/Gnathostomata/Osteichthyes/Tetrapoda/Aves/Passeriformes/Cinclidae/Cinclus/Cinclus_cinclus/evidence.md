@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinclus cinclus
       en: Cinclus cinclus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

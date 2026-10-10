@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne hypsiops
       zh: Oreophryne hypsiops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

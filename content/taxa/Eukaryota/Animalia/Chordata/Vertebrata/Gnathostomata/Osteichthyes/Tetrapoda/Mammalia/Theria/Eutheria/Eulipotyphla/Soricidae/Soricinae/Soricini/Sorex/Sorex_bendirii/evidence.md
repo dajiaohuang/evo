@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex bendirii
       en: Sorex bendirii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

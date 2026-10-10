@@ -9,7 +9,6 @@ records:
     name:
       zh: 东爪哇叶猴
       en: East Javan Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: phylogenetic placement

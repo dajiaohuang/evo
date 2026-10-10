@@ -9,7 +9,6 @@ records:
     name:
       zh: Iberosuchus macrodon
       en: Iberosuchus macrodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

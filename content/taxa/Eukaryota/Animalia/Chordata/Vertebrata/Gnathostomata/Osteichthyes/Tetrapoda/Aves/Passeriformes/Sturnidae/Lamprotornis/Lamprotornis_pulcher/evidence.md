@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprotornis pulcher
       en: Lamprotornis pulcher
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

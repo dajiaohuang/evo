@@ -9,7 +9,6 @@ records:
     name:
       zh: Perissobune munirulhaqi
       en: Perissobune munirulhaqi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

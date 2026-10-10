@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius viridigulosus
       zh: Hyperolius viridigulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

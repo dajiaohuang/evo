@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana bannanica
       zh: Hylarana bannanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Polysticta stelleri
       en: Polysticta stelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

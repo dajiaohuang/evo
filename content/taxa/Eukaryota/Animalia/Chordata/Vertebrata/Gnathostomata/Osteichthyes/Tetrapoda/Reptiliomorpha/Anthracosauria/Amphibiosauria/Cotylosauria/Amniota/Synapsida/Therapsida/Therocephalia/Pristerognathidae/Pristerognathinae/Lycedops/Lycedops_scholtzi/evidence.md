@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycedops scholtzi
       en: Lycedops scholtzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

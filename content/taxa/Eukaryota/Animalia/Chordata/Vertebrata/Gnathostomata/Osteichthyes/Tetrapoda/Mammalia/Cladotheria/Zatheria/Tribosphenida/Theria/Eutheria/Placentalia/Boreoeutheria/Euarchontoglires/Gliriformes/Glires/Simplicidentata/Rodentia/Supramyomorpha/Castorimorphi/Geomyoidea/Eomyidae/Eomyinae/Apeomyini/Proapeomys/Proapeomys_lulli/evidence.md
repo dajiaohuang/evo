@@ -9,7 +9,6 @@ records:
     name:
       zh: Proapeomys lulli
       en: Proapeomys lulli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

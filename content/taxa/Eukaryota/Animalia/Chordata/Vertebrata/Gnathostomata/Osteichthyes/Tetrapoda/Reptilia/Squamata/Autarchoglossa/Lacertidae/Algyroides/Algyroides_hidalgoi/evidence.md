@@ -9,7 +9,6 @@ records:
     name:
       zh: Algyroides hidalgoi
       en: Algyroides hidalgoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

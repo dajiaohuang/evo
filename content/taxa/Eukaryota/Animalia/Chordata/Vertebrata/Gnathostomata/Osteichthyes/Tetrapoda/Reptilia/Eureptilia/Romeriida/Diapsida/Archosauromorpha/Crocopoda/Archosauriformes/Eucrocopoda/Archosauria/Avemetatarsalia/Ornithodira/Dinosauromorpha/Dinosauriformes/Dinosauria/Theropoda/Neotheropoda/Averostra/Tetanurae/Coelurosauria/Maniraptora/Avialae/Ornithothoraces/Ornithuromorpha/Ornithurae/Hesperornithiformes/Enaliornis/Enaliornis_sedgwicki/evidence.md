@@ -9,7 +9,6 @@ records:
     name:
       zh: Enaliornis sedgwicki
       en: Enaliornis sedgwicki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

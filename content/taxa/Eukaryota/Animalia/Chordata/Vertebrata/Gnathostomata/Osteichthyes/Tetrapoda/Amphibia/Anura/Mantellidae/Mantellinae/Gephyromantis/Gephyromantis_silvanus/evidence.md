@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis silvanus
       zh: Gephyromantis silvanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

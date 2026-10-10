@@ -9,7 +9,6 @@ records:
     name:
       zh: Lucasium wombeyi
       en: Lucasium wombeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

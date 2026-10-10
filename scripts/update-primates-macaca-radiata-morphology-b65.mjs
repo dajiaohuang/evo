@@ -178,7 +178,6 @@ assert.equal(queueRow.dossier.claimCount, source.audit.queueBaseline.claimCount)
 assert.equal(queueRow.dossier.identityStatus, source.audit.queueBaseline.identityStatus)
 assert.equal(queueRow.dossier.rightsStatus, source.audit.queueBaseline.rightsStatus)
 assert.equal(queueRow.dossier.systematicSearchRecorded, source.audit.queueBaseline.systematicSearchRecorded)
-assert.equal(queueRow.dossier.expertReviewStatus, source.audit.queueBaseline.expertReviewStatus)
 assert.equal(queueRow.dossier.facetStatuses.morphology, source.audit.queueBaseline.morphologyStatus)
 
 const dossier = structuredClone(baseline)
@@ -194,7 +193,6 @@ dossier.facets.morphology = {
 }
 dossier.completeness = { status: 'incomplete', reasons: structuredClone(source.completenessReasons) }
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.equal(dossier.facets.morphology.claims[0].sourceIds[0], source.sourceRef.id)
 

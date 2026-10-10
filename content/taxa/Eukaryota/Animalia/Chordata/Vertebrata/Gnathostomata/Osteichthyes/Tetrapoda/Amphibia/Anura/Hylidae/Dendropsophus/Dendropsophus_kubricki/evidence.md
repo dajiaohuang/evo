@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus kubricki
       zh: Dendropsophus kubricki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

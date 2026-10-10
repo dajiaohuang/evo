@@ -9,7 +9,6 @@ records:
     name:
       zh: Tylionomys woodi
       en: Tylionomys woodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

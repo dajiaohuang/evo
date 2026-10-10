@@ -9,7 +9,6 @@ records:
     name:
       zh: Conophis lineatus
       en: Conophis lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

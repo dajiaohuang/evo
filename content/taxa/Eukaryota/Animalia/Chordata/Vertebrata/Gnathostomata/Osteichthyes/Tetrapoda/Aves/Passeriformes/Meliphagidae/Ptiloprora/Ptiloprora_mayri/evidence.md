@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptiloprora mayri
       en: Ptiloprora mayri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Atopotarus courseni
       en: Atopotarus courseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

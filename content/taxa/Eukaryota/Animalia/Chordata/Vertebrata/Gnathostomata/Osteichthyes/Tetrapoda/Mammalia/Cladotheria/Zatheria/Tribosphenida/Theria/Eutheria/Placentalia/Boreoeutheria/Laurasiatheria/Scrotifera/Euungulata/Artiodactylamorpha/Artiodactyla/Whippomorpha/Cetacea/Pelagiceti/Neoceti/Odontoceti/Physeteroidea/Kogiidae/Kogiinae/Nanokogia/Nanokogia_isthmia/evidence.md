@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanokogia isthmia
       en: Nanokogia isthmia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

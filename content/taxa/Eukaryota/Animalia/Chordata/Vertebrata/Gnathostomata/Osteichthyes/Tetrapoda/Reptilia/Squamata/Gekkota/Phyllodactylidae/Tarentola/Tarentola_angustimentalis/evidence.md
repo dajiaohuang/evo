@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarentola angustimentalis
       en: Tarentola angustimentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

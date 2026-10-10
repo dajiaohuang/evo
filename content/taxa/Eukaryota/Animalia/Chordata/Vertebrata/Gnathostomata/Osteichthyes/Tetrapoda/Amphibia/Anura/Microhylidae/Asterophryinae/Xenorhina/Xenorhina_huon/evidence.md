@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina huon
       zh: Xenorhina huon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

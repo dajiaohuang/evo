@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne oviprotector
       zh: Oreophryne oviprotector
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

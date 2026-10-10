@@ -9,7 +9,6 @@ records:
     name:
       zh: 玻利维亚松鼠猴
       en: Bolivian squirrel monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -521,10 +520,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -821,5 +816,5 @@ Six facets remain not assessed and the study cannot establish wild or species-wi
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No multi-source species review or independent external expert review has been completed.
+No multi-source species search has been completed.
 <!-- /evo:text -->

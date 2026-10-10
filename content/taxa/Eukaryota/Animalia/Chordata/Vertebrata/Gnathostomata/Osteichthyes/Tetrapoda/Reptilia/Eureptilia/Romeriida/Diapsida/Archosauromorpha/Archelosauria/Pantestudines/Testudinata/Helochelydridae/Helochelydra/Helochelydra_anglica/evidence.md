@@ -9,7 +9,6 @@ records:
     name:
       zh: Helochelydra anglica
       en: Helochelydra anglica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

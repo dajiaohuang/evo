@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis anfiloquioi
       en: Anolis anfiloquioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

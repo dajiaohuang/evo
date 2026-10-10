@@ -9,7 +9,6 @@ records:
     name:
       zh: Spizaetus tyrannus
       en: Spizaetus tyrannus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

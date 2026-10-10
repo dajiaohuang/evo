@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑尾绒猴
       en: Black-tailed marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

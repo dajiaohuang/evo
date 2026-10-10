@@ -9,7 +9,6 @@ records:
     name:
       zh: Trirachodon minor
       en: Trirachodon minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

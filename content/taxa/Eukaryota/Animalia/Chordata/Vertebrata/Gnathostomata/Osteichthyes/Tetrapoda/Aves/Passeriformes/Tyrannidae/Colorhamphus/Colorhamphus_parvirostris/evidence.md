@@ -9,7 +9,6 @@ records:
     name:
       zh: Colorhamphus parvirostris
       en: Colorhamphus parvirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

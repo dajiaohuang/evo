@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus poecilochilus
       zh: Leptodactylus poecilochilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Wellsiana torticornuta
       en: Wellsiana torticornuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

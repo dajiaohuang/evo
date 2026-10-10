@@ -163,10 +163,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Holothrix thodei
@@ -337,10 +333,4 @@ This dossier has source-backed morphology/diagnostics and habitat only; life his
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 A systematic literature search and comparison of the regional source concept against the complete COL26.8 species concept remain incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

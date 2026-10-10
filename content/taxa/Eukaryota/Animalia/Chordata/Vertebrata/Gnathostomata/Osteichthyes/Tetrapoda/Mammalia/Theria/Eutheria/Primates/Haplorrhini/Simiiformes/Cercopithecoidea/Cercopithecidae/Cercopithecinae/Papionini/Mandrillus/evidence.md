@@ -9,7 +9,6 @@ records:
     name:
       en: Mandrillus genus guide
       zh: 山魈属导读
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

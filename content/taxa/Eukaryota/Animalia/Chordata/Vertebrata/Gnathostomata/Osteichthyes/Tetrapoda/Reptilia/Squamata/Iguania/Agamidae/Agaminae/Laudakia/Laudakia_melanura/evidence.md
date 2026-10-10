@@ -9,7 +9,6 @@ records:
     name:
       zh: Laudakia melanura
       en: Laudakia melanura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

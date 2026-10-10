@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptoptilos javanicus
       en: Leptoptilos javanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

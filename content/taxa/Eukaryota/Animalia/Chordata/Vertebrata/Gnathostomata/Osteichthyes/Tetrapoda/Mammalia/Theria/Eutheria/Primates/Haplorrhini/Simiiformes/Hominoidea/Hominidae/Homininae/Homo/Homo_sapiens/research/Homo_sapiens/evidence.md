@@ -312,9 +312,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: fu-2014-ust-ishim concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: fu-2014-ust-ishim
@@ -333,9 +330,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: fu-2014-ust-ishim @ DOI 10.1038/nature13810
       referenceLinks:
         - relation: supports
           referenceId: fu-2014-ust-ishim
@@ -359,9 +353,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: COL26.8 dataset 316115; accepted usage 6MB3T, source dataset 2144 checked 2026-09-27
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -378,9 +369,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Jakobsson et al., Nature 650(8100):156–163; DOI 10.1038/s41586-025-09811-4; abstract and Results checked 2026-09-27
       referenceLinks:
         - referenceId: jakobsson-2026-southern-african-ancient-genomes
           relation: supports
@@ -397,11 +385,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/4/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: jakobsson-2026-southern-african-ancient-genomes
           relation: supports
@@ -418,9 +401,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-28
-      reviewedAgainstReferenceVersion: Nature Ecology & Evolution 8(3):564–577; version of record published 2024-01-31
       referenceLinks:
         - referenceId: smith-2024-ranis-early-human-diet
           relation: supports
@@ -476,7 +456,6 @@ records:
           locator: 445–449; Direct dating; genome methods; Extended Data Figures 1–9
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Hominidae/Homininae/Homo/Homo_sapiens/research/Homo_sapiens
       rangeKind: global-composite
@@ -503,7 +482,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/1/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
   field-claim-overrides:
     - firstAppearance:
         status: not-assessed

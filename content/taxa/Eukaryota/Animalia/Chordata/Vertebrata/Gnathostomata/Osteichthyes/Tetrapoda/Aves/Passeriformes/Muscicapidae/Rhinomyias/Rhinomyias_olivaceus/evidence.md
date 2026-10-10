@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinomyias olivaceus
       en: Rhinomyias olivaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aburria aburri
       en: Aburria aburri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

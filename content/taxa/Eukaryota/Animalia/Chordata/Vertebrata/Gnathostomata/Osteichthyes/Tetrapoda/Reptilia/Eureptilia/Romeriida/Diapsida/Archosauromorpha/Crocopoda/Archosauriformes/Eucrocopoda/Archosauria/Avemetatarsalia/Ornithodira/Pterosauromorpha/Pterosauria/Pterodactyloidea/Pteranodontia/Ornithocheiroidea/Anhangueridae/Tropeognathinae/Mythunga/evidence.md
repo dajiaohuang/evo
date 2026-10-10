@@ -10,7 +10,6 @@ records:
     name:
       zh: Mythunga
       en: Mythunga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath
@@ -418,7 +417,6 @@ records:
       referenceLocators:
         - referenceId: ref-e25c3893-3cea-4dc2-99c5-60cc31c9dc40
           locator: data/sources/snapshots/pbdb-mythunga-reader-range-records-2026-10-02.json; response.records oid txn:148340; fea/fla/lea/lla
-      reviewStatus: not-reviewed
       evidenceLevel: database-derived
 ---
 

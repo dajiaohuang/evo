@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus polkensis
       en: Tapirus polkensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

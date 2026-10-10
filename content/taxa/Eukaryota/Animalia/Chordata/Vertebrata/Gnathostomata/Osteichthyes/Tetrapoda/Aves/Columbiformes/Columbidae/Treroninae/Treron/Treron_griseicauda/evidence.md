@@ -9,7 +9,6 @@ records:
     name:
       zh: Treron griseicauda
       en: Treron griseicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

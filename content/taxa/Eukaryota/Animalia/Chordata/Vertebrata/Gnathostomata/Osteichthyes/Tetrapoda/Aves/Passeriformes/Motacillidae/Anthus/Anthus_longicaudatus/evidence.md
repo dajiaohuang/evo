@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus longicaudatus
       en: Anthus longicaudatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

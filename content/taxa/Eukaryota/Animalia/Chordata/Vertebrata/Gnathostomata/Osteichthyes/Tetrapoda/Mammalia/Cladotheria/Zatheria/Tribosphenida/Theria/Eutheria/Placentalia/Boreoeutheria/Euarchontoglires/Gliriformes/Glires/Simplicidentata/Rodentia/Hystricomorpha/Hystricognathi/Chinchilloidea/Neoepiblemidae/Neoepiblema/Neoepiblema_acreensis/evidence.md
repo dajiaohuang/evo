@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoepiblema acreensis
       en: Neoepiblema acreensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

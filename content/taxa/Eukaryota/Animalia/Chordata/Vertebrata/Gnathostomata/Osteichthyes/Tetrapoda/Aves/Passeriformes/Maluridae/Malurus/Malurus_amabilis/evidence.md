@@ -9,7 +9,6 @@ records:
     name:
       zh: Malurus amabilis
       en: Malurus amabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

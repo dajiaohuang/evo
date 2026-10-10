@@ -9,7 +9,6 @@ records:
     name:
       zh: Moghreberia nmachouensis
       en: Moghreberia nmachouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

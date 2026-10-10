@@ -9,7 +9,6 @@ records:
     name:
       zh: Eritreum melakeghebrekristosi
       en: Eritreum melakeghebrekristosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Holbrookia propinqua
       en: Holbrookia propinqua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

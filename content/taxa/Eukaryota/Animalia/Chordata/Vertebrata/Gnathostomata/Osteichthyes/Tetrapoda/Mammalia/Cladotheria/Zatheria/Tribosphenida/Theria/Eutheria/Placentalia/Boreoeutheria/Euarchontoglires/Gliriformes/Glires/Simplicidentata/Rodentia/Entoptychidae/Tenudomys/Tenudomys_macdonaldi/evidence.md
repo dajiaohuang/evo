@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenudomys macdonaldi
       en: Tenudomys macdonaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

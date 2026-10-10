@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon hoffmani
       zh: Plethodon hoffmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

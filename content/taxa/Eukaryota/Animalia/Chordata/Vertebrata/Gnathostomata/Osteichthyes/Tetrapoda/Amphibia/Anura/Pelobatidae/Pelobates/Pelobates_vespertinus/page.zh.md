@@ -42,7 +42,7 @@ COL26.8 接受 Pelobates vespertinus (Pallas, 1771) 为种级记录，所记分�
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页为包含有年代限定分类综合的部分生物学读本；其余主题、底层测量论文及当代概念范围仍需核对。未经过外部领域专家评审。
+本页为包含有年代限定分类综合的部分生物学读本；其余主题、底层测量论文及当代概念范围仍需核对。。
 <!-- /evo:text -->
 
 ## 研究正文待整理

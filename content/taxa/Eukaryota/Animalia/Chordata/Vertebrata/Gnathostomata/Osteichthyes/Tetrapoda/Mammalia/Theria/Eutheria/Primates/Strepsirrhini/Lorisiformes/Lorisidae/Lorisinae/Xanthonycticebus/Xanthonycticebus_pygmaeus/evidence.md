@@ -9,7 +9,6 @@ records:
     name:
       zh: 倭蜂猴
       en: Pygmy slow loris
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: lifeHistory

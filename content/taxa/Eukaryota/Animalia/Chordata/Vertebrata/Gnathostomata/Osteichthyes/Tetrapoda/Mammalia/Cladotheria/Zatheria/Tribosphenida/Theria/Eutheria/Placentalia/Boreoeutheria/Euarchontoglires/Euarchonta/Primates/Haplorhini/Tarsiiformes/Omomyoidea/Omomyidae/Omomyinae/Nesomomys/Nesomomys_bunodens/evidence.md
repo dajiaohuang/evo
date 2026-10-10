@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesomomys bunodens
       en: Nesomomys bunodens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis hudsoni
       zh: Chiasmocleis hudsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

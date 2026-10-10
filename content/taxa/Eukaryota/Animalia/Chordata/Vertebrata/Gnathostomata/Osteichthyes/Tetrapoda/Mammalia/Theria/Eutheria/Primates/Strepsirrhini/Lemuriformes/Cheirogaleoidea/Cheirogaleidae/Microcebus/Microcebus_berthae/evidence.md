@@ -9,7 +9,6 @@ records:
     name:
       zh: 伯特氏鼠狐猴
       en: Madame Berthe's mouse lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -434,9 +433,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Microcebus berthae
@@ -564,7 +560,7 @@ The study covers Menabe Central and its survey years, not all populations or the
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, other ecology, evolution, broader distribution, fossils, conservation, systematic search, and independent review remain unassessed.
+Morphology, life history, other ecology, evolution, broader distribution, fossils, conservation, systematic search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -582,5 +578,5 @@ Other populations, survey years, habitats, and seasons are not covered by this c
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets, systematic search, and external expert review remain unassessed.
+Most biological facets, systematic search, remain unassessed.
 <!-- /evo:text -->

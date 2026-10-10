@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliogeomys buisi
       en: Pliogeomys buisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

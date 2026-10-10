@@ -9,7 +9,6 @@ records:
     name:
       en: Mahonabatrachus dorsalis
       zh: Mahonabatrachus dorsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

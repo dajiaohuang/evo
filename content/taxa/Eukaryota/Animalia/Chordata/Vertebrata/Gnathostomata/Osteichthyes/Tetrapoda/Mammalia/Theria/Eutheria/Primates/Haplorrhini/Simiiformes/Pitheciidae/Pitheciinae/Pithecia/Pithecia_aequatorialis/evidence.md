@@ -9,7 +9,6 @@ records:
     name:
       zh: 赤道僧面猴
       en: Equatorial Saki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

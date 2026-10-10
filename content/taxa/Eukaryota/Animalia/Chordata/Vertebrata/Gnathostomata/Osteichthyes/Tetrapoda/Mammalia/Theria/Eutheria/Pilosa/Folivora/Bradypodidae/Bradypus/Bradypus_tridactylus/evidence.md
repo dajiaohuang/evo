@@ -9,7 +9,6 @@ records:
     name:
       zh: Bradypus tridactylus
       en: Bradypus tridactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

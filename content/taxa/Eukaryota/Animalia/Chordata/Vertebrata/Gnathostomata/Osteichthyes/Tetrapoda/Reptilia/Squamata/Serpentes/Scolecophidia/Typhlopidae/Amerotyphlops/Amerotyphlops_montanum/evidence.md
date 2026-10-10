@@ -9,7 +9,6 @@ records:
     name:
       zh: Amerotyphlops montanum
       en: Amerotyphlops montanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

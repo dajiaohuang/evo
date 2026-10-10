@@ -9,7 +9,6 @@ records:
     name:
       zh: Irisosaurus yimenensis
       en: Irisosaurus yimenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

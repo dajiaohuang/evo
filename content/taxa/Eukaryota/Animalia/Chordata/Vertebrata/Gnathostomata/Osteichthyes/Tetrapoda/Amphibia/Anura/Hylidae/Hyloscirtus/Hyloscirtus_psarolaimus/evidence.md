@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus psarolaimus
       zh: Hyloscirtus psarolaimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

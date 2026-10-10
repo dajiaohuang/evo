@@ -9,7 +9,6 @@ records:
     name:
       zh: Habia gutturalis
       en: Habia gutturalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

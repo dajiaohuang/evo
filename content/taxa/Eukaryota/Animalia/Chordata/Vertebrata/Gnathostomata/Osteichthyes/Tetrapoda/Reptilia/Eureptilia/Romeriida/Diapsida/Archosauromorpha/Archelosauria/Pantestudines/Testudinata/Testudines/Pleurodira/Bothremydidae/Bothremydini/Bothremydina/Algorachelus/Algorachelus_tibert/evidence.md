@@ -9,7 +9,6 @@ records:
     name:
       zh: Algorachelus tibert
       en: Algorachelus tibert
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

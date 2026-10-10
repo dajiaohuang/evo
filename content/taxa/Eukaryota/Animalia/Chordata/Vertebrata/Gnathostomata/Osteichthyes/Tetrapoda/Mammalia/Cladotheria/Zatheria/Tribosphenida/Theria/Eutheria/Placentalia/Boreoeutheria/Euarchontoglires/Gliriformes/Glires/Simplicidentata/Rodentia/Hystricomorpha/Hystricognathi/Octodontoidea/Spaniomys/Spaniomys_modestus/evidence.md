@@ -9,7 +9,6 @@ records:
     name:
       zh: Spaniomys modestus
       en: Spaniomys modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Emballonura raffrayana
       en: Emballonura raffrayana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

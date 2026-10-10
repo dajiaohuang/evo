@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus bromeliarum
       en: Sphaerodactylus bromeliarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

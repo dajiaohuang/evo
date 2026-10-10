@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphotyphlops exocoeti
       en: Ramphotyphlops exocoeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

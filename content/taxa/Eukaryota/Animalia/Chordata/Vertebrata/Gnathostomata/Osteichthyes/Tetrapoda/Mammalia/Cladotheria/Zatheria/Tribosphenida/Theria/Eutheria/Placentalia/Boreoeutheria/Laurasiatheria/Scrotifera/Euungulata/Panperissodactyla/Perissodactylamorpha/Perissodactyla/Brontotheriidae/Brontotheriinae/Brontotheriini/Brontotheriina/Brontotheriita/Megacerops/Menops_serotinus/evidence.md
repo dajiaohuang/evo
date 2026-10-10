@@ -9,7 +9,6 @@ records:
     name:
       zh: Menops serotinus
       en: Menops serotinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

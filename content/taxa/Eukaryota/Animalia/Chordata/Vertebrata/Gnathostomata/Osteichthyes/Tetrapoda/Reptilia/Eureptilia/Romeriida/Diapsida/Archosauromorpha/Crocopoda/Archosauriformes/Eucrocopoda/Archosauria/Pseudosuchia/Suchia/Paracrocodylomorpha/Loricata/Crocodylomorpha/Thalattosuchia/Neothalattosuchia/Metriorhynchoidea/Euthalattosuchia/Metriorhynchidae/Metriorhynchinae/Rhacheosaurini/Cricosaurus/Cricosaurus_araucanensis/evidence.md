@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricosaurus araucanensis
       en: Cricosaurus araucanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

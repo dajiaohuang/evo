@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: engel-grimaldi-2004 and haug-haug-2017 DOI-linked primary sources
       referenceLinks:
         - referenceId: engel-grimaldi-2004-rhyniognatha
           relation: supports

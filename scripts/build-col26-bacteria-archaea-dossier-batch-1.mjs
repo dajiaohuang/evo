@@ -70,10 +70,8 @@ function makeRecord(t) {
     facets,
     completeness: {
       status: 'incomplete',
-      reasons: ['Only one bounded species description was assessed; several biological facets remain not-assessed or locally scoped.', 'The exact nomenclatural crosswalk does not independently establish full biological species-concept equivalence.', 'No independent expert review or comprehensive multi-source search has been completed.']
-    },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null }
-  }
+      reasons: ['Only one bounded species description was assessed; several biological facets remain not-assessed or locally scoped.', 'The exact nomenclatural crosswalk does not independently establish full biological species-concept equivalence.', 'A comprehensive multi-source search has not been completed.']
+    }}
 }
 
 const records = batch.candidates.map(makeRecord)

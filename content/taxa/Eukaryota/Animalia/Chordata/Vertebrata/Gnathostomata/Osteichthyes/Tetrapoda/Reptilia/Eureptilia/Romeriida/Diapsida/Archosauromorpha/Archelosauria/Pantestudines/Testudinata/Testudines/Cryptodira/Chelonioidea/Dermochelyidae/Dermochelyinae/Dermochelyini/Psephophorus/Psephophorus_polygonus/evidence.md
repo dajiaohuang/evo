@@ -9,7 +9,6 @@ records:
     name:
       zh: Psephophorus polygonus
       en: Psephophorus polygonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

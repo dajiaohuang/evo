@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops yangi
       zh: Amolops yangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

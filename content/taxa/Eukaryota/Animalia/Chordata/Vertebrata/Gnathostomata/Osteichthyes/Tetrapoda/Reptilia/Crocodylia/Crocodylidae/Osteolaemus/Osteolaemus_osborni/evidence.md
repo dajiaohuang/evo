@@ -9,7 +9,6 @@ records:
     name:
       zh: 刚果矮鳄
       en: Congo dwarf crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic:

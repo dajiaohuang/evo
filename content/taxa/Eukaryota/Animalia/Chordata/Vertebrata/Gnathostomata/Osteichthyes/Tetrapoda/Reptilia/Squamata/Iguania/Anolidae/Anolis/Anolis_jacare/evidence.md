@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis jacare
       en: Anolis jacare
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

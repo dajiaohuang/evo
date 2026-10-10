@@ -9,7 +9,6 @@ records:
     name:
       zh: Dremomys gularis
       en: Dremomys gularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rena unguirostris
       en: Rena unguirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

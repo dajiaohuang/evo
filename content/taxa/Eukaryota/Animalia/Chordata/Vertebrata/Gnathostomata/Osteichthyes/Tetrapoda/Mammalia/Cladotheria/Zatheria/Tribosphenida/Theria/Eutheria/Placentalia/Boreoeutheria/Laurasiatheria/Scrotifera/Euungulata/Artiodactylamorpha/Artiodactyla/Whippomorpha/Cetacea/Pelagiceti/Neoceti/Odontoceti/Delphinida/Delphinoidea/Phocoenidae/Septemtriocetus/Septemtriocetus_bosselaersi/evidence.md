@@ -9,7 +9,6 @@ records:
     name:
       zh: Septemtriocetus bosselaersi
       en: Septemtriocetus bosselaersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

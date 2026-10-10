@@ -9,7 +9,6 @@ records:
     name:
       zh: Solatherium
       en: Solatherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

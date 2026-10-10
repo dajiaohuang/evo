@@ -9,7 +9,6 @@ records:
     name:
       en: Pelodytidae
       zh: Pelodytidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

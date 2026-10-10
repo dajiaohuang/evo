@@ -9,7 +9,6 @@ records:
     name:
       zh: Hassianycteris kumari
       en: Hassianycteris kumari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

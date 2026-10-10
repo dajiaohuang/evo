@@ -9,7 +9,6 @@ records:
     name:
       zh: Dichobune jehennei
       en: Dichobune jehennei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

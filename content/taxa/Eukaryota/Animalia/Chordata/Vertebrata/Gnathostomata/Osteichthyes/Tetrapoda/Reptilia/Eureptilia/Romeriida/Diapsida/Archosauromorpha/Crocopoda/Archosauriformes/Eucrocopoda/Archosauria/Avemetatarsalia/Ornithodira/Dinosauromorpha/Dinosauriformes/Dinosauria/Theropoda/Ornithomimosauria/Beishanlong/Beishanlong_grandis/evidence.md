@@ -9,7 +9,6 @@ records:
     name:
       zh: Beishanlong grandis
       en: Beishanlong grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: typeMaterial

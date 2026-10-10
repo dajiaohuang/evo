@@ -9,7 +9,6 @@ records:
     name:
       zh: Simonsius grangeri
       en: Simonsius grangeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

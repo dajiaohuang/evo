@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis otai
       en: Cnemaspis otai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

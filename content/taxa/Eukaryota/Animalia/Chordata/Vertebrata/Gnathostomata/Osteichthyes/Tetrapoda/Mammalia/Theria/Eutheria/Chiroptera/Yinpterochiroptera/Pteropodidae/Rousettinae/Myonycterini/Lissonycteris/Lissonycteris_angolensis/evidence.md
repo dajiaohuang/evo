@@ -9,7 +9,6 @@ records:
     name:
       zh: Lissonycteris angolensis
       en: Lissonycteris angolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

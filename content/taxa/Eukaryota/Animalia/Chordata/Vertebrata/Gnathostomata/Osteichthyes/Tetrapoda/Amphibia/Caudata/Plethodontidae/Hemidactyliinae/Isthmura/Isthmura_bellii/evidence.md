@@ -9,7 +9,6 @@ records:
     name:
       en: Isthmura bellii
       zh: Isthmura bellii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

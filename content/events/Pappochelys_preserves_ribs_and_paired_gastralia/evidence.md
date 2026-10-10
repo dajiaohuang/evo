@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Schoch and Sues 2015 DOI 10.1038/nature14472
       referenceLinks:
         - referenceId: schoch-sues-2015-pappochelys
           relation: supports

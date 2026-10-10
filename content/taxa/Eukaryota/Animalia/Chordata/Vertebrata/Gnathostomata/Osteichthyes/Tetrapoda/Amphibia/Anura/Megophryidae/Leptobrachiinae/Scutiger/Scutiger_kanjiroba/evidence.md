@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger kanjiroba
       zh: Scutiger kanjiroba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

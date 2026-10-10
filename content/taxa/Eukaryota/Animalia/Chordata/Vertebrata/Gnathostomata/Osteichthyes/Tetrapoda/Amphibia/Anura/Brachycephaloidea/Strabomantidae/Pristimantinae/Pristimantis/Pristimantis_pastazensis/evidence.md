@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pastazensis
       zh: Pristimantis pastazensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

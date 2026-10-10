@@ -9,7 +9,6 @@ records:
     name:
       zh: Eobaatar minor
       en: Eobaatar minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

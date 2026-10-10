@@ -36,5 +36,5 @@ Start with Ceoptera evansae and compare each page’s named collections and orig
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route adds a selected-passage holotype guide, with a complete genus synthesis and species biology pending. PBDB parents, occurrences and collections retain their sources; article results were not rerun. External expert review has not occurred.
+This route adds a selected-passage holotype guide, with a complete genus synthesis and species biology pending. PBDB parents, occurrences and collections retain their sources; article results were not rerun.
 <!-- /evo:text -->

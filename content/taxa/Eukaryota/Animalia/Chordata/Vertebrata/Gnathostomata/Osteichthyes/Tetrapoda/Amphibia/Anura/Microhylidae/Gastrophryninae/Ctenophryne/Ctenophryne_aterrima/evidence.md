@@ -9,7 +9,6 @@ records:
     name:
       en: Ctenophryne aterrima
       zh: Ctenophryne aterrima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nessia didactyla
       en: Nessia didactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

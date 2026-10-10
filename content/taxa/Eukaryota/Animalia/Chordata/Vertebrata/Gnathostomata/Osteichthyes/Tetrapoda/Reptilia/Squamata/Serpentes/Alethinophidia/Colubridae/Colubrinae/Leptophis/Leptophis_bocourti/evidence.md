@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptophis bocourti
       en: Leptophis bocourti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

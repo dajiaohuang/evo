@@ -9,7 +9,6 @@ records:
     name:
       zh: Connochaetes gentryi
       en: Connochaetes gentryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trichechus inunguis
       en: Trichechus inunguis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

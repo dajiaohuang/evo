@@ -9,7 +9,6 @@ records:
     name:
       zh: Perasciuravus mcintoshi
       en: Perasciuravus mcintoshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

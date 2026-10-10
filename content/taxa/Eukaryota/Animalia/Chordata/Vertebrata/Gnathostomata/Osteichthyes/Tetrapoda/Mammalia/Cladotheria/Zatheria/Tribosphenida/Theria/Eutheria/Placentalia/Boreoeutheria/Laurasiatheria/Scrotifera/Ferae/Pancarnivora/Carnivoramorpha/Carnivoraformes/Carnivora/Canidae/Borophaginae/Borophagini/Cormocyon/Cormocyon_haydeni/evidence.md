@@ -9,7 +9,6 @@ records:
     name:
       zh: Cormocyon haydeni
       en: Cormocyon haydeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

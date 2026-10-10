@@ -9,7 +9,6 @@ records:
     name:
       zh: Calothorax lucifer
       en: Calothorax lucifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

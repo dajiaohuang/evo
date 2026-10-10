@@ -9,7 +9,6 @@ records:
     name:
       zh: Phenacomys intermedius
       en: Phenacomys intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

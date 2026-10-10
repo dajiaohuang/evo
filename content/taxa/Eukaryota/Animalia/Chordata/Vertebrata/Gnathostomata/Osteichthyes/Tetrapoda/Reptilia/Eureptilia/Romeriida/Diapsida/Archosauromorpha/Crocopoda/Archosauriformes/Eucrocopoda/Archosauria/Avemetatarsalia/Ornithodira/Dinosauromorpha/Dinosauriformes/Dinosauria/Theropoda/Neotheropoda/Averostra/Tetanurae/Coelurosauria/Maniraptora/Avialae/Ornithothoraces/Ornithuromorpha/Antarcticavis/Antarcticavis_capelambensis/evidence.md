@@ -9,7 +9,6 @@ records:
     name:
       zh: Antarcticavis capelambensis
       en: Antarcticavis capelambensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

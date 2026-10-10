@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31
       referenceLinks:
         - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31
       referenceLinks:
         - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31
       referenceLinks:
         - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31
       referenceLinks:
         - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wall-heinbaugh-1999-metamynodon-locomotion locator audit at 2026-08-31
       referenceLinks:
         - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
           relation: supports
@@ -195,7 +180,6 @@ records:
       referenceLocators:
         - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
           locator: pp. 8–17; Figures 1–8; Table 1; Orellan M. planifrons anatomical sample
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

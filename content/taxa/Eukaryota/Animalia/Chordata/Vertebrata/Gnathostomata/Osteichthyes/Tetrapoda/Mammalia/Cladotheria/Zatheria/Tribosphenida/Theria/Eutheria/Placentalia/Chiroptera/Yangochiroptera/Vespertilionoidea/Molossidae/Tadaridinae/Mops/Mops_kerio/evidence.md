@@ -9,7 +9,6 @@ records:
     name:
       zh: Mops kerio
       en: Mops kerio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

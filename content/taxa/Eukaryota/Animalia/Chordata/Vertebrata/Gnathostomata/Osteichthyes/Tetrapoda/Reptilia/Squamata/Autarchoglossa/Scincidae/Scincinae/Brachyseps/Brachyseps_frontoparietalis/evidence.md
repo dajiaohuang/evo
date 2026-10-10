@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyseps frontoparietalis
       en: Brachyseps frontoparietalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Edirnella kempeni
       en: Edirnella kempeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

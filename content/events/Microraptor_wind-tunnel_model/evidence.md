@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Dyke, G. et al. 2013 DOI 10.1038/ncomms3489
       referenceLinks:
         - referenceId: dyke-2013-microraptor-wind-tunnel
           relation: supports

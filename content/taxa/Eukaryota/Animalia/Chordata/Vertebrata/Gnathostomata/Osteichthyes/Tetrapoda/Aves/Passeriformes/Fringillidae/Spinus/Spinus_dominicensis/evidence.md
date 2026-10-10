@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinus dominicensis
       en: Spinus dominicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

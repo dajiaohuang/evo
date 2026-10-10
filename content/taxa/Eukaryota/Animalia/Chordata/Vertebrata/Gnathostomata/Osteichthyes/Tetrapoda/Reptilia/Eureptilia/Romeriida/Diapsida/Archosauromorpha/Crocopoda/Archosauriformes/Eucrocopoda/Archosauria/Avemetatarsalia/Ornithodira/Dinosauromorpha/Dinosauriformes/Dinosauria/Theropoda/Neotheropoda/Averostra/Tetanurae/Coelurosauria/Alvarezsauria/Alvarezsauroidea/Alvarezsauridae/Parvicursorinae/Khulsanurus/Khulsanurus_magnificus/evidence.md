@@ -9,7 +9,6 @@ records:
     name:
       zh: Khulsanurus magnificus
       en: Khulsanurus magnificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

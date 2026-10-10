@@ -9,7 +9,6 @@ records:
     name:
       zh: Merycoides stouti
       en: Merycoides stouti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

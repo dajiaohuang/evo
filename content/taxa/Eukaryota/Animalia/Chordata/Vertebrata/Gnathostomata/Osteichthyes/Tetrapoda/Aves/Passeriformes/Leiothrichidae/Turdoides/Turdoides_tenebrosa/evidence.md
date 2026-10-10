@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdoides tenebrosa
       en: Turdoides tenebrosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

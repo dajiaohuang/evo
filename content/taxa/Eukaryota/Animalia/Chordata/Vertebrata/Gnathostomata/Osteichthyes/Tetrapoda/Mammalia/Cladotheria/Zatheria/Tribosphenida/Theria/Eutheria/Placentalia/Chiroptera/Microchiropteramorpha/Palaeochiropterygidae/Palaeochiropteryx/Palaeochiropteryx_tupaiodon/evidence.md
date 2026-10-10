@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeochiropteryx tupaiodon
       en: Palaeochiropteryx tupaiodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

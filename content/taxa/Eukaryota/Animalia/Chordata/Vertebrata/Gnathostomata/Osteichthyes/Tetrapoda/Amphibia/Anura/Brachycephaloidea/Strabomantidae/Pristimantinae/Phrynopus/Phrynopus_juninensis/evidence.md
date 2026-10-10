@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus juninensis
       zh: Phrynopus juninensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

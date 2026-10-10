@@ -9,7 +9,6 @@ records:
     name:
       zh: Lachesis acrochorda
       en: Lachesis acrochorda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

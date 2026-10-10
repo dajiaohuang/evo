@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophaga poliogenys
       en: Spermophaga poliogenys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

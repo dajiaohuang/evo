@@ -9,7 +9,6 @@ records:
     name:
       zh: Circus eylesi
       en: Circus eylesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

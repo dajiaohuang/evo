@@ -9,7 +9,6 @@ records:
     name:
       zh: Batis fratrum
       en: Batis fratrum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

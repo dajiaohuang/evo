@@ -9,7 +9,6 @@ records:
     name:
       zh: Nopachtus cabrerai
       en: Nopachtus cabrerai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

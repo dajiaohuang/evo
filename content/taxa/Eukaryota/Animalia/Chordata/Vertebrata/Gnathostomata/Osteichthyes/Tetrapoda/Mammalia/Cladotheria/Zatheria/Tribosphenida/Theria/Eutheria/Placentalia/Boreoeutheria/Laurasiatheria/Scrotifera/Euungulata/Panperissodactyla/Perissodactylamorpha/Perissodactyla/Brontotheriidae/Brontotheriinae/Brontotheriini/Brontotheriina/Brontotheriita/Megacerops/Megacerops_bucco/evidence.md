@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacerops bucco
       en: Megacerops bucco
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

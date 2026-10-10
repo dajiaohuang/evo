@@ -9,7 +9,6 @@ records:
     name:
       zh: Philodryas boliviana
       en: Philodryas boliviana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

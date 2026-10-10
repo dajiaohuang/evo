@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucosmodon primus
       en: Eucosmodon primus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

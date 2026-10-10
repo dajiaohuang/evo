@@ -9,7 +9,6 @@ records:
     name:
       zh: 高北白颊长臂猿
       en: Cao Vit gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology
@@ -315,9 +314,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Nomascus nasutus
@@ -445,7 +441,7 @@ A 2021 estimate and comparison with older methods do not establish abundance acr
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, other ecology, evolution, distribution beyond this survey block, fossils, conservation status beyond the cited study, systematic search, and expert review remain unassessed.
+Morphology, life history, other ecology, evolution, distribution beyond this survey block, fossils, conservation status beyond the cited study, systematic search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -463,5 +459,5 @@ The result excludes solitary dispersers and does not establish a global census o
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets, systematic evidence search, and external expert review remain unassessed.
+Most biological facets, systematic evidence search, remain unassessed.
 <!-- /evo:text -->

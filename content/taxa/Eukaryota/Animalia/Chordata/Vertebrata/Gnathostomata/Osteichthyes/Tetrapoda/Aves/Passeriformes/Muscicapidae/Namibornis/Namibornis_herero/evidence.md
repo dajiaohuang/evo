@@ -9,7 +9,6 @@ records:
     name:
       zh: Namibornis herero
       en: Namibornis herero
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

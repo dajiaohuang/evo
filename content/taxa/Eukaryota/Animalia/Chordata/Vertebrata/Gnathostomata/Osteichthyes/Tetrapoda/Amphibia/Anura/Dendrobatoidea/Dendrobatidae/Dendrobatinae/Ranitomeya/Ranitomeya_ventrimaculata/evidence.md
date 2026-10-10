@@ -9,7 +9,6 @@ records:
     name:
       en: Ranitomeya ventrimaculata
       zh: Ranitomeya ventrimaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

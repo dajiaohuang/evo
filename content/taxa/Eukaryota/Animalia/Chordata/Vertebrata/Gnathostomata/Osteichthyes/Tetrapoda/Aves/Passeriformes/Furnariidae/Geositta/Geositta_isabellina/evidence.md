@@ -9,7 +9,6 @@ records:
     name:
       zh: Geositta isabellina
       en: Geositta isabellina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

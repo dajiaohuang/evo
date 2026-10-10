@@ -9,7 +9,6 @@ records:
     name:
       zh: Semirostrum ceruttii
       en: Semirostrum ceruttii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

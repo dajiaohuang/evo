@@ -9,7 +9,6 @@ records:
     name:
       zh: Pardirallus lacustris
       en: Pardirallus lacustris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

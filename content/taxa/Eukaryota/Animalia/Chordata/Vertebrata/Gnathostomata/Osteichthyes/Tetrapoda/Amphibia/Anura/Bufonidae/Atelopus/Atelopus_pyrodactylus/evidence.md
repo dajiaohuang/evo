@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus pyrodactylus
       zh: Atelopus pyrodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

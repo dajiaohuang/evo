@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus orcutti
       en: Sceloporus orcutti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

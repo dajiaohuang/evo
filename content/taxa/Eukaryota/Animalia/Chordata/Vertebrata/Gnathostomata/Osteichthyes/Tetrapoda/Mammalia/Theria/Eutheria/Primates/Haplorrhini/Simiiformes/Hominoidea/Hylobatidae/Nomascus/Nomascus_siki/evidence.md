@@ -9,7 +9,6 @@ records:
     name:
       zh: 南白颊长臂猿
       en: Southern White-cheeked Crested Gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

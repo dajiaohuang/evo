@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps diabolicus
       zh: Batrachoseps diabolicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

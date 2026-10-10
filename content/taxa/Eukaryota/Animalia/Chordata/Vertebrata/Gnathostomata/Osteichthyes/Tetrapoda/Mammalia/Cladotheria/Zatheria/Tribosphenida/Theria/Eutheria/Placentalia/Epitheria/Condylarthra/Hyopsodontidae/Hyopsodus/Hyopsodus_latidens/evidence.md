@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyopsodus latidens
       en: Hyopsodus latidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

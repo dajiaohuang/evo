@@ -1,6 +1,6 @@
 # ITIS Reptilia authority sidecars
 
-Release `2026.08-static-v5-rc72` pins a nomenclatural crosswalk from the official ITIS monthly SQLite export dated 2026-08-26 to the strict accepted-species rows in the COL26.8 release dated 2026-08-20. It is an identifier and name-status sidecar, not a claim that ITIS and COL use identical species concepts, a final classification authority, a phylogeny, a fossil record, a biological dossier or expert review.
+Release `2026.08-static-v5-rc72` pins a nomenclatural crosswalk from the official ITIS monthly SQLite export dated 2026-08-26 to the strict accepted-species rows in the COL26.8 release dated 2026-08-20. It is an identifier and name-status sidecar, not a claim that ITIS and COL use identical species concepts, a final classification authority, a phylogeny, a fossil record, a biological dossier.
 
 ## Exact scope
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron subunicolor
       en: Trochalopteron subunicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

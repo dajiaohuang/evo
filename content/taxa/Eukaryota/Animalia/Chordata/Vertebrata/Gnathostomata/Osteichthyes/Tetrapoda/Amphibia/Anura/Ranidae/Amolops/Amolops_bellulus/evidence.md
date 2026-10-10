@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops bellulus
       zh: Amolops bellulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trapelus megalonyx
       en: Trapelus megalonyx
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

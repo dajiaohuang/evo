@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella petrops
       zh: Leptobrachella petrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

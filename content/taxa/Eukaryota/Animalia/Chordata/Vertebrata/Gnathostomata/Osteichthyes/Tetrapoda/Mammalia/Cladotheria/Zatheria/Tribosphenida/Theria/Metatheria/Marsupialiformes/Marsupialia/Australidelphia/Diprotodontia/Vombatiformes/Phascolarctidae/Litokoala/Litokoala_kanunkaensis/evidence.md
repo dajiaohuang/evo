@@ -9,7 +9,6 @@ records:
     name:
       zh: Litokoala kanunkaensis
       en: Litokoala kanunkaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

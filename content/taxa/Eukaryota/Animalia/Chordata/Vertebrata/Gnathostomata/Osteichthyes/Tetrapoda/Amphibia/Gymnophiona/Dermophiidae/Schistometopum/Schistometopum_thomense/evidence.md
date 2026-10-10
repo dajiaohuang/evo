@@ -9,7 +9,6 @@ records:
     name:
       en: Schistometopum thomense
       zh: Schistometopum thomense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

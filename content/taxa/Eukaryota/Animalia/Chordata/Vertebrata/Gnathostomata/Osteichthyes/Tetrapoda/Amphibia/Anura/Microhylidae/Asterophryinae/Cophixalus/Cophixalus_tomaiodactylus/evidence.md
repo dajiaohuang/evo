@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus tomaiodactylus
       zh: Cophixalus tomaiodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

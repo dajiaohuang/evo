@@ -30,7 +30,7 @@ erickson2012
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-A focused comparative biomechanics guide; not externally expert-reviewed or a complete diet or behavior account. The experiment used adult collection specimens; its feeding-ecology summary is not a field observation from this experiment.
+A focused comparative biomechanics guide; or a complete diet or behavior account. The experiment used adult collection specimens; its feeding-ecology summary is not a field observation from this experiment.
 <!-- /evo:text -->
 
 ## Name and this data account

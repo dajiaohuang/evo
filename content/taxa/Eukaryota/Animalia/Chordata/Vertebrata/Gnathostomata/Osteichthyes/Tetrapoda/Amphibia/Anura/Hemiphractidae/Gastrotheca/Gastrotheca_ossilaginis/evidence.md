@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca ossilaginis
       zh: Gastrotheca ossilaginis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

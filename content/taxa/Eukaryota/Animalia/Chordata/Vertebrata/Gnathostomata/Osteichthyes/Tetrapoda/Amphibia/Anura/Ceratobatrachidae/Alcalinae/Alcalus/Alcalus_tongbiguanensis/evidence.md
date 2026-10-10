@@ -9,7 +9,6 @@ records:
     name:
       en: Alcalus tongbiguanensis
       zh: Alcalus tongbiguanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

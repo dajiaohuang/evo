@@ -9,7 +9,6 @@ records:
     name:
       zh: Levnesovia transoxiana
       en: Levnesovia transoxiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton himalayanus
       zh: Tylototriton himalayanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

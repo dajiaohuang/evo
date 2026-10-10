@@ -9,7 +9,6 @@ records:
     name:
       zh: 狒狒属
       en: Papio baboons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -36,7 +35,7 @@ records:
           - jordan2018
       - topic: readingPath
         sourceIds:
-          - taxonomy
+          - taxonomy_genus
           - amnioteLifeHistory2015
           - amnioteLifeHistoryMethods2015
         text:
@@ -48,7 +47,7 @@ records:
             field: /records/catalogue-profile/sections/1/text/en
       - topic: readingPath
         sourceIds:
-          - taxonomy
+          - taxonomy_genus
           - eltonTraits2014
           - eltonTraitsMethods2014
         text:
@@ -443,9 +442,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: COL26.8 ChecklistBank dataset 316115; accepted usage 6TM9B and parent chain checked 2026-09-27
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -479,7 +475,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 dataset 316115; accepted usage 6DGR, with Papionini parent classification (identity and classification only)
-      reviewStatus: automated-audit-passed
 ---
 
 # Papio

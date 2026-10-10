@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiolopisma alazon
       en: Leiolopisma alazon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

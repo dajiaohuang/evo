@@ -9,7 +9,6 @@ records:
     name:
       zh: Francolinus francolinus
       en: Francolinus francolinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

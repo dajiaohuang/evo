@@ -9,7 +9,6 @@ records:
     name:
       zh: Gregorymys larsoni
       en: Gregorymys larsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

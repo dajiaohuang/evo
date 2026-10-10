@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdophis leonardi
       en: Rhabdophis leonardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

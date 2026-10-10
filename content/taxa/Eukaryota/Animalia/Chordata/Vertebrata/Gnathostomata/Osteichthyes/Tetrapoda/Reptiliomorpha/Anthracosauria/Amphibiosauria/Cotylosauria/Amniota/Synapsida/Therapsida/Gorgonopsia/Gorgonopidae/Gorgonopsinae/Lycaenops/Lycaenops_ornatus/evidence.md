@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycaenops ornatus
       en: Lycaenops ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

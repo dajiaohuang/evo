@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus amboli
       zh: Pseudophilautus amboli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

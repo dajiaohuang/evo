@@ -9,7 +9,6 @@ records:
     name:
       zh: Amandava formosa
       en: Amandava formosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thisbemys perditus
       en: Thisbemys perditus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

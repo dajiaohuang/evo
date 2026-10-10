@@ -9,7 +9,6 @@ records:
     name:
       zh: Zygorhiza kochii
       en: Zygorhiza kochii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

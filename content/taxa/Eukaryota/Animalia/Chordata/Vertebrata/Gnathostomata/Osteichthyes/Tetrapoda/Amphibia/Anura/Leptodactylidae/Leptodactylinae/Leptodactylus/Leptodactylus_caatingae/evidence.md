@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus caatingae
       zh: Leptodactylus caatingae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

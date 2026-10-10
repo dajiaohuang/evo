@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-论文的种群与森林数字对应 2013—2014 年证据和方法；早期文献使用不同分类组合，有时将 epieni 作为亚种。 本页为有来源的初稿，尚未经过外部领域专家评审。
+论文的种群与森林数字对应 2013—2014 年证据和方法；早期文献使用不同分类组合，有时将 epieni 作为亚种。 本页为有来源的初稿。
 <!-- /evo:text -->

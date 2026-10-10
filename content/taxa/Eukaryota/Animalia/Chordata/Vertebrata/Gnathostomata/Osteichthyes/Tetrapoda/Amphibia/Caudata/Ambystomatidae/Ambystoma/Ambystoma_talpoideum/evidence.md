@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma talpoideum
       zh: Ambystoma talpoideum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

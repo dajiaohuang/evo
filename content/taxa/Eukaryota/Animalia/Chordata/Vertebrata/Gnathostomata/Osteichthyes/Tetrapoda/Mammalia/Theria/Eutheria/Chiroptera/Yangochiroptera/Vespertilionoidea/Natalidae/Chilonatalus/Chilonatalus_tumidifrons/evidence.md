@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilonatalus tumidifrons
       en: Chilonatalus tumidifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Turnipax oechslerorum
       en: Turnipax oechslerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

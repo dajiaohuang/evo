@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesodma thompsoni
       en: Mesodma thompsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

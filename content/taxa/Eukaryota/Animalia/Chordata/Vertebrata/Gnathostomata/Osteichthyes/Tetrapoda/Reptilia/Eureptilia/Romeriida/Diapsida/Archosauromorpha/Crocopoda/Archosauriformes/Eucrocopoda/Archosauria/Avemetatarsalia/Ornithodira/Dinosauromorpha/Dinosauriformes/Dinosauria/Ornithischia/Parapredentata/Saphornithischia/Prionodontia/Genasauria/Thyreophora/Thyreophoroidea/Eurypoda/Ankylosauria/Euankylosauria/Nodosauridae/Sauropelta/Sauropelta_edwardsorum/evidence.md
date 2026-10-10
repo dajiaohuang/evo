@@ -9,7 +9,6 @@ records:
     name:
       zh: Sauropelta edwardsorum
       en: Sauropelta edwardsorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

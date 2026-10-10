@@ -9,7 +9,6 @@ records:
     name:
       zh: Progonomys woelferi
       en: Progonomys woelferi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

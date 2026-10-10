@@ -9,7 +9,6 @@ records:
     name:
       zh: Mycerobas melanozanthos
       en: Mycerobas melanozanthos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 犬科
       en: Canid family
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -453,9 +452,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: nyakatura-2012-carnivora-supertree concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: nyakatura-2012-carnivora-supertree
@@ -490,7 +486,6 @@ records:
       referenceLocators:
         - referenceId: nyakatura-2012-carnivora-supertree
           locator: Article 12; Canidae subtree and higher caniform topology
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

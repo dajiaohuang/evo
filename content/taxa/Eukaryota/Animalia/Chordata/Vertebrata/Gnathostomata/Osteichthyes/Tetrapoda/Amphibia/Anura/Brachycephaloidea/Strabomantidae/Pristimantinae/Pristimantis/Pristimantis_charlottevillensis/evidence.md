@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis charlottevillensis
       zh: Pristimantis charlottevillensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

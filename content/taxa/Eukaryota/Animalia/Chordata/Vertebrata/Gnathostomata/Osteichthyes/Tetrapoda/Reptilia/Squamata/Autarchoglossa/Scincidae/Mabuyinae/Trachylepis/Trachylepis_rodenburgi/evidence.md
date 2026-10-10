@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis rodenburgi
       en: Trachylepis rodenburgi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

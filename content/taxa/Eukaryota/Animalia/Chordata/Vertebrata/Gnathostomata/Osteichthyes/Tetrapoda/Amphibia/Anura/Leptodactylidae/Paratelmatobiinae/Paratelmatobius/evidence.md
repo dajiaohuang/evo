@@ -9,7 +9,6 @@ records:
     name:
       en: Paratelmatobius
       zh: Paratelmatobius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ithycyphus blanci
       en: Ithycyphus blanci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

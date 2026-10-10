@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor vocalis
       zh: Craugastor vocalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

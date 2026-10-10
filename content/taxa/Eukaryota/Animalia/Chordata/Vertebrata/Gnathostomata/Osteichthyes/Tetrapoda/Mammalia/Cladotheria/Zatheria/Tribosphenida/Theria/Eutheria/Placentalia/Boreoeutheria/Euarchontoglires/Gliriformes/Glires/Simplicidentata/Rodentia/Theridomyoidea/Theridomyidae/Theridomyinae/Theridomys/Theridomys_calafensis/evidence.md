@@ -9,7 +9,6 @@ records:
     name:
       zh: Theridomys calafensis
       en: Theridomys calafensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

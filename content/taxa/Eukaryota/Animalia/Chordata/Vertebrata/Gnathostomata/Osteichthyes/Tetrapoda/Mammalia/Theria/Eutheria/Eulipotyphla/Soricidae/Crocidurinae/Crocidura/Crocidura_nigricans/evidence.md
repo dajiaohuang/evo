@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura nigricans
       en: Crocidura nigricans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

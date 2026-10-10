@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: takezaki-2021-teleost-divergence DOI 10.1093/gbe/evab052; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: takezaki-2021-teleost-divergence
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: qi-2024-teleost-wgd-dating; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: qi-2024-teleost-wgd-dating
@@ -90,7 +84,6 @@ records:
       referenceLocators:
         - referenceId: qi-2024-teleost-wgd-dating
           locator: "Article evae128; Figure 1; Supplementary Table S1; Results: Clupeocephala 210.83–186.01 Ma"
-      reviewStatus: automated-audit-passed
 ---
 
 # Clupeocephala

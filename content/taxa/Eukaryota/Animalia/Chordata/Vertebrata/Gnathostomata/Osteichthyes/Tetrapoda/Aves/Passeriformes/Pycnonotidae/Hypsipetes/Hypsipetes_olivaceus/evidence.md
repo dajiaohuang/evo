@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsipetes olivaceus
       en: Hypsipetes olivaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neotoma pygmaea
       en: Neotoma pygmaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

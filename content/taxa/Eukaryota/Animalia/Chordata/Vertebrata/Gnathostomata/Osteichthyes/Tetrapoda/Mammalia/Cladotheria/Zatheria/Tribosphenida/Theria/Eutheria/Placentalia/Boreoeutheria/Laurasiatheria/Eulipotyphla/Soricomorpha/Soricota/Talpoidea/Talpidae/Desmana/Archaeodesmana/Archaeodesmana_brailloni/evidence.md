@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeodesmana brailloni
       en: Archaeodesmana brailloni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

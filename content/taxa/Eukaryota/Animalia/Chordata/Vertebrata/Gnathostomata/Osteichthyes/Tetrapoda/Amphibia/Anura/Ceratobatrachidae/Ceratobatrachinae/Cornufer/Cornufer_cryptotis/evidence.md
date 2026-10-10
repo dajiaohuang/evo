@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer cryptotis
       zh: Cornufer cryptotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

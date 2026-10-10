@@ -9,7 +9,6 @@ records:
     name:
       zh: Cotinga nattererii
       en: Cotinga nattererii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanosaurus acutirostris
       en: Varanosaurus acutirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

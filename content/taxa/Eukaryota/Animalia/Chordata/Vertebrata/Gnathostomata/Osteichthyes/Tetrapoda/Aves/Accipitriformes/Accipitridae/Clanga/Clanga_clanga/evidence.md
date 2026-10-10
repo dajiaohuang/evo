@@ -9,7 +9,6 @@ records:
     name:
       zh: Clanga clanga
       en: Clanga clanga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

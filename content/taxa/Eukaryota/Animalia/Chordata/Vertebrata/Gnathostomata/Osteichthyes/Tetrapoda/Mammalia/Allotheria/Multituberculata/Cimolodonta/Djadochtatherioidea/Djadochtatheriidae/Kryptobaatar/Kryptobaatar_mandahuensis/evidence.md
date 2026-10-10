@@ -9,7 +9,6 @@ records:
     name:
       zh: Kryptobaatar mandahuensis
       en: Kryptobaatar mandahuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

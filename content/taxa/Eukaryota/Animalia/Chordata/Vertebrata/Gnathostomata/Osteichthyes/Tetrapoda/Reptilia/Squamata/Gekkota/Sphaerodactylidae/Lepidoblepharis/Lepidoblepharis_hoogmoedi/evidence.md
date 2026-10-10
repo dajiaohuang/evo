@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidoblepharis hoogmoedi
       en: Lepidoblepharis hoogmoedi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

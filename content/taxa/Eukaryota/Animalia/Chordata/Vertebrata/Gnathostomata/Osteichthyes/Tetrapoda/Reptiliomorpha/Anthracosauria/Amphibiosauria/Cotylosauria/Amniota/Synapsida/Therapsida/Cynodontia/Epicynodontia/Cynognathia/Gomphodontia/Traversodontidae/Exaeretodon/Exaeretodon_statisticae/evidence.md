@@ -9,7 +9,6 @@ records:
     name:
       zh: Exaeretodon statisticae
       en: Exaeretodon statisticae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

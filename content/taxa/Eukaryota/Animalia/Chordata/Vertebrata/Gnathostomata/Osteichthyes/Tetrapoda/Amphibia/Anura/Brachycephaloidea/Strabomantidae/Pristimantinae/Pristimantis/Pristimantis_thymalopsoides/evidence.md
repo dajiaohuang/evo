@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis thymalopsoides
       zh: Pristimantis thymalopsoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

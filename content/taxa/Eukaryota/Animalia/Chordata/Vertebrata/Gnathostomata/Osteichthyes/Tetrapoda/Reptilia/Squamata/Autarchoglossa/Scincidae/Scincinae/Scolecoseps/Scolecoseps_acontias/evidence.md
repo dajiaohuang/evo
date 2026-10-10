@@ -9,7 +9,6 @@ records:
     name:
       zh: Scolecoseps acontias
       en: Scolecoseps acontias
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

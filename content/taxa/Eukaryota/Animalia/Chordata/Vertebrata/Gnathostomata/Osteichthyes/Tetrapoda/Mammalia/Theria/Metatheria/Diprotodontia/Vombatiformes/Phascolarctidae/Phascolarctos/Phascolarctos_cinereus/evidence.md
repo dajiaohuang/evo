@@ -9,7 +9,6 @@ records:
     name:
       zh: Phascolarctos cinereus
       en: Phascolarctos cinereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

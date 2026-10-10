@@ -22,5 +22,5 @@ Heymann (2000) compared scent-mark locations within the home ranges of four wild
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The COL26.8 name is retained; older papers use *Saguinus mystax*. Local results do not represent the whole species. This bilingual draft has not received external expert review. This page is not externally expert-reviewed.
+The COL26.8 name is retained; older papers use *Saguinus mystax*. Local results do not represent the whole species. This bilingual draft. This page is.
 <!-- /evo:text -->

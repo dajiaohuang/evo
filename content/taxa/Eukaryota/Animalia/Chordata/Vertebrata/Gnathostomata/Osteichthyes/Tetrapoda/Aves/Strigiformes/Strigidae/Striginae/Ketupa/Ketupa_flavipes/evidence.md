@@ -9,7 +9,6 @@ records:
     name:
       zh: Ketupa flavipes
       en: Ketupa flavipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

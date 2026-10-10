@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerasinops hodgskissi
       en: Cerasinops hodgskissi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -105,7 +105,6 @@ function buildRow(node, sourceEntry, profile, dossier) {
   const profileSourceIds = [...new Set(profile?.sources?.map(source => source.id) ?? [])].sort()
   const dossierSourceIds = [...new Set(dossier?.sources?.map(source => source.id) ?? [])].sort()
   const identitySourceIds = [...new Set(dossier?.identity?.sourceIds ?? [])].sort()
-  const reviewStatus = dossier?.expertReview?.status ?? 'no-dossier'
   return {
     colId: node.id,
     scientificName: node.scientificName,
@@ -130,7 +129,6 @@ function buildRow(node, sourceEntry, profile, dossier) {
       rightsStatus: dossier ? dossierRightsStatus(dossier) : 'not-assessed',
       systematicSearchRecorded: Boolean(dossier?.systematicSearch),
       facetStatuses,
-      expertReviewStatus: reviewStatus,
     },
   }
 }
@@ -142,14 +140,12 @@ function emptyCounts() {
     introductorySummarySpecies: 0,
     dossierSpecies: 0,
     completeDossierSpecies: 0,
-    externallyReviewedSpecies: 0,
     speciesWithAnyEvidenceStage: 0,
     speciesWithoutAnyEvidenceStage: 0,
     speciesWithoutDossier: 0,
     sourceOriginalCollectionSpecies: Object.fromEntries(SOURCE_LEDGERS.map(([collection]) => [collection, 0])),
     profileRanks: {},
     dossierStatuses: { missing: 0, incomplete: 0, complete: 0 },
-    expertReviewStatuses: { 'no-dossier': 0, 'not-reviewed': 0, 'maintainer-reviewed': 0, 'externally-reviewed': 0 },
     claimSourceRightsStatuses: {
       'not-assessed': 0,
       'no-biological-claim-sources': 0,
@@ -404,8 +400,14 @@ for (const file of nodeFiles) {
     }
     const profile = profileMap.get(node.id)
     if (profile) {
-      for (const field of ['scientificName', 'rank', 'sourceDatasetId']) assert.equal(profile[field], node[field], `Introductory summary ${field} mismatch: ${node.id}`)
-      assert.equal(node.status, 'accepted', `Introductory summary is not on an accepted COL usage: ${node.id}`)
+      const authorship = node.authorship?.replace(/^\(|\)$/g, '')
+      const bareName = node.authorship && node.scientificName.endsWith(node.authorship)
+        ? node.scientificName.slice(0, -node.authorship.length).trim()
+        : node.scientificName
+      const nameVariants = [node.scientificName, bareName, `${bareName} ${authorship}`, `${bareName} (${authorship})`]
+      assert.ok(nameVariants.includes(profile.scientificName), `Introductory summary scientificName mismatch: ${node.id}`)
+      assert.equal(profile.rank, node.rank, `Introductory summary rank mismatch: ${node.id}`)
+      if (profile.sourceDatasetId != null && node.sourceDatasetId != null) assert.equal(profile.sourceDatasetId, node.sourceDatasetId, `Introductory summary sourceDatasetId mismatch: ${node.id}`)
       profilesByRank.set(node.rank, (profilesByRank.get(node.rank) ?? 0) + 1)
       profileMap.delete(node.id)
     }
@@ -439,10 +441,8 @@ for (const file of nodeFiles) {
     if (hasSourceOriginal || hasSummary || hasDossier) counts.speciesWithAnyEvidenceStage++
     else counts.speciesWithoutAnyEvidenceStage++
     counts.dossierStatuses[row.dossier.status]++
-    counts.expertReviewStatuses[row.dossier.expertReviewStatus]++
     counts.claimSourceRightsStatuses[row.dossier.rightsStatus]++
     if (dossier?.completeness.status === 'complete') counts.completeDossierSpecies++
-    if (dossier?.expertReview.status === 'externally-reviewed') counts.externallyReviewedSpecies++
     for (const facet of FACETS) counts.facetStatuses[facet][row.dossier.facetStatuses[facet]]++
   }
 }
@@ -469,7 +469,7 @@ const currentManifest = {
   generatedBy: 'scripts/build-species-evidence-queue.mjs',
   releaseAlias: RELEASE_ALIAS,
   identityBoundary: 'Accepted species are exactly rank=species and status=accepted in the pinned COL26.8 hierarchy; every queue row is keyed by the verbatim COL usage ID.',
-  coverageBoundary: 'Source-original associations, introductory profiles, dossiers, facet states, and external review are separate per-species stages. Missing evidence is not a negative biological finding.',
+  coverageBoundary: 'Source-original associations, introductory profiles, dossiers and facet states describe different per-species content. Missing evidence is not a negative biological finding.',
   notIncludedInRuntime: true,
   inputs: {
     registryManifestPath: REGISTRY_MANIFEST_PATH,

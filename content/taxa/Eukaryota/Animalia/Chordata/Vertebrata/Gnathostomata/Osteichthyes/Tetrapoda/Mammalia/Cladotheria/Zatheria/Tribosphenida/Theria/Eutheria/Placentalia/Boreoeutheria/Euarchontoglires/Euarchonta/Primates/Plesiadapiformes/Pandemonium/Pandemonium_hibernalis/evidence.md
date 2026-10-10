@@ -9,7 +9,6 @@ records:
     name:
       zh: Pandemonium hibernalis
       en: Pandemonium hibernalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

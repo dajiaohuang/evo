@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllops falcatus
       en: Phyllops falcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

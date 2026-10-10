@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilgatherium harrisi
       en: Chilgatherium harrisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

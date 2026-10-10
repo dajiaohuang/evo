@@ -9,7 +9,6 @@ records:
     name:
       zh: Argyrohyrax
       en: Argyrohyrax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

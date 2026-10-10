@@ -9,7 +9,6 @@ records:
     name:
       zh: Genetta tigrina
       en: Genetta tigrina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

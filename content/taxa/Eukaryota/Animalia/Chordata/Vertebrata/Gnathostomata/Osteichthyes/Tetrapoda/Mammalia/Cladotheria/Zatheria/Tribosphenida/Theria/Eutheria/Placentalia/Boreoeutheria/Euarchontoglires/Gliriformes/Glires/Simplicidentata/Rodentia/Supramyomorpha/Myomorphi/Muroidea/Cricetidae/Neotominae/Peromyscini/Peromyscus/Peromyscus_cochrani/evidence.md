@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus cochrani
       en: Peromyscus cochrani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

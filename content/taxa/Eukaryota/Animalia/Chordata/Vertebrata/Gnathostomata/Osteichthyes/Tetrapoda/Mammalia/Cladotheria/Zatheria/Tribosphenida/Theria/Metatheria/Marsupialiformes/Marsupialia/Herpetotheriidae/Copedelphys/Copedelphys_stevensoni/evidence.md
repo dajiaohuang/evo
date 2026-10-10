@@ -9,7 +9,6 @@ records:
     name:
       zh: Copedelphys stevensoni
       en: Copedelphys stevensoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

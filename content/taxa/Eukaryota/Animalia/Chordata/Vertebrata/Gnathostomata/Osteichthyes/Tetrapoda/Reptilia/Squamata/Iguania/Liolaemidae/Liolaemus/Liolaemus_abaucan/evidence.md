@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus abaucan
       en: Liolaemus abaucan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

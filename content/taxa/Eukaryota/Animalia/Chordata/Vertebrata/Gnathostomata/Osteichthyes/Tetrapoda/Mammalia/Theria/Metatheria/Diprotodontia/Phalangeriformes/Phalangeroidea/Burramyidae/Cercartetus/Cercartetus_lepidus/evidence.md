@@ -9,7 +9,6 @@ records:
     name:
       zh: Cercartetus lepidus
       en: Cercartetus lepidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

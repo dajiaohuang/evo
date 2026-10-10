@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelonia oligocena
       en: Chelonia oligocena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

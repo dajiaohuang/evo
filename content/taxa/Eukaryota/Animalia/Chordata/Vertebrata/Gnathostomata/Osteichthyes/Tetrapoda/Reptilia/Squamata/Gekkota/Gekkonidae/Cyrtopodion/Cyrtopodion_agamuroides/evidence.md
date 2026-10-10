@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtopodion agamuroides
       en: Cyrtopodion agamuroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Corythaeola
       en: Corythaeola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

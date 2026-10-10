@@ -9,7 +9,6 @@ records:
     name:
       zh: 詹姆斯运动狐猴
       en: James's Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: morphology and field description

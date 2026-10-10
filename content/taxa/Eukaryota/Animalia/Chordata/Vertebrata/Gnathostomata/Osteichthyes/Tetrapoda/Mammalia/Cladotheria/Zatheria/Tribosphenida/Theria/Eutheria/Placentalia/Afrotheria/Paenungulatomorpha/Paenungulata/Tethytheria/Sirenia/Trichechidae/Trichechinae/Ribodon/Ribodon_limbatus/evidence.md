@@ -9,7 +9,6 @@ records:
     name:
       zh: Ribodon limbatus
       en: Ribodon limbatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

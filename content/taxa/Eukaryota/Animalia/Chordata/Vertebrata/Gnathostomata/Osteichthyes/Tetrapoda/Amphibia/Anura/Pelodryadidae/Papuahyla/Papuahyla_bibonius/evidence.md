@@ -9,7 +9,6 @@ records:
     name:
       en: Papuahyla bibonius
       zh: Papuahyla bibonius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

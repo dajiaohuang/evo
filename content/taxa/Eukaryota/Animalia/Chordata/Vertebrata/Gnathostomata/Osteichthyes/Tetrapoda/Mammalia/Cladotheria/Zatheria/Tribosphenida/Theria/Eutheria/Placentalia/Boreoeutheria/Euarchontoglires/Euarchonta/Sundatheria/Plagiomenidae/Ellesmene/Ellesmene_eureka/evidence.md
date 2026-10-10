@@ -9,7 +9,6 @@ records:
     name:
       zh: Ellesmene eureka
       en: Ellesmene eureka
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

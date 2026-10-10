@@ -9,7 +9,6 @@ records:
     name:
       zh: Vidua codringtoni
       en: Vidua codringtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

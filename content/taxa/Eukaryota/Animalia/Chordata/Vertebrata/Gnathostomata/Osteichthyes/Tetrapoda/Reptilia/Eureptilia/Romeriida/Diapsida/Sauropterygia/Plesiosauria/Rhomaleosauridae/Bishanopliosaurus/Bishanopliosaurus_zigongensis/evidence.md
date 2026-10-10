@@ -9,7 +9,6 @@ records:
     name:
       zh: Bishanopliosaurus zigongensis
       en: Bishanopliosaurus zigongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

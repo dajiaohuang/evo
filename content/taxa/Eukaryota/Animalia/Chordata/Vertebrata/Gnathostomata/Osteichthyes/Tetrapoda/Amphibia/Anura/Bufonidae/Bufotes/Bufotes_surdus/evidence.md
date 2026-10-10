@@ -9,7 +9,6 @@ records:
     name:
       en: Bufotes surdus
       zh: Bufotes surdus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

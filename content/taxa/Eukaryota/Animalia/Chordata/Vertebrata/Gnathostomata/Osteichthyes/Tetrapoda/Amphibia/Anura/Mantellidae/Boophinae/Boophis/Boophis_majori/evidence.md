@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis majori
       zh: Boophis majori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Marinavis longirostris
       en: Marinavis longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

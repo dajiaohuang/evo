@@ -22,5 +22,5 @@ Read the 2008 report for the first distribution baseline, the 2022 paper for the
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a navigation guide to COL26.8 species ID 4TQGL, not a genus-wide ecological synthesis or a current combined population estimate. No dossier or external expert review was added. This page is not externally expert-reviewed.
+This is a navigation guide to COL26.8 species ID 4TQGL, not a genus-wide ecological synthesis or a current combined population estimate. This page is.
 <!-- /evo:text -->

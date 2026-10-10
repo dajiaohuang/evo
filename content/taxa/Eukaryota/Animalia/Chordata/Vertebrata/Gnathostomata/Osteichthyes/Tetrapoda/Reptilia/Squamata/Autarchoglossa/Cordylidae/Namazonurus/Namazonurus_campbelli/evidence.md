@@ -9,7 +9,6 @@ records:
     name:
       zh: Namazonurus campbelli
       en: Namazonurus campbelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

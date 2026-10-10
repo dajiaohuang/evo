@@ -9,7 +9,6 @@ records:
     name:
       zh: Oecomys phaeotis
       en: Oecomys phaeotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

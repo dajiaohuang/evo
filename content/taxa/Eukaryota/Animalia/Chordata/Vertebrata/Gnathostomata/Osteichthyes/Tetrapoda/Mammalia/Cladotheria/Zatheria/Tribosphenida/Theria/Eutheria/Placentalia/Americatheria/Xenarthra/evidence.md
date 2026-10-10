@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenarthra
       en: Xenarthra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

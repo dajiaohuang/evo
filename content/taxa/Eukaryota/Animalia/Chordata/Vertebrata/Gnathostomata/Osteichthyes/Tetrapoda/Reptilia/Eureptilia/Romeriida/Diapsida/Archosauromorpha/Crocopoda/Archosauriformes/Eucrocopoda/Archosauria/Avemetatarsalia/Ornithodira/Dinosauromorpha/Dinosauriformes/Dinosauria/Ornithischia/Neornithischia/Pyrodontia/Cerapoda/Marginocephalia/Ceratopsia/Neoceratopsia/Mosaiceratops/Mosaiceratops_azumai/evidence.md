@@ -9,7 +9,6 @@ records:
     name:
       zh: Mosaiceratops azumai
       en: Mosaiceratops azumai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

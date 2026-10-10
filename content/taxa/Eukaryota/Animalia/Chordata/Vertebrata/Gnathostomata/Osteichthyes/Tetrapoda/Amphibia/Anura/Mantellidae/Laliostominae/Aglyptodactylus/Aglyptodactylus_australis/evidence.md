@@ -9,7 +9,6 @@ records:
     name:
       en: Aglyptodactylus australis
       zh: Aglyptodactylus australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

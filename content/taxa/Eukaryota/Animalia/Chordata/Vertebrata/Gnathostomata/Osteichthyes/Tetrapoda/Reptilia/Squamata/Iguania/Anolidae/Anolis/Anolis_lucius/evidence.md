@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis lucius
       en: Anolis lucius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

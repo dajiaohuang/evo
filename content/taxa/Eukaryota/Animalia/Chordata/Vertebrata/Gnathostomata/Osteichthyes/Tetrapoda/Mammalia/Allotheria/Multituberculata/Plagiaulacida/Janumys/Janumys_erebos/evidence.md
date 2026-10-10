@@ -9,7 +9,6 @@ records:
     name:
       zh: Janumys erebos
       en: Janumys erebos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

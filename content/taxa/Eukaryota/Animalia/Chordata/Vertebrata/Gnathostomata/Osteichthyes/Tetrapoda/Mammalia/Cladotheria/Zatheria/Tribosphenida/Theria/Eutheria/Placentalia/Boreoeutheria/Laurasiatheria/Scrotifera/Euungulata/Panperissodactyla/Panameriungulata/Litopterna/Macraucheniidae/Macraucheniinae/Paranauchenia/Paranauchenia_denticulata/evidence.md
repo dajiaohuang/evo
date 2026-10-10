@@ -9,7 +9,6 @@ records:
     name:
       zh: Paranauchenia denticulata
       en: Paranauchenia denticulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

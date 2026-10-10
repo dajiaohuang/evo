@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus zapalensis
       en: Phymaturus zapalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

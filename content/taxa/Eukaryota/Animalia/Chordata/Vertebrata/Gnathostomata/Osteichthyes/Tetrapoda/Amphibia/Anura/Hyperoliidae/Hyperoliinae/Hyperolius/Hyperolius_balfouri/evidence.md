@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius balfouri
       zh: Hyperolius balfouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

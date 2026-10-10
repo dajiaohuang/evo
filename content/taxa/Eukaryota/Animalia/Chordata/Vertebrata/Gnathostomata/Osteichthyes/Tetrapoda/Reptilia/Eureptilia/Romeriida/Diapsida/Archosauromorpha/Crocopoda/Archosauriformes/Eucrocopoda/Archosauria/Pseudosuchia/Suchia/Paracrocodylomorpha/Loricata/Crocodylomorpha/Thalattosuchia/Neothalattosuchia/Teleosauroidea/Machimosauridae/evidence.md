@@ -9,7 +9,6 @@ records:
     name:
       zh: Machimosauridae
       en: Machimosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

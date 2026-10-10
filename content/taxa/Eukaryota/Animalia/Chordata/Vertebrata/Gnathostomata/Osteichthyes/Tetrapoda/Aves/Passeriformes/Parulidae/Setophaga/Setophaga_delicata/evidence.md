@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga delicata
       en: Setophaga delicata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinyongia vosseleri
       en: Kinyongia vosseleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

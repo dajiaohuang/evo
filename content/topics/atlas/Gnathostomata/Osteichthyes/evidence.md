@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: zhu-2026-eosteus primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: zhu-2026-eosteus
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: zhu-2026-eosteus
           locator: pp. 128–134; Figures 1–5; Extended Data; Supplementary Data 1–7
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

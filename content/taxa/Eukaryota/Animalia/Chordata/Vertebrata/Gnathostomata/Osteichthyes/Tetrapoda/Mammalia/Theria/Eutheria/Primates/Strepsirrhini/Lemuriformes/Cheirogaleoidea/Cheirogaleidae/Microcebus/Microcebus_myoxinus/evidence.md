@@ -9,7 +9,6 @@ records:
     name:
       zh: 彼得斯鼠狐猴
       en: Peters's Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

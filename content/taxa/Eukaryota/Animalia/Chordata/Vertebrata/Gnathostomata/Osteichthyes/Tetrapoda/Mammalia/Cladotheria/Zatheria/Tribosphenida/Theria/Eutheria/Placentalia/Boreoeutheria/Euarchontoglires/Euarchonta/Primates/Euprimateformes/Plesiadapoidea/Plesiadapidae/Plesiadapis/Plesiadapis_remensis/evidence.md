@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiadapis remensis
       en: Plesiadapis remensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

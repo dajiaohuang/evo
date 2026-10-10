@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis aubryioides
       zh: Leptopelis aubryioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

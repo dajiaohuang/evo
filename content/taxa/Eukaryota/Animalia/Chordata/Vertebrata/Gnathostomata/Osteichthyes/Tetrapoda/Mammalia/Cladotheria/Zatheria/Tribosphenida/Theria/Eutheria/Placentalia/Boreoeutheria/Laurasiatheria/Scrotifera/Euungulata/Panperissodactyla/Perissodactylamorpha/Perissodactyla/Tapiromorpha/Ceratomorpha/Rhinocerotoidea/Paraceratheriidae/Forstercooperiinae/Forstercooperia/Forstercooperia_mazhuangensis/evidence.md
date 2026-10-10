@@ -9,7 +9,6 @@ records:
     name:
       zh: Forstercooperia mazhuangensis
       en: Forstercooperia mazhuangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

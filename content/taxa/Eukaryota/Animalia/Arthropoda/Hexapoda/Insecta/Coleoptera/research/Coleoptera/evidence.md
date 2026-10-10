@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Zhao et al. 2021 DOI 10.7554/eLife.72692; Europe PMC PMC8585485 full text
       referenceLinks:
         - referenceId: zhao-2021-beetle-evolution
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mckenna-2019-beetle-diversity DOI 10.1073/pnas.1909655116; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: mckenna-2019-beetle-diversity
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zhao-2021 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: zhao-2021-beetle-evolution
           relation: supports
@@ -121,11 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: zhao-2021-beetle-evolution
           relation: supports
@@ -148,9 +134,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion: Zhao et al. 2021 DOI 10.7554/eLife.72692; concrete locators audited 2026-09-11
       referenceLinks:
         - referenceId: zhao-2021-beetle-evolution
           relation: supports
@@ -169,11 +152,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/5/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: mckenna-2019-beetle-diversity
           relation: supports
@@ -230,7 +208,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

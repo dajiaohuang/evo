@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidomorphus lineaticollis
       en: Aspidomorphus lineaticollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

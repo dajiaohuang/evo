@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops sinensis
       zh: Amolops sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

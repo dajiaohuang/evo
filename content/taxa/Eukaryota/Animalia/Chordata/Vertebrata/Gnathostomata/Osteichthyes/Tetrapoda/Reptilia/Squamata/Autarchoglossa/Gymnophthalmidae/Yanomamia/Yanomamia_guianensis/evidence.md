@@ -9,7 +9,6 @@ records:
     name:
       zh: Yanomamia guianensis
       en: Yanomamia guianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

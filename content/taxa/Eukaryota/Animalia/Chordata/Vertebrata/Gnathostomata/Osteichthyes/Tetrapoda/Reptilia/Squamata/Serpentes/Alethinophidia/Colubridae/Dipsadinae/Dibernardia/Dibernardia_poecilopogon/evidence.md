@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibernardia poecilopogon
       en: Dibernardia poecilopogon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

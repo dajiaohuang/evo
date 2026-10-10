@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus reginae
       en: Erythrolamprus reginae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicrurus atripennis
       en: Dicrurus atripennis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

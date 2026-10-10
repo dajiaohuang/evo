@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoboscincus bocourti
       en: Phoboscincus bocourti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

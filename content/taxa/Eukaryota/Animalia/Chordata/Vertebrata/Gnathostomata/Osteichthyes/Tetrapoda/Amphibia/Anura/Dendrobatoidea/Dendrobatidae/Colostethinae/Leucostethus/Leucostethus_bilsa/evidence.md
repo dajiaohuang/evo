@@ -9,7 +9,6 @@ records:
     name:
       en: Leucostethus bilsa
       zh: Leucostethus bilsa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

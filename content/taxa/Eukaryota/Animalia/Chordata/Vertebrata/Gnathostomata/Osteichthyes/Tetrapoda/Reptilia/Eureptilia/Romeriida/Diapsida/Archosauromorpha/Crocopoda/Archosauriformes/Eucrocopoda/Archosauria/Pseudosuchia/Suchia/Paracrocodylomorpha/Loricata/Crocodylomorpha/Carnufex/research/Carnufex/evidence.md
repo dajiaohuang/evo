@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zanno-2015-carnufex concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: zanno-2015-carnufex
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Zanno et al. 2015 DOI 10.1038/srep09276
       referenceLinks:
         - referenceId: zanno-2015-carnufex
           relation: supports
@@ -99,9 +93,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Zanno et al. 2015 DOI 10.1038/srep09276
       referenceLinks:
         - referenceId: zanno-2015-carnufex
           relation: supports
@@ -120,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Zanno et al. 2015 DOI 10.1038/srep09276
       referenceLinks:
         - referenceId: zanno-2015-carnufex
           relation: supports
@@ -141,9 +129,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Zanno et al. 2015 DOI 10.1038/srep09276
       referenceLinks:
         - referenceId: zanno-2015-carnufex
           relation: supports
@@ -188,7 +173,6 @@ records:
       referenceLocators:
         - referenceId: zanno-2015-carnufex
           locator: 9276; Figures 1–2; Table S2; Systematic palaeontology—Holotype; Results; Discussion
-      reviewStatus: automated-audit-passed
 ---
 
 # Carnufex

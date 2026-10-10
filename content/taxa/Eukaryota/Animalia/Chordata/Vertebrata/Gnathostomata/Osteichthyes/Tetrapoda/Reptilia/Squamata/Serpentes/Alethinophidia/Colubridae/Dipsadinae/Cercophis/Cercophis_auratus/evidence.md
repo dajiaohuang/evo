@@ -9,7 +9,6 @@ records:
     name:
       zh: Cercophis auratus
       en: Cercophis auratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

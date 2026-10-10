@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene altitudinalis
       zh: Centrolene altitudinalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

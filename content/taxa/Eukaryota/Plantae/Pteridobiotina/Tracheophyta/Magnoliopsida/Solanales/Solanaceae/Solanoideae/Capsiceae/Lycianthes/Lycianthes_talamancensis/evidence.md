@@ -336,12 +336,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Lycianthes talamancensis
@@ -578,10 +572,4 @@ The other three facets remain not assessed, and all four partially supported fac
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 The article-level text reuse license is unknown; the archive-level CC0 declaration applies only to extracted Plazi records.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nadzikambia baylissi
       en: Nadzikambia baylissi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

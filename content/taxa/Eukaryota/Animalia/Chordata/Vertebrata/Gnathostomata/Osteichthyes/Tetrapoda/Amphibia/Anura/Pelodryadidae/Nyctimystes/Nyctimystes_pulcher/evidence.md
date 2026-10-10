@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes pulcher
       zh: Nyctimystes pulcher
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

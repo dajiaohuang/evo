@@ -23,17 +23,22 @@ test('desktop home keeps the dashboard focused and places time-matched scenes on
   await expectNoHorizontalOverflow(page)
 })
 
-test('mobile static dossier keeps evidence status, actions and prose inside the viewport', async ({ page }) => {
+test('mobile static dossier keeps content and actions inside the viewport', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('./taxa/perissodactyla/')
-  await expect(page.locator('.status')).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Perissodactyla', exact: true })).toBeVisible()
+  await expect(page.locator('.dek')).not.toBeEmpty()
   await expect(page.locator('.actions .button')).toHaveCount(2)
-  const status = await page.locator('.status').boundingBox()
-  expect(status).not.toBeNull()
-  expect(status!.x).toBeGreaterThanOrEqual(0)
-  expect(status!.x + status!.width).toBeLessThanOrEqual(391)
   await expectNoHorizontalOverflow(page)
-  await expect(page.locator('.status')).toHaveScreenshot('flagship-evidence-status-mobile.png', { animations: 'disabled', maxDiffPixelRatio: 0.01 })
+})
+
+test('static dossier links preserve a taxonomy ID containing a colon', async ({ page }) => {
+  await page.goto('./taxa/txn~3A371114/')
+  await expect(page.getByRole('heading', { name: 'Tethydraco', exact: true })).toBeVisible()
+  const explorer = new URL(await page.getByRole('link', { name: 'Open in Explorer' }).getAttribute('href') ?? '', page.url())
+  expect(new URLSearchParams(explorer.hash.split('?')[1]).get('taxon')).toBe('txn:371114')
+  const report = new URL(await page.locator('.actions a').last().getAttribute('href') ?? '')
+  expect(report.searchParams.get('body')).toContain('Entity: txn:371114')
 })
 
 test('first Explorer visit walks through time, map, tree and evidence once', async ({ page }) => {

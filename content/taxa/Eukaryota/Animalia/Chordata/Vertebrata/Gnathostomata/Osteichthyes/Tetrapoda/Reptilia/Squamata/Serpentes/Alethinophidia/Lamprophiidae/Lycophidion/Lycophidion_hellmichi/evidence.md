@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion hellmichi
       en: Lycophidion hellmichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

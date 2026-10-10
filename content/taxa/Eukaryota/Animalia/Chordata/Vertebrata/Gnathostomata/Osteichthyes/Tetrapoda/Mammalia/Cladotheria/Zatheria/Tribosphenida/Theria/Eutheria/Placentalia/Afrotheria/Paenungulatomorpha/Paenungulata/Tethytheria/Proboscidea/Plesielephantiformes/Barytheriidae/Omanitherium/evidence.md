@@ -9,7 +9,6 @@ records:
     name:
       zh: Omanitherium
       en: Omanitherium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

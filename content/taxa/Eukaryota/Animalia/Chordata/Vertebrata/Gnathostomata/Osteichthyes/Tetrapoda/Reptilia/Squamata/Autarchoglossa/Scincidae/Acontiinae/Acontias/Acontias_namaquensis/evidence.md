@@ -9,7 +9,6 @@ records:
     name:
       zh: Acontias namaquensis
       en: Acontias namaquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

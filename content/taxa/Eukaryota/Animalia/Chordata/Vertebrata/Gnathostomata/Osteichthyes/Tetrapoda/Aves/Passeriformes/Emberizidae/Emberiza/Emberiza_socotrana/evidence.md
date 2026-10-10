@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza socotrana
       en: Emberiza socotrana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

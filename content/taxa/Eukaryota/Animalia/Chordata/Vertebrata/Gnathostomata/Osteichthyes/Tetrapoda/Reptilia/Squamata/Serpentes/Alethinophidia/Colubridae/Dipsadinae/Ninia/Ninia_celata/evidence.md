@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninia celata
       en: Ninia celata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

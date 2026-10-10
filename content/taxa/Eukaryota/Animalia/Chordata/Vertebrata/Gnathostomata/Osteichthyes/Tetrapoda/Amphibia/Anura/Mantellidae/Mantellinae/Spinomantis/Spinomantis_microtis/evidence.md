@@ -9,7 +9,6 @@ records:
     name:
       en: Spinomantis microtis
       zh: Spinomantis microtis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

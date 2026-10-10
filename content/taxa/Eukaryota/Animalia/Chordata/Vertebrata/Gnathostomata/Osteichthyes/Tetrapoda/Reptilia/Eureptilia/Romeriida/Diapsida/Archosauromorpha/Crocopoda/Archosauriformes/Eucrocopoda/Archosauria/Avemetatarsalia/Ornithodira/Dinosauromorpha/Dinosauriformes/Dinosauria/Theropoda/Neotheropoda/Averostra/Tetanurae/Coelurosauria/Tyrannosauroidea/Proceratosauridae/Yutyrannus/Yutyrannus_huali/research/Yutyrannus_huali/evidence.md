@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Xu et al. 2012 DOI 10.1038/nature10906
       referenceLinks:
         - referenceId: xu-2012-yutyrannus
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Xu et al. 2012 DOI 10.1038/nature10906
       referenceLinks:
         - referenceId: xu-2012-yutyrannus
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Xu et al. 2012 DOI 10.1038/nature10906
       referenceLinks:
         - referenceId: xu-2012-yutyrannus
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Xu et al. 2012 DOI 10.1038/nature10906
       referenceLinks:
         - referenceId: xu-2012-yutyrannus
           relation: supports
@@ -173,7 +161,6 @@ records:
       referenceLocators:
         - referenceId: xu-2012-yutyrannus
           locator: Cited named specimen and locality; no complete global range is claimed.
-      reviewStatus: not-reviewed
   field-claim-overrides:
     - firstAppearance:
         status: not-assessed

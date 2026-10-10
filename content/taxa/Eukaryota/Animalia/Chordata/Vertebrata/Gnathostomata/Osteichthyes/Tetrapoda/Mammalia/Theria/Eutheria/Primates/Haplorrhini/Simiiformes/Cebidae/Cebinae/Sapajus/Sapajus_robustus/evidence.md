@@ -9,7 +9,6 @@ records:
     name:
       zh: 冠毛卷尾猴
       en: Crested Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: feeding

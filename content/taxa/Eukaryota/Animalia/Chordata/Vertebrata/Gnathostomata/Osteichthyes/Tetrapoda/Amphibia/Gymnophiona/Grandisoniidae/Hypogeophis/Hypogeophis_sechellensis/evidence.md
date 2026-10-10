@@ -9,7 +9,6 @@ records:
     name:
       en: Hypogeophis sechellensis
       zh: Hypogeophis sechellensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

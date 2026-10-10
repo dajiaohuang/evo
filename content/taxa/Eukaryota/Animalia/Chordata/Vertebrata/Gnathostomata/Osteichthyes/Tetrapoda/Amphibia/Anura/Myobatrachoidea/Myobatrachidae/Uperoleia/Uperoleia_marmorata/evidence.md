@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia marmorata
       zh: Uperoleia marmorata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

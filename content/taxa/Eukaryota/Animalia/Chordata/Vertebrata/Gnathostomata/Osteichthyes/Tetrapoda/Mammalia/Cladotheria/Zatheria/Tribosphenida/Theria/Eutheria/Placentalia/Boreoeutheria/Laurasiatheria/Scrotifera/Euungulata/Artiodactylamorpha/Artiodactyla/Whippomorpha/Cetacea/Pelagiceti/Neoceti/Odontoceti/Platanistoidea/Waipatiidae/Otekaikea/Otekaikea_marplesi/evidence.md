@@ -9,7 +9,6 @@ records:
     name:
       zh: Otekaikea marplesi
       en: Otekaikea marplesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

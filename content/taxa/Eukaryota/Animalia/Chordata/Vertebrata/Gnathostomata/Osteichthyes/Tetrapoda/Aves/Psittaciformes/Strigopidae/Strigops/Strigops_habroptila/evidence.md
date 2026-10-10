@@ -9,7 +9,6 @@ records:
     name:
       zh: Strigops habroptila
       en: Strigops habroptila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycaenops tenuirostris
       en: Lycaenops tenuirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

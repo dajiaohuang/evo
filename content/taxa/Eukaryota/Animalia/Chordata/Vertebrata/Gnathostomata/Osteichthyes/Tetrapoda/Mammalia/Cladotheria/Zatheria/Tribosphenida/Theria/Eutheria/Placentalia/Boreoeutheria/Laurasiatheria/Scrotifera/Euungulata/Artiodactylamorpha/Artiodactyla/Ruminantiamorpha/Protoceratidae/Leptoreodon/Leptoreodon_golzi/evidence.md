@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptoreodon golzi
       en: Leptoreodon golzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

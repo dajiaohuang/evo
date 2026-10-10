@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrocophias andianus
       en: Bothrocophias andianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

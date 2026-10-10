@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalamynodon regalis
       en: Megalamynodon regalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Borkenia oschkinisi
       en: Borkenia oschkinisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

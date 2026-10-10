@@ -9,7 +9,6 @@ records:
     name:
       zh: Chodsigoa salenskii
       en: Chodsigoa salenskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

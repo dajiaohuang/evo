@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinclairella simplicidens
       en: Sinclairella simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

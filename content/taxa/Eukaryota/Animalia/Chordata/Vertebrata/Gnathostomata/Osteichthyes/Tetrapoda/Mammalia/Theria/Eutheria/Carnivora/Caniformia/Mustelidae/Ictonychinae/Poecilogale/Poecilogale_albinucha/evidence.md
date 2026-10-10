@@ -9,7 +9,6 @@ records:
     name:
       zh: Poecilogale albinucha
       en: Poecilogale albinucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

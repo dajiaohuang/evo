@@ -9,7 +9,6 @@ records:
     name:
       zh: Eothoracosaurus mississippiensis
       en: Eothoracosaurus mississippiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

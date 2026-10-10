@@ -9,7 +9,6 @@ records:
     name:
       zh: Corallus batesii
       en: Corallus batesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

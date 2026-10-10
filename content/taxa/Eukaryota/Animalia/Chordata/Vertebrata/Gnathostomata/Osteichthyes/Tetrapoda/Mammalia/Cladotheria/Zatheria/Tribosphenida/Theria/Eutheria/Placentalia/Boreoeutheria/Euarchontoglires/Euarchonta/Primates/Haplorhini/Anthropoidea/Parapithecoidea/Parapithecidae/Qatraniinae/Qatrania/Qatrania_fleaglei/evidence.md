@@ -9,7 +9,6 @@ records:
     name:
       zh: Qatrania fleaglei
       en: Qatrania fleaglei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Incakujira fordycei
       en: Incakujira fordycei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

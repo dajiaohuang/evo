@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus magister
       en: Phyllodactylus magister
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

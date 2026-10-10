@@ -9,7 +9,6 @@ records:
     name:
       zh: Iberolacerta horvathi
       en: Iberolacerta horvathi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

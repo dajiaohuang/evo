@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus nocturnus
       zh: Atelopus nocturnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

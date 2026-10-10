@@ -9,7 +9,6 @@ records:
     name:
       zh: Geniokeryx nanus
       en: Geniokeryx nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

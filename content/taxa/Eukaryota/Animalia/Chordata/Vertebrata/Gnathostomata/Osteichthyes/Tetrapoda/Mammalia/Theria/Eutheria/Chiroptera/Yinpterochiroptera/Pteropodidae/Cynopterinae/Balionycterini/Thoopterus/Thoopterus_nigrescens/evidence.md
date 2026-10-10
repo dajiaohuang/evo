@@ -9,7 +9,6 @@ records:
     name:
       zh: Thoopterus nigrescens
       en: Thoopterus nigrescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Conohyus sindiensis
       en: Conohyus sindiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

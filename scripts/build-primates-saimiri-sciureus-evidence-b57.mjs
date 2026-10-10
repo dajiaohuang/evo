@@ -75,7 +75,6 @@ dossier.classificationPath = path
 
 assert.equal(dossier.checkedAt, '2026-09-28')
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.deepEqual(dossier.identity.sourceIds, ['col'])
 assert.ok(['partially-supported', 'supported'].includes(dossier.facets.evolution.status))

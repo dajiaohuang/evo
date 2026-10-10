@@ -9,7 +9,6 @@ records:
     name:
       en: Hoplophryninae
       zh: Hoplophryninae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

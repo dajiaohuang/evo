@@ -16,7 +16,7 @@ This path connects all six species IDs in the fixed COL26.8 Callithrix roster, i
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-All six fixed COL26.8 species IDs are connected, but this selective reading path is not a complete range review or genus-wide synthesis. Local findings are not standardized. It is not externally expert-reviewed.
+All six fixed COL26.8 species IDs are connected, but this selective reading path is not a complete range review or genus-wide synthesis. Local findings are not standardized. It is.
 <!-- /evo:text -->
 
 ## Follow the life-history records

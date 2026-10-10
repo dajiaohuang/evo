@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobileon emersoculatus
       en: Gobileon emersoculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

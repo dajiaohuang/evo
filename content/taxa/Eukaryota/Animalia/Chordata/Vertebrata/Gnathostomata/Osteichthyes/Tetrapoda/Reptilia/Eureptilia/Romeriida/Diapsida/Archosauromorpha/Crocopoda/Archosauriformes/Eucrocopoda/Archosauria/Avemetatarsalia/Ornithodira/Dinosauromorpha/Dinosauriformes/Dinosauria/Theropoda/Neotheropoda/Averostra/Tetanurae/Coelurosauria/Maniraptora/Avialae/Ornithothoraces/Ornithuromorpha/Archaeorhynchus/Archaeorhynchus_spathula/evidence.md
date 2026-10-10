@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeorhynchus spathula
       en: Archaeorhynchus spathula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

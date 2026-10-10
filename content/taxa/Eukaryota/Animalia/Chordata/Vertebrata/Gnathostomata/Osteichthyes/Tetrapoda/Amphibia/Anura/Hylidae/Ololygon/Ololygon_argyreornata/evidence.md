@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon argyreornata
       zh: Ololygon argyreornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aix sponsa
       en: Aix sponsa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

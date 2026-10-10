@@ -9,7 +9,6 @@ records:
     name:
       zh: Plohophorus barrancalobensis
       en: Plohophorus barrancalobensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

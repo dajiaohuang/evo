@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepypodius bruijnii
       en: Aepypodius bruijnii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

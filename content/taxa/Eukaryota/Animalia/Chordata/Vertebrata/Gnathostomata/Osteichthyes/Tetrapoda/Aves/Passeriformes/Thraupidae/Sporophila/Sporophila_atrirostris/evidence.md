@@ -9,7 +9,6 @@ records:
     name:
       zh: Sporophila atrirostris
       en: Sporophila atrirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

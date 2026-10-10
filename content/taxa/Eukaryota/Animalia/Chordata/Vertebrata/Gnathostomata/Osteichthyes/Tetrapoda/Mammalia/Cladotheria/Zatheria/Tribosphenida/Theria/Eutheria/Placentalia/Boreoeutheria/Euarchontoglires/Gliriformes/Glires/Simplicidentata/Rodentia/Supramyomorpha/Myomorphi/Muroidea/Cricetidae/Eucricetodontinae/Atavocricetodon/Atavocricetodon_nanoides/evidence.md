@@ -9,7 +9,6 @@ records:
     name:
       zh: Atavocricetodon nanoides
       en: Atavocricetodon nanoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

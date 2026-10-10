@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes persimilis
       zh: Nyctimystes persimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

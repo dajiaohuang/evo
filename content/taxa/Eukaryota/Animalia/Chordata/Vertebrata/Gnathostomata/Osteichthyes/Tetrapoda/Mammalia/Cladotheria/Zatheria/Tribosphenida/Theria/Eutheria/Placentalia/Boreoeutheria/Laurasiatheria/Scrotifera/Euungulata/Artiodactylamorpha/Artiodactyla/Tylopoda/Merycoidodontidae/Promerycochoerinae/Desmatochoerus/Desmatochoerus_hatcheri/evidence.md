@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatochoerus hatcheri
       en: Desmatochoerus hatcheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

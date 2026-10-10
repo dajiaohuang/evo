@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia umbonata
       zh: Colleeneremia umbonata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

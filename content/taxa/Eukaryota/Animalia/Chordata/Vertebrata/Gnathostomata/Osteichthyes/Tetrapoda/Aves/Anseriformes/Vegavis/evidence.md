@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: torres-2025-vegavis-skull concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: torres-2025-vegavis-skull
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: torres-2025-vegavis-skull
           locator: 146–151; Figure 1; age statement; AMNH FARB 30899
-      reviewStatus: automated-audit-passed
 ---
 
 # Vegavis

@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis billitonensis
       zh: Ichthyophis billitonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

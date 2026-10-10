@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodectes antoniae
       en: Carpodectes antoniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

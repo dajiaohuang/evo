@@ -9,7 +9,6 @@ records:
     name:
       zh: Sminthopsis virginiae
       en: Sminthopsis virginiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

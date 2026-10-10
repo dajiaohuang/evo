@@ -9,7 +9,6 @@ records:
     name:
       zh: Joumocetus shimizui
       en: Joumocetus shimizui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

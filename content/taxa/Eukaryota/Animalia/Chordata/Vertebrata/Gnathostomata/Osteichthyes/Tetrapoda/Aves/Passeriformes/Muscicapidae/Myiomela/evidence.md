@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiomela
       en: Myiomela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus polystictus
       en: Crotalus polystictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

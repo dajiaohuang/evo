@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus viridis
       zh: Leptodactylus viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

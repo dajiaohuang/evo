@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys parva
       zh: Xenophrys parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

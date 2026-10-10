@@ -9,7 +9,6 @@ records:
     name:
       en: Cochranella granulosa
       zh: Cochranella granulosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

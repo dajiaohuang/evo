@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis tsilomaro
       zh: Boophis tsilomaro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

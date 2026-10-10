@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegithalos glaucogularis
       en: Aegithalos glaucogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

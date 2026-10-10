@@ -9,7 +9,6 @@ records:
     name:
       zh: Nactus undulatus
       en: Nactus undulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

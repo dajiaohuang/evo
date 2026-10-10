@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes jadoh
       zh: Raorchestes jadoh
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

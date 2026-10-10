@@ -169,7 +169,7 @@ Two other accepted *Triraphis* species are not covered by this batch. Their
 absence from these exact archive rows is not evidence that biological
 information is unavailable; no genus-wide coverage claim is made. The four
 new dossiers remain incomplete, with evolution and fossil facets unassessed,
-and no external expert review recorded.
+
 
 The authority for printed page locators is the [official SANBI Strelitzia 36
 PDF](https://www.sanbi.org/wp-content/uploads/2024/05/2015_Strelitzia36.pdf).
@@ -231,7 +231,7 @@ Five accepted Cyclopia species without an existing dossier were linked by their 
 | `32VQG` *C. bolusii* Hofmeyr & E.Phillips | `wfo-0000197623` | 5039 / 28485 | p. 549, individual account |
 | `32VQH` *C. bowieana* Harv. | `wfo-0000197634` | 5040 / 28486 | p. 549, individual account |
 
-The dossiers paraphrase only the individual accounts' basic form/leaf traits, flowering periods, habitat/elevation and regional range summaries. Those four facets remain `partially-supported`; evolution, fossil and conservation are `not-assessed`. All five records are explicitly `incomplete`, have untranslated English claims, and have no external expert review. The SANBI archive EML's CC BY 4.0 declaration is recorded only for the archive. Separately, the item-level SANBI Opus record for Strelitzia 29 states CC BY-SA 4.0; only that book-specific license supports the paraphrased claims. No book text or images are redistributed. See the five-record source file and compressed shard in `data/knowledge/` and their checksums in `catalogue-dossier-shards.json`.
+The dossiers paraphrase only the individual accounts' basic form/leaf traits, flowering periods, habitat/elevation and regional range summaries. Those four facets remain `partially-supported`; evolution, fossil and conservation are `not-assessed`. All five records are explicitly `incomplete`, have untranslated English claims The SANBI archive EML's CC BY 4.0 declaration is recorded only for the archive. Separately, the item-level SANBI Opus record for Strelitzia 29 states CC BY-SA 4.0; only that book-specific license supports the paraphrased claims. No book text or images are redistributed. See the five-record source file and compressed shard in `data/knowledge/` and their checksums in `catalogue-dossier-shards.json`.
 
 The 13 mapped *Freesia* species in archive source `13878.0` have exact accepted COL/WFO mappings and individual Strelitzia 29 pp. 132–133 locators: *F. verrucosa* (COL `6JM8M`, WFO `wfo-0000789551`, rows 6885/29075), *F. viridis* (`6JLWL`, `wfo-0000789552`, 6886/29076), *F. corymbosa* (`6JM8Q`, `wfo-0000789519`, 6878/29065), *F. occidentalis* (`6JM8J`, `wfo-0000789540`, 6881/29070), *F. refracta* (`6JM8G`, `wfo-0000789545`, 6882/29072), *F. speciosa* (`6JLWM`, `wfo-0000789550`, 6884/29074), *F. caryophyllacea* (`6JLWQ`, `wfo-0000789518`, 6877/29064), *F. fergusoniae* (`6JLWP`, `wfo-0000789523`, 6879/29066), *F. fucata* (`6JLX7`, `wfo-0000789526`, 6887/29067), *F. leichtlinii* (`6JM95`, `wfo-0000789536`, 6880/29068), *F. marginata* (`6JLWS`, `wfo-0000795363`, 6888/29069), *F. praecox* (`6JLWG`, `wfo-0001041376`, 6889/29071), and *F. sparrmanii* (`6JM8N`, `wfo-0000789549`, 6883/29073). Printed accounts support flowering and regional distribution; archive rows support morphology and habitat. Four facets remain partial; evolution, fossil and conservation remain unassessed.
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Craseonycteris thonglongyai
       en: Craseonycteris thonglongyai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

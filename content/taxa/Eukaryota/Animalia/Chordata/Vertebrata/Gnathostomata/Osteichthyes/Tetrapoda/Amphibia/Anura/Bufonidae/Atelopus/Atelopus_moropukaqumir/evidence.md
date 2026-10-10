@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus moropukaqumir
       zh: Atelopus moropukaqumir
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

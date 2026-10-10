@@ -9,7 +9,6 @@ records:
     name:
       zh: Miopanthera lorteti
       en: Miopanthera lorteti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis bicumulus
       zh: Pristimantis bicumulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

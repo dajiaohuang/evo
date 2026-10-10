@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus pectinatus
       en: Equus pectinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

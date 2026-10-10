@@ -9,7 +9,6 @@ records:
     name:
       en: Parapelophryne scalpta
       zh: Parapelophryne scalpta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

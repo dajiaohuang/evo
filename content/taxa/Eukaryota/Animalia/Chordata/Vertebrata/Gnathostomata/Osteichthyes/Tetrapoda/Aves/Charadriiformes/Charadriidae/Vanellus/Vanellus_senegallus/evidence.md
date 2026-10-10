@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanellus senegallus
       en: Vanellus senegallus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

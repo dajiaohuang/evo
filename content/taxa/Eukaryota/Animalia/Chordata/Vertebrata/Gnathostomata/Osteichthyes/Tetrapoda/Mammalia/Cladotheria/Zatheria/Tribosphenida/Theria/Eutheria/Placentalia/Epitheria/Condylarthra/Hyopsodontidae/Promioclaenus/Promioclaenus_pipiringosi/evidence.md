@@ -9,7 +9,6 @@ records:
     name:
       zh: Promioclaenus pipiringosi
       en: Promioclaenus pipiringosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

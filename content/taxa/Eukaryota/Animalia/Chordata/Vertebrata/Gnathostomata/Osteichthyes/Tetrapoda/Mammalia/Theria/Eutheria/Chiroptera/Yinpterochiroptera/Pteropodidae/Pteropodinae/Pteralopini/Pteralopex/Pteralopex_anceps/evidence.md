@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteralopex anceps
       en: Pteralopex anceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

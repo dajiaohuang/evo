@@ -126,9 +126,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-19
-      reviewedAgainstReferenceVersion: erwin-2011-cambrian @ DOI 10.1126/science.1206375
       referenceLinks:
         - relation: supports
           referenceId: erwin-2011-cambrian

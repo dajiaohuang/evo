@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis mutabilis
       zh: Pristimantis mutabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

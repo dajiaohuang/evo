@@ -9,7 +9,6 @@ records:
     name:
       zh: Gualosuchus reigi
       en: Gualosuchus reigi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

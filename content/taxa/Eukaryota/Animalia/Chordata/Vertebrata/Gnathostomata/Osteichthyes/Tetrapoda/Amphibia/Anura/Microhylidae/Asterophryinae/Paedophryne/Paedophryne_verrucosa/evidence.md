@@ -9,7 +9,6 @@ records:
     name:
       en: Paedophryne verrucosa
       zh: Paedophryne verrucosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

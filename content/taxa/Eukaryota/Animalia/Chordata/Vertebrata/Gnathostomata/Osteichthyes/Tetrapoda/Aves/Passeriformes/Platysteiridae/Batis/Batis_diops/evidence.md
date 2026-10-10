@@ -9,7 +9,6 @@ records:
     name:
       zh: Batis diops
       en: Batis diops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

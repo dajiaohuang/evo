@@ -9,7 +9,6 @@ records:
     name:
       zh: Cornualbus primus
       en: Cornualbus primus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

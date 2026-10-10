@@ -9,7 +9,6 @@ records:
     name:
       zh: Vandeleuria nolthenii
       en: Vandeleuria nolthenii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

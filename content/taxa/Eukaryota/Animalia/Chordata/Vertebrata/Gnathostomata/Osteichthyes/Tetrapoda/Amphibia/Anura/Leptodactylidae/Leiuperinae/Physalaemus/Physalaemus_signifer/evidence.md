@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus signifer
       zh: Physalaemus signifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

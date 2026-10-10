@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor raniformis
       zh: Craugastor raniformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

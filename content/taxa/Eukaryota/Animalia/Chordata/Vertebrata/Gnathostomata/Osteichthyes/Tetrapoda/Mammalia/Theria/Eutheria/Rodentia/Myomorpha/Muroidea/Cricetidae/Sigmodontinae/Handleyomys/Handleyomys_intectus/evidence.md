@@ -9,7 +9,6 @@ records:
     name:
       zh: Handleyomys intectus
       en: Handleyomys intectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

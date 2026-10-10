@@ -9,7 +9,6 @@ records:
     name:
       zh: Lantanotherium sanmigueli
       en: Lantanotherium sanmigueli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

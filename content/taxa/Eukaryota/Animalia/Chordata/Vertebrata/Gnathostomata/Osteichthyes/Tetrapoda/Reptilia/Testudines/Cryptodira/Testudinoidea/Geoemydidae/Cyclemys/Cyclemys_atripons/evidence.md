@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyclemys atripons
       en: Cyclemys atripons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

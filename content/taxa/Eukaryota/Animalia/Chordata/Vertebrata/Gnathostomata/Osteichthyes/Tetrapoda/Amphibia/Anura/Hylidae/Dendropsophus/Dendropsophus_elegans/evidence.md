@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus elegans
       zh: Dendropsophus elegans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

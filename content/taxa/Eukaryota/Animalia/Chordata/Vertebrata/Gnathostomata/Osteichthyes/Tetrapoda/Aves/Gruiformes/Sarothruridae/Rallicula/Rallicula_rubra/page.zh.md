@@ -40,5 +40,5 @@ Primary.Lifestyle=Terrestrial，定义为多数时间在地面并边走或跳边
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用所选四条 AVONET v7 历史行之一、完整 eBird／BirdTree 关联、相关字段定义及 COL ra 分片中的八个相关名称。四个逐字 Rallina 异名各指向接受种，名称关系不证明历史与当前物种范围完全相同。原表 Rallidae 与当前 Sarothruridae 分类分别保留。形态总数、完整测量和 Dunning 文献体重分母独立；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。没有实测食谱、猎物名单、飞行能力、繁殖、羽色、鸣声、当前地图或季节移动路线。本页不计完整自然史或外部专家审评。
+本页使用所选四条 AVONET v7 历史行之一、完整 eBird／BirdTree 关联、相关字段定义及 COL ra 分片中的八个相关名称。四个逐字 Rallina 异名各指向接受种，名称关系不证明历史与当前物种范围完全相同。原表 Rallidae 与当前 Sarothruridae 分类分别保留。形态总数、完整测量和 Dunning 文献体重分母独立；未读原始标本、Dunning 原书、完整工作簿或新完整方法论文。没有实测食谱、猎物名单、飞行能力、繁殖、羽色、鸣声、当前地图或季节移动路线。本页不计完整自然史。
 <!-- /evo:text -->

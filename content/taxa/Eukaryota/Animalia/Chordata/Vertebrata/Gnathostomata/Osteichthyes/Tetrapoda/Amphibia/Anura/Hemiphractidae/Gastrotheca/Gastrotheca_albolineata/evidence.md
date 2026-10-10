@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca albolineata
       zh: Gastrotheca albolineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

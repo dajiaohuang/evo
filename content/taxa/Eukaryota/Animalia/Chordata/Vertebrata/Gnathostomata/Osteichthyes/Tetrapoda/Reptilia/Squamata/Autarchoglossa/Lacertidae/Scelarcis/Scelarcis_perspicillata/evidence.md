@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelarcis perspicillata
       en: Scelarcis perspicillata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophisaurus attenuatus
       en: Ophisaurus attenuatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

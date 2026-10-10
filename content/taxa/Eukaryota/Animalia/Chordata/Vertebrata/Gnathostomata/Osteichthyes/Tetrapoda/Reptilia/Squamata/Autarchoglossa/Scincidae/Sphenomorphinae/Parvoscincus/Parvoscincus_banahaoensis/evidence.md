@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvoscincus banahaoensis
       en: Parvoscincus banahaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

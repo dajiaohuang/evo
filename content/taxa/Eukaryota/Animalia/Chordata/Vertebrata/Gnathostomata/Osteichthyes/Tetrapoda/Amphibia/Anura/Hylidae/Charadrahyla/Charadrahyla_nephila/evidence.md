@@ -9,7 +9,6 @@ records:
     name:
       en: Charadrahyla nephila
       zh: Charadrahyla nephila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

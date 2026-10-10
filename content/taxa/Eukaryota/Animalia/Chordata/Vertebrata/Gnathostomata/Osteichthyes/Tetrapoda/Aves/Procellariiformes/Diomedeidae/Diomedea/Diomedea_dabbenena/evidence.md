@@ -9,7 +9,6 @@ records:
     name:
       zh: Diomedea dabbenena
       en: Diomedea dabbenena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

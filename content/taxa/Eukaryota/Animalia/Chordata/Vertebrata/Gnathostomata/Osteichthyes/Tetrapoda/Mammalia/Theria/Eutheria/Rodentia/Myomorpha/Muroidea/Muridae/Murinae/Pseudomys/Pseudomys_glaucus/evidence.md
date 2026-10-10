@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudomys glaucus
       en: Pseudomys glaucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

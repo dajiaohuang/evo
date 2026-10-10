@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: martinez-alcober-2009-panphagia concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: martinez-alcober-2009-panphagia
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: martinez-alcober-2009-panphagia @ DOI 10.1371/journal.pone.0004397
       referenceLinks:
         - relation: supports
           referenceId: martinez-alcober-2009-panphagia
@@ -96,7 +90,6 @@ records:
           locator: 4(2):e4397; Holotype and locality; phylogenetic analysis; feeding-character discussion
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Styracosaurus albertensis
       en: Styracosaurus albertensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

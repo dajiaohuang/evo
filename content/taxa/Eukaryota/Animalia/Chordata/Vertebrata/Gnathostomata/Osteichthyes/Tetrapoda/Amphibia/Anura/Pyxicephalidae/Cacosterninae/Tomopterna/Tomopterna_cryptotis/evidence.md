@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna cryptotis
       zh: Tomopterna cryptotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

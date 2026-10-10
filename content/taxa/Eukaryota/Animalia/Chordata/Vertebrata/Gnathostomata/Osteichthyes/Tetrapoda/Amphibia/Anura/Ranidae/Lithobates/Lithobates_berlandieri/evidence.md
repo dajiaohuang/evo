@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates berlandieri
       zh: Lithobates berlandieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

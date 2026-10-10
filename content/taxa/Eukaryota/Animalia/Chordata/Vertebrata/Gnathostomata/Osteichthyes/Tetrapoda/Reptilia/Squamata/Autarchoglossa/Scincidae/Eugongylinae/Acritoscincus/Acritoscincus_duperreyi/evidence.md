@@ -9,7 +9,6 @@ records:
     name:
       zh: Acritoscincus duperreyi
       en: Acritoscincus duperreyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Santagnathus mariensis
       en: Santagnathus mariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

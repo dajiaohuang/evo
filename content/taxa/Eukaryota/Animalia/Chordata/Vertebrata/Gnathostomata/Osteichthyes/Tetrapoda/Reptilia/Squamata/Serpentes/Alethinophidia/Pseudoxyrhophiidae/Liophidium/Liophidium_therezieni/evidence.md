@@ -9,7 +9,6 @@ records:
     name:
       zh: Liophidium therezieni
       en: Liophidium therezieni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

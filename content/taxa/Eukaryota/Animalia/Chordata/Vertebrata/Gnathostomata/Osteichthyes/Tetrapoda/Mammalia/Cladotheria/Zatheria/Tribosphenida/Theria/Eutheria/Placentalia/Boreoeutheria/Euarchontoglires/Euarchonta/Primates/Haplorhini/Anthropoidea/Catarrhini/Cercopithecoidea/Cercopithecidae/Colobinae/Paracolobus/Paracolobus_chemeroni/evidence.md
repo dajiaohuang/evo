@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracolobus chemeroni
       en: Paracolobus chemeroni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Galbula leucogastra
       en: Galbula leucogastra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

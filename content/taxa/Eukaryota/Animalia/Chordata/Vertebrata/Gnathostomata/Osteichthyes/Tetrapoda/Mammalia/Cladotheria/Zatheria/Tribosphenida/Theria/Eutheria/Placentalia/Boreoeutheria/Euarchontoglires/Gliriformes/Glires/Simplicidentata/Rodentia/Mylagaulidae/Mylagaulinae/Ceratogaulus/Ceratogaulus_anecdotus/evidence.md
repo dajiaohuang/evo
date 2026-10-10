@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceratogaulus anecdotus
       en: Ceratogaulus anecdotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rocasaurus muniozi
       en: Rocasaurus muniozi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

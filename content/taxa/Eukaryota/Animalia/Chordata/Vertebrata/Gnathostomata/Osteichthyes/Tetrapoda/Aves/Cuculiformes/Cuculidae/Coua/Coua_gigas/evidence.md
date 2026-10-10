@@ -9,7 +9,6 @@ records:
     name:
       zh: Coua gigas
       en: Coua gigas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

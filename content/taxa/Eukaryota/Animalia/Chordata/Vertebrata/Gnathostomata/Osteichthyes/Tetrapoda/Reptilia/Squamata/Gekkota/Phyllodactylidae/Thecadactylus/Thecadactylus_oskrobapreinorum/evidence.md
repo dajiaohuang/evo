@@ -9,7 +9,6 @@ records:
     name:
       zh: Thecadactylus oskrobapreinorum
       en: Thecadactylus oskrobapreinorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

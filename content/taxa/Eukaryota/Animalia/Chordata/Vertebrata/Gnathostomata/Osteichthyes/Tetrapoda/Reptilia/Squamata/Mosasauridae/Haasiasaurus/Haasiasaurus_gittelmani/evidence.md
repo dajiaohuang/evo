@@ -9,7 +9,6 @@ records:
     name:
       zh: Haasiasaurus gittelmani
       en: Haasiasaurus gittelmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

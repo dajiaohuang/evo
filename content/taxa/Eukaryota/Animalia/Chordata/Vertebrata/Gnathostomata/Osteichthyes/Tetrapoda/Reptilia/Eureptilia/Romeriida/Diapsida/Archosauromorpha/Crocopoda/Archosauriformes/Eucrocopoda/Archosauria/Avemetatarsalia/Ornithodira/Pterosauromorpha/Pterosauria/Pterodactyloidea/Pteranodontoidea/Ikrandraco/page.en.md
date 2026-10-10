@@ -36,5 +36,5 @@ Start with Ikrandraco avatar and compare each page’s named collections and ori
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Retained PBDB identities, collections and broad age brackets keep their original source scope. This pass reads the 2014 anatomy, discussion, methods and tables and the 2020 name correction. Skimming, horny covering, throat pouch and air-sac function retain their hypothetical status. Captions give V18046 where the account gives V18406; material follows the account and correction with the mismatch unresolved. Specimens, figure pixels, supplementary matrices and later research have not been fully inspected. A full monograph, expert review and reader-facing delivery remain incomplete.
+Retained PBDB identities, collections and broad age brackets keep their original source scope. This pass reads the 2014 anatomy, discussion, methods and tables and the 2020 name correction. Skimming, horny covering, throat pouch and air-sac function retain their hypothetical status. Captions give V18046 where the account gives V18406; material follows the account and correction with the mismatch unresolved. Specimens, figure pixels, supplementary matrices and later research have not been fully inspected. A full monograph and reader-facing delivery remain incomplete.
 <!-- /evo:text -->

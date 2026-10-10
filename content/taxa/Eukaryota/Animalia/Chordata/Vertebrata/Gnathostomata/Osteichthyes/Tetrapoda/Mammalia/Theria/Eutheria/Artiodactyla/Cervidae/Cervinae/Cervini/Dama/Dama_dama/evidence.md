@@ -9,7 +9,6 @@ records:
     name:
       zh: Dama dama
       en: Dama dama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

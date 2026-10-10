@@ -9,7 +9,6 @@ records:
     name:
       zh: Wanolestes lii
       en: Wanolestes lii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

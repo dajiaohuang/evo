@@ -9,7 +9,6 @@ records:
     name:
       zh: Cardiomys ameghinorum
       en: Cardiomys ameghinorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

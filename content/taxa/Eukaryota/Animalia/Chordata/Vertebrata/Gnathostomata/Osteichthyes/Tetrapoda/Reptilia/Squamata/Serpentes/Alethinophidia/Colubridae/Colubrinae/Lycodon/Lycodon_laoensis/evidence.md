@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon laoensis
       en: Lycodon laoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

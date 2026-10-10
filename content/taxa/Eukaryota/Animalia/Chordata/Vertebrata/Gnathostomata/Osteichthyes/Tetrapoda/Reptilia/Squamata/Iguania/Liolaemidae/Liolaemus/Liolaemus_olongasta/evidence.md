@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus olongasta
       en: Liolaemus olongasta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

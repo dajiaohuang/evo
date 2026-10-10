@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema melanopygia
       zh: Ischnocnema melanopygia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

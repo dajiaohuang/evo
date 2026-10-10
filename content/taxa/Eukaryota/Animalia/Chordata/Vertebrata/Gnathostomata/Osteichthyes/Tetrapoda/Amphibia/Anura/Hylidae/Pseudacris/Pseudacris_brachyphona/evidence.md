@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudacris brachyphona
       zh: Pseudacris brachyphona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

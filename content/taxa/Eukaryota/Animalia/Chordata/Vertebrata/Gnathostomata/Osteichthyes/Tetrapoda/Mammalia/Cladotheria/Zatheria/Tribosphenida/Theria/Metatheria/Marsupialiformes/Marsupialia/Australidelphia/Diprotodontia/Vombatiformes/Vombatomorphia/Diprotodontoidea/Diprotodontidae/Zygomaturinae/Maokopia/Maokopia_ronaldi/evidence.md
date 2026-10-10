@@ -9,7 +9,6 @@ records:
     name:
       zh: Maokopia ronaldi
       en: Maokopia ronaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

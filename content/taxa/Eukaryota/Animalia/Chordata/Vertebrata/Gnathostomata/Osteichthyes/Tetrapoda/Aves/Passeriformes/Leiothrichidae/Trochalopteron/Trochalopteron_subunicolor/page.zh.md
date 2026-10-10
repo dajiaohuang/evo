@@ -40,5 +40,5 @@ Primary.Lifestyle=Generalist，指没有单一主导活动方式，不能把其�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用十四条中相关的 AVONET v7 历史行、名称表、相关 Metadata 定义与本地 COL tro／ga 名称分片。来源科名 Leiotrichidae 与本页目录科名 Leiothrichidae 拼写分别保留，不宣称逐字科名一致。形态鸟数、完整测量数与文献体重分母分开；一对一表名或异名链接不保证跨年代物种边界相同。未查个体标本、Dunning 原书、完整工作簿或新完整方法论文；当前分布、保护、羽色鸣声、繁殖、实测食谱和移动路径不在本页证据范围。没有专家审评，不计完整自然史专论。
+本页使用十四条中相关的 AVONET v7 历史行、名称表、相关 Metadata 定义与本地 COL tro／ga 名称分片。来源科名 Leiotrichidae 与本页目录科名 Leiothrichidae 拼写分别保留，不宣称逐字科名一致。形态鸟数、完整测量数与文献体重分母分开；一对一表名或异名链接不保证跨年代物种边界相同。未查个体标本、Dunning 原书、完整工作簿或新完整方法论文；当前分布、保护、羽色鸣声、繁殖、实测食谱和移动路径不在本页证据范围。不计完整自然史专论。
 <!-- /evo:text -->

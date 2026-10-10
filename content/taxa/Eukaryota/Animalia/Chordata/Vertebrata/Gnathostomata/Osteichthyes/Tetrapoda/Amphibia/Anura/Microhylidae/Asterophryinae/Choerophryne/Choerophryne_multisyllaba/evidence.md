@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne multisyllaba
       zh: Choerophryne multisyllaba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

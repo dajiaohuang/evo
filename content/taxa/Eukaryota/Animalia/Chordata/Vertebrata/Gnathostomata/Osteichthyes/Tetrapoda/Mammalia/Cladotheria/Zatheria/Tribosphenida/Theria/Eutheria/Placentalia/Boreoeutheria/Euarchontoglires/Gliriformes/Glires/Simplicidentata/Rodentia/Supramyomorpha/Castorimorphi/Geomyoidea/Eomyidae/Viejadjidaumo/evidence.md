@@ -9,7 +9,6 @@ records:
     name:
       zh: Viejadjidaumo
       en: Viejadjidaumo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

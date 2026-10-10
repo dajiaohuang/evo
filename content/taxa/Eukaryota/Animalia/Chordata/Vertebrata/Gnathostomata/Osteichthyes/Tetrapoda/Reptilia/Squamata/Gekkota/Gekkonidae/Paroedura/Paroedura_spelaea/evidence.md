@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroedura spelaea
       en: Paroedura spelaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera tapajonica
       zh: Adenomera tapajonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Luperosaurus palawanensis
       en: Luperosaurus palawanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincella caudaequinae
       en: Scincella caudaequinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

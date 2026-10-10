@@ -9,7 +9,6 @@ records:
     name:
       zh: Armandisaurus explorator
       en: Armandisaurus explorator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

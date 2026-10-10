@@ -9,7 +9,6 @@ records:
     name:
       zh: Ecprepaulax anomala
       en: Ecprepaulax anomala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

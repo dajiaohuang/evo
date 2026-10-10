@@ -9,7 +9,6 @@ records:
     name:
       en: Lithodytes lineatus
       zh: Lithodytes lineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

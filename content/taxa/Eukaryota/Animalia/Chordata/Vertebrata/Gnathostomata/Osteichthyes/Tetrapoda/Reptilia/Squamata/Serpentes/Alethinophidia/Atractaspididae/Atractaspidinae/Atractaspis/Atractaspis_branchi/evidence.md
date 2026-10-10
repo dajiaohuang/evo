@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractaspis branchi
       en: Atractaspis branchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

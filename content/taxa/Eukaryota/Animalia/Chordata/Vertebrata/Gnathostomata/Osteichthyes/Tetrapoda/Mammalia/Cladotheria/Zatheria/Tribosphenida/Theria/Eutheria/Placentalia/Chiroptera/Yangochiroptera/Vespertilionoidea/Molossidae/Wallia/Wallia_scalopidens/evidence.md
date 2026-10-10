@@ -9,7 +9,6 @@ records:
     name:
       zh: Wallia scalopidens
       en: Wallia scalopidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

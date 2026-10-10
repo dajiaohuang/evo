@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyura ferruginea
       en: Oxyura ferruginea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

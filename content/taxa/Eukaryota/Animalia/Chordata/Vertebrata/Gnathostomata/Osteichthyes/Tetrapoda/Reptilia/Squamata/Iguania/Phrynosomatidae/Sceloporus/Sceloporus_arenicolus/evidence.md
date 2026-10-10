@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus arenicolus
       en: Sceloporus arenicolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

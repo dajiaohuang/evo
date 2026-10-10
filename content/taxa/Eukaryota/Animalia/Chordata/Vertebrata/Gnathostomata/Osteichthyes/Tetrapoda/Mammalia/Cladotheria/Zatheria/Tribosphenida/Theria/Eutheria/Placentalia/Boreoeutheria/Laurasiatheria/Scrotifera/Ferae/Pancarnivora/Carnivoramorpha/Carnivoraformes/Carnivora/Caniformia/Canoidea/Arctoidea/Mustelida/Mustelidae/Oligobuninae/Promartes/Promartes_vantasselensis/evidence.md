@@ -9,7 +9,6 @@ records:
     name:
       zh: Promartes vantasselensis
       en: Promartes vantasselensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

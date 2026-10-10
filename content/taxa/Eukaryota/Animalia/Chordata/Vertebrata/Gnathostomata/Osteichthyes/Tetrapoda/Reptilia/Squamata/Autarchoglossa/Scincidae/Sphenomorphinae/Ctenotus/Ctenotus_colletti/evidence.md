@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus colletti
       en: Ctenotus colletti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

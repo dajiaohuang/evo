@@ -9,7 +9,6 @@ records:
     name:
       zh: Kuroyuriella mikikoi
       en: Kuroyuriella mikikoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kolponomos newportensis
       en: Kolponomos newportensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus denticulentus
       zh: Hyloscirtus denticulentus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

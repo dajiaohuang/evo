@@ -9,7 +9,6 @@ records:
     name:
       zh: Glauconycteris machadoi
       en: Glauconycteris machadoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

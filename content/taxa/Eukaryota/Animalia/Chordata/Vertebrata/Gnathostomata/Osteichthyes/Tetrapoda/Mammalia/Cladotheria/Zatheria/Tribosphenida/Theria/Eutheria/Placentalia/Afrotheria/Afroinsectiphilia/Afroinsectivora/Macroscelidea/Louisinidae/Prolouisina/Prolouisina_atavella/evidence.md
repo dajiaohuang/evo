@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolouisina atavella
       en: Prolouisina atavella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

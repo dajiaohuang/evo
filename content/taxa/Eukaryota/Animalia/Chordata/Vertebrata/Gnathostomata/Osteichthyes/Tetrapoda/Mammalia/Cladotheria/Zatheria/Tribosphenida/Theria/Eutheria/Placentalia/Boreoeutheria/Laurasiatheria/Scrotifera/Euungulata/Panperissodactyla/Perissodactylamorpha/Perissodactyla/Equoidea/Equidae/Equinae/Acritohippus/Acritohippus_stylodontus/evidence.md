@@ -9,7 +9,6 @@ records:
     name:
       zh: Acritohippus stylodontus
       en: Acritohippus stylodontus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaerhineura mephitis
       en: Archaerhineura mephitis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

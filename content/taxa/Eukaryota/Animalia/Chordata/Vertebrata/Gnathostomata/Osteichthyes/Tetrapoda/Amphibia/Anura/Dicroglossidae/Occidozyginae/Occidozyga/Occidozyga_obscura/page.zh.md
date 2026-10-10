@@ -50,7 +50,7 @@ Lyu 等测得七只成年雄性吻肛长 24.2—27.5 毫米、三只成年雌性
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-部分生物学读本；其余主题与当代物种范围仍需更多证据。未经过外部领域专家评审。
+部分生物学读本；其余主题与当代物种范围仍需更多证据。。
 <!-- /evo:text -->
 
 ## 研究正文待整理

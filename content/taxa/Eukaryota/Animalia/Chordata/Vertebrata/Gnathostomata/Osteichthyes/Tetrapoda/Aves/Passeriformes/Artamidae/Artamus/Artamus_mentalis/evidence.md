@@ -9,7 +9,6 @@ records:
     name:
       zh: Artamus mentalis
       en: Artamus mentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

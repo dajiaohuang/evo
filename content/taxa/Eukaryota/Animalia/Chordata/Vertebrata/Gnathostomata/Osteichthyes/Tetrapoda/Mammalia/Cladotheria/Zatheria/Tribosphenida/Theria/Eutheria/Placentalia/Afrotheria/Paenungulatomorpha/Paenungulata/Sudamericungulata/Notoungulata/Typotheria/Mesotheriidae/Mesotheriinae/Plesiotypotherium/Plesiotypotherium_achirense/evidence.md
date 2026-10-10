@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiotypotherium achirense
       en: Plesiotypotherium achirense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

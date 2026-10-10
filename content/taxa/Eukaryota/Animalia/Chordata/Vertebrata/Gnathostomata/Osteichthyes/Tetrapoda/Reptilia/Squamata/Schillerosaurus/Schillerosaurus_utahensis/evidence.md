@@ -9,7 +9,6 @@ records:
     name:
       zh: Schillerosaurus utahensis
       en: Schillerosaurus utahensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Mantophryne louisiadensis
       zh: Mantophryne louisiadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

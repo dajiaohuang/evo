@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates zaparo
       zh: Allobates zaparo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

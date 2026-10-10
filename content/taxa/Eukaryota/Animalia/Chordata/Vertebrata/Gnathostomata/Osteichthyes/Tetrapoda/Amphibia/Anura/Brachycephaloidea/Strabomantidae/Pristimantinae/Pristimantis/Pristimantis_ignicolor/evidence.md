@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ignicolor
       zh: Pristimantis ignicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

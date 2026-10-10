@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes khasianus
       zh: Limnonectes khasianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vulpes chama
       en: Vulpes chama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus luteopunctatus
       zh: Nymphargus luteopunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina scheepstrai
       zh: Xenorhina scheepstrai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

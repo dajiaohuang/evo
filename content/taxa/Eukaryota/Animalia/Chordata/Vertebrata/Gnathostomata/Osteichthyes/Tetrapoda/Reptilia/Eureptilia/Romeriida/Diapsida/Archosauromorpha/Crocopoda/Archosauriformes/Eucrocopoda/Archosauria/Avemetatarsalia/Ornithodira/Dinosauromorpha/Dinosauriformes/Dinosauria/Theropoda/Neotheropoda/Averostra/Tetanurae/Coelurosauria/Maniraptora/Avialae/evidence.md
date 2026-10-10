@@ -9,7 +9,6 @@ records:
     name:
       zh: Avialae
       en: Avialae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

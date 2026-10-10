@@ -9,7 +9,6 @@ records:
     name:
       en: Oscaecilia bassleri
       zh: Oscaecilia bassleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

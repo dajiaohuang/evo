@@ -9,7 +9,6 @@ records:
     name:
       zh: Notostylops appressus
       en: Notostylops appressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

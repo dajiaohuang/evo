@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius scrocchii
       zh: Telmatobius scrocchii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

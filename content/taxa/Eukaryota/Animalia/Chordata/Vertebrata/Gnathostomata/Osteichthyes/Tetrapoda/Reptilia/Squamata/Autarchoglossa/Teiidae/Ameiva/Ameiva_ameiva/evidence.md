@@ -9,7 +9,6 @@ records:
     name:
       zh: Ameiva ameiva
       en: Ameiva ameiva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

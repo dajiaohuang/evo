@@ -9,7 +9,6 @@ records:
     name:
       zh: Thallomys loringi
       en: Thallomys loringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

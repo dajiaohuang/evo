@@ -9,7 +9,6 @@ records:
     name:
       zh: Lynx rufus
       en: Lynx rufus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chasmosaurus russelli
       en: Chasmosaurus russelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kompsornis longicaudus
       en: Kompsornis longicaudus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

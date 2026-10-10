@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus ambanguluensis
       zh: Phrynobatrachus ambanguluensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

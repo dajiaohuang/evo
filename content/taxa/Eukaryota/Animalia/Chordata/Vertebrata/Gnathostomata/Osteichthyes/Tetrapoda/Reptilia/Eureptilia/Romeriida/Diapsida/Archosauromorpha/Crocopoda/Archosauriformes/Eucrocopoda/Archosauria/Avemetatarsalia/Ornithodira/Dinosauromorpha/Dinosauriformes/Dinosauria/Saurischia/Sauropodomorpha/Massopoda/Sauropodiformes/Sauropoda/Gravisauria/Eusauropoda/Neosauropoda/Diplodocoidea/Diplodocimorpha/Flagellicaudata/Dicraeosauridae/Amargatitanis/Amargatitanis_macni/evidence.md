@@ -9,7 +9,6 @@ records:
     name:
       zh: Amargatitanis macni
       en: Amargatitanis macni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

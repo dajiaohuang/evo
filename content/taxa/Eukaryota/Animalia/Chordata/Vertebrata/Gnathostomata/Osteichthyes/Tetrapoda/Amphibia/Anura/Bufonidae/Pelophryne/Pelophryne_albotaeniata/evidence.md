@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophryne albotaeniata
       zh: Pelophryne albotaeniata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

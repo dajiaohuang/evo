@@ -9,7 +9,6 @@ records:
     name:
       zh: Pulsatrix melanota
       en: Pulsatrix melanota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

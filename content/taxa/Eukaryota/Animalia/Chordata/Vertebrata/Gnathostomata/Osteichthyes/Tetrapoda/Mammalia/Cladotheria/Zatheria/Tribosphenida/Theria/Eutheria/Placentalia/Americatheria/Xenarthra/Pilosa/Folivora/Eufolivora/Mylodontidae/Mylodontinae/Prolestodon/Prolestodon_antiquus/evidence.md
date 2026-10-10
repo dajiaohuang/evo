@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolestodon antiquus
       en: Prolestodon antiquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

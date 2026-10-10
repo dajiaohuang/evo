@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema feioi
       zh: Ischnocnema feioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

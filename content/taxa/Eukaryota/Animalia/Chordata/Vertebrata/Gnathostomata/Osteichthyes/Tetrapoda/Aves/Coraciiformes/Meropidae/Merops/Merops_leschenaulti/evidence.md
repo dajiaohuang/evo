@@ -9,7 +9,6 @@ records:
     name:
       zh: Merops leschenaulti
       en: Merops leschenaulti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

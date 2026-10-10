@@ -9,7 +9,6 @@ records:
     name:
       zh: 夜猴属
       en: Night monkeys
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: molecularMethods
@@ -482,8 +481,8 @@ records:
             accessedAt: 2026-10-03
             locator: "Main article: Methods/Samples and Karyotypic analyses; Tables 1–2; Results/Karyotypic analyses; Discussion/Molecular markers and Evolutionary, karyological and taxonomic considerations; Conclusions"
             scope:
-              zh: 本批实际读取 2010 年主文的样本表、方法、结果及讨论；未检查图像像素、补充文件、馆藏实物或原始序列，也未重跑分析。八个历史分类单元不直接对应全部固定 COL26.8 接受种概念。TR1 的核型、表 1 样本与外部序列分别保留；未提供 A. jorgehernandezi 的新增野外生态材料，其资料缺口仍开，无新增专家审评。
-              en: This pass read the 2010 main article’s sample tables, methods, results and discussion, without examining figure pixels, supplementary files, museum material or raw sequences, or rerunning analyses. Eight historical taxa do not directly represent every pinned COL26.8 accepted-species concept. TR1’s karyotype, Table 1 specimens and external sequences remain distinct. No new wild ecological material for A. jorgehernandezi was obtained; its gap remains open without new expert review.
+              zh: 本批实际读取 2010 年主文的样本表、方法、结果及讨论；未检查图像像素、补充文件、馆藏实物或原始序列，也未重跑分析。八个历史分类单元不直接对应全部固定 COL26.8 接受种概念。TR1 的核型、表 1 样本与外部序列分别保留；未提供 A. jorgehernandezi 的新增野外生态材料，其资料缺口仍开。
+              en: This pass read the 2010 main article’s sample tables, methods, results and discussion, without examining figure pixels, supplementary files, museum material or raw sequences, or rerunning analyses. Eight historical taxa do not directly represent every pinned COL26.8 accepted-species concept. TR1’s karyotype, Table 1 specimens and external sequences remain distinct. No new wild ecological material for A. jorgehernandezi was obtained.
           originalFields:
             - id
             - title

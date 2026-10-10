@@ -9,7 +9,6 @@ records:
     name:
       zh: GERP鼠狐猴
       en: Gerp's Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

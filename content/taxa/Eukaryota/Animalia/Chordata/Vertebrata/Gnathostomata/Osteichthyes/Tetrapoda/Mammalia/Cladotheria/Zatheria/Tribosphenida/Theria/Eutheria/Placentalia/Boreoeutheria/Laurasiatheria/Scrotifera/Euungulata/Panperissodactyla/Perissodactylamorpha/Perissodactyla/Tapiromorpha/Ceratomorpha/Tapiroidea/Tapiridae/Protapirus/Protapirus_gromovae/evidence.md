@@ -9,7 +9,6 @@ records:
     name:
       zh: Protapirus gromovae
       en: Protapirus gromovae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

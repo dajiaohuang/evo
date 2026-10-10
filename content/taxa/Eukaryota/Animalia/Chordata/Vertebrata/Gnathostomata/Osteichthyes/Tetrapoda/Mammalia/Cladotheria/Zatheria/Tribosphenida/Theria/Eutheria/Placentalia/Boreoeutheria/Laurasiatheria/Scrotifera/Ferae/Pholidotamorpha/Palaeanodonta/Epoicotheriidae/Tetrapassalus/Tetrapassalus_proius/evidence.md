@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetrapassalus proius
       en: Tetrapassalus proius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

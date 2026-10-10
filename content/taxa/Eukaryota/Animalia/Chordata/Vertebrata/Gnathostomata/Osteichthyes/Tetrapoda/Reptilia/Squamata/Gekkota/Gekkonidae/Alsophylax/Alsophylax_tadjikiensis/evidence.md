@@ -9,7 +9,6 @@ records:
     name:
       zh: Alsophylax tadjikiensis
       en: Alsophylax tadjikiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neochmia modesta
       en: Neochmia modesta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

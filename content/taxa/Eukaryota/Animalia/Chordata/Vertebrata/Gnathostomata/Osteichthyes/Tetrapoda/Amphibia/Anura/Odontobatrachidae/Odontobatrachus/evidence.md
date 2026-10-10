@@ -9,7 +9,6 @@ records:
     name:
       en: Odontobatrachus
       zh: Odontobatrachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

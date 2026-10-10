@@ -9,7 +9,6 @@ records:
     name:
       zh: Gracanicanetta happi
       en: Gracanicanetta happi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

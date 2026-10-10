@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemidophorus espeuti
       en: Cnemidophorus espeuti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

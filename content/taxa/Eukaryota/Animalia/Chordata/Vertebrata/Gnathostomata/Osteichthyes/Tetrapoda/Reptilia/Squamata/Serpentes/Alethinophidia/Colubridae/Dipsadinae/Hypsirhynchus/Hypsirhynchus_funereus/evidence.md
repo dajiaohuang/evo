@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsirhynchus funereus
       en: Hypsirhynchus funereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

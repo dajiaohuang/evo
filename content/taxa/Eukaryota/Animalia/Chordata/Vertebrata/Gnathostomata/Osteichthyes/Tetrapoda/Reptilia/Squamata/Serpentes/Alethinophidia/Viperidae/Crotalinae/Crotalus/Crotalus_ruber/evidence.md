@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus ruber
       en: Crotalus ruber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

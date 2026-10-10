@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko horsfieldii
       en: Gekko horsfieldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotoecus albigula
       en: Scotoecus albigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

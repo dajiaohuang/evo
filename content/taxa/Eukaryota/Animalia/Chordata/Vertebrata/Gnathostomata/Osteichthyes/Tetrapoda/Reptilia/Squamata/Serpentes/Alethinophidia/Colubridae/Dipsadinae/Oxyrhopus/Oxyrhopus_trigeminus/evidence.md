@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyrhopus trigeminus
       en: Oxyrhopus trigeminus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

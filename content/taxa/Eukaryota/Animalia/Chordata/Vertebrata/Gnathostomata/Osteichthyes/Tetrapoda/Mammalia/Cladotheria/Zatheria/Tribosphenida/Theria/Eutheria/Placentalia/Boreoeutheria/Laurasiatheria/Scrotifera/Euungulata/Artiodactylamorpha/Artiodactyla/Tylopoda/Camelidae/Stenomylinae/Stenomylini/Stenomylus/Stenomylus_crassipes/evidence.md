@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenomylus crassipes
       en: Stenomylus crassipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

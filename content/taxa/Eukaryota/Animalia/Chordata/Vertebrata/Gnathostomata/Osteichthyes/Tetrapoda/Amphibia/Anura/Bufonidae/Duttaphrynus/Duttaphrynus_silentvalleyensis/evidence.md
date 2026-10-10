@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus silentvalleyensis
       zh: Duttaphrynus silentvalleyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

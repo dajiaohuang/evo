@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates subfolionidificans
       zh: Allobates subfolionidificans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

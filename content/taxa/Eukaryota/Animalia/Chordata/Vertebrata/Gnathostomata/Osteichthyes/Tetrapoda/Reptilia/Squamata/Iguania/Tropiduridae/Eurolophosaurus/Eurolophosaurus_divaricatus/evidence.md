@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurolophosaurus divaricatus
       en: Eurolophosaurus divaricatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

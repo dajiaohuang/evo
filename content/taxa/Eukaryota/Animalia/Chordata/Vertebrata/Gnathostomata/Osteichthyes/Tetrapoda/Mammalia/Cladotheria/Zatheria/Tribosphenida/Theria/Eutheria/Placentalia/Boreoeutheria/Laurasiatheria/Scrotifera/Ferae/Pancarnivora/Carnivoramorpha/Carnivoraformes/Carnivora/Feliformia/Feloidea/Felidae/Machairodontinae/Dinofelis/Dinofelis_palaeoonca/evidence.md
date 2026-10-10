@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinofelis palaeoonca
       en: Dinofelis palaeoonca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

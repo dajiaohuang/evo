@@ -30,4 +30,4 @@ metadata. Its focused test performs two temporary output-root rebuilds,
 compares every canonical shard, descriptor and ledger byte-for-byte, and
 checks projected IDs, authorship, raw archive rows, reference objects and
 locators. This is a nomenclatural/source crosswalk, not a species-concept
-equivalence, biological dossier, fossil assessment, or expert review.
+equivalence, biological dossier, fossil assessment.

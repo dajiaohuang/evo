@@ -9,7 +9,6 @@ records:
     name:
       en: Meristogenys macrophthalmus
       zh: Meristogenys macrophthalmus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Echinosaura brachycephala
       en: Echinosaura brachycephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

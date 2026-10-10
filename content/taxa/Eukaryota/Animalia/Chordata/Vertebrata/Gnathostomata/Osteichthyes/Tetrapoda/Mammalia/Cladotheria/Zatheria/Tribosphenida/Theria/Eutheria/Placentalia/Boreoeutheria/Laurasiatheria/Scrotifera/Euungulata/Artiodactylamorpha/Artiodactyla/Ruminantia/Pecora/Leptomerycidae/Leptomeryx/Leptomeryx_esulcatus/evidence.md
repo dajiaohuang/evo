@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptomeryx esulcatus
       en: Leptomeryx esulcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

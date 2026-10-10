@@ -9,7 +9,6 @@ records:
     name:
       en: Osornophryne puruanta
       zh: Osornophryne puruanta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

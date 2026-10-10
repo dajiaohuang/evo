@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoblepharus tytthos
       en: Cryptoblepharus tytthos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

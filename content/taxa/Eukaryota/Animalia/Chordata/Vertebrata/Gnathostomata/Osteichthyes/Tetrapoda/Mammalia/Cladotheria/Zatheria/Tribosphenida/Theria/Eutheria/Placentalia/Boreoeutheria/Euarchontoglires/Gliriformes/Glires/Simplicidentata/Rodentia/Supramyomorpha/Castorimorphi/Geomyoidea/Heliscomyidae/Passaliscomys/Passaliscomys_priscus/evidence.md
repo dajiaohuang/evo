@@ -9,7 +9,6 @@ records:
     name:
       zh: Passaliscomys priscus
       en: Passaliscomys priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

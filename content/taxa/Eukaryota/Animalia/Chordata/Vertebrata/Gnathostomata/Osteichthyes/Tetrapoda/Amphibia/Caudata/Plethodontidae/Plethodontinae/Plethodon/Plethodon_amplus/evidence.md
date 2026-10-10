@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon amplus
       zh: Plethodon amplus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

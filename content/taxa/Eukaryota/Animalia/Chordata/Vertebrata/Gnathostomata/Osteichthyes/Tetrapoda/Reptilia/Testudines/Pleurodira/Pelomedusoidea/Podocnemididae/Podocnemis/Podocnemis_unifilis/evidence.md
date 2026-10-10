@@ -9,7 +9,6 @@ records:
     name:
       zh: Podocnemis unifilis
       en: Podocnemis unifilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

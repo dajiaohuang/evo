@@ -9,7 +9,6 @@ records:
     name:
       zh: 安南叶猴
       en: Annamese Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: phylogenetic placement

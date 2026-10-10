@@ -9,7 +9,6 @@ records:
     name:
       zh: Anisonchus fortunatus
       en: Anisonchus fortunatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

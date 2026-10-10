@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus zimmeri
       en: Scytalopus zimmeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

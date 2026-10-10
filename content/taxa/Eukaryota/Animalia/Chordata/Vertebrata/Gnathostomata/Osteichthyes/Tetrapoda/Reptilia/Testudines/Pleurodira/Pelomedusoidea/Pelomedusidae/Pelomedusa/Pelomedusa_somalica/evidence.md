@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelomedusa somalica
       en: Pelomedusa somalica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

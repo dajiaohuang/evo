@@ -9,7 +9,6 @@ records:
     name:
       zh: Reithrodon auritus
       en: Reithrodon auritus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

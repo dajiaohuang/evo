@@ -9,7 +9,6 @@ records:
     name:
       zh: Montanalestes keeblerorum
       en: Montanalestes keeblerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

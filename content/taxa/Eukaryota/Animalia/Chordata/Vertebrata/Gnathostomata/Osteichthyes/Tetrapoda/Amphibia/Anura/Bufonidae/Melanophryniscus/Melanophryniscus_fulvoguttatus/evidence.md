@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus fulvoguttatus
       zh: Melanophryniscus fulvoguttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

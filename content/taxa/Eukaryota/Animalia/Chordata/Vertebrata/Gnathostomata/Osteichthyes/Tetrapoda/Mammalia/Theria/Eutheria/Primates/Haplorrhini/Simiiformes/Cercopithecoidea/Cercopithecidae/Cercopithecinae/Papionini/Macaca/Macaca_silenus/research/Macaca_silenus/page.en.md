@@ -158,7 +158,7 @@ remaining-questions
 <!-- /evo:text -->
 
 <!-- evo:text /records/atlas-profile/readerSections/6/text/en -->
-The selected studies do not synthesize body size, life history, a complete range, annual ecology or current formal conservation status. The ecological findings come from one group and season; the seed-dispersal result remains a preprint. The scientific dossier is incomplete and has not received independent expert review.
+The selected studies do not synthesize body size, life history, a complete range, annual ecology or current formal conservation status. The ecological findings come from one group and season; the seed-dispersal result remains a preprint. The scientific dossier is incomplete.
 <!-- /evo:text -->
 
 <!-- evo:text /records/atlas-profile/readerSections/6/sourceIds/0 -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploderma yulongense
       en: Diploderma yulongense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

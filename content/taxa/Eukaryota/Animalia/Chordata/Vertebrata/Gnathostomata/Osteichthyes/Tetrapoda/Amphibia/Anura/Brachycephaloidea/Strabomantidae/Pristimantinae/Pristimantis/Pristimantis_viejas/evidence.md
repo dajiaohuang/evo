@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis viejas
       zh: Pristimantis viejas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

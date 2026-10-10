@@ -9,7 +9,6 @@ records:
     name:
       zh: Fumicollis hoffmani
       en: Fumicollis hoffmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

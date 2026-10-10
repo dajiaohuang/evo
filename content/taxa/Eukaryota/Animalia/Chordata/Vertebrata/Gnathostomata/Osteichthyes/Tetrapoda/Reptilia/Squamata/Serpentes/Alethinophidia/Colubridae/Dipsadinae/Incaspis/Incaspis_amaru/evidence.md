@@ -9,7 +9,6 @@ records:
     name:
       zh: Incaspis amaru
       en: Incaspis amaru
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

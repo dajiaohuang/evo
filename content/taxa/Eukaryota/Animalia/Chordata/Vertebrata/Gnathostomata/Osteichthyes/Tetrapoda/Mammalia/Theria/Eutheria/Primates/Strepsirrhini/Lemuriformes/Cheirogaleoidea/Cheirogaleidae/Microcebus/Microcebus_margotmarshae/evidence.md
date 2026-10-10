@@ -9,7 +9,6 @@ records:
     name:
       zh: 玛戈·马什鼠狐猴
       en: Margot Marsh's Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

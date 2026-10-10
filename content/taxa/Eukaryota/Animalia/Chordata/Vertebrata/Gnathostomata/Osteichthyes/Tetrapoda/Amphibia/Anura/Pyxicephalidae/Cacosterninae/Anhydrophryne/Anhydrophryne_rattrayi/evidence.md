@@ -9,7 +9,6 @@ records:
     name:
       en: Anhydrophryne rattrayi
       zh: Anhydrophryne rattrayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

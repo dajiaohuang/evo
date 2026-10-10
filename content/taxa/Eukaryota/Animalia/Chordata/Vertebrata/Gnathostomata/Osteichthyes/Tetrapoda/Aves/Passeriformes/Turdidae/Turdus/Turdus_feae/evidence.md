@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus feae
       en: Turdus feae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Elasmosaurus
       en: Elasmosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

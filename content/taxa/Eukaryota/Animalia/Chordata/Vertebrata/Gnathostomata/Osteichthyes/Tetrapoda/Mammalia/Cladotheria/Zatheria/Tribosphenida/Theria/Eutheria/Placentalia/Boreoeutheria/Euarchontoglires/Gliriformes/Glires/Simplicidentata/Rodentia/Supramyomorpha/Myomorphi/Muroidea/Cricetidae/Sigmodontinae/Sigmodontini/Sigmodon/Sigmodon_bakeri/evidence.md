@@ -9,7 +9,6 @@ records:
     name:
       zh: Sigmodon bakeri
       en: Sigmodon bakeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

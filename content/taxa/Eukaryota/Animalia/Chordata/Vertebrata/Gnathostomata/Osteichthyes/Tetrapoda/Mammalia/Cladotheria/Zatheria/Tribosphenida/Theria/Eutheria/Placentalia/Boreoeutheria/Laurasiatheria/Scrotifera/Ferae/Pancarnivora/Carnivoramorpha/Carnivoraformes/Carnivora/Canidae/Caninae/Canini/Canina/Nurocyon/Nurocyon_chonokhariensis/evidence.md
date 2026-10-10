@@ -9,7 +9,6 @@ records:
     name:
       zh: Nurocyon chonokhariensis
       en: Nurocyon chonokhariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -36,5 +36,5 @@ Start with Tropeognathus mesembrinus and compare each page’s named collections
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Existing classification, named occurrences and age brackets retain their database-source limits. This batch adds selected 2013 primary text on comparative material, histology and wingspan. The cf. identification, unknown exact site, missing elements and comparative estimates remain explicit. The 1987 original description, all images, later research and supplements are not fully assembled or read; specimens and models have not been remeasured or rerun. A full monograph, external expert review and reader-facing delivery remain pending.
+Existing classification, named occurrences and age brackets retain their database-source limits. This batch adds selected 2013 primary text on comparative material, histology and wingspan. The cf. identification, unknown exact site, missing elements and comparative estimates remain explicit. The 1987 original description, all images, later research and supplements are not fully assembled or read; specimens and models have not been remeasured or rerun. A full monograph and reader-facing delivery remain pending.
 <!-- /evo:text -->

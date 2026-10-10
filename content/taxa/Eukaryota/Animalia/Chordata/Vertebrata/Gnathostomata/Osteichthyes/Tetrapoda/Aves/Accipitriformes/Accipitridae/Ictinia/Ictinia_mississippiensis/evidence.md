@@ -9,7 +9,6 @@ records:
     name:
       zh: Ictinia mississippiensis
       en: Ictinia mississippiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

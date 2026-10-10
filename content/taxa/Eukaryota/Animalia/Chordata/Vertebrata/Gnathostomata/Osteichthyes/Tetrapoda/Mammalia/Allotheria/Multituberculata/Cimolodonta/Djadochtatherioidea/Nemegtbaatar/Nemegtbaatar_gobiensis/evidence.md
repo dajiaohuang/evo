@@ -9,7 +9,6 @@ records:
     name:
       zh: Nemegtbaatar gobiensis
       en: Nemegtbaatar gobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

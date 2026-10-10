@@ -9,7 +9,6 @@ records:
     name:
       zh: Scaldicetus bellunensis
       en: Scaldicetus bellunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

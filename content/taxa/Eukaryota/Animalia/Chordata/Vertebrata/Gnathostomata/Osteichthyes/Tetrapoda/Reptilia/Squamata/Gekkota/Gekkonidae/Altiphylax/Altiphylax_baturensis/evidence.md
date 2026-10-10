@@ -9,7 +9,6 @@ records:
     name:
       zh: Altiphylax baturensis
       en: Altiphylax baturensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

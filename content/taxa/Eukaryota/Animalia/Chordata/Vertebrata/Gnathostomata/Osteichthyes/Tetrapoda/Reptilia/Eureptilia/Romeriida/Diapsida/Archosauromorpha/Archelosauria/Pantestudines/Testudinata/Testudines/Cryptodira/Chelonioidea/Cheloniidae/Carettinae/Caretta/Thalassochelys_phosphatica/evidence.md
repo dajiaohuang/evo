@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassochelys phosphatica
       en: Thalassochelys phosphatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

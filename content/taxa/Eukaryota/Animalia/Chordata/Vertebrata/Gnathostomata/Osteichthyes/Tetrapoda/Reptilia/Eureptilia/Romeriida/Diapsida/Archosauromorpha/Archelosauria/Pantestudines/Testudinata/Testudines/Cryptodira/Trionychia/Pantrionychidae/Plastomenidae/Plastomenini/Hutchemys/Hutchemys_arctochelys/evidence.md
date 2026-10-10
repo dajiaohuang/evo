@@ -9,7 +9,6 @@ records:
     name:
       zh: Hutchemys arctochelys
       en: Hutchemys arctochelys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

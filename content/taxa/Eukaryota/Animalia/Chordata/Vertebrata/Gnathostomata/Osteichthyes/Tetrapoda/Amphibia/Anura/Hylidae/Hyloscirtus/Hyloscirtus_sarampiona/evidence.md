@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus sarampiona
       zh: Hyloscirtus sarampiona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

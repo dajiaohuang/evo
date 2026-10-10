@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko athymus
       en: Gekko athymus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

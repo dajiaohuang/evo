@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliosaurus patagonicus
       en: Pliosaurus patagonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

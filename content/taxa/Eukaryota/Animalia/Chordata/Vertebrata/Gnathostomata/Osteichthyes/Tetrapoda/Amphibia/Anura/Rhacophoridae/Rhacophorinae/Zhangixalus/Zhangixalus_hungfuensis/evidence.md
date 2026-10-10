@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus hungfuensis
       zh: Zhangixalus hungfuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

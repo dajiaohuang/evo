@@ -9,7 +9,6 @@ records:
     name:
       zh: Passer cordofanicus
       en: Passer cordofanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cantorchilus nigricapillus
       en: Cantorchilus nigricapillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

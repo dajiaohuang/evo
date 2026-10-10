@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Kenrick and Long 2026 DOI 10.1111/nph.70850
       referenceLinks:
         - referenceId: kenrick-long-2026-horneophyton
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Kenrick and Long 2026 DOI 10.1111/nph.70850; Parry et al. 2011 DOI 10.1144/0016-76492010-043
       referenceLinks:
         - referenceId: kenrick-long-2026-horneophyton
           relation: supports
@@ -105,9 +99,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Kenrick and Long 2026 DOI 10.1111/nph.70850
       referenceLinks:
         - referenceId: kenrick-long-2026-horneophyton
           relation: supports
@@ -126,9 +117,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Kenrick and Long 2026 DOI 10.1111/nph.70850
       referenceLinks:
         - referenceId: kenrick-long-2026-horneophyton
           relation: supports
@@ -147,9 +135,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Parry et al. 2011 DOI 10.1144/0016-76492010-043; Kenrick and Long 2026 DOI 10.1111/nph.70850
       referenceLinks:
         - referenceId: parry-2011-rhynie-age
           relation: supports
@@ -208,7 +193,6 @@ records:
           locator: pp. 3149–3164; Materials and Methods; NHMUK PI In 24697, NHMUK OC 1938 and NHMUK SC 3137; Figures 1–8
         - referenceId: parry-2011-rhynie-age
           locator: pp. 863–872, especially Abstract and Results; 411.5 ± 1.3 Ma ID-TIMS U–Pb zircon age
-      reviewStatus: automated-audit-passed
 ---
 
 # Horneophyton

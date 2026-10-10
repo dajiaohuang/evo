@@ -9,7 +9,6 @@ records:
     name:
       zh: Sasayamamylos kawaii
       en: Sasayamamylos kawaii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

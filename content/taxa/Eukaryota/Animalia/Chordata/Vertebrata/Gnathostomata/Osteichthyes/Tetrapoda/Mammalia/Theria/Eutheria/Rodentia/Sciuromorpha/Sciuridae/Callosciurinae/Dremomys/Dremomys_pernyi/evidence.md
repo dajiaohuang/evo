@@ -9,7 +9,6 @@ records:
     name:
       zh: Dremomys pernyi
       en: Dremomys pernyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

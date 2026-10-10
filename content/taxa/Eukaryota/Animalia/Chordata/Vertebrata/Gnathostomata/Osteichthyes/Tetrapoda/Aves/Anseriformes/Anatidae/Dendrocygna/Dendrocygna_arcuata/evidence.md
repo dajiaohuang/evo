@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocygna arcuata
       en: Dendrocygna arcuata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

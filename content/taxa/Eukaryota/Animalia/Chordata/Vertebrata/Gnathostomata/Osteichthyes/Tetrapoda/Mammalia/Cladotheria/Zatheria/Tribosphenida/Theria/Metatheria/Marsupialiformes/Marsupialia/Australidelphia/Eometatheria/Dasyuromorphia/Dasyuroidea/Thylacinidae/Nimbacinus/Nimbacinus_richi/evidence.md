@@ -9,7 +9,6 @@ records:
     name:
       zh: Nimbacinus richi
       en: Nimbacinus richi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

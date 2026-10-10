@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis heteropholis
       en: Cnemaspis heteropholis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

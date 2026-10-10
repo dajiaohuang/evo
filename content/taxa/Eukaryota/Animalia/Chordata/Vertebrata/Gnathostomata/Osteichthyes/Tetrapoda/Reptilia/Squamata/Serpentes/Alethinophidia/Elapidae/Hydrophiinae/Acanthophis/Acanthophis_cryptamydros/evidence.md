@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthophis cryptamydros
       en: Acanthophis cryptamydros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

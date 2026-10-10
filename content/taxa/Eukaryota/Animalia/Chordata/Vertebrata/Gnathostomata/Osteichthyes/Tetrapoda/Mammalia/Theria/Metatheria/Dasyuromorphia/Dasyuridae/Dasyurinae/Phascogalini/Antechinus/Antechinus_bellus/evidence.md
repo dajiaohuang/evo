@@ -9,7 +9,6 @@ records:
     name:
       zh: Antechinus bellus
       en: Antechinus bellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

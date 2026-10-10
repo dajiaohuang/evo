@@ -9,7 +9,6 @@ records:
     name:
       zh: Typothorax coccinarum
       en: Typothorax coccinarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

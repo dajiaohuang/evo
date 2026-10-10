@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninox philippensis
       en: Ninox philippensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

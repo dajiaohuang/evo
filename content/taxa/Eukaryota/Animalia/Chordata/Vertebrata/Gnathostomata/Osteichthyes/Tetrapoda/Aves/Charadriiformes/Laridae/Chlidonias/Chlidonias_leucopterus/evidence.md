@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlidonias leucopterus
       en: Chlidonias leucopterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

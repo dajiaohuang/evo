@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreamnos harringtoni
       en: Oreamnos harringtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

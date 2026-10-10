@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: luo-2011-juramaia + ji-2002-eomaia + bi-2018-ambolestes concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: luo-2011-juramaia
@@ -82,7 +79,6 @@ records:
           locator: 816–822; Figures 1–6
         - referenceId: bi-2018-ambolestes
           locator: 390–395; Figures 1–5
-      reviewStatus: automated-audit-passed
 ---
 
 # Therian boundary evidence

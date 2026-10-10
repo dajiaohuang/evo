@@ -9,7 +9,6 @@ records:
     name:
       zh: Drysdalia coronoides
       en: Drysdalia coronoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

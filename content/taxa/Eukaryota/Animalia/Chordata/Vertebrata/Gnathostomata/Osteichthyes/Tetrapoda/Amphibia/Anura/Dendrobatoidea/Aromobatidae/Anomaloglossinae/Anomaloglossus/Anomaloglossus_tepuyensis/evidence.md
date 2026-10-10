@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus tepuyensis
       zh: Anomaloglossus tepuyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

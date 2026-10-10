@@ -9,7 +9,6 @@ records:
     name:
       zh: 灰僧面猴
       en: Ashy Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

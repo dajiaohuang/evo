@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosciurillus abstrusus
       en: Prosciurillus abstrusus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

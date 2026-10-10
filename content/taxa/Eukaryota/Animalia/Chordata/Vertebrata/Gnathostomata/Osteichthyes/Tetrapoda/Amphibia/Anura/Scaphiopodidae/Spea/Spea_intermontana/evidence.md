@@ -9,7 +9,6 @@ records:
     name:
       en: Spea intermontana
       zh: Spea intermontana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

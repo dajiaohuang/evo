@@ -81,5 +81,5 @@ Collection reference ref:83912 abbreviates Lee et al. (2022). This page separate
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page combines fixed PBDB records with the 2022 description of one holotype. Ribs, teeth and cervicals are anatomical observations; swimming, fish eating and propulsion retain the authors’ inferential scope, without direct behavioral observations or measured hydrodynamics. Broad database ages are not a death date, and an interdune setting alone does not determine ecology. All supplements and later disputes are not assembled. This is not a complete monograph, matrix reanalysis, direct specimen inspection or external expert review.
+This page combines fixed PBDB records with the 2022 description of one holotype. Ribs, teeth and cervicals are anatomical observations; swimming, fish eating and propulsion retain the authors’ inferential scope, without direct behavioral observations or measured hydrodynamics. Broad database ages are not a death date, and an interdune setting alone does not determine ecology. All supplements and later disputes are not assembled. This is not a complete monograph, matrix reanalysis, direct specimen inspection.
 <!-- /evo:text -->

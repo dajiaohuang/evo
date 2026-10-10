@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmelastes rufifacies
       en: Myrmelastes rufifacies
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

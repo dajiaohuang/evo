@@ -9,7 +9,6 @@ records:
     name:
       zh: Prinia familiaris
       en: Prinia familiaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Saccopteryx gymnura
       en: Saccopteryx gymnura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

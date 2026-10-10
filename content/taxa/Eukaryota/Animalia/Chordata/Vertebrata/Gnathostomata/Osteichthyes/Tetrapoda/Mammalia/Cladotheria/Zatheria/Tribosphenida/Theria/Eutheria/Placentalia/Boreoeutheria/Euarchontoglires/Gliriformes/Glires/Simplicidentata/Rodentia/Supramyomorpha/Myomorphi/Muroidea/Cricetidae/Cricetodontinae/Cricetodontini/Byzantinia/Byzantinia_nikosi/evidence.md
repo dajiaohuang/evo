@@ -9,7 +9,6 @@ records:
     name:
       zh: Byzantinia nikosi
       en: Byzantinia nikosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

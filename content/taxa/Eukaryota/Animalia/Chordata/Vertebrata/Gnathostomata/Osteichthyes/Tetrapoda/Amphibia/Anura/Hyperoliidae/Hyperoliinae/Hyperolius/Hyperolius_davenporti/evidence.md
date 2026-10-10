@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius davenporti
       zh: Hyperolius davenporti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

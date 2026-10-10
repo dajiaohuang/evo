@@ -9,7 +9,6 @@ records:
     name:
       zh: Tashtykia primaeva
       en: Tashtykia primaeva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

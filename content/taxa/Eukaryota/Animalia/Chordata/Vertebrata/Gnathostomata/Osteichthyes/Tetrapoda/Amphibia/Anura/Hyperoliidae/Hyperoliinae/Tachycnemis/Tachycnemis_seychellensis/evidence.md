@@ -9,7 +9,6 @@ records:
     name:
       en: Tachycnemis seychellensis
       zh: Tachycnemis seychellensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

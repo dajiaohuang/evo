@@ -22,5 +22,5 @@ The type locality, Antafia, lies northeast of the Mahavavy du Sud River. The 200
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The original description reports color variation with age and light; distribution reflects limited sampling, and the area south of the Mahavavy du Sud River was unresolved. Taxonomy follows COL26.8; the Chinese name is editorial, and this guide is not externally expert-reviewed.
+The original description reports color variation with age and light; distribution reflects limited sampling, and the area south of the Mahavavy du Sud River was unresolved. Taxonomy follows COL26.8; the Chinese name is editorial, and this guide is.
 <!-- /evo:text -->

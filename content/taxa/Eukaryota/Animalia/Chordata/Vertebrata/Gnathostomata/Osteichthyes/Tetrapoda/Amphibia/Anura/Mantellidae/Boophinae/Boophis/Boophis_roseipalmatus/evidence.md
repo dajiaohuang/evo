@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis roseipalmatus
       zh: Boophis roseipalmatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

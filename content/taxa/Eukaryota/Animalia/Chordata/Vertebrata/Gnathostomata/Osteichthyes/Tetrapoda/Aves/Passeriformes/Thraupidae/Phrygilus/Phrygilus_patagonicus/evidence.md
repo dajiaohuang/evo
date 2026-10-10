@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrygilus patagonicus
       en: Phrygilus patagonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

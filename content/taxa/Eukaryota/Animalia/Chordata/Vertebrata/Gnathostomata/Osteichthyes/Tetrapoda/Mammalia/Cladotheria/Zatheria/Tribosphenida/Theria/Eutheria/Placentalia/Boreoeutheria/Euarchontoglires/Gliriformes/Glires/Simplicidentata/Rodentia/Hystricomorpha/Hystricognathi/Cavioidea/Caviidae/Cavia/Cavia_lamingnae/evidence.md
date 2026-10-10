@@ -9,7 +9,6 @@ records:
     name:
       zh: Cavia lamingnae
       en: Cavia lamingnae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

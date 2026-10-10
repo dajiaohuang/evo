@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlapetes pallidinucha
       en: Atlapetes pallidinucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

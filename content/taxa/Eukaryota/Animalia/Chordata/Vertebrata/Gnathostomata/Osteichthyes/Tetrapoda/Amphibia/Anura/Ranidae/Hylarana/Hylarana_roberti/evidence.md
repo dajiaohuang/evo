@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana roberti
       zh: Hylarana roberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

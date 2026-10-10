@@ -9,7 +9,6 @@ records:
     name:
       zh: Propalaeotherium rollinati
       en: Propalaeotherium rollinati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

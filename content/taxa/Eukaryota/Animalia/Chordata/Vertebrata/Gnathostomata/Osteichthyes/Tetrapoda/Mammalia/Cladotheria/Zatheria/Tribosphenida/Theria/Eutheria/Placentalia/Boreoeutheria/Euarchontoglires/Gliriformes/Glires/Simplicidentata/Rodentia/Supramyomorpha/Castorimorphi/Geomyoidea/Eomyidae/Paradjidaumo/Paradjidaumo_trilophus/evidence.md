@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradjidaumo trilophus
       en: Paradjidaumo trilophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

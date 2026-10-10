@@ -9,7 +9,6 @@ records:
     name:
       zh: Kenyasus kirimunensis
       en: Kenyasus kirimunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 托马斯侏狐猴
       en: Thomas's Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: population

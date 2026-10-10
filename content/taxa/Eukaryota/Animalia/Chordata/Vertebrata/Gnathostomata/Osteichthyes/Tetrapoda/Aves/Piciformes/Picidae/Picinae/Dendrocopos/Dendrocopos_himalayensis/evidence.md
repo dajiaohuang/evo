@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocopos himalayensis
       en: Dendrocopos himalayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

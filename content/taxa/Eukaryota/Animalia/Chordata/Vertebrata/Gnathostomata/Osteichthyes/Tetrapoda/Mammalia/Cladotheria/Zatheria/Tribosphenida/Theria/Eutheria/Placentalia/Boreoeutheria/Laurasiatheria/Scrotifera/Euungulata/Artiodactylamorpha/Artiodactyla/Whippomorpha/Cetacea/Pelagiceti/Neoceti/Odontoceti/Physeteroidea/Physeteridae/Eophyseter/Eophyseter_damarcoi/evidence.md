@@ -9,7 +9,6 @@ records:
     name:
       zh: Eophyseter damarcoi
       en: Eophyseter damarcoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bangsia melanochlamys
       en: Bangsia melanochlamys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

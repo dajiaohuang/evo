@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra incognita
       en: Gehyra incognita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

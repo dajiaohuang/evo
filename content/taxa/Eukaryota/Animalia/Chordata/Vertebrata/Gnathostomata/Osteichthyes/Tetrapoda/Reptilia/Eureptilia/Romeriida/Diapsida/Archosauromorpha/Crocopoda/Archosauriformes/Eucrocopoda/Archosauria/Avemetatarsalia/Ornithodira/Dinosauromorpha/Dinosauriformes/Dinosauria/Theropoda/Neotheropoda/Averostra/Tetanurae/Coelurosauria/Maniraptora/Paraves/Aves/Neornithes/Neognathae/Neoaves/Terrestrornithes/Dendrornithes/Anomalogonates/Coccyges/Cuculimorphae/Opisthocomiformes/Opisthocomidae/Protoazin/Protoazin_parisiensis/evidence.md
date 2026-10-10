@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoazin parisiensis
       en: Protoazin parisiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

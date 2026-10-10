@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus citellus
       en: Spermophilus citellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

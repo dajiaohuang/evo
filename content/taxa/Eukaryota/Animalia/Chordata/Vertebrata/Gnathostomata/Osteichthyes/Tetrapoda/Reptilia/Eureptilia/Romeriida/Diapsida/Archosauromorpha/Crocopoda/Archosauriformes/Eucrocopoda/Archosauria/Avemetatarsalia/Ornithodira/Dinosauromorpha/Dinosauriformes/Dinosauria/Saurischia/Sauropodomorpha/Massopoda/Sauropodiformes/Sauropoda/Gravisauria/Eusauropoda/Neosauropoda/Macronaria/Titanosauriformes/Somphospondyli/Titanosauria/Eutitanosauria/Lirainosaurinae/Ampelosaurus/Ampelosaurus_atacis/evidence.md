@@ -9,7 +9,6 @@ records:
     name:
       zh: Ampelosaurus atacis
       en: Ampelosaurus atacis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

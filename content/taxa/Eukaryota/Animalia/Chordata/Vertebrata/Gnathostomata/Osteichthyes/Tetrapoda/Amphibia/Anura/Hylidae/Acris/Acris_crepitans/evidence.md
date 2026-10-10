@@ -9,7 +9,6 @@ records:
     name:
       en: Acris crepitans
       zh: Acris crepitans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

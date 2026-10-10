@@ -9,7 +9,6 @@ records:
     name:
       zh: Uma inornata
       en: Uma inornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glossotheriopsis pascuali
       en: Glossotheriopsis pascuali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea ruficauda
       zh: Pseudoeurycea ruficauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis shrevei
       zh: Pristimantis shrevei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

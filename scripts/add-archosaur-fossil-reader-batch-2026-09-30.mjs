@@ -196,7 +196,7 @@ for (const target of targets) {
     confidence: 'low',
     claimIds: [],
     referenceLocators: parentProfile.referenceIds.map(referenceId => ({ referenceId, locator: 'Cited named specimen and locality; no complete global range is claimed.' })),
-    reviewStatus: 'not-reviewed',
+
   }
   appendUnique(ranges, range)
   rangeRecords.push(range)
@@ -227,12 +227,12 @@ for (const target of targets) {
     localExpectedParentConcept: parentProfile.scientificName,
     parentRelationshipKind: 'taxonomic-parent',
     lineageCompatibility: 'compatible-ancestor-chain',
-    conceptReviewStatus: 'compatible',
-    automatedRecommendation: 'accept-external-mapping',
-    humanCuratorDecision: null,
-    curatorRationale: null,
-    curatorReviewedAt: null,
-    curatorReviewer: null,
+
+
+
+
+
+
     occurrenceCount: Number(pbdbRow.noc),
     referenceNo: pbdbRow.rid,
     snapshotModifiedAt: null,
@@ -252,8 +252,8 @@ taxonResolution.generatedAt = checkedAt
 taxonResolution.summary.ontologyNodes = taxonResolution.resolutions.length
 taxonResolution.summary.unresolved = taxonResolution.resolutions.filter(entry => entry.resolutionStatus !== 'resolved').length
 taxonResolution.summary.resolved = taxonResolution.resolutions.filter(entry => entry.resolutionStatus === 'resolved').length
-taxonResolution.summary.needsConceptReview = taxonResolution.resolutions.filter(entry => entry.conceptReviewStatus === 'needs-concept-review').length
-taxonResolution.summary.humanCuratorDecisions = taxonResolution.resolutions.filter(entry => entry.humanCuratorDecision).length
+
+
 writeJson('data/sources/pbdb-taxon-resolution.json', taxonResolution)
 
 const stories = readJson('data/stories.json')

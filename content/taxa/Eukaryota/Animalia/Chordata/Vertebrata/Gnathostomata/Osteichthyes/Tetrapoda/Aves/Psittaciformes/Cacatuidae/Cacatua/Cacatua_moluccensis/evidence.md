@@ -9,7 +9,6 @@ records:
     name:
       zh: Cacatua moluccensis
       en: Cacatua moluccensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

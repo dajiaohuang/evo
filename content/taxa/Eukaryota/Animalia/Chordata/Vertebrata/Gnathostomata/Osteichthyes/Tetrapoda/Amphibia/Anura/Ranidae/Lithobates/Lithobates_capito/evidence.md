@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates capito
       zh: Lithobates capito
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthornis magna
       en: Acanthornis magna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pycnoptilus floccosus
       en: Pycnoptilus floccosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

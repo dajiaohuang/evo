@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana margariana
       zh: Hylarana margariana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

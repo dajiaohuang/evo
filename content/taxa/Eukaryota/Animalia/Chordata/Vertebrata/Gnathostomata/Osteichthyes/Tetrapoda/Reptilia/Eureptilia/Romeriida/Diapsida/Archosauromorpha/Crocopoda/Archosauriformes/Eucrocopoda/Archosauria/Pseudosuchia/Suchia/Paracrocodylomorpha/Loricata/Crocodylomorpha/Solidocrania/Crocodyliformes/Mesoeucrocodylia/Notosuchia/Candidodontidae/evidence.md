@@ -9,7 +9,6 @@ records:
     name:
       zh: Candidodontidae
       en: Candidodontidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Necturus beyeri
       zh: Necturus beyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

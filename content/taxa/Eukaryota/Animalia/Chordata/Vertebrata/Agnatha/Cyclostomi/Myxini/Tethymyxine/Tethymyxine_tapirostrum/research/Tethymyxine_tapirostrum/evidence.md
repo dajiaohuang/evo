@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: miyashita-2019-tethymyxine at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: miyashita-2019-tethymyxine
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: miyashita-2019-tethymyxine at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: miyashita-2019-tethymyxine
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: miyashita-2019-tethymyxine at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: miyashita-2019-tethymyxine
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: miyashita-2019-tethymyxine at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: miyashita-2019-tethymyxine
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: miyashita-2019-tethymyxine at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: miyashita-2019-tethymyxine
           relation: supports
@@ -200,7 +185,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Tethymyxine tapirostrum

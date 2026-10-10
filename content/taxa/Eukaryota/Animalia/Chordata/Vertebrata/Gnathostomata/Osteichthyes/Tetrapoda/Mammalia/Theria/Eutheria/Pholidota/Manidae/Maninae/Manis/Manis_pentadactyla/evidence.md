@@ -9,7 +9,6 @@ records:
     name:
       zh: Manis pentadactyla
       en: Manis pentadactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bryanictis paulus
       en: Bryanictis paulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

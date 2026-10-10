@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelonoidis meridiana
       en: Chelonoidis meridiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

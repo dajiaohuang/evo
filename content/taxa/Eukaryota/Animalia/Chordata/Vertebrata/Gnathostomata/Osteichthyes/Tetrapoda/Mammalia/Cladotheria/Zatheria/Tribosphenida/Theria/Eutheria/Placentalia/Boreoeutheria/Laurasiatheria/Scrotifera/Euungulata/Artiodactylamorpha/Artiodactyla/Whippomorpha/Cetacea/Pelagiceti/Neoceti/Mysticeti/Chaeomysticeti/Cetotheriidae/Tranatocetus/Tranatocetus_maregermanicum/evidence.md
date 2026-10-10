@@ -9,7 +9,6 @@ records:
     name:
       zh: Tranatocetus maregermanicum
       en: Tranatocetus maregermanicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

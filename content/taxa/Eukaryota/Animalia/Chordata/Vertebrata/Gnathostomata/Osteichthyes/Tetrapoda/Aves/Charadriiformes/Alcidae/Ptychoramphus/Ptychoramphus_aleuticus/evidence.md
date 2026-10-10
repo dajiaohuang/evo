@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptychoramphus aleuticus
       en: Ptychoramphus aleuticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

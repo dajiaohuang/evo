@@ -9,7 +9,6 @@ records:
     name:
       zh: Cubatyphlops arator
       en: Cubatyphlops arator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

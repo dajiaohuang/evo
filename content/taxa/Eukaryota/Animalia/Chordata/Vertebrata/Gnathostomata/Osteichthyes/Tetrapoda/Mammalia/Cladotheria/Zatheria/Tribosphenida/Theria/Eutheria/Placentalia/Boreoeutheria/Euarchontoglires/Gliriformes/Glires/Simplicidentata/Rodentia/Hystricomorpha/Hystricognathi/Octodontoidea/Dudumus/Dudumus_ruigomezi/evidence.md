@@ -9,7 +9,6 @@ records:
     name:
       zh: Dudumus ruigomezi
       en: Dudumus ruigomezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

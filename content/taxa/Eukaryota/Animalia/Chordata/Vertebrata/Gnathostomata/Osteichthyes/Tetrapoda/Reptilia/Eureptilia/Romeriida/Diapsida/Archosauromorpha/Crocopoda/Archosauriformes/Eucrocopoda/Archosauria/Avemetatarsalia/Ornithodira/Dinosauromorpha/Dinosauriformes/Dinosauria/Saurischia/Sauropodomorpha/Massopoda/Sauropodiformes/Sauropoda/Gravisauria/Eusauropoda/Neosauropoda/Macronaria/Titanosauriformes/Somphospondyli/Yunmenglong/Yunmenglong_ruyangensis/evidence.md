@@ -9,7 +9,6 @@ records:
     name:
       zh: Yunmenglong ruyangensis
       en: Yunmenglong ruyangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

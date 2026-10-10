@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis diadematus
       zh: Pristimantis diadematus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

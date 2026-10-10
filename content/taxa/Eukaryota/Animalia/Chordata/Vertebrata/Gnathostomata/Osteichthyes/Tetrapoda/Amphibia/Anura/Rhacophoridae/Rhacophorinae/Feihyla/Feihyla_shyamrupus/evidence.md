@@ -9,7 +9,6 @@ records:
     name:
       en: Feihyla shyamrupus
       zh: Feihyla shyamrupus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

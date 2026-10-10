@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoceras
       en: Protoceras
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

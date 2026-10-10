@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerygone modesta
       en: Gerygone modesta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

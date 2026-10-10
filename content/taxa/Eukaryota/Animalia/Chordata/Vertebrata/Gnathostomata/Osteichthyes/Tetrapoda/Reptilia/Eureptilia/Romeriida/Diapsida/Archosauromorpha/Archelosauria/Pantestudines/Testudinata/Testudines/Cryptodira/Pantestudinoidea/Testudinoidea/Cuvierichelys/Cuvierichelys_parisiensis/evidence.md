@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuvierichelys parisiensis
       en: Cuvierichelys parisiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

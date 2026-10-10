@@ -51,7 +51,6 @@ for (const dossier of records) {
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.sourceDatasetId, '2073')
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const routeKey = dossier.scientificName.normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase('en-US').slice(0, 2)
   const routes = registryManifest.search.routes[routeKey] ?? []

@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-巡护目击和保护综述不能建立连续分布或种群估计；本页限于记录历史。本页为有来源的初稿，尚未经过外部领域专家评审。
+巡护目击和保护综述不能建立连续分布或种群估计；本页限于记录历史。本页为有来源的初稿。
 <!-- /evo:text -->

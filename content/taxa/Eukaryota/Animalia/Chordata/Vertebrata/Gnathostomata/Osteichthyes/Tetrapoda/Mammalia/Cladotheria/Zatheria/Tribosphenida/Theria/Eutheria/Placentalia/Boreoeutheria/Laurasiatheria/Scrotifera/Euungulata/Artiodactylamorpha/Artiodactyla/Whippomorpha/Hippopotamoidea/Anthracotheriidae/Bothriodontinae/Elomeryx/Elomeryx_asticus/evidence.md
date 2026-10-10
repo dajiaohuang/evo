@@ -9,7 +9,6 @@ records:
     name:
       zh: Elomeryx asticus
       en: Elomeryx asticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

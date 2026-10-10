@@ -40,7 +40,7 @@ A 2026 study of free-ranging tamarins in the eastern Brazilian Amazon detected e
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The field ecology, local density, and risk sources describe different places and periods: one focal group, one protected-area transect survey, and a national assessment. None is a synchronized range-wide census. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. The Chinese name is editorial, and the page has not received external expert review.
+The field ecology, local density, and risk sources describe different places and periods: one focal group, one protected-area transect survey, and a national assessment. None is a synchronized range-wide census. The Tocantins as a barrier to gene flow is the original authors' interpretation, not a mechanism independently tested here. The Chinese name is editorial.
 <!-- /evo:text -->
 
 ## Three sample sizes answer different questions

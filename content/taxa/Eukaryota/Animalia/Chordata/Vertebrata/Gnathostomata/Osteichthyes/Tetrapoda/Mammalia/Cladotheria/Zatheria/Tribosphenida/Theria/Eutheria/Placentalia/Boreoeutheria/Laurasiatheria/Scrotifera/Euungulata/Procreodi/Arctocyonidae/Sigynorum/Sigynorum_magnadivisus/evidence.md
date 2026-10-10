@@ -9,7 +9,6 @@ records:
     name:
       zh: Sigynorum magnadivisus
       en: Sigynorum magnadivisus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

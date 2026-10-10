@@ -9,7 +9,6 @@ records:
     name:
       zh: Turnix suscitator
       en: Turnix suscitator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

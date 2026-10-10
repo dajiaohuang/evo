@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon gongshan
       en: Lycodon gongshan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

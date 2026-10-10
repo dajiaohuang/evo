@@ -9,7 +9,6 @@ records:
     name:
       zh: Bradypodion damaranum
       en: Bradypodion damaranum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

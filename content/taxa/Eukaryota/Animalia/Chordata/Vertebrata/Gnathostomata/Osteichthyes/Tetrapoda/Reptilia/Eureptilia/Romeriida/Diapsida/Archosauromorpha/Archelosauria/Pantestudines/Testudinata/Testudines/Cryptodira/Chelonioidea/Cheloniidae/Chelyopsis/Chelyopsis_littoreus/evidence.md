@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelyopsis littoreus
       en: Chelyopsis littoreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scalenodontoides macrodontes
       en: Scalenodontoides macrodontes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

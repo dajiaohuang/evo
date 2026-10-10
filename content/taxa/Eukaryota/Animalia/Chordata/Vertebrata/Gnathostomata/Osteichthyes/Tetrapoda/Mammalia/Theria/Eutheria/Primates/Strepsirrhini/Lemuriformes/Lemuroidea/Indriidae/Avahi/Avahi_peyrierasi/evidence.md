@@ -9,7 +9,6 @@ records:
     name:
       zh: 佩里耶拉斯毛狐猴
       en: Peyrieras's Woolly Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

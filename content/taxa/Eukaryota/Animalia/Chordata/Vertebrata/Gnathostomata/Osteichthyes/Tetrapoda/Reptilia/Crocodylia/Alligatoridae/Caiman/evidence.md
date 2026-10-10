@@ -9,7 +9,6 @@ records:
     name:
       zh: Caiman
       en: Caiman
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: sensoryOverview

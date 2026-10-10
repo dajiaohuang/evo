@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena alba
       en: Amphisbaena alba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

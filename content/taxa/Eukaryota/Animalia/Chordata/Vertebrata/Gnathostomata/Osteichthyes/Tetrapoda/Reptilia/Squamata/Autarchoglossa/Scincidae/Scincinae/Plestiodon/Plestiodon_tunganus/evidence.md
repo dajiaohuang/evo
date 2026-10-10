@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon tunganus
       en: Plestiodon tunganus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

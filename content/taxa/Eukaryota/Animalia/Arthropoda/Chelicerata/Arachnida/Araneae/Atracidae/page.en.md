@@ -28,5 +28,5 @@ account
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. The biological account is about Australian funnel-webs; its genus and species counts change with taxonomic revision and are not treated as a current inventory.
+Source-linked introductory account;. The biological account is about Australian funnel-webs; its genus and species counts change with taxonomic revision and are not treated as a current inventory.
 <!-- /evo:text -->

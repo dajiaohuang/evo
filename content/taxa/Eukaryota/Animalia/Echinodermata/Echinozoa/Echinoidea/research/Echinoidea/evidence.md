@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: thompson-2022-bothriocidaroida @ DOI 10.1080/14772019.2022.2042408 with correction 10.1080/14772019.2022.2070290
       referenceLinks:
         - relation: supports
           referenceId: thompson-2022-bothriocidaroida
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: mongiardino-koch-2022-echinoid-phylogenomics @ DOI 10.7554/eLife.72460
       referenceLinks:
         - relation: supports
           referenceId: mongiardino-koch-2022-echinoid-phylogenomics
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thompson-2022-bothriocidaroida primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: thompson-2022-bothriocidaroida
           relation: supports
@@ -120,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thompson-2022-bothriocidaroida primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: thompson-2022-bothriocidaroida
           relation: supports
@@ -139,9 +127,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.08-static-v5-rc43
       referenceLinks:
         - referenceId: thompson-2022-bothriocidaroida
           relation: supports
@@ -163,9 +148,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thompson-2022-bothriocidaroida primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: thompson-2022-bothriocidaroida
           relation: supports
@@ -182,9 +164,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/6/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thompson-2022-bothriocidaroida primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: thompson-2022-bothriocidaroida
           relation: supports
@@ -246,7 +225,6 @@ records:
           locator: pp. 1395–1396; Figures 2 and 6; Neobothriocidaris sp. A, Occurrence and Remarks
         - referenceId: mongiardino-koch-2022-echinoid-phylogenomics
           locator: pp. 1–2; Figure 6 and Figure 6—figure supplement 1
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

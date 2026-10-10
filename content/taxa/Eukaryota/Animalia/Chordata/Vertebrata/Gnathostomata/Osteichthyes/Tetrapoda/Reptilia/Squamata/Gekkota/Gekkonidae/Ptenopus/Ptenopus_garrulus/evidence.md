@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptenopus garrulus
       en: Ptenopus garrulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

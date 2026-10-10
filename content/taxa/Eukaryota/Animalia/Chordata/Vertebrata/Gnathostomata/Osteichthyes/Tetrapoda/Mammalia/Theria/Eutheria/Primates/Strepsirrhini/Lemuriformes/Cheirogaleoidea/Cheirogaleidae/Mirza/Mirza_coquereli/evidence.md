@@ -10,7 +10,6 @@ records:
     name:
       en: Coquerel's Giant Mouse Lemur
       zh: 科克雷尔巨鼠狐猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

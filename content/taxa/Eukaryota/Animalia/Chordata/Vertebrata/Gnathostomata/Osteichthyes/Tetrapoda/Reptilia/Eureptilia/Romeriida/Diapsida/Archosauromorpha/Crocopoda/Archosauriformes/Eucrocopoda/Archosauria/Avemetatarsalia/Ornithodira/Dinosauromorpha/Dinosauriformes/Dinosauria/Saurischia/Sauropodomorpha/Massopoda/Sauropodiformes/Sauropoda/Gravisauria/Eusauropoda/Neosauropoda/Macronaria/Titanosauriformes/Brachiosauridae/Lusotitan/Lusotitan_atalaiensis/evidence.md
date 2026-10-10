@@ -9,7 +9,6 @@ records:
     name:
       zh: Lusotitan atalaiensis
       en: Lusotitan atalaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

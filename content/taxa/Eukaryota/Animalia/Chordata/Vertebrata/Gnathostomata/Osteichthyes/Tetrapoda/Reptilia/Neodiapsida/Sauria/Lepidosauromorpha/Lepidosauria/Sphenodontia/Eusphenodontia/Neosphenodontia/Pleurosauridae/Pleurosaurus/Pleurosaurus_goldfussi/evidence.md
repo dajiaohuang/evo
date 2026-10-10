@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleurosaurus goldfussi
       en: Pleurosaurus goldfussi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

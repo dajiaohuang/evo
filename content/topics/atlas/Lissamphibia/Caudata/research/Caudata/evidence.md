@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: shen-2013-caudata-markers DOI 10.1093/molbev/mst122; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: shen-2013-caudata-markers
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: gao-2012-beiyanerpeton DOI 10.1073/pnas.1009828109; PMID 22411790
       referenceLinks:
         - relation: supports
           referenceId: gao-2012-beiyanerpeton
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: gao-2012-beiyanerpeton; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: gao-2012-beiyanerpeton
@@ -122,11 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: shen-2013-caudata-markers
           relation: supports
@@ -150,11 +136,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/4/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: gao-2012-beiyanerpeton
           relation: supports
@@ -178,11 +159,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/5/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: shen-2013-caudata-markers
           relation: supports
@@ -237,7 +213,6 @@ records:
       referenceLocators:
         - referenceId: gao-2012-beiyanerpeton
           locator: 5767–5772; Figures 1–4; Geological setting; PKUP V0601–V0606; 157 ± 3 Ma overlying unit
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

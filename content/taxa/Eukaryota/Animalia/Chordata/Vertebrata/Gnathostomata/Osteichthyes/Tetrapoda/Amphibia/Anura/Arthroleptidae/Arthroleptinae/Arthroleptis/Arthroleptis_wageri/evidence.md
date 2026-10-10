@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis wageri
       zh: Arthroleptis wageri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

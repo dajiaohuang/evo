@@ -9,7 +9,6 @@ records:
     name:
       zh: Lariosaurus valceresii
       en: Lariosaurus valceresii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

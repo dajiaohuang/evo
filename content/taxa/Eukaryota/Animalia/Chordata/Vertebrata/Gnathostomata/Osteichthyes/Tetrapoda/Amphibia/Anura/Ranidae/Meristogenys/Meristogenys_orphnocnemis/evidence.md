@@ -9,7 +9,6 @@ records:
     name:
       en: Meristogenys orphnocnemis
       zh: Meristogenys orphnocnemis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

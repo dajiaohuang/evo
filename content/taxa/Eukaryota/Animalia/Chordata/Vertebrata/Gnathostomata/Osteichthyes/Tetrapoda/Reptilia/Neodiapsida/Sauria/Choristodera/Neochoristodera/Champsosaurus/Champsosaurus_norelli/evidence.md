@@ -9,7 +9,6 @@ records:
     name:
       zh: Champsosaurus norelli
       en: Champsosaurus norelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

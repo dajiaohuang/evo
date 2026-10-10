@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterocercus aurantiivertex
       en: Heterocercus aurantiivertex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

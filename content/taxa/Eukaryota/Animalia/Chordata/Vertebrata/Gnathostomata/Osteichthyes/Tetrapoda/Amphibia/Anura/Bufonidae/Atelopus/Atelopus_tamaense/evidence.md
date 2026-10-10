@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus tamaense
       zh: Atelopus tamaense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

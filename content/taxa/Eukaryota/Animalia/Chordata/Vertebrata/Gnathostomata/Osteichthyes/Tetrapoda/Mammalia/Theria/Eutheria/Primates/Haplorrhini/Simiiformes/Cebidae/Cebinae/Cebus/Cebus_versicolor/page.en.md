@@ -28,5 +28,5 @@ The model gave human presence the greatest explanatory weight for C. versicolor,
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-A source-linked local study guide, not externally expert-reviewed. The occupancy model covers only Selva de Florencia, and the parasite percentage pools samples across three primates. Neither study describes the full range, year-round ecology or current conservation status.
+A source-linked local study guide. The occupancy model covers only Selva de Florencia, and the parasite percentage pools samples across three primates. Neither study describes the full range, year-round ecology or current conservation status.
 <!-- /evo:text -->

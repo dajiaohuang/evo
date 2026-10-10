@@ -10,7 +10,6 @@ records:
     name:
       en: Northern Needle-clawed Galago
       zh: 北方针爪婴猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaaucetus thesaurus
       en: Kaaucetus thesaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

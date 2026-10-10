@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonocephalus lacunosus
       en: Gonocephalus lacunosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

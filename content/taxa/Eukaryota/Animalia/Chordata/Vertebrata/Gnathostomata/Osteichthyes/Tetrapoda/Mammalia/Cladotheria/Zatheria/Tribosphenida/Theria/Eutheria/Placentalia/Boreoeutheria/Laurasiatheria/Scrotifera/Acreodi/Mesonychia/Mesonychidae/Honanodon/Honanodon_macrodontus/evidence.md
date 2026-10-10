@@ -9,7 +9,6 @@ records:
     name:
       zh: Honanodon macrodontus
       en: Honanodon macrodontus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

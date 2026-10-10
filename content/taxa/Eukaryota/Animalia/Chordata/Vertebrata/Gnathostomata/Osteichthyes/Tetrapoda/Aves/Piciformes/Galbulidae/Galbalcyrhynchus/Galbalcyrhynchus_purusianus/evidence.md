@@ -9,7 +9,6 @@ records:
     name:
       zh: Galbalcyrhynchus purusianus
       en: Galbalcyrhynchus purusianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paragravemys erratica
       en: Paragravemys erratica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

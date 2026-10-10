@@ -9,7 +9,6 @@ records:
     name:
       zh: Clytorhynchus vitiensis
       en: Clytorhynchus vitiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

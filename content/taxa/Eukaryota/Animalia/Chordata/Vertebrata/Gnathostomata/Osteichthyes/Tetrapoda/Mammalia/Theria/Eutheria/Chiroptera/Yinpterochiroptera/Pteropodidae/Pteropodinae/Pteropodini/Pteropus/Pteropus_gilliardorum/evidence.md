@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus gilliardorum
       en: Pteropus gilliardorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

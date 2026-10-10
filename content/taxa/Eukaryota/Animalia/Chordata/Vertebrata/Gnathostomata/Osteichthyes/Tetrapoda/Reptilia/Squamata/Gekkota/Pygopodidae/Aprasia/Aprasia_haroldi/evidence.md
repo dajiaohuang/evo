@@ -9,7 +9,6 @@ records:
     name:
       zh: Aprasia haroldi
       en: Aprasia haroldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius thoracicus
       en: Charadrius thoracicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

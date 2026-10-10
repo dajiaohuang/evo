@@ -9,7 +9,6 @@ records:
     name:
       zh: Platanavis nana
       en: Platanavis nana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

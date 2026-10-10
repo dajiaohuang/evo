@@ -9,7 +9,6 @@ records:
     name:
       zh: Tylosaurus iembeensis
       en: Tylosaurus iembeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

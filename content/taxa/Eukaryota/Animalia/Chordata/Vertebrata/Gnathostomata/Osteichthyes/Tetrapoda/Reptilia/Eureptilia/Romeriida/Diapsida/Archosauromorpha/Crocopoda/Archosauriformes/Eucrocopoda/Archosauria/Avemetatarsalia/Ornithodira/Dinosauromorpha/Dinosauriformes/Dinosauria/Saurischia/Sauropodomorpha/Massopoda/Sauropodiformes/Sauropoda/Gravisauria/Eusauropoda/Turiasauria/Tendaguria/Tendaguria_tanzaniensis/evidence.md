@@ -9,7 +9,6 @@ records:
     name:
       zh: Tendaguria tanzaniensis
       en: Tendaguria tanzaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

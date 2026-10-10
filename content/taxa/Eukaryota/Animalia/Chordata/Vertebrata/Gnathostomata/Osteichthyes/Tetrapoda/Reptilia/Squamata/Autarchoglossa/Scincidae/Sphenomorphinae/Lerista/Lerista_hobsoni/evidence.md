@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista hobsoni
       en: Lerista hobsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Orycteropus djourabensis
       en: Orycteropus djourabensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

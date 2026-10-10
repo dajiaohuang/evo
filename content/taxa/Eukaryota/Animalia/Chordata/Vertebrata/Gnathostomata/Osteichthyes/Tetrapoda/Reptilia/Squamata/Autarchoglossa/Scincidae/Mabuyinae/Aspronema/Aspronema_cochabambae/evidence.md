@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspronema cochabambae
       en: Aspronema cochabambae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

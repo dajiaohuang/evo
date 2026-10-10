@@ -9,7 +9,6 @@ records:
     name:
       zh: Sternula saundersi
       en: Sternula saundersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

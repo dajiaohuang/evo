@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina villamizariorum
       zh: Oedipina villamizariorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

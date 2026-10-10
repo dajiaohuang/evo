@@ -9,7 +9,6 @@ records:
     name:
       zh: Batis poensis
       en: Batis poensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Epimanteoceras mae
       en: Epimanteoceras mae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

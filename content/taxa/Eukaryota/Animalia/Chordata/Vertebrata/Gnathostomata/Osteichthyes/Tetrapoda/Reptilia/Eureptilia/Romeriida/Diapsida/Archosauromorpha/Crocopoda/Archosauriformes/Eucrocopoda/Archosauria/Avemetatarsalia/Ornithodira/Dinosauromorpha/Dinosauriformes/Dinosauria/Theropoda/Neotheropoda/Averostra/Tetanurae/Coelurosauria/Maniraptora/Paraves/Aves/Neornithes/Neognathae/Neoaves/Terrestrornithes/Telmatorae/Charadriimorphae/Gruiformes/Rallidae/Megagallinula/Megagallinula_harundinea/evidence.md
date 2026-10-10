@@ -9,7 +9,6 @@ records:
     name:
       zh: Megagallinula harundinea
       en: Megagallinula harundinea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

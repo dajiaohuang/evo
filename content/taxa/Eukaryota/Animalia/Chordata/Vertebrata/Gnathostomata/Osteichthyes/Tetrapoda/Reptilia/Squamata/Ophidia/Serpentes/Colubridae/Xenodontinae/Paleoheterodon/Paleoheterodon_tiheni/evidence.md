@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleoheterodon tiheni
       en: Paleoheterodon tiheni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

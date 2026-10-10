@@ -9,7 +9,6 @@ records:
     name:
       zh: Phelosaccomys shotwelli
       en: Phelosaccomys shotwelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

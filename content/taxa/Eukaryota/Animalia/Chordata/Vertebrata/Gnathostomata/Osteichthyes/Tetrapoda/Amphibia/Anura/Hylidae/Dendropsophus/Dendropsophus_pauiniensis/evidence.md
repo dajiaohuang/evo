@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus pauiniensis
       zh: Dendropsophus pauiniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

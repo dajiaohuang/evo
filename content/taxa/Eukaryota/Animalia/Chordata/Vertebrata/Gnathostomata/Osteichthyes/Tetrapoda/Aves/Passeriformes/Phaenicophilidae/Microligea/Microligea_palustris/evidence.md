@@ -9,7 +9,6 @@ records:
     name:
       zh: Microligea palustris
       en: Microligea palustris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

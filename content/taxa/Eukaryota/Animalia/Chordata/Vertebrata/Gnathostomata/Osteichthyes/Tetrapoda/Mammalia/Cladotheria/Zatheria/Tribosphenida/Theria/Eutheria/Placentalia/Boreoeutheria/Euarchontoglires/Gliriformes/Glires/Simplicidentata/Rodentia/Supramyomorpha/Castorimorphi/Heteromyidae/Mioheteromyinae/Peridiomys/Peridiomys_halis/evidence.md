@@ -9,7 +9,6 @@ records:
     name:
       zh: Peridiomys halis
       en: Peridiomys halis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

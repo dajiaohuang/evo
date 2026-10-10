@@ -9,7 +9,6 @@ records:
     name:
       zh: Tinamus guttatus
       en: Tinamus guttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

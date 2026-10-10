@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarentola caboverdiana
       en: Tarentola caboverdiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

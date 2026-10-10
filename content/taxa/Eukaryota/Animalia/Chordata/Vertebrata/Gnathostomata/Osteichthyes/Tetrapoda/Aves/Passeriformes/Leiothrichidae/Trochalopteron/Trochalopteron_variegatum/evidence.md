@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron variegatum
       en: Trochalopteron variegatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

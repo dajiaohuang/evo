@@ -9,7 +9,6 @@ records:
     name:
       zh: Dunstanetta johnstoneorum
       en: Dunstanetta johnstoneorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

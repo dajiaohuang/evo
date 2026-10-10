@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-活动、食性和空间利用资料来自一个低地地点的一群研究对象及有限时段；不能视为全种平均值或完整生态介绍。本页未经过外部领域专家评审。
+活动、食性和空间利用资料来自一个低地地点的一群研究对象及有限时段；不能视为全种平均值或完整生态介绍。。
 <!-- /evo:text -->

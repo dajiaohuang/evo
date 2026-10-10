@@ -9,7 +9,6 @@ records:
     name:
       en: Asterophrys pullifer
       zh: Asterophrys pullifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

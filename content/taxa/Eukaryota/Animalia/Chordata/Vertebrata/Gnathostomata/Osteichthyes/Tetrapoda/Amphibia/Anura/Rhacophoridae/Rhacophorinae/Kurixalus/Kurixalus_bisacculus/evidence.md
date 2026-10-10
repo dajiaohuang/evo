@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus bisacculus
       zh: Kurixalus bisacculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sminthopsis ooldea
       en: Sminthopsis ooldea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Alcalus baluensis
       zh: Alcalus baluensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

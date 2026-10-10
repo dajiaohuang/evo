@@ -9,7 +9,6 @@ records:
     name:
       zh: Atacamatitan chilensis
       en: Atacamatitan chilensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

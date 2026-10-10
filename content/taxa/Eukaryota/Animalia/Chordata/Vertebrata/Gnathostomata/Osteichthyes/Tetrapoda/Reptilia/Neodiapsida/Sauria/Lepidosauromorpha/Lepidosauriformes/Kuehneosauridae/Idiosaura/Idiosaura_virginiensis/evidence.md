@@ -9,7 +9,6 @@ records:
     name:
       zh: Idiosaura virginiensis
       en: Idiosaura virginiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

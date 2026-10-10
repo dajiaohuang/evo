@@ -9,7 +9,6 @@ records:
     name:
       zh: Urolais epichlorus
       en: Urolais epichlorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

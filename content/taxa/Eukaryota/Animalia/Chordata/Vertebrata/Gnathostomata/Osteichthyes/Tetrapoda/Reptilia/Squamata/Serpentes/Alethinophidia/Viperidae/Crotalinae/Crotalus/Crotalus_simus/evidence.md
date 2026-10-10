@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus simus
       en: Crotalus simus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena mascareniensis
       zh: Ptychadena mascareniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus owstoni
       zh: Zhangixalus owstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

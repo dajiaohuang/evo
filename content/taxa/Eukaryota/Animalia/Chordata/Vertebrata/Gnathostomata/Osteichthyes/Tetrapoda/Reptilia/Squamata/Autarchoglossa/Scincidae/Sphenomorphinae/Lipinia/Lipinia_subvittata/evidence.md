@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia subvittata
       en: Lipinia subvittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

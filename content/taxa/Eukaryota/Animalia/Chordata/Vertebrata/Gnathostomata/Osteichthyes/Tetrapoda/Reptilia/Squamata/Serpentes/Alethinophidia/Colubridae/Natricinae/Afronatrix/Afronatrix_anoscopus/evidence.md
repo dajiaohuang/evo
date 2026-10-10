@@ -9,7 +9,6 @@ records:
     name:
       zh: Afronatrix anoscopus
       en: Afronatrix anoscopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

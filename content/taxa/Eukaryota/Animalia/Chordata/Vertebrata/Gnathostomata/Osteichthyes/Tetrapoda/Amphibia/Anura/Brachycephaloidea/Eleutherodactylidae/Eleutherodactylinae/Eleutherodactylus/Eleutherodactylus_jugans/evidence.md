@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus jugans
       zh: Eleutherodactylus jugans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

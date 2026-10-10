@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa obscura
       zh: Bolitoglossa obscura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

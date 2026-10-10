@@ -9,7 +9,6 @@ records:
     name:
       zh: Centropus monachus
       en: Centropus monachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

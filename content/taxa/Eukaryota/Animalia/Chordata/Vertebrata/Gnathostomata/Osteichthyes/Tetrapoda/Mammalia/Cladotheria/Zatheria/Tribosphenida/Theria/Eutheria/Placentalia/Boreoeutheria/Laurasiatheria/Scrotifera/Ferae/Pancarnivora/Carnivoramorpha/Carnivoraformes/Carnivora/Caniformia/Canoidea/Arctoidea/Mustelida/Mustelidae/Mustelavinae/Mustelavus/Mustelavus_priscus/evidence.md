@@ -9,7 +9,6 @@ records:
     name:
       zh: Mustelavus priscus
       en: Mustelavus priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

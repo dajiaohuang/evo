@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus relictus
       en: Spermophilus relictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

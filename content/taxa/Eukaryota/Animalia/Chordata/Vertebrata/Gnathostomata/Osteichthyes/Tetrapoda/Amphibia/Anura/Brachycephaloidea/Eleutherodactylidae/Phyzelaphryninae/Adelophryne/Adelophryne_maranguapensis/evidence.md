@@ -9,7 +9,6 @@ records:
     name:
       en: Adelophryne maranguapensis
       zh: Adelophryne maranguapensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

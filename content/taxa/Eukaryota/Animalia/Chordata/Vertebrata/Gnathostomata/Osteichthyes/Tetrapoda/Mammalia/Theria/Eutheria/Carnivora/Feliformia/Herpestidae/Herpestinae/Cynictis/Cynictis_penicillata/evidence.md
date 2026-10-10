@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynictis penicillata
       en: Cynictis penicillata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

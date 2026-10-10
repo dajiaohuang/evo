@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeothentes boliviensis
       en: Palaeothentes boliviensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

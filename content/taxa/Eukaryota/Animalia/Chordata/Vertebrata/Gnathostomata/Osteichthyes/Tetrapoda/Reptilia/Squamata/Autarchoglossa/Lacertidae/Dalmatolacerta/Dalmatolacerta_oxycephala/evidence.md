@@ -9,7 +9,6 @@ records:
     name:
       zh: Dalmatolacerta oxycephala
       en: Dalmatolacerta oxycephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

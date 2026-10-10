@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinornis santensis
       en: Sinornis santensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

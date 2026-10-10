@@ -9,7 +9,6 @@ records:
     name:
       zh: Sabresuchus sympiestodon
       en: Sabresuchus sympiestodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neofiber alleni
       en: Neofiber alleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

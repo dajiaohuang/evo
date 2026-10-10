@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon cylindraceus
       zh: Plethodon cylindraceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

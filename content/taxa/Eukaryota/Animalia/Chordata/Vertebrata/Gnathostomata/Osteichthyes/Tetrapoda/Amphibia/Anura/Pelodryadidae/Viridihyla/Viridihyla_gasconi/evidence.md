@@ -9,7 +9,6 @@ records:
     name:
       en: Viridihyla gasconi
       zh: Viridihyla gasconi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

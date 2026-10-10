@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus sordidatus
       zh: Hyloxalus sordidatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

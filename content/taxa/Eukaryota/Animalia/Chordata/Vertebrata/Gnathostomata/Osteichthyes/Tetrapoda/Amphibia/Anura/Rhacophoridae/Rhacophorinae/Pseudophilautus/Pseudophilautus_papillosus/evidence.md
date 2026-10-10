@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus papillosus
       zh: Pseudophilautus papillosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

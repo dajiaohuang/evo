@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus cochranae
       zh: Nymphargus cochranae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

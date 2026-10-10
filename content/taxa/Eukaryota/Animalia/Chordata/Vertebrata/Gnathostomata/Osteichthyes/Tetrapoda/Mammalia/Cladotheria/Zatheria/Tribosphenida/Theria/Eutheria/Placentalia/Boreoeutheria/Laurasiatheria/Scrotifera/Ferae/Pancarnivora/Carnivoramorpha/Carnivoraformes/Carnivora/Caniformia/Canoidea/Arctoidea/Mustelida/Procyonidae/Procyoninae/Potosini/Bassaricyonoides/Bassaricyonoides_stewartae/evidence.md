@@ -9,7 +9,6 @@ records:
     name:
       zh: Bassaricyonoides stewartae
       en: Bassaricyonoides stewartae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

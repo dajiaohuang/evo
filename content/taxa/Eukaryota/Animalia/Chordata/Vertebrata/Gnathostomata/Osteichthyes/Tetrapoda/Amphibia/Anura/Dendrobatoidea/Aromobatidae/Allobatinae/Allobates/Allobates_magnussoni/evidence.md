@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates magnussoni
       zh: Allobates magnussoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

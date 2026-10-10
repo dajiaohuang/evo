@@ -9,7 +9,6 @@ records:
     name:
       zh: Elektorornis chenguangi
       en: Elektorornis chenguangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bulaklestes kezbe
       en: Bulaklestes kezbe
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

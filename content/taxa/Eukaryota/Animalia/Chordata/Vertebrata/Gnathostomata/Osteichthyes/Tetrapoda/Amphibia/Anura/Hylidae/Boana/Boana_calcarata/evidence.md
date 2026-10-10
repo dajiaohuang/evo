@@ -9,7 +9,6 @@ records:
     name:
       en: Boana calcarata
       zh: Boana calcarata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

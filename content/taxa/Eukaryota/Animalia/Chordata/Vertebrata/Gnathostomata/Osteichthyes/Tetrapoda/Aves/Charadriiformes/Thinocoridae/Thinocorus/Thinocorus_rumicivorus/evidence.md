@@ -9,7 +9,6 @@ records:
     name:
       zh: Thinocorus rumicivorus
       en: Thinocorus rumicivorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

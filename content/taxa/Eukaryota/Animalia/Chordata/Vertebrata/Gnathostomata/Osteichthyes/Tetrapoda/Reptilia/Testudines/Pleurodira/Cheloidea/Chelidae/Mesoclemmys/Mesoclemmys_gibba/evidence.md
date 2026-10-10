@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesoclemmys gibba
       en: Mesoclemmys gibba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

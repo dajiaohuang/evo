@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuculus poliocephalus
       en: Cuculus poliocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius ocellatus
       zh: Hyperolius ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

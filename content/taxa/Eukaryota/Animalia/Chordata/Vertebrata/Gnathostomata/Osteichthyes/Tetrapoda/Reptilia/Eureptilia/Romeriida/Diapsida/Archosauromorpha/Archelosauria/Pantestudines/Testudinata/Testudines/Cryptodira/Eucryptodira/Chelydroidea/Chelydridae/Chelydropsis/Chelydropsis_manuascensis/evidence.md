@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelydropsis manuascensis
       en: Chelydropsis manuascensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

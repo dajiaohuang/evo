@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-描述时仅有一件正模；遗传和发声证据部分依赖先前发表资料，标绘岛屿分布也不是普查。 本页尚未经过外部领域专家评审。
+描述时仅有一件正模；遗传和发声证据部分依赖先前发表资料，标绘岛屿分布也不是普查。 。
 <!-- /evo:text -->

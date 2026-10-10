@@ -9,7 +9,6 @@ records:
     name:
       zh: Karydomys symeonidisi
       en: Karydomys symeonidisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

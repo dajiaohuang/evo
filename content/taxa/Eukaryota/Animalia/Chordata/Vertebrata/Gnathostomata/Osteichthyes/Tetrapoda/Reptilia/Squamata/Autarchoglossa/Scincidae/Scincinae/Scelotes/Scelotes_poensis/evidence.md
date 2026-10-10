@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelotes poensis
       en: Scelotes poensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrophryniscus proboscideus
       zh: Dendrophryniscus proboscideus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

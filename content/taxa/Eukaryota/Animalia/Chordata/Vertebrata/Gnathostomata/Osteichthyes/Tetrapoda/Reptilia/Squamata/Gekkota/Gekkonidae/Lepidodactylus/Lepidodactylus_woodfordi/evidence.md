@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus woodfordi
       en: Lepidodactylus woodfordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon travancoricus
       en: Lycodon travancoricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

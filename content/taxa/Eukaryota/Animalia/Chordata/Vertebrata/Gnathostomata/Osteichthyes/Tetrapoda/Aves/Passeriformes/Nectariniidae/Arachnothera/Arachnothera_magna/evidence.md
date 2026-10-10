@@ -9,7 +9,6 @@ records:
     name:
       zh: Arachnothera magna
       en: Arachnothera magna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

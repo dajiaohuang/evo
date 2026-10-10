@@ -9,7 +9,6 @@ records:
     name:
       zh: Enyalioides palpebralis
       en: Enyalioides palpebralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

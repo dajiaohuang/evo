@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvicursor remotus
       en: Parvicursor remotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

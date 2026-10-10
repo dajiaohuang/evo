@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploclonus selwynianus
       en: Diploclonus selwynianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

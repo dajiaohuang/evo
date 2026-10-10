@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinomyias insignis
       en: Rhinomyias insignis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

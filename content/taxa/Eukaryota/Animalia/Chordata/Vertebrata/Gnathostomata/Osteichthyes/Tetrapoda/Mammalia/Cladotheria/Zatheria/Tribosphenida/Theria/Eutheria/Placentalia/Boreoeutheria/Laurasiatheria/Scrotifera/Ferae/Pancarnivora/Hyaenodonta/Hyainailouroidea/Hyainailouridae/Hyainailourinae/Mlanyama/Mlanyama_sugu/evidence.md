@@ -9,7 +9,6 @@ records:
     name:
       zh: Mlanyama sugu
       en: Mlanyama sugu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

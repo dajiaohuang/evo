@@ -9,7 +9,6 @@ records:
     name:
       zh: Montivipera albizona
       en: Montivipera albizona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

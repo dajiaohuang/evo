@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyrrhinus recifinus
       en: Platyrrhinus recifinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

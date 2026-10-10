@@ -9,7 +9,6 @@ records:
     name:
       zh: 古巴鳄
       en: Cuban crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

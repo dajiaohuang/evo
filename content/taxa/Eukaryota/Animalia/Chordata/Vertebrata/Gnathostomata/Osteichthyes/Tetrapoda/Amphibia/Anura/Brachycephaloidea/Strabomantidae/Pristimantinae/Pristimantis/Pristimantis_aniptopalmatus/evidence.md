@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis aniptopalmatus
       zh: Pristimantis aniptopalmatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

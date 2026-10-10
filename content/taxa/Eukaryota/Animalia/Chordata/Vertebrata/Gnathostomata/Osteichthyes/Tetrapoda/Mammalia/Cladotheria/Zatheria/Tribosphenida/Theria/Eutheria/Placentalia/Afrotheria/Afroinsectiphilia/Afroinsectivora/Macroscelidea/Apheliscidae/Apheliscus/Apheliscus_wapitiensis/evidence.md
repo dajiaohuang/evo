@@ -9,7 +9,6 @@ records:
     name:
       zh: Apheliscus wapitiensis
       en: Apheliscus wapitiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

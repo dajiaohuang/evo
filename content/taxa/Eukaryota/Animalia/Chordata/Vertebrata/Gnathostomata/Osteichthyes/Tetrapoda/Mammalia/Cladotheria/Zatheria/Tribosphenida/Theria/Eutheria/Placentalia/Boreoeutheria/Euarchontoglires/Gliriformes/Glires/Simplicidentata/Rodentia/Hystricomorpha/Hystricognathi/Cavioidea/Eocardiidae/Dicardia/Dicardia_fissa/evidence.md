@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicardia fissa
       en: Dicardia fissa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

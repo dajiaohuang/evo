@@ -9,7 +9,6 @@ records:
     name:
       zh: Blarinomys breviceps
       en: Blarinomys breviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

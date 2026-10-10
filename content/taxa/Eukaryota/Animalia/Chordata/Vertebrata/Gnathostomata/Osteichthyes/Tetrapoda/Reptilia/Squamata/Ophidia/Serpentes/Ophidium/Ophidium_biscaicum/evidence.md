@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophidium biscaicum
       en: Ophidium biscaicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

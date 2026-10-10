@@ -9,7 +9,6 @@ records:
     name:
       zh: 中美貘
       en: Baird’s tapir
-    reviewStatus: source-linked
     checkedAt: 2026-09-22
     sections:
       - topic:

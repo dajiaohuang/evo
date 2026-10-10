@@ -9,7 +9,6 @@ records:
     name:
       zh: Urochroa bougueri
       en: Urochroa bougueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

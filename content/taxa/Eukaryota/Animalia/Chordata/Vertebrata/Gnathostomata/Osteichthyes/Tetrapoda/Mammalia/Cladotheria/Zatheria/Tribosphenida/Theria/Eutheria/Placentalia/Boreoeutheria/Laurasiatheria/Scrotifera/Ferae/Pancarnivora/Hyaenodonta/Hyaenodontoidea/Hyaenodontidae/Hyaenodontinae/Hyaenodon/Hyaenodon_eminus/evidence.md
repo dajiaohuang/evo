@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyaenodon eminus
       en: Hyaenodon eminus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

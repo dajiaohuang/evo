@@ -9,7 +9,6 @@ records:
     name:
       zh: Notharchus swainsoni
       en: Notharchus swainsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

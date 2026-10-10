@@ -9,7 +9,6 @@ records:
     name:
       zh: Xibalbaonyx exinferis
       en: Xibalbaonyx exinferis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

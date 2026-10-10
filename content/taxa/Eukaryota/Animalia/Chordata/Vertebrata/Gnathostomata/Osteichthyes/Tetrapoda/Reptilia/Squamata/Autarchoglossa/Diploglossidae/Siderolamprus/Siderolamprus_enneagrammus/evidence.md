@@ -9,7 +9,6 @@ records:
     name:
       zh: Siderolamprus enneagrammus
       en: Siderolamprus enneagrammus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 马苏拉叉纹鼠狐猴
       en: Masoala Fork-marked Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Agriornis micropterus
       en: Agriornis micropterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

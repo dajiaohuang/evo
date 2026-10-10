@@ -9,7 +9,6 @@ records:
     name:
       zh: Elseya lavarackorum
       en: Elseya lavarackorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

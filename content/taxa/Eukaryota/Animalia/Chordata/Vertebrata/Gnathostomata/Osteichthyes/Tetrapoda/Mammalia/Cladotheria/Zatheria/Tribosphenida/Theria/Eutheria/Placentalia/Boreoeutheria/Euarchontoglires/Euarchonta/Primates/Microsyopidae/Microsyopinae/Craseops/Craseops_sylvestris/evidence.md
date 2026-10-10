@@ -9,7 +9,6 @@ records:
     name:
       zh: Craseops sylvestris
       en: Craseops sylvestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

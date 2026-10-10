@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus reguloides
       en: Phylloscopus reguloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

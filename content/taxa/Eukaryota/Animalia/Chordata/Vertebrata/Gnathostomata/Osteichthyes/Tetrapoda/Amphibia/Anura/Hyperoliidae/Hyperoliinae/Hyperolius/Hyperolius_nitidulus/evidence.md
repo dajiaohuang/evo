@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius nitidulus
       zh: Hyperolius nitidulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

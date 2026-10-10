@@ -9,7 +9,6 @@ records:
     name:
       zh: Typhlops leptolepis
       en: Typhlops leptolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

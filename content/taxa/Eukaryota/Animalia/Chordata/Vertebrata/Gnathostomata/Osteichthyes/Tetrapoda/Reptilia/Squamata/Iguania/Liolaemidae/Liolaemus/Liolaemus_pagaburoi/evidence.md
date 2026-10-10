@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus pagaburoi
       en: Liolaemus pagaburoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

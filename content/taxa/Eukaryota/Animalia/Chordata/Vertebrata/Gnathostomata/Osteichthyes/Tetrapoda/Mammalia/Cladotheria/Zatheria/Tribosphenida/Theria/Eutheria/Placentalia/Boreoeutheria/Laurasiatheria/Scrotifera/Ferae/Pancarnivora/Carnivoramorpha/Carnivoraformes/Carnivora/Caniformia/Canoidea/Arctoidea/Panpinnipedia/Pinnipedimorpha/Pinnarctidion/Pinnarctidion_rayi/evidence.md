@@ -9,7 +9,6 @@ records:
     name:
       zh: Pinnarctidion rayi
       en: Pinnarctidion rayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

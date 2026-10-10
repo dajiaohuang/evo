@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus simulans
       zh: Eleutherodactylus simulans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protemys serrata
       en: Protemys serrata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Callovosaurus leedsi
       en: Callovosaurus leedsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sterna repressa
       en: Sterna repressa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidophyma flavimaculatum
       en: Lepidophyma flavimaculatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

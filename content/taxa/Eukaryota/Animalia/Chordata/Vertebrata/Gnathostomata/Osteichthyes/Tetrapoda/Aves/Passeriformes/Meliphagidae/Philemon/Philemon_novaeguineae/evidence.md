@@ -9,7 +9,6 @@ records:
     name:
       zh: Philemon novaeguineae
       en: Philemon novaeguineae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

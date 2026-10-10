@@ -9,7 +9,6 @@ records:
     name:
       zh: Wyonycteris galensis
       en: Wyonycteris galensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

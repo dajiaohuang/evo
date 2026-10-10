@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys himalayana
       zh: Xenophrys himalayana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

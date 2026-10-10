@@ -9,7 +9,6 @@ records:
     name:
       zh: Cullinia levis
       en: Cullinia levis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

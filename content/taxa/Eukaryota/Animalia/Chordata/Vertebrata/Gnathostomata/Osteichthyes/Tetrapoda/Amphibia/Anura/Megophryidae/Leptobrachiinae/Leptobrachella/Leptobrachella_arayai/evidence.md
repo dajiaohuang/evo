@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella arayai
       zh: Leptobrachella arayai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

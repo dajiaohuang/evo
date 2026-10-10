@@ -9,7 +9,6 @@ records:
     name:
       zh: Osbornodon renjiei
       en: Osbornodon renjiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

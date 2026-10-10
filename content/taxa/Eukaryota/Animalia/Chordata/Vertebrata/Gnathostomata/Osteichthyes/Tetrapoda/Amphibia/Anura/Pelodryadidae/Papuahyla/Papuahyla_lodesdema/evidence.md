@@ -9,7 +9,6 @@ records:
     name:
       en: Papuahyla lodesdema
       zh: Papuahyla lodesdema
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiaspis damelii
       en: Hemiaspis damelii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

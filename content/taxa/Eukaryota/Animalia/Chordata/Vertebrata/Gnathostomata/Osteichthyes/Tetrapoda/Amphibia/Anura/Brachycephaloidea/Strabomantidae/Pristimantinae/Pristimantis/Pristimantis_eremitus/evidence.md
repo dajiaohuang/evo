@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis eremitus
       zh: Pristimantis eremitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

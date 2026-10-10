@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylomyscus denniae
       en: Hylomyscus denniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

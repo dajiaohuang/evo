@@ -9,7 +9,6 @@ records:
     name:
       zh: Todiramphus funebris
       en: Todiramphus funebris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia mahonyi
       zh: Uperoleia mahonyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis blommersae
       zh: Boophis blommersae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

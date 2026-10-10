@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdoides hartlaubii
       en: Turdoides hartlaubii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

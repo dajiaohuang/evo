@@ -9,7 +9,6 @@ records:
     name:
       en: Neobatrachus albipes
       zh: Neobatrachus albipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: cincotta-2022-tupandactylus-feathers concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: cincotta-2022-tupandactylus-feathers
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: cincotta-2022-tupandactylus-feathers
           locator: pp. 684–688; Figure 1; Methods
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Tupandactylus
     rank: genus
@@ -73,7 +69,6 @@ records:
     name:
       zh: Tupandactylus
       en: Tupandactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: readingPath
@@ -228,8 +223,8 @@ records:
             accessedAt: 2026-10-03
             locator: "Official Europe PMC fullTextXML PMC8386889: selected front matter; complete Introduction, Geological setting, Materials and methods, Discussion and Conclusion; Results subsections 0, 2, 12, 14–17, 19, 24 and 30. Other Results, images, supplementary matrices and raw CT data not read."
             scope:
-              zh: 2021 年关联骨架的保存、头冠、喙鞘、部分骨骼、成熟与功能假说导读；不替代原始描述、全部材料或专家审评。
-              en: Guide to preservation, crest, beak sheath, selected skeleton anatomy, maturity and functional hypotheses for the 2021 associated specimen; not the original species description, all material or expert review.
+              zh: 2021 年关联骨架的保存、头冠、喙鞘、部分骨骼、成熟与功能假说导读；不替代原始描述、全部材料。
+              en: Guide to preservation, crest, beak sheath, selected skeleton anatomy, maturity and functional hypotheses for the 2021 associated specimen; not the original species description, all material.
           originalFields:
             - id
             - doi
@@ -472,8 +467,8 @@ records:
           en: "Osteology of an exceptionally well-preserved tapejarid skeleton from Brazil: Revealing the anatomy of a curious pterodactyloid clade"
         url: https://doi.org/10.1371/journal.pone.0254789
         scope:
-          zh: 2021 年关联骨架的保存、头冠、喙鞘、部分骨骼、成熟与功能假说导读；不替代原始描述、全部材料或专家审评。
-          en: Guide to preservation, crest, beak sheath, selected skeleton anatomy, maturity and functional hypotheses for the 2021 associated specimen; not the original species description, all material or expert review.
+          zh: 2021 年关联骨架的保存、头冠、喙鞘、部分骨骼、成熟与功能假说导读；不替代原始描述、全部材料。
+          en: Guide to preservation, crest, beak sheath, selected skeleton anatomy, maturity and functional hypotheses for the 2021 associated specimen; not the original species description, all material.
       - id: beccari2021TupandactylusLimbAnatomy
         referenceId: ref-c653788a-4c5a-4b62-b48d-c764ab363c09
         title:

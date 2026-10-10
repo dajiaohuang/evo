@@ -28,5 +28,5 @@ Gippoliti’s review places documented records in the Blue Nile basin of western
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The 2010 group records were published under the broad name E. patas; their later placement with E. poliophaeus is Gippoliti’s interpretation, not the original authors’ species identification. The 2017 proposal relies on morphology, photographs and sparse locality history, and explicitly calls for more fieldwork. The 2019 IUCN evidence was Data Deficient. The Chinese common name is editorial; this page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+The 2010 group records were published under the broad name E. patas; their later placement with E. poliophaeus is Gippoliti’s interpretation, not the original authors’ species identification. The 2017 proposal relies on morphology, photographs and sparse locality history, and explicitly calls for more fieldwork. The 2019 IUCN evidence was Data Deficient. The Chinese common name is editorial. This page is.
 <!-- /evo:text -->

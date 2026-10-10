@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: luo-2002-mesozoic-mammal-phylogeny concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: luo-2002-mesozoic-mammal-phylogeny
@@ -84,9 +81,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas RC84 mammal-origins dossier audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: kermack-1981-morganucodon-skull primary-study locators checked 2026-09-01
       referenceLinks:
         - relation: supports
           referenceId: kermack-1981-morganucodon-skull
@@ -104,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas RC84 mammal-origins dossier audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: kermack-1981-morganucodon-skull primary-study locators checked 2026-09-01
       referenceLinks:
         - relation: supports
           referenceId: kermack-1981-morganucodon-skull
@@ -124,9 +115,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas RC84 mammal-origins dossier audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: kermack-1981-morganucodon-skull primary-study locators checked 2026-09-01
       referenceLinks:
         - relation: supports
           referenceId: kermack-1981-morganucodon-skull
@@ -144,9 +132,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: luo-2002-mesozoic-mammal-phylogeny @ https://www.app.pan.pl/archive/published/app47/app47-001.pdf
       referenceLinks:
         - relation: supports
           referenceId: luo-2002-mesozoic-mammal-phylogeny
@@ -205,7 +190,6 @@ records:
           locator: 1–78; Taxon sampling; Mammaliaformes relationships; discussion of crown Mammalia definitions
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
 ---
 
 # Morganucodonta

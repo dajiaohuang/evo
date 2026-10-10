@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtopodion
       en: Cyrtopodion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

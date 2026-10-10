@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia grandis
       zh: Stumpffia grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

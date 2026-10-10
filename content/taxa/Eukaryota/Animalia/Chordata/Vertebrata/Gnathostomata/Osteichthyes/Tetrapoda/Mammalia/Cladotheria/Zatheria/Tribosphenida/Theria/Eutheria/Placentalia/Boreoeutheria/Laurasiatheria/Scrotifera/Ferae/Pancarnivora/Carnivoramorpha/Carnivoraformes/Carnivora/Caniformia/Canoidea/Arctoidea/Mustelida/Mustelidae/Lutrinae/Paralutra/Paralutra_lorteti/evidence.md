@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralutra lorteti
       en: Paralutra lorteti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

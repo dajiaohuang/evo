@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoadjidaumo arctozophus
       en: Neoadjidaumo arctozophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

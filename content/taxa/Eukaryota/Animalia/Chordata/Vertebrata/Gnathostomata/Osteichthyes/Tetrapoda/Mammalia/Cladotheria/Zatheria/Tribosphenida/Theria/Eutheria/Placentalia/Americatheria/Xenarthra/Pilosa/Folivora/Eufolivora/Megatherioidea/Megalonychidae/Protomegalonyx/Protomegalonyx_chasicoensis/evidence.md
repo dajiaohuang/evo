@@ -9,7 +9,6 @@ records:
     name:
       zh: Protomegalonyx chasicoensis
       en: Protomegalonyx chasicoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

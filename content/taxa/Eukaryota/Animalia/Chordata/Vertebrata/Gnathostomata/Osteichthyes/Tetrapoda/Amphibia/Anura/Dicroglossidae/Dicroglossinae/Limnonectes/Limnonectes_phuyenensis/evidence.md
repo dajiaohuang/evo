@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes phuyenensis
       zh: Limnonectes phuyenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

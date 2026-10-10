@@ -9,7 +9,6 @@ records:
     name:
       zh: Bradypodion setaroi
       en: Bradypodion setaroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

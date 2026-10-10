@@ -9,7 +9,6 @@ records:
     name:
       en: Rana italica
       zh: Rana italica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anadia blakei
       en: Anadia blakei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

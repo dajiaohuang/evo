@@ -9,7 +9,6 @@ records:
     name:
       zh: Takydromus amurensis
       en: Takydromus amurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

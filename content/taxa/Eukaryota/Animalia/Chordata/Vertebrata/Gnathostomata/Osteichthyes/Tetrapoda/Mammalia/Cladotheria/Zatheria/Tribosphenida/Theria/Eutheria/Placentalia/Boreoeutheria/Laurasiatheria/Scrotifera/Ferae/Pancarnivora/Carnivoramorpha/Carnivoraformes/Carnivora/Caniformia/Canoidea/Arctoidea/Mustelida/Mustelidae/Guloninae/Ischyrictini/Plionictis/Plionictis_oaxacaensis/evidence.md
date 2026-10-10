@@ -9,7 +9,6 @@ records:
     name:
       zh: Plionictis oaxacaensis
       en: Plionictis oaxacaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

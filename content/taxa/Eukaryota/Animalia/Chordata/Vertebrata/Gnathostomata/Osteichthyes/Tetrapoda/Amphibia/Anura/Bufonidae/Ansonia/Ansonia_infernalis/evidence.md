@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia infernalis
       zh: Ansonia infernalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

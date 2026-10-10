@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeocastor wahlerti
       en: Palaeocastor wahlerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

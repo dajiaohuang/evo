@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotaphopeltis degeni
       en: Crotaphopeltis degeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynocephalus frontalis
       en: Phrynocephalus frontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis latericius
       zh: Pristimantis latericius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

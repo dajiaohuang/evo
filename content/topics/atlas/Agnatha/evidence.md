@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Shu et al. 1999 DOI 10.1038/46965; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: shu-1999-cambrian-vertebrates
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: shu-1999-cambrian-vertebrates
           locator: pp. 42–46; Figures 1–5; systematic descriptions and phylogenetic analysis
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -22,7 +22,6 @@ records:
     name:
       zh: Yutyrannus huali
       en: Yutyrannus huali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

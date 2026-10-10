@@ -9,7 +9,6 @@ records:
     name:
       zh: Dsungaripterus
       en: Dsungaripterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview
@@ -385,7 +384,6 @@ records:
       referenceLocators:
         - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
           locator: P5-42 accepted hierarchy oid txn:38481; fea/fla/lea/lla in retained taxa response.
-      reviewStatus: not-reviewed
       evidenceLevel: database-derived
 ---
 

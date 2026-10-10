@@ -14,6 +14,7 @@ import manifest from '../../data/manifest.json'
 import { periods } from '../services/geology'
 import { hasChineseTranslation } from './translationCoverage'
 import { I18nProvider, loadExtendedChineseTranslations, useI18n } from '.'
+import { localizedProfileText } from './profileText'
 
 const uiSources = import.meta.glob(['../App.tsx', '../components/**/*.tsx'], {
   query: '?raw',
@@ -58,12 +59,17 @@ function CrustaceansInsectsTranslationProbe() {
 }
 
 interface CommonNameNode {
+  name: string
   commonName: string
+  commonNameZh?: string
   children: CommonNameNode[]
 }
 
 function flattenCommonNames(node: CommonNameNode): string[] {
-  return [node.commonName, ...node.children.flatMap((child) => flattenCommonNames(child))]
+  // EvoTree renders the recorded Chinese field directly, including unchanged
+  // scientific names. Only labels sent through t() need dictionary coverage.
+  const copy = node.commonName === node.name && node.commonNameZh === node.name ? [] : [node.commonName]
+  return [...copy, ...node.children.flatMap((child) => flattenCommonNames(child))]
 }
 
 describe('site language state', () => {
@@ -130,15 +136,15 @@ describe('Chinese catalog coverage', () => {
     expect(Object.keys(claimRationalesZh).sort()).toEqual(claims.map((claim) => claim.id).sort())
     const translatedClaimStatements = new Set(Object.keys(claimStatementsZh))
     const knownClaimStatements = new Set(claims.map((claim) => claim.statement))
-    expect(claims.filter((claim) => claim.reviewedBy === 'Evo Atlas automated evidence decomposition').every((claim) => translatedClaimStatements.has(claim.statement))).toBe(true)
+    expect(claims.every((claim) => translatedClaimStatements.has(claim.statement) || hasChineseTranslation(claim.statement))).toBe(true)
     expect([...translatedClaimStatements].every((statement) => knownClaimStatements.has(statement))).toBe(true)
     const dynamicCopy = [
       ...profiles.flatMap((profile) => [
-        profile.overview,
+        ...(localizedProfileText(profile, profile.overview, 'zh', (text) => text) === profile.overview ? [profile.overview] : []),
         ...profile.geography,
         ...Object.values(profile.ecology),
         ...profile.traits,
-        profile.evidenceSummary,
+        ...(localizedProfileText(profile, profile.evidenceSummary, 'zh', (text) => text) === profile.evidenceSummary ? [profile.evidenceSummary] : []),
       ]),
       ...events.flatMap((event) => [
         event.summary,

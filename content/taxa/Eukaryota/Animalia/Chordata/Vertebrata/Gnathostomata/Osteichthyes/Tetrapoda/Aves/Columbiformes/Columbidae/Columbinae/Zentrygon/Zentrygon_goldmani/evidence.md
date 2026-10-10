@@ -9,7 +9,6 @@ records:
     name:
       zh: Zentrygon goldmani
       en: Zentrygon goldmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia cyclops
       en: Emoia cyclops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

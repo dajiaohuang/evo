@@ -9,7 +9,6 @@ records:
     name:
       zh: Macroprotodon abubakeri
       en: Macroprotodon abubakeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kharakhutulia
       en: Kharakhutulia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

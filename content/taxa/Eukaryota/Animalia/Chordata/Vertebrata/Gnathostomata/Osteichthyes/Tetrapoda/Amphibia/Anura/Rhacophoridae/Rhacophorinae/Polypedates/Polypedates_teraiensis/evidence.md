@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates teraiensis
       zh: Polypedates teraiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylophilus flavipes
       en: Hylophilus flavipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

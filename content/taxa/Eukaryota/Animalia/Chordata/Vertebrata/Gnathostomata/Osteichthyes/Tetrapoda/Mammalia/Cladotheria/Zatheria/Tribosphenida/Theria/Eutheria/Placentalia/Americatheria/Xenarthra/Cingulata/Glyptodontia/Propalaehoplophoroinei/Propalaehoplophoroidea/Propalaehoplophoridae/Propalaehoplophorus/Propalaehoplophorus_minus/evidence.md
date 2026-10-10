@@ -9,7 +9,6 @@ records:
     name:
       zh: Propalaehoplophorus minus
       en: Propalaehoplophorus minus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

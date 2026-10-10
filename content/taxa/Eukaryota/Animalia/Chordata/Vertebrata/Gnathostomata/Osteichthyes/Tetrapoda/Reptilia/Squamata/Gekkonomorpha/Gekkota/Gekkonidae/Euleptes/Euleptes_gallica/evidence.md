@@ -9,7 +9,6 @@ records:
     name:
       zh: Euleptes gallica
       en: Euleptes gallica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

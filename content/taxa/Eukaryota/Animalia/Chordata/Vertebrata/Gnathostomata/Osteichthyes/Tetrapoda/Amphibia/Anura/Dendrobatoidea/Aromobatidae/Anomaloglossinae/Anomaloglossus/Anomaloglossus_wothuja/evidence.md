@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus wothuja
       zh: Anomaloglossus wothuja
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

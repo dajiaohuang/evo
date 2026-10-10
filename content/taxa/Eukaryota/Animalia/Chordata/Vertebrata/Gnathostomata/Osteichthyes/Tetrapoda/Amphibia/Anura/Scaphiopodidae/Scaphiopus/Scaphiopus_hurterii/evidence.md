@@ -9,7 +9,6 @@ records:
     name:
       en: Scaphiopus hurterii
       zh: Scaphiopus hurterii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetocauda sichuanensis
       en: Chaetocauda sichuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

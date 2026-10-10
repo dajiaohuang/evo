@@ -9,7 +9,6 @@ records:
     name:
       zh: Suncus varilla
       en: Suncus varilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

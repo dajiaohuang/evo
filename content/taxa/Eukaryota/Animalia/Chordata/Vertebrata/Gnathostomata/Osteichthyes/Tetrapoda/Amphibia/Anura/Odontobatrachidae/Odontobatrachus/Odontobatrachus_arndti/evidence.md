@@ -9,7 +9,6 @@ records:
     name:
       en: Odontobatrachus arndti
       zh: Odontobatrachus arndti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

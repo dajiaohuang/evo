@@ -9,7 +9,6 @@ records:
     name:
       en: Dryadobates lutzi
       zh: Dryadobates lutzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

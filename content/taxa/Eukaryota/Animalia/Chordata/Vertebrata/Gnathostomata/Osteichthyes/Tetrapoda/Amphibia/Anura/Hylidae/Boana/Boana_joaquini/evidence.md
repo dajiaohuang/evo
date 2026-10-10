@@ -9,7 +9,6 @@ records:
     name:
       en: Boana joaquini
       zh: Boana joaquini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

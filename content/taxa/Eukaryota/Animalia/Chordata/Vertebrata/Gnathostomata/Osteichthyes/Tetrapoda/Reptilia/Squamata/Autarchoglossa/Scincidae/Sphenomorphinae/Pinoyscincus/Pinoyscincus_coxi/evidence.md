@@ -9,7 +9,6 @@ records:
     name:
       zh: Pinoyscincus coxi
       en: Pinoyscincus coxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Cardioglossa leucomystax
       zh: Cardioglossa leucomystax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

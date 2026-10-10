@@ -9,7 +9,6 @@ records:
     name:
       zh: 桑比拉诺叉纹鼠狐猴
       en: Sambirano Fork-marked Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

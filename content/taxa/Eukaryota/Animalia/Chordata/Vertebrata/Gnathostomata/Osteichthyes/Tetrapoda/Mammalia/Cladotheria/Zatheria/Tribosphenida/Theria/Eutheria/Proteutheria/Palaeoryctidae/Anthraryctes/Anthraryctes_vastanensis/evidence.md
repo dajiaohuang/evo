@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthraryctes vastanensis
       en: Anthraryctes vastanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

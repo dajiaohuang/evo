@@ -9,7 +9,6 @@ records:
     name:
       zh: Theosodon arozquetai
       en: Theosodon arozquetai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

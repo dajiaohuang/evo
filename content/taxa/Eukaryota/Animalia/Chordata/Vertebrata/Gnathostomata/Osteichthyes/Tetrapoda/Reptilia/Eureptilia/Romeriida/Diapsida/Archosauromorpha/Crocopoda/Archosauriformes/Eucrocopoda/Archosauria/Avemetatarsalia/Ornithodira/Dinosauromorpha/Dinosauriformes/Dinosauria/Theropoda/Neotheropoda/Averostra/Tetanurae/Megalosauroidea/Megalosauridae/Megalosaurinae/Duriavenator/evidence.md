@@ -9,7 +9,6 @@ records:
     name:
       zh: Duriavenator
       en: Duriavenator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Riolama leucosticta
       en: Riolama leucosticta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

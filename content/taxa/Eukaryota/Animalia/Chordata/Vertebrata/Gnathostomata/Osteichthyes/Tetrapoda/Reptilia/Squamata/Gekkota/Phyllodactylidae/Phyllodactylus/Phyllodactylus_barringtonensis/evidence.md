@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus barringtonensis
       en: Phyllodactylus barringtonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

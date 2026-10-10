@@ -40,5 +40,5 @@ Primary.Lifestyle=Aerial，定义为较多时间在飞行中，主要在飞行�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用所选六条AVONET v7历史行之一、同名eBird与旧Caprimulgus BirdTree关联、相关定义及COL ant／cap十二名称。逐字异名指向接受种不证明历史与当前物种范围完全等同。形态总数、性别计数、完整测量与Dunning文献体重分开，未读原始标本、Dunning原书、完整工作簿或新完整方法论文。活动方式、栖地、植被密度与食性代码不补实测食谱、猎物名单、活动时段、飞行速度、繁殖、鸣声、羽色、当前地图或移动路线。不计完整自然史或外部专家审评。
+本页使用所选六条AVONET v7历史行之一、同名eBird与旧Caprimulgus BirdTree关联、相关定义及COL ant／cap十二名称。逐字异名指向接受种不证明历史与当前物种范围完全等同。形态总数、性别计数、完整测量与Dunning文献体重分开，未读原始标本、Dunning原书、完整工作簿或新完整方法论文。活动方式、栖地、植被密度与食性代码不补实测食谱、猎物名单、活动时段、飞行速度、繁殖、鸣声、羽色、当前地图或移动路线。不计完整自然史。
 <!-- /evo:text -->

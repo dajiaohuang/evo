@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron chrysopterum
       en: Trochalopteron chrysopterum
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

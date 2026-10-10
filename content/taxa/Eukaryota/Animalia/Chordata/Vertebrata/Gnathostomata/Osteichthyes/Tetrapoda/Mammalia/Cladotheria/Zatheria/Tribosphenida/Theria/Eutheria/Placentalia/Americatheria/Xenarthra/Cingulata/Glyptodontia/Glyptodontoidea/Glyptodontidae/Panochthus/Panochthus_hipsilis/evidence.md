@@ -9,7 +9,6 @@ records:
     name:
       zh: Panochthus hipsilis
       en: Panochthus hipsilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

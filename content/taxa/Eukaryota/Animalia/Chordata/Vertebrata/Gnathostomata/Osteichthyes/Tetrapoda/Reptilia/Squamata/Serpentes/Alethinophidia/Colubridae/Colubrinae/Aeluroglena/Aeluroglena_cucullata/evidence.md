@@ -9,7 +9,6 @@ records:
     name:
       zh: Aeluroglena cucullata
       en: Aeluroglena cucullata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

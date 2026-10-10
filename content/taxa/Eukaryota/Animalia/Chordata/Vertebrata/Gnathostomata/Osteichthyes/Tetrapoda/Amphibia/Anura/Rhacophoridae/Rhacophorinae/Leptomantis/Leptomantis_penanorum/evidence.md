@@ -9,7 +9,6 @@ records:
     name:
       en: Leptomantis penanorum
       zh: Leptomantis penanorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

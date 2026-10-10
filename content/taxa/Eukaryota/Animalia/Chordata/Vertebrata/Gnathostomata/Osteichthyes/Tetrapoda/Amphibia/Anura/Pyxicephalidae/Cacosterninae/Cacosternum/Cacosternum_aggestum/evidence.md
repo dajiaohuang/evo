@@ -9,7 +9,6 @@ records:
     name:
       en: Cacosternum aggestum
       zh: Cacosternum aggestum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

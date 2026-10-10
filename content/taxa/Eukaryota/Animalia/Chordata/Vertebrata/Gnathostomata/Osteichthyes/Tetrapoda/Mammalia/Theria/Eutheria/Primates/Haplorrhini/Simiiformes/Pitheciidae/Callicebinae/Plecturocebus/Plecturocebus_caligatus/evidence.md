@@ -9,7 +9,6 @@ records:
     name:
       zh: 栗腹跳猴
       en: Chestnut-bellied Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

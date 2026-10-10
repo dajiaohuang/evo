@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepycamelus giraffinus
       en: Aepycamelus giraffinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

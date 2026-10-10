@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Witton and Habib 2010 DOI 10.1371/journal.pone.0013982
       referenceLinks:
         - referenceId: witton-habib-2010-giant-pterosaur-flight
           relation: supports

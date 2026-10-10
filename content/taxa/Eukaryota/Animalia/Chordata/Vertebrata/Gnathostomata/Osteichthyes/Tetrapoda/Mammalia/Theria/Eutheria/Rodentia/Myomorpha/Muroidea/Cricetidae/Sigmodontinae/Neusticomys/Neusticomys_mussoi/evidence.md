@@ -9,7 +9,6 @@ records:
     name:
       zh: Neusticomys mussoi
       en: Neusticomys mussoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

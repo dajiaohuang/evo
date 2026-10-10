@@ -9,7 +9,6 @@ records:
     name:
       zh: Batagur kachuga
       en: Batagur kachuga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

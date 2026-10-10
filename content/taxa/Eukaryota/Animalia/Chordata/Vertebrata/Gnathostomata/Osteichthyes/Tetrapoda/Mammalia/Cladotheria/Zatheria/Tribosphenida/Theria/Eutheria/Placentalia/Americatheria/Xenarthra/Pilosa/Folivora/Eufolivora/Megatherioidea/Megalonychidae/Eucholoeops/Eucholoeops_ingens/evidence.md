@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucholoeops ingens
       en: Eucholoeops ingens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oedura castelnaui
       en: Oedura castelnaui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

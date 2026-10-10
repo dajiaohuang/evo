@@ -6,7 +6,7 @@ const purposeAliases = { lifeHistory: 'ecology', distribution: 'biogeography', f
 
 export function amphibianReferenceForSchema(reference) {
   const result = Object.fromEntries(Object.entries(reference).filter(([key]) => allowed.has(key)))
-  result.metadataAssignment ??= 'automated'
+
   const role = roleAliases[reference.sourceRole] ?? reference.sourceRole
   result.sourceRole = schema.properties.sourceRole.enum.includes(role) ? role : 'unclassified'
   result.fitnessFor = [...new Set((reference.fitnessFor ?? []).map(x => purposeAliases[x] ?? x).filter(x => schema.properties.fitnessFor.items.enum.includes(x)))]

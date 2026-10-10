@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramys taurus
       en: Paramys taurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

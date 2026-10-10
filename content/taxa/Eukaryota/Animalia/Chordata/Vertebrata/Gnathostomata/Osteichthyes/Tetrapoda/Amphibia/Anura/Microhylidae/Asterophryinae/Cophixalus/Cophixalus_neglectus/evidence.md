@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus neglectus
       zh: Cophixalus neglectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

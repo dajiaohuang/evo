@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidura trachyprocta
       en: Aspidura trachyprocta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

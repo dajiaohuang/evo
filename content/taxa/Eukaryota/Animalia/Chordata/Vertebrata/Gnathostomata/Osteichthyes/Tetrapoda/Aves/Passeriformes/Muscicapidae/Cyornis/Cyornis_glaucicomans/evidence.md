@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyornis glaucicomans
       en: Cyornis glaucicomans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

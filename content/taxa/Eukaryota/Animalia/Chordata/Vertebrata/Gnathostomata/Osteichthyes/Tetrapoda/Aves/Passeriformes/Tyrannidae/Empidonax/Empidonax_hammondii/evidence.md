@@ -9,7 +9,6 @@ records:
     name:
       zh: Empidonax hammondii
       en: Empidonax hammondii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

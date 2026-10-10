@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas wyvilliana
       en: Anas wyvilliana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

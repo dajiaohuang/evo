@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus knudseni
       zh: Leptodactylus knudseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

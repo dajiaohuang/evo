@@ -9,7 +9,6 @@ records:
     name:
       zh: Notharctus
       en: Notharctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Brachytarsophrys
       zh: Brachytarsophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

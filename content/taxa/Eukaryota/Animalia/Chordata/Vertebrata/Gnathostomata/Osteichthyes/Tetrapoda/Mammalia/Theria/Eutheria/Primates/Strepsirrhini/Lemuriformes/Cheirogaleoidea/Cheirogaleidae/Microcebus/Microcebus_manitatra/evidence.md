@@ -9,7 +9,6 @@ records:
     name:
       zh: 曼尼塔特拉鼠狐猴
       en: Manitatra Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

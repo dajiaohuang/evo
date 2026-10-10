@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera albarena
       zh: Adenomera albarena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

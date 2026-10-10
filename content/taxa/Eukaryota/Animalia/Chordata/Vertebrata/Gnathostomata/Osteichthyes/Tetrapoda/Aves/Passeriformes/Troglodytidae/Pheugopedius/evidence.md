@@ -9,7 +9,6 @@ records:
     name:
       zh: Pheugopedius
       en: Pheugopedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

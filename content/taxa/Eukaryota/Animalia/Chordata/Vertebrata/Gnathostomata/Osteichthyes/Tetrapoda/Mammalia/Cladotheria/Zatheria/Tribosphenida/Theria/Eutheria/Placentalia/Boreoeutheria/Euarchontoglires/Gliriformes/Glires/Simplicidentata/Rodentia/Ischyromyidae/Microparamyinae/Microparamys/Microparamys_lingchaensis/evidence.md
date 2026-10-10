@@ -9,7 +9,6 @@ records:
     name:
       zh: Microparamys lingchaensis
       en: Microparamys lingchaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

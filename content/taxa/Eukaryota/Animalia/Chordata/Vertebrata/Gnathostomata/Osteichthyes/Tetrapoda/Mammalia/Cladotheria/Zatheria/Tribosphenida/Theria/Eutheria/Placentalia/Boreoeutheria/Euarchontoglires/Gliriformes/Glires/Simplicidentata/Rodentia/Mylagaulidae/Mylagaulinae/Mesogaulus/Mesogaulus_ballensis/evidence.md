@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesogaulus ballensis
       en: Mesogaulus ballensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

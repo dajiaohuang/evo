@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus mystaceus
       zh: Leptodactylus mystaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

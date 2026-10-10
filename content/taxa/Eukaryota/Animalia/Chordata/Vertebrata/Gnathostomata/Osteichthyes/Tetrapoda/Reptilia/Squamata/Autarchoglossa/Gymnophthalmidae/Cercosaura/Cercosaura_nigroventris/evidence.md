@@ -9,7 +9,6 @@ records:
     name:
       zh: Cercosaura nigroventris
       en: Cercosaura nigroventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Grivet Monkey
       zh: 格里维猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

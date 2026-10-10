@@ -9,7 +9,6 @@ records:
     name:
       zh: Nonotherium hennigi
       en: Nonotherium hennigi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

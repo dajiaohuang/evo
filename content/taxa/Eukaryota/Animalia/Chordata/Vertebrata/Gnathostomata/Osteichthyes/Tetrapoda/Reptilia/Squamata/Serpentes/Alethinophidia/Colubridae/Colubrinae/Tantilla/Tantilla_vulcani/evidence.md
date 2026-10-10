@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla vulcani
       en: Tantilla vulcani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vermicella annulata
       en: Vermicella annulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ngapakaldia tedfordi
       en: Ngapakaldia tedfordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

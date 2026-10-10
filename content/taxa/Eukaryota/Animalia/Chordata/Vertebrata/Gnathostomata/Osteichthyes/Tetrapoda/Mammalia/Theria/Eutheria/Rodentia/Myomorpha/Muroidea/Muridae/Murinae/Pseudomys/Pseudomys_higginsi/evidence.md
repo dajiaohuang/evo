@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudomys higginsi
       en: Pseudomys higginsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana lemairei
       zh: Hylarana lemairei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

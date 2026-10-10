@@ -9,7 +9,6 @@ records:
     name:
       zh: Siamogale melilutra
       en: Siamogale melilutra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

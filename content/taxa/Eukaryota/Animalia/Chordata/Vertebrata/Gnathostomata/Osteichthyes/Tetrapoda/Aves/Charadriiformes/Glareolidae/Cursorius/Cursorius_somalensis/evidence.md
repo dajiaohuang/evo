@@ -9,7 +9,6 @@ records:
     name:
       zh: Cursorius somalensis
       en: Cursorius somalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

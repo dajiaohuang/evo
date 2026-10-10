@@ -9,7 +9,6 @@ records:
     name:
       zh: Dyseolemur pacificus
       en: Dyseolemur pacificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

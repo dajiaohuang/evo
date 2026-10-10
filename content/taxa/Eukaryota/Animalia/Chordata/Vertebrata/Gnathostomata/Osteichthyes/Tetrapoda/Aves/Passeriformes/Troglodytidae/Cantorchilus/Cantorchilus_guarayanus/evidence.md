@@ -9,7 +9,6 @@ records:
     name:
       zh: Cantorchilus guarayanus
       en: Cantorchilus guarayanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

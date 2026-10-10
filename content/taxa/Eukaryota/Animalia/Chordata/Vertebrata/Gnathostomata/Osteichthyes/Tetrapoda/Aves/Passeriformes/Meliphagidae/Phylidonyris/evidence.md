@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylidonyris
       en: Phylidonyris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

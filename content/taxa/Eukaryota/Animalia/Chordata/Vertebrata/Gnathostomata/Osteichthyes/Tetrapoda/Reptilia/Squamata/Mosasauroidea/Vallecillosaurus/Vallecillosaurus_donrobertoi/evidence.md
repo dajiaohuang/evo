@@ -9,7 +9,6 @@ records:
     name:
       zh: Vallecillosaurus donrobertoi
       en: Vallecillosaurus donrobertoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

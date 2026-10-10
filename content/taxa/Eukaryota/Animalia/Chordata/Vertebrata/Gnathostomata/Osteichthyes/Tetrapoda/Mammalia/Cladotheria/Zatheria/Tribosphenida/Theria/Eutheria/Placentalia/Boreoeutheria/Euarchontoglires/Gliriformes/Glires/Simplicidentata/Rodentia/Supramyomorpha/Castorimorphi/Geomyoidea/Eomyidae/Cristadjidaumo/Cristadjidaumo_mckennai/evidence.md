@@ -9,7 +9,6 @@ records:
     name:
       zh: Cristadjidaumo mckennai
       en: Cristadjidaumo mckennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

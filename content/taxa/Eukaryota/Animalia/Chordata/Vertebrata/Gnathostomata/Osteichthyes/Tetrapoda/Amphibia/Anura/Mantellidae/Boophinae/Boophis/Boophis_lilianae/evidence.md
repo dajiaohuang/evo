@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis lilianae
       zh: Boophis lilianae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

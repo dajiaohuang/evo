@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus hongchibaensis
       zh: Zhangixalus hongchibaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -154,9 +154,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: gebo-2000-eosimias concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: gebo-2000-eosimias
@@ -175,9 +172,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: "Evo Atlas issue #189 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gebo et al. 2000 DOI 10.1038/35005066; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: gebo-2000-eosimias
           relation: supports
@@ -196,9 +190,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: "Evo Atlas issue #189 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gebo et al. 2000 DOI 10.1038/35005066; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: gebo-2000-eosimias
           relation: supports
@@ -217,9 +208,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: "Evo Atlas issue #189 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gebo et al. 2000 DOI 10.1038/35005066; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: gebo-2000-eosimias
           relation: supports
@@ -238,9 +226,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: "Evo Atlas issue #189 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Gebo et al. 2000 DOI 10.1038/35005066; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: gebo-2000-eosimias
           relation: supports
@@ -293,7 +278,6 @@ records:
       referenceLocators:
         - referenceId: gebo-2000-eosimias
           locator: 276–278; Figures 1–4; Supplementary Tables 1–2
-      reviewStatus: automated-audit-passed
 ---
 
 # Eosimias (Shanghuang and Yuanqu tarsal sample)

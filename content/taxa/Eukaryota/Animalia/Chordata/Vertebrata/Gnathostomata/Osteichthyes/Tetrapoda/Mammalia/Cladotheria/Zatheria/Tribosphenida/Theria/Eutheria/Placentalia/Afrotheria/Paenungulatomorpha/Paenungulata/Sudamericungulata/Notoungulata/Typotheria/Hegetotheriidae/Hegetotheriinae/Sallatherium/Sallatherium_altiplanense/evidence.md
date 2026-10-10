@@ -9,7 +9,6 @@ records:
     name:
       zh: Sallatherium altiplanense
       en: Sallatherium altiplanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

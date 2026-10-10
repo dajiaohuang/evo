@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus quadrangulum
       zh: Trachycephalus quadrangulum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

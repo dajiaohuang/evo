@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella losamigos
       zh: Noblella losamigos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis trachyderma
       en: Anolis trachyderma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

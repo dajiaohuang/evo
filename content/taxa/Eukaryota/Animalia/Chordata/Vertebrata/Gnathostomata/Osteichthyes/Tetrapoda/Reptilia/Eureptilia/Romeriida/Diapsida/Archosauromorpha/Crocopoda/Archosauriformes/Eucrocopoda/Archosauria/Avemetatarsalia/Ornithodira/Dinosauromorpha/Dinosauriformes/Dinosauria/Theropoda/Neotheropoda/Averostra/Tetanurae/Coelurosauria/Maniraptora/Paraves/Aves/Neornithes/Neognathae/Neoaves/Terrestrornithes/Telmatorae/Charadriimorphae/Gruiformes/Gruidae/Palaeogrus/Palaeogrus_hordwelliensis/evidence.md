@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeogrus hordwelliensis
       en: Palaeogrus hordwelliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

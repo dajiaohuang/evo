@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosthemadera novaeseelandiae
       en: Prosthemadera novaeseelandiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

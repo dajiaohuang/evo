@@ -9,7 +9,6 @@ records:
     name:
       zh: Oenosaurus muehlheimensis
       en: Oenosaurus muehlheimensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

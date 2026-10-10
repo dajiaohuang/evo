@@ -9,7 +9,6 @@ records:
     name:
       zh: Megabyas flammulatus
       en: Megabyas flammulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

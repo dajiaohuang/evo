@@ -9,7 +9,6 @@ records:
     name:
       zh: Idionycteris phyllotis
       en: Idionycteris phyllotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

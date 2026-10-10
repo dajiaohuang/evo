@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis carranguerorum
       zh: Pristimantis carranguerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

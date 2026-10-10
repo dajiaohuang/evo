@@ -9,7 +9,6 @@ records:
     name:
       zh: Fowlea melanzosta
       en: Fowlea melanzosta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

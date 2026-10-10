@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyglossus aculeatus
       en: Tachyglossus aculeatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

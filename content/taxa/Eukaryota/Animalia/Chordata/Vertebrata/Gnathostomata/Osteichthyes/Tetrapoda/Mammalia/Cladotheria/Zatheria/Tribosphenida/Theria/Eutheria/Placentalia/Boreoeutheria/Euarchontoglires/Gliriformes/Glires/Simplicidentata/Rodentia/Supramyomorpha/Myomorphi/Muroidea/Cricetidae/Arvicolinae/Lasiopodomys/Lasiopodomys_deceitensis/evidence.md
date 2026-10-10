@@ -9,7 +9,6 @@ records:
     name:
       zh: Lasiopodomys deceitensis
       en: Lasiopodomys deceitensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

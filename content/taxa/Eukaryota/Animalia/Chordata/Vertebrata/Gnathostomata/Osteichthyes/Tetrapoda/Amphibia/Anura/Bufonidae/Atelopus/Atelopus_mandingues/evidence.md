@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus mandingues
       zh: Atelopus mandingues
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

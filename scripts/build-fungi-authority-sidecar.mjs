@@ -204,7 +204,7 @@ export function buildFungiAuthoritySidecar({ packageRoot, crosswalkPath, descrip
     totalSourceBytes: files.reduce((sum, file) => sum + file.sourceBytes, 0),
     limitations: [
       'This is a release-scoped identifier crosswalk, not a claim that fungal taxonomy or described fungal diversity is complete.',
-      'No live Index Fungorum page content, bibliography, host, substrate, locality, description, media, fossil, ecology, phylogeny, dossier, or expert review is copied.',
+      'No live Index Fungorum page content, bibliography, host, substrate, locality, description, media, fossil, ecology, phylogeny, dossier, is copied.',
       'Upstream-only records remain in the canonical audit snapshot and are not injected into the COL26.8 accepted-species pack.',
     ],
     integration: {

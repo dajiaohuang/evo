@@ -9,7 +9,6 @@ records:
     name:
       zh: 栗红叶猴
       en: Maroon Leaf Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

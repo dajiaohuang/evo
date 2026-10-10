@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutoxeres condamini
       en: Eutoxeres condamini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

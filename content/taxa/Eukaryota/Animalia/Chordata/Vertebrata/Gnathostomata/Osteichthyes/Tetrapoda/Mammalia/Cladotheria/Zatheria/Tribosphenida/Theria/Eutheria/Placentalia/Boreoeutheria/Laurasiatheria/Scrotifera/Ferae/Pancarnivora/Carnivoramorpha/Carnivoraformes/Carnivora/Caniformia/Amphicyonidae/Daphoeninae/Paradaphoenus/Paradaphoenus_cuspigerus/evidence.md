@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradaphoenus cuspigerus
       en: Paradaphoenus cuspigerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

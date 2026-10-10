@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis kumarasinghei
       en: Cnemaspis kumarasinghei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Cercopithecus reading path
       zh: Cercopithecus 属阅读路径
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

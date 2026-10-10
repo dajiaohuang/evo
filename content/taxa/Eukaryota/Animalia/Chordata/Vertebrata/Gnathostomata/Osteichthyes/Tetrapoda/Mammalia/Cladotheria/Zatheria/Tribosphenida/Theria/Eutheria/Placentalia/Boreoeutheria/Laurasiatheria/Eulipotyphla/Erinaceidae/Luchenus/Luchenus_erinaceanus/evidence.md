@@ -9,7 +9,6 @@ records:
     name:
       zh: Luchenus erinaceanus
       en: Luchenus erinaceanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

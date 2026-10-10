@@ -9,7 +9,6 @@ records:
     name:
       zh: Eocetus drazindai
       en: Eocetus drazindai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

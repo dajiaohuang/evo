@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesomys leniceps
       en: Mesomys leniceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

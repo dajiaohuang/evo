@@ -9,7 +9,6 @@ records:
     name:
       en: Dermophis occidentalis
       zh: Dermophis occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

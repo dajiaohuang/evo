@@ -9,7 +9,6 @@ records:
     name:
       zh: Bostrychia bocagei
       en: Bostrychia bocagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Fowlea piscator
       en: Fowlea piscator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

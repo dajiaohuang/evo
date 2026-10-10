@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus spixi
       zh: Leptodactylus spixi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

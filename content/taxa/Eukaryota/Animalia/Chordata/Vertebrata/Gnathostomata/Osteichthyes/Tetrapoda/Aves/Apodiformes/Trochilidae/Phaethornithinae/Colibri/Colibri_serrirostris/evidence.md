@@ -9,7 +9,6 @@ records:
     name:
       zh: Colibri serrirostris
       en: Colibri serrirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

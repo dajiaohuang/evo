@@ -9,7 +9,6 @@ records:
     name:
       zh: Jiufengia jiai
       en: Jiufengia jiai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

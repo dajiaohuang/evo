@@ -9,7 +9,6 @@ records:
     name:
       zh: Agnosphitys cromhallensis
       en: Agnosphitys cromhallensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

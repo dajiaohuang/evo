@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis nunezcortezi
       zh: Pristimantis nunezcortezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

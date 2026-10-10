@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis ruthveni
       en: Geophis ruthveni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

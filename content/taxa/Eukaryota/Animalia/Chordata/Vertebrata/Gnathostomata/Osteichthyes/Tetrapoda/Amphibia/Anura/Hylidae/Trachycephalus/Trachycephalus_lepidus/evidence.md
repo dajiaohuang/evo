@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus lepidus
       zh: Trachycephalus lepidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

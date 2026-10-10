@@ -9,7 +9,6 @@ records:
     name:
       zh: Myophonus borneensis
       en: Myophonus borneensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

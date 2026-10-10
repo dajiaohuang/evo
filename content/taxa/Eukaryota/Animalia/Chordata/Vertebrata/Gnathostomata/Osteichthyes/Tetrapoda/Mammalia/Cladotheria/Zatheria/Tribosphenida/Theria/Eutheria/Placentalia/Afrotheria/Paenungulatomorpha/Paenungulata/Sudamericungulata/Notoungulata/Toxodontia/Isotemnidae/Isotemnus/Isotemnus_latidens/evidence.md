@@ -9,7 +9,6 @@ records:
     name:
       zh: Isotemnus latidens
       en: Isotemnus latidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

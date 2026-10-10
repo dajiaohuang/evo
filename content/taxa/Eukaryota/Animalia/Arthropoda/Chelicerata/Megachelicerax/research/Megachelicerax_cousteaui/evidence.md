@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lerosey-aubril-ortega-2026-megachelicerax primary-study locator checked for RC85
       referenceLinks:
         - referenceId: lerosey-aubril-ortega-2026-megachelicerax
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lerosey-aubril-ortega-2026-megachelicerax primary-study locator checked for RC85
       referenceLinks:
         - referenceId: lerosey-aubril-ortega-2026-megachelicerax
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lerosey-aubril-ortega-2026-megachelicerax primary-study locator checked for RC85
       referenceLinks:
         - referenceId: lerosey-aubril-ortega-2026-megachelicerax
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lerosey-aubril-ortega-2026-megachelicerax primary-study locator checked for RC85
       referenceLinks:
         - referenceId: lerosey-aubril-ortega-2026-megachelicerax
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: lerosey-aubril-ortega-2026-megachelicerax primary-study locator checked for RC85
       referenceLinks:
         - referenceId: lerosey-aubril-ortega-2026-megachelicerax
           relation: supports
@@ -163,9 +148,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lerosey-aubril-ortega-2026-megachelicerax; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: lerosey-aubril-ortega-2026-megachelicerax
           relation: supports
@@ -224,7 +206,6 @@ records:
       referenceLocators:
         - referenceId: lerosey-aubril-ortega-2026-megachelicerax
           locator: 931–937; Figures 1–3; Extended Data; Holotype KUMIP 314091; External morphology; Phylogenetic analyses
-      reviewStatus: automated-audit-passed
 ---
 
 # Megachelicerax cousteaui

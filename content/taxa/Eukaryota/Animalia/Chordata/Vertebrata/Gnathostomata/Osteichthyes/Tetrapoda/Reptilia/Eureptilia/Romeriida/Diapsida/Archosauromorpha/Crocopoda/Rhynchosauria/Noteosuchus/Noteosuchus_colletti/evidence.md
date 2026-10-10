@@ -9,7 +9,6 @@ records:
     name:
       zh: Noteosuchus colletti
       en: Noteosuchus colletti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

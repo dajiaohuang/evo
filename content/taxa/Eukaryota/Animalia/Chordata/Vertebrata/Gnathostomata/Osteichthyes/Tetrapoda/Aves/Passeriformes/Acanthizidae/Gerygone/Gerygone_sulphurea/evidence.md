@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerygone sulphurea
       en: Gerygone sulphurea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

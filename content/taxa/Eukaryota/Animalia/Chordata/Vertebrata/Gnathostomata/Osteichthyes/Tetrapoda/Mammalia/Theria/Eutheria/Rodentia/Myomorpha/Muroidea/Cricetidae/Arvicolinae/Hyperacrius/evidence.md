@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyperacrius
       en: Hyperacrius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

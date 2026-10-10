@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalacrocorax chapalensis
       en: Phalacrocorax chapalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

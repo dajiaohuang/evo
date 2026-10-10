@@ -9,7 +9,6 @@ records:
     name:
       zh: Melaniparus niger
       en: Melaniparus niger
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

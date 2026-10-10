@@ -9,7 +9,6 @@ records:
     name:
       zh: Citellus (Otospermophilus) shotwelli
       en: Citellus (Otospermophilus) shotwelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

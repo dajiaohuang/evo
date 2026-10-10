@@ -9,7 +9,6 @@ records:
     name:
       zh: Ansomys descendens
       en: Ansomys descendens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

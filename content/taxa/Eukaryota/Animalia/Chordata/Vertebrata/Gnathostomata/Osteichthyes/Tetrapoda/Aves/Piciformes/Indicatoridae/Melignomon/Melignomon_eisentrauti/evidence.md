@@ -9,7 +9,6 @@ records:
     name:
       zh: Melignomon eisentrauti
       en: Melignomon eisentrauti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

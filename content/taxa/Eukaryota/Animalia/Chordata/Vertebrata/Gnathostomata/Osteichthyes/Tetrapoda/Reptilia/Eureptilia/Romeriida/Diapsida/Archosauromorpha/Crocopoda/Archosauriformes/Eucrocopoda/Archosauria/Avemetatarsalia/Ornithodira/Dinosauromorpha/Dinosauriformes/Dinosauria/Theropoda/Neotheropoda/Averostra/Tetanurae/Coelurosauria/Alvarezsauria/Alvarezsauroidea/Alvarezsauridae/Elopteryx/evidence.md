@@ -9,7 +9,6 @@ records:
     name:
       zh: Elopteryx
       en: Elopteryx
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

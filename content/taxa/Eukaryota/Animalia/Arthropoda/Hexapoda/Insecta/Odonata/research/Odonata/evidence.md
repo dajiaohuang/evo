@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bybee-2021-odonata-targeted-genomics DOI 10.1016/j.ympev.2021.107115; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: bybee-2021-odonata-targeted-genomics
@@ -81,9 +78,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bybee-2016 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: bybee-2016-odonata-fossil-record
           relation: supports
@@ -107,9 +101,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: "Evo Atlas issue #187 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bybee et al. 2021 DOI 10.1016/j.ympev.2021.107115; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: bybee-2021-odonata-targeted-genomics
           relation: supports
@@ -128,11 +119,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: "Evo Atlas issue #187 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: nel-1999-saxonagrion
           relation: supports
@@ -156,9 +142,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: "Evo Atlas issue #187 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Bybee et al. 2021 DOI 10.1016/j.ympev.2021.107115; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: bybee-2021-odonata-targeted-genomics
           relation: supports
@@ -177,9 +160,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: "Evo Atlas issue #187 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Nel et al. 1999 DOI 10.1016/S0016-6995(99)80870-5; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: nel-1999-saxonagrion
           relation: supports
@@ -239,7 +219,6 @@ records:
             field: /records/ranges/0/referenceLocators/0/locator
         - referenceId: nel-1999-saxonagrion
           locator: pp. 883–888; systematic palaeontology and figures; Upper Permian Salagou Formation wing attributed to Panodonata
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

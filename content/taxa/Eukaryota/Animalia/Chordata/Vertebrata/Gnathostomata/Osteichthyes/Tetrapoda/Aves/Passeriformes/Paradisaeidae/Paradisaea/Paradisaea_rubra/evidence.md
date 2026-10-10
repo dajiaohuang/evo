@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradisaea rubra
       en: Paradisaea rubra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

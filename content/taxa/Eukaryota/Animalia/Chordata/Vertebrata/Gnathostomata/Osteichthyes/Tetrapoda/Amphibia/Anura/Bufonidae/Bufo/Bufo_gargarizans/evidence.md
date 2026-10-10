@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo gargarizans
       zh: Bufo gargarizans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

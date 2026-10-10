@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodiacodon crustulum
       en: Prodiacodon crustulum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

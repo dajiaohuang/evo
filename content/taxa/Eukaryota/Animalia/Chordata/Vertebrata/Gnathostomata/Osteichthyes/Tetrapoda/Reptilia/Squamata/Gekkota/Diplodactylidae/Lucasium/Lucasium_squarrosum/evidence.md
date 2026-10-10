@@ -9,7 +9,6 @@ records:
     name:
       zh: Lucasium squarrosum
       en: Lucasium squarrosum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoloxodon cypriotes
       en: Palaeoloxodon cypriotes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

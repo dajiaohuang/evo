@@ -9,7 +9,6 @@ records:
     name:
       zh: Actenomys priscus
       en: Actenomys priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

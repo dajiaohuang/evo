@@ -9,7 +9,6 @@ records:
     name:
       zh: Anchiceratops ornatus
       en: Anchiceratops ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhizomys sinensis
       en: Rhizomys sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

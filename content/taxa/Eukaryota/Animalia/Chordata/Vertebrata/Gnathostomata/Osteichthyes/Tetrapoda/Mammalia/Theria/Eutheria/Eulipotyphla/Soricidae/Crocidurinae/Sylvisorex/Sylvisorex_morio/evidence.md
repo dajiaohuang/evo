@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvisorex morio
       en: Sylvisorex morio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

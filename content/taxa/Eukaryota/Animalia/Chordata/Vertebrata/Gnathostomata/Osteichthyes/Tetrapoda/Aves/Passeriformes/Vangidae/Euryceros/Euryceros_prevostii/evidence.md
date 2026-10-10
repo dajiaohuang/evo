@@ -9,7 +9,6 @@ records:
     name:
       zh: Euryceros prevostii
       en: Euryceros prevostii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 伊莎贝拉僧面猴
       en: Isabel's Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

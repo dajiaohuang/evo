@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracornis raveni
       en: Coracornis raveni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

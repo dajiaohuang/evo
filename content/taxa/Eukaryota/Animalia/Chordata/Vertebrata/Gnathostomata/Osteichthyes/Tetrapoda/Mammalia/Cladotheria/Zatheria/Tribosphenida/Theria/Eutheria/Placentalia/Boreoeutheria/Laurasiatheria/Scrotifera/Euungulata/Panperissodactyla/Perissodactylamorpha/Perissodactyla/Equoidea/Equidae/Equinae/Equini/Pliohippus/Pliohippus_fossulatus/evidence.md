@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliohippus fossulatus
       en: Pliohippus fossulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

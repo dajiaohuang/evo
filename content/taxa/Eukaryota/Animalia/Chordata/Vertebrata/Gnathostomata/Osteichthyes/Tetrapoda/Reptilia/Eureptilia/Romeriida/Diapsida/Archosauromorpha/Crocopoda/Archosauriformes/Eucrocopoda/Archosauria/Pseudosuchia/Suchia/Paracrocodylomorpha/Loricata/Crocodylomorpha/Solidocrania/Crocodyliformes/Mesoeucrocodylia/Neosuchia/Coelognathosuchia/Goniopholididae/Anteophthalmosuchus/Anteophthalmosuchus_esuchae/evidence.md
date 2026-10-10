@@ -9,7 +9,6 @@ records:
     name:
       zh: Anteophthalmosuchus esuchae
       en: Anteophthalmosuchus esuchae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

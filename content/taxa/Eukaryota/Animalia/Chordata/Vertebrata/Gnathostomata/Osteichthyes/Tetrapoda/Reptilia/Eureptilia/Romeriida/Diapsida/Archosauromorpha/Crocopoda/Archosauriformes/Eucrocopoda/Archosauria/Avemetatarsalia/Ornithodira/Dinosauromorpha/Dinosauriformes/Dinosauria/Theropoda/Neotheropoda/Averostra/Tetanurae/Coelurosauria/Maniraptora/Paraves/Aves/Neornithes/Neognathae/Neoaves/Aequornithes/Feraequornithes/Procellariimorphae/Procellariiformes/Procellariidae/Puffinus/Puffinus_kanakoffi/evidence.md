@@ -9,7 +9,6 @@ records:
     name:
       zh: Puffinus kanakoffi
       en: Puffinus kanakoffi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Sooty Mangabey
       zh: 烟灰白眼丛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: communication

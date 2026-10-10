@@ -9,7 +9,6 @@ records:
     name:
       zh: Picus rabieri
       en: Picus rabieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

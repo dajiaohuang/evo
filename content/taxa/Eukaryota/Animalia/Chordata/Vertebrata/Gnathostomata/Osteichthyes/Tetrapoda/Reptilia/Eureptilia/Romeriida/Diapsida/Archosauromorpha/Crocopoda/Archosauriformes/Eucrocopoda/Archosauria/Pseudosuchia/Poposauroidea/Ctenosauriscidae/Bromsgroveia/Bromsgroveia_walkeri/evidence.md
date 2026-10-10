@@ -9,7 +9,6 @@ records:
     name:
       zh: Bromsgroveia walkeri
       en: Bromsgroveia walkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

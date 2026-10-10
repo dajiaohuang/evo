@@ -9,7 +9,6 @@ records:
     name:
       zh: 北黄颊长臂猿
       en: Northern Yellow-cheeked Crested Gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: ecology

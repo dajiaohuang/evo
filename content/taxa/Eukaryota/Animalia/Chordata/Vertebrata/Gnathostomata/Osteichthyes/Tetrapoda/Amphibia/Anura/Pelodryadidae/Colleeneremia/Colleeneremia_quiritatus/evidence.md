@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia quiritatus
       zh: Colleeneremia quiritatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

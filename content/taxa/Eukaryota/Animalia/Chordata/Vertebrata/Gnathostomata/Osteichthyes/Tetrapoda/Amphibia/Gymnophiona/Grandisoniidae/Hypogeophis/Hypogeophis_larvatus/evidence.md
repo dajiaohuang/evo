@@ -9,7 +9,6 @@ records:
     name:
       en: Hypogeophis larvatus
       zh: Hypogeophis larvatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

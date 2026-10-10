@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius leucomystax
       en: Hebius leucomystax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

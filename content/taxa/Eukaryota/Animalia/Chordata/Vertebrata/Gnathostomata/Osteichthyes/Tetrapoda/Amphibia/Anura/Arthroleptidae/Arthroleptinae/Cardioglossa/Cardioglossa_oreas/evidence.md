@@ -9,7 +9,6 @@ records:
     name:
       en: Cardioglossa oreas
       zh: Cardioglossa oreas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -52,5 +52,5 @@ Read [Bavayia mandjeliensis](Bavayia_mandjeliensis/page.en.md), separating speci
 ## Limits of these historical data
 
 <!-- evo:text /records/catalogue-profile/sections/6/text/en -->
-This link does not establish complete genus coverage or expert review.
+This link does not establish complete genus coverage.
 <!-- /evo:text -->

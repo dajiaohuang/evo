@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopoglossus embera
       en: Alopoglossus embera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

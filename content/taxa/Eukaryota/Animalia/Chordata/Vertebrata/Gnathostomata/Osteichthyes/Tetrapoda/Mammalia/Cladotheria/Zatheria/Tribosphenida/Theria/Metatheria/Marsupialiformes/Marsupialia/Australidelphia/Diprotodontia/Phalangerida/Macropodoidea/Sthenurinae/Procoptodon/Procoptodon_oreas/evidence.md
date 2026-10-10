@@ -9,7 +9,6 @@ records:
     name:
       zh: Procoptodon oreas
       en: Procoptodon oreas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpiocephalus harpia
       en: Harpiocephalus harpia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis betaniensis
       en: Geophis betaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

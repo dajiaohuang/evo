@@ -9,7 +9,6 @@ records:
     name:
       zh: Saurorictus australis
       en: Saurorictus australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis nigroserratus
       en: Dendrelaphis nigroserratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

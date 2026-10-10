@@ -100,9 +100,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: cerling-1997-c4 @ DOI 10.1038/38229
       referenceLinks:
         - relation: supports
           referenceId: cerling-1997-c4

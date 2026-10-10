@@ -9,7 +9,6 @@ records:
     name:
       zh: Bipes canaliculatus
       en: Bipes canaliculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

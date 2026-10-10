@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus takouensis
       en: Cyrtodactylus takouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

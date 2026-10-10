@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus devincenzii
       zh: Melanophryniscus devincenzii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

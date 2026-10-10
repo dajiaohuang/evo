@@ -9,7 +9,6 @@ records:
     name:
       en: Nectophrynoides laevis
       zh: Nectophrynoides laevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

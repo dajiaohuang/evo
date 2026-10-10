@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis briceni
       zh: Pristimantis briceni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

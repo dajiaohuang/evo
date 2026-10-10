@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium ibama
       zh: Hyalinobatrachium ibama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

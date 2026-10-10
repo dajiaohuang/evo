@@ -9,7 +9,6 @@ records:
     name:
       zh: Farangimys megalotrogos
       en: Farangimys megalotrogos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

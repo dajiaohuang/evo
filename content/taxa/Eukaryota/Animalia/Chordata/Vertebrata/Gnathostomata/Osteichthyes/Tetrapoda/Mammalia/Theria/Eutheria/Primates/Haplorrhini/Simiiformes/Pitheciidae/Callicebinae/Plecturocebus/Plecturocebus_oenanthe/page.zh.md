@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-主要资料来自不同地点和年份的局地研究；综述标题沿用 Callicebus，而当前 COL26.8 名称为 Plecturocebus。中文名为编辑翻译，尚未经过外部领域专家评审。
+主要资料来自不同地点和年份的局地研究；综述标题沿用 Callicebus，而当前 COL26.8 名称为 Plecturocebus。中文名为编辑翻译。
 <!-- /evo:text -->

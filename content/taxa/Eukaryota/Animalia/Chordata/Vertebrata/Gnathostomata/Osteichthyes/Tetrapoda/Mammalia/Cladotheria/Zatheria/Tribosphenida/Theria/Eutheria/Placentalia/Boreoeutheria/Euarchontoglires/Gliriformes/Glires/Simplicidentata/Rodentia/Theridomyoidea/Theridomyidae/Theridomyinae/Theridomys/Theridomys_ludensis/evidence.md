@@ -9,7 +9,6 @@ records:
     name:
       zh: Theridomys ludensis
       en: Theridomys ludensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

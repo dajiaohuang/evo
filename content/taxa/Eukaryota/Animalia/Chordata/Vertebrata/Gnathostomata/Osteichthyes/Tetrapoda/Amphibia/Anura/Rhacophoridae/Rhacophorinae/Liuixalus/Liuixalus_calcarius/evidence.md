@@ -9,7 +9,6 @@ records:
     name:
       en: Liuixalus calcarius
       zh: Liuixalus calcarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

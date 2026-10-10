@@ -9,7 +9,6 @@ records:
     name:
       zh: Podocnemis sextuberculata
       en: Podocnemis sextuberculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus schmidti
       en: Sceloporus schmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

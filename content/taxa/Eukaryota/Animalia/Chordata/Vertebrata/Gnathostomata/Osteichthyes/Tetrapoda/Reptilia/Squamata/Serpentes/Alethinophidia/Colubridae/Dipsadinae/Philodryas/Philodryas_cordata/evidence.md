@@ -9,7 +9,6 @@ records:
     name:
       zh: Philodryas cordata
       en: Philodryas cordata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Adelphailurus kansensis
       en: Adelphailurus kansensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

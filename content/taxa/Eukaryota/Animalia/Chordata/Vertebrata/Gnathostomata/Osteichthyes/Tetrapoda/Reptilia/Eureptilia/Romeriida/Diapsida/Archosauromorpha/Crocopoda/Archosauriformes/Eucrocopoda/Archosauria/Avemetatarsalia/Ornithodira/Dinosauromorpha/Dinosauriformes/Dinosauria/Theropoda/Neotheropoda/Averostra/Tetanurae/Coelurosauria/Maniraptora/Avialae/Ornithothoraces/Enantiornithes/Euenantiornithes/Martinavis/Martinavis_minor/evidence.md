@@ -9,7 +9,6 @@ records:
     name:
       zh: Martinavis minor
       en: Martinavis minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

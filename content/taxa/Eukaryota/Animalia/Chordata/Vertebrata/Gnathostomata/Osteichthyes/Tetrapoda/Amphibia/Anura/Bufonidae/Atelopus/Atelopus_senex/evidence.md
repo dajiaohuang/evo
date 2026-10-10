@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus senex
       zh: Atelopus senex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

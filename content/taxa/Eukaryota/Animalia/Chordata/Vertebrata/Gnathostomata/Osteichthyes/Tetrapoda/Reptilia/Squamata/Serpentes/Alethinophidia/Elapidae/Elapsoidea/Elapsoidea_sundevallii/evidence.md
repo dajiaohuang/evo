@@ -9,7 +9,6 @@ records:
     name:
       zh: Elapsoidea sundevallii
       en: Elapsoidea sundevallii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

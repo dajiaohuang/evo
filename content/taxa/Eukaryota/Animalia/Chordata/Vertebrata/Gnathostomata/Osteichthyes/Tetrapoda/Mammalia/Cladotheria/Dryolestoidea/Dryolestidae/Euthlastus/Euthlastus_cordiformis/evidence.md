@@ -9,7 +9,6 @@ records:
     name:
       zh: Euthlastus cordiformis
       en: Euthlastus cordiformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

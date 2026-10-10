@@ -9,7 +9,6 @@ records:
     name:
       zh: Qianlong shouhu
       en: Qianlong shouhu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

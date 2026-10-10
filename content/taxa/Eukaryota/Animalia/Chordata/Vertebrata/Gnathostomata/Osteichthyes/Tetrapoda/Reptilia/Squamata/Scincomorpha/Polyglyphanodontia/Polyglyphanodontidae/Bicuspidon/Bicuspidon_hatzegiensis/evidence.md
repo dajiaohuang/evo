@@ -9,7 +9,6 @@ records:
     name:
       zh: Bicuspidon hatzegiensis
       en: Bicuspidon hatzegiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

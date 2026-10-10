@@ -9,7 +9,6 @@ records:
     name:
       zh: Philentoma velata
       en: Philentoma velata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

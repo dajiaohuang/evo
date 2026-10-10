@@ -9,7 +9,6 @@ records:
     name:
       en: Ectopoglossus confusus
       zh: Ectopoglossus confusus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

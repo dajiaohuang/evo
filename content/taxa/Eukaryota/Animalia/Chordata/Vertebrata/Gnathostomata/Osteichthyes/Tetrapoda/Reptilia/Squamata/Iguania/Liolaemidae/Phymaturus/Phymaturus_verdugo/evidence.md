@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus verdugo
       en: Phymaturus verdugo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

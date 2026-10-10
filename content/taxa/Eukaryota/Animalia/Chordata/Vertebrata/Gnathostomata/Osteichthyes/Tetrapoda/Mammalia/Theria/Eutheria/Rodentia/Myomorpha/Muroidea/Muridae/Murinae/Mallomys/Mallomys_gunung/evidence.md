@@ -9,7 +9,6 @@ records:
     name:
       zh: Mallomys gunung
       en: Mallomys gunung
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

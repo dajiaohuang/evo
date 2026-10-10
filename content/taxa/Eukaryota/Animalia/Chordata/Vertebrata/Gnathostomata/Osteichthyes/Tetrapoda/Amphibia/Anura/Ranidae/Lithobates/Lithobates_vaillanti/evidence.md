@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates vaillanti
       zh: Lithobates vaillanti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

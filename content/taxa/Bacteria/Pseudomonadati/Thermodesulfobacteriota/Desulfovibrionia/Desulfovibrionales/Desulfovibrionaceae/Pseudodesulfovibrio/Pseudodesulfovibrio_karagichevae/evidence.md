@@ -246,10 +246,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Pseudodesulfovibrio karagichevae
@@ -479,5 +475,5 @@ The exact nomenclatural crosswalk does not independently establish full biologic
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review or comprehensive multi-source search has been completed.
+No comprehensive multi-source search has been completed.
 <!-- /evo:text -->

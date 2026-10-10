@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion pembanum
       en: Lycophidion pembanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

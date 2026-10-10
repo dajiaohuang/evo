@@ -9,7 +9,6 @@ records:
     name:
       zh: Coniophanes quinquevittatus
       en: Coniophanes quinquevittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

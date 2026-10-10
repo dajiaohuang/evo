@@ -9,7 +9,6 @@ records:
     name:
       zh: Bibimys labiosus
       en: Bibimys labiosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodactylus granariensis
       en: Diplodactylus granariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

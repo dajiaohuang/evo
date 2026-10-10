@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus omeimontis
       zh: Zhangixalus omeimontis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

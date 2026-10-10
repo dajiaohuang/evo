@@ -9,7 +9,6 @@ records:
     name:
       zh: 东京仰鼻猴
       en: Tonkin Snub-nosed Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates yavapaiensis
       zh: Lithobates yavapaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

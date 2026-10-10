@@ -9,7 +9,6 @@ records:
     name:
       zh: Mitrospingus oleagineus
       en: Mitrospingus oleagineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

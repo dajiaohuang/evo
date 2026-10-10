@@ -9,7 +9,6 @@ records:
     name:
       zh: Calidris maritima
       en: Calidris maritima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

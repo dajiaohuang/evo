@@ -9,7 +9,6 @@ records:
     name:
       zh: Headonophis harrisoni
       en: Headonophis harrisoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

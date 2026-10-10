@@ -9,7 +9,6 @@ records:
     name:
       zh: Kahneria seltina
       en: Kahneria seltina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

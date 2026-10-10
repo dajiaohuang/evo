@@ -9,7 +9,6 @@ records:
     name:
       zh: Muntiacus feae
       en: Muntiacus feae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

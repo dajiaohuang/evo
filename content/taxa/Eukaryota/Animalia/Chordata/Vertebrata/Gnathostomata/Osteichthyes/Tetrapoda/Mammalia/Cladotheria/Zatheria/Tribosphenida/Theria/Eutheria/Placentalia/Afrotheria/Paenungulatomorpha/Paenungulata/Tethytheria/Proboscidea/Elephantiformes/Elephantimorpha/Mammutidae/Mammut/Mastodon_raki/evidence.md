@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastodon raki
       en: Mastodon raki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

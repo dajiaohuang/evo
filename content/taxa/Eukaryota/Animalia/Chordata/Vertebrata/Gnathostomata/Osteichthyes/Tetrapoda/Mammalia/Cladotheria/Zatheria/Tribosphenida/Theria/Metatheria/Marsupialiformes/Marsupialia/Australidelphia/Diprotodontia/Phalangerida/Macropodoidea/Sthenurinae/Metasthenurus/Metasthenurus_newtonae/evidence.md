@@ -9,7 +9,6 @@ records:
     name:
       zh: Metasthenurus newtonae
       en: Metasthenurus newtonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

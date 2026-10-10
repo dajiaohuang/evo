@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypnovenator matsubaraetoheorum
       en: Hypnovenator matsubaraetoheorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

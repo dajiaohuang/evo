@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylomyscus aeta
       en: Hylomyscus aeta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

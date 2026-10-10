@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes kempiae
       zh: Raorchestes kempiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

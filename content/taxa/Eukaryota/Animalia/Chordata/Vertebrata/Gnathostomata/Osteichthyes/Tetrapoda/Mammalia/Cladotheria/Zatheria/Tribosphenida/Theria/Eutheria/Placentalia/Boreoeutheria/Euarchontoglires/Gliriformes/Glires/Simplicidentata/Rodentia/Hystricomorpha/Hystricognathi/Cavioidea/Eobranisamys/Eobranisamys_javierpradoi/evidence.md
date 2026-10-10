@@ -9,7 +9,6 @@ records:
     name:
       zh: Eobranisamys javierpradoi
       en: Eobranisamys javierpradoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

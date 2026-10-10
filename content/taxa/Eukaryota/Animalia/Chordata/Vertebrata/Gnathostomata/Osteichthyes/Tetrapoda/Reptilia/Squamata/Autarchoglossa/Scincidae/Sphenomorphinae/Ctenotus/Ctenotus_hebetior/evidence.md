@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus hebetior
       en: Ctenotus hebetior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

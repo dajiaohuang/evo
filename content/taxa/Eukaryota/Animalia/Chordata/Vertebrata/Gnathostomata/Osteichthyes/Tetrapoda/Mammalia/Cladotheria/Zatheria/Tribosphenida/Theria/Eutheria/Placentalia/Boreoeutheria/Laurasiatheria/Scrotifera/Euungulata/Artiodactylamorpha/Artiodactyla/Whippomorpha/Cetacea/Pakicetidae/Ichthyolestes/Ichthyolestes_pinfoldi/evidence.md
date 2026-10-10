@@ -9,7 +9,6 @@ records:
     name:
       zh: Ichthyolestes pinfoldi
       en: Ichthyolestes pinfoldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

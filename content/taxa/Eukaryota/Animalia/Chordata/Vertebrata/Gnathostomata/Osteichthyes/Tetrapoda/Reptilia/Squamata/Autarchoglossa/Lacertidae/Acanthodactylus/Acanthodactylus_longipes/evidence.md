@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthodactylus longipes
       en: Acanthodactylus longipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophis foxi
       en: Thamnophis foxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

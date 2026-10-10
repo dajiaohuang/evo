@@ -9,7 +9,6 @@ records:
     name:
       zh: Climacteris picumnus
       en: Climacteris picumnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

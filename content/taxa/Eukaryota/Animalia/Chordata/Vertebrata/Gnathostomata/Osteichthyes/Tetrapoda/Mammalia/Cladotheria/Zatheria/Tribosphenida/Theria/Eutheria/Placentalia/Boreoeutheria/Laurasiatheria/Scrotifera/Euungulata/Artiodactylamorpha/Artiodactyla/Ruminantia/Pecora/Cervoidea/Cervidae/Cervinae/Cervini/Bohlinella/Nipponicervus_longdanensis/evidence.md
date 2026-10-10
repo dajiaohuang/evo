@@ -9,7 +9,6 @@ records:
     name:
       zh: Nipponicervus longdanensis
       en: Nipponicervus longdanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

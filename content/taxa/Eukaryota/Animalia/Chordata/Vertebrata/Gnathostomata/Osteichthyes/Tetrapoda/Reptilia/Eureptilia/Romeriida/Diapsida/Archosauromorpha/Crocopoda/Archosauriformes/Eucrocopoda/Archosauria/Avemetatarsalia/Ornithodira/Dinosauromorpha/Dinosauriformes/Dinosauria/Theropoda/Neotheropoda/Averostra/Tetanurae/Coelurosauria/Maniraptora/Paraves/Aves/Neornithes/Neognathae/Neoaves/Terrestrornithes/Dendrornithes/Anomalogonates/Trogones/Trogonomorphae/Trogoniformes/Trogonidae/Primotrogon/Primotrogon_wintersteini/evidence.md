@@ -9,7 +9,6 @@ records:
     name:
       zh: Primotrogon wintersteini
       en: Primotrogon wintersteini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

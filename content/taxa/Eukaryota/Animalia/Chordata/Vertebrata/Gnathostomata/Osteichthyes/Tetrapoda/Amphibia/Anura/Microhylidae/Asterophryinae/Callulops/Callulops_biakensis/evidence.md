@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops biakensis
       zh: Callulops biakensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

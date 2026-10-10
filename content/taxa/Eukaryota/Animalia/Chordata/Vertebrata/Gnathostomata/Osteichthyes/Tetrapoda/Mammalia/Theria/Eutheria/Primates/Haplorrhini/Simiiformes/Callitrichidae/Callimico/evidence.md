@@ -9,7 +9,6 @@ records:
     name:
       zh: 戈尔迪猴属
       en: Goeldi's monkeys
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       en: Oophaga vicentei
       zh: Oophaga vicentei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

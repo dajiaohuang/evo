@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus mariposa
       zh: Eleutherodactylus mariposa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -22,5 +22,5 @@ Palacios 等（2004）在哥伦比亚下 Caquetá 河附近跟踪一群 3—6 �
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-资料使用旧组合 *Saguinus inustus*；单群和保护区调查只支持局地记录。早期文献已指出边界不精确；不提供现代全种分布或保育结论。双语初稿尚未经过外部领域专家评审。
+资料使用旧组合 *Saguinus inustus*；单群和保护区调查只支持局地记录。早期文献已指出边界不精确；不提供现代全种分布或保育结论。。
 <!-- /evo:text -->

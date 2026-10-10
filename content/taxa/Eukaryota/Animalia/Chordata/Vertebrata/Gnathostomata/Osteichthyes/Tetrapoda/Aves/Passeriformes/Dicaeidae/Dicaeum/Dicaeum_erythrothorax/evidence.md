@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicaeum erythrothorax
       en: Dicaeum erythrothorax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

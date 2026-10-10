@@ -9,7 +9,6 @@ records:
     name:
       en: Peltophryne fustiger
       zh: Peltophryne fustiger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

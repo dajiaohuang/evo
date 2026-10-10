@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthoscopus minutus
       en: Anthoscopus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tinimomys graybulliensis
       en: Tinimomys graybulliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

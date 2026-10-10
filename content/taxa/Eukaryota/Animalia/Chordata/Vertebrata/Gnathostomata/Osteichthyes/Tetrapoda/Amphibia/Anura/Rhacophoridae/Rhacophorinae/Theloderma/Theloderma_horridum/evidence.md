@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma horridum
       zh: Theloderma horridum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

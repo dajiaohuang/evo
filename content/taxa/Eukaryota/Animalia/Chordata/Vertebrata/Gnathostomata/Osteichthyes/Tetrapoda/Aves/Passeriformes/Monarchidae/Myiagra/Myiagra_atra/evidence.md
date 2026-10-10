@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiagra atra
       en: Myiagra atra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

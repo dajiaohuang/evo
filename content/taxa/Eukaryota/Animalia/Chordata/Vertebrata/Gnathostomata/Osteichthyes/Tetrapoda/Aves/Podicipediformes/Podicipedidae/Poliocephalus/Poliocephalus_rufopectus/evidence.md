@@ -9,7 +9,6 @@ records:
     name:
       zh: Poliocephalus rufopectus
       en: Poliocephalus rufopectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

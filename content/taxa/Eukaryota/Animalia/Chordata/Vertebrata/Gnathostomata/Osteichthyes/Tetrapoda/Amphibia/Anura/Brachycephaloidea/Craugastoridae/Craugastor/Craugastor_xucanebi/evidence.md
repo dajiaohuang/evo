@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor xucanebi
       zh: Craugastor xucanebi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

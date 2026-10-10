@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana leporipes
       zh: Odorrana leporipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

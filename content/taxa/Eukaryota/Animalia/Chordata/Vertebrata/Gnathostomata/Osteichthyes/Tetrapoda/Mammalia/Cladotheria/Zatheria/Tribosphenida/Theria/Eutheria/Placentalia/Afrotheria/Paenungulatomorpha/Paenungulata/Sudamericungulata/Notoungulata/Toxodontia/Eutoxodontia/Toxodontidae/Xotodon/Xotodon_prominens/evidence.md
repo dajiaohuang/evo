@@ -9,7 +9,6 @@ records:
     name:
       zh: Xotodon prominens
       en: Xotodon prominens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

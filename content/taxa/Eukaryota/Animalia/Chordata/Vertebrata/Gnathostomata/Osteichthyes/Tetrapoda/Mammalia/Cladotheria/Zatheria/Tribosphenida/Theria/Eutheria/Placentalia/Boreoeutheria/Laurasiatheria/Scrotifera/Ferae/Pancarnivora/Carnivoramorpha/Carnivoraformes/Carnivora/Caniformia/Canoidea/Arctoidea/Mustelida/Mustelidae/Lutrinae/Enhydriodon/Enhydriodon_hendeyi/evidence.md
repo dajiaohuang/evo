@@ -9,7 +9,6 @@ records:
     name:
       zh: Enhydriodon hendeyi
       en: Enhydriodon hendeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

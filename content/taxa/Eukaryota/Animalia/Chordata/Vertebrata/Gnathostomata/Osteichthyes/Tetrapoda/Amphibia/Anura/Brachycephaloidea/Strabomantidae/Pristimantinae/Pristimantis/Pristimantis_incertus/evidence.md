@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis incertus
       zh: Pristimantis incertus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

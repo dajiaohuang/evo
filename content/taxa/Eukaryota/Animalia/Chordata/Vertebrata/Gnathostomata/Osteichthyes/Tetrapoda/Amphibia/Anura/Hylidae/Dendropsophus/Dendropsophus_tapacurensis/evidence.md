@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus tapacurensis
       zh: Dendropsophus tapacurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

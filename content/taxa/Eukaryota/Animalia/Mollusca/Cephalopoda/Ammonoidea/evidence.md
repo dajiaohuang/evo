@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mcgowan-smith-2007-ammonoids
       referenceLinks:
         - referenceId: mcgowan-smith-2007-ammonoids
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: McGowan and Smith 2007 DOI 10.1111/j.1475-4983.2007.00653.x
       referenceLinks:
         - relation: supports
           referenceId: mcgowan-smith-2007-ammonoids
@@ -98,7 +92,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/1/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Ammonoidea

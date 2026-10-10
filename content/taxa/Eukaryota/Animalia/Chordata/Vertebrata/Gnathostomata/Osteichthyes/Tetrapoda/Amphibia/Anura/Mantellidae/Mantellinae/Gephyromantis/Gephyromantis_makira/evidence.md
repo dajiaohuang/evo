@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis makira
       zh: Gephyromantis makira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

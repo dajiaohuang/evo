@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinornithomimus
       en: Sinornithomimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: bonebedOverview

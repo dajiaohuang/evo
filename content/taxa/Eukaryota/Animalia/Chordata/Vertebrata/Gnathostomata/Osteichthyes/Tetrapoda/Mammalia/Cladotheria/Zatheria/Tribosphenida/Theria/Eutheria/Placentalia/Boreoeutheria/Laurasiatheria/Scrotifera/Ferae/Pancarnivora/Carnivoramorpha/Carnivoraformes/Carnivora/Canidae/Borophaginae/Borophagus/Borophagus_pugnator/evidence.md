@@ -9,7 +9,6 @@ records:
     name:
       zh: Borophagus pugnator
       en: Borophagus pugnator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

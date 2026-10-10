@@ -9,7 +9,6 @@ records:
     name:
       zh: Nessia layardi
       en: Nessia layardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

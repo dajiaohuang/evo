@@ -9,7 +9,6 @@ records:
     name:
       zh: Treposciurus manentis
       en: Treposciurus manentis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

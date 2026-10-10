@@ -9,7 +9,6 @@ records:
     name:
       zh: Schizotherium bilobatum
       en: Schizotherium bilobatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraxerus alexandri
       en: Paraxerus alexandri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

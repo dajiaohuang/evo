@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenosaura hemilopha
       en: Ctenosaura hemilopha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

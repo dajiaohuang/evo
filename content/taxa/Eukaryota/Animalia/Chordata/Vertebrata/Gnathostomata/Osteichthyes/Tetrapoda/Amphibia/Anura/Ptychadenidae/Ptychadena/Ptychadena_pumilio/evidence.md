@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena pumilio
       zh: Ptychadena pumilio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

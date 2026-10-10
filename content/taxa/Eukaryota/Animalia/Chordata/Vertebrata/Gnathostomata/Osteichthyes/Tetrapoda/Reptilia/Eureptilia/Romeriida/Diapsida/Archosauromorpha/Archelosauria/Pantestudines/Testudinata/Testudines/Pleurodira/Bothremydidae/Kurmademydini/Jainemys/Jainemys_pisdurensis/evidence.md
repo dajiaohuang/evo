@@ -9,7 +9,6 @@ records:
     name:
       zh: Jainemys pisdurensis
       en: Jainemys pisdurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

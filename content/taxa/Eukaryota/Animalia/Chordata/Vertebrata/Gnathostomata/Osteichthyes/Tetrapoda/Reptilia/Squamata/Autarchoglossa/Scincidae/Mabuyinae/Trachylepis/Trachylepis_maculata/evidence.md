@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis maculata
       en: Trachylepis maculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

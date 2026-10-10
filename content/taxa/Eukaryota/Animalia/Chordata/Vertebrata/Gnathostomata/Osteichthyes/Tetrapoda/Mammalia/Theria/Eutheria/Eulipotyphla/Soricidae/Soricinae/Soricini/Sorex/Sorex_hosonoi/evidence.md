@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex hosonoi
       en: Sorex hosonoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

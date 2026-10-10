@@ -9,7 +9,6 @@ records:
     name:
       zh: Oenanthe phillipsi
       en: Oenanthe phillipsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 白足狨猴
       en: White-footed Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

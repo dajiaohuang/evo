@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops archotaphus
       zh: Amolops archotaphus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

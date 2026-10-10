@@ -9,7 +9,6 @@ records:
     name:
       zh: Procoelodonta (Pasalarhinus) tekkayai
       en: Procoelodonta (Pasalarhinus) tekkayai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

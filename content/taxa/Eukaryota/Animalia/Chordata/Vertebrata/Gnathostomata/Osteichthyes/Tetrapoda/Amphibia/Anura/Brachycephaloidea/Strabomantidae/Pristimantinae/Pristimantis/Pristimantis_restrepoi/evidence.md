@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis restrepoi
       zh: Pristimantis restrepoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

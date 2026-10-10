@@ -9,7 +9,6 @@ records:
     name:
       zh: Callosciurus erythraeus
       en: Callosciurus erythraeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

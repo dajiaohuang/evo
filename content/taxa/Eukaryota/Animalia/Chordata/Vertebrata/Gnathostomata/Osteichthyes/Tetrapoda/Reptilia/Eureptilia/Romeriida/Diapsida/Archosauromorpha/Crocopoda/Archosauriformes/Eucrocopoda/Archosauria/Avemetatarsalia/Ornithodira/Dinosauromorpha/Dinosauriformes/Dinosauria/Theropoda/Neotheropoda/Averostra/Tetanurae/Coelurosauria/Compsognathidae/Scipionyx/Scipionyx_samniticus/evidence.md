@@ -9,7 +9,6 @@ records:
     name:
       zh: Scipionyx samniticus
       en: Scipionyx samniticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

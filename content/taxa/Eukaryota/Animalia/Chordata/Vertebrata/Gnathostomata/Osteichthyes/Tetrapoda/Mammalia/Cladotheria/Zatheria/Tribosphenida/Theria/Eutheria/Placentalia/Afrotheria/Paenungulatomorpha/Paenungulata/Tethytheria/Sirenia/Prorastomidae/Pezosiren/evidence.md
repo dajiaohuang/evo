@@ -9,7 +9,6 @@ records:
     name:
       zh: Pezosiren
       en: Pezosiren
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

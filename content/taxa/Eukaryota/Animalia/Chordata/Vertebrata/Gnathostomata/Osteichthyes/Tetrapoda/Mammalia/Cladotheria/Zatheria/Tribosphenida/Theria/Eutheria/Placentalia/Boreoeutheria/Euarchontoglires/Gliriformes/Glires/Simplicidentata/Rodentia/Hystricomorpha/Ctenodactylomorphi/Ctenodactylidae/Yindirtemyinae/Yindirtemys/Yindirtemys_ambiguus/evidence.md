@@ -9,7 +9,6 @@ records:
     name:
       zh: Yindirtemys ambiguus
       en: Yindirtemys ambiguus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

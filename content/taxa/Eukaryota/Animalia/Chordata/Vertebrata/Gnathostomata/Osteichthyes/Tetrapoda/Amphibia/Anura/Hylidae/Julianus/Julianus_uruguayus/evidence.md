@@ -9,7 +9,6 @@ records:
     name:
       en: Julianus uruguayus
       zh: Julianus uruguayus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

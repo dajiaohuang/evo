@@ -9,7 +9,6 @@ records:
     name:
       zh: Niviventer fulvescens
       en: Niviventer fulvescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

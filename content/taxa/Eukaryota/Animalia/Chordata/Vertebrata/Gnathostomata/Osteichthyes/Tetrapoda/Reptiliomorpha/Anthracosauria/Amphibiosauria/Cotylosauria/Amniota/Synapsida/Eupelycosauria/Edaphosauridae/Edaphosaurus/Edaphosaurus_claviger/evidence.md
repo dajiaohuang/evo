@@ -9,7 +9,6 @@ records:
     name:
       zh: Edaphosaurus claviger
       en: Edaphosaurus claviger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

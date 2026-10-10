@@ -9,7 +9,6 @@ records:
     name:
       zh: Paciculus woodi
       en: Paciculus woodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

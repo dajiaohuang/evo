@@ -9,7 +9,6 @@ records:
     name:
       zh: Anastomus oscitans
       en: Anastomus oscitans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

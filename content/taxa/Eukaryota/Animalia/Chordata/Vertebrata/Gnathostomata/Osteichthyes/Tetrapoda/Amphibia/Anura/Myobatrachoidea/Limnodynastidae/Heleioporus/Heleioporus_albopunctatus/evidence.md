@@ -9,7 +9,6 @@ records:
     name:
       en: Heleioporus albopunctatus
       zh: Heleioporus albopunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Monarcha takatsukasae
       en: Monarcha takatsukasae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

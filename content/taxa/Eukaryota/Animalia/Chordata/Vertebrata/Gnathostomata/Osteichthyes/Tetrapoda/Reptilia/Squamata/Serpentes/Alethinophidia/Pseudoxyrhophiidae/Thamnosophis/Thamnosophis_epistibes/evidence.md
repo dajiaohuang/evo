@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnosophis epistibes
       en: Thamnosophis epistibes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

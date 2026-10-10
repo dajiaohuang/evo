@@ -98,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Niedźwiedzki et al. 2010 DOI 10.1038/nature08623
       referenceLinks:
         - relation: supports
           referenceId: niedzwiedzki-2010-zachelmie-trackways

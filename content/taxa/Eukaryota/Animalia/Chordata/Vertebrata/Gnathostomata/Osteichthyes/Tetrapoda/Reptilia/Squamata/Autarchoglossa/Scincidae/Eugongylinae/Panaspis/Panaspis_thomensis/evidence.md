@@ -9,7 +9,6 @@ records:
     name:
       zh: Panaspis thomensis
       en: Panaspis thomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

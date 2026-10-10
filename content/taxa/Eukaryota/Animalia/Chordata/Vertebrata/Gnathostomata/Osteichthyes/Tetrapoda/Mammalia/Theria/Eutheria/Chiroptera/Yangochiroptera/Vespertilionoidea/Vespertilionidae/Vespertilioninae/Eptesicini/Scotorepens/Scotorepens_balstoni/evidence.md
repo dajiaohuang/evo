@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotorepens balstoni
       en: Scotorepens balstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

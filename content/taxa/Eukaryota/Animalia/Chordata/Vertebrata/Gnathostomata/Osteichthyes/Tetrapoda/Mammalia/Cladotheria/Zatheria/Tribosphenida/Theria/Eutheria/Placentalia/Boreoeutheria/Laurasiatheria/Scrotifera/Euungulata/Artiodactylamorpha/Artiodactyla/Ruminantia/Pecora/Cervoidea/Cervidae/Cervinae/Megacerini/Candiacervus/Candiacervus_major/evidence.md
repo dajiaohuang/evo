@@ -9,7 +9,6 @@ records:
     name:
       zh: Candiacervus major
       en: Candiacervus major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

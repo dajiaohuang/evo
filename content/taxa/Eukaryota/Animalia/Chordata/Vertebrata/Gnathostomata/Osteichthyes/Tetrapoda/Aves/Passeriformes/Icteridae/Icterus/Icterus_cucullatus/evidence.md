@@ -9,7 +9,6 @@ records:
     name:
       zh: Icterus cucullatus
       en: Icterus cucullatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

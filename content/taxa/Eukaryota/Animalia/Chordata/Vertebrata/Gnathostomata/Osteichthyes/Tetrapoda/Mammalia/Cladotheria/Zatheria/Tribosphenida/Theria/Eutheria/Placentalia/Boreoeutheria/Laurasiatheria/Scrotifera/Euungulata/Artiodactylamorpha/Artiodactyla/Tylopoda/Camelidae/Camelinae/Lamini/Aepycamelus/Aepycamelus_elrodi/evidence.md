@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepycamelus elrodi
       en: Aepycamelus elrodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

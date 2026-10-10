@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorotalpa sclateri
       en: Chlorotalpa sclateri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

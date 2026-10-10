@@ -9,7 +9,6 @@ records:
     name:
       zh: Typhlops pachyrhinus
       en: Typhlops pachyrhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

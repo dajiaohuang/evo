@@ -9,7 +9,6 @@ records:
     name:
       zh: Afrasia djijidae
       en: Afrasia djijidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

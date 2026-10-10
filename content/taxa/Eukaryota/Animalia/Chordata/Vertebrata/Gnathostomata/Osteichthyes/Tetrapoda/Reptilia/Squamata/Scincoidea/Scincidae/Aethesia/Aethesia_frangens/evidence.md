@@ -9,7 +9,6 @@ records:
     name:
       zh: Aethesia frangens
       en: Aethesia frangens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

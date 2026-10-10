@@ -9,7 +9,6 @@ records:
     name:
       zh: Quilmesaurus curriei
       en: Quilmesaurus curriei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

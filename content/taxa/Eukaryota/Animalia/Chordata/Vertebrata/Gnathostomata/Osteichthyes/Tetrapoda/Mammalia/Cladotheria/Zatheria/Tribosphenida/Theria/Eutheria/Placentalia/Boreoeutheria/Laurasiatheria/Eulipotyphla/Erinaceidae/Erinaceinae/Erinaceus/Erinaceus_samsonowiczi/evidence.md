@@ -9,7 +9,6 @@ records:
     name:
       zh: Erinaceus samsonowiczi
       en: Erinaceus samsonowiczi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

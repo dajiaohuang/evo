@@ -9,7 +9,6 @@ records:
     name:
       zh: Cormohipparion skinneri
       en: Cormohipparion skinneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

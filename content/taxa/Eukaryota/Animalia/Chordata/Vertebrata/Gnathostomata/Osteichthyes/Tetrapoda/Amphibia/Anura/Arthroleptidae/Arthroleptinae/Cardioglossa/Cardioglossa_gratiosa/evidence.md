@@ -9,7 +9,6 @@ records:
     name:
       en: Cardioglossa gratiosa
       zh: Cardioglossa gratiosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

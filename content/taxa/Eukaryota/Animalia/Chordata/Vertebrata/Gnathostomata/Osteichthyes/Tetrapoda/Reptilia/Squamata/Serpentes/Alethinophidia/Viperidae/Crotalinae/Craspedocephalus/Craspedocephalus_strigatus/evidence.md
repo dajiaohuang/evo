@@ -9,7 +9,6 @@ records:
     name:
       zh: Craspedocephalus strigatus
       en: Craspedocephalus strigatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

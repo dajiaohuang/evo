@@ -9,7 +9,6 @@ records:
     name:
       zh: Ornithomimus minutus
       en: Ornithomimus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

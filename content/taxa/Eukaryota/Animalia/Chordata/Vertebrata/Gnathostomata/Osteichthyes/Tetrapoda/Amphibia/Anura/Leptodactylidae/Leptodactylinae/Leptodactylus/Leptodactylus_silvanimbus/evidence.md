@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus silvanimbus
       zh: Leptodactylus silvanimbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

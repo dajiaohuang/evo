@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlapetes flaviceps
       en: Atlapetes flaviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

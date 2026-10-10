@@ -9,7 +9,6 @@ records:
     name:
       zh: Ogmophis compactus
       en: Ogmophis compactus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

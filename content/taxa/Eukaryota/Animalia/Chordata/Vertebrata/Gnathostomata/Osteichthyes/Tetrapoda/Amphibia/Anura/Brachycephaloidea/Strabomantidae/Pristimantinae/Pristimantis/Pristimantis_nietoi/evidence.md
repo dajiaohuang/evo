@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis nietoi
       zh: Pristimantis nietoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

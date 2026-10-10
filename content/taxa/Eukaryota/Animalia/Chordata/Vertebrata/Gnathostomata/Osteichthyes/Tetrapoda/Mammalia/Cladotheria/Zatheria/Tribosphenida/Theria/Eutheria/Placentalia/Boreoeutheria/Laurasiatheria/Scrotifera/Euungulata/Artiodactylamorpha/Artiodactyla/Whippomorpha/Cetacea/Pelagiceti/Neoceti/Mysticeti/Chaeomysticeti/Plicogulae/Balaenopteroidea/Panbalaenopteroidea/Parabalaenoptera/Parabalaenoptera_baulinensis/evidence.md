@@ -9,7 +9,6 @@ records:
     name:
       zh: Parabalaenoptera baulinensis
       en: Parabalaenoptera baulinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

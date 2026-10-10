@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliosaurus rossicus
       en: Pliosaurus rossicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

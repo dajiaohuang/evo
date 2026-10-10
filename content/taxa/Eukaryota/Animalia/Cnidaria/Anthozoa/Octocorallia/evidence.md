@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mcfadden-2006-octocorallia
       referenceLinks:
         - referenceId: mcfadden-2006-octocorallia
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mcfadden-2006-octocorallia locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: mcfadden-2006-octocorallia
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: mcfadden-2006-octocorallia
           locator: 513–527; Figures 1–4; living-taxon sampling and phylogenetic results
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

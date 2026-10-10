@@ -9,7 +9,6 @@ records:
     name:
       zh: Bridetherium dorisae
       en: Bridetherium dorisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

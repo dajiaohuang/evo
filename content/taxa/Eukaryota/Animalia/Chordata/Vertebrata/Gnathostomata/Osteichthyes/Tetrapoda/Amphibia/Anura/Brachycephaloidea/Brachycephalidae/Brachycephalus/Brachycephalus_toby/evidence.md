@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus toby
       zh: Brachycephalus toby
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

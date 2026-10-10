@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis grismeri
       en: Cnemaspis grismeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

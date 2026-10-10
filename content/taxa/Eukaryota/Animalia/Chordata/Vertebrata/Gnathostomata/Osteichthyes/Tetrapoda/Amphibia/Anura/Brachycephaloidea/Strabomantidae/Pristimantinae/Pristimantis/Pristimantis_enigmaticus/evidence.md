@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis enigmaticus
       zh: Pristimantis enigmaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella gnustae
       zh: Rhinella gnustae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

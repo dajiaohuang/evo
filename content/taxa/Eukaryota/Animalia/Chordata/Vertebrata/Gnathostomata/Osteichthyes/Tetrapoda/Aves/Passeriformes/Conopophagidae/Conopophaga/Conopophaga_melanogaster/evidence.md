@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopophaga melanogaster
       en: Conopophaga melanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

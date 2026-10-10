@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus klauberi
       en: Hemidactylus klauberi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

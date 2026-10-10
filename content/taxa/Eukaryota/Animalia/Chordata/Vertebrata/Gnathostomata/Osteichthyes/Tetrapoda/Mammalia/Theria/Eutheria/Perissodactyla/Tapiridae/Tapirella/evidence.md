@@ -9,7 +9,6 @@ records:
     name:
       zh: 中美貘属
       en: Baird’s tapir genus
-    reviewStatus: source-linked
     checkedAt: 2026-09-22
     sections:
       - topic:

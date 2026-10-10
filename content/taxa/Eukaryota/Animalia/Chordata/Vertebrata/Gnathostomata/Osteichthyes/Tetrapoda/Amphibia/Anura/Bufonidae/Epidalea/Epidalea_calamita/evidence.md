@@ -9,7 +9,6 @@ records:
     name:
       en: Epidalea calamita
       zh: Epidalea calamita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

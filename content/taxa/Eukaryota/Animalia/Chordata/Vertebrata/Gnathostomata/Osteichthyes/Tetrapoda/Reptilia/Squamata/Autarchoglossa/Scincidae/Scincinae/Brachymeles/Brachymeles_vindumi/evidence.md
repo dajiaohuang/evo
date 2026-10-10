@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachymeles vindumi
       en: Brachymeles vindumi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

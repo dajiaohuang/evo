@@ -9,7 +9,6 @@ records:
     name:
       zh: Quiscalus mexicanus
       en: Quiscalus mexicanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

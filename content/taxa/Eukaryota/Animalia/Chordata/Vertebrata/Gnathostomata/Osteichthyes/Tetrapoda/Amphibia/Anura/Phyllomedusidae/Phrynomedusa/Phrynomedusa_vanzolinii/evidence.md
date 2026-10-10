@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynomedusa vanzolinii
       zh: Phrynomedusa vanzolinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

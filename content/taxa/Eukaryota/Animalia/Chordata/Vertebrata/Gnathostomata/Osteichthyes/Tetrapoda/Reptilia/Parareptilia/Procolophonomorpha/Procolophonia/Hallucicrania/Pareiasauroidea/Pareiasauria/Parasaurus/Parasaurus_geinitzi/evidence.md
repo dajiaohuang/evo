@@ -9,7 +9,6 @@ records:
     name:
       zh: Parasaurus geinitzi
       en: Parasaurus geinitzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

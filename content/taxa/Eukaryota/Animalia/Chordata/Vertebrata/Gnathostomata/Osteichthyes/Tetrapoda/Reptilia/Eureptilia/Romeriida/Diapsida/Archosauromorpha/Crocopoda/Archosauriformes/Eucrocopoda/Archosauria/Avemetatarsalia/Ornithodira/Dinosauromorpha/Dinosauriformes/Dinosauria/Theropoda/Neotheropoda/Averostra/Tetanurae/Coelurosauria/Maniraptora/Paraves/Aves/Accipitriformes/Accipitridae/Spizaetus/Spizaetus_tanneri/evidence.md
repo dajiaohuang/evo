@@ -9,7 +9,6 @@ records:
     name:
       zh: Spizaetus tanneri
       en: Spizaetus tanneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

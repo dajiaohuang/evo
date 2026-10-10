@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis jordani
       zh: Leptopelis jordani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

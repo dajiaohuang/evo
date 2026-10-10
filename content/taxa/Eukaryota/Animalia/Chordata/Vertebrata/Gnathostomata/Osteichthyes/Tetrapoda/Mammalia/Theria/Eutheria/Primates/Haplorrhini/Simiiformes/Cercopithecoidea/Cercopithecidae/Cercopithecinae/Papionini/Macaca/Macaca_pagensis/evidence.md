@@ -9,7 +9,6 @@ records:
     name:
       zh: 明打威猕猴
       en: Pagai Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: transect survey

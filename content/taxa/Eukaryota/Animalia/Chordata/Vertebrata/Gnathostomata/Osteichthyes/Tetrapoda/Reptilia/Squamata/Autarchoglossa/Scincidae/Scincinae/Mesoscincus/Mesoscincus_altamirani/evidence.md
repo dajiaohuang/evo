@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesoscincus altamirani
       en: Mesoscincus altamirani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

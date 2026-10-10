@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeocavia humahuaquense
       en: Palaeocavia humahuaquense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

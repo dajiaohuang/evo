@@ -9,7 +9,6 @@ records:
     name:
       zh: Basiliscus plumifrons
       en: Basiliscus plumifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

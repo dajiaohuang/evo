@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma feae
       en: Pterodroma feae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

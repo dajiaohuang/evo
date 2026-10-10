@@ -9,7 +9,6 @@ records:
     name:
       zh: Monopeltis leonhardi
       en: Monopeltis leonhardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

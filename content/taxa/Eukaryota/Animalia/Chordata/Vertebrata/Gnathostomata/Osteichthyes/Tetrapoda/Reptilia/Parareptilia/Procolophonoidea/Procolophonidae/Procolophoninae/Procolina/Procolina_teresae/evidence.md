@@ -9,7 +9,6 @@ records:
     name:
       zh: Procolina teresae
       en: Procolina teresae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

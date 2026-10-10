@@ -9,7 +9,6 @@ records:
     name:
       zh: Typhlacontias johnsonii
       en: Typhlacontias johnsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

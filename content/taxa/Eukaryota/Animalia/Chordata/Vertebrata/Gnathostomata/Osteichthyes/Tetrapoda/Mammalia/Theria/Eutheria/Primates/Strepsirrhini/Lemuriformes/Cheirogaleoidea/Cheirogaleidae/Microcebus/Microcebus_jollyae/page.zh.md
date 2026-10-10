@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-范围限于 2006 年东部样点、三只形态测量个体和类型地点；不外推现今分布、丰度或保育状态。MDD 与 COL26.8 名称处理并列保留，尚未外部专家评审。 本页尚未经过外部领域专家评审。
+范围限于 2006 年东部样点、三只形态测量个体和类型地点；不外推现今分布、丰度或保育状态。MDD 与 COL26.8 名称处理并列保留。 。
 <!-- /evo:text -->

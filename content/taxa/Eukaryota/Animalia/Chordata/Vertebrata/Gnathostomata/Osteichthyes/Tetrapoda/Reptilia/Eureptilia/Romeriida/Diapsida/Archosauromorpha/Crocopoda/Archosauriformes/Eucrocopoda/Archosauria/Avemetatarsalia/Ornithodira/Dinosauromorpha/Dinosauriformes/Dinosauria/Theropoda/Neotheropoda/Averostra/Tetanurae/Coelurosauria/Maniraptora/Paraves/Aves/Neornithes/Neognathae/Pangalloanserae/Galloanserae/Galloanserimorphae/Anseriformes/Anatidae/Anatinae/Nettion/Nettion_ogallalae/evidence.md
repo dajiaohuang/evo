@@ -9,7 +9,6 @@ records:
     name:
       zh: Nettion ogallalae
       en: Nettion ogallalae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

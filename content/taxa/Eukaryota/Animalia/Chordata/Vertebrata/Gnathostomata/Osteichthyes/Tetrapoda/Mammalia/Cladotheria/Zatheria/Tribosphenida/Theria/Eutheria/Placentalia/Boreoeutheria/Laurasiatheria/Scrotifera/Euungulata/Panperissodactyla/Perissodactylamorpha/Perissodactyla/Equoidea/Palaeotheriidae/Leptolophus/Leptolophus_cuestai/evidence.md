@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptolophus cuestai
       en: Leptolophus cuestai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

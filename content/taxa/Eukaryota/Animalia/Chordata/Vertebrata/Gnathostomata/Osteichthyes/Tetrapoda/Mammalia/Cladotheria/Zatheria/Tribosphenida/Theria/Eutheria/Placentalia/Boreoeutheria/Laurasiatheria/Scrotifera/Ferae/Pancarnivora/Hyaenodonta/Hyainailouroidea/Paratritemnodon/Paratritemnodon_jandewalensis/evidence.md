@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratritemnodon jandewalensis
       en: Paratritemnodon jandewalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

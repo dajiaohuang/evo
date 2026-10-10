@@ -9,7 +9,6 @@ records:
     name:
       en: Lithobates spectabilis
       zh: Lithobates spectabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

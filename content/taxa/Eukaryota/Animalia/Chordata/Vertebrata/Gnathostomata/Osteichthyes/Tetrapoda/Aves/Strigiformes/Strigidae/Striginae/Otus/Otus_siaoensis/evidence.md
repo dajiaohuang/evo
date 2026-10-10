@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus siaoensis
       en: Otus siaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

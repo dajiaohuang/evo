@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxopholis guianense
       en: Loxopholis guianense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

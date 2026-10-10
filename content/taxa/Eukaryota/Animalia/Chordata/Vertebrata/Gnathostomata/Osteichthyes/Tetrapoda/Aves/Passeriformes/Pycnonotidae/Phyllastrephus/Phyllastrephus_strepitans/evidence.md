@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllastrephus strepitans
       en: Phyllastrephus strepitans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

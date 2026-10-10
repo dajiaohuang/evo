@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma kurodai
       en: Pterodroma kurodai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

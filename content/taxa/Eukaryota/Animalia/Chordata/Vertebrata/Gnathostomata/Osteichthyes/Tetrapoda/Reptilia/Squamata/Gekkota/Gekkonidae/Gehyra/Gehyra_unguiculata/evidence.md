@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra unguiculata
       en: Gehyra unguiculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

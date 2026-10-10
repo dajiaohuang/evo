@@ -9,7 +9,6 @@ records:
     name:
       zh: Guildayomys matthewsi
       en: Guildayomys matthewsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-核心生态记录使用分种前的 P. potenziani 名称；页面仅按研究地点提示其与现行 P. siberu 的关系，不能把旧研究视为现代全种结论。本页尚未经过外部领域专家评审。
+核心生态记录使用分种前的 P. potenziani 名称；页面仅按研究地点提示其与现行 P. siberu 的关系，不能把旧研究视为现代全种结论。。
 <!-- /evo:text -->

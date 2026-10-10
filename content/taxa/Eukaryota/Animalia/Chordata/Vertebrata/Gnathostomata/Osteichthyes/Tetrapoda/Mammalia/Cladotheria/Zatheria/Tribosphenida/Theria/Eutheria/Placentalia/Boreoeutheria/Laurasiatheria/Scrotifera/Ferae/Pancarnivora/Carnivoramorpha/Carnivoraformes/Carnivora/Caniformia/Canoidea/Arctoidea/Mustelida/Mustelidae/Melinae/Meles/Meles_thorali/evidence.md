@@ -9,7 +9,6 @@ records:
     name:
       zh: Meles thorali
       en: Meles thorali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

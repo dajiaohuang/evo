@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllobates aurotaenia
       zh: Phyllobates aurotaenia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

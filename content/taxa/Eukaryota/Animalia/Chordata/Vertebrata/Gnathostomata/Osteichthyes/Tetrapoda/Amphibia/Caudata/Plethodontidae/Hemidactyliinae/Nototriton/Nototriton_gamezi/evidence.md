@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton gamezi
       zh: Nototriton gamezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

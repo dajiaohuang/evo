@@ -9,7 +9,6 @@ records:
     name:
       zh: Piaya melanogaster
       en: Piaya melanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

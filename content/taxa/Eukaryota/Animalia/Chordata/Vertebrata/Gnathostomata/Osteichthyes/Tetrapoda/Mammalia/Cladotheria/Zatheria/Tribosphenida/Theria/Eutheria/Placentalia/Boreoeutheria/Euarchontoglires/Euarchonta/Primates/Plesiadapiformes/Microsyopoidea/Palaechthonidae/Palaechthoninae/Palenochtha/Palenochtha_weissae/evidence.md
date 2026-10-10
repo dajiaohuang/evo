@@ -9,7 +9,6 @@ records:
     name:
       zh: Palenochtha weissae
       en: Palenochtha weissae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

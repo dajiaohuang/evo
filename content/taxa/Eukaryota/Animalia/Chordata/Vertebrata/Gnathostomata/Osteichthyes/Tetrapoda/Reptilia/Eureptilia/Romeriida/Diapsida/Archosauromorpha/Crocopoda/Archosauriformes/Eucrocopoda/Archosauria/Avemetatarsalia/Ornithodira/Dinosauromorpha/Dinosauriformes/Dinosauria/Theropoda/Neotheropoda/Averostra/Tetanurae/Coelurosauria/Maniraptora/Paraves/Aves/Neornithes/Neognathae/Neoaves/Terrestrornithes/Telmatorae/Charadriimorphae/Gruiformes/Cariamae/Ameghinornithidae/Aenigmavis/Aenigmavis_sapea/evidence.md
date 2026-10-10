@@ -9,7 +9,6 @@ records:
     name:
       zh: Aenigmavis sapea
       en: Aenigmavis sapea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

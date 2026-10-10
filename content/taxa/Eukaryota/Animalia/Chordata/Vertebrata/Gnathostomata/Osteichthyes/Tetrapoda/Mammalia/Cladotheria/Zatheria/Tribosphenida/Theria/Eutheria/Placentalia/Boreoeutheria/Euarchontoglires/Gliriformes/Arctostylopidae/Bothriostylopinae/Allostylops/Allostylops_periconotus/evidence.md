@@ -9,7 +9,6 @@ records:
     name:
       zh: Allostylops periconotus
       en: Allostylops periconotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arborimus longicaudus
       en: Arborimus longicaudus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

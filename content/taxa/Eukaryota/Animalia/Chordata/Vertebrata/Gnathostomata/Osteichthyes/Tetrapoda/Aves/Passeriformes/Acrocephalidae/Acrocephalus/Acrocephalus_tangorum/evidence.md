@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrocephalus tangorum
       en: Acrocephalus tangorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

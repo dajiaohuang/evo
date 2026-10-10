@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: luo-2015-haramiyavia primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: luo-2015-haramiyavia
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: luo-2015-haramiyavia primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: luo-2015-haramiyavia
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: luo-2015-haramiyavia primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: luo-2015-haramiyavia
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: luo-2015-haramiyavia primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: luo-2015-haramiyavia
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: luo-2015-haramiyavia primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: luo-2015-haramiyavia
           relation: supports
@@ -188,7 +173,6 @@ records:
       referenceLocators:
         - referenceId: luo-2015-haramiyavia
           locator: E7102–E7108; Figures 1–4; Supplementary Figures S1–S8
-      reviewStatus: automated-audit-passed
 ---
 
 # Haramiyavia clemmenseni

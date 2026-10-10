@@ -9,7 +9,6 @@ records:
     name:
       zh: Symphimus leucostomus
       en: Symphimus leucostomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

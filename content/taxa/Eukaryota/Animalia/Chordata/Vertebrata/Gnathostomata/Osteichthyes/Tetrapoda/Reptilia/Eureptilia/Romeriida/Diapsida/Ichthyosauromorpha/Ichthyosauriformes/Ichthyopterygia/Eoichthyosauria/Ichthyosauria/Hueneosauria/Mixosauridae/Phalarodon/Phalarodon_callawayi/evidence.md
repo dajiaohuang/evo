@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalarodon callawayi
       en: Phalarodon callawayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

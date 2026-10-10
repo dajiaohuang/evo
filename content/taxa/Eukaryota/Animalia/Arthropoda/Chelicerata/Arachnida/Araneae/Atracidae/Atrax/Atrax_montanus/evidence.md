@@ -9,7 +9,6 @@ records:
     name:
       zh: 南悉尼漏斗网蛛
       en: Southern Sydney funnel-web spider
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

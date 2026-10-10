@@ -9,7 +9,6 @@ records:
     name:
       en: Moloch Gibbon
       zh: 摩洛赫长臂猿
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

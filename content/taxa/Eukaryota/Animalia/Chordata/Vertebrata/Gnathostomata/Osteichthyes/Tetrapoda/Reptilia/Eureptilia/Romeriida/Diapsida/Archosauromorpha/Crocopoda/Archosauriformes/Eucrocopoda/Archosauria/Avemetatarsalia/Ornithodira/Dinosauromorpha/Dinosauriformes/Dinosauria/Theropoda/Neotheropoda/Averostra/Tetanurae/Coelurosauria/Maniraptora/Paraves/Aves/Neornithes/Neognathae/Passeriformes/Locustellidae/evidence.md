@@ -9,7 +9,6 @@ records:
     name:
       zh: Locustellidae
       en: Locustellidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

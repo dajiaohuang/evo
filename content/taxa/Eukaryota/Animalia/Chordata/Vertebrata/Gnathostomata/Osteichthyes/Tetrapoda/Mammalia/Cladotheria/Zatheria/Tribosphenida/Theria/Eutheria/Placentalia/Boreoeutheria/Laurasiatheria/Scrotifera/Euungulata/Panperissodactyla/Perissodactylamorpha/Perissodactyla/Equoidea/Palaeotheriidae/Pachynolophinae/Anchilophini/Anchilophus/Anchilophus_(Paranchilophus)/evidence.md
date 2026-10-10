@@ -9,7 +9,6 @@ records:
     name:
       zh: Anchilophus (Paranchilophus)
       en: Anchilophus (Paranchilophus)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

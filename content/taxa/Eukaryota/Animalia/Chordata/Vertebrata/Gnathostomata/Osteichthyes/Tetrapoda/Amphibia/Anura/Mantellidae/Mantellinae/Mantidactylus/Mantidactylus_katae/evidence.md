@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus katae
       zh: Mantidactylus katae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

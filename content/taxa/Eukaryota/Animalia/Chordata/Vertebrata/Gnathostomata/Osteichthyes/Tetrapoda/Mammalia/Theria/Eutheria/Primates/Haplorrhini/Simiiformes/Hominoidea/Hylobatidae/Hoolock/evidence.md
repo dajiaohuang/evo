@@ -10,7 +10,6 @@ records:
     name:
       en: Hoolock gibbons
       zh: 白眉长臂猿属
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

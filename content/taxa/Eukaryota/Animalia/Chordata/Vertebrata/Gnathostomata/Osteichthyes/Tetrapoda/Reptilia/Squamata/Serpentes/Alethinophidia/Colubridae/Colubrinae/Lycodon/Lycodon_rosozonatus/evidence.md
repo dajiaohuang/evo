@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon rosozonatus
       en: Lycodon rosozonatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

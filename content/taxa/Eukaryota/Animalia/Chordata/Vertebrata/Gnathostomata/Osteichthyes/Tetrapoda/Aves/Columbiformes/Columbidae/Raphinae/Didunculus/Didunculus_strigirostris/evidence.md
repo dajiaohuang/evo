@@ -9,7 +9,6 @@ records:
     name:
       zh: Didunculus strigirostris
       en: Didunculus strigirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

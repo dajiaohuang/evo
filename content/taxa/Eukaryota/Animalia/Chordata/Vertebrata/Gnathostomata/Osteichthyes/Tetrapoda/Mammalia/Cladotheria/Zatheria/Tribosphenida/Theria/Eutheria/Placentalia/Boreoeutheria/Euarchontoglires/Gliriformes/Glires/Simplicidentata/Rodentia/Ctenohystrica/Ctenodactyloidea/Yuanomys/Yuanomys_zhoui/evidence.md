@@ -9,7 +9,6 @@ records:
     name:
       zh: Yuanomys zhoui
       en: Yuanomys zhoui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

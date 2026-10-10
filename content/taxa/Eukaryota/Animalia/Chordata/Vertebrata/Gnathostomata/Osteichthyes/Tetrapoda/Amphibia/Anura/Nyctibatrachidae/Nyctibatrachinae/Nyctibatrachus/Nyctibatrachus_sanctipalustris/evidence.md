@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus sanctipalustris
       zh: Nyctibatrachus sanctipalustris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

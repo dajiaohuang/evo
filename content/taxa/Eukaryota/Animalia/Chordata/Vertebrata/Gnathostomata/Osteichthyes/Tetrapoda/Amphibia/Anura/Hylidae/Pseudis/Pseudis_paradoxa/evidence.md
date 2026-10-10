@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudis paradoxa
       zh: Pseudis paradoxa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

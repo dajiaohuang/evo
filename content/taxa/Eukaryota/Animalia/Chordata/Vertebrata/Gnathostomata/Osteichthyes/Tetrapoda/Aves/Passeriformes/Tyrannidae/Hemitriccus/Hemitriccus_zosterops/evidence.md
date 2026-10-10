@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemitriccus zosterops
       en: Hemitriccus zosterops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

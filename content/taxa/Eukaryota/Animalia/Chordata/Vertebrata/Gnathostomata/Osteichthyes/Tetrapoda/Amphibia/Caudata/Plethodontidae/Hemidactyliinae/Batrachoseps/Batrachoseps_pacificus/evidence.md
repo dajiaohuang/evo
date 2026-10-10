@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps pacificus
       zh: Batrachoseps pacificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

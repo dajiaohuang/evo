@@ -9,7 +9,6 @@ records:
     name:
       zh: Copemys dentalis
       en: Copemys dentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

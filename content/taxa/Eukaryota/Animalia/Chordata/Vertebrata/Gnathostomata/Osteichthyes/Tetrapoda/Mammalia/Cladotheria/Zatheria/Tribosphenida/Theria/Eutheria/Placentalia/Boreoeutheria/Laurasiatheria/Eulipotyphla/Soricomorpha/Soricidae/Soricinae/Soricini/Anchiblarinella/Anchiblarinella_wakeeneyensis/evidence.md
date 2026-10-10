@@ -9,7 +9,6 @@ records:
     name:
       zh: Anchiblarinella wakeeneyensis
       en: Anchiblarinella wakeeneyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

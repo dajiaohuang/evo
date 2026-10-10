@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelecanoides cymatotrypetes
       en: Pelecanoides cymatotrypetes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

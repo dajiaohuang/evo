@@ -9,7 +9,6 @@ records:
     name:
       zh: Caluromys philander
       en: Caluromys philander
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ortalis pollicaris
       en: Ortalis pollicaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

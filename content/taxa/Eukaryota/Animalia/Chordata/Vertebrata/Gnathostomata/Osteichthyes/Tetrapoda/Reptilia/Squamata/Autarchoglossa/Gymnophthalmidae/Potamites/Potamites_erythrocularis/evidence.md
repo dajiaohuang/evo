@@ -9,7 +9,6 @@ records:
     name:
       zh: Potamites erythrocularis
       en: Potamites erythrocularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

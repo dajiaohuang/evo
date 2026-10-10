@@ -9,7 +9,6 @@ records:
     name:
       zh: Xilousuchus sapingensis
       en: Xilousuchus sapingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

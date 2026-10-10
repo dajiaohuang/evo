@@ -28,5 +28,5 @@ These evidence types answer different questions: marker comparisons describe rel
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a short reading path anchored to the fixed COL26.8 genus ID, not a complete genus review. Evidence comes from local observations, interviews and limited molecular markers with different periods and sampling frames; it cannot establish genus-wide ecology or current conservation status. The Chinese display name retains the Latin genus name; the guide has not received external expert review. This page is not externally expert-reviewed.
+This is a short reading path anchored to the fixed COL26.8 genus ID, not a complete genus review. Evidence comes from local observations, interviews and limited molecular markers with different periods and sampling frames; it cannot establish genus-wide ecology or current conservation status. The Chinese display name retains the Latin genus name; the guide. This page is.
 <!-- /evo:text -->

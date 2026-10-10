@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalanger matanim
       en: Phalanger matanim
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

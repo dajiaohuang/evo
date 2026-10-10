@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes jerdoni
       en: Calotes jerdoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

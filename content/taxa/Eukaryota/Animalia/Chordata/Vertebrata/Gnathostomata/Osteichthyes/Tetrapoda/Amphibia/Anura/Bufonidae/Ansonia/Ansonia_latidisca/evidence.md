@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia latidisca
       zh: Ansonia latidisca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

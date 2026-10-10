@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperotestudo orthopygia
       en: Hesperotestudo orthopygia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

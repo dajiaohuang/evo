@@ -9,7 +9,6 @@ records:
     name:
       zh: Wyonycteris richardi
       en: Wyonycteris richardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodonomorphus rufulus
       en: Lycodonomorphus rufulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

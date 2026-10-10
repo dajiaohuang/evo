@@ -16,5 +16,5 @@ Aquino and Encarnación’s 1988 transect study in northeastern Peru reported es
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Density values come from historical transects in selected forest types and should not be read as current abundance or a range-wide estimate. This page is not externally expert-reviewed.
+Density values come from historical transects in selected forest types and should not be read as current abundance or a range-wide estimate. This page is.
 <!-- /evo:text -->

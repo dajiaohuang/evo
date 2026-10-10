@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryolestes vorax
       en: Dryolestes vorax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

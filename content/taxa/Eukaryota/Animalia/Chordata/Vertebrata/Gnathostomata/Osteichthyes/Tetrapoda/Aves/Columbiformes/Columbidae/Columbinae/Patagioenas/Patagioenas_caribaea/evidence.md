@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagioenas caribaea
       en: Patagioenas caribaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

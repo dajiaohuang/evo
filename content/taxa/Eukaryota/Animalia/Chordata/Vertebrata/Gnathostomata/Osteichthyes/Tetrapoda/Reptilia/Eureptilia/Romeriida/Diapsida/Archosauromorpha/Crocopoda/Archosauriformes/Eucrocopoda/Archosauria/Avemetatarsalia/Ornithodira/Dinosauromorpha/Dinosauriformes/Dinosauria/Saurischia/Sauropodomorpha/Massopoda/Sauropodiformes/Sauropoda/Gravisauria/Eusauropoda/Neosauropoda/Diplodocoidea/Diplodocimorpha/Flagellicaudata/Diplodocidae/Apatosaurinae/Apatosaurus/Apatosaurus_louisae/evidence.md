@@ -9,7 +9,6 @@ records:
     name:
       zh: Apatosaurus louisae
       en: Apatosaurus louisae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pycnonotus xanthorrhous
       en: Pycnonotus xanthorrhous
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

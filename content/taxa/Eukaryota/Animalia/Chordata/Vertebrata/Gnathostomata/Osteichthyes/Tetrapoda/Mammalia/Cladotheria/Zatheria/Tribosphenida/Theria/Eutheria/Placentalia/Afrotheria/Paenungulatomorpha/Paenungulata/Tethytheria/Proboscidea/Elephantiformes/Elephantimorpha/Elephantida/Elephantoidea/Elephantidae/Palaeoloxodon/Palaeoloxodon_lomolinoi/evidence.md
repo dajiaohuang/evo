@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoloxodon lomolinoi
       en: Palaeoloxodon lomolinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

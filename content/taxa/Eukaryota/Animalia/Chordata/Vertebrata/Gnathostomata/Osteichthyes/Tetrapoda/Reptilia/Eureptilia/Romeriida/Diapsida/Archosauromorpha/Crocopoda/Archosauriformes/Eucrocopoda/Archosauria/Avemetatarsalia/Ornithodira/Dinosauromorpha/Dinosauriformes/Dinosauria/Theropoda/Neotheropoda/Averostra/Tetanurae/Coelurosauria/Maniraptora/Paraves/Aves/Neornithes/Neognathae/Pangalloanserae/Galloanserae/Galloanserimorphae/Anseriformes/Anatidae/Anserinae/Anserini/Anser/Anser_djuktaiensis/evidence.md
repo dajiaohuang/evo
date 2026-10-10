@@ -9,7 +9,6 @@ records:
     name:
       zh: Anser djuktaiensis
       en: Anser djuktaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus slevini
       en: Sceloporus slevini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

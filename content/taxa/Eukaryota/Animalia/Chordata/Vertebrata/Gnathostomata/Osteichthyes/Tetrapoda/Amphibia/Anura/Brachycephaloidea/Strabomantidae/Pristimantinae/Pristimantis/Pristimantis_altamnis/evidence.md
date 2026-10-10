@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis altamnis
       zh: Pristimantis altamnis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

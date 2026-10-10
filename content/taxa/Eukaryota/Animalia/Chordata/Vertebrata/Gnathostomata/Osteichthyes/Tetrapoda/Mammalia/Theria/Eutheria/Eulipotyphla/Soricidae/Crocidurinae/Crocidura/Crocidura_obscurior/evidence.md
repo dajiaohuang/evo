@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura obscurior
       en: Crocidura obscurior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

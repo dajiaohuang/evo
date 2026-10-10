@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpsilochmus roraimae
       en: Herpsilochmus roraimae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

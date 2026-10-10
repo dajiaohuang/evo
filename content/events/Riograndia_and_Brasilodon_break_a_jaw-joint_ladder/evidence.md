@@ -113,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Rawson et al. 2024 DOI 10.1038/s41586-024-07971-3; data DOI 10.5523/bris.2ie8neiry701e23iayx9gdsytv
       referenceLinks:
         - referenceId: rawson-2024-cynodont-jaw-joint
           relation: supports

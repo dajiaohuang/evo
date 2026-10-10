@@ -9,7 +9,6 @@ records:
     name:
       en: Capensibufo deceptus
       zh: Capensibufo deceptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

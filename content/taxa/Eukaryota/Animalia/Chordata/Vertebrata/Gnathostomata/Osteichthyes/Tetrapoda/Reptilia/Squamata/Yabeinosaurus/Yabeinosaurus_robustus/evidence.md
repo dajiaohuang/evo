@@ -9,7 +9,6 @@ records:
     name:
       zh: Yabeinosaurus robustus
       en: Yabeinosaurus robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

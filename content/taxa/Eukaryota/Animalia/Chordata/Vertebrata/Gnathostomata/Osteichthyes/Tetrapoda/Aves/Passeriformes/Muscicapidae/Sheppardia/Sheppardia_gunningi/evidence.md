@@ -9,7 +9,6 @@ records:
     name:
       zh: Sheppardia gunningi
       en: Sheppardia gunningi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

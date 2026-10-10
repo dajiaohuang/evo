@@ -9,7 +9,6 @@ records:
     name:
       zh: Planocrania hengdongensis
       en: Planocrania hengdongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

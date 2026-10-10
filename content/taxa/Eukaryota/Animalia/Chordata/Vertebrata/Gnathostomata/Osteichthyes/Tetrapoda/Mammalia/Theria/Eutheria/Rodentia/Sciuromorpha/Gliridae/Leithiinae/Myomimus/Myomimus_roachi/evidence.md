@@ -9,7 +9,6 @@ records:
     name:
       zh: Myomimus roachi
       en: Myomimus roachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

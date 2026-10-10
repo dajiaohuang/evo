@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosorex schaffneri
       en: Plesiosorex schaffneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

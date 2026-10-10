@@ -9,7 +9,6 @@ records:
     name:
       zh: Neotomodon alstoni
       en: Neotomodon alstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

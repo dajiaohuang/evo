@@ -9,7 +9,6 @@ records:
     name:
       zh: Terpsiphone bedfordi
       en: Terpsiphone bedfordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

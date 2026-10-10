@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachemys antiqua
       en: Trachemys antiqua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

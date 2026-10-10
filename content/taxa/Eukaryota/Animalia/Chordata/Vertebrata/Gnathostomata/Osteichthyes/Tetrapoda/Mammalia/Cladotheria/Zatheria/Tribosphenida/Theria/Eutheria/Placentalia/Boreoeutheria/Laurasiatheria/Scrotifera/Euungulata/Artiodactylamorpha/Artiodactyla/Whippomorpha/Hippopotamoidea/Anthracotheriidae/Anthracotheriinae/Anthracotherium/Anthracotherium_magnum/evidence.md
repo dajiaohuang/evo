@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracotherium magnum
       en: Anthracotherium magnum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

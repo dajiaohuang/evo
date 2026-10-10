@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastomys huberti
       en: Mastomys huberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

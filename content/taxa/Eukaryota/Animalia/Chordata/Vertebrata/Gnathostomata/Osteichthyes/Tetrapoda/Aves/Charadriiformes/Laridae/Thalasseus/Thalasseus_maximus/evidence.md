@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalasseus maximus
       en: Thalasseus maximus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

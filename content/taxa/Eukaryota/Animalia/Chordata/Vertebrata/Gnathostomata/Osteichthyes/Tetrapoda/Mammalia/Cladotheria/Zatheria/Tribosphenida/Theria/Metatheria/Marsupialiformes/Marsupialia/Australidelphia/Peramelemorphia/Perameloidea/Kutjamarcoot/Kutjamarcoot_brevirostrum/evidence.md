@@ -9,7 +9,6 @@ records:
     name:
       zh: Kutjamarcoot brevirostrum
       en: Kutjamarcoot brevirostrum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

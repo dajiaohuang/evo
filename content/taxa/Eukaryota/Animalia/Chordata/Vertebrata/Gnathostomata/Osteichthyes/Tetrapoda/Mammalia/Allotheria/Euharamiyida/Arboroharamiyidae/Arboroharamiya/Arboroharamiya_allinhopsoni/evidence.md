@@ -9,7 +9,6 @@ records:
     name:
       zh: Arboroharamiya allinhopsoni
       en: Arboroharamiya allinhopsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

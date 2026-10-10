@@ -9,7 +9,6 @@ records:
     name:
       zh: Cittura cyanotis
       en: Cittura cyanotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

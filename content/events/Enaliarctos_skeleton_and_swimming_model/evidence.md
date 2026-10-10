@@ -95,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: berta-ray-1990-enaliarctos DOI-linked primary source
       referenceLinks:
         - referenceId: berta-ray-1990-enaliarctos
           relation: supports

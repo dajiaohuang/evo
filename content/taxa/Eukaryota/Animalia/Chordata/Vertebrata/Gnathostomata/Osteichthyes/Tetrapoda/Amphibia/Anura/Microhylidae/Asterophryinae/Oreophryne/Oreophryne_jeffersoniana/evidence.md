@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne jeffersoniana
       zh: Oreophryne jeffersoniana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

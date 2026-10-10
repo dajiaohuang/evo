@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus sordidus
       zh: Pseudophilautus sordidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipparion molayanense
       en: Hipparion molayanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

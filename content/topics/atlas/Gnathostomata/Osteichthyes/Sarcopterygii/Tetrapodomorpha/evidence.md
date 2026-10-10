@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: clack-2006-early-tetrapods DOI 10.1016/j.palaeo.2005.07.019; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: clack-2006-early-tetrapods
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: clack-2006-early-tetrapods; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: clack-2006-early-tetrapods
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: clack-2006-early-tetrapods
           locator: 167–189; Figures 1–11; Devonian near-tetrapods, early tetrapods, localities and stratigraphic context
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca psychrophila
       zh: Gastrotheca psychrophila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

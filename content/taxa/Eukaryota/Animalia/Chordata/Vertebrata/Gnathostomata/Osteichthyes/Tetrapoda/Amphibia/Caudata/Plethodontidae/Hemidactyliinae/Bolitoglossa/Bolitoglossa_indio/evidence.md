@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa indio
       zh: Bolitoglossa indio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

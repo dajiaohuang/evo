@@ -57,5 +57,5 @@ The fixed collection retains Gong et al. (2012) and ref:42681. A separate bindin
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page adds a short guide to selected original-description passages on preservation and preparation alongside fixed PBDB occurrences. The complete anatomy, images, measurement table, later revisions and species boundaries remain incompletely assembled. LVH/LHV alternate in the source; LVH 0026 follows the type paragraph without creating two identities. No independent fossil inspection, remeasurement or external expert review has occurred. Plumage, diet and behavioral evidence still need work.
+This page adds a short guide to selected original-description passages on preservation and preparation alongside fixed PBDB occurrences. The complete anatomy, images, measurement table, later revisions and species boundaries remain incompletely assembled. LVH/LHV alternate in the source; LVH 0026 follows the type paragraph without creating two identities. Plumage, diet and behavioral evidence still need work.
 <!-- /evo:text -->

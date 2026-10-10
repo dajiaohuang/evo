@@ -9,7 +9,6 @@ records:
     name:
       zh: Eochersis eiflaensis
       en: Eochersis eiflaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

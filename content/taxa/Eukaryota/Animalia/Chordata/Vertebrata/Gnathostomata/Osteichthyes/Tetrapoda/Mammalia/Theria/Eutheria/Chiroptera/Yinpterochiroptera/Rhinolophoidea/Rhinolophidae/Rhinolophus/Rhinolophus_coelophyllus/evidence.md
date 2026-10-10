@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus coelophyllus
       en: Rhinolophus coelophyllus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

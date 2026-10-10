@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius friedemanni
       zh: Hyperolius friedemanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

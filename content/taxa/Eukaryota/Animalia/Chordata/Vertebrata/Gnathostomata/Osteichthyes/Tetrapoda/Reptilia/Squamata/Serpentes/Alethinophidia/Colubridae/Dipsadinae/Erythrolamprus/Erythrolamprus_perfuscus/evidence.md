@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrolamprus perfuscus
       en: Erythrolamprus perfuscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

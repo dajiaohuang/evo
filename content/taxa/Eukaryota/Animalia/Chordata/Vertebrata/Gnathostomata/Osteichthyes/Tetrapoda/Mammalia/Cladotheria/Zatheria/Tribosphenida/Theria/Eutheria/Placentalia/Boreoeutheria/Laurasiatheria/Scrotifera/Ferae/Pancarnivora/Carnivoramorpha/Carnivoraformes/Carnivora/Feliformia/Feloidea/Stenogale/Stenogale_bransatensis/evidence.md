@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenogale bransatensis
       en: Stenogale bransatensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

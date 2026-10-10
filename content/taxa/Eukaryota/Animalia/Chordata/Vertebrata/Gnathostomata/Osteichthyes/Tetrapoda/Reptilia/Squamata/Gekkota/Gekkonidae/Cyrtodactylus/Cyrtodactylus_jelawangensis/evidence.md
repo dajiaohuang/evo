@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus jelawangensis
       en: Cyrtodactylus jelawangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

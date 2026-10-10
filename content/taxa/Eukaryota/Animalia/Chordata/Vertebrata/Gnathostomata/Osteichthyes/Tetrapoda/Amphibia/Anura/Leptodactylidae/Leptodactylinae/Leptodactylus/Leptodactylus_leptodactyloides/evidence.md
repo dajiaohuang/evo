@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus leptodactyloides
       zh: Leptodactylus leptodactyloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

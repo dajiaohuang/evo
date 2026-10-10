@@ -9,7 +9,6 @@ records:
     name:
       zh: Dactylopsila tatei
       en: Dactylopsila tatei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

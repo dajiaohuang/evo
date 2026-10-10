@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla fissipes
       zh: Microhyla fissipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

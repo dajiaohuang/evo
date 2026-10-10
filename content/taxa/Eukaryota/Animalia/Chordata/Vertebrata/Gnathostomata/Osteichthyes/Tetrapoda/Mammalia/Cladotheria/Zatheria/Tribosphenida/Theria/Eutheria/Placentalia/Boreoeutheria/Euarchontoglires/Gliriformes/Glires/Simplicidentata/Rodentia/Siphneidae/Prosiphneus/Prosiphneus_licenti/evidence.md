@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosiphneus licenti
       en: Prosiphneus licenti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

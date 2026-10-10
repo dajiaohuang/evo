@@ -9,7 +9,6 @@ records:
     name:
       zh: Bumbanipodius magnus
       en: Bumbanipodius magnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

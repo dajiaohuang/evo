@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis oliveri
       en: Dendrelaphis oliveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

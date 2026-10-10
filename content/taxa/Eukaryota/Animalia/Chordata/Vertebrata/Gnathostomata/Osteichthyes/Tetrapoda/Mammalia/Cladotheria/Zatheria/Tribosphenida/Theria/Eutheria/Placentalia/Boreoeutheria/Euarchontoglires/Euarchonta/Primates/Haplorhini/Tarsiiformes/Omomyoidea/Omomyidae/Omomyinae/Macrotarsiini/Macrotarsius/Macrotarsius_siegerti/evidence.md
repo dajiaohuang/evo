@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrotarsius siegerti
       en: Macrotarsius siegerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

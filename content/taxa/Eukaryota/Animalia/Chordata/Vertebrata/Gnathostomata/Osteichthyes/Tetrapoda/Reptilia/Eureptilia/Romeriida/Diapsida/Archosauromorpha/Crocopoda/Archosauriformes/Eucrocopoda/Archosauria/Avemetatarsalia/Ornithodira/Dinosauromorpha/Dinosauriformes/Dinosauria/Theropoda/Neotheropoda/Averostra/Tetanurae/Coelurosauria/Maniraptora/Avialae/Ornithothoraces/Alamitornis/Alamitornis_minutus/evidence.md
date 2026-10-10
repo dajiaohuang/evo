@@ -9,7 +9,6 @@ records:
     name:
       zh: Alamitornis minutus
       en: Alamitornis minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

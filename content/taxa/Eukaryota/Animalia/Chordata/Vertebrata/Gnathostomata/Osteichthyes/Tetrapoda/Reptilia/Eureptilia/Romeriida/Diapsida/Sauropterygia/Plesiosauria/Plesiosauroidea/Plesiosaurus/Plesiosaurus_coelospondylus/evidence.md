@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosaurus coelospondylus
       en: Plesiosaurus coelospondylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus aaronbaueri
       en: Hemidactylus aaronbaueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinclus mexicanus
       en: Cinclus mexicanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

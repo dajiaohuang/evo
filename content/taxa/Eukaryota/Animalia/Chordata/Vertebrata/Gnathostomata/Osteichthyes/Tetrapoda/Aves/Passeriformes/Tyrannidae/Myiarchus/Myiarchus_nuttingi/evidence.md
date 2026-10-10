@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiarchus nuttingi
       en: Myiarchus nuttingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

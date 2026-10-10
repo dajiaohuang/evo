@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiarchus sagrae
       en: Myiarchus sagrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

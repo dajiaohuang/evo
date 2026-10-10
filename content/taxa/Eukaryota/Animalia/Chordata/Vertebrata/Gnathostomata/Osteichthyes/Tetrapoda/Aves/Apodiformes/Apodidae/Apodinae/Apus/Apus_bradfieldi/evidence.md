@@ -9,7 +9,6 @@ records:
     name:
       zh: Apus bradfieldi
       en: Apus bradfieldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Jinfengopteryx elegans
       en: Jinfengopteryx elegans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

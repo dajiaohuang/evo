@@ -9,7 +9,6 @@ records:
     name:
       zh: Monticola gularis
       en: Monticola gularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

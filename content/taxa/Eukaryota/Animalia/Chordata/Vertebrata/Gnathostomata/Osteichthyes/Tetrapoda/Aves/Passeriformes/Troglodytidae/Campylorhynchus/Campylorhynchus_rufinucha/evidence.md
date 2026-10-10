@@ -9,7 +9,6 @@ records:
     name:
       zh: Campylorhynchus rufinucha
       en: Campylorhynchus rufinucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

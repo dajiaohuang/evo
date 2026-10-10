@@ -9,7 +9,6 @@ records:
     name:
       zh: Bolodon crassidens
       en: Bolodon crassidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

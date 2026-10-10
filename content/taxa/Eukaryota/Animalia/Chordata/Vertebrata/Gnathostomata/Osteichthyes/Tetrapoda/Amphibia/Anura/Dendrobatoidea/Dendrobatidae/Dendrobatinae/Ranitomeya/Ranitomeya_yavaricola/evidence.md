@@ -9,7 +9,6 @@ records:
     name:
       en: Ranitomeya yavaricola
       zh: Ranitomeya yavaricola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

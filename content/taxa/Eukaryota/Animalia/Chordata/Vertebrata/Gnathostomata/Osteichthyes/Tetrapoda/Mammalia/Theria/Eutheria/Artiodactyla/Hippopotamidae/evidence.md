@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: boisserie-2005-hippopotamidae concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: boisserie-2005-hippopotamidae
@@ -62,7 +59,6 @@ records:
       referenceLocators:
         - referenceId: boisserie-2005-hippopotamidae
           locator: 1–26; Taxonomic review; cladistic analysis; discussion of revised family membership
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
   catalogue-profile:
     scientificName: Hippopotamidae
@@ -71,7 +67,6 @@ records:
     name:
       zh: Hippopotamidae
       en: Hippopotamidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

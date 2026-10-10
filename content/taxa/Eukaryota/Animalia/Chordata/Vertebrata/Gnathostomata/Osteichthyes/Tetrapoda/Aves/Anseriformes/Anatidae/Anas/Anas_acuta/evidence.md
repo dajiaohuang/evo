@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas acuta
       en: Anas acuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

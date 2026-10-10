@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaerephon major
       en: Chaerephon major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilonatalus micropus
       en: Chilonatalus micropus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

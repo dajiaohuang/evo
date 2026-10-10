@@ -9,7 +9,6 @@ records:
     name:
       zh: Lynx issiodorensis
       en: Lynx issiodorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

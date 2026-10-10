@@ -9,7 +9,6 @@ records:
     name:
       zh: Paramiacis teilhardi
       en: Paramiacis teilhardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

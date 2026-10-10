@@ -61,14 +61,9 @@ export function queryEligibility(resolution) {
     return { eligible: false, reason: resolution.resolutionReason ?? 'unresolved' }
   }
   if (resolution.parentRelationshipKind === 'taxonomic-parent' && !resolution.lineageCompatibility?.startsWith('compatible-')) {
-    return { eligible: false, reason: resolution.lineageCompatibility === 'incompatible' ? 'needs-concept-review' : 'lineage-not-verified' }
+    return { eligible: false, reason: resolution.lineageCompatibility === 'incompatible' ? 'incompatible-lineage' : 'lineage-not-verified' }
   }
-  if (resolution.conceptReviewStatus === 'needs-concept-review' || resolution.automatedRecommendation === 'needs-concept-review') {
-    return { eligible: false, reason: 'needs-concept-review' }
-  }
-  if (resolution.automatedRecommendation !== 'accept-external-mapping') {
-    return { eligible: false, reason: resolution.automatedRecommendation ?? 'withhold-external-mapping' }
-  }
+  if (!resolution.parentRelationshipKind || !resolution.lineageCompatibility) return { eligible: false, reason: 'lineage-not-verified' }
   return { eligible: true, reason: 'resolution-ledger-accepted-mapping' }
 }
 

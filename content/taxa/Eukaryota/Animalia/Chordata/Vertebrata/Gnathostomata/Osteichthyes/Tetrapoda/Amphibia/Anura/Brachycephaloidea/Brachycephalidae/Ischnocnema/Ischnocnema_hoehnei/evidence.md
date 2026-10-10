@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema hoehnei
       zh: Ischnocnema hoehnei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenoblepharys adspersa
       en: Ctenoblepharys adspersa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

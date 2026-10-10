@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus monticola
       zh: Rhacophorus monticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

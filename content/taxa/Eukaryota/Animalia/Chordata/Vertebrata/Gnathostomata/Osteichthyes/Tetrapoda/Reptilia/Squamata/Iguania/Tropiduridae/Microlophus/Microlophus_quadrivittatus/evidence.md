@@ -9,7 +9,6 @@ records:
     name:
       zh: Microlophus quadrivittatus
       en: Microlophus quadrivittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

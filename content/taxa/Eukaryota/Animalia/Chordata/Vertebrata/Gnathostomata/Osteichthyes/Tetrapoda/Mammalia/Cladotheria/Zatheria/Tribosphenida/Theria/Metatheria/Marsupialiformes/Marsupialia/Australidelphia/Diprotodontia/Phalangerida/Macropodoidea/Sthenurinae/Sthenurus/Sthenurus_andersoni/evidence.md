@@ -9,7 +9,6 @@ records:
     name:
       zh: Sthenurus andersoni
       en: Sthenurus andersoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

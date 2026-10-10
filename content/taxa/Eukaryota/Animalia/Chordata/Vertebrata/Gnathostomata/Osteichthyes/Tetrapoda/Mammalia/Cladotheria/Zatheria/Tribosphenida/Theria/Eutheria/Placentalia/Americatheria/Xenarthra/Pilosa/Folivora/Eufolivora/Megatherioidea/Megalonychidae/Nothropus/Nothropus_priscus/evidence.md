@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothropus priscus
       en: Nothropus priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

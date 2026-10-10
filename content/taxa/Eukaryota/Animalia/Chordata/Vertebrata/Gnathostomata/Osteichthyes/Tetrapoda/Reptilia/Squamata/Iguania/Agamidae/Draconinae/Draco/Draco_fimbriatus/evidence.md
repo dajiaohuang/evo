@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco fimbriatus
       en: Draco fimbriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

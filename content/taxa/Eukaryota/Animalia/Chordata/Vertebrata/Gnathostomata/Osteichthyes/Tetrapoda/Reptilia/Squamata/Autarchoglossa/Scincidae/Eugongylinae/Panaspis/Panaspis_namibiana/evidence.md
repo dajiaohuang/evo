@@ -9,7 +9,6 @@ records:
     name:
       zh: Panaspis namibiana
       en: Panaspis namibiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

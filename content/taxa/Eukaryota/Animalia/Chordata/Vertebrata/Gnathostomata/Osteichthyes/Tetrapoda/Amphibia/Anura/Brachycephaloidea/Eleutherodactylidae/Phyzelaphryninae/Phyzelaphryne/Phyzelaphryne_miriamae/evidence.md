@@ -9,7 +9,6 @@ records:
     name:
       en: Phyzelaphryne miriamae
       zh: Phyzelaphryne miriamae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

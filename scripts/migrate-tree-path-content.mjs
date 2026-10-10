@@ -158,7 +158,7 @@ function atlasPath(node) {
         scientificName: node.name,
         displayName: node.name,
         rank: node.rank || null,
-        classification: { authority: path.startsWith('content/taxa/') ? 'Paleobiology Database snapshot' : 'Evo navigation concept', sourcePath: 'data/sources/pbdb-taxon-resolution.json', sourceUrl: resolution?.pbdbId ? `https://paleobiodb.org/data1.2/taxa/single.json?id=${resolution.pbdbId.replace(/^txn:/, '')}` : null, placement, conceptReviewStatus: resolution?.conceptReviewStatus ?? null },
+        classification: { authority: path.startsWith('content/taxa/') ? 'Paleobiology Database snapshot' : 'Evo navigation concept', sourcePath: 'data/sources/pbdb-taxon-resolution.json', sourceUrl: resolution?.pbdbId ? `https://paleobiodb.org/data1.2/taxa/single.json?id=${resolution.pbdbId.replace(/^txn:/, '')}` : null, placement},
       },
       records: {},
     })

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prenocephale prenes
       en: Prenocephale prenes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis erhardii
       en: Podarcis erhardii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

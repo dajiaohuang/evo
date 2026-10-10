@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinolagomys kansuensis
       en: Sinolagomys kansuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

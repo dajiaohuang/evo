@@ -9,7 +9,6 @@ records:
     name:
       en: Alsodes verrucosus
       zh: Alsodes verrucosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Starnoenas cyanocephala
       en: Starnoenas cyanocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

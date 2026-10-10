@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys taiensis
       zh: Sclerophrys taiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -113,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: pnas-2026-perissodactyls locator audit at 2026-08-31
       referenceLinks:
         - referenceId: pnas-2026-perissodactyls
           relation: supports

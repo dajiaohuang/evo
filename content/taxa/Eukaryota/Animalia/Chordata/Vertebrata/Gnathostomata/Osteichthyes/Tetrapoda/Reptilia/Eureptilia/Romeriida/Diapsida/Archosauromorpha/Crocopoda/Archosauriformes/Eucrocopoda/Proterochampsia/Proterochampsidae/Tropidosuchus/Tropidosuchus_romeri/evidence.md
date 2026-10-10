@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidosuchus romeri
       en: Tropidosuchus romeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

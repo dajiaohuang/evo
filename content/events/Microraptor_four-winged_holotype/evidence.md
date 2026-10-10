@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Xu, X. et al. 2003 DOI 10.1038/nature01342
       referenceLinks:
         - referenceId: xu-2003-microraptor-four-wings
           relation: supports

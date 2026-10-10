@@ -9,7 +9,6 @@ records:
     name:
       zh: Altilambda yujingensis
       en: Altilambda yujingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

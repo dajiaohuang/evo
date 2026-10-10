@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus guianensis
       zh: Leptodactylus guianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

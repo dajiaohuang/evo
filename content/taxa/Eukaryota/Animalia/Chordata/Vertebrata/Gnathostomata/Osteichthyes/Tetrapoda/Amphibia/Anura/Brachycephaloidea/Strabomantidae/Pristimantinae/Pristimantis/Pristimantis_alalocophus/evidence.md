@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis alalocophus
       zh: Pristimantis alalocophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

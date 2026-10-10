@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllonastes naturetrekii
       zh: Phyllonastes naturetrekii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

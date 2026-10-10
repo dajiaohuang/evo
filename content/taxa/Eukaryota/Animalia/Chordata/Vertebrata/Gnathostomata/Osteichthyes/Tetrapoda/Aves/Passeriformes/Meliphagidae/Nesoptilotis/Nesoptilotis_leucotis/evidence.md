@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesoptilotis leucotis
       en: Nesoptilotis leucotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

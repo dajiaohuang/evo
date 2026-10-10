@@ -28,5 +28,5 @@ Charles-Dominique’s 1977 radio-tracking study followed a free-ranging populati
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The direct species-level evidence here is chiefly the 2003 regional call comparison. The detailed 1977 Gabon field study predates the acoustic split and cannot be assigned to this species from its name alone. Neither source gives a current population estimate or a range-wide ecological account. The Chinese name is editorial; this page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+The direct species-level evidence here is chiefly the 2003 regional call comparison. The detailed 1977 Gabon field study predates the acoustic split and cannot be assigned to this species from its name alone. Neither source gives a current population estimate or a range-wide ecological account. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

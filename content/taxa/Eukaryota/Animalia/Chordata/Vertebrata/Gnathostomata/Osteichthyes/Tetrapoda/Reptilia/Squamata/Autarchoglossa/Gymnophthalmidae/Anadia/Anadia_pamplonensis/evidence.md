@@ -9,7 +9,6 @@ records:
     name:
       zh: Anadia pamplonensis
       en: Anadia pamplonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

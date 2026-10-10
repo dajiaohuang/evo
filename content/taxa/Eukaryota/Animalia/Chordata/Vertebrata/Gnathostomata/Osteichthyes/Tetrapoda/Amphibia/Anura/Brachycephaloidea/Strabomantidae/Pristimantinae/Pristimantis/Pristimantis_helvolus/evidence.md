@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis helvolus
       zh: Pristimantis helvolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

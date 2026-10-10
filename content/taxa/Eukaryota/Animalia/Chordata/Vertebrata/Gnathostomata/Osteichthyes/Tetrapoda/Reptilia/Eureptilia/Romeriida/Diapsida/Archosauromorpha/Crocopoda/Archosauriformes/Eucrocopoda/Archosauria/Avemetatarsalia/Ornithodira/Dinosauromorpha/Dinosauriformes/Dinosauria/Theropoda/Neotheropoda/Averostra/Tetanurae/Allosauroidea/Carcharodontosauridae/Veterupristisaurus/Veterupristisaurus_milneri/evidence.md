@@ -9,7 +9,6 @@ records:
     name:
       zh: Veterupristisaurus milneri
       en: Veterupristisaurus milneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

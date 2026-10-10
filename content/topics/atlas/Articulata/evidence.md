@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: williams-1996-brachiopod-classification
       referenceLinks:
         - referenceId: williams-1996-brachiopod-classification
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: williams-1996-brachiopod-classification
           locator: 1171–1193; Tables 1–3; classification rationale and supraordinal diagnoses
-      reviewStatus: automated-audit-passed
 ---
 
 # Articulata

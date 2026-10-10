@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis paripari
       en: Cnemaspis paripari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

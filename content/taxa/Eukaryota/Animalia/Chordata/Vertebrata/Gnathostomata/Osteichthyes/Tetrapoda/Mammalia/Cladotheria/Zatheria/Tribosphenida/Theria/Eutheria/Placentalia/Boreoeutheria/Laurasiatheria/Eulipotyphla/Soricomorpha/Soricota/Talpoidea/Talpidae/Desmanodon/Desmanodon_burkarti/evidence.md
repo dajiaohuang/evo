@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmanodon burkarti
       en: Desmanodon burkarti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

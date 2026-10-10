@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus mayokoensis
       zh: Phrynobatrachus mayokoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

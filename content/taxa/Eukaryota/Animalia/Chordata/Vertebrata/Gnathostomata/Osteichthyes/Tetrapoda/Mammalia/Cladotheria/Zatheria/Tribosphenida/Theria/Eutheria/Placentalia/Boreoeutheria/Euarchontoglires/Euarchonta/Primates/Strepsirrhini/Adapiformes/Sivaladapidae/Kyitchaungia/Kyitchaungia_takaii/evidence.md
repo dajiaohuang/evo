@@ -9,7 +9,6 @@ records:
     name:
       zh: Kyitchaungia takaii
       en: Kyitchaungia takaii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

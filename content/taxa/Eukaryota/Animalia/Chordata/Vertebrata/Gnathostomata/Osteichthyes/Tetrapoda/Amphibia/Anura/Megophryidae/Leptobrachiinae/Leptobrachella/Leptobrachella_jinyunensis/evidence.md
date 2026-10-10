@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella jinyunensis
       zh: Leptobrachella jinyunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

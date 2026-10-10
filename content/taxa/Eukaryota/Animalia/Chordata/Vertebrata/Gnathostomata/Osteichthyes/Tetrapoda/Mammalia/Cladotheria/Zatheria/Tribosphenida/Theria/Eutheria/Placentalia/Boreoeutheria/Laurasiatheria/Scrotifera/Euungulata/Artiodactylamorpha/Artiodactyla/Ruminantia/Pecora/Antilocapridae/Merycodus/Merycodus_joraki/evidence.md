@@ -9,7 +9,6 @@ records:
     name:
       zh: Merycodus joraki
       en: Merycodus joraki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

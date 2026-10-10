@@ -9,7 +9,6 @@ records:
     name:
       zh: Glareola pratincola
       en: Glareola pratincola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

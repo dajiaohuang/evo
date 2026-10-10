@@ -9,7 +9,6 @@ records:
     name:
       zh: Damaliscus superstes
       en: Damaliscus superstes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

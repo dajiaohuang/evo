@@ -22,5 +22,5 @@ The study examined daily, seasonal and habitat-related variation relevant to usi
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Results come from particular sites and groups; higher call rates do not mean higher density, and extrapolation requires accounting for season, habitat and detection differences. The Chinese name is editorial; this guide is not externally expert-reviewed.
+Results come from particular sites and groups; higher call rates do not mean higher density, and extrapolation requires accounting for season, habitat and detection differences. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

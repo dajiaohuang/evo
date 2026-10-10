@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodamaliscus gracilidens
       en: Prodamaliscus gracilidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

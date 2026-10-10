@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis luzonensis
       zh: Platymantis luzonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

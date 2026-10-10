@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus speciosus
       en: Pteropus speciosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

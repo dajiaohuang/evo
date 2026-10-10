@@ -9,7 +9,6 @@ records:
     name:
       en: Oreophryne riyantoi
       zh: Oreophryne riyantoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

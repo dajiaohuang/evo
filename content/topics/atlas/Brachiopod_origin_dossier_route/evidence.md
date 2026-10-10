@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: holmer-et-al-2008-micrina; zhang-et-al-2014-yuganotheca
       referenceLinks:
         - referenceId: holmer-et-al-2008-micrina
           relation: supports
@@ -69,7 +66,6 @@ records:
       referenceLocators:
         - referenceId: holmer-et-al-2008-micrina
           locator: 724–728; Figures 1–3; Table 1; one bounded Micrina reconstruction within a multi-dossier route
-      reviewStatus: automated-audit-passed
 ---
 
 # Brachiopod origin dossier route

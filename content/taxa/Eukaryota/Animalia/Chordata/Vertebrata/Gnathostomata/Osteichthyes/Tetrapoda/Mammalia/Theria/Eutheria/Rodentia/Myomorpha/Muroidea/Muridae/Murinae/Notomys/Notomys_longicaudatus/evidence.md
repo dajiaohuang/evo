@@ -9,7 +9,6 @@ records:
     name:
       zh: Notomys longicaudatus
       en: Notomys longicaudatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

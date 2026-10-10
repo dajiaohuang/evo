@@ -9,7 +9,6 @@ records:
     name:
       zh: Leonhardtina gracilis
       en: Leonhardtina gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

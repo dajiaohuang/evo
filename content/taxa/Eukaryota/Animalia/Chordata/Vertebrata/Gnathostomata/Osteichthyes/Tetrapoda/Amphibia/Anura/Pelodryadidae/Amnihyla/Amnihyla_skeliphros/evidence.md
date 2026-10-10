@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla skeliphros
       zh: Amnihyla skeliphros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

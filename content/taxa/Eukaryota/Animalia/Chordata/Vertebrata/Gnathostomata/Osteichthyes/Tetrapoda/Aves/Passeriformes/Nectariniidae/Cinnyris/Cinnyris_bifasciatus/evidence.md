@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris bifasciatus
       en: Cinnyris bifasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

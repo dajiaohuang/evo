@@ -9,7 +9,6 @@ records:
     name:
       zh: Yunyangosaurus puanensis
       en: Yunyangosaurus puanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

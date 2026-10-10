@@ -9,7 +9,6 @@ records:
     name:
       en: Chikila gaiduwani
       zh: Chikila gaiduwani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus parapelates
       zh: Eleutherodactylus parapelates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

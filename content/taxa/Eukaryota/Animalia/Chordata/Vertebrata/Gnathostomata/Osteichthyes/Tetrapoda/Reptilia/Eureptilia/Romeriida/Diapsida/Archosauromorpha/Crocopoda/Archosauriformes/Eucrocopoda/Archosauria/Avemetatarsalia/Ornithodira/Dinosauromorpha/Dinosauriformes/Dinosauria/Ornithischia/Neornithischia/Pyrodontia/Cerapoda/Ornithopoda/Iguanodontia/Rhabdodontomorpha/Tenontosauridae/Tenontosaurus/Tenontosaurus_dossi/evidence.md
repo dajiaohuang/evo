@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenontosaurus dossi
       en: Tenontosaurus dossi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

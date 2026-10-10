@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor mimus
       zh: Craugastor mimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

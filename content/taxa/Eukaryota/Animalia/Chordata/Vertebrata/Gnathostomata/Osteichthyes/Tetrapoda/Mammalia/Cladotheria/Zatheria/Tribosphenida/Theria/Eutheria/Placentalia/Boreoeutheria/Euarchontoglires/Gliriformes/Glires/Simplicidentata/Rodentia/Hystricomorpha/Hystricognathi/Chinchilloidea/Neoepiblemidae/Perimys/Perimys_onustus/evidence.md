@@ -9,7 +9,6 @@ records:
     name:
       zh: Perimys onustus
       en: Perimys onustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

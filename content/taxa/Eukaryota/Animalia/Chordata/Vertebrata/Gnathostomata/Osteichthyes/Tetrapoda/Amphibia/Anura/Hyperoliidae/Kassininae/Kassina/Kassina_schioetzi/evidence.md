@@ -9,7 +9,6 @@ records:
     name:
       en: Kassina schioetzi
       zh: Kassina schioetzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

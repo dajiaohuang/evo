@@ -9,7 +9,6 @@ records:
     name:
       zh: Zambiasaurus
       en: Zambiasaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

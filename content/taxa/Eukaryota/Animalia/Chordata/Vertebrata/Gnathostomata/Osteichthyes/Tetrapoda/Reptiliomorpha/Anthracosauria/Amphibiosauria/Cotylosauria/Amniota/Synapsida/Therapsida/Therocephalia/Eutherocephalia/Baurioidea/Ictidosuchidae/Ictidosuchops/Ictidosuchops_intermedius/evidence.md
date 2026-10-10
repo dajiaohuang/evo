@@ -9,7 +9,6 @@ records:
     name:
       zh: Ictidosuchops intermedius
       en: Ictidosuchops intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

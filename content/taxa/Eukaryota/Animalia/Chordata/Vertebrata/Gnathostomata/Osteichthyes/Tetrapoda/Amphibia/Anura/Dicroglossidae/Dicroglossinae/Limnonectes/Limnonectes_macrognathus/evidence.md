@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes macrognathus
       zh: Limnonectes macrognathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

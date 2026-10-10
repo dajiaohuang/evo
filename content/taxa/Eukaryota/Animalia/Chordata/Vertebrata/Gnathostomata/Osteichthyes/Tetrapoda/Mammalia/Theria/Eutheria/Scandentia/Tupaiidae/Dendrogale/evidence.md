@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrogale
       en: Dendrogale
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

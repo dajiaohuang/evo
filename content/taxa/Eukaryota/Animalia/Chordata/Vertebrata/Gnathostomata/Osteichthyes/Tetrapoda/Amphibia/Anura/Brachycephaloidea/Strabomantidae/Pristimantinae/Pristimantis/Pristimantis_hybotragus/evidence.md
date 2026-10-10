@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis hybotragus
       zh: Pristimantis hybotragus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

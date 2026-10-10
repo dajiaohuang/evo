@@ -9,7 +9,6 @@ records:
     name:
       zh: Aktashmys montealbus
       en: Aktashmys montealbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

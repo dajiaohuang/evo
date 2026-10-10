@@ -9,7 +9,6 @@ records:
     name:
       zh: Sonor handae
       en: Sonor handae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

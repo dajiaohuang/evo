@@ -9,7 +9,6 @@ records:
     name:
       zh: 松鼠猴属
       en: Squirrel Monkeys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

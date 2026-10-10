@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemihegetotherium tantillum
       en: Hemihegetotherium tantillum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

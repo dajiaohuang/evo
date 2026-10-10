@@ -10,7 +10,6 @@ records:
     name:
       en: Olive Colobus
       zh: 橄榄叶猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

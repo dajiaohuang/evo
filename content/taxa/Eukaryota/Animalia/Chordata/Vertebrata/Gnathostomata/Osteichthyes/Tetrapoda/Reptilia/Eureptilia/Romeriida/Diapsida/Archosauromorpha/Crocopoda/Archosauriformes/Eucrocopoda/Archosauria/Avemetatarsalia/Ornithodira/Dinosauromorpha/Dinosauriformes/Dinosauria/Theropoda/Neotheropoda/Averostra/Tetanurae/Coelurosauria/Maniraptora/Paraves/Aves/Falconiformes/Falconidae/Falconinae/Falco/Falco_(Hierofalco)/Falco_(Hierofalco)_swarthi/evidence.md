@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco (Hierofalco) swarthi
       en: Falco (Hierofalco) swarthi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

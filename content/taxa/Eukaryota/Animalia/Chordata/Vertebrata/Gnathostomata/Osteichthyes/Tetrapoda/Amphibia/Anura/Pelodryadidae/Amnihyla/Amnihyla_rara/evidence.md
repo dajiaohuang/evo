@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla rara
       zh: Amnihyla rara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

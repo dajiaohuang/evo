@@ -9,7 +9,6 @@ records:
     name:
       zh: 库利纳髭狨
       en: Kulina's Mustached Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

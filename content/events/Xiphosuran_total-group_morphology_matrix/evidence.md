@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: lamsdell-2020-xiphosura source inventory at 2026.08-static-v5-rc31
       referenceLinks:
         - referenceId: lamsdell-2020-xiphosura
           relation: supports

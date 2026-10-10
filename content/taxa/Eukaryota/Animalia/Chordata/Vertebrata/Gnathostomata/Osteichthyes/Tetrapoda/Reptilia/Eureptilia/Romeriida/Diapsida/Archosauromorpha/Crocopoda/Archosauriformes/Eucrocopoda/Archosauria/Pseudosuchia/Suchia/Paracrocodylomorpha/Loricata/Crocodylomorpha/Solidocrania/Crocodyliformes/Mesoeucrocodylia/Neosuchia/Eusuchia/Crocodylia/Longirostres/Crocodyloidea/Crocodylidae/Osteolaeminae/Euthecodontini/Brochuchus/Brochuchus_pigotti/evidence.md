@@ -9,7 +9,6 @@ records:
     name:
       zh: Brochuchus pigotti
       en: Brochuchus pigotti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

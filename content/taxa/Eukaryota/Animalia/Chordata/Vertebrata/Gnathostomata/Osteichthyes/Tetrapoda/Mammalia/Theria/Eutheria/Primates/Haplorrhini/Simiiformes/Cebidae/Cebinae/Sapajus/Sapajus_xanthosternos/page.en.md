@@ -16,5 +16,5 @@ Flesher surveyed a roughly 1,000 km² forest–agroforestry landscape in souther
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked regional survey; not externally expert-reviewed. The account reports a historical southern Bahia landscape study, not current species-wide abundance, distribution or conservation status.
+Source-linked regional survey;. The account reports a historical southern Bahia landscape study, not current species-wide abundance, distribution or conservation status.
 <!-- /evo:text -->

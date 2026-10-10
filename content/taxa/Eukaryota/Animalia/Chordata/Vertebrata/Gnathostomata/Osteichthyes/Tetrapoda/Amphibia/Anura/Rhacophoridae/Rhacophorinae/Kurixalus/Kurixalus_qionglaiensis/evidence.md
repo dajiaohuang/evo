@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus qionglaiensis
       zh: Kurixalus qionglaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

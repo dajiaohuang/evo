@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: hendrickx-2015-theropod-classification concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: hendrickx-2015-theropod-classification
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: hendrickx-2015-theropod-classification @ https://archives.palarch.nl/index.php/jvp/article/view/353/339
       referenceLinks:
         - relation: supports
           referenceId: hendrickx-2015-theropod-classification
@@ -96,7 +90,6 @@ records:
           locator: 1–73; Abstract; history of classification; pp. 10–34 current systematics; unresolved relationships
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tricholaema diademata
       en: Tricholaema diademata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

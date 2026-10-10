@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis broaddus
       zh: Pristimantis broaddus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

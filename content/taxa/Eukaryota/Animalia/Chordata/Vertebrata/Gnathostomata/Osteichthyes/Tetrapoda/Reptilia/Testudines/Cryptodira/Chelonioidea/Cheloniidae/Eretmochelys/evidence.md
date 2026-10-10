@@ -9,12 +9,9 @@ records:
     name:
       zh: Eretmochelys 属
       en: Eretmochelys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/0/topic
+      - topic: taxonomy
         text:
           zh:
             markdown: page.zh.md
@@ -23,11 +20,8 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/0/sourceIds/0
-      - topic:
-          markdown: page.en.md
-          field: /records/catalogue-profile/sections/1/topic
+          - taxonomy
+      - topic: morphology
         text:
           zh:
             markdown: page.zh.md
@@ -36,8 +30,7 @@ records:
             markdown: page.en.md
             field: /records/catalogue-profile/sections/1/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/catalogue-profile/sections/1/sourceIds/0
+          - yoshida2022seaTurtles
       - topic: overview
         sourceIds:
           - taxonomy

@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana daunchina
       zh: Nidirana daunchina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

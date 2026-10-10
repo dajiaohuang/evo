@@ -9,7 +9,6 @@ records:
     name:
       zh: Geomys (Nerterogeomys) smithi
       en: Geomys (Nerterogeomys) smithi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

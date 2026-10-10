@@ -9,7 +9,6 @@ records:
     name:
       en: Ommatotriton ophryticus
       zh: Ommatotriton ophryticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

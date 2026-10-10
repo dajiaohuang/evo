@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachysuchus megalodon
       en: Brachysuchus megalodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

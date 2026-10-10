@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicothodon bajaensis
       en: Dicothodon bajaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

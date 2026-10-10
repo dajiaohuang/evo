@@ -9,7 +9,6 @@ records:
     name:
       zh: Selasphorus sasin
       en: Selasphorus sasin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

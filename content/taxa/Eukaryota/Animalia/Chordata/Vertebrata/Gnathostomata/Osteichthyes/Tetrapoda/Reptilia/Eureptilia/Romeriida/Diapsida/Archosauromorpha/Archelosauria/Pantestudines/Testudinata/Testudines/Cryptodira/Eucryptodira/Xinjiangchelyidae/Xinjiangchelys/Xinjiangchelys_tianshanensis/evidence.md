@@ -9,7 +9,6 @@ records:
     name:
       zh: Xinjiangchelys tianshanensis
       en: Xinjiangchelys tianshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

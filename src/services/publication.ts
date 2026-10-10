@@ -1,17 +1,11 @@
 import manifest from '../../data/manifest.json'
 import packageRegistryData from '../../data/registry/package-registry.json'
 
-export type ScientificMaturity = 'generated-scaffold' | 'structured' | 'source-linked' | 'curated-draft' | 'published'
-export type ReviewStatus = 'not-reviewed' | 'in-review' | 'reviewed-with-caveats' | 'reviewed'
-export type EffectiveReviewStatus = ReviewStatus | 'stale'
 
 export interface PublicationStatus {
   packageId: string
   title: string
   titleZh: string
-  scientificMaturity: ScientificMaturity
-  reviewStatus: ReviewStatus
-  automatedReviewStatus: 'pending' | 'passed' | 'failed'
 }
 
 interface RegistryPackage extends Omit<PublicationStatus, 'packageId'> {
@@ -22,8 +16,6 @@ const packages = packageRegistryData.packages as RegistryPackage[]
 const packageById = new Map(packages.map((entry) => [entry.id, entry]))
 const entityToPackage = packageRegistryData.entityToPackage as Record<string, string>
 
-export const publicationPackages = packages
-
 export function getPackagePublication(packageId: string | null | undefined): PublicationStatus | null {
   if (!packageId) return null
   const entry = packageById.get(packageId)
@@ -33,26 +25,6 @@ export function getPackagePublication(packageId: string | null | undefined): Pub
 export function getEntityPublication(entityId: string | null | undefined): PublicationStatus | null {
   if (!entityId) return null
   return getPackagePublication(entityToPackage[entityId])
-}
-
-export function scientificMaturityLabel(maturity: ScientificMaturity): string {
-  return ({
-    'generated-scaffold': 'Generated scaffold',
-    structured: 'Structured',
-    'source-linked': 'Source linked',
-    'curated-draft': 'Curated draft',
-    published: 'Published',
-  })[maturity]
-}
-
-export function reviewStatusLabel(status: EffectiveReviewStatus): string {
-  return ({
-    'not-reviewed': 'Maintainer review not performed',
-    'in-review': 'Maintainer review in progress',
-    'reviewed-with-caveats': 'Maintainer reviewed with caveats',
-    reviewed: 'Maintainer reviewed',
-    stale: 'Review stale after content change',
-  })[status]
 }
 
 interface EvidenceIssueContext {
@@ -86,7 +58,7 @@ export function buildEvidenceIssueUrl(context: EvidenceIssueContext = {}): strin
   const query = new URLSearchParams({
     title: `[Evidence] ${subject}`,
     body,
-    labels: 'scientific-review,evidence',
+    labels: 'evidence',
   })
   return `https://github.com/dajiaohuang/evo/issues/new?${query}`
 }

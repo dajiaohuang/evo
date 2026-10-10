@@ -9,7 +9,6 @@ records:
     name:
       en: Breviceps bagginsi
       zh: Breviceps bagginsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

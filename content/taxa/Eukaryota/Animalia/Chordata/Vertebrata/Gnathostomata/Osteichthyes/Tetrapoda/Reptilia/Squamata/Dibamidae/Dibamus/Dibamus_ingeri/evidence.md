@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibamus ingeri
       en: Dibamus ingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

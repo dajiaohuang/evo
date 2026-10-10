@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysospalax trevelyani
       en: Chrysospalax trevelyani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Picathartes oreas
       en: Picathartes oreas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

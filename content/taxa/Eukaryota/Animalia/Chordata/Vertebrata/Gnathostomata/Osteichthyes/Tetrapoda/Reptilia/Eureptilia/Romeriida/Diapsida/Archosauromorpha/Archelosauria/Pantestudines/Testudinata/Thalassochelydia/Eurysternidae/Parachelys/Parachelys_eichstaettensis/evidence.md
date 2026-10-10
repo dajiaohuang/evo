@@ -9,7 +9,6 @@ records:
     name:
       zh: Parachelys eichstaettensis
       en: Parachelys eichstaettensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

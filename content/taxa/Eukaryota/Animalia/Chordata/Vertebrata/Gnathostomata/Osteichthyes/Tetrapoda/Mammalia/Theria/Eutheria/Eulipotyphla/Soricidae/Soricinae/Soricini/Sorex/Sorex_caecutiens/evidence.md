@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex caecutiens
       en: Sorex caecutiens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

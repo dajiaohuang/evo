@@ -9,7 +9,6 @@ records:
     name:
       zh: 中非细吻鳄
       en: Central African slender-snouted crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic:

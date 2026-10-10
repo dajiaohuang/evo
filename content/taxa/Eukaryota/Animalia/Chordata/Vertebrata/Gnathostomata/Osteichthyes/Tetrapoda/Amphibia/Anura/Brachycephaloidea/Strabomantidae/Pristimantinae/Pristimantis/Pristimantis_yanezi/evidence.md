@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis yanezi
       zh: Pristimantis yanezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Australithax intermedia
       en: Australithax intermedia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

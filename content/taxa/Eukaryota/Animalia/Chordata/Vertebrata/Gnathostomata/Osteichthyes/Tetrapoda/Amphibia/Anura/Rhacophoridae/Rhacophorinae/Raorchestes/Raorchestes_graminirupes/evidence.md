@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes graminirupes
       zh: Raorchestes graminirupes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

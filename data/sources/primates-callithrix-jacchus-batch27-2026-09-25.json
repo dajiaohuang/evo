@@ -26,25 +26,139 @@
       "identity": {
         "method": "Exact accepted COL26.8 species usage 697NS verified in the pinned search registry, then followed through every accepted parent node in the pinned hierarchy registry.",
         "scope": "Nominal species as represented by COL26.8 accepted usage 697NS. The biological evidence concerns captive common marmosets in one Wisconsin research colony and does not estimate wild survival or species-wide variation.",
-        "sourceIds": ["col"]
+        "sourceIds": [
+          "col"
+        ]
       },
       "classificationPath": [
-        {"id":"CS5HF","scientificName":"Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978","authorship":"(Chatton, 1925) Whittaker & Margulis, 1978","rank":"domain","status":"accepted","sourceDatasetId":null},
-        {"id":"N","scientificName":"Animalia","authorship":null,"rank":"kingdom","status":"accepted","sourceDatasetId":null},
-        {"id":"CH2","scientificName":"Chordata","authorship":null,"rank":"phylum","status":"accepted","sourceDatasetId":null},
-        {"id":"8V4V3","scientificName":"Vertebrata","authorship":null,"rank":"subphylum","status":"accepted","sourceDatasetId":null},
-        {"id":"8V4V5","scientificName":"Gnathostomata","authorship":null,"rank":"infraphylum","status":"accepted","sourceDatasetId":null},
-        {"id":"8VVWB","scientificName":"Osteichthyes","authorship":null,"rank":"parvphylum","status":"accepted","sourceDatasetId":null},
-        {"id":"9CK8W","scientificName":"Tetrapoda","authorship":null,"rank":"megaclass","status":"accepted","sourceDatasetId":null},
-        {"id":"6224G","scientificName":"Mammalia Linnaeus, 1758","authorship":"Linnaeus, 1758","rank":"class","status":"accepted","sourceDatasetId":"2144"},
-        {"id":"6226C","scientificName":"Theria Parker & Haswell, 1897","authorship":"Parker & Haswell, 1897","rank":"subclass","status":"accepted","sourceDatasetId":"2144"},
-        {"id":"LG","scientificName":"Eutheria Gill, 1872","authorship":"Gill, 1872","rank":"infraclass","status":"accepted","sourceDatasetId":"2144"},
-        {"id":"3W7","scientificName":"Primates Linnaeus, 1758","authorship":"Linnaeus, 1758","rank":"order","status":"accepted","sourceDatasetId":"2144"},
-        {"id":"4DT","scientificName":"Haplorrhini Pocock, 1918","authorship":"Pocock, 1918","rank":"suborder","status":"accepted","sourceDatasetId":"2144"},
-        {"id":"4PM","scientificName":"Simiiformes Haeckel, 1866","authorship":"Haeckel, 1866","rank":"infraorder","status":"accepted","sourceDatasetId":"2144"},
-        {"id":"7KR","scientificName":"Callitrichidae Gray, 1821","authorship":"Gray, 1821","rank":"family","status":"accepted","sourceDatasetId":"2144"},
-        {"id":"3FM4","scientificName":"Callithrix Erxleben, 1777","authorship":"Erxleben, 1777","rank":"genus","status":"accepted","sourceDatasetId":"2144"},
-        {"id":"697NS","scientificName":"Callithrix jacchus (Linnaeus, 1758)","authorship":"(Linnaeus, 1758)","rank":"species","status":"accepted","sourceDatasetId":"2144"}
+        {
+          "id": "CS5HF",
+          "scientificName": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+          "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+          "rank": "domain",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "N",
+          "scientificName": "Animalia",
+          "authorship": null,
+          "rank": "kingdom",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "CH2",
+          "scientificName": "Chordata",
+          "authorship": null,
+          "rank": "phylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V3",
+          "scientificName": "Vertebrata",
+          "authorship": null,
+          "rank": "subphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8V4V5",
+          "scientificName": "Gnathostomata",
+          "authorship": null,
+          "rank": "infraphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "8VVWB",
+          "scientificName": "Osteichthyes",
+          "authorship": null,
+          "rank": "parvphylum",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "9CK8W",
+          "scientificName": "Tetrapoda",
+          "authorship": null,
+          "rank": "megaclass",
+          "status": "accepted",
+          "sourceDatasetId": null
+        },
+        {
+          "id": "6224G",
+          "scientificName": "Mammalia Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "class",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "6226C",
+          "scientificName": "Theria Parker & Haswell, 1897",
+          "authorship": "Parker & Haswell, 1897",
+          "rank": "subclass",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "LG",
+          "scientificName": "Eutheria Gill, 1872",
+          "authorship": "Gill, 1872",
+          "rank": "infraclass",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "3W7",
+          "scientificName": "Primates Linnaeus, 1758",
+          "authorship": "Linnaeus, 1758",
+          "rank": "order",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "4DT",
+          "scientificName": "Haplorrhini Pocock, 1918",
+          "authorship": "Pocock, 1918",
+          "rank": "suborder",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "4PM",
+          "scientificName": "Simiiformes Haeckel, 1866",
+          "authorship": "Haeckel, 1866",
+          "rank": "infraorder",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "7KR",
+          "scientificName": "Callitrichidae Gray, 1821",
+          "authorship": "Gray, 1821",
+          "rank": "family",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "3FM4",
+          "scientificName": "Callithrix Erxleben, 1777",
+          "authorship": "Erxleben, 1777",
+          "rank": "genus",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        },
+        {
+          "id": "697NS",
+          "scientificName": "Callithrix jacchus (Linnaeus, 1758)",
+          "authorship": "(Linnaeus, 1758)",
+          "rank": "species",
+          "status": "accepted",
+          "sourceDatasetId": "2144"
+        }
       ],
       "lifeStatusScope": {
         "wild": "Wild populations were not studied; no wild survival or behavioral pattern is inferred.",
@@ -100,13 +214,21 @@
         "searcher": "Evo source audit"
       },
       "facets": {
-        "morphology": {"status":"not-assessed","claims":[],"gaps":["No taxon-specific morphology or diagnosis was assessed."]},
+        "morphology": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No taxon-specific morphology or diagnosis was assessed."
+          ]
+        },
         "lifeHistory": {
           "status": "partially-supported",
           "claims": [
             {
               "text": "In a captive Wisconsin research-colony study, offspring of 24 experienced fathers classified as responsive to infant distress calls had higher survival past one month than offspring of nonresponsive fathers (Experiment 1: 62 infants; p = 0.002). The study also reported significant weight differences between groups at weeks 28 and 30. These are results from this captive colony and study design; they do not estimate wild survival or establish a species-wide effect.",
-              "sourceIds": ["ziegler2017"],
+              "sourceIds": [
+                "ziegler2017"
+              ],
               "locator": "Methods, Subjects and Experiment 1; Results, Experiment 1; Abstract. The article reports 24 experienced fathers and 62 offspring, higher survival past one month (p = 0.002), and significant weight differences at weeks 28 and 30.",
               "placeTimeScope": "Wisconsin National Primate Research Center, University of Wisconsin-Madison, Wisconsin, USA. The article does not state calendar dates for the analyzed colony births; offspring weights were followed from two weeks through 30 weeks of age.",
               "lifeStatus": "Captive colony animals in family cages; no wild animals were included in this claim.",
@@ -118,21 +240,50 @@
             "Evidence is limited to one captive research colony and one outcome study; wild developmental patterns, other life-history facets, and population variation were not assessed."
           ]
         },
-        "ecology": {"status":"not-assessed","claims":[],"gaps":["Wild diet, habitat use, interactions, and environmental relationships were not assessed."]},
-        "evolution": {"status":"not-assessed","claims":[],"gaps":["No phylogenetic or comparative evolutionary evidence was assessed."]},
-        "distribution": {"status":"not-assessed","claims":[],"gaps":["No range or distribution search was performed; the captive research facility is not a range record."]},
-        "fossil": {"status":"not-assessed","claims":[],"gaps":["No fossil evidence or geological age was assessed."]},
-        "conservation": {"status":"not-assessed","claims":[],"gaps":["No current conservation assessment, threat analysis, or population trend was independently assessed."]}
+        "ecology": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "Wild diet, habitat use, interactions, and environmental relationships were not assessed."
+          ]
+        },
+        "evolution": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No phylogenetic or comparative evolutionary evidence was assessed."
+          ]
+        },
+        "distribution": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No range or distribution search was performed; the captive research facility is not a range record."
+          ]
+        },
+        "fossil": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No fossil evidence or geological age was assessed."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "claims": [],
+          "gaps": [
+            "No current conservation assessment, threat analysis, or population trend was independently assessed."
+          ]
+        }
       },
       "completeness": {
         "status": "incomplete",
         "reasons": [
           "One primary captive-colony study supports a bounded offspring survival and growth claim.",
           "Six facets remain not assessed and life-history evidence is limited to a single captive colony.",
-          "No systematic multi-source species review or independent expert review has been completed."
+          "No systematic multi-source species review has been completed."
         ]
-      },
-      "expertReview": {"status":"not-reviewed","reviewers":[],"reviewDigest":null}
+      }
     }
   ]
 }

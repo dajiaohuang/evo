@@ -9,7 +9,6 @@ records:
     name:
       en: Boana crepitans
       zh: Boana crepitans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

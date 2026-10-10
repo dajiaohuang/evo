@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko browni
       en: Gekko browni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

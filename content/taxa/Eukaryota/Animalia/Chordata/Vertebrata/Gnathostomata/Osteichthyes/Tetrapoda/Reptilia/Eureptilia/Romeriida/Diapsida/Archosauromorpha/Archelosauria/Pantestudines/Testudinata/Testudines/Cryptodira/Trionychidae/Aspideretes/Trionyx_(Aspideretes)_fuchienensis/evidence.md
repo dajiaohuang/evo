@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx (Aspideretes) fuchienensis
       en: Trionyx (Aspideretes) fuchienensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

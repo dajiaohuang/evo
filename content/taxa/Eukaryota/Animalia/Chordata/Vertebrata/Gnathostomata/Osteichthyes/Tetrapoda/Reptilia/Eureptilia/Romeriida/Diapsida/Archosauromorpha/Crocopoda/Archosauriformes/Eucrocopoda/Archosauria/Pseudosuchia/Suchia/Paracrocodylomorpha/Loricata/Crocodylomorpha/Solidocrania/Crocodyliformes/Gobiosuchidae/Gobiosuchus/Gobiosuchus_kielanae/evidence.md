@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiosuchus kielanae
       en: Gobiosuchus kielanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

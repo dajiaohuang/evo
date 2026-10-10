@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella alata
       zh: Rhinella alata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

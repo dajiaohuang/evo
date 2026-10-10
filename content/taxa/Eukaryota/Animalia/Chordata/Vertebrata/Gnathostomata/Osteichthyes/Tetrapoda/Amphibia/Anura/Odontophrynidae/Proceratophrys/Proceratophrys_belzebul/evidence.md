@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys belzebul
       zh: Proceratophrys belzebul
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

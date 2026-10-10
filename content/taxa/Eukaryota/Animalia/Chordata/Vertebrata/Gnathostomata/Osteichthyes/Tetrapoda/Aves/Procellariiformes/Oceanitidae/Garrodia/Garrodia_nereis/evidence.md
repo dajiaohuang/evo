@@ -9,7 +9,6 @@ records:
     name:
       zh: Garrodia nereis
       en: Garrodia nereis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

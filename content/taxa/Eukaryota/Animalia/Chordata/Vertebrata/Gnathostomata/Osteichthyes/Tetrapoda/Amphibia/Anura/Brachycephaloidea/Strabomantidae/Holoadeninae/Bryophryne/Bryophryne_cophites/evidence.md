@@ -9,7 +9,6 @@ records:
     name:
       en: Bryophryne cophites
       zh: Bryophryne cophites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

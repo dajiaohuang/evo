@@ -46,7 +46,7 @@ This batch’s Chelonioidea route includes 7 historical life-history accounts; s
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This page is a taxonomy-based navigation guide, not a superfamily monograph. Local page presence does not establish complete biological or research coverage. The cited studies have different sample designs and cannot be generalized to every member. No population, distribution or current conservation assessment is inferred.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->

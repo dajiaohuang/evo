@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynomedusa bokermanni
       zh: Phrynomedusa bokermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

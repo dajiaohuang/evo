@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosymna bivittata
       en: Prosymna bivittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

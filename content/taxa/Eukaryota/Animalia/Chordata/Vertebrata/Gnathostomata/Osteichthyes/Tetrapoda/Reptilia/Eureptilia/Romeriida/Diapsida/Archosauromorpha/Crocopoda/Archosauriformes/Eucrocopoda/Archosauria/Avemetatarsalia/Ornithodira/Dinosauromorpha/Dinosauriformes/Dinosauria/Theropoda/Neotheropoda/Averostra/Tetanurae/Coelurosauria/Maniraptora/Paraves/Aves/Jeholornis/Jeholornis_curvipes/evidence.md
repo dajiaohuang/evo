@@ -9,7 +9,6 @@ records:
     name:
       zh: Jeholornis curvipes
       en: Jeholornis curvipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

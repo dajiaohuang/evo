@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaealectoris incertus
       en: Palaealectoris incertus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Strigocuscus notialis
       en: Strigocuscus notialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parasaurillus pseudobtusus
       en: Parasaurillus pseudobtusus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

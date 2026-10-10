@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus lineiventris
       en: Anthus lineiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

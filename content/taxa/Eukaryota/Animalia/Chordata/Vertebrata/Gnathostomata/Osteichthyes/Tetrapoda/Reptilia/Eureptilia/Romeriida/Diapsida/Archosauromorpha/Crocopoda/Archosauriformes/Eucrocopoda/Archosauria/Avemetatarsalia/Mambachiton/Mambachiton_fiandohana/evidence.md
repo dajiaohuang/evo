@@ -9,7 +9,6 @@ records:
     name:
       zh: Mambachiton fiandohana
       en: Mambachiton fiandohana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

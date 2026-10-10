@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatolagus gazini
       en: Desmatolagus gazini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

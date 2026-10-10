@@ -9,7 +9,6 @@ records:
     name:
       zh: Barbatodon transylvanicus
       en: Barbatodon transylvanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

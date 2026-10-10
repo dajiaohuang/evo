@@ -9,7 +9,6 @@ records:
     name:
       zh: Fuyuansaurus acutirostris
       en: Fuyuansaurus acutirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

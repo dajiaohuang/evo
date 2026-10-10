@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus shiwiarum
       zh: Dendropsophus shiwiarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

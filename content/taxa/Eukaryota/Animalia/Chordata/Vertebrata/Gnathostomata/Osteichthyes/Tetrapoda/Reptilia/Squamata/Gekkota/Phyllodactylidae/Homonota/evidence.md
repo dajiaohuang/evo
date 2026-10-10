@@ -9,7 +9,6 @@ records:
     name:
       zh: Homonota
       en: Homonota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

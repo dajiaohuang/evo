@@ -9,7 +9,6 @@ records:
     name:
       zh: Martes intermedius
       en: Martes intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

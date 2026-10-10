@@ -9,7 +9,6 @@ records:
     name:
       zh: Niltava sumatrana
       en: Niltava sumatrana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

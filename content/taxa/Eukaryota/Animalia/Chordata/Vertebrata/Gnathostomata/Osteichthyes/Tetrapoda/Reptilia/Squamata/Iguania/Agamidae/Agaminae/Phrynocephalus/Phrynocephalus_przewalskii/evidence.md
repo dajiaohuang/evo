@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynocephalus przewalskii
       en: Phrynocephalus przewalskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

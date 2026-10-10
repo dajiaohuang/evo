@@ -9,7 +9,6 @@ records:
     name:
       zh: Uralocynodon tverdokhlebovae
       en: Uralocynodon tverdokhlebovae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

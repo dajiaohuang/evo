@@ -9,7 +9,6 @@ records:
     name:
       zh: Turnix nigricollis
       en: Turnix nigricollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

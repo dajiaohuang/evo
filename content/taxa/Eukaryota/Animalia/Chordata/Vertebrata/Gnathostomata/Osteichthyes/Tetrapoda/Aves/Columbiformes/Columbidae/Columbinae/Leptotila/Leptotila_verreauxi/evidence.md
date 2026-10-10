@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotila verreauxi
       en: Leptotila verreauxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

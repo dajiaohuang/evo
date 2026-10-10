@@ -9,7 +9,6 @@ records:
     name:
       en: Stefania oculosa
       zh: Stefania oculosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

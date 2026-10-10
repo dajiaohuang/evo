@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia tongana
       en: Emoia tongana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

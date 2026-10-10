@@ -9,7 +9,6 @@ records:
     name:
       zh: Gracilinanus marica
       en: Gracilinanus marica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

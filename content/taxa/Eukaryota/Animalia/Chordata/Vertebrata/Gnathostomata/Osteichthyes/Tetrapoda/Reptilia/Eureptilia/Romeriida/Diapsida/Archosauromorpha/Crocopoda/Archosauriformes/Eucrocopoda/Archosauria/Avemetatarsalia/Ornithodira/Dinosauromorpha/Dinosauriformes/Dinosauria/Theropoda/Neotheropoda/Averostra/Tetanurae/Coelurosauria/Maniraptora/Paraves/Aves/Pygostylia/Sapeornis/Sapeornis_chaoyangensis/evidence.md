@@ -9,7 +9,6 @@ records:
     name:
       zh: Sapeornis chaoyangensis
       en: Sapeornis chaoyangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

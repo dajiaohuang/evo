@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyaenictis hendeyi
       en: Hyaenictis hendeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

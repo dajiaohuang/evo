@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptiloprora guisei
       en: Ptiloprora guisei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

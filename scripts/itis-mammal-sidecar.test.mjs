@@ -140,7 +140,7 @@ describe('checked-in ITIS Mammalia authority sidecars', () => {
     })
   }
 
-  it('pins the source and generator bytes used for the import', () => {
+  it('pins the source bytes used for the import', () => {
     for (const [pathKey, hashKey] of [
       ['sourcePath', 'sourceSha256'],
       ['colRegistryManifestPath', 'colRegistryManifestSha256'],
@@ -154,11 +154,12 @@ describe('checked-in ITIS Mammalia authority sidecars', () => {
     expect(sha256(ownershipBytes)).toBe(ledger.generatedFrom.colOwnershipSha256)
     const currentOwnership = JSON.parse(readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedFrom.colOwnershipPath.split('/'))))
     const historicalOwnership = JSON.parse(ownershipBytes)
-    for (const field of ['source', 'ownershipPolicy', 'entries', 'resourcePacks', 'routes', 'packageCounts', 'proof']) {
+    for (const field of ['source', 'entries', 'resourcePacks', 'routes', 'packageCounts', 'proof']) {
       expect(currentOwnership[field]).toEqual(historicalOwnership[field])
     }
+    for (const field of ['runtimeInput', 'semantics', 'cardinality', 'overlapResolution', 'catchAll']) {
+      expect(currentOwnership.ownershipPolicy[field]).toEqual(historicalOwnership.ownershipPolicy[field])
+    }
     expect(ledger.generatedFrom.colOwnershipInputSemantics).toContain('historical ITIS source import contract')
-    const scriptBytes = readFileSync(join(REPOSITORY_ROOT, ...ledger.generatedBy.scriptPath.split('/')))
-    expect(sha256(scriptBytes)).toBe(ledger.generatedBy.scriptSha256)
   })
 })

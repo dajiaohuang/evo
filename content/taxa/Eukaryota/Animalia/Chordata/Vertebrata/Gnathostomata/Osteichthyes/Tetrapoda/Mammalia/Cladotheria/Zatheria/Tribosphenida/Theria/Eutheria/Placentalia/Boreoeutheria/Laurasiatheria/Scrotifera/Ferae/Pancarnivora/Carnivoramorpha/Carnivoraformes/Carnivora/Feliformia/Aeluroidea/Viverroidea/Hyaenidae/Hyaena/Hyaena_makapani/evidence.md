@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyaena makapani
       en: Hyaena makapani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

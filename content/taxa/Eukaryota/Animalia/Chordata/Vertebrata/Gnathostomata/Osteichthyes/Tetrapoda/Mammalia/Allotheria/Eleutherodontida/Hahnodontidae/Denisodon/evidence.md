@@ -9,7 +9,6 @@ records:
     name:
       zh: Denisodon
       en: Denisodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

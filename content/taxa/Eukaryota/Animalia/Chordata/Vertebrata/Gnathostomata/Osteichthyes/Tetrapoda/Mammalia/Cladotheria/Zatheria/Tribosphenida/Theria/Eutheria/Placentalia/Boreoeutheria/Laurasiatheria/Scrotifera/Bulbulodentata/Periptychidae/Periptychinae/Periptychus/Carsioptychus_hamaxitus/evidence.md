@@ -9,7 +9,6 @@ records:
     name:
       zh: Carsioptychus hamaxitus
       en: Carsioptychus hamaxitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

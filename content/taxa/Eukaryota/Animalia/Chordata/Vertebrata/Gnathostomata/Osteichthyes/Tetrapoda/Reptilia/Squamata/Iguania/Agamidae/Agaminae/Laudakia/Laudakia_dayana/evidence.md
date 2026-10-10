@@ -9,7 +9,6 @@ records:
     name:
       zh: Laudakia dayana
       en: Laudakia dayana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

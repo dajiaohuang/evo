@@ -9,7 +9,6 @@ records:
     name:
       en: Jatna's Tarsier
       zh: 贾特纳眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

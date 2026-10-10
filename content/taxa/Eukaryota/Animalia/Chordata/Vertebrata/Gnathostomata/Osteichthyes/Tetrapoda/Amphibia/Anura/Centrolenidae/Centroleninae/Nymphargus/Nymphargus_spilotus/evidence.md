@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus spilotus
       zh: Nymphargus spilotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

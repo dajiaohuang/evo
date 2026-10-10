@@ -9,7 +9,6 @@ records:
     name:
       zh: Miotestudo ibba
       en: Miotestudo ibba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ebenavia tuelinae
       en: Ebenavia tuelinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

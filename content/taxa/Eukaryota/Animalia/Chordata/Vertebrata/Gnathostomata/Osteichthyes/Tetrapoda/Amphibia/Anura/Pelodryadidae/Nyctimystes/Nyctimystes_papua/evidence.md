@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes papua
       zh: Nyctimystes papua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

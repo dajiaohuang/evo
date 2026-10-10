@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucelophorus zaratei
       en: Eucelophorus zaratei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

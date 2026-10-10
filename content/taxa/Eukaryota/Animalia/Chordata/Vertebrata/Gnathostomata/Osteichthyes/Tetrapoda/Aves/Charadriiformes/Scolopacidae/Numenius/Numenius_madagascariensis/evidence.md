@@ -9,7 +9,6 @@ records:
     name:
       zh: Numenius madagascariensis
       en: Numenius madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlantolacerta andreanskyi
       en: Atlantolacerta andreanskyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

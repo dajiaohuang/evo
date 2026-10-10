@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus bocagei
       zh: Hyloxalus bocagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

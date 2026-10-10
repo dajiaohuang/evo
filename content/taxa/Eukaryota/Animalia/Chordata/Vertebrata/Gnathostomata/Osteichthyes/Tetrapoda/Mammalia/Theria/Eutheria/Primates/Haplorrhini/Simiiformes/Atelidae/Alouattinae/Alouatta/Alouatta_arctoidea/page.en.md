@@ -16,5 +16,5 @@ Aponte-Fernandes and Bosque revisited a red-howler population at Hato Masaguaral
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local population history; not externally expert-reviewed. Evidence concerns one population at Hato Masaguaral and compares counts from 1999 with 2011–2012. It does not establish the species’ present status or a range-wide trend.
+Source-linked local population history;. Evidence concerns one population at Hato Masaguaral and compares counts from 1999 with 2011–2012. It does not establish the species’ present status or a range-wide trend.
 <!-- /evo:text -->

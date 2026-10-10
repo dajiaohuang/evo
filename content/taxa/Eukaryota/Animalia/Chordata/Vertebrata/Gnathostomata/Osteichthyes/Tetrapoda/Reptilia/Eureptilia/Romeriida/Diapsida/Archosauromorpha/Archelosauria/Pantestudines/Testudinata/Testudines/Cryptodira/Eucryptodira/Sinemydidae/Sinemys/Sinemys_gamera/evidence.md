@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinemys gamera
       en: Sinemys gamera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

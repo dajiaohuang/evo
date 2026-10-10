@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligoryzomys destructor
       en: Oligoryzomys destructor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

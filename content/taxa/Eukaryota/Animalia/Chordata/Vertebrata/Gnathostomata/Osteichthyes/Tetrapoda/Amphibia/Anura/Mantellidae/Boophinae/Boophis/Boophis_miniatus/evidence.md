@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis miniatus
       zh: Boophis miniatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

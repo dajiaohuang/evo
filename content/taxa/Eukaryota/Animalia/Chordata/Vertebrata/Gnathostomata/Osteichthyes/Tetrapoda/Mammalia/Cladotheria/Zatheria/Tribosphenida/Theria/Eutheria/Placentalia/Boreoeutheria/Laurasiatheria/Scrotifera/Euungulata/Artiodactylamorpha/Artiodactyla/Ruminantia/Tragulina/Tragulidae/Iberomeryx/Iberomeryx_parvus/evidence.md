@@ -9,7 +9,6 @@ records:
     name:
       zh: Iberomeryx parvus
       en: Iberomeryx parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Athabascasaurus bitumineus
       en: Athabascasaurus bitumineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

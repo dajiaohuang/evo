@@ -9,7 +9,6 @@ records:
     name:
       zh: Euphonia cayennensis
       en: Euphonia cayennensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

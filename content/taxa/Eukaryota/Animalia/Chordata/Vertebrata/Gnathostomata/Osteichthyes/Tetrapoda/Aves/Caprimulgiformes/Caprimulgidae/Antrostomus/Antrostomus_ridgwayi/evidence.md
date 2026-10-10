@@ -9,7 +9,6 @@ records:
     name:
       zh: Antrostomus ridgwayi
       en: Antrostomus ridgwayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

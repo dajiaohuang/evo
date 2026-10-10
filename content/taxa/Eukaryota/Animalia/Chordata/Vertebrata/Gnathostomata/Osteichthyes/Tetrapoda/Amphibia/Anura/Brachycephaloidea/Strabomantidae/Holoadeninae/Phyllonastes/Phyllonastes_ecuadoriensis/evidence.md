@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllonastes ecuadoriensis
       zh: Phyllonastes ecuadoriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

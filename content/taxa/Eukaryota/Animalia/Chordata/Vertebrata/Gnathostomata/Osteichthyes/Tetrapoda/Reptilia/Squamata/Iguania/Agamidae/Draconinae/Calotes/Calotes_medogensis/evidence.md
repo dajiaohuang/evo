@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes medogensis
       en: Calotes medogensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

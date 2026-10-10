@@ -9,7 +9,6 @@ records:
     name:
       zh: Georgiomeryx georgalasi
       en: Georgiomeryx georgalasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

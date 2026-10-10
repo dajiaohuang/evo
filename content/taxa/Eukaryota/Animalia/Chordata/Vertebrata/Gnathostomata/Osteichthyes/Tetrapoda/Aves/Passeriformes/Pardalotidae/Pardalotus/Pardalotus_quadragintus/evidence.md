@@ -9,7 +9,6 @@ records:
     name:
       zh: Pardalotus quadragintus
       en: Pardalotus quadragintus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

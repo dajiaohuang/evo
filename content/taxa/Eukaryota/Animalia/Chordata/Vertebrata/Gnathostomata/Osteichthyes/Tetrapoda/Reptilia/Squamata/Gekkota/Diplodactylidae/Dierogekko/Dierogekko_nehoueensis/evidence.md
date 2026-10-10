@@ -9,7 +9,6 @@ records:
     name:
       zh: Dierogekko nehoueensis
       en: Dierogekko nehoueensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

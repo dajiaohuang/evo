@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelecanus (Cyrtopelicanus)
       en: Pelecanus (Cyrtopelicanus)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

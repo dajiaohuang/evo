@@ -9,7 +9,6 @@ records:
     name:
       zh: Albertaceratops nesmoi
       en: Albertaceratops nesmoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

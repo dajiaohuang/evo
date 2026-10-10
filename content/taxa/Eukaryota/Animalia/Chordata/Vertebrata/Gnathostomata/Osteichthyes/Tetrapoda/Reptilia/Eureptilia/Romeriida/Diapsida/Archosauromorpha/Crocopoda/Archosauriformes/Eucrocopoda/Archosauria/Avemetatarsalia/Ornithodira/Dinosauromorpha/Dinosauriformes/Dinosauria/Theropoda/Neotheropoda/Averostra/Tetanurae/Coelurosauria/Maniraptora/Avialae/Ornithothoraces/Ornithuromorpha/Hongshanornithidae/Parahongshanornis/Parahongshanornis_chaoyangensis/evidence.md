@@ -9,7 +9,6 @@ records:
     name:
       zh: Parahongshanornis chaoyangensis
       en: Parahongshanornis chaoyangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

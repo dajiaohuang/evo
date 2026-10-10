@@ -9,7 +9,6 @@ records:
     name:
       zh: Pierolapithecus catalaunicus
       en: Pierolapithecus catalaunicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Deslongchampsina larteti
       en: Deslongchampsina larteti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

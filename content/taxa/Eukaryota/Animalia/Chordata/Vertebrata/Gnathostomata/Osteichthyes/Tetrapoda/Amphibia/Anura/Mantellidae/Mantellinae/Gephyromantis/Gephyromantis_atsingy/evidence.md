@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis atsingy
       zh: Gephyromantis atsingy
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

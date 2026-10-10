@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax duartei
       zh: Scinax duartei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

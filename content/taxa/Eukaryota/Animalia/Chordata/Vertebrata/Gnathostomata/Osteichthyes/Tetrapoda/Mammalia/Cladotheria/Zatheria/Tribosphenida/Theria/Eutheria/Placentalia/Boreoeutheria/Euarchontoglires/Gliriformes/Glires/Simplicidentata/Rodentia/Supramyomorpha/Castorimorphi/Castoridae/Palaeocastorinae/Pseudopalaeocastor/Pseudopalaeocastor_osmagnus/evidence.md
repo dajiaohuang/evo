@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudopalaeocastor osmagnus
       en: Pseudopalaeocastor osmagnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

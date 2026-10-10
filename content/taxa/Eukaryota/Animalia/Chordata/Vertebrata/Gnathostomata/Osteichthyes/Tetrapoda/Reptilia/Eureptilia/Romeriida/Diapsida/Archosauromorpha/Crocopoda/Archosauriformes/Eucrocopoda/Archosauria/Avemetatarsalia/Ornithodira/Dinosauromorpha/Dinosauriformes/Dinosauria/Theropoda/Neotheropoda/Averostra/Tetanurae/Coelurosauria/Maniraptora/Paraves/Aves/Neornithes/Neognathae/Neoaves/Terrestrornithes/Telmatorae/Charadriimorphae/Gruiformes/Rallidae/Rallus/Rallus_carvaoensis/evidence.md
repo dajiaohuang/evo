@@ -9,7 +9,6 @@ records:
     name:
       zh: Rallus carvaoensis
       en: Rallus carvaoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

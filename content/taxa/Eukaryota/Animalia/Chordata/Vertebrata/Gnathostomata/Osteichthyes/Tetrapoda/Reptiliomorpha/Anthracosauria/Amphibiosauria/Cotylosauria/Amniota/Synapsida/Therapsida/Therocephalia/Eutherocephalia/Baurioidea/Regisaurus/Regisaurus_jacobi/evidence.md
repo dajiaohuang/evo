@@ -9,7 +9,6 @@ records:
     name:
       zh: Regisaurus jacobi
       en: Regisaurus jacobi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

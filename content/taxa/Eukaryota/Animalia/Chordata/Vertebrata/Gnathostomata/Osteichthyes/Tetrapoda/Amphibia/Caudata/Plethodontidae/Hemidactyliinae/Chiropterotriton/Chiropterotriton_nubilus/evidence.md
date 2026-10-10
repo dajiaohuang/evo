@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton nubilus
       zh: Chiropterotriton nubilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

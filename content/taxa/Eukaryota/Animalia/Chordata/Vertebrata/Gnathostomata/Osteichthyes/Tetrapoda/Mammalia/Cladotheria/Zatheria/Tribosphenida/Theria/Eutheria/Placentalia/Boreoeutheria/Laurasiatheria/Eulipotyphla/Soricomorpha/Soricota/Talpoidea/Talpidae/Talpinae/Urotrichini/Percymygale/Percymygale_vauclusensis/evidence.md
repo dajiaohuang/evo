@@ -9,7 +9,6 @@ records:
     name:
       zh: Percymygale vauclusensis
       en: Percymygale vauclusensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acaremys tricarinatus
       en: Acaremys tricarinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

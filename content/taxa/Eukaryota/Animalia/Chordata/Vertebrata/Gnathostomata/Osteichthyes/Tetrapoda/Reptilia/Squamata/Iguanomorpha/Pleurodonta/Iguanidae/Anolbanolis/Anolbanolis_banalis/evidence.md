@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolbanolis banalis
       en: Anolbanolis banalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

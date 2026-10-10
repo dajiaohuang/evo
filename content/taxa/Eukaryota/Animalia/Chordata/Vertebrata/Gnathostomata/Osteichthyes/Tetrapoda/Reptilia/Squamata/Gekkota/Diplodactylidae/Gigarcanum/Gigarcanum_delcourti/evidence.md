@@ -9,7 +9,6 @@ records:
     name:
       zh: Gigarcanum delcourti
       en: Gigarcanum delcourti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

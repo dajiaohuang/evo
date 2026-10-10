@@ -9,7 +9,6 @@ records:
     name:
       zh: 查克马狒狒
       en: Chacma baboon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

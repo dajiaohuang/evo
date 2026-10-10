@@ -9,7 +9,6 @@ records:
     name:
       zh: Fasolasuchus tenax
       en: Fasolasuchus tenax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

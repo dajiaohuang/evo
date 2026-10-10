@@ -9,7 +9,6 @@ records:
     name:
       en: Eupsophus emiliopugini
       zh: Eupsophus emiliopugini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Postosuchus kirkpatricki
       en: Postosuchus kirkpatricki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

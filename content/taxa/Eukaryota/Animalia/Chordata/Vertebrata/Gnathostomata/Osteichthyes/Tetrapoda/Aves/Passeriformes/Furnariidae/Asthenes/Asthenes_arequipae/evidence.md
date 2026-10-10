@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes arequipae
       en: Asthenes arequipae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

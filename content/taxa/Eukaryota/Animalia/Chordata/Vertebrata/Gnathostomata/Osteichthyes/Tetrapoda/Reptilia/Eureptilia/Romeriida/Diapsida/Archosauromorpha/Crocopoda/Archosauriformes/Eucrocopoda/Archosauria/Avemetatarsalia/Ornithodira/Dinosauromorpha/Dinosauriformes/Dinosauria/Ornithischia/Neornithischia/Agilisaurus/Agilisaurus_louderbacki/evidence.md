@@ -9,7 +9,6 @@ records:
     name:
       zh: Agilisaurus louderbacki
       en: Agilisaurus louderbacki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

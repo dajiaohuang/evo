@@ -9,7 +9,6 @@ records:
     name:
       zh: Lactodens sheni
       en: Lactodens sheni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

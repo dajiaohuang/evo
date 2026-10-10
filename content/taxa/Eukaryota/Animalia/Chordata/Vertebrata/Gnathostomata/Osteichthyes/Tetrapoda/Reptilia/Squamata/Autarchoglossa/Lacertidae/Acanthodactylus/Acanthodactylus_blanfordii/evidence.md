@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthodactylus blanfordii
       en: Acanthodactylus blanfordii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hispanomeryx aragonensis
       en: Hispanomeryx aragonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kerivoula myrella
       en: Kerivoula myrella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

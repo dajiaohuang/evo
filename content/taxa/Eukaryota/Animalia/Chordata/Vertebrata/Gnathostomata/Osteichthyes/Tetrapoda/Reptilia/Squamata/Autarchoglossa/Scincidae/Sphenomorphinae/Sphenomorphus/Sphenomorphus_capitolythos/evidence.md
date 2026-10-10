@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus capitolythos
       en: Sphenomorphus capitolythos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

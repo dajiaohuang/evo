@@ -9,7 +9,6 @@ records:
     name:
       zh: Griphotherion peiranoi
       en: Griphotherion peiranoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalacrocorax leptopus
       en: Phalacrocorax leptopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis malkini
       zh: Pristimantis malkini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

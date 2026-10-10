@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus orlovi
       en: Cyrtodactylus orlovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

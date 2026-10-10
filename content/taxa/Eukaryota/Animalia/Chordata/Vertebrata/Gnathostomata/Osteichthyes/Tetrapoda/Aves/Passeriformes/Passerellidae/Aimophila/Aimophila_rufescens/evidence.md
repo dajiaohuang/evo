@@ -9,7 +9,6 @@ records:
     name:
       zh: Aimophila rufescens
       en: Aimophila rufescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

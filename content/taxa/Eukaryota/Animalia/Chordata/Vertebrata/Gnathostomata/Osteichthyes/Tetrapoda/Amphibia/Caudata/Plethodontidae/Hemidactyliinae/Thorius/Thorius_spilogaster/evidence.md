@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius spilogaster
       zh: Thorius spilogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

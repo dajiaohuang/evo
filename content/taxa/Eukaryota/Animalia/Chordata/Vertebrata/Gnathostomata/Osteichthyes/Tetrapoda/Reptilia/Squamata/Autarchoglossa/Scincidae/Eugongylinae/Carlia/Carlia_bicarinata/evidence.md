@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia bicarinata
       en: Carlia bicarinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

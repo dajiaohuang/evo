@@ -76,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Sun et al. 2011 DOI 10.1038/nature09811
       referenceLinks:
         - relation: supports
           referenceId: sun-2011-leefructus

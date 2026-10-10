@@ -9,7 +9,6 @@ records:
     name:
       zh: Anhinga walterbolesi
       en: Anhinga walterbolesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

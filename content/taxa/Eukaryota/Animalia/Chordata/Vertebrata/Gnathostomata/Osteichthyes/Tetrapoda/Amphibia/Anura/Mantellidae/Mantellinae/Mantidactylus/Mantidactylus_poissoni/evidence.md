@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus poissoni
       zh: Mantidactylus poissoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

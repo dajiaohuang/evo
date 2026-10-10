@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus cavernicola
       zh: Eleutherodactylus cavernicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

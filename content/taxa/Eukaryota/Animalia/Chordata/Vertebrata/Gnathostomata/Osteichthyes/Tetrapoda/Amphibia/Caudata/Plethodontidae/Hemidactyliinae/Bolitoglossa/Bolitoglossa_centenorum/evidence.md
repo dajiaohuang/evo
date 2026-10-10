@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa centenorum
       zh: Bolitoglossa centenorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

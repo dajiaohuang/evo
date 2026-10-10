@@ -9,7 +9,6 @@ records:
     name:
       zh: Mirusodens caii
       en: Mirusodens caii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

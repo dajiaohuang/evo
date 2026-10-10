@@ -9,7 +9,6 @@ records:
     name:
       zh: Egernia cunninghami
       en: Egernia cunninghami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris batesi
       en: Cinnyris batesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

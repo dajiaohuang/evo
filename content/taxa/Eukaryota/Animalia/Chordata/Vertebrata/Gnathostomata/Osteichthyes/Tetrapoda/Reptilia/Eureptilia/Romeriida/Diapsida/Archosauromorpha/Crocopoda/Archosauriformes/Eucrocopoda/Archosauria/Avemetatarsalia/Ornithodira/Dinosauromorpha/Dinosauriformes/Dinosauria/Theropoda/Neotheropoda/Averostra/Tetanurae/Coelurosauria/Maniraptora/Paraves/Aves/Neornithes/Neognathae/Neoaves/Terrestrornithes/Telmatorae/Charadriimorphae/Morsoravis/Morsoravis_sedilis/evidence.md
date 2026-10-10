@@ -9,7 +9,6 @@ records:
     name:
       zh: Morsoravis sedilis
       en: Morsoravis sedilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

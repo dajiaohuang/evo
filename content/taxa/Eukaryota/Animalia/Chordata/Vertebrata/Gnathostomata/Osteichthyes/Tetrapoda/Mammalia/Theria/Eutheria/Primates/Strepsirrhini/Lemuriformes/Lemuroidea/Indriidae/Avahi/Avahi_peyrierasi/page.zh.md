@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-分类与遗传概述仅限所引采集和分析，不能确定当前占域或完整分布。 本页尚未经过外部领域专家评审。
+分类与遗传概述仅限所引采集和分析，不能确定当前占域或完整分布。 。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Metanchilophus gaudini
       en: Metanchilophus gaudini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

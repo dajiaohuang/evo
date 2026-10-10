@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemirhagerrhis kelleri
       en: Hemirhagerrhis kelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

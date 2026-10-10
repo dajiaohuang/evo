@@ -9,7 +9,6 @@ records:
     name:
       zh: Inostrancevia alexandri
       en: Inostrancevia alexandri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

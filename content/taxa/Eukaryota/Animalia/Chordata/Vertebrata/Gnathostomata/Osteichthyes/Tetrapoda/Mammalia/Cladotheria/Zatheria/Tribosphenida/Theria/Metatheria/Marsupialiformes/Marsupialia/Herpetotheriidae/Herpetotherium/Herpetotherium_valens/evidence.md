@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpetotherium valens
       en: Herpetotherium valens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

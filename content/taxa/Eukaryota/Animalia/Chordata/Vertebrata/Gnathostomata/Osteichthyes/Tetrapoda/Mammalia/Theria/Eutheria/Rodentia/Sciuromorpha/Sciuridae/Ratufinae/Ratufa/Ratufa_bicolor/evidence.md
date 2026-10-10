@@ -9,7 +9,6 @@ records:
     name:
       zh: Ratufa bicolor
       en: Ratufa bicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

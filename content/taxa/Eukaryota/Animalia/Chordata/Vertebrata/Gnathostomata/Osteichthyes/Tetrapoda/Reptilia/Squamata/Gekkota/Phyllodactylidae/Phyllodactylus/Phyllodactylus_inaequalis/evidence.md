@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus inaequalis
       en: Phyllodactylus inaequalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana confusa
       zh: Odorrana confusa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

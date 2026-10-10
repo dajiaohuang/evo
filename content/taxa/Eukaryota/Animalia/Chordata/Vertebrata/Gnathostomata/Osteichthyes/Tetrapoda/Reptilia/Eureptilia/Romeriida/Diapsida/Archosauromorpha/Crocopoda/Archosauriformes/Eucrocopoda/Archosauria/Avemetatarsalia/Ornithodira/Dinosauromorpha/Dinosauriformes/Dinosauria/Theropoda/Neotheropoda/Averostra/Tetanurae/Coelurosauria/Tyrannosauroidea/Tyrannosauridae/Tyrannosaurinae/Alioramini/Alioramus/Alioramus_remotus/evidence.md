@@ -9,7 +9,6 @@ records:
     name:
       zh: Alioramus remotus
       en: Alioramus remotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

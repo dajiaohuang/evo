@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco medius
       en: Falco medius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

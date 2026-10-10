@@ -9,7 +9,6 @@ records:
     name:
       zh: Penelope argyrotis
       en: Penelope argyrotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

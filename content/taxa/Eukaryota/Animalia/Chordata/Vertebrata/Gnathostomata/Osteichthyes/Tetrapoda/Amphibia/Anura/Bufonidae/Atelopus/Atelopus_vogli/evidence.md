@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus vogli
       zh: Atelopus vogli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

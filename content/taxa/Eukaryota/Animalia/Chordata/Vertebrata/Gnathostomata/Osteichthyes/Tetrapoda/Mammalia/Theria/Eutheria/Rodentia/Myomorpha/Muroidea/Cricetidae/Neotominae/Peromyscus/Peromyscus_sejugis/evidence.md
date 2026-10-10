@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus sejugis
       en: Peromyscus sejugis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

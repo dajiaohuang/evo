@@ -9,7 +9,6 @@ records:
     name:
       zh: Niglarodon koerneri
       en: Niglarodon koerneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

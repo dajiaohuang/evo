@@ -9,7 +9,6 @@ records:
     name:
       en: Ranitomeya defleri
       zh: Ranitomeya defleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

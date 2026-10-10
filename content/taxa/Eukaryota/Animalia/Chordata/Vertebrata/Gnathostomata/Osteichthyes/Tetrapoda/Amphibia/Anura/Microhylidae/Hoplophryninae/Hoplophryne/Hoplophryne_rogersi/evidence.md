@@ -9,7 +9,6 @@ records:
     name:
       en: Hoplophryne rogersi
       zh: Hoplophryne rogersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

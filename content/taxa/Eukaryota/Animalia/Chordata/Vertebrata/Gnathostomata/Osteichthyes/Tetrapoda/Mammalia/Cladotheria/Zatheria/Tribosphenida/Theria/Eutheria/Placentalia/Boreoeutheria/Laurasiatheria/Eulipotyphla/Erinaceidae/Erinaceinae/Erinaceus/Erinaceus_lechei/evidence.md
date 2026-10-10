@@ -9,7 +9,6 @@ records:
     name:
       zh: Erinaceus lechei
       en: Erinaceus lechei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Soriacebus ameghinorum
       en: Soriacebus ameghinorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

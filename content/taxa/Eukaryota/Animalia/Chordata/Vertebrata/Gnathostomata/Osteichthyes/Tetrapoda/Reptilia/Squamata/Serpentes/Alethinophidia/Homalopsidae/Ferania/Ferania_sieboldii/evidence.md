@@ -9,7 +9,6 @@ records:
     name:
       zh: Ferania sieboldii
       en: Ferania sieboldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

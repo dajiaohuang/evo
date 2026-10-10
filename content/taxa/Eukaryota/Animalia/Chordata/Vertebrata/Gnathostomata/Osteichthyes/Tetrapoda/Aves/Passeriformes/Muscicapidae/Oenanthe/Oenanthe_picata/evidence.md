@@ -9,7 +9,6 @@ records:
     name:
       zh: Oenanthe picata
       en: Oenanthe picata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

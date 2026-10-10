@@ -9,7 +9,6 @@ records:
     name:
       zh: Maastrichtidelphys meurismeti
       en: Maastrichtidelphys meurismeti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ The 2006 cytogenetic and mitochondrial revision distinguished a southern eastern
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The cited taxonomic studies leave boundaries with neighbouring lineages unresolved; locality statements are those of the original research. This page has not received external expert review. This page is not externally expert-reviewed.
+The cited taxonomic studies leave boundaries with neighbouring lineages unresolved; locality statements are those of the original research. This page. This page is.
 <!-- /evo:text -->

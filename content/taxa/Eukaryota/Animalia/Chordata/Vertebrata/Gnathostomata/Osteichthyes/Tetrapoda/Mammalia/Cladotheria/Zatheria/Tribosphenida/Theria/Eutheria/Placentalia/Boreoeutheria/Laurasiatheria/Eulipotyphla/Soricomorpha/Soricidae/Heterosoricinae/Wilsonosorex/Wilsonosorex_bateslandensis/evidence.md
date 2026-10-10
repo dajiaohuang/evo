@@ -9,7 +9,6 @@ records:
     name:
       zh: Wilsonosorex bateslandensis
       en: Wilsonosorex bateslandensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -109,9 +109,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Mao et al. 2024 DOI 10.1038/s41586-024-07235-0; MorphoBank Project 5075; Zenodo DOI 10.5281/zenodo.10597270
       referenceLinks:
         - referenceId: mao-2024-jaw-middle-ear
           relation: supports

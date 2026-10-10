@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraeuphractus prominens
       en: Paraeuphractus prominens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

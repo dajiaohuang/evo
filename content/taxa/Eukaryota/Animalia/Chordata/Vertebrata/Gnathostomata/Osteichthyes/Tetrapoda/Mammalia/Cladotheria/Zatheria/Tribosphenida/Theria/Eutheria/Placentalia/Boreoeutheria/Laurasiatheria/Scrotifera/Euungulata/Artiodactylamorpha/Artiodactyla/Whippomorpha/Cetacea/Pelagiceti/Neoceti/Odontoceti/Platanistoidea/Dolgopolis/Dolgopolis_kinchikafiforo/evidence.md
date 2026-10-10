@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolgopolis kinchikafiforo
       en: Dolgopolis kinchikafiforo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

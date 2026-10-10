@@ -9,7 +9,6 @@ records:
     name:
       zh: Geofossor corvinusae
       en: Geofossor corvinusae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus cumingi
       en: Varanus cumingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

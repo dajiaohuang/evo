@@ -9,7 +9,6 @@ records:
     name:
       zh: Anadianomys declivis
       en: Anadianomys declivis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

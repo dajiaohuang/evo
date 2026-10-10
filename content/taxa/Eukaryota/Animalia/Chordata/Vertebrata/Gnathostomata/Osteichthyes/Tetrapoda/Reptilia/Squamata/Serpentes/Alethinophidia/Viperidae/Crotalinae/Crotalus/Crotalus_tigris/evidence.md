@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus tigris
       en: Crotalus tigris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

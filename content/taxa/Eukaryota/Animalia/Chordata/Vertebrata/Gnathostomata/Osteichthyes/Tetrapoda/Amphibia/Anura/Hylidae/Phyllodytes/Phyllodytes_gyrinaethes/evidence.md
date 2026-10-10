@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllodytes gyrinaethes
       zh: Phyllodytes gyrinaethes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xotodon caravela
       en: Xotodon caravela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

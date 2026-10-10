@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus melinus
       en: Varanus melinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

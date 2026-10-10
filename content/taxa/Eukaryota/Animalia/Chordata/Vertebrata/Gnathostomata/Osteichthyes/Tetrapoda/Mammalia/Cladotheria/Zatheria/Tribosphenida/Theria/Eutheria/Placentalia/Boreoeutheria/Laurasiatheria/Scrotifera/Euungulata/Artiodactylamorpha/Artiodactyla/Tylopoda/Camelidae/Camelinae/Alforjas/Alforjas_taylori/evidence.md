@@ -9,7 +9,6 @@ records:
     name:
       zh: Alforjas taylori
       en: Alforjas taylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

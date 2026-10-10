@@ -9,7 +9,6 @@ records:
     name:
       zh: Proharrymys schlaikjeri
       en: Proharrymys schlaikjeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

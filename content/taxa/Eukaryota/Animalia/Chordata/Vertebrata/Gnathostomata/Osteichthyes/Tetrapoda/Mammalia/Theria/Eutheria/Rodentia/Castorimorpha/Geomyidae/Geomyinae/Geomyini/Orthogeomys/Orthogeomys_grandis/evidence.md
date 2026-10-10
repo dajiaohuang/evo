@@ -9,7 +9,6 @@ records:
     name:
       zh: Orthogeomys grandis
       en: Orthogeomys grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

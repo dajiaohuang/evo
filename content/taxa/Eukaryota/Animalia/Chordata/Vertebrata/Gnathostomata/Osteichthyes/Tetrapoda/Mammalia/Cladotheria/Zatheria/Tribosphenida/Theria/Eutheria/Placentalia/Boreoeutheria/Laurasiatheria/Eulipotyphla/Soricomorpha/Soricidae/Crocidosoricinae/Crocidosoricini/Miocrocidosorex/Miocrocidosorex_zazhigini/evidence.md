@@ -9,7 +9,6 @@ records:
     name:
       zh: Miocrocidosorex zazhigini
       en: Miocrocidosorex zazhigini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

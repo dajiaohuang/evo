@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis chanardi
       en: Cnemaspis chanardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

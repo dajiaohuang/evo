@@ -9,7 +9,6 @@ records:
     name:
       zh: Fluvionectes sloanae
       en: Fluvionectes sloanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

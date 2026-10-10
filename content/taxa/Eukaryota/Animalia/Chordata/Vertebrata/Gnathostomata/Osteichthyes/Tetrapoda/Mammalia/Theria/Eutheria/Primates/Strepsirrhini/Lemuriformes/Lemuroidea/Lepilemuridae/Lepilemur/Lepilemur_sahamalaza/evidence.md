@@ -9,7 +9,6 @@ records:
     name:
       zh: 萨哈马拉扎半岛运动狐猴
       en: Sahamalaza Peninsula Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: nomenclature and description sample

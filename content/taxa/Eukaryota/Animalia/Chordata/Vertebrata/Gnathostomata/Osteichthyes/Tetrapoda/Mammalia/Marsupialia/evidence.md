@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: horovitz-2009-earliest-marsupials primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: horovitz-2009-earliest-marsupials
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: horovitz-2009-earliest-marsupials
           locator: Article e8278; Figures 1–5; Tables 1–2; Supporting Information
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Marsupialia
@@ -73,7 +69,6 @@ records:
     name:
       zh: Marsupialia
       en: Marsupialia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

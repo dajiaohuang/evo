@@ -9,7 +9,6 @@ records:
     name:
       zh: 马罗希塔鼠狐猴
       en: Marohita Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

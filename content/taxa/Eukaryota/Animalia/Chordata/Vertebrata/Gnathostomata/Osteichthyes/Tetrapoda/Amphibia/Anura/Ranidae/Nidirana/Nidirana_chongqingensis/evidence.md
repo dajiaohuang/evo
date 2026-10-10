@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana chongqingensis
       zh: Nidirana chongqingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

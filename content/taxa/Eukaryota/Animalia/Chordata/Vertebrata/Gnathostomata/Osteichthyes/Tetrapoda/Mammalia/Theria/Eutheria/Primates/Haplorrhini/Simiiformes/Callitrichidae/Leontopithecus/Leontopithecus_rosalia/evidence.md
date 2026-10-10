@@ -9,7 +9,6 @@ records:
     name:
       zh: 金狮狨
       en: Golden lion tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: conservation
@@ -453,10 +452,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Leontopithecus rosalia
@@ -639,10 +634,4 @@ One field census supplies bounded historical population evidence; other facets r
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The survey is not a current population estimate or a complete species account.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

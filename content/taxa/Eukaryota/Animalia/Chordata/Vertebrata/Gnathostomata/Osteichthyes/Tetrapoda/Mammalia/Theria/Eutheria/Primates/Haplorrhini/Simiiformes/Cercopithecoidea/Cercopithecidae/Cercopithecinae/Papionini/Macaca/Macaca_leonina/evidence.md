@@ -9,7 +9,6 @@ records:
     name:
       zh: 北豚尾猴
       en: Northern pig-tailed macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

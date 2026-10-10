@@ -9,7 +9,6 @@ records:
     name:
       zh: Kimmerosaurus langhami
       en: Kimmerosaurus langhami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

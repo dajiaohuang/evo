@@ -9,7 +9,6 @@ records:
     name:
       en: Pipa aspera
       zh: Pipa aspera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

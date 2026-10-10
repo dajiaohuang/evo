@@ -9,7 +9,6 @@ records:
     name:
       zh: Albinykus baatar
       en: Albinykus baatar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

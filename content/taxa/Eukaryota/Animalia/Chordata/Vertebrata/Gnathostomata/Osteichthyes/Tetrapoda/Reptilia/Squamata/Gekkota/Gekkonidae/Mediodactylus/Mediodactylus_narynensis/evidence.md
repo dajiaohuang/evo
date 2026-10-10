@@ -9,7 +9,6 @@ records:
     name:
       zh: Mediodactylus narynensis
       en: Mediodactylus narynensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

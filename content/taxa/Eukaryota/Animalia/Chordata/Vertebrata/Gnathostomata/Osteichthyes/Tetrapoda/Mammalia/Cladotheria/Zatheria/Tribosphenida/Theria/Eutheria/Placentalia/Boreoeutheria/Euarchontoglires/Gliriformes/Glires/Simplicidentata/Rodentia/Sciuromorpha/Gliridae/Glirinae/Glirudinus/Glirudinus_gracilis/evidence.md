@@ -9,7 +9,6 @@ records:
     name:
       zh: Glirudinus gracilis
       en: Glirudinus gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

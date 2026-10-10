@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonkoken nanoi
       en: Gonkoken nanoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

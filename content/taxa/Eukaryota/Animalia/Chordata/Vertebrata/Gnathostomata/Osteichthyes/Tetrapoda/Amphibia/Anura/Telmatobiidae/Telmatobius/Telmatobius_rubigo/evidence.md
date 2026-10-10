@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius rubigo
       zh: Telmatobius rubigo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

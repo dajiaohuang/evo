@@ -9,7 +9,6 @@ records:
     name:
       zh: Gastropholis vittata
       en: Gastropholis vittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

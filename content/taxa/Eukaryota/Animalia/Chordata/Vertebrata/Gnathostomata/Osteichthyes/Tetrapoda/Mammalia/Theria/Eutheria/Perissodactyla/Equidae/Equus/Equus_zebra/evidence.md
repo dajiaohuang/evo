@@ -9,7 +9,6 @@ records:
     name:
       zh: 山斑马
       en: Mountain zebra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

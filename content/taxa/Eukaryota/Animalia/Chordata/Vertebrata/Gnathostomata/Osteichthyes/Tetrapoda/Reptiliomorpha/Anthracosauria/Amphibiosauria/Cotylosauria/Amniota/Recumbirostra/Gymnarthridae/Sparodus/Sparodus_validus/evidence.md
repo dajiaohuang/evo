@@ -9,7 +9,6 @@ records:
     name:
       zh: Sparodus validus
       en: Sparodus validus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

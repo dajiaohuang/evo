@@ -9,7 +9,6 @@ records:
     name:
       zh: Neohipparion affine
       en: Neohipparion affine
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

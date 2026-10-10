@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus willardi
       en: Crotalus willardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

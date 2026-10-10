@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton dabienicus
       zh: Tylototriton dabienicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

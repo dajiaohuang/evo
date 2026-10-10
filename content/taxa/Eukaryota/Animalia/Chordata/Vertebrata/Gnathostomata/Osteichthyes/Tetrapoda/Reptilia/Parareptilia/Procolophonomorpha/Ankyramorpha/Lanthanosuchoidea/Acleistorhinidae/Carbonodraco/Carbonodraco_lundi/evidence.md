@@ -9,7 +9,6 @@ records:
     name:
       zh: Carbonodraco lundi
       en: Carbonodraco lundi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus ruthae
       zh: Eleutherodactylus ruthae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Guibemantis sioka
       zh: Guibemantis sioka
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Menura novaehollandiae
       en: Menura novaehollandiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

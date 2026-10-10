@@ -9,7 +9,6 @@ records:
     name:
       en: Boana rhythmica
       zh: Boana rhythmica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

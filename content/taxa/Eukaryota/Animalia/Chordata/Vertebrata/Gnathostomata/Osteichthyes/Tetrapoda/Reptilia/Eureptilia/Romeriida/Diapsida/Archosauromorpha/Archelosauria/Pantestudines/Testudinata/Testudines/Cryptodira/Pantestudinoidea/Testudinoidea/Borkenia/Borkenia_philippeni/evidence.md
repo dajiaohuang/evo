@@ -9,7 +9,6 @@ records:
     name:
       zh: Borkenia philippeni
       en: Borkenia philippeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mungos mungo
       en: Mungos mungo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

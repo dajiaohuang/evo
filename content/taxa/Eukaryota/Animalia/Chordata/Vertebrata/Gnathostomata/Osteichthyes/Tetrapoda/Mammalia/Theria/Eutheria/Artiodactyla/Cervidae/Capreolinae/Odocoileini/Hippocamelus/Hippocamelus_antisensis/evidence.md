@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippocamelus antisensis
       en: Hippocamelus antisensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

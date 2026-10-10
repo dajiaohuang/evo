@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex sinalis
       en: Sorex sinalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

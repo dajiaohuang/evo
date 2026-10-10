@@ -9,7 +9,6 @@ records:
     name:
       en: Diasporus citrinobapheus
       zh: Diasporus citrinobapheus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus gagudju
       en: Ctenotus gagudju
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

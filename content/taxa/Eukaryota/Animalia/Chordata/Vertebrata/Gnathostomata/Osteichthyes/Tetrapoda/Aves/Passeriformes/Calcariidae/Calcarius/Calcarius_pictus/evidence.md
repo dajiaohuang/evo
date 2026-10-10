@@ -9,7 +9,6 @@ records:
     name:
       zh: Calcarius pictus
       en: Calcarius pictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

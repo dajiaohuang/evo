@@ -9,7 +9,6 @@ records:
     name:
       en: Fritziana fissilis
       zh: Fritziana fissilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

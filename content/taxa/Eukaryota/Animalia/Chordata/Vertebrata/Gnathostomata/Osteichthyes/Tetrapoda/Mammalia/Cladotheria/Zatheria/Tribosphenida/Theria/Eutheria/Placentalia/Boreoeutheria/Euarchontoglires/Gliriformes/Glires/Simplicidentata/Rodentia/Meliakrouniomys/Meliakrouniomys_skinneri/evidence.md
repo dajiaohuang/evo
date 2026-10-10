@@ -9,7 +9,6 @@ records:
     name:
       zh: Meliakrouniomys skinneri
       en: Meliakrouniomys skinneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

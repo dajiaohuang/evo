@@ -9,7 +9,6 @@ records:
     name:
       zh: Anomalepis aspinosus
       en: Anomalepis aspinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

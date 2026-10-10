@@ -9,7 +9,6 @@ records:
     name:
       zh: Pernis celebensis
       en: Pernis celebensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

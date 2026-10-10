@@ -9,7 +9,6 @@ records:
     name:
       zh: Guimarotodus inflatus
       en: Guimarotodus inflatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

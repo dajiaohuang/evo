@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractaspis fallax
       en: Atractaspis fallax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

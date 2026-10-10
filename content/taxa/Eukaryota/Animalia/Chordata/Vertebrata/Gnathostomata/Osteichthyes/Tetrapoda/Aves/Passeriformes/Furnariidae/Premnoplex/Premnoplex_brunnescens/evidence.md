@@ -9,7 +9,6 @@ records:
     name:
       zh: Premnoplex brunnescens
       en: Premnoplex brunnescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

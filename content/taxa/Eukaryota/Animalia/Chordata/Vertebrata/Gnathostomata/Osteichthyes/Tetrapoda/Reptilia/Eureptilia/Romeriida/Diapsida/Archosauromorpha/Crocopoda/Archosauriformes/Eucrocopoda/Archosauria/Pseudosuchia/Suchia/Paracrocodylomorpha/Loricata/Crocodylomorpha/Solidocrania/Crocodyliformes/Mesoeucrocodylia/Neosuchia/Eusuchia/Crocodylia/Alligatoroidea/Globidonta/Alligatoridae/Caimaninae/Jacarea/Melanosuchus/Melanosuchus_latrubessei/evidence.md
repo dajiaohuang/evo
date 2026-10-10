@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanosuchus latrubessei
       en: Melanosuchus latrubessei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

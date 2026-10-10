@@ -9,7 +9,6 @@ records:
     name:
       en: Amphiuma means
       zh: Amphiuma means
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

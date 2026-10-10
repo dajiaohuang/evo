@@ -22,5 +22,5 @@ An earlier study followed two groups for three months each in a coastal Atlantic
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked studies from southern Bahia and one 1980 forest remnant; not externally expert-reviewed. Isotope patterns are indirect dietary evidence, and the older C. kuhli study used a historical spelling and two groups at one site.
+Source-linked studies from southern Bahia and one 1980 forest remnant;. Isotope patterns are indirect dietary evidence, and the older C. kuhli study used a historical spelling and two groups at one site.
 <!-- /evo:text -->

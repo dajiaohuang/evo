@@ -22,5 +22,5 @@ COL26.8 在 Paragalago 属下列出五个接受种：*P. cocos*、*P. granti*、
 ## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-来源链接的双语初稿，尚未经过外部领域专家评审。
+来源链接的双语初稿。
 <!-- /evo:text -->

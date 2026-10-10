@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammodromus edwarsianus
       en: Psammodromus edwarsianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

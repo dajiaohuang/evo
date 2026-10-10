@@ -9,7 +9,6 @@ records:
     name:
       zh: 白腹蜘蛛猴
       en: White-bellied spider monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

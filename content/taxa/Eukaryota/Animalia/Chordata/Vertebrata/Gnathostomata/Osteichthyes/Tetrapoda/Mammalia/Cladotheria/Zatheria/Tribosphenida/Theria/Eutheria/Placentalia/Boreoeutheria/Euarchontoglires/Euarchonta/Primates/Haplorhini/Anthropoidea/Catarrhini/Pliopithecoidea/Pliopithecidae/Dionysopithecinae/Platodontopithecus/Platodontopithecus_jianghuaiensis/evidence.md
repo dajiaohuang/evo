@@ -9,7 +9,6 @@ records:
     name:
       zh: Platodontopithecus jianghuaiensis
       en: Platodontopithecus jianghuaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

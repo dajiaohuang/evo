@@ -9,7 +9,6 @@ records:
     name:
       zh: Adocus kizylkumensis
       en: Adocus kizylkumensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

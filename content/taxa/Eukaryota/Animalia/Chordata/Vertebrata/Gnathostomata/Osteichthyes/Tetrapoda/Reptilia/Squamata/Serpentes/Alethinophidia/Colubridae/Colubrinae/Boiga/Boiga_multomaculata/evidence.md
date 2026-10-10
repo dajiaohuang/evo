@@ -9,7 +9,6 @@ records:
     name:
       zh: Boiga multomaculata
       en: Boiga multomaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

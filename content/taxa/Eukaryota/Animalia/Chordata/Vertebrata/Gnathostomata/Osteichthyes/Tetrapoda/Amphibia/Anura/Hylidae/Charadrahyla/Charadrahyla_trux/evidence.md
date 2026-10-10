@@ -9,7 +9,6 @@ records:
     name:
       en: Charadrahyla trux
       zh: Charadrahyla trux
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

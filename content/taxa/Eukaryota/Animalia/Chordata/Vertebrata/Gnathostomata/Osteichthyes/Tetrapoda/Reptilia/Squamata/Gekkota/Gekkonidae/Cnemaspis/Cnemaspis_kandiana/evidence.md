@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis kandiana
       en: Cnemaspis kandiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

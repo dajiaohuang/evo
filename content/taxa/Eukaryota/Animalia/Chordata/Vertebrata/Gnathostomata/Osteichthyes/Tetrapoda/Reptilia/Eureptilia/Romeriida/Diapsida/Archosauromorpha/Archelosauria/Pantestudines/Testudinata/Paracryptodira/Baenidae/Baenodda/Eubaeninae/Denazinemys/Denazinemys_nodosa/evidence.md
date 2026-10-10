@@ -9,7 +9,6 @@ records:
     name:
       zh: Denazinemys nodosa
       en: Denazinemys nodosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

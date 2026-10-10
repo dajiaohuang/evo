@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus linnwayensis
       en: Hemiphyllodactylus linnwayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

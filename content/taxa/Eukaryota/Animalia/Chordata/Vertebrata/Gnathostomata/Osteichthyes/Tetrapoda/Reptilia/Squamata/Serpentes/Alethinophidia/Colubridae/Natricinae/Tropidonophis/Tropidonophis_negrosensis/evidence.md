@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidonophis negrosensis
       en: Tropidonophis negrosensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

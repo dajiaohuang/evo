@@ -9,7 +9,6 @@ records:
     name:
       zh: Kanakysaurus viviparus
       en: Kanakysaurus viviparus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

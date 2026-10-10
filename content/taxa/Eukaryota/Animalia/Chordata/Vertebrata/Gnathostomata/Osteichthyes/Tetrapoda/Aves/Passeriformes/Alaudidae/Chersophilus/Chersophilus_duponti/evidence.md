@@ -9,7 +9,6 @@ records:
     name:
       zh: Chersophilus duponti
       en: Chersophilus duponti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

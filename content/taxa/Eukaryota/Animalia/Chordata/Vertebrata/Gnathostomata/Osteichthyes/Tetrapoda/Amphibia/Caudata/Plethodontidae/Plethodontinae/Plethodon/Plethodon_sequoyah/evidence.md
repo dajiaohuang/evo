@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon sequoyah
       zh: Plethodon sequoyah
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

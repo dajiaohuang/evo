@@ -9,7 +9,6 @@ records:
     name:
       zh: Tursiops truncatus
       en: Tursiops truncatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

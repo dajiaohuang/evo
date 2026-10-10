@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis bimaculatus
       en: Anolis bimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

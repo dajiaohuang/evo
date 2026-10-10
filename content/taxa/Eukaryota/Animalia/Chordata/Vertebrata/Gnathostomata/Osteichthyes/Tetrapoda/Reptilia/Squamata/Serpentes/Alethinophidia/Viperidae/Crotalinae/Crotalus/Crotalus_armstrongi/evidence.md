@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus armstrongi
       en: Crotalus armstrongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

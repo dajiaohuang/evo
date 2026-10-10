@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis miktos
       zh: Pristimantis miktos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

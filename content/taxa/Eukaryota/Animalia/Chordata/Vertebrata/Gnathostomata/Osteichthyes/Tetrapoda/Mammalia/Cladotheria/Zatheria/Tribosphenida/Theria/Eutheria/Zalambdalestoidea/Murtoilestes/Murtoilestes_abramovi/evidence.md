@@ -9,7 +9,6 @@ records:
     name:
       zh: Murtoilestes abramovi
       en: Murtoilestes abramovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

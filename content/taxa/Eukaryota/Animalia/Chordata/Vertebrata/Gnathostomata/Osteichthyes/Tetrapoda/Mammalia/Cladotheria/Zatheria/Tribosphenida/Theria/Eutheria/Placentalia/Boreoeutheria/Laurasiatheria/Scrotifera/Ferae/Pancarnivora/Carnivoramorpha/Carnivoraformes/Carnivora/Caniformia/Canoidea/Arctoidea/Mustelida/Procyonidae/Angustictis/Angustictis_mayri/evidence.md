@@ -9,7 +9,6 @@ records:
     name:
       zh: Angustictis mayri
       en: Angustictis mayri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

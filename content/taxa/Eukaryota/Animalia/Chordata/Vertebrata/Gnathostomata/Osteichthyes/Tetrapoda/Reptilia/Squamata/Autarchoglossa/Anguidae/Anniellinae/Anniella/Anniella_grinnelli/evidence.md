@@ -9,7 +9,6 @@ records:
     name:
       zh: Anniella grinnelli
       en: Anniella grinnelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

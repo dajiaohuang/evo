@@ -9,7 +9,6 @@ records:
     name:
       zh: Tauraco macrorhynchus
       en: Tauraco macrorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

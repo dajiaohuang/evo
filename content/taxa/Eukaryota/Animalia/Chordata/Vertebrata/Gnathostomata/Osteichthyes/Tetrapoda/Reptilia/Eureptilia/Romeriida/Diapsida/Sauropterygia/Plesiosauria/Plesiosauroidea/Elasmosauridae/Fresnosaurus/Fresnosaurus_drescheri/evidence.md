@@ -9,7 +9,6 @@ records:
     name:
       zh: Fresnosaurus drescheri
       en: Fresnosaurus drescheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

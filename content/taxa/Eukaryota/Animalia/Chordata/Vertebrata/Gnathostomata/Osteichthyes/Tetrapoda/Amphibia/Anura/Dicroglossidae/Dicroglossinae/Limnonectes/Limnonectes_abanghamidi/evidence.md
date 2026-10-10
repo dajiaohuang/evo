@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes abanghamidi
       zh: Limnonectes abanghamidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

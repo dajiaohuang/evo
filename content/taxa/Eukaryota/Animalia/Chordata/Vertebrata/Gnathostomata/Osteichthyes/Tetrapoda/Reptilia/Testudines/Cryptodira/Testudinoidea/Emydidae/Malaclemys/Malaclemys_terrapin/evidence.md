@@ -9,7 +9,6 @@ records:
     name:
       zh: Malaclemys terrapin
       en: Malaclemys terrapin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

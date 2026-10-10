@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: niedzwiedzki-2010-zachelmie-trackways primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: niedzwiedzki-2010-zachelmie-trackways
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: niedzwiedzki-2010-zachelmie-trackways
           locator: pp. 43–48; Figures 1–5; Supplementary Figures 1–25
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus taeniolatus
       en: Ctenotus taeniolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoenicopterus stocki
       en: Phoenicopterus stocki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynonax shropshirei
       en: Phrynonax shropshirei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

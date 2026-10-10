@@ -9,7 +9,6 @@ records:
     name:
       zh: Temnodontosaurus burgundiae
       en: Temnodontosaurus burgundiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

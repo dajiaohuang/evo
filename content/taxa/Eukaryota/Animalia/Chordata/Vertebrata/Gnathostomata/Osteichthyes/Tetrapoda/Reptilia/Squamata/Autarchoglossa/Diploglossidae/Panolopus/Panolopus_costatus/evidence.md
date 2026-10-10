@@ -9,7 +9,6 @@ records:
     name:
       zh: Panolopus costatus
       en: Panolopus costatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Alticonus gazini
       en: Alticonus gazini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

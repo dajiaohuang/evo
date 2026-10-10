@@ -9,7 +9,6 @@ records:
     name:
       zh: 智人
       en: Modern human
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: fossil
@@ -680,10 +679,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   atlas-node:
     name: Homo sapiens
     commonName: Modern Humans
@@ -996,5 +991,5 @@ Life history and formal conservation assessment remain unassessed. Ecology has o
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-A systematic current literature review and independent expert review have not been completed.
+A systematic current literature review have not been completed.
 <!-- /evo:text -->

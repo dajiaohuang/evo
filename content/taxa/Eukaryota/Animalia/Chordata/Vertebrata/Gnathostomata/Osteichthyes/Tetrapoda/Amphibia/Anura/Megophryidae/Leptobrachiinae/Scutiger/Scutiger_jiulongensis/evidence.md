@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger jiulongensis
       zh: Scutiger jiulongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

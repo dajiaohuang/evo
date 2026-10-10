@@ -9,7 +9,6 @@ records:
     name:
       en: Kassina maculifer
       zh: Kassina maculifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

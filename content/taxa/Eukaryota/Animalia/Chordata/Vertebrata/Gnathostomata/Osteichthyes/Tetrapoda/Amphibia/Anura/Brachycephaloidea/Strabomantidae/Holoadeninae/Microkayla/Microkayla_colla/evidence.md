@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla colla
       zh: Microkayla colla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

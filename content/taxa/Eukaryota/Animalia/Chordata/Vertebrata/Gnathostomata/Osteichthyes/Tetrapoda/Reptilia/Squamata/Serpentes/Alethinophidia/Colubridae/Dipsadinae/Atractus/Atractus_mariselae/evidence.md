@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus mariselae
       en: Atractus mariselae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

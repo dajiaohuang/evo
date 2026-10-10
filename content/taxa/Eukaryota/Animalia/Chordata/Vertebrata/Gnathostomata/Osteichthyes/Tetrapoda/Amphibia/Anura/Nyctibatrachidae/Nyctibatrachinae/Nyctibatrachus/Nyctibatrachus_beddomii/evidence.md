@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus beddomii
       zh: Nyctibatrachus beddomii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

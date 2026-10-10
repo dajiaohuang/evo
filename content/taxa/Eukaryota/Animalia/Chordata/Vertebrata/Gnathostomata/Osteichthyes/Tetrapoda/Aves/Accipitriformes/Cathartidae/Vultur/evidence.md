@@ -9,7 +9,6 @@ records:
     name:
       zh: Vultur 属
       en: Vultur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trioceros ntunte
       en: Trioceros ntunte
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

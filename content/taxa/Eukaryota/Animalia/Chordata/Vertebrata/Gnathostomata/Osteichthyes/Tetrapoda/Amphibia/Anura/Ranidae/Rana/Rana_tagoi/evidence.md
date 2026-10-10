@@ -9,7 +9,6 @@ records:
     name:
       en: Rana tagoi
       zh: Rana tagoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

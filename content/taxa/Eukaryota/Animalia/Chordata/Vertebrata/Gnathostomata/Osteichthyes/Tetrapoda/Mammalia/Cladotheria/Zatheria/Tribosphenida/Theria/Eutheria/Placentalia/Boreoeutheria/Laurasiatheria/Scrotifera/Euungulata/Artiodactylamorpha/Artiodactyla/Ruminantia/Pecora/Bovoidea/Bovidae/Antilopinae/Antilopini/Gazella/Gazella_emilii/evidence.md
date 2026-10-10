@@ -9,7 +9,6 @@ records:
     name:
       zh: Gazella emilii
       en: Gazella emilii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cadurcodon ardynensis
       en: Cadurcodon ardynensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

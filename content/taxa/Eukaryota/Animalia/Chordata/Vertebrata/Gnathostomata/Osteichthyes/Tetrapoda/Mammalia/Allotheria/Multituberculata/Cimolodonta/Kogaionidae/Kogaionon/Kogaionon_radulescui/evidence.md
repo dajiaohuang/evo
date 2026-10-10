@@ -9,7 +9,6 @@ records:
     name:
       zh: Kogaionon radulescui
       en: Kogaionon radulescui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

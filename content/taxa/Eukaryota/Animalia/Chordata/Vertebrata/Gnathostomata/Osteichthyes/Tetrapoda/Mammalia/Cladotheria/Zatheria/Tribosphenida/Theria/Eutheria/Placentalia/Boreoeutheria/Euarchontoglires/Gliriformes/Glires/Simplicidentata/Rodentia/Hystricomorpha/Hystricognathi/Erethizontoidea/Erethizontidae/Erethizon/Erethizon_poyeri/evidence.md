@@ -9,7 +9,6 @@ records:
     name:
       zh: Erethizon poyeri
       en: Erethizon poyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

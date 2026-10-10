@@ -9,7 +9,6 @@ records:
     name:
       zh: Wabanbara ringtailensis
       en: Wabanbara ringtailensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

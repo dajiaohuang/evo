@@ -9,7 +9,6 @@ records:
     name:
       zh: Sturnira mistratensis
       en: Sturnira mistratensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

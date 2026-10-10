@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoplochelys clark
       en: Hoplochelys clark
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

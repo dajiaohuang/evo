@@ -9,7 +9,6 @@ records:
     name:
       zh: Kuehneon duchyense
       en: Kuehneon duchyense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

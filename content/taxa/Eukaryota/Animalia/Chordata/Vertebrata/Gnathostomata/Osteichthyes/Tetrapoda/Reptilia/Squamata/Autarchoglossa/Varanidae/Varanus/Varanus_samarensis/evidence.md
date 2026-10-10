@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus samarensis
       en: Varanus samarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

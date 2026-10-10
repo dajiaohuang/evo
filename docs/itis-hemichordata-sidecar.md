@@ -27,4 +27,4 @@ GitHub Pages may publish the descriptor and its canonical byte/SHA-256
 inventory without row shards (`web-light`); Android and iOS `native-full`
 inventories must carry the descriptor and both row-level files byte-for-byte.
 This is a nomenclatural crosswalk, not a species-concept equivalence claim,
-global checklist, phylogeny, biological dossier or expert-review record.
+global checklist, phylogeny, biological dossier.

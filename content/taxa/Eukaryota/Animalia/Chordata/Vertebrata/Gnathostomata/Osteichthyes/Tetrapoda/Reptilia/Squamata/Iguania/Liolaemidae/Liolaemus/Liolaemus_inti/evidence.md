@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus inti
       en: Liolaemus inti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

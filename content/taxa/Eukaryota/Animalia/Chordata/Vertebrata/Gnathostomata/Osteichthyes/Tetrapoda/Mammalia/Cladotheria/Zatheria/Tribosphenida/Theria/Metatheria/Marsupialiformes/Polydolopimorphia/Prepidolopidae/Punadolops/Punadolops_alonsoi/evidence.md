@@ -9,7 +9,6 @@ records:
     name:
       zh: Punadolops alonsoi
       en: Punadolops alonsoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

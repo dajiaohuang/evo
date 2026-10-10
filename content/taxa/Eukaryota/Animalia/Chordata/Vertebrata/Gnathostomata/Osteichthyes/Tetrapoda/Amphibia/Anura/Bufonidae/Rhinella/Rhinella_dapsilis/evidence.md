@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella dapsilis
       zh: Rhinella dapsilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

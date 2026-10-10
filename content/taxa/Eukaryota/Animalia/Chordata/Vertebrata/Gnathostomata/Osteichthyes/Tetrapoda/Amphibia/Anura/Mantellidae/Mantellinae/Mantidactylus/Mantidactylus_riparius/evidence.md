@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus riparius
       zh: Mantidactylus riparius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Damalops palaeindicus
       en: Damalops palaeindicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

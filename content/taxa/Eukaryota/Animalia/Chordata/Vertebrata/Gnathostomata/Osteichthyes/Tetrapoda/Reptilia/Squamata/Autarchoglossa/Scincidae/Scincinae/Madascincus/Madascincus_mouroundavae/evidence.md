@@ -9,7 +9,6 @@ records:
     name:
       zh: Madascincus mouroundavae
       en: Madascincus mouroundavae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

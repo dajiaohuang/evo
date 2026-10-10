@@ -9,7 +9,6 @@ records:
     name:
       zh: Procerosaurus cruralis
       en: Procerosaurus cruralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

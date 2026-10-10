@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrochordus granulatus
       en: Acrochordus granulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

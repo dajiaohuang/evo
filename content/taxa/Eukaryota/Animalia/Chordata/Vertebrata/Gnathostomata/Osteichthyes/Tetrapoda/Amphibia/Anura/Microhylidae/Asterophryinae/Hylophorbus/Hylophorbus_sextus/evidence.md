@@ -9,7 +9,6 @@ records:
     name:
       en: Hylophorbus sextus
       zh: Hylophorbus sextus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

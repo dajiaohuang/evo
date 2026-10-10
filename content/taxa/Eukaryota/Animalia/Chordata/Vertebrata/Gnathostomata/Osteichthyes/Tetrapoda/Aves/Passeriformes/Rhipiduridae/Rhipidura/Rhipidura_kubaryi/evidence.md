@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura kubaryi
       en: Rhipidura kubaryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

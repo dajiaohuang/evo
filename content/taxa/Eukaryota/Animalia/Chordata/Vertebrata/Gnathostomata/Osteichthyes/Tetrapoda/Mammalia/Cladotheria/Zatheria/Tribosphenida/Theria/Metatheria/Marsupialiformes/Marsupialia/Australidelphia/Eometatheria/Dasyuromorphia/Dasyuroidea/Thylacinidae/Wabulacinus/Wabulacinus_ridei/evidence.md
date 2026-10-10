@@ -9,7 +9,6 @@ records:
     name:
       zh: Wabulacinus ridei
       en: Wabulacinus ridei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

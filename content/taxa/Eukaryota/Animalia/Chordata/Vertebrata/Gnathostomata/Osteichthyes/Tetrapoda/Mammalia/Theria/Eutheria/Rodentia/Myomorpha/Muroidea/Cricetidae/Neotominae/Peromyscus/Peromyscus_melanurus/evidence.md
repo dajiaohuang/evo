@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus melanurus
       en: Peromyscus melanurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

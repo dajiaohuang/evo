@@ -22,5 +22,5 @@ The correction paper restricted the known distribution to the type locality on t
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The morphology comparison uses a small sample and range boundaries remain for field confirmation. The correction addresses nomenclatural availability and spelling, not a complete ecological study. The Chinese name is editorial, and this guide is not externally expert-reviewed.
+The morphology comparison uses a small sample and range boundaries remain for field confirmation. The correction addresses nomenclatural availability and spelling, not a complete ecological study. The Chinese name is editorial, and this guide is.
 <!-- /evo:text -->

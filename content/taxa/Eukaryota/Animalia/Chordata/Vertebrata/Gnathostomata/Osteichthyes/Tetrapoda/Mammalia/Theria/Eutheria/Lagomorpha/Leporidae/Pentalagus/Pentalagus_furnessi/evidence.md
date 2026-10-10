@@ -9,7 +9,6 @@ records:
     name:
       zh: Pentalagus furnessi
       en: Pentalagus furnessi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

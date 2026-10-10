@@ -67,9 +67,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mc-horse-monodactyly-2019 + bernor-2021-hipparions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: mc-horse-monodactyly-2019
           relation: supports
@@ -93,9 +90,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mc-horse-monodactyly-2019 + bernor-2021-hipparions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: mc-horse-monodactyly-2019
           relation: supports
@@ -119,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mc-horse-monodactyly-2019 + bernor-2021-hipparions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: mc-horse-monodactyly-2019
           relation: supports
@@ -145,9 +136,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bernor-2021-hipparions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: bernor-2021-hipparions
           relation: supports
@@ -166,9 +154,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mc-horse-monodactyly-2019 + bernor-2021-hipparions locator audit at 2026-08-31
       referenceLinks:
         - referenceId: mc-horse-monodactyly-2019
           relation: supports
@@ -192,9 +177,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: mchorse-2019 + bernor-2021 range locator audit at 2026-08-31
       referenceLinks:
         - referenceId: mc-horse-monodactyly-2019
           relation: supports
@@ -271,7 +253,6 @@ records:
             field: /records/ranges/0/referenceLocators/0/locator
         - referenceId: bernor-2021-hipparions
           locator: pp. 1–20; Figures 1–13; Old World first dispersal at 11.4–11 Ma and selected MQ1 regional records extending to 0.6 Ma
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Equidae/Equinae/Hipparionini/research/Hipparionini
       rangeKind: taxon-range
@@ -295,7 +276,6 @@ records:
       referenceLocators:
         - referenceId: mc-horse-monodactyly-2019
           locator: pp. 1–5 and 10–15; Figures 1–4, especially Figure 3; North American tribe-level review matrix at approximately 17–2 Ma
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Equidae/Equinae/Hipparionini/research/Hipparionini
       rangeKind: dispersal-window
@@ -319,7 +299,6 @@ records:
       referenceLocators:
         - referenceId: bernor-2021-hipparions
           locator: Hippotherium systematic section and Figure 13; oldest Pannonian C Vienna Basin records at 11.4–11 Ma
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Perissodactyla/Equidae/Equinae/Hipparionini/research/Hipparionini
       rangeKind: regional-last-appearance-window
@@ -345,7 +324,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/3/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

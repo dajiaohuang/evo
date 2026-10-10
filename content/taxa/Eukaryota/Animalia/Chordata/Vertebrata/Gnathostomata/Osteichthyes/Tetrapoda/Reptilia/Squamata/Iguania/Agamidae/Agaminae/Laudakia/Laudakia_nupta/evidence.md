@@ -9,7 +9,6 @@ records:
     name:
       zh: Laudakia nupta
       en: Laudakia nupta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

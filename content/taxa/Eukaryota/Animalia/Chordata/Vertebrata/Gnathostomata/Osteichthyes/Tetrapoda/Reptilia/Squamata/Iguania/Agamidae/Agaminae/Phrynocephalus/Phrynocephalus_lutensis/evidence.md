@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynocephalus lutensis
       en: Phrynocephalus lutensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

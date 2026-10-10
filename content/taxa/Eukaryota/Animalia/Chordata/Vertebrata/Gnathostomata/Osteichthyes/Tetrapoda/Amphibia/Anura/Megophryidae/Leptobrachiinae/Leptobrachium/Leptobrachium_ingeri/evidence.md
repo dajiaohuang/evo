@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium ingeri
       zh: Leptobrachium ingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

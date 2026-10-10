@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothosaurus tchernowi
       en: Nothosaurus tchernowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

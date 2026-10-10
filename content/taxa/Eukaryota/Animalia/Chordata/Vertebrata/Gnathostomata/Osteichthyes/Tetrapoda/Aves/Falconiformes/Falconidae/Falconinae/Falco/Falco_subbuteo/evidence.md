@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco subbuteo
       en: Falco subbuteo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

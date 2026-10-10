@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus rivularis
       zh: Eleutherodactylus rivularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

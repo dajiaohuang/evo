@@ -9,7 +9,6 @@ records:
     name:
       zh: Pronothodectes matthewi
       en: Pronothodectes matthewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

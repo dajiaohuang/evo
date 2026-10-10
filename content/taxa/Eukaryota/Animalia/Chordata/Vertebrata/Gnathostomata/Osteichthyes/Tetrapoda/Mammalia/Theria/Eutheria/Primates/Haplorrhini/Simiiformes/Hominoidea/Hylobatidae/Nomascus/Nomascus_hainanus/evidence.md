@@ -9,7 +9,6 @@ records:
     name:
       zh: 海南黑冠长臂猿
       en: Hainan Gibbon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

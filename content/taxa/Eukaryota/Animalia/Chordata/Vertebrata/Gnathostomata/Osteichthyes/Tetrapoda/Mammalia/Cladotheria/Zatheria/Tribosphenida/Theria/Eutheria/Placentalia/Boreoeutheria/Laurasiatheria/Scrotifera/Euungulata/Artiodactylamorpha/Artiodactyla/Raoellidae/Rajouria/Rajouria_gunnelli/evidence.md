@@ -9,7 +9,6 @@ records:
     name:
       zh: Rajouria gunnelli
       en: Rajouria gunnelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

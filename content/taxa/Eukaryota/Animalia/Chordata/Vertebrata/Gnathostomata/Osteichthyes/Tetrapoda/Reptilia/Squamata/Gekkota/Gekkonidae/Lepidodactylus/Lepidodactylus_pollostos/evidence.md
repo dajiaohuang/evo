@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus pollostos
       en: Lepidodactylus pollostos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

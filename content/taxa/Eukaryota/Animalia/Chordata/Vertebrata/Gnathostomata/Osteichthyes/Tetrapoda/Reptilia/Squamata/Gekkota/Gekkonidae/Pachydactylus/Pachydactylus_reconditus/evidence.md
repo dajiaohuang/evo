@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus reconditus
       en: Pachydactylus reconditus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

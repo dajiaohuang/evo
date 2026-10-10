@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis cynnamomeus
       zh: Leptopelis cynnamomeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

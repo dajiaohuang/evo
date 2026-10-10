@@ -9,7 +9,6 @@ records:
     name:
       zh: Cranioleuca henricae
       en: Cranioleuca henricae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plocepasser donaldsoni
       en: Plocepasser donaldsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

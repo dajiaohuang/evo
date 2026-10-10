@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: hou-2021-trilobite-gill primary-study locator checked for RC85
       referenceLinks:
         - referenceId: hou-2021-trilobite-gill
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: hou-2021-trilobite-gill primary-study locator checked for RC85
       referenceLinks:
         - referenceId: hou-2021-trilobite-gill
           relation: supports
@@ -100,9 +94,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: hou-2021-trilobite-gill primary-study locator checked for RC85
       referenceLinks:
         - referenceId: hou-2021-trilobite-gill
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: hou-2021-trilobite-gill primary-study locator checked for RC85
       referenceLinks:
         - referenceId: hou-2021-trilobite-gill
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: hou-2021-trilobite-gill; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: hou-2021-trilobite-gill
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: hou-2021-trilobite-gill
           locator: eabe7377; Figures 1–5; Supplementary materials; Triarthrus imaging; Olenoides articulation; Functional comparison
-      reviewStatus: automated-audit-passed
 ---
 
 # Olenoides serratus

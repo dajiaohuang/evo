@@ -9,7 +9,6 @@ records:
     name:
       zh: Neotragus moschatus
       en: Neotragus moschatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

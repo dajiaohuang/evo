@@ -9,7 +9,6 @@ records:
     name:
       zh: Ziphirostrum marginatum
       en: Ziphirostrum marginatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

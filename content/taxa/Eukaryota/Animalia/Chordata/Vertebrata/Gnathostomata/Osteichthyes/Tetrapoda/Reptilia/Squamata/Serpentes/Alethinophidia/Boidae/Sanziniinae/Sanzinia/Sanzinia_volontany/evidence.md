@@ -9,7 +9,6 @@ records:
     name:
       zh: Sanzinia volontany
       en: Sanzinia volontany
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

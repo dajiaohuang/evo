@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinocrocuta algeriensis
       en: Dinocrocuta algeriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

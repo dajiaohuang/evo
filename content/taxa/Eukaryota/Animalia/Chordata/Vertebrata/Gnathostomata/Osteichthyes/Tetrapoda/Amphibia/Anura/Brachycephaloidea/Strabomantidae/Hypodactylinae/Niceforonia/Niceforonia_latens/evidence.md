@@ -9,7 +9,6 @@ records:
     name:
       en: Niceforonia latens
       zh: Niceforonia latens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

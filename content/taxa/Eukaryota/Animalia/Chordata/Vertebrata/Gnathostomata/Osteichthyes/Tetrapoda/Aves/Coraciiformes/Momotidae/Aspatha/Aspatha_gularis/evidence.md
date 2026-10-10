@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspatha gularis
       en: Aspatha gularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Euproctus platycephalus
       zh: Euproctus platycephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Hypselotriton orientalis
       zh: Hypselotriton orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

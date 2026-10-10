@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptotopos communis
       en: Cryptotopos communis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

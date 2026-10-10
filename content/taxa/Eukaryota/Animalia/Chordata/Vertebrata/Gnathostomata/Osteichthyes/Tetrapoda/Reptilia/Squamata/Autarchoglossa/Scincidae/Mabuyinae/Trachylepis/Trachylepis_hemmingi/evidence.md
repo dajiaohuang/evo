@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis hemmingi
       en: Trachylepis hemmingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

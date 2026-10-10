@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus daweishanensis
       zh: Zhangixalus daweishanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

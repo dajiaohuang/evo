@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchosauroides articeps
       en: Rhynchosauroides articeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Enulius oligostichus
       en: Enulius oligostichus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

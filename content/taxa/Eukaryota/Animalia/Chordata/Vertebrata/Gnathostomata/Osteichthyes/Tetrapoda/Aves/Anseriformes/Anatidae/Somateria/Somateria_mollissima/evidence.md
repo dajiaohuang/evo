@@ -9,7 +9,6 @@ records:
     name:
       zh: Somateria mollissima
       en: Somateria mollissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

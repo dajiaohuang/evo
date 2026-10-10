@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis ceralbensis
       en: Aspidoscelis ceralbensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

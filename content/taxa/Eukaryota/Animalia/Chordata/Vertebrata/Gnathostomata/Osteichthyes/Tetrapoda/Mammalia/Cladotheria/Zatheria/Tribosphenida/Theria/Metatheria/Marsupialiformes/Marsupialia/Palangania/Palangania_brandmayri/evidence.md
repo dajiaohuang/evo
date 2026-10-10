@@ -9,7 +9,6 @@ records:
     name:
       zh: Palangania brandmayri
       en: Palangania brandmayri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

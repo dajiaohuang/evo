@@ -103,7 +103,7 @@ AmphiTherm curated snapshot — original dataset
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. No external expert review has been completed. This reader is not externally expert-reviewed.
+Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. This reader is.
 <!-- /evo:text -->
 
 ## Research text pending

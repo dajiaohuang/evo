@@ -9,7 +9,6 @@ records:
     name:
       zh: Zarcasaurus tanyderus
       en: Zarcasaurus tanyderus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

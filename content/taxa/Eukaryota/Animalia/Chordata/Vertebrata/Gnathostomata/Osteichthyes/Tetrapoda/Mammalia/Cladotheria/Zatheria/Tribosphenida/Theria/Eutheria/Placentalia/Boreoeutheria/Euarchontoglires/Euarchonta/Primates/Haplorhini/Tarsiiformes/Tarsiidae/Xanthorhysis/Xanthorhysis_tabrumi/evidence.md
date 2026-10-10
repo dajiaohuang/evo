@@ -9,7 +9,6 @@ records:
     name:
       zh: Xanthorhysis tabrumi
       en: Xanthorhysis tabrumi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

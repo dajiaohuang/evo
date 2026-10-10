@@ -9,7 +9,6 @@ records:
     name:
       zh: 东非树熊猴
       en: East African Potto
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

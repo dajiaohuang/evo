@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus verecundus
       zh: Cophixalus verecundus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

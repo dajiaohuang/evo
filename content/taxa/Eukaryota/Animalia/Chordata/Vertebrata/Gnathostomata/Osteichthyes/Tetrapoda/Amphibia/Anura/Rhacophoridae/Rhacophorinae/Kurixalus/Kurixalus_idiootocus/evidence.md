@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus idiootocus
       zh: Kurixalus idiootocus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

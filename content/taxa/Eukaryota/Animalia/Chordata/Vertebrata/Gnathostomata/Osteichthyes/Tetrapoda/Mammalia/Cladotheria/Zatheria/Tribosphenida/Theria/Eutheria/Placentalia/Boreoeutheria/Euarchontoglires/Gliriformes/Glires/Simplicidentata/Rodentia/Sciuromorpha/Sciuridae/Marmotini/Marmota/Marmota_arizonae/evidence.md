@@ -9,7 +9,6 @@ records:
     name:
       zh: Marmota arizonae
       en: Marmota arizonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

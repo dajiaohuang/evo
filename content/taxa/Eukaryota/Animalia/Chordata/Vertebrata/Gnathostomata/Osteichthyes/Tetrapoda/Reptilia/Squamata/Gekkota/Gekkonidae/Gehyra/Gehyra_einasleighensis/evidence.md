@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra einasleighensis
       en: Gehyra einasleighensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

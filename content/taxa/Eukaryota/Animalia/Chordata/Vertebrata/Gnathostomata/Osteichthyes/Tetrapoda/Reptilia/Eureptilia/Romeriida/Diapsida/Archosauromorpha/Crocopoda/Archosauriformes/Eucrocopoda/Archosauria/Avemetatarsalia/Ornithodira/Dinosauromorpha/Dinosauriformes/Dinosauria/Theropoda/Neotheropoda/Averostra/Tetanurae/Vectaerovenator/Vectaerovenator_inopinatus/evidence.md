@@ -9,7 +9,6 @@ records:
     name:
       zh: Vectaerovenator inopinatus
       en: Vectaerovenator inopinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

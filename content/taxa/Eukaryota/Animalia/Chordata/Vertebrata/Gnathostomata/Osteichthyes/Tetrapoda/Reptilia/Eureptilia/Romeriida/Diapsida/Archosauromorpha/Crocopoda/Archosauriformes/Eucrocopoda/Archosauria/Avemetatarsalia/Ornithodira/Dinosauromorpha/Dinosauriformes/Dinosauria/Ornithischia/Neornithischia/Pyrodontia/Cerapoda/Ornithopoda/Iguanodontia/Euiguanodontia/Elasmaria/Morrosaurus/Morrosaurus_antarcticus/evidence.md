@@ -9,7 +9,6 @@ records:
     name:
       zh: Morrosaurus antarcticus
       en: Morrosaurus antarcticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

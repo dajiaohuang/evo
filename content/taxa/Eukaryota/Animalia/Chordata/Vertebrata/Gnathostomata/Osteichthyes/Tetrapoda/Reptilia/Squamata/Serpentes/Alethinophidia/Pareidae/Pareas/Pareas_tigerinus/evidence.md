@@ -9,7 +9,6 @@ records:
     name:
       zh: Pareas tigerinus
       en: Pareas tigerinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

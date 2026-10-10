@@ -9,7 +9,6 @@ records:
     name:
       zh: Hangaiemys acutus
       en: Hangaiemys acutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

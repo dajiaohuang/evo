@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne yustizi
       zh: Mannophryne yustizi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

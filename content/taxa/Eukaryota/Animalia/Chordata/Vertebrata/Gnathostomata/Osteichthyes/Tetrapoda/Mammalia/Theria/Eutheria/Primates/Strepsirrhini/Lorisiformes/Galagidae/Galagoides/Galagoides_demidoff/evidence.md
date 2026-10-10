@@ -9,7 +9,6 @@ records:
     name:
       zh: 德米多夫小婴猴
       en: Demidoff's Dwarf Galago
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

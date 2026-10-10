@@ -9,7 +9,6 @@ records:
     name:
       en: Boulengerula uluguruensis
       zh: Boulengerula uluguruensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

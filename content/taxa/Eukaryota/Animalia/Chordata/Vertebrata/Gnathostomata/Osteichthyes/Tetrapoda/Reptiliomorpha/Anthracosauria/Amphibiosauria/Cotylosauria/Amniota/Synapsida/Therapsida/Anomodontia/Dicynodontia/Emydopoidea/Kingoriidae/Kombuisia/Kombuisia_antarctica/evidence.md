@@ -9,7 +9,6 @@ records:
     name:
       zh: Kombuisia antarctica
       en: Kombuisia antarctica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

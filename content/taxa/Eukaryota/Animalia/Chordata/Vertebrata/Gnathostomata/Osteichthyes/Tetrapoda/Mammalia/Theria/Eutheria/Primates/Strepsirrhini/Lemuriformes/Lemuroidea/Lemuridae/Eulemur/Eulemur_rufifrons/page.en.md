@@ -16,5 +16,5 @@ Pyritz, Kappeler and Fichtel observed four red-fronted lemur groups at Kirindy f
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local movement study; not externally expert-reviewed. Four groups at Kirindy do not establish a species-wide social pattern or complete range.
+Source-linked local movement study;. Four groups at Kirindy do not establish a species-wide social pattern or complete range.
 <!-- /evo:text -->

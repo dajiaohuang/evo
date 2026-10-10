@@ -9,7 +9,6 @@ records:
     name:
       zh: Meniscotherium chamense
       en: Meniscotherium chamense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

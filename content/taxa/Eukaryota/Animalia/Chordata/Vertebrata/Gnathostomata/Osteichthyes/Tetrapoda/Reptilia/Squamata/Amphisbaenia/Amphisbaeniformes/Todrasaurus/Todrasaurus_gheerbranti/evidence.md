@@ -9,7 +9,6 @@ records:
     name:
       zh: Todrasaurus gheerbranti
       en: Todrasaurus gheerbranti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

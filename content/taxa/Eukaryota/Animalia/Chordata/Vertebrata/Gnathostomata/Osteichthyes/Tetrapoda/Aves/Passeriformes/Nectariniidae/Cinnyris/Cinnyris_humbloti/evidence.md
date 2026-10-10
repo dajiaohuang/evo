@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris humbloti
       en: Cinnyris humbloti
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

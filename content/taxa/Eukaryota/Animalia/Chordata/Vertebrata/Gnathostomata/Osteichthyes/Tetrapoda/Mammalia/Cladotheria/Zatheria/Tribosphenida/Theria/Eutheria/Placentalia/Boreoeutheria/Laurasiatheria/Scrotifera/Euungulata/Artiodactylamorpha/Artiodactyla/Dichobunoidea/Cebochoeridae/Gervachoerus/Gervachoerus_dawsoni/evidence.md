@@ -9,7 +9,6 @@ records:
     name:
       zh: Gervachoerus dawsoni
       en: Gervachoerus dawsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

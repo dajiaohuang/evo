@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvavis chuxiongensis
       en: Parvavis chuxiongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

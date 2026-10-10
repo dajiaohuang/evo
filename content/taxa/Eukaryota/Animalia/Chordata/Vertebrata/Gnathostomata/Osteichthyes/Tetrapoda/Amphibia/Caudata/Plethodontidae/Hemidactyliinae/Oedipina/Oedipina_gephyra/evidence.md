@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina gephyra
       zh: Oedipina gephyra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracias garrulus
       en: Coracias garrulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

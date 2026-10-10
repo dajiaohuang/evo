@@ -9,7 +9,6 @@ records:
     name:
       zh: Tasbacka danica
       en: Tasbacka danica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

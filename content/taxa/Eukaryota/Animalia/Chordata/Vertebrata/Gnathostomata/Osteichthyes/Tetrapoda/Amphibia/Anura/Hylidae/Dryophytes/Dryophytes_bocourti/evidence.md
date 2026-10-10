@@ -9,7 +9,6 @@ records:
     name:
       en: Dryophytes bocourti
       zh: Dryophytes bocourti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

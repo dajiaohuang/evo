@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus labialis
       en: Trimeresurus labialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiomys exiguus
       en: Gobiomys exiguus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

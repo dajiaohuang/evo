@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodema brachyops
       zh: Pleurodema brachyops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

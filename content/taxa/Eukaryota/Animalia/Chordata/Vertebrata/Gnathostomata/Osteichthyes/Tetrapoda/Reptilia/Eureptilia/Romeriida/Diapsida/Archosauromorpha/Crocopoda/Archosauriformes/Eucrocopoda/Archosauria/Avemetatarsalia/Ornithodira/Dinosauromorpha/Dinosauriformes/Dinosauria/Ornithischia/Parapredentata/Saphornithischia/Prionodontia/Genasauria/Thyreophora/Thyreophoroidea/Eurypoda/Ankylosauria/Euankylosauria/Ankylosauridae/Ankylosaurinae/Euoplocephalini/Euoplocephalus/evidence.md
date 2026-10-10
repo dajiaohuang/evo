@@ -9,7 +9,6 @@ records:
     name:
       zh: Euoplocephalus
       en: Euoplocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

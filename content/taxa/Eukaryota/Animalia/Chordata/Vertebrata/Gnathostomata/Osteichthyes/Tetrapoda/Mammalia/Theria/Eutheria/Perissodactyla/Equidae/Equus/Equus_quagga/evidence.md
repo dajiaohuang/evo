@@ -9,7 +9,6 @@ records:
     name:
       zh: 平原斑马
       en: Plains zebra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

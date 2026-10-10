@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops cremnobatus
       zh: Amolops cremnobatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

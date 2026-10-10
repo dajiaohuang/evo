@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus luctator
       zh: Leptodactylus luctator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

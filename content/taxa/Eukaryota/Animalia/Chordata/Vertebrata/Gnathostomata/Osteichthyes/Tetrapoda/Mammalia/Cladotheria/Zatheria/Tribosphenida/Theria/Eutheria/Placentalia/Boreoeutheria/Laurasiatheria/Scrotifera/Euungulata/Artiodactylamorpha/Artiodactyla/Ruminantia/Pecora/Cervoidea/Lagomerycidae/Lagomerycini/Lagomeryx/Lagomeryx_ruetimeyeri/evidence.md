@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagomeryx ruetimeyeri
       en: Lagomeryx ruetimeyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligokyphus biserialis
       en: Oligokyphus biserialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kerivoula hardwickii
       en: Kerivoula hardwickii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

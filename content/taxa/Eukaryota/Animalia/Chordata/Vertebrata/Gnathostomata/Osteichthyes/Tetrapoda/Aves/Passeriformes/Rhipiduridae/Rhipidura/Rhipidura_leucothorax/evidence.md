@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura leucothorax
       en: Rhipidura leucothorax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

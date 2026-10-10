@@ -9,7 +9,6 @@ records:
     name:
       zh: Glyptodon munizi
       en: Glyptodon munizi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

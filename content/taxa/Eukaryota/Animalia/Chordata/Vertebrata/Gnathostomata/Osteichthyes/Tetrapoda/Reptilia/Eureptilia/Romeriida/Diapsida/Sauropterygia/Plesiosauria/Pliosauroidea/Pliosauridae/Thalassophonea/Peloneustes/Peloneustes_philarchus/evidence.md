@@ -9,7 +9,6 @@ records:
     name:
       zh: Peloneustes philarchus
       en: Peloneustes philarchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

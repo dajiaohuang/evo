@@ -9,7 +9,6 @@ records:
     name:
       zh: Oboia argillaceous
       en: Oboia argillaceous
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

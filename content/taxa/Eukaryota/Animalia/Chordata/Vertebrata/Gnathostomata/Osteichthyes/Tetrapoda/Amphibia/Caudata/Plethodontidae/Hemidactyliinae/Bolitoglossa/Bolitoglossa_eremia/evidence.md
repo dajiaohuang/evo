@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa eremia
       zh: Bolitoglossa eremia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

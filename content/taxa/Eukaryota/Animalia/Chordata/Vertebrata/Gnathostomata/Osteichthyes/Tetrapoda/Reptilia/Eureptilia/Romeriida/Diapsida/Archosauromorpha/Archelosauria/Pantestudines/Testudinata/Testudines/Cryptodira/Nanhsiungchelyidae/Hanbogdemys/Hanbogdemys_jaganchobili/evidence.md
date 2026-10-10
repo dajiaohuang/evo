@@ -9,7 +9,6 @@ records:
     name:
       zh: Hanbogdemys jaganchobili
       en: Hanbogdemys jaganchobili
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

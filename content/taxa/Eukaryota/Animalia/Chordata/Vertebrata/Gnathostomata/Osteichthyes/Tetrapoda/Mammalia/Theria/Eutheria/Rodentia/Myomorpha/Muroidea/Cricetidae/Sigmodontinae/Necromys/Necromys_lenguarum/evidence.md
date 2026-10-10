@@ -9,7 +9,6 @@ records:
     name:
       zh: Necromys lenguarum
       en: Necromys lenguarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

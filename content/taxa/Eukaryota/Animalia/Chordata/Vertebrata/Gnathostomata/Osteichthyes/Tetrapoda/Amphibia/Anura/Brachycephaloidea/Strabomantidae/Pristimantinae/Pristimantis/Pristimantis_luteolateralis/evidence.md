@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis luteolateralis
       zh: Pristimantis luteolateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

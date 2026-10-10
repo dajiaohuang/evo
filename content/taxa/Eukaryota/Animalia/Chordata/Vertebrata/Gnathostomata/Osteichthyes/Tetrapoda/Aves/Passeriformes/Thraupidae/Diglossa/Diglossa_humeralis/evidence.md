@@ -9,7 +9,6 @@ records:
     name:
       zh: Diglossa humeralis
       en: Diglossa humeralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

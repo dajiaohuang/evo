@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus gutturalis
       en: Anthus gutturalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

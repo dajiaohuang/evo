@@ -9,7 +9,6 @@ records:
     name:
       zh: Sceloporus dixoni
       en: Sceloporus dixoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

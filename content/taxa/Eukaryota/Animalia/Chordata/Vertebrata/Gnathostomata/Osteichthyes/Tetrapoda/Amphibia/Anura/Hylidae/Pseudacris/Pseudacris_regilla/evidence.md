@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudacris regilla
       zh: Pseudacris regilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

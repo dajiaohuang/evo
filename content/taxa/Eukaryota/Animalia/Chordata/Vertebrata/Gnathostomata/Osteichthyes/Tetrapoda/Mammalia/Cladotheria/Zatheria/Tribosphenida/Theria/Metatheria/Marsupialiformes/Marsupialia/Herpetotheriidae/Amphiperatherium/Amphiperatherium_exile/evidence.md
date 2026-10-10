@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphiperatherium exile
       en: Amphiperatherium exile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

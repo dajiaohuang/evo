@@ -102,9 +102,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Arratia and Schultze 2024 DOI 10.3897/fr.27.115970
       referenceLinks:
         - relation: supports
           referenceId: arratia-schultze-2024-triassic-teleosteomorphs

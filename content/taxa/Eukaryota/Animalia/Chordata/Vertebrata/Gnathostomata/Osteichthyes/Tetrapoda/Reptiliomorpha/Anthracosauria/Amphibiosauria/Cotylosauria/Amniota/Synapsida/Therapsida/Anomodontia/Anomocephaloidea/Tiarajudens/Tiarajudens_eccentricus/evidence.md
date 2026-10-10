@@ -9,7 +9,6 @@ records:
     name:
       zh: Tiarajudens eccentricus
       en: Tiarajudens eccentricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

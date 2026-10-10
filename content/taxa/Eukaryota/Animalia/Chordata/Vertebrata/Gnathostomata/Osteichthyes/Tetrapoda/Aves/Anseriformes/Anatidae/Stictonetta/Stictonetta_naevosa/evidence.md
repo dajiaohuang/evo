@@ -9,7 +9,6 @@ records:
     name:
       zh: Stictonetta naevosa
       en: Stictonetta naevosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

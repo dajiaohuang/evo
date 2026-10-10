@@ -9,7 +9,6 @@ records:
     name:
       en: Sandyrana nullicedens
       zh: Sandyrana nullicedens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

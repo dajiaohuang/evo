@@ -9,7 +9,6 @@ records:
     name:
       zh: 戈尔迪猴
       en: Goeldi's Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

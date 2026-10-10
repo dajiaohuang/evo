@@ -9,7 +9,6 @@ records:
     name:
       zh: Ernestohaeckelia acutidens
       en: Ernestohaeckelia acutidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

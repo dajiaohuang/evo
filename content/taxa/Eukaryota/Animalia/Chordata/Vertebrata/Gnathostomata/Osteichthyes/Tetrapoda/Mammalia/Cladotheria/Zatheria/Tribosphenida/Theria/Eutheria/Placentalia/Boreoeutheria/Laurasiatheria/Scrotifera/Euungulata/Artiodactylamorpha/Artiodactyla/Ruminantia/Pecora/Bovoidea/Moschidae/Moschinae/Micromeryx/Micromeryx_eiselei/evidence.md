@@ -9,7 +9,6 @@ records:
     name:
       zh: Micromeryx eiselei
       en: Micromeryx eiselei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 秃猴
       en: Bald uakari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

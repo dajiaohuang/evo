@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorostilbon assimilis
       en: Chlorostilbon assimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

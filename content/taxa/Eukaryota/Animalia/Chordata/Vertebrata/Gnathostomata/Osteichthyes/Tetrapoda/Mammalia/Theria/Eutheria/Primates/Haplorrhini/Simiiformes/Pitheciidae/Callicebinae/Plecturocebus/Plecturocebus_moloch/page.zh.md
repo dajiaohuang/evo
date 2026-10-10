@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-区域分布界定不是全种调查；论文明确保留模式产地、异名和局地分类问题。尚未经过外部领域专家评审。
+区域分布界定不是全种调查；论文明确保留模式产地、异名和局地分类问题。。
 <!-- /evo:text -->

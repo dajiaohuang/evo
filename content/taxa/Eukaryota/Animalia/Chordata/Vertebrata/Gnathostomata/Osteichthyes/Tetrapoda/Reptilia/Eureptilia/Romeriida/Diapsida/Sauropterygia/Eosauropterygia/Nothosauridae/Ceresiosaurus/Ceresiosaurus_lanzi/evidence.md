@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceresiosaurus lanzi
       en: Ceresiosaurus lanzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

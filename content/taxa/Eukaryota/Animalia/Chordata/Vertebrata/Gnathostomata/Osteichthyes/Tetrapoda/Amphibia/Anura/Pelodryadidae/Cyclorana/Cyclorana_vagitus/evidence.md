@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana vagitus
       zh: Cyclorana vagitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

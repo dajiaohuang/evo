@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligoscalops
       en: Oligoscalops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyprotoma obtusata
       en: Brachyprotoma obtusata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

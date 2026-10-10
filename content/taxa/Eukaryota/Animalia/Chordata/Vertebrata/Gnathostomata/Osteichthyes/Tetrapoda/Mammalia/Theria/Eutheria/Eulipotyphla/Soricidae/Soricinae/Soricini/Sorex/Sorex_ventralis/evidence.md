@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex ventralis
       en: Sorex ventralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincella reevesii
       en: Scincella reevesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

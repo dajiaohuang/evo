@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreonetes anceps
       en: Oreonetes anceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

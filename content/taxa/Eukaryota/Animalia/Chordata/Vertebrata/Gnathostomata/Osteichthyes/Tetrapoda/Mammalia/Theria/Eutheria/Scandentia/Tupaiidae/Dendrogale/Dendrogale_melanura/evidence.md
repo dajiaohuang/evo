@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrogale melanura
       en: Dendrogale melanura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

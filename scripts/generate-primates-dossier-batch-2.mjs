@@ -81,7 +81,6 @@ for (const dossier of input.records) {
     if (assessment.status === 'supported' || assessment.status === 'conflicted') assert.ok(assessment.claims?.length)
   }
   assert.equal(dossier.completeness.status, 'incomplete', `Batch dossiers must remain incomplete: ${dossier.colId}`)
-  assert.equal(dossier.expertReview.status, 'not-reviewed', `Batch dossiers must not be marked reviewed: ${dossier.colId}`)
   assert.equal(dossier.systematicSearch, undefined, `No systematic search is claimed for ${dossier.colId}`)
 }
 for (const id of expected.keys()) assert.ok(ids.has(id), `Missing expected species ${id}`)

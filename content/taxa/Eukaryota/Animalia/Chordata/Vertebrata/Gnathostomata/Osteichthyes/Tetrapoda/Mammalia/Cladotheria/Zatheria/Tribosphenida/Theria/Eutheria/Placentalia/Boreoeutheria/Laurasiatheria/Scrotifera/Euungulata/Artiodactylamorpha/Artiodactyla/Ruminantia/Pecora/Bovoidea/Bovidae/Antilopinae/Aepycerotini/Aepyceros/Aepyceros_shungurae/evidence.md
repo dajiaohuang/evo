@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepyceros shungurae
       en: Aepyceros shungurae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreosaurus vagans
       en: Oreosaurus vagans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

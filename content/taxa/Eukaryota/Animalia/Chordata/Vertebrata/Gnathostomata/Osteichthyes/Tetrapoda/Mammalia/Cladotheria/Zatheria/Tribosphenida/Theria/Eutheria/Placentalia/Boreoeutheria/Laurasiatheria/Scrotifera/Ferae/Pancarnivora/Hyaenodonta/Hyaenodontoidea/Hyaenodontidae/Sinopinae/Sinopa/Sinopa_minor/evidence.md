@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinopa minor
       en: Sinopa minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

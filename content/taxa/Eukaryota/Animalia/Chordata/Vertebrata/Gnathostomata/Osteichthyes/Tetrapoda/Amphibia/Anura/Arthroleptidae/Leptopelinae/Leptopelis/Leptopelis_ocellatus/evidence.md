@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis ocellatus
       zh: Leptopelis ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

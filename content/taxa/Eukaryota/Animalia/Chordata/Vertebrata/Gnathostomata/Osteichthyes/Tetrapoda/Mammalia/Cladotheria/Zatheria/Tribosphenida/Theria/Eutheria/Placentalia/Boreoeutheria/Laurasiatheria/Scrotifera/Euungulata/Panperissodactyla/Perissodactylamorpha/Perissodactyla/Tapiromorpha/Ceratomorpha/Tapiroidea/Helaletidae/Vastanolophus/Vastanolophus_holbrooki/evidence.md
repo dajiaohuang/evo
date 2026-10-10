@@ -9,7 +9,6 @@ records:
     name:
       zh: Vastanolophus holbrooki
       en: Vastanolophus holbrooki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

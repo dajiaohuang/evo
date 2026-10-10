@@ -5,7 +5,7 @@ import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { DATASET_PACKAGE_VERSION, PACKAGE_SCHEMA_VERSION, packageDefinitions, researchPresetDefinitions, researchSceneDefinitions } from './package-definitions.mjs'
 import { buildContentProjections, canonicalContentInputs } from './build-content-projections.mjs'
 
-buildContentProjections({ quiet: true })
+buildContentProjections({ quiet: true, check: process.argv.includes('--out') })
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const profileSourceEntries = packageDefinitions.flatMap((definition) => {
@@ -74,8 +74,7 @@ const profiles = profileSources.map((source) => {
   profile.firstAppearance = globalRange.olderMa
   profile.lastAppearance = globalRange.youngerMa
   profile.rangeEvidenceLevel = globalRange.evidenceLevel
-  profile.rangeReviewStatus = globalRange.reviewStatus
-  profile.rangeProvisional = globalRange.evidenceLevel !== 'expert-reviewed'
+  profile.rangeProvisional = Boolean(globalRange.uncertainty) || globalRange.confidence !== 'high'
   profile.regionalRanges = (source.regionalRanges ?? []).map((regional) => {
     const canonical = ranges.find((range) => range.id === regional.canonicalRangeId)
     if (!canonical) throw new Error(`Profile ${profile.id}/${regional.label} has no canonical regional range`)
@@ -88,7 +87,7 @@ const profiles = profileSources.map((source) => {
       basis: canonical.evidenceBasis,
       confidence: canonical.confidence,
       evidenceLevel: canonical.evidenceLevel,
-      provisional: canonical.evidenceLevel !== 'expert-reviewed',
+      provisional: Boolean(canonical.uncertainty) || canonical.confidence !== 'high',
       referenceIds: canonical.referenceLocators.map((locator) => locator.referenceId),
     }
   })
@@ -257,7 +256,8 @@ function navigationDescription(node, packageId, descendantCount, directClaimCoun
 }
 
 function ownerForClaim(claim) {
-  const [kind, subjectId] = claim.subjectId.split(':')
+  const [kind, ...subjectParts] = claim.subjectId.split(':')
+  const subjectId = subjectParts.join(':')
   if (kind === 'taxon') return packageForEntity(subjectId)
   const explicit = {
     'tokummia-mandibulate-anatomy': 'crustaceans-insects',
@@ -460,58 +460,6 @@ function ownerForClaim(claim) {
   return explicit[subjectId] ?? 'atlas-core'
 }
 
-const maintainerReviewScope = [
-  'taxonomy',
-  'fossil-ranges',
-  'morphology',
-  'ecology',
-  'biogeography',
-  'references',
-  'bilingual-consistency',
-]
-
-function defaultPackageReview(definition) {
-  return {
-    schemaVersion: 1,
-    subjectId: `package:${definition.id}`,
-    status: 'not-reviewed',
-    reviewedBy: null,
-    reviewedAt: null,
-    reviewedCommit: null,
-    contentDigest: null,
-    chatgptAssisted: false,
-    scope: maintainerReviewScope,
-    openIssues: [
-      'No maintainer review packet has been completed.',
-      'No external domain-expert review has been performed.',
-    ],
-  }
-}
-
-const packageReviewsNeedingMigration = new Set()
-const packageReviewById = new Map(packageDefinitions.map((definition) => {
-  const relativePath = `data/packages/${definition.path}/review.json`
-  if (!existsSync(join(rootDir, relativePath))) {
-    packageReviewsNeedingMigration.add(definition.id)
-    return [definition.id, defaultPackageReview(definition)]
-  }
-  const current = readJson(relativePath)
-  if (current.schemaVersion !== 1 || !['not-reviewed', 'in-review', 'reviewed-with-caveats', 'reviewed'].includes(current.status)) {
-    packageReviewsNeedingMigration.add(definition.id)
-    return [definition.id, defaultPackageReview(definition)]
-  }
-  return [definition.id, current]
-}))
-
-function packageMaturity(definition) {
-  return {
-    platformMaturity: 'published',
-    scientificMaturity: definition.scientificMaturity ?? 'generated-scaffold',
-    automatedReviewStatus: 'passed',
-    reviewStatus: packageReviewById.get(definition.id).status,
-  }
-}
-
 const entities = flattenTree(ontology).map((node) => {
   const evidence = { ...treeEvidence.default, ...treeEvidence.nodes[node.id] }
   const resolution = taxonResolutionByEntityId.get(node.id)
@@ -555,7 +503,7 @@ const entities = flattenTree(ontology).map((node) => {
       status: globalRange.status,
       basis: globalRange.evidenceBasis,
       evidenceLevel: globalRange.evidenceLevel,
-      provisional: globalRange.evidenceLevel !== 'expert-reviewed',
+      provisional: Boolean(globalRange.uncertainty) || globalRange.confidence !== 'high',
     },
     externalIds: {
       ...(node.taxonId ? { pbdb: node.taxonId } : {}),
@@ -569,8 +517,8 @@ const entities = flattenTree(ontology).map((node) => {
       ...(resolution?.resolutionStatus === 'unresolved'
         ? [`PBDB external identifier withheld: ${resolution.resolutionReason}.`]
         : []),
-      ...(resolution?.conceptReviewStatus === 'needs-concept-review'
-        ? [`PBDB mapping requires concept review because the pinned lineage is incompatible with the local expected parent ${resolution.localExpectedParentConcept}.`]
+      ...(resolution?.lineageCompatibility === 'incompatible'
+        ? [`PBDB lineage is incompatible with the local expected parent ${resolution.localExpectedParentConcept}; external occurrence queries are withheld.`]
         : []),
     ],
     dataAvailability: availability,
@@ -596,7 +544,6 @@ const registry = {
     wave: definition.wave,
     rootEntityIds: definition.rootEntityIds,
     entityCount: entityIdsByPackage.get(definition.id).length,
-    ...packageMaturity(definition),
   })),
   entityToPackage: Object.fromEntries(entities.map((entity) => [entity.id, entity.packageId])),
 }
@@ -604,15 +551,12 @@ const registry = {
 function writeJson(relativePath, value) {
   const absolutePath = join(outputRoot, relativePath)
   mkdirSync(dirname(absolutePath), { recursive: true })
-  writeFileSync(absolutePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8')
+  const text = `${JSON.stringify(value, null, 2)}\n`
+  if (existsSync(absolutePath) && readFileSync(absolutePath).equals(Buffer.from(text))) return
+  writeFileSync(absolutePath, text, 'utf8')
   generatedFiles.push(relativePath.replaceAll('\\', '/'))
 }
 
-function writeCanonicalJson(relativePath, value) {
-  const absolutePath = join(outputRoot, relativePath)
-  mkdirSync(dirname(absolutePath), { recursive: true })
-  writeFileSync(absolutePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8')
-}
 
 writeJson('data/registry/entities/entities.json', entities)
 writeJson('data/registry/package-registry.json', registry)
@@ -807,7 +751,6 @@ for (const definition of packageDefinitions) {
         calibrations: 'data/packages/mammalia/perissodactyla/phylogeny/calibrations.json',
       } : {}),
     },
-    ...packageMaturity(definition),
     limitations: [
       'Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred.',
       ...(definition.limitations ?? []),
@@ -819,11 +762,8 @@ for (const definition of packageDefinitions) {
     canonicalInputs: canonicalContentInputs(['data/navigation/atlas-ontology.json', 'data/ranges/range-evidence.json', 'data/sources/pbdb-taxon-resolution.json', 'data/tree/evidence.json', 'data/references.json', ...(targetedOccurrenceSnapshot ? [targetedOccurrenceSnapshotPath] : []), ...(profileSourceEntry ? [profileSourceEntry.relativePath] : []), ...(researchExampleSourceEntry ? [researchExampleSourceEntry.relativePath] : []), ...(phylogenySourceEntry ? [phylogenySourceEntry.relativePath] : [])]),
     occurrenceSnapshot: targetedOccurrenceSnapshot ? targetedOccurrenceSnapshotPath : 'data/sources/pbdb-occurrence-bundle.json',
     generatedProjection: true,
-    notes: ['Package registry, taxonomy, range and locale files are generated projections. review.json is maintained separately as the single package review record. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
+    notes: ['Package registry, taxonomy, range and locale files are generated projections. Canonical entity concepts, ranges, evidence and external-resolution decisions live in the listed canonical inputs.'],
   })
-  if (packageReviewsNeedingMigration.has(definition.id)) {
-    writeCanonicalJson(`data/packages/${definition.path}/review.json`, packageReviewById.get(definition.id))
-  }
   writeJson(`data/packages/${definition.path}/query-ledger.json`, queryLedger)
   writeJson(`data/packages/${definition.path}/entities.json`, {
     registry: 'data/registry/entities/entities.json',
@@ -918,9 +858,8 @@ for (const definition of packageDefinitions) {
         claimType: claim.claimType,
         relation: 'supports',
         sourceLocators: fieldReferenceLinks
-          .map((link) => ({ referenceId: link.referenceId, locator: link.pages ?? link.figure ?? link.quoteLocator ?? 'Source scope; precise locator pending curator review.' })),
+          .map((link) => ({ referenceId: link.referenceId, locator: link.pages ?? link.figure ?? link.quoteLocator ?? 'Source scope; precise locator unavailable.' })),
         confidence: claim.confidence,
-        reviewStatus: 'automated-audit-passed',
       }
     }
     writeJson(`data/packages/${definition.path}/evidence/field-claim-links.json`, packageProfiles.map((profile) => ({
@@ -936,13 +875,14 @@ for (const definition of packageDefinitions) {
         return Object.fromEntries(fieldNames.map((field) => {
           const claimType = claimTypeForField(field)
           const override = fieldClaimOverrides[profile.id]?.[field]
-          if (override?.status === 'not-assessed') return [field, {
+          const matchingClaim = claimBySubjectAndType.get(`taxon:${profile.id}|${claimType}`)
+          // Reader prose and range records can exist without a formal field claim.
+          if (override?.status === 'not-assessed' || (!override?.claimId && !matchingClaim)) return [field, {
             claimId: null,
             claimType,
             relation: 'not-assessed',
             sourceLocators: [],
             confidence: 'low',
-            reviewStatus: 'not-assessed',
             contentOrigin: 'unavailable',
           }]
           if (override?.claimId) {
@@ -952,7 +892,7 @@ for (const definition of packageDefinitions) {
             }
             return [field, { ...fieldLink(overriddenClaim, field), contentOrigin: 'editorial-synthesis' }]
           }
-          const claim = claimBySubjectAndType.get(`taxon:${profile.id}|${claimType}`)
+          const claim = matchingClaim
           if (!claim) throw new Error(`Profile ${profile.id}/${field} is missing a ${claimType} claim`)
           return [field, {
             ...fieldLink(claim, field),

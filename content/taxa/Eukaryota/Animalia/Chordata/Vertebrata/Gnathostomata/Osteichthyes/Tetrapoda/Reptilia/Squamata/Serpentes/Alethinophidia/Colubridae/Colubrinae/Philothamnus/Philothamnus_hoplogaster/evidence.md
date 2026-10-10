@@ -9,7 +9,6 @@ records:
     name:
       zh: Philothamnus hoplogaster
       en: Philothamnus hoplogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

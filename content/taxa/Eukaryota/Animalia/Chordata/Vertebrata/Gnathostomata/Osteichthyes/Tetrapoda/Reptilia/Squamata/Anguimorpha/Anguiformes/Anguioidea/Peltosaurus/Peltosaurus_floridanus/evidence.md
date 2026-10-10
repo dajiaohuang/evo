@@ -9,7 +9,6 @@ records:
     name:
       zh: Peltosaurus floridanus
       en: Peltosaurus floridanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

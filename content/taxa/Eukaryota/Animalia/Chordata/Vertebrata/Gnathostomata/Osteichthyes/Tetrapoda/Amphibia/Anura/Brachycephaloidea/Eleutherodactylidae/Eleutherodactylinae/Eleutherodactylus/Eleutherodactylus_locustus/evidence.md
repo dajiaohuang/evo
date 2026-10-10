@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus locustus
       zh: Eleutherodactylus locustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

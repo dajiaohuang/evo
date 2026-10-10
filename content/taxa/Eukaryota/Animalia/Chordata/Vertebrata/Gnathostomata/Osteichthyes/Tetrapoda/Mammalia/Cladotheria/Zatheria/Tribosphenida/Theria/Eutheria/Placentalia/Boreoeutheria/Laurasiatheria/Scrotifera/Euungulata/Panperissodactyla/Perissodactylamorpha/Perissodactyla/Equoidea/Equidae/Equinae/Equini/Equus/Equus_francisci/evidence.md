@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus francisci
       en: Equus francisci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

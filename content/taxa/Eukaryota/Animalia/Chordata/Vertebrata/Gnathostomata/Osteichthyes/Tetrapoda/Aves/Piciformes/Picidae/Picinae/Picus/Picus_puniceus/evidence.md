@@ -9,7 +9,6 @@ records:
     name:
       zh: Picus puniceus
       en: Picus puniceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -350,7 +350,8 @@ export async function loadPackageRanges(packageId: string): Promise<RuntimeRange
     || !Number.isFinite(range.youngerMa)
     || range.olderMa < range.youngerMa
     || !range.entityId
-    || (range.status === 'available' && !range.claimIds.length))) {
+    || (range.status === 'available' && !range.claimIds.length
+      && !range.referenceLocators?.some(({ referenceId, locator }) => referenceId && locator)))) {
     throw new Error(`Runtime range evidence for ${packageId} is invalid`)
   }
   return ranges

@@ -9,7 +9,6 @@ records:
     name:
       en: Udzungwa Red Colobus
       zh: 乌曾古瓦红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: nameBearingMaterial

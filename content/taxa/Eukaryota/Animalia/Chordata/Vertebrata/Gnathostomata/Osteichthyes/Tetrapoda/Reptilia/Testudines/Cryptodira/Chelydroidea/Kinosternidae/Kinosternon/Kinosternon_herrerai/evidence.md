@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinosternon herrerai
       en: Kinosternon herrerai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Kassina arboricola
       zh: Kassina arboricola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Enantiornis leali
       en: Enantiornis leali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

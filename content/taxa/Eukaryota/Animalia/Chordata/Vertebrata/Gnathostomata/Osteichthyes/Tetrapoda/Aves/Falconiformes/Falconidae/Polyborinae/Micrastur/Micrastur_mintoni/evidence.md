@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrastur mintoni
       en: Micrastur mintoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

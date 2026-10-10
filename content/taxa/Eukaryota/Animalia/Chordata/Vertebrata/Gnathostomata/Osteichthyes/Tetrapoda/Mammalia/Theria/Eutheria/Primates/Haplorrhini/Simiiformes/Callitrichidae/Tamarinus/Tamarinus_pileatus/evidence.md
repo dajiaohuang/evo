@@ -9,7 +9,6 @@ records:
     name:
       zh: 红冠髭狨
       en: Red-cap Mustached Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

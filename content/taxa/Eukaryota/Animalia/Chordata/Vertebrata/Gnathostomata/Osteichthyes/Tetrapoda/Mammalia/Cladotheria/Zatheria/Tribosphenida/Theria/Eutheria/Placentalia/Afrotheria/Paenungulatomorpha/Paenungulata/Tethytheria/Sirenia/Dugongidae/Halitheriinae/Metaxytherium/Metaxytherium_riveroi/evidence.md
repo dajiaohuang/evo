@@ -9,7 +9,6 @@ records:
     name:
       zh: Metaxytherium riveroi
       en: Metaxytherium riveroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

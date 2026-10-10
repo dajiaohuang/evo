@@ -9,7 +9,6 @@ records:
     name:
       zh: Melilestes megarhynchus
       en: Melilestes megarhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

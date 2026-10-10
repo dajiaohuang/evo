@@ -22,5 +22,5 @@ After group housing, the females had lower fecal cortisol levels; one female tha
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a local captive-welfare guide, not a comprehensive pygmy slow loris account, and is not externally expert-reviewed. It concerns a limited number of captive females and cannot establish wild social organization, species-wide cortisol patterns, habitat, or diet.
+This is a local captive-welfare guide, not a comprehensive pygmy slow loris account, and is. It concerns a limited number of captive females and cannot establish wild social organization, species-wide cortisol patterns, habitat, or diet.
 <!-- /evo:text -->

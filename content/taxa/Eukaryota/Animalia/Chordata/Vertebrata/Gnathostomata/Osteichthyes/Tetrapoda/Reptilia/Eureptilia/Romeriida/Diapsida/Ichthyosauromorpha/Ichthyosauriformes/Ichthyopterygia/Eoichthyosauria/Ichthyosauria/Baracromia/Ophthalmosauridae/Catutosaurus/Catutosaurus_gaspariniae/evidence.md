@@ -9,7 +9,6 @@ records:
     name:
       zh: Catutosaurus gaspariniae
       en: Catutosaurus gaspariniae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

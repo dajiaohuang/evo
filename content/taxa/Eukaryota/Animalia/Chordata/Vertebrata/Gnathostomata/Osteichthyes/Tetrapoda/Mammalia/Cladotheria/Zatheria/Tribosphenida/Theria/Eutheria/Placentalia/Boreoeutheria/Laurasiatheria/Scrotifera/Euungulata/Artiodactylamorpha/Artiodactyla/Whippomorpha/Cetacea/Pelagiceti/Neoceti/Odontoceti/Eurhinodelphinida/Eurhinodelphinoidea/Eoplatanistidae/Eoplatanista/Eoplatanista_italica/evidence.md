@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoplatanista italica
       en: Eoplatanista italica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

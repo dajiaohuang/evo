@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalotos singadanae
       zh: Hyalotos singadanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

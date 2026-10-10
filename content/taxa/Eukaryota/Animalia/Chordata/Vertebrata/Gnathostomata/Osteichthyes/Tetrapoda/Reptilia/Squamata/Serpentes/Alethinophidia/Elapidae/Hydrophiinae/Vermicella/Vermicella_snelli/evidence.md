@@ -9,7 +9,6 @@ records:
     name:
       zh: Vermicella snelli
       en: Vermicella snelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

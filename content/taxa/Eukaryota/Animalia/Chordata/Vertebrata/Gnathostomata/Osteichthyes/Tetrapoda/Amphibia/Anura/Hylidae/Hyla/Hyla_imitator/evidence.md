@@ -9,7 +9,6 @@ records:
     name:
       en: Hyla imitator
       zh: Hyla imitator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

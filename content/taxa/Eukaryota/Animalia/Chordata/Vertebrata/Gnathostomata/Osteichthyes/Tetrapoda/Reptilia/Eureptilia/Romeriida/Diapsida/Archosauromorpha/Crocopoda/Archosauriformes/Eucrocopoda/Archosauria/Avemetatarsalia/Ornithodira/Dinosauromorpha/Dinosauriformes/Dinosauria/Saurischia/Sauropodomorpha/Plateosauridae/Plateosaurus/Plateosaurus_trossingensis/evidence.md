@@ -9,7 +9,6 @@ records:
     name:
       zh: Plateosaurus trossingensis
       en: Plateosaurus trossingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis shahruli
       en: Cnemaspis shahruli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

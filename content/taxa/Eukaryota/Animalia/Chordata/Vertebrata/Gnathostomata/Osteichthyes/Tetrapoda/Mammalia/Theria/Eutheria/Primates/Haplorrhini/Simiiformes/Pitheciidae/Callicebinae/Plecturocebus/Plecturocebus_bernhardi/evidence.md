@@ -9,7 +9,6 @@ records:
     name:
       zh: 贝恩哈德僧面猴
       en: Prince Bernhard's Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: typeMaterial

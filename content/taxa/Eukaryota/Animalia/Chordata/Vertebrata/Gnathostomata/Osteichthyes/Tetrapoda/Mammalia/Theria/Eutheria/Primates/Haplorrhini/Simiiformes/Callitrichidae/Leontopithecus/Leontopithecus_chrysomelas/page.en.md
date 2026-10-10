@@ -16,5 +16,5 @@ A study in southern Bahia, Brazil, focused on one golden-headed lion tamarin gro
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction, not externally expert-reviewed. Seed-dispersal evidence comes from one focal group and a site-specific model of one tree genus; model sensitivity does not support a range-wide ecological estimate.
+Source-linked introduction. Seed-dispersal evidence comes from one focal group and a site-specific model of one tree genus; model sensitivity does not support a range-wide ecological estimate.
 <!-- /evo:text -->

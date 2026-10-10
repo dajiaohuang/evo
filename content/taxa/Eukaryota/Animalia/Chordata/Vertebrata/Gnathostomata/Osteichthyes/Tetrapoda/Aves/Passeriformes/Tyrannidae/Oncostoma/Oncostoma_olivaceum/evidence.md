@@ -9,7 +9,6 @@ records:
     name:
       zh: Oncostoma olivaceum
       en: Oncostoma olivaceum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

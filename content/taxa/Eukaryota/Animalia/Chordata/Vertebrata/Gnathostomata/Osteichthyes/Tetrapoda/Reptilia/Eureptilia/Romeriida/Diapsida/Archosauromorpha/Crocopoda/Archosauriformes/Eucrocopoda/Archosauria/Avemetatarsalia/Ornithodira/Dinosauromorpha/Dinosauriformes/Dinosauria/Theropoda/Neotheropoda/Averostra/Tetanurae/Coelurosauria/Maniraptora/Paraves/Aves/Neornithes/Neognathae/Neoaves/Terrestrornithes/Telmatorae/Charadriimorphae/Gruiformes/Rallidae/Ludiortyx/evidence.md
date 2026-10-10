@@ -9,7 +9,6 @@ records:
     name:
       zh: Ludiortyx
       en: Ludiortyx
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Marada arcanum
       en: Marada arcanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

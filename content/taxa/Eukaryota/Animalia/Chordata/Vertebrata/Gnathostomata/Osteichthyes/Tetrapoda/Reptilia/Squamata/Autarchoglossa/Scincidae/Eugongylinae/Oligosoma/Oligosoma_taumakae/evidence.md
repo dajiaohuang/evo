@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma taumakae
       en: Oligosoma taumakae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

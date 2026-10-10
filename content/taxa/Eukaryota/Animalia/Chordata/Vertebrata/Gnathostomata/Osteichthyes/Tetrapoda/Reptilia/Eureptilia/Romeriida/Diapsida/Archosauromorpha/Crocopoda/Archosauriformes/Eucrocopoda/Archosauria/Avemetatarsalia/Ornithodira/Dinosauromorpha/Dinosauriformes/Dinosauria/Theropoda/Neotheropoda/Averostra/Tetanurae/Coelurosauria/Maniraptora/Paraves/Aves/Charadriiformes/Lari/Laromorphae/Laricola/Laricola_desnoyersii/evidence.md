@@ -9,7 +9,6 @@ records:
     name:
       zh: Laricola desnoyersii
       en: Laricola desnoyersii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

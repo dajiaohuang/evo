@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyprimus erikseni
       en: Oxyprimus erikseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

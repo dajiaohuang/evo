@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus olfersii
       zh: Physalaemus olfersii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

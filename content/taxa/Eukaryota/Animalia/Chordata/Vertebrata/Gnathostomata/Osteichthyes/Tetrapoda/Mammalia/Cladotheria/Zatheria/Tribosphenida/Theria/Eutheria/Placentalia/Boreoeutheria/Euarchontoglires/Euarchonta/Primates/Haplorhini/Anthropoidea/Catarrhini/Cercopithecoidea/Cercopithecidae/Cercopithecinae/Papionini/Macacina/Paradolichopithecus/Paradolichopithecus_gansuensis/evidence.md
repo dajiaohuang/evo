@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradolichopithecus gansuensis
       en: Paradolichopithecus gansuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

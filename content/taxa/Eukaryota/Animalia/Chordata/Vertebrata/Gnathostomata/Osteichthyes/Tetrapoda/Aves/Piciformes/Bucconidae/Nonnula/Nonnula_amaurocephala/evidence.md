@@ -9,7 +9,6 @@ records:
     name:
       zh: Nonnula amaurocephala
       en: Nonnula amaurocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

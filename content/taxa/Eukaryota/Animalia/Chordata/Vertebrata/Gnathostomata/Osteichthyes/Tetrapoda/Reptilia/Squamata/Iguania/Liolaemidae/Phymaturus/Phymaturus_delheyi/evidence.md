@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus delheyi
       en: Phymaturus delheyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinclodes atacamensis
       en: Cinclodes atacamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

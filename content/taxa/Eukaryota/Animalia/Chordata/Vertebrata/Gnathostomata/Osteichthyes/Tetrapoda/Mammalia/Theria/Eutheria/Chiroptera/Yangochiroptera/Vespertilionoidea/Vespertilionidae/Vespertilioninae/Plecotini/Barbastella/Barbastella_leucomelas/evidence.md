@@ -9,7 +9,6 @@ records:
     name:
       zh: Barbastella leucomelas
       en: Barbastella leucomelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

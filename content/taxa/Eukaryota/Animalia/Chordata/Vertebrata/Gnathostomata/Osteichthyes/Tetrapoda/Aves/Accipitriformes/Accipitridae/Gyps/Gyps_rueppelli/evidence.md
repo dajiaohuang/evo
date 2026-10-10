@@ -9,7 +9,6 @@ records:
     name:
       zh: Gyps rueppelli
       en: Gyps rueppelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

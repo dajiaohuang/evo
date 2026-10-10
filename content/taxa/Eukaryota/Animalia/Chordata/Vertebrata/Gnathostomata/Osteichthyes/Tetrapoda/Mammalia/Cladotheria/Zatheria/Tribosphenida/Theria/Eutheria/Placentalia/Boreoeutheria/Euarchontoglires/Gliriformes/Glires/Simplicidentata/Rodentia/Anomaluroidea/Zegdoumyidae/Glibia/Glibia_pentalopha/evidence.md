@@ -9,7 +9,6 @@ records:
     name:
       zh: Glibia pentalopha
       en: Glibia pentalopha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

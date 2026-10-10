@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax ritaleeae
       zh: Scinax ritaleeae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

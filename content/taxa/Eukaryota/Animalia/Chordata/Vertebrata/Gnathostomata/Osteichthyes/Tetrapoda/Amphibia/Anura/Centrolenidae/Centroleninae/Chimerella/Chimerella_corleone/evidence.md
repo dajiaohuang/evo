@@ -9,7 +9,6 @@ records:
     name:
       en: Chimerella corleone
       zh: Chimerella corleone
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

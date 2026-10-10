@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea rex
       zh: Pseudoeurycea rex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

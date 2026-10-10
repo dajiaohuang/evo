@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudacris nigrita
       zh: Pseudacris nigrita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

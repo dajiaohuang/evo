@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerida magnirostris
       en: Galerida magnirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

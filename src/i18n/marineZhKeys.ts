@@ -75,7 +75,7 @@ export const marineZhKeys = new Set<string>([
   "Egg and embryo counts do not by themselves demonstrate parental care or post-hatching flight capacity.",
   "Quadrupedal launch is a feasibility model",
   "Scaling, bone mechanics and aerodynamic calculations make powered flight and forelimb-assisted launch feasible for sampled giant-pterosaur reconstructions. The model is not direct observation of an extinct takeoff.",
-  "COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage and dossier maturity are independent, and the three radiations remain separate.",
+  "COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage does not establish species-specific evidence, and the three radiations remain separate.",
   "Short-snouted Ichthyosauromorph",
   "Chaohu Ichthyosaur",
   "Narrow-fin Ichthyosaur",

@@ -9,7 +9,6 @@ records:
     name:
       en: Cryptotriton monzoni
       zh: Cryptotriton monzoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

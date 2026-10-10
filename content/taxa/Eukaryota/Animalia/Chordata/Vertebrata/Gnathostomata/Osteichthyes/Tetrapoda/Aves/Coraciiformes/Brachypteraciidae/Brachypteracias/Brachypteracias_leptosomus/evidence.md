@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachypteracias leptosomus
       en: Brachypteracias leptosomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

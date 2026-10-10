@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibynophis sagittarius
       en: Sibynophis sagittarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

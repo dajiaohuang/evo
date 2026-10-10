@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenosaurus platyceps
       en: Xenosaurus platyceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

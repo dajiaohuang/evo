@@ -9,7 +9,6 @@ records:
     name:
       zh: Scapanulus
       en: Scapanulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

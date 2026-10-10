@@ -9,7 +9,6 @@ records:
     name:
       zh: Apomys littoralis
       en: Apomys littoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

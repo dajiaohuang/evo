@@ -9,7 +9,6 @@ records:
     name:
       zh: Thliptosaurus imperforatus
       en: Thliptosaurus imperforatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

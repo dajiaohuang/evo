@@ -26,11 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - relation: supports
           referenceId: peterson-2022-osteoglossomorpha-phylogenomics
@@ -49,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: qi-2024-teleost-wgd-dating; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: qi-2024-teleost-wgd-dating
@@ -92,7 +84,6 @@ records:
       referenceLocators:
         - referenceId: qi-2024-teleost-wgd-dating
           locator: "Article evae128; Figure 1; Supplementary Table S1; Results: Elopomorpha–Osteoglossomorpha divergence 239.12–213.05 Ma"
-      reviewStatus: automated-audit-passed
 ---
 
 # Osteoglossomorpha

@@ -9,7 +9,6 @@ records:
     name:
       zh: Guggenheimia brasiliensis
       en: Guggenheimia brasiliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

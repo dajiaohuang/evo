@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: anderson-2008-gerobatrachus; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: anderson-2008-gerobatrachus
@@ -98,7 +95,6 @@ records:
           locator: pp. 5767–5772; Figs. 1–4
         - referenceId: santos-2024-ymboirana
           locator: pp. 3–20; Figs. 2–15
-      reviewStatus: automated-audit-passed
 ---
 
 # Amphibian fossil evidence route

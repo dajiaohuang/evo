@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalonyx mathisi
       en: Megalonyx mathisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

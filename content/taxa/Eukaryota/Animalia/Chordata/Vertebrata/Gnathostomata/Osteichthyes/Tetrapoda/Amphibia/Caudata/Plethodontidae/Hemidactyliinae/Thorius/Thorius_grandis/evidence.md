@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius grandis
       zh: Thorius grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

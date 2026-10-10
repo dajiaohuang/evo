@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella puhoatensis
       zh: Leptobrachella puhoatensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

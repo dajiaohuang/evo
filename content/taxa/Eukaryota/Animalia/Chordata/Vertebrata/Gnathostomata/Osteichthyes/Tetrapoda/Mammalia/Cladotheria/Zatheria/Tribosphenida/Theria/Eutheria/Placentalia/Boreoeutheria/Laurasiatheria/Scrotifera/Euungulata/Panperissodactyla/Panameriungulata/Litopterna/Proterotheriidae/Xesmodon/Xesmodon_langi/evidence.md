@@ -9,7 +9,6 @@ records:
     name:
       zh: Xesmodon langi
       en: Xesmodon langi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

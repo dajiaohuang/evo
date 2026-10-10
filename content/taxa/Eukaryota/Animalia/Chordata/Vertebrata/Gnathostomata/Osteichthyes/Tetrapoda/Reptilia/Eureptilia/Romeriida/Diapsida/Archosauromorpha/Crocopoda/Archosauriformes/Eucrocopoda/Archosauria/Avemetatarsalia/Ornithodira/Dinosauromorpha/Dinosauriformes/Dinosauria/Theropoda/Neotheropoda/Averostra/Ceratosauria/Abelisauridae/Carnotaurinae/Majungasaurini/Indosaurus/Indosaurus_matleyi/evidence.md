@@ -9,7 +9,6 @@ records:
     name:
       zh: Indosaurus matleyi
       en: Indosaurus matleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

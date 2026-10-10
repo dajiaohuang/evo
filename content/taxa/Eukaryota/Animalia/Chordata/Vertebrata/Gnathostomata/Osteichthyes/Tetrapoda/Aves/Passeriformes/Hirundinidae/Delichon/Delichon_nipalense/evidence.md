@@ -9,7 +9,6 @@ records:
     name:
       zh: Delichon nipalense
       en: Delichon nipalense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

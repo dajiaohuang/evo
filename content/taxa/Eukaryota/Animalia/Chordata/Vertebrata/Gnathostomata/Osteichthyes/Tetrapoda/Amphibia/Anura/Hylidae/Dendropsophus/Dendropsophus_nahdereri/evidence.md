@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus nahdereri
       zh: Dendropsophus nahdereri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

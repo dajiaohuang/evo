@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra donaldsoni
       en: Crithagra donaldsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

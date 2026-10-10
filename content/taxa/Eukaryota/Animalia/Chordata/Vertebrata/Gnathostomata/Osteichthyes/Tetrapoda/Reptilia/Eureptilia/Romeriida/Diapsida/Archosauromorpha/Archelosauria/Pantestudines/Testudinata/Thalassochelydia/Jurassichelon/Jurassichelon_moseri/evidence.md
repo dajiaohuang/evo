@@ -9,7 +9,6 @@ records:
     name:
       zh: Jurassichelon moseri
       en: Jurassichelon moseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

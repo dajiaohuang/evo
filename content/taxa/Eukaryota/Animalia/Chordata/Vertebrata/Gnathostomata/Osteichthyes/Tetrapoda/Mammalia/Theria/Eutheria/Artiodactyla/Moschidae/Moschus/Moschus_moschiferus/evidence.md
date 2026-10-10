@@ -9,7 +9,6 @@ records:
     name:
       zh: Moschus moschiferus
       en: Moschus moschiferus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

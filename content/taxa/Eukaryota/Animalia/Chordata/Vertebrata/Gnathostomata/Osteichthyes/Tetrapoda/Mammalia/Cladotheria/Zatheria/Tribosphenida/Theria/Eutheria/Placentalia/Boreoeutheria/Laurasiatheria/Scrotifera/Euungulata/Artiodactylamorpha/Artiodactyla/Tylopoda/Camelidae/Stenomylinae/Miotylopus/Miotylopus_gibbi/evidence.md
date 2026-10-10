@@ -9,7 +9,6 @@ records:
     name:
       zh: Miotylopus gibbi
       en: Miotylopus gibbi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

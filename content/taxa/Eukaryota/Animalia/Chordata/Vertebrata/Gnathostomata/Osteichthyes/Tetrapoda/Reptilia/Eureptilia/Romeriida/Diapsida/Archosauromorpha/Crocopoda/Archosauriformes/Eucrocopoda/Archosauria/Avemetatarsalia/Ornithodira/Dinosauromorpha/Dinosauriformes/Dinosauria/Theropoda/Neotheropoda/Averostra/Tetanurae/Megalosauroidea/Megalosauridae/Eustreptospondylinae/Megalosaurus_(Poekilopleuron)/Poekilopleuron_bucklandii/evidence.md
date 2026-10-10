@@ -9,7 +9,6 @@ records:
     name:
       zh: Poekilopleuron bucklandii
       en: Poekilopleuron bucklandii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

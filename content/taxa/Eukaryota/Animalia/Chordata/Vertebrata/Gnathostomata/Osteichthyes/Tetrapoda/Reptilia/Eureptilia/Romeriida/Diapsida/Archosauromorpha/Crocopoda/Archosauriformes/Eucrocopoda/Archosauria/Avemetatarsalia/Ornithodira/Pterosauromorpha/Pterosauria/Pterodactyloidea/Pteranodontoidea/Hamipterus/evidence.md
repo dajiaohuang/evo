@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wang-2017-hamipterus-eggs concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: wang-2017-hamipterus-eggs
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: wang-2017-hamipterus-eggs
           locator: pp. 1197–1201; Figures 1–2; Supplementary geological context
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Hamipterus
     rank: genus
@@ -73,7 +69,6 @@ records:
     name:
       zh: Hamipterus
       en: Hamipterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

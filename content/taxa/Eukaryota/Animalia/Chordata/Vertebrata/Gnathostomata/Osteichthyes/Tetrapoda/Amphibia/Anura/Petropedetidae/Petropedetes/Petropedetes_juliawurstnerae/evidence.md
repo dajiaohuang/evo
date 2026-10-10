@@ -9,7 +9,6 @@ records:
     name:
       en: Petropedetes juliawurstnerae
       zh: Petropedetes juliawurstnerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

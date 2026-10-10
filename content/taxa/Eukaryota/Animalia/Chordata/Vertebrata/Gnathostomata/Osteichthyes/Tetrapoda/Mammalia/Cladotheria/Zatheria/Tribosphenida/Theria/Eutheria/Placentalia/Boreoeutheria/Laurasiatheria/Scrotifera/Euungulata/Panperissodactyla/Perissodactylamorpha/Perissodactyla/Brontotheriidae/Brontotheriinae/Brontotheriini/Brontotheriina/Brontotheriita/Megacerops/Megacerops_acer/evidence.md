@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacerops acer
       en: Megacerops acer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon indubitus
       en: Plestiodon indubitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plica caribeana
       en: Plica caribeana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

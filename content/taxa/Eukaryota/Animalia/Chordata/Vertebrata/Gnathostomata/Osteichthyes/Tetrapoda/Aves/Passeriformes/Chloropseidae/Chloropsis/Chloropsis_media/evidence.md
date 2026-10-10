@@ -9,7 +9,6 @@ records:
     name:
       zh: Chloropsis media
       en: Chloropsis media
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

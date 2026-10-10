@@ -9,7 +9,6 @@ records:
     name:
       zh: Furcifer timoni
       en: Furcifer timoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ototylomys phyllotis
       en: Ototylomys phyllotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

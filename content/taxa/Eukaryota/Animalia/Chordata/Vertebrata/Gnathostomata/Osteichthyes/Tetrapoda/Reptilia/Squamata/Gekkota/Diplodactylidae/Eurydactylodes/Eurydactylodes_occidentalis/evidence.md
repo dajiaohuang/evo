@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurydactylodes occidentalis
       en: Eurydactylodes occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

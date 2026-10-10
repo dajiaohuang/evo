@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenophalos garciae
       en: Sphenophalos garciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

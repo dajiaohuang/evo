@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaphe moellendorffi
       en: Elaphe moellendorffi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

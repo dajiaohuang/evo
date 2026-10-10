@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus (Asinus) cumminsi
       en: Equus (Asinus) cumminsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus sucre
       zh: Nymphargus sucre
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

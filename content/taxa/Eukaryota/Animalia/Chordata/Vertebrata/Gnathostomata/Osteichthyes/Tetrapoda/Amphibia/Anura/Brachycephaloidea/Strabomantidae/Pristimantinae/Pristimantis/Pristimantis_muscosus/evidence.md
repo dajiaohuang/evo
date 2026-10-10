@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis muscosus
       zh: Pristimantis muscosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

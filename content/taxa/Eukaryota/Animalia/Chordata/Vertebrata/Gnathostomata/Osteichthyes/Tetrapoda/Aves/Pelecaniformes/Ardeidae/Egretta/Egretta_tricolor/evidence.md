@@ -9,7 +9,6 @@ records:
     name:
       zh: Egretta tricolor
       en: Egretta tricolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

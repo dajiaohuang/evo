@@ -154,10 +154,9 @@ const dossier = {
     reasons: [
       'One regional flora account supports a bounded claim in morphology only.',
       'The other six scientific facets remain explicitly not assessed.',
-      'No independent external expert review has been completed.',
     ],
   },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
 }
 acceptedClassification(registry, dossier)
 assert.equal(dossier.classificationPath.at(-1).id, item.colId)

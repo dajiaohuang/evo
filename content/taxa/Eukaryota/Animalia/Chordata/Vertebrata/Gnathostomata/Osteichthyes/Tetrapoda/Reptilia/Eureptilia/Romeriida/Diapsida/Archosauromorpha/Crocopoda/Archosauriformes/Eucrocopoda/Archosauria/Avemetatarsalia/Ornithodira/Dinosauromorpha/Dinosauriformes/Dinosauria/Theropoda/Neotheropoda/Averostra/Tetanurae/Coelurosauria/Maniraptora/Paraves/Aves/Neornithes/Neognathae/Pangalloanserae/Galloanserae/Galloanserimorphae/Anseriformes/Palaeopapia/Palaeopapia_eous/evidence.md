@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeopapia eous
       en: Palaeopapia eous
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

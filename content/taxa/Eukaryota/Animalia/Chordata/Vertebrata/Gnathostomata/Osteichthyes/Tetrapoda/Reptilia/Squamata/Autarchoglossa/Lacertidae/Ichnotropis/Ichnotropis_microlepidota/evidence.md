@@ -9,7 +9,6 @@ records:
     name:
       zh: Ichnotropis microlepidota
       en: Ichnotropis microlepidota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

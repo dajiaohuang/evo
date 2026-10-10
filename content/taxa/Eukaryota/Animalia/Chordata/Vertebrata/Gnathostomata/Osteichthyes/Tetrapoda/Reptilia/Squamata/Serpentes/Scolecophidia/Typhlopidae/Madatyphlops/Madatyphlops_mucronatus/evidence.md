@@ -9,7 +9,6 @@ records:
     name:
       zh: Madatyphlops mucronatus
       en: Madatyphlops mucronatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

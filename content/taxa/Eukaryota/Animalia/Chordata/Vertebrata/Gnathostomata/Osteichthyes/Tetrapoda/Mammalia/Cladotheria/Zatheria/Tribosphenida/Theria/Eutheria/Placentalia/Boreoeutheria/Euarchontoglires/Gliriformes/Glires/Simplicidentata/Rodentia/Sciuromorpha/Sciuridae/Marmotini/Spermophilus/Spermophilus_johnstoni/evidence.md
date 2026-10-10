@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus johnstoni
       en: Spermophilus johnstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vinitasaura lizae
       en: Vinitasaura lizae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyopsodus sholemi
       en: Hyopsodus sholemi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

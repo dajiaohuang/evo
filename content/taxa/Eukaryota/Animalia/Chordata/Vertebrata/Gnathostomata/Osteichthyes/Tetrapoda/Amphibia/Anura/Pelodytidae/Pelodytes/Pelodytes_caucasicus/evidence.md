@@ -9,7 +9,6 @@ records:
     name:
       en: Pelodytes caucasicus
       zh: Pelodytes caucasicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

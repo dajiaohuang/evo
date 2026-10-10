@@ -9,7 +9,6 @@ records:
     name:
       en: Cryptothylax minutus
       zh: Cryptothylax minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

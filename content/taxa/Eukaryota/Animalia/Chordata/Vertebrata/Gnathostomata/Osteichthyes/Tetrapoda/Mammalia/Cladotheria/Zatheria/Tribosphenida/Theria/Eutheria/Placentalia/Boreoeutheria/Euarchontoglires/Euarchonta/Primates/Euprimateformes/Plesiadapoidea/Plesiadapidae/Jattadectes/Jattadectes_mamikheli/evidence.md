@@ -9,7 +9,6 @@ records:
     name:
       zh: Jattadectes mamikheli
       en: Jattadectes mamikheli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

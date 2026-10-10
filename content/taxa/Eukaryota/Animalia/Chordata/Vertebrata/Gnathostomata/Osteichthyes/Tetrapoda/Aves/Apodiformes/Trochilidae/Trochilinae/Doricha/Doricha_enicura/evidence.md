@@ -9,7 +9,6 @@ records:
     name:
       zh: Doricha enicura
       en: Doricha enicura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

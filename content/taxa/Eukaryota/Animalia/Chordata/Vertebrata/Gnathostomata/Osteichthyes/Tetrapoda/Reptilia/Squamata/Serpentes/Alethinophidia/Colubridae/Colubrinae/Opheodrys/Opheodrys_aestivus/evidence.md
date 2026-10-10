@@ -9,7 +9,6 @@ records:
     name:
       zh: Opheodrys aestivus
       en: Opheodrys aestivus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

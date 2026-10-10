@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorsetodon haysomi
       en: Dorsetodon haysomi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

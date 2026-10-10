@@ -9,7 +9,6 @@ records:
     name:
       zh: Ecteninion
       en: Ecteninion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

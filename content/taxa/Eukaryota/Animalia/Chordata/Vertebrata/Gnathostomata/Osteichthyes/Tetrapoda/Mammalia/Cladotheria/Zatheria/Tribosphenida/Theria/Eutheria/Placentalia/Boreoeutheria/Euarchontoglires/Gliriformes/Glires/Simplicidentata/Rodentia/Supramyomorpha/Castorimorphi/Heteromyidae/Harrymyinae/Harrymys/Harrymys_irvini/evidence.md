@@ -9,7 +9,6 @@ records:
     name:
       zh: Harrymys irvini
       en: Harrymys irvini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

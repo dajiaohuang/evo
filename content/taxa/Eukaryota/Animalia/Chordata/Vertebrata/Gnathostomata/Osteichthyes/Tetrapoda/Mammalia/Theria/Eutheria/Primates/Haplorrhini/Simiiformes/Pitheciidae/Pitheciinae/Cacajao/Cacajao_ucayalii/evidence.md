@@ -9,7 +9,6 @@ records:
     name:
       en: Ucayali Bald Uacari
       zh: 乌卡亚利秃乌卡里
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: ecology

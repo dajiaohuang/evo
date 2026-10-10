@@ -9,7 +9,6 @@ records:
     name:
       zh: Wanogale hodungensis
       en: Wanogale hodungensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

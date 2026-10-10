@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Torres et al. 2025 DOI 10.1038/s41586-024-08390-0
       referenceLinks:
         - referenceId: torres-2025-vegavis-skull
           relation: supports

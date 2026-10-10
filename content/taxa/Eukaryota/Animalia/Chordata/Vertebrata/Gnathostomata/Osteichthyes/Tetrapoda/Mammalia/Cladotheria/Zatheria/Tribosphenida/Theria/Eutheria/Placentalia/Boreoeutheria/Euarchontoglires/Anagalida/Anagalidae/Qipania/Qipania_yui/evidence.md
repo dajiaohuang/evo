@@ -9,7 +9,6 @@ records:
     name:
       zh: Qipania yui
       en: Qipania yui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

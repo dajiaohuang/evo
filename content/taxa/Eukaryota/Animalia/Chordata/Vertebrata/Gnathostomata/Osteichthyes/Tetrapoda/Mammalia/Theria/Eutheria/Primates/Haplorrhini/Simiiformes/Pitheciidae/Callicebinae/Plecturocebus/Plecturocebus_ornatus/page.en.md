@@ -28,5 +28,5 @@ The study is useful for comparing activity budgets and feeding records at two si
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The study compares only two Colombian Llanos groups; between-group differences do not by themselves prove a general causal effect of fragmentation. The MDD English label is an exact name join to the COL26.8 accepted ID; the Chinese name is editorial. The page has not received external expert review. This page is not externally expert-reviewed.
+The study compares only two Colombian Llanos groups; between-group differences do not by themselves prove a general causal effect of fragmentation. The MDD English label is an exact name join to the COL26.8 accepted ID; the Chinese name is editorial. This page is.
 <!-- /evo:text -->

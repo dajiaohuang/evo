@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenerodiops mycter
       en: Xenerodiops mycter
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

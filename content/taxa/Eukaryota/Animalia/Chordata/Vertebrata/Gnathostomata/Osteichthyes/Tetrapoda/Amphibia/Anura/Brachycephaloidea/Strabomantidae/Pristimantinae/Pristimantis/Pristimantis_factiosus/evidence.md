@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis factiosus
       zh: Pristimantis factiosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

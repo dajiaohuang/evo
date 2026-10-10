@@ -9,7 +9,6 @@ records:
     name:
       zh: Basalina basalensis
       en: Basalina basalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

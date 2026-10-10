@@ -9,7 +9,6 @@ records:
     name:
       zh: Chakisaurus nekul
       en: Chakisaurus nekul
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

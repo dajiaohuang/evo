@@ -9,7 +9,6 @@ records:
     name:
       zh: Furina diadema
       en: Furina diadema
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Maracaiba zuliae
       en: Maracaiba zuliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

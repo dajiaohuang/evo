@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylodon erythrogaster
       zh: Leptodactylodon erythrogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

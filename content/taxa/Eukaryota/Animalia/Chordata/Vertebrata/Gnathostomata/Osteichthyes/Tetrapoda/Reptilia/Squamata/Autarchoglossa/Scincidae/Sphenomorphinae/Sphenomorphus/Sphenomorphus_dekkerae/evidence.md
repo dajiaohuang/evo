@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus dekkerae
       en: Sphenomorphus dekkerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

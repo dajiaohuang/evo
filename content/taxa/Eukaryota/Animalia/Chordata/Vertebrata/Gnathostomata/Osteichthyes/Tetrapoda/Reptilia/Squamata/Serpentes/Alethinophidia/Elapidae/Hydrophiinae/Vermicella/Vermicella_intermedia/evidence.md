@@ -9,7 +9,6 @@ records:
     name:
       zh: Vermicella intermedia
       en: Vermicella intermedia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dryophytes eximius
       zh: Dryophytes eximius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca plumbea
       zh: Gastrotheca plumbea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

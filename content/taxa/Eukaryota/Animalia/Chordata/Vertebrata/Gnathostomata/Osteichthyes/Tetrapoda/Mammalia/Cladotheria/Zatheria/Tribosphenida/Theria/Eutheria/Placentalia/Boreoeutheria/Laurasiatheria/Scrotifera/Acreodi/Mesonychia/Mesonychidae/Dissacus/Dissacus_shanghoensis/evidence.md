@@ -9,7 +9,6 @@ records:
     name:
       zh: Dissacus shanghoensis
       en: Dissacus shanghoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

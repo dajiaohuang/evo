@@ -9,7 +9,6 @@ records:
     name:
       zh: Sierritasuchus macalpini
       en: Sierritasuchus macalpini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

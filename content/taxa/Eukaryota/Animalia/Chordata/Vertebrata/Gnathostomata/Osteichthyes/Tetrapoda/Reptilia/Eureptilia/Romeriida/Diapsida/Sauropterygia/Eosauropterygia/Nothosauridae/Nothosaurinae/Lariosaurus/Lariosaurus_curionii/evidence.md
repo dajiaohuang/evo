@@ -9,7 +9,6 @@ records:
     name:
       zh: Lariosaurus curionii
       en: Lariosaurus curionii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

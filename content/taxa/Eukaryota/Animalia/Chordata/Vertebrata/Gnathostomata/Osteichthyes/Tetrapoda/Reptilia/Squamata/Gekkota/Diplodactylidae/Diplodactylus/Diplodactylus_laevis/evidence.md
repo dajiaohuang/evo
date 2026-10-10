@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodactylus laevis
       en: Diplodactylus laevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

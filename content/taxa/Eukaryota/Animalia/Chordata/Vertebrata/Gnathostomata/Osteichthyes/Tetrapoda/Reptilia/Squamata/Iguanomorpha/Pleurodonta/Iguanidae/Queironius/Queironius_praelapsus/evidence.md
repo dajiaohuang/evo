@@ -9,7 +9,6 @@ records:
     name:
       zh: Queironius praelapsus
       en: Queironius praelapsus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

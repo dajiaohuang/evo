@@ -9,7 +9,6 @@ records:
     name:
       zh: Petromyscus barbouri
       en: Petromyscus barbouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

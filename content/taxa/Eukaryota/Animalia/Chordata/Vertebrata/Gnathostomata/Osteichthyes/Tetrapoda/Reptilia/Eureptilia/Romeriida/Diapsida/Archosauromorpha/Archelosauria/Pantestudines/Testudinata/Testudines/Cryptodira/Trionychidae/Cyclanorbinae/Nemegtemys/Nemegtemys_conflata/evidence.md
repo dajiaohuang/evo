@@ -9,7 +9,6 @@ records:
     name:
       zh: Nemegtemys conflata
       en: Nemegtemys conflata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

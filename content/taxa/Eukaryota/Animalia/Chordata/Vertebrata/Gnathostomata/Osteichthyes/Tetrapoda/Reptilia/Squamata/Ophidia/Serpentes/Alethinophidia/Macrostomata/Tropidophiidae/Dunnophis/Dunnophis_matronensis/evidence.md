@@ -9,7 +9,6 @@ records:
     name:
       zh: Dunnophis matronensis
       en: Dunnophis matronensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

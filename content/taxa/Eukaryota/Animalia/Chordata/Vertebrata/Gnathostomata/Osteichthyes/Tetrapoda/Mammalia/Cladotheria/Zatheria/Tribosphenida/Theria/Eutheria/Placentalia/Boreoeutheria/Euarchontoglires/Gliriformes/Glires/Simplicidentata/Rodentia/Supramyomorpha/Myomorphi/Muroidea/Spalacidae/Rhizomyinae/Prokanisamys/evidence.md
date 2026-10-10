@@ -9,7 +9,6 @@ records:
     name:
       zh: Prokanisamys
       en: Prokanisamys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

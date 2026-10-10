@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardea purpurea
       en: Ardea purpurea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

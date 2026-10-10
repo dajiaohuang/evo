@@ -9,7 +9,6 @@ records:
     name:
       zh: Trierarchuncus prairiensis
       en: Trierarchuncus prairiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

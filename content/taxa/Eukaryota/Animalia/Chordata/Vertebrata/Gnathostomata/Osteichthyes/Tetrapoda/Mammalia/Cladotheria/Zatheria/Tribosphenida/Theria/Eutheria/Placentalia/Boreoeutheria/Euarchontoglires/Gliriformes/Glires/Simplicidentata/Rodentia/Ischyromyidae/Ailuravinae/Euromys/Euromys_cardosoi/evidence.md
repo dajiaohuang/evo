@@ -9,7 +9,6 @@ records:
     name:
       zh: Euromys cardosoi
       en: Euromys cardosoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

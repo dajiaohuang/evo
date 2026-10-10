@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagiolophus mazateronensis
       en: Plagiolophus mazateronensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

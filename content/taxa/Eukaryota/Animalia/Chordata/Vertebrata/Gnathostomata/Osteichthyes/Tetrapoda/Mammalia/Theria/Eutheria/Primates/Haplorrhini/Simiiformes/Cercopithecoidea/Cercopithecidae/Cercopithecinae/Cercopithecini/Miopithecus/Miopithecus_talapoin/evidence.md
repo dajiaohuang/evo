@@ -10,7 +10,6 @@ records:
     name:
       en: Southern Talapoin Monkey
       zh: 安哥拉塔拉波因猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

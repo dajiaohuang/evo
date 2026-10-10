@@ -9,7 +9,6 @@ records:
     name:
       zh: Microstonyx erymanthius
       en: Microstonyx erymanthius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

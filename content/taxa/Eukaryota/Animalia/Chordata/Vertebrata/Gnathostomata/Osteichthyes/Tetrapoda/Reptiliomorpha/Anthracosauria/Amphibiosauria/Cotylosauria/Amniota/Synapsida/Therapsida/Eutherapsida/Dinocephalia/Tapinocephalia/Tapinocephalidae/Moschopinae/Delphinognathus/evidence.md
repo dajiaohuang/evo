@@ -9,7 +9,6 @@ records:
     name:
       zh: Delphinognathus
       en: Delphinognathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

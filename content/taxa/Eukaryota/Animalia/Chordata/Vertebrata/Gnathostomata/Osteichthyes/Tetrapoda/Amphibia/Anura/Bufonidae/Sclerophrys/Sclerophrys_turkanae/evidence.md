@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys turkanae
       zh: Sclerophrys turkanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

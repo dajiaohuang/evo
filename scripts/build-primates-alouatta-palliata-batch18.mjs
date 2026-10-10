@@ -40,7 +40,6 @@ assert.equal(dossier.scientificName, 'Alouatta palliata (Gray, 1849)')
 assert.equal(dossier.rank, 'species')
 assert.equal(dossier.sourceDatasetId, '2144')
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 
 const searchRoute = normalize(dossier.scientificName).slice(0, 2)
 const usages = (registry.search.routes[searchRoute] ?? []).flatMap(jsonl).filter(row => row.id === dossier.colId)

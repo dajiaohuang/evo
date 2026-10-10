@@ -9,7 +9,6 @@ records:
     name:
       zh: 帝王蝶
       en: Monarch butterfly
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

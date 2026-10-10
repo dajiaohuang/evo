@@ -9,7 +9,6 @@ records:
     name:
       zh: Neurogymnurus indricotherii
       en: Neurogymnurus indricotherii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegialodon dawsoni
       en: Aegialodon dawsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

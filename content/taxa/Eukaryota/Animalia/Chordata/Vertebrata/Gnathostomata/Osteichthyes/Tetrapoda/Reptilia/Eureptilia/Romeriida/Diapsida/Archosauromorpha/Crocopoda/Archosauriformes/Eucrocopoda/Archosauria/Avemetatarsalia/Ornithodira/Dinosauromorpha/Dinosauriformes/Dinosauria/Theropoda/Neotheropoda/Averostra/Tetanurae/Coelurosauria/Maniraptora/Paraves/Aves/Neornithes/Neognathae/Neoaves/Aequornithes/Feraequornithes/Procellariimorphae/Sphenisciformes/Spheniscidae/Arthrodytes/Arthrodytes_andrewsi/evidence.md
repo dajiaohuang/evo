@@ -9,7 +9,6 @@ records:
     name:
       zh: Arthrodytes andrewsi
       en: Arthrodytes andrewsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

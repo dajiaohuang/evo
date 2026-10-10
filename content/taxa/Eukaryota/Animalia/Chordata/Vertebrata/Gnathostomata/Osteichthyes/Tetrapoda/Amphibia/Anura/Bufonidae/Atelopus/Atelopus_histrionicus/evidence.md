@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus histrionicus
       zh: Atelopus histrionicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes ghatei
       zh: Raorchestes ghatei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

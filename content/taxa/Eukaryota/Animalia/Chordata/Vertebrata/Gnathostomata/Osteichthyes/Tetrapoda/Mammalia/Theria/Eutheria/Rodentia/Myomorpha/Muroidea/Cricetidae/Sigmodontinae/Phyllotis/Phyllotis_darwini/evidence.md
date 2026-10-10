@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllotis darwini
       en: Phyllotis darwini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

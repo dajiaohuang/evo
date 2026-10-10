@@ -9,7 +9,6 @@ records:
     name:
       en: Tlalocohyla
       zh: Tlalocohyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

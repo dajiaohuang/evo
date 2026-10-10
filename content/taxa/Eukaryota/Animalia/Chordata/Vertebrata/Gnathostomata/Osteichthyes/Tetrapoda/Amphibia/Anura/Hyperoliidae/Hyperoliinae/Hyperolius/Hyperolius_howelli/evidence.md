@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius howelli
       zh: Hyperolius howelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

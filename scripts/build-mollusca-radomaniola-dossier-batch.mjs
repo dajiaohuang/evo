@@ -75,9 +75,7 @@ function makeDossier(t) {
       fossil: { status: 'not-assessed', claims: [], gaps: ['No fossil database or paleontological literature search was performed; no absence-of-fossils conclusion is drawn.'] },
       conservation: partial([claim(t.conservation, `Species account, pp. ${t.pages}; authors’ ecological/conservation status paragraph`, 'Author-assigned status in the 2025 taxonomic treatment; its assessment scope is limited to the account’s reported locality data.', 'Wild taxon; author assessment only, not an independently verified current formal assessment.')], ['Assessment criteria, evaluator authority, assessment date/validity, population trend and current IUCN or national registry record have not been independently verified.'])
     },
-    completeness: { status: 'incomplete', reasons: ['The identity link is exact at the archived nomenclatural record level, but species-concept equivalence is not independently reviewed.', 'Only a bounded taxonomic treatment was assessed; life history and fossil evidence remain not-assessed.', 'Biological source item-level reuse rights are unverified; all biological statements are untranslated English paraphrases.', 'Several themes have only local or study-specific partial evidence; no complete systematic search or external review was performed.'] },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null }
-  }
+    completeness: { status: 'incomplete', reasons: ['The identity link is exact at the archived nomenclatural record level, but species-concept equivalence is not independently reviewed.', 'Only a bounded taxonomic treatment was assessed; life history and fossil evidence remain not-assessed.', 'Biological source item-level reuse rights are unverified; all biological statements are untranslated English paraphrases.', 'Several themes have only local or study-specific partial evidence; no complete systematic search was performed.'] }}
 }
 
 const records = candidates.map(makeDossier)

@@ -9,7 +9,6 @@ records:
     name:
       zh: Urocotyledon wolterstorffi
       en: Urocotyledon wolterstorffi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

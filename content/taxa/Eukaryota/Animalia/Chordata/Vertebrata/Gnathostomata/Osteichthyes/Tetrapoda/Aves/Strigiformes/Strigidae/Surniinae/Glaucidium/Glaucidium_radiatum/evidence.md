@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium radiatum
       en: Glaucidium radiatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

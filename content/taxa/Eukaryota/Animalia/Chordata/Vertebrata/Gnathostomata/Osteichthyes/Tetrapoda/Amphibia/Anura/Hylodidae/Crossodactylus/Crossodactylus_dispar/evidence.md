@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylus dispar
       zh: Crossodactylus dispar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Mantella ebenaui
       zh: Mantella ebenaui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

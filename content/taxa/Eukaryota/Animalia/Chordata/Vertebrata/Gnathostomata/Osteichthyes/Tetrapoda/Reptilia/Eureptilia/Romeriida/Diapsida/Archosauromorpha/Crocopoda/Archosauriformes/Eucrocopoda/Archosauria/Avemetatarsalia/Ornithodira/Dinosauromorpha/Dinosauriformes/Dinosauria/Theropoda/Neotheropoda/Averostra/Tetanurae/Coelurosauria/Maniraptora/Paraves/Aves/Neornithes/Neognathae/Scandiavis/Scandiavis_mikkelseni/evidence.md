@@ -9,7 +9,6 @@ records:
     name:
       zh: Scandiavis mikkelseni
       en: Scandiavis mikkelseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

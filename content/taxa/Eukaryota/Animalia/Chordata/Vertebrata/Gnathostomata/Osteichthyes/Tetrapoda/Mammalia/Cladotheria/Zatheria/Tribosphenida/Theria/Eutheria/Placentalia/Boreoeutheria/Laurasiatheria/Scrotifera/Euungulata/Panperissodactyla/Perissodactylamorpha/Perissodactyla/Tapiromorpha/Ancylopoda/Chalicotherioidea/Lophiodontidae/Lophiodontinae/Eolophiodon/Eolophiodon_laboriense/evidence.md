@@ -9,7 +9,6 @@ records:
     name:
       zh: Eolophiodon laboriense
       en: Eolophiodon laboriense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

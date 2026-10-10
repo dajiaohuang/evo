@@ -9,7 +9,6 @@ records:
     name:
       zh: Primisminthus shanghenus
       en: Primisminthus shanghenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

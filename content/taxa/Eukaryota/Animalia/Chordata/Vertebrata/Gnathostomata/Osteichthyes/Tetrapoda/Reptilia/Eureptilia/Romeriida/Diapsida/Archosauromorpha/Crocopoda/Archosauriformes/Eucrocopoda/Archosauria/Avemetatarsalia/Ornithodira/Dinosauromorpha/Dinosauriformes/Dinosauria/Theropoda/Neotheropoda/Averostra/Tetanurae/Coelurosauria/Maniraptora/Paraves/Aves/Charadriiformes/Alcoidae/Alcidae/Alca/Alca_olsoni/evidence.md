@@ -9,7 +9,6 @@ records:
     name:
       zh: Alca olsoni
       en: Alca olsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

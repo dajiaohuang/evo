@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctomys sumichrasti
       en: Nyctomys sumichrasti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

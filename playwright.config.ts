@@ -26,13 +26,13 @@ export default defineConfig({
     {
       name: 'firefox-smoke',
       testIgnore: /native-runtime\.spec\.ts/,
-      grep: /@cross-browser/,
+      testMatch: '**/cross-browser.spec.ts',
       use: { ...devices['Desktop Firefox'], serviceWorkers: 'block' },
     },
     {
       name: 'webkit-smoke',
       testIgnore: /native-runtime\.spec\.ts/,
-      grep: /@cross-browser/,
+      testMatch: '**/cross-browser.spec.ts',
       use: { ...devices['Desktop Safari'], serviceWorkers: 'block' },
     },
     {

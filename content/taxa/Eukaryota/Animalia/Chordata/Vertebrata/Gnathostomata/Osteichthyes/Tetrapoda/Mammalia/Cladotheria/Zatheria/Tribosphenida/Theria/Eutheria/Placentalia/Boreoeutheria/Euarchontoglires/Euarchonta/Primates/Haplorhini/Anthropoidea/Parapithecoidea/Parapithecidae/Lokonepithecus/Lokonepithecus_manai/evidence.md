@@ -9,7 +9,6 @@ records:
     name:
       zh: Lokonepithecus manai
       en: Lokonepithecus manai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

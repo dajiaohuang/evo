@@ -9,7 +9,6 @@ records:
     name:
       zh: Calippus proplacidus
       en: Calippus proplacidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis luteogularis
       en: Anolis luteogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

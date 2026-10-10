@@ -9,7 +9,6 @@ records:
     name:
       zh: Dremomys rufigenis
       en: Dremomys rufigenis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

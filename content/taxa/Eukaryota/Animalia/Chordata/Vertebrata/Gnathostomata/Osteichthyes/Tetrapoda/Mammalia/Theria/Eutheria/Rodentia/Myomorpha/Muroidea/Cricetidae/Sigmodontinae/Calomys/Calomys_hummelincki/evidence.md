@@ -9,7 +9,6 @@ records:
     name:
       zh: Calomys hummelincki
       en: Calomys hummelincki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

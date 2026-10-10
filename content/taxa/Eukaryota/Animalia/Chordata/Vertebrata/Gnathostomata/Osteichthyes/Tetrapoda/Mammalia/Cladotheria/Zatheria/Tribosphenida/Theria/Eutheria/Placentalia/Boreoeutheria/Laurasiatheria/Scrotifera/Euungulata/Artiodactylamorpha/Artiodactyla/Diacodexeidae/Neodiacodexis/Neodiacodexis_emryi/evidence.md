@@ -9,7 +9,6 @@ records:
     name:
       zh: Neodiacodexis emryi
       en: Neodiacodexis emryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

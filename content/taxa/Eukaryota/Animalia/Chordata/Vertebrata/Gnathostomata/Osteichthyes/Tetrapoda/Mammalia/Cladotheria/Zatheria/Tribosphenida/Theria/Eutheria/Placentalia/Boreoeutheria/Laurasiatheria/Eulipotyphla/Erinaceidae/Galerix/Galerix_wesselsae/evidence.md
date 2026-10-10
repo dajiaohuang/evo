@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerix wesselsae
       en: Galerix wesselsae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

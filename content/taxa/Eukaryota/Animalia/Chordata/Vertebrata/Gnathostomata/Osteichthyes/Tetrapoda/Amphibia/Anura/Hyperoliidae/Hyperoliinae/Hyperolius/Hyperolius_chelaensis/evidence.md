@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius chelaensis
       zh: Hyperolius chelaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

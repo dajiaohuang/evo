@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus typhon
       en: Atractus typhon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

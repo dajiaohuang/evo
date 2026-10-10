@@ -9,7 +9,6 @@ records:
     name:
       zh: Chenanisuchus lateroculi
       en: Chenanisuchus lateroculi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

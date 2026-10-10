@@ -9,7 +9,6 @@ records:
     name:
       zh: Tsaotanemys parvulus
       en: Tsaotanemys parvulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

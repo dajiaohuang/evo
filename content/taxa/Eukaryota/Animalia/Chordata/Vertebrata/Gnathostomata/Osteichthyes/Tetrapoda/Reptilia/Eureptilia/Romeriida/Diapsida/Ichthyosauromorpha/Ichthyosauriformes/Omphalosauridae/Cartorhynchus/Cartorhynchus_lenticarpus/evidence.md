@@ -9,7 +9,6 @@ records:
     name:
       zh: Cartorhynchus lenticarpus
       en: Cartorhynchus lenticarpus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

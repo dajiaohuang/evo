@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinopa eximia
       en: Sinopa eximia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

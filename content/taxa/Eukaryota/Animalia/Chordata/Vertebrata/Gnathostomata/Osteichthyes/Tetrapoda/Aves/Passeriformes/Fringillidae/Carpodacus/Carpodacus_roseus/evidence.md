@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodacus roseus
       en: Carpodacus roseus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

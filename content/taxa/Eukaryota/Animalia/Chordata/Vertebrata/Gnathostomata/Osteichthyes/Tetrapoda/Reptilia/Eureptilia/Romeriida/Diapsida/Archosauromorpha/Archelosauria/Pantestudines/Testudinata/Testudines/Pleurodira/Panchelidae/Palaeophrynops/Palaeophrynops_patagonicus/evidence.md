@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeophrynops patagonicus
       en: Palaeophrynops patagonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

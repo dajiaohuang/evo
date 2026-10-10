@@ -9,7 +9,6 @@ records:
     name:
       zh: Goggia
       en: Goggia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

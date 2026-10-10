@@ -9,7 +9,6 @@ records:
     name:
       zh: Nisaetus alboniger
       en: Nisaetus alboniger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

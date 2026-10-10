@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus marintsoai
       zh: Mantidactylus marintsoai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

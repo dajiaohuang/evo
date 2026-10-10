@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus lithomimeticus
       zh: Cycloramphus lithomimeticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

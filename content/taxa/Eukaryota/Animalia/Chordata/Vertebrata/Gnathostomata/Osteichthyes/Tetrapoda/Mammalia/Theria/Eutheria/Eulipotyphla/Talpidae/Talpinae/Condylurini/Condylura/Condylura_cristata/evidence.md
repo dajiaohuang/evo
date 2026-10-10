@@ -9,7 +9,6 @@ records:
     name:
       zh: Condylura cristata
       en: Condylura cristata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scraeva hatherwoodensis
       en: Scraeva hatherwoodensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

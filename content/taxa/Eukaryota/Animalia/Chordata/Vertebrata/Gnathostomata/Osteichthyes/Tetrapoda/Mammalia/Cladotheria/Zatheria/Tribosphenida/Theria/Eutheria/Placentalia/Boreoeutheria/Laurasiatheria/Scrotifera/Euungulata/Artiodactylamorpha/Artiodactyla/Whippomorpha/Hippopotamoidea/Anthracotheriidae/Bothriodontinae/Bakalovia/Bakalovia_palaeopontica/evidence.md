@@ -9,7 +9,6 @@ records:
     name:
       zh: Bakalovia palaeopontica
       en: Bakalovia palaeopontica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

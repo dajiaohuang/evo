@@ -9,7 +9,6 @@ records:
     name:
       zh: Caiman praecursor
       en: Caiman praecursor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

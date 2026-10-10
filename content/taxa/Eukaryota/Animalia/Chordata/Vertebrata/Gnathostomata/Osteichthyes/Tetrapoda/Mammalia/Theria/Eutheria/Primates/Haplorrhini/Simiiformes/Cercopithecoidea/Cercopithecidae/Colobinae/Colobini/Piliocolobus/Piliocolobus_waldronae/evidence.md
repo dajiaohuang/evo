@@ -9,7 +9,6 @@ records:
     name:
       en: Miss Waldron's Red Colobus
       zh: 沃尔德伦红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

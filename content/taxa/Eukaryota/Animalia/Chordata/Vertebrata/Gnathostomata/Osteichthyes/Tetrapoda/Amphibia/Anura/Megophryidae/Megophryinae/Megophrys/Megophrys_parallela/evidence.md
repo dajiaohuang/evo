@@ -9,7 +9,6 @@ records:
     name:
       en: Megophrys parallela
       zh: Megophrys parallela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

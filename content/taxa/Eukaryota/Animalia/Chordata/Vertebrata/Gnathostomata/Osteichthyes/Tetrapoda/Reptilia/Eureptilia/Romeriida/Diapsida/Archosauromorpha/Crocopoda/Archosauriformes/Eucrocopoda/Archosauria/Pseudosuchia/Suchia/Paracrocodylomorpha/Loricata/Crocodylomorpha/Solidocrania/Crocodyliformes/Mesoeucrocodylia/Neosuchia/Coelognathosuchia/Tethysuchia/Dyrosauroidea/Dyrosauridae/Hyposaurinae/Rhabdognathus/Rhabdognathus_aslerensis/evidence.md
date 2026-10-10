@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdognathus aslerensis
       en: Rhabdognathus aslerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rukwanyoka holmani
       en: Rukwanyoka holmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

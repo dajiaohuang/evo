@@ -9,7 +9,6 @@ records:
     name:
       zh: Miacis parvivorus
       en: Miacis parvivorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

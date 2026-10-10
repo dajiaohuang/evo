@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaenotus orcianensis
       en: Balaenotus orcianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

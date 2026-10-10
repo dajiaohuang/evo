@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenophorus salinarum
       en: Ctenophorus salinarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

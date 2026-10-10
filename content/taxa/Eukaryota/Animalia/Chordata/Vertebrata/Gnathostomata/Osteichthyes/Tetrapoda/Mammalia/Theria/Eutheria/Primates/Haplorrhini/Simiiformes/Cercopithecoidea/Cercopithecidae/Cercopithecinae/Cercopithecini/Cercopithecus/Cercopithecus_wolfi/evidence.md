@@ -9,7 +9,6 @@ records:
     name:
       en: Wolf's monkey
       zh: 沃尔夫长尾猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: research

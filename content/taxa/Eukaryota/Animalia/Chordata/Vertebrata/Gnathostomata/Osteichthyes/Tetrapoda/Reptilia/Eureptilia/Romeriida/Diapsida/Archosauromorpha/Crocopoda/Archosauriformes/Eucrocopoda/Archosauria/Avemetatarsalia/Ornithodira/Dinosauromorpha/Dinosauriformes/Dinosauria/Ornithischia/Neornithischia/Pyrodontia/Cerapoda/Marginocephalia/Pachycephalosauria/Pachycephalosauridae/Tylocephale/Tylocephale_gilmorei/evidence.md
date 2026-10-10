@@ -9,7 +9,6 @@ records:
     name:
       zh: Tylocephale gilmorei
       en: Tylocephale gilmorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyrrhinus brachycephalus
       en: Platyrrhinus brachycephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucopeza semperi
       en: Leucopeza semperi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

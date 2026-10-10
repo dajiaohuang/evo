@@ -9,7 +9,6 @@ records:
     name:
       zh: Protosiren smithae
       en: Protosiren smithae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

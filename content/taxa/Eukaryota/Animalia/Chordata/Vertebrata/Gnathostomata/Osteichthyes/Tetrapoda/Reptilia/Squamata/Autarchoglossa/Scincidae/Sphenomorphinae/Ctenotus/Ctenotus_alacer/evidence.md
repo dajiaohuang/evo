@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus alacer
       en: Ctenotus alacer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

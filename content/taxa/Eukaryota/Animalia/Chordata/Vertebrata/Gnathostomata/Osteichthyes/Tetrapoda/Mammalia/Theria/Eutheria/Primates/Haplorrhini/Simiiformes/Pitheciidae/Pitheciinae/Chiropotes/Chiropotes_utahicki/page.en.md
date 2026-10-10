@@ -28,5 +28,5 @@ A 2002 thesis followed one 24-member group identified at the time as C. satanas 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The 1998 transects used the historical trinomial C. satanas utahicki and had different effort and seasonal coverage at the two sites. The diet record concerns one island group and limited periods, not species-wide diet or behavior. MDD records only Brazil at country level. COL26.8 ID 84HTH fixes page identity; the Chinese display name is editorial. No dossier or external expert review was added. This page is not externally expert-reviewed.
+The 1998 transects used the historical trinomial C. satanas utahicki and had different effort and seasonal coverage at the two sites. The diet record concerns one island group and limited periods, not species-wide diet or behavior. MDD records only Brazil at country level. COL26.8 ID 84HTH fixes page identity; the Chinese display name is editorial. This page is.
 <!-- /evo:text -->

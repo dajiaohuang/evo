@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis atratus
       en: Pholidoscelis atratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

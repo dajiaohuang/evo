@@ -9,7 +9,6 @@ records:
     name:
       zh: Domninoides valentinensis
       en: Domninoides valentinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

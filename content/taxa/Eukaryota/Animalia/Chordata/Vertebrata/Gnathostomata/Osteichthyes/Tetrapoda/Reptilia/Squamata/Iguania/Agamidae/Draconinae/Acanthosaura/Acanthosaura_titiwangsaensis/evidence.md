@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthosaura titiwangsaensis
       en: Acanthosaura titiwangsaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

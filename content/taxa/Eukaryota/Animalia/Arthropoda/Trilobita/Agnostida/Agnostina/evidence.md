@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: moysiuk-caron-2019-agnostids; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: moysiuk-caron-2019-agnostids
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: moysiuk-caron-2019-agnostids
           locator: 20182314; Figures 1–4; Supplementary phylogeny; Adult specimens; Appendage reconstruction; Phylogenetic analysis
-      reviewStatus: automated-audit-passed
 ---
 
 # Agnostina

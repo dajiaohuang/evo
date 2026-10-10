@@ -9,8 +9,7 @@
     "authors",
     "type",
     "sourceRole",
-    "fitnessFor",
-    "metadataAssignment"
+    "fitnessFor"
   ],
   "properties": {
     "id": {
@@ -44,7 +43,8 @@
         "recorded",
         "incomplete-verbatim",
         "unresolved",
-        "complete-verbatim"
+        "complete-verbatim",
+        "verified-from-primary-front-page"
       ]
     },
     "authorsVerbatim": {
@@ -108,7 +108,34 @@
         "unclassified",
         "assessment",
         "taxonomic-assessment",
-        "institutional-species-account"
+        "institutional-species-account",
+        "anatomical-redescription",
+        "author-correction",
+        "bone-histology-and-growth-study",
+        "comparative-anatomy",
+        "comparative-reassessment",
+        "comparative-response",
+        "cranial-redescription",
+        "developmental-analysis",
+        "holotype-osteology-and-functional-interpretation",
+        "later-dentary-abstract",
+        "national-conservation-assessment",
+        "nomenclatural-correction",
+        "original-anatomical-description",
+        "original-description",
+        "original-species-description",
+        "phylogenetic-reassessment",
+        "primary",
+        "primary-taxonomic-description",
+        "referred-specimen-osteology",
+        "secondary-species-compilation",
+        "specimen-anatomy-and-phylogeny",
+        "specimen-description",
+        "specimen-redescription",
+        "specimen-redescription-and-phylogeny",
+        "taxonomic-literature-review",
+        "taxonomic-review",
+        "taxonomic-revision"
       ]
     },
     "fitnessFor": {
@@ -149,18 +176,28 @@
           "development",
           "health",
           "lifeHistory",
-          "appearance"
+          "appearance",
+          "assessment-uncertainty",
+          "comparative-size-estimate",
+          "comparative-wingspan-estimate",
+          "dated-national-assessment",
+          "dated-phylogenetic-treatment",
+          "explicit-data-gaps",
+          "feeding-hypotheses",
+          "field-methods",
+          "geological-context",
+          "historical-habitat-summary",
+          "historical-morphology-summary",
+          "holotype-anatomy",
+          "holotype-description",
+          "nomenclature",
+          "palaeobiology",
+          "phylogenetic-analyses",
+          "phylogeny",
+          "specimen-preservation",
+          "stratigraphic-uncertainty"
         ]
       }
-    },
-    "metadataAssignment": {
-      "enum": [
-        "automated",
-        "curator-reviewed",
-        "manual",
-        "manual-source-review",
-        "editorial"
-      ]
     },
     "url": {
       "type": "string",
@@ -202,6 +239,145 @@
     "license": {
       "type": "string",
       "minLength": 1
+    },
+    "journal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publicationDateBasis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "articleNumber": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authorNameBasis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licenseEvidenceUrl": {
+      "type": "string",
+      "minLength": 1
+    },
+    "volume": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "integer",
+          "minimum": 0
+        }
+      ]
+    },
+    "issue": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "integer",
+          "minimum": 0
+        }
+      ]
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "publishedOnline": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "firstPublishedOnlineAt": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "publicationMonth": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2100
+    },
+    "publicationDatePrecision": {
+      "enum": [
+        "year",
+        "month",
+        "day"
+      ]
+    },
+    "publishedPrintDateParts": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "importedMetadataVariants": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "metadataCorrection": {
+      "type": "object",
+      "required": [
+        "date",
+        "reason",
+        "metadataSource"
+      ],
+      "properties": {
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "metadataSource": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "previousDoi": {
+          "type": "string",
+          "minLength": 1
+        },
+        "correctedDoi": {
+          "type": "string",
+          "minLength": 1
+        },
+        "authorNameBoundary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scientificBoundary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retainedImportedMetadataVariant": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "correctedImportedMetadataVariant": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

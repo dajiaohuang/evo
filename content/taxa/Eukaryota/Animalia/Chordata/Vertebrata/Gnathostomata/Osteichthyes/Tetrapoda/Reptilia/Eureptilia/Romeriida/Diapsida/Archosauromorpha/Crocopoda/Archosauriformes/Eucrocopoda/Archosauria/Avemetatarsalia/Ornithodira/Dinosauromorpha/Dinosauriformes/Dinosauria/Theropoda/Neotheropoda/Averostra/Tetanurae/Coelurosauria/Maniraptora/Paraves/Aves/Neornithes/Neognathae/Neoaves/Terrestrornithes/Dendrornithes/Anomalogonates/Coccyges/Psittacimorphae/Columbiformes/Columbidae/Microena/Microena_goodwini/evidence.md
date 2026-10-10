@@ -9,7 +9,6 @@ records:
     name:
       zh: Microena goodwini
       en: Microena goodwini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

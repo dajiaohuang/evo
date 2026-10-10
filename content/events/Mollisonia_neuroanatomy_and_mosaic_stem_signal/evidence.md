@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ortega-hernandez-2022-mollisonia-neuroanatomy source inventory at 2026.08-static-v5-rc31
       referenceLinks:
         - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus triseriatus
       en: Crotalus triseriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

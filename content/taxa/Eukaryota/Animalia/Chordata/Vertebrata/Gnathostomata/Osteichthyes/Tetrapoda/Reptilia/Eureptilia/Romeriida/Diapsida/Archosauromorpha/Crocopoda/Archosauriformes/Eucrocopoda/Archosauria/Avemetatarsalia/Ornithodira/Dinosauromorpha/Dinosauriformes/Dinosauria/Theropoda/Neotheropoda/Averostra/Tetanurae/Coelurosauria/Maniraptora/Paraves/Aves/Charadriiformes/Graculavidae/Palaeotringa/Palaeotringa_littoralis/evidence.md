@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeotringa littoralis
       en: Palaeotringa littoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

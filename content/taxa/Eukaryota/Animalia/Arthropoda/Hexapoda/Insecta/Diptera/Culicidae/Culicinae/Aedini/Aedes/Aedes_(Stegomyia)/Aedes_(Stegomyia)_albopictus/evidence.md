@@ -154,10 +154,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Aedes (Stegomyia) albopictus
@@ -285,5 +281,5 @@ Only one bounded laboratory host-choice result was reviewed; six facets remain n
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No systematic species-wide evidence search or external expert review was completed.
+No systematic species-wide evidence search was completed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Muriquis
       zh: 绒毛蛛猴属
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana sinica
       zh: Odorrana sinica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

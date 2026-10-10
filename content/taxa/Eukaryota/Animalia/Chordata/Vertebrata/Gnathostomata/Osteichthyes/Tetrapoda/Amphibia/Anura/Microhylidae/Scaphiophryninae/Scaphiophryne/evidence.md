@@ -9,7 +9,6 @@ records:
     name:
       en: Scaphiophryne
       zh: Scaphiophryne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

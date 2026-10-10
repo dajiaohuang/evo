@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola anonymus
       en: Cisticola anonymus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

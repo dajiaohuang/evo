@@ -9,7 +9,6 @@ records:
     name:
       zh: Acontias fitzsimonsi
       en: Acontias fitzsimonsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ Silva and colleagues described the Kanamari white uacari in a 2022 systematic st
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked taxonomic description; not externally expert-reviewed. The cited type locality does not establish the species’ complete distribution, population size or habitat requirements.
+Source-linked taxonomic description;. The cited type locality does not establish the species’ complete distribution, population size or habitat requirements.
 <!-- /evo:text -->

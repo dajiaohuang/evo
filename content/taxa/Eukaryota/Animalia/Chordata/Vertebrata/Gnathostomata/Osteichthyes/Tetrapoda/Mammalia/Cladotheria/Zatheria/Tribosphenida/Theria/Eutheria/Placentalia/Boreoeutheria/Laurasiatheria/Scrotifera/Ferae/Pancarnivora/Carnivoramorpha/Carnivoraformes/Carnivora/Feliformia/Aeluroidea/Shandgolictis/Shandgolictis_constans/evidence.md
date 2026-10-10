@@ -9,7 +9,6 @@ records:
     name:
       zh: Shandgolictis constans
       en: Shandgolictis constans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

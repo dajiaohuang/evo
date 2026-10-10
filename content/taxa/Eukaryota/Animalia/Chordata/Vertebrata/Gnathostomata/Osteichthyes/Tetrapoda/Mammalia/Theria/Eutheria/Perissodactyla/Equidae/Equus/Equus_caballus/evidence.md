@@ -9,7 +9,6 @@ records:
     name:
       zh: 家马
       en: Domestic horse
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

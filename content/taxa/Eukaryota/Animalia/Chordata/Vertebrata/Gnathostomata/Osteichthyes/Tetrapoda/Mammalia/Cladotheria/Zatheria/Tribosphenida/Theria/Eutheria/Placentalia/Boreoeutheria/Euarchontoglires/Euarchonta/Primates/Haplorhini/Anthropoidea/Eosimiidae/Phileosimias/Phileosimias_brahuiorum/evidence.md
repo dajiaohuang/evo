@@ -9,7 +9,6 @@ records:
     name:
       zh: Phileosimias brahuiorum
       en: Phileosimias brahuiorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

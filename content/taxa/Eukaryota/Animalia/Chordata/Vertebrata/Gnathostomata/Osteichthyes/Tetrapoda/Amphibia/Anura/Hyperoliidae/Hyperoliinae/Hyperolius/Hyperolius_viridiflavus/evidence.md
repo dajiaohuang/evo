@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius viridiflavus
       zh: Hyperolius viridiflavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

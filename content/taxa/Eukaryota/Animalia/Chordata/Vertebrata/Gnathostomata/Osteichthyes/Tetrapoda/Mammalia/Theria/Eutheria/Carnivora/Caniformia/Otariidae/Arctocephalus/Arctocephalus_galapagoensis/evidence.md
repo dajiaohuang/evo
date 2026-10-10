@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctocephalus galapagoensis
       en: Arctocephalus galapagoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

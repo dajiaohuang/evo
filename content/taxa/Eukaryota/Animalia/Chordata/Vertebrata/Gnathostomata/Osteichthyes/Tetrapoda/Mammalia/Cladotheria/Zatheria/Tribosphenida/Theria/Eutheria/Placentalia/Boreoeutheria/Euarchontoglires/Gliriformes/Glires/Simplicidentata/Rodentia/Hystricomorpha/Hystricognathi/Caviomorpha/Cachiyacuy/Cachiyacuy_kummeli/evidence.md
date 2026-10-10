@@ -9,7 +9,6 @@ records:
     name:
       zh: Cachiyacuy kummeli
       en: Cachiyacuy kummeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

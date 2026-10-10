@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidonophis montanus
       en: Tropidonophis montanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius watsonae
       zh: Hyperolius watsonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

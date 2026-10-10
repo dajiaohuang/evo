@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia truncata
       zh: Caecilia truncata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

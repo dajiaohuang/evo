@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus pedimarmoratus
       zh: Atelopus pedimarmoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

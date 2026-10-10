@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetops frenatus
       en: Chaetops frenatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegolius acadicus
       en: Aegolius acadicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

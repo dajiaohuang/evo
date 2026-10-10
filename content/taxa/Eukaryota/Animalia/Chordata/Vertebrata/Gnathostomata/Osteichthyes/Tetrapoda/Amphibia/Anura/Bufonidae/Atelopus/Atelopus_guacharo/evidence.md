@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus guacharo
       zh: Atelopus guacharo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

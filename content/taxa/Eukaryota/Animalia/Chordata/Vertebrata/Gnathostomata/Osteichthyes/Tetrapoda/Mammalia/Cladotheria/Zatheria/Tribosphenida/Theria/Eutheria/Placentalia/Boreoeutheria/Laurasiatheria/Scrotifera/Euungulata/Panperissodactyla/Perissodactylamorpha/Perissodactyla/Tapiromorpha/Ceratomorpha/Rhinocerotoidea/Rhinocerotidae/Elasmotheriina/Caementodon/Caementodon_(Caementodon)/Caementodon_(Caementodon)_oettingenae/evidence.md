@@ -9,7 +9,6 @@ records:
     name:
       zh: Caementodon (Caementodon) oettingenae
       en: Caementodon (Caementodon) oettingenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops robustus
       zh: Callulops robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Margaretamys beccarii
       en: Margaretamys beccarii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

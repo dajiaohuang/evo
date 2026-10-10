@@ -9,7 +9,6 @@ records:
     name:
       zh: Discolomys
       en: Discolomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

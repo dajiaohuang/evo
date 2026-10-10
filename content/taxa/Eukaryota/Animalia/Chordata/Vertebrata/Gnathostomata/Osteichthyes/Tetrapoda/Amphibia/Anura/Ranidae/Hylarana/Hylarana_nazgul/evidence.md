@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana nazgul
       zh: Hylarana nazgul
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

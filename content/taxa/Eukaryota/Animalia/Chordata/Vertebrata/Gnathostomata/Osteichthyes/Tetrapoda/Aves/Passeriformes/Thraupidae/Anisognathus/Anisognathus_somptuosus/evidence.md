@@ -9,7 +9,6 @@ records:
     name:
       zh: Anisognathus somptuosus
       en: Anisognathus somptuosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

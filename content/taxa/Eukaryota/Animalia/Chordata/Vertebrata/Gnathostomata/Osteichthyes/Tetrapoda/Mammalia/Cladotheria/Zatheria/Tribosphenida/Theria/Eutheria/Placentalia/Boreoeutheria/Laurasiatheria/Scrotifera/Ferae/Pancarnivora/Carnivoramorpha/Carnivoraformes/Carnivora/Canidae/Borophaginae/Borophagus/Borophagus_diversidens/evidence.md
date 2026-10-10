@@ -9,7 +9,6 @@ records:
     name:
       zh: Borophagus diversidens
       en: Borophagus diversidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

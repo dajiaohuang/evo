@@ -9,7 +9,6 @@ records:
     name:
       zh: Sonora cincta
       en: Sonora cincta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

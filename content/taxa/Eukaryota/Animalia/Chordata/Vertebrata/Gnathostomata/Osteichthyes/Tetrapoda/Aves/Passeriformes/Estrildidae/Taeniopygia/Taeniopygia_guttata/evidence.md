@@ -9,7 +9,6 @@ records:
     name:
       zh: 斑胸草雀
       en: Zebra finch
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -506,10 +505,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Taeniopygia guttata
@@ -655,7 +650,7 @@ Only one bounded comparative-genomics study was assessed for evolution; six face
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-A systematic literature search and external expert review have not been completed.
+A systematic literature search has not been completed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons

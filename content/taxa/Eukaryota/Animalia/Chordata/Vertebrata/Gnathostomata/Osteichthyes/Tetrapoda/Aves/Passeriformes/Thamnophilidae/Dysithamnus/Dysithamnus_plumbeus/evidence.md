@@ -9,7 +9,6 @@ records:
     name:
       zh: Dysithamnus plumbeus
       en: Dysithamnus plumbeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

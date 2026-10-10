@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex alpinus
       en: Sorex alpinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

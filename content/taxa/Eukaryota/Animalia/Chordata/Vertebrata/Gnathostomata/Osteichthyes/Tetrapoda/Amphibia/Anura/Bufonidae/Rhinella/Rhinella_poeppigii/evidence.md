@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella poeppigii
       zh: Rhinella poeppigii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

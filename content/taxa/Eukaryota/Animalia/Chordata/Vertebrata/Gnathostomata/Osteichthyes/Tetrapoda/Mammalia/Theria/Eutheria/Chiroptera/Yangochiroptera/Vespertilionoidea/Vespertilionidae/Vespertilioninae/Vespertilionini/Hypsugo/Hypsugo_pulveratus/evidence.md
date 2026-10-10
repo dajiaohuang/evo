@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsugo pulveratus
       en: Hypsugo pulveratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

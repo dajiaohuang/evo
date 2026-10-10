@@ -9,7 +9,6 @@ records:
     name:
       en: Cardioglossa occidentalis
       zh: Cardioglossa occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

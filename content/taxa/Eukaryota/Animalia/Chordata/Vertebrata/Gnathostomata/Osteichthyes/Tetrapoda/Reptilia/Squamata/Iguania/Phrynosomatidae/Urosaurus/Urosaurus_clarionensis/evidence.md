@@ -9,7 +9,6 @@ records:
     name:
       zh: Urosaurus clarionensis
       en: Urosaurus clarionensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

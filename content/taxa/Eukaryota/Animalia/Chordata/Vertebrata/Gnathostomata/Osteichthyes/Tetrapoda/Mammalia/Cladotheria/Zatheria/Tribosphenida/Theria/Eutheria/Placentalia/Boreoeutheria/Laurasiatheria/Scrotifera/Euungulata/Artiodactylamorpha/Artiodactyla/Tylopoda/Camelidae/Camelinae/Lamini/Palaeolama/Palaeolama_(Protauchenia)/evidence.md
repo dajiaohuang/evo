@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeolama (Protauchenia)
       en: Palaeolama (Protauchenia)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

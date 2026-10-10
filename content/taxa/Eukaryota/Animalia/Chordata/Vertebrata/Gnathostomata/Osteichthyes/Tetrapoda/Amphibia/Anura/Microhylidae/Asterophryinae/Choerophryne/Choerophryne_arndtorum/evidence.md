@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne arndtorum
       zh: Choerophryne arndtorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

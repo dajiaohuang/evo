@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophilus multistriatus
       en: Thamnophilus multistriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

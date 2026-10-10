@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctibius leucopterus
       en: Nyctibius leucopterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena christyi
       zh: Ptychadena christyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

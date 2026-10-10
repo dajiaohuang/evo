@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus erythropus
       zh: Atelopus erythropus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

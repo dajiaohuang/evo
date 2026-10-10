@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiagra rubecula
       en: Myiagra rubecula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

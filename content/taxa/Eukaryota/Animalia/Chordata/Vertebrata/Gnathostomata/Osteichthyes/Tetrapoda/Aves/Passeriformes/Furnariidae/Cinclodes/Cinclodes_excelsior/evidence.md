@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinclodes excelsior
       en: Cinclodes excelsior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

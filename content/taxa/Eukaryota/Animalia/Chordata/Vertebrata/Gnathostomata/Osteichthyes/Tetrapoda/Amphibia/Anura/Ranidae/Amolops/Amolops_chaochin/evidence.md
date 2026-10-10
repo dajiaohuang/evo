@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops chaochin
       zh: Amolops chaochin
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

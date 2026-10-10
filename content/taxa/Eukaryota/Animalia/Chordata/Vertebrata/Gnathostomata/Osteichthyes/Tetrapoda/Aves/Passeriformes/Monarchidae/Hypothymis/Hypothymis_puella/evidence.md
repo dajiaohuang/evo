@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypothymis puella
       en: Hypothymis puella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

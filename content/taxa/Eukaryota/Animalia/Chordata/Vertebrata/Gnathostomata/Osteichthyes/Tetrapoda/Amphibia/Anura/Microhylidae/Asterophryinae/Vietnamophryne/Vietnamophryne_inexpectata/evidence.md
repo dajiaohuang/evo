@@ -9,7 +9,6 @@ records:
     name:
       en: Vietnamophryne inexpectata
       zh: Vietnamophryne inexpectata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

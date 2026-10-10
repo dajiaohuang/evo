@@ -9,7 +9,6 @@ records:
     name:
       zh: Antecalomys phthanus
       en: Antecalomys phthanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

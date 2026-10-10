@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthobaphes violacea
       en: Anthobaphes violacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

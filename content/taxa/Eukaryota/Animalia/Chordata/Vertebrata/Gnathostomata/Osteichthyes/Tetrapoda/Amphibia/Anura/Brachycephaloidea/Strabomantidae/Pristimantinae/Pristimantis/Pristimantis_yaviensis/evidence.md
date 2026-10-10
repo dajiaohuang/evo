@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis yaviensis
       zh: Pristimantis yaviensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

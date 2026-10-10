@@ -9,7 +9,6 @@ records:
     name:
       zh: Philemon inornatus
       en: Philemon inornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

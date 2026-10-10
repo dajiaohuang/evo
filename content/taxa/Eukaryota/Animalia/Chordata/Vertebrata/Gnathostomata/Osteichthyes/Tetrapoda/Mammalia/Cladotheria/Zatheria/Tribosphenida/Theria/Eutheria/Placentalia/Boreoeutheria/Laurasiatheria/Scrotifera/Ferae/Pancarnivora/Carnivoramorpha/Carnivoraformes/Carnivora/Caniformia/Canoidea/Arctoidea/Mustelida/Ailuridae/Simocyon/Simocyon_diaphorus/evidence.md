@@ -9,7 +9,6 @@ records:
     name:
       zh: Simocyon diaphorus
       en: Simocyon diaphorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

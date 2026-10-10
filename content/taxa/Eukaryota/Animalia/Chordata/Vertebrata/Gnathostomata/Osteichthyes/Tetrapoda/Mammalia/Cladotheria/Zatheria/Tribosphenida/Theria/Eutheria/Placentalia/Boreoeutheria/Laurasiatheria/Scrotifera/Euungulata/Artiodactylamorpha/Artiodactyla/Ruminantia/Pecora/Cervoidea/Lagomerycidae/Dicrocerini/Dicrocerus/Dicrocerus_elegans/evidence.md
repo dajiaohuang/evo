@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicrocerus elegans
       en: Dicrocerus elegans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Saproscincus lewisi
       en: Saproscincus lewisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

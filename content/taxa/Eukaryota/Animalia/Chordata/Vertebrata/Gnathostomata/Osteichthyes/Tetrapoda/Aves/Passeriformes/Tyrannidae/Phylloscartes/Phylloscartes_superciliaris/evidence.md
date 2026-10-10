@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscartes superciliaris
       en: Phylloscartes superciliaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

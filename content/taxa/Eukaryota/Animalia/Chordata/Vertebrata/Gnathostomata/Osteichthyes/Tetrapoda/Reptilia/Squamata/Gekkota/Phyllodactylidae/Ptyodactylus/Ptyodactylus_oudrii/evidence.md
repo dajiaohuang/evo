@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptyodactylus oudrii
       en: Ptyodactylus oudrii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

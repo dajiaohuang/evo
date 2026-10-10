@@ -9,7 +9,6 @@ records:
     name:
       zh: 川金丝猴
       en: Sichuan golden snub-nosed monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution
@@ -630,12 +629,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Rhinopithecus roxellana
@@ -830,10 +823,4 @@ One focused primary source supports a bounded claim in distribution only.
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The other six scientific facets remain explicitly not assessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

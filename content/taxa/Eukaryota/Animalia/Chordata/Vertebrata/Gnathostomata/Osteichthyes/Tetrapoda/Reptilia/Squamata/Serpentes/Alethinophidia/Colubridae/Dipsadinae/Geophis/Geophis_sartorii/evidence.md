@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis sartorii
       en: Geophis sartorii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

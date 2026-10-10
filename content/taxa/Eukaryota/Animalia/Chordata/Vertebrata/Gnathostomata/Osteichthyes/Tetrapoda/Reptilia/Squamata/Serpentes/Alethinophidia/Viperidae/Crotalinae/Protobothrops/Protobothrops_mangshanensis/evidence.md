@@ -9,7 +9,6 @@ records:
     name:
       zh: Protobothrops mangshanensis
       en: Protobothrops mangshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

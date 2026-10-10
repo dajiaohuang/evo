@@ -9,7 +9,6 @@ records:
     name:
       en: Aphantophryne
       zh: Aphantophryne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

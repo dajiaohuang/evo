@@ -9,7 +9,6 @@ records:
     name:
       en: Chlorohyla gracilenta
       zh: Chlorohyla gracilenta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

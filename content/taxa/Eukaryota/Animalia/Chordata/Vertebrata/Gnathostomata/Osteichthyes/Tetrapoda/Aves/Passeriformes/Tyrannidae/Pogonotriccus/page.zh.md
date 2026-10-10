@@ -10,7 +10,7 @@ status: source-linked
 ## 两张名称表都沿 Phylloscartes 查找
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-本入口按 COL26.8 Pogonotriccus（CQWQQ）与 Tyrannidae（HMW）组织七条历史导读。BirdLife 用当前页名，eBird 与 BirdTree 均用各自 Phylloscartes 旧组合；两表类型分别一对一，BirdLife／eBird 的 Avibase ID 分别相同。七个逐字旧组合均有指向当前接受 ID 的目录异名，仍不证明不同年代物种范围完全相同。属记录九个直接子项，本批七页不计完整属覆盖、完整自然史或专家审评。
+本入口按 COL26.8 Pogonotriccus（CQWQQ）与 Tyrannidae（HMW）组织七条历史导读。BirdLife 用当前页名，eBird 与 BirdTree 均用各自 Phylloscartes 旧组合；两表类型分别一对一，BirdLife／eBird 的 Avibase ID 分别相同。七个逐字旧组合均有指向当前接受 ID 的目录异名，仍不证明不同年代物种范围完全相同。属记录九个直接子项，本批七页不计完整属覆盖、完整自然史。
 <!-- /evo:text -->
 
 ## 十七只总数与四套完整测量分开
@@ -38,5 +38,5 @@ venezuelanus 三只雌一雄一未定一，完整二；lanyoni 三只雌二雄�
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-七条所选历史行与逐字 Phylloscartes 异名不计九个目录子项的完整内容。两张旧名表、总鸟数、完整测量、性别未定鸟与独立体重保留各自范围；森林、植被密度和活动类别分开，不补取食动作、准确层位、繁殖、当前地图、完整自然史或专家审评。
+七条所选历史行与逐字 Phylloscartes 异名不计九个目录子项的完整内容。两张旧名表、总鸟数、完整测量、性别未定鸟与独立体重保留各自范围；森林、植被密度和活动类别分开，不补取食动作、准确层位、繁殖、当前地图、完整自然史。
 <!-- /evo:text -->

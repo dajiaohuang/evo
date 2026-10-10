@@ -9,7 +9,6 @@ records:
     name:
       zh: Metaparamys compressidens
       en: Metaparamys compressidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

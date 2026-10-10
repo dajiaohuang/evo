@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates pereger
       zh: Oreobates pereger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

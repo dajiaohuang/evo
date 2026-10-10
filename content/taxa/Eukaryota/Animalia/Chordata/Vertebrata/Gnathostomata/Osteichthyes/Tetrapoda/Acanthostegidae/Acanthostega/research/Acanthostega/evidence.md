@@ -61,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: coates-1990-polydactyly; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: coates-1990-polydactyly
@@ -81,9 +78,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Coates and Clack 1990 DOI 10.1038/347066a0
       referenceLinks:
         - referenceId: coates-1990-polydactyly
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Coates and Clack 1990 DOI 10.1038/347066a0
       referenceLinks:
         - referenceId: coates-1990-polydactyly
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Coates and Clack 1990 DOI 10.1038/347066a0
       referenceLinks:
         - referenceId: coates-1990-polydactyly
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Coates and Clack 1990 DOI 10.1038/347066a0
       referenceLinks:
         - referenceId: coates-1990-polydactyly
           relation: supports
@@ -195,7 +180,6 @@ records:
       referenceLocators:
         - referenceId: coates-1990-polydactyly
           locator: pp. 66–69; Figures 1–3
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Acanthostegidae/Acanthostega/research/Acanthostega
       rangeKind: taxon-range
@@ -221,7 +205,6 @@ records:
       referenceLocators:
         - referenceId: coates-1990-polydactyly
           locator: pp. 66–69; Figures 1–3
-      reviewStatus: automated-audit-passed
 ---
 
 # Acanthostega

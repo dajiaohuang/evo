@@ -9,7 +9,6 @@ records:
     name:
       zh: Machlydotherium intortum
       en: Machlydotherium intortum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

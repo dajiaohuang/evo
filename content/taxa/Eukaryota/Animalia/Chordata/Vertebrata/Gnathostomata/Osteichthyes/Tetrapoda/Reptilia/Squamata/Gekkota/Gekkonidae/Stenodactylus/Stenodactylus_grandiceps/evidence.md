@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenodactylus grandiceps
       en: Stenodactylus grandiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

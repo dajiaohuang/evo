@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodacus edwardsii
       en: Carpodacus edwardsii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lpwg-2017-legume-classification
       referenceLinks:
         - referenceId: lpwg-2017-legume-classification
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Lyson et al. 2019 DOI 10.1126/science.aay2268
       referenceLinks:
         - referenceId: lyson-2019-corral-bluffs-recovery
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Lyson et al. 2019 DOI 10.1126/science.aay2268
       referenceLinks:
         - referenceId: lyson-2019-corral-bluffs-recovery
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Lyson et al. 2019 DOI 10.1126/science.aay2268; Koenen et al. 2021 DOI 10.1093/sysbio/syaa041
       referenceLinks:
         - referenceId: lyson-2019-corral-bluffs-recovery
           relation: supports
@@ -147,9 +135,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lyson-2019-corral-bluffs-recovery locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: lyson-2019-corral-bluffs-recovery
@@ -208,7 +193,6 @@ records:
           locator: 977–983; Figure 3J–K; supplementary stratigraphy; 65.35 Ma legume fruit and leaflets
         - referenceId: koenen-2021-legume-origin
           locator: 508–526; Introduction; divergence-time methods and discussion of the oldest unequivocal legume fossil
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

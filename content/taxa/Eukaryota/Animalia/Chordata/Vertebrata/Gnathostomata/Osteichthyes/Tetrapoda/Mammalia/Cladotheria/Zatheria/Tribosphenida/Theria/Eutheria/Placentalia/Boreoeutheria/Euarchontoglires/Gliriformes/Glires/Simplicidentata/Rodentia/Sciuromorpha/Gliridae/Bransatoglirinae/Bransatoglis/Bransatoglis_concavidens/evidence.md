@@ -9,7 +9,6 @@ records:
     name:
       zh: Bransatoglis concavidens
       en: Bransatoglis concavidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

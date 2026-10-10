@@ -28,5 +28,5 @@ The study compared forest access for two groups of the same species; it was not 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Ecological findings come from one Quebrada Blanco site, one 2011 seasonal window and two groups. Both the older genus name and the pinned COL combination are retained in source context. The MDD v2.5 Saguinus subgenus row has no exact join to the COL ID. Not externally reviewed. This page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+Ecological findings come from one Quebrada Blanco site, one 2011 seasonal window and two groups. Both the older genus name and the pinned COL combination are retained in source context. The MDD v2.5 Saguinus subgenus row has no exact join to the COL ID. Not externally reviewed. This page has not been. This page is.
 <!-- /evo:text -->

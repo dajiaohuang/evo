@@ -9,7 +9,6 @@ records:
     name:
       zh: Erpetosuchus
       en: Erpetosuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

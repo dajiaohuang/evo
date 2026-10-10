@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicrurus sumatranus
       en: Dicrurus sumatranus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

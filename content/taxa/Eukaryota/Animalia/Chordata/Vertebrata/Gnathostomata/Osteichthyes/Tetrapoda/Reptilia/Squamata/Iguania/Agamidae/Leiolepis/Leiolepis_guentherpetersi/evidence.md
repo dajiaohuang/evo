@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiolepis guentherpetersi
       en: Leiolepis guentherpetersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura macmillani
       en: Crocidura macmillani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

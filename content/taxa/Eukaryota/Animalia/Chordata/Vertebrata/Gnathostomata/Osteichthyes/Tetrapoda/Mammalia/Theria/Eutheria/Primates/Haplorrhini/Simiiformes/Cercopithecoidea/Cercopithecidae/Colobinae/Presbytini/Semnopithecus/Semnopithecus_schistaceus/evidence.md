@@ -9,7 +9,6 @@ records:
     name:
       en: Nepal Sacred Langur
       zh: 尼泊尔神圣叶猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

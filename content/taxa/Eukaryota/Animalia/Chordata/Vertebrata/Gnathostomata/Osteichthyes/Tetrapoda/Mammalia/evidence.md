@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: luo-2002-mesozoic-mammal-phylogeny + bi-2014-euharamiyidans concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: luo-2002-mesozoic-mammal-phylogeny
@@ -51,9 +48,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bi-2014-euharamiyidans @ DOI 10.1038/nature13718
       referenceLinks:
         - relation: supports
           referenceId: bi-2014-euharamiyidans
@@ -100,7 +94,6 @@ records:
           locator: 579–584; Mammalia phylogeny and alternative placement discussion
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   classification-support:
     - support: moderate
@@ -120,7 +113,6 @@ records:
     name:
       zh: Mammalia
       en: Mammalia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

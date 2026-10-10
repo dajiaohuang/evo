@@ -9,7 +9,6 @@ records:
     name:
       zh: Dearcmhara shawcrossi
       en: Dearcmhara shawcrossi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

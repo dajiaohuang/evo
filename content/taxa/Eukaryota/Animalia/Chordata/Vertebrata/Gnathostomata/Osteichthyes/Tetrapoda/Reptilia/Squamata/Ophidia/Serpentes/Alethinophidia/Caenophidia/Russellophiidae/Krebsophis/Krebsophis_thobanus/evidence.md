@@ -9,7 +9,6 @@ records:
     name:
       zh: Krebsophis thobanus
       en: Krebsophis thobanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

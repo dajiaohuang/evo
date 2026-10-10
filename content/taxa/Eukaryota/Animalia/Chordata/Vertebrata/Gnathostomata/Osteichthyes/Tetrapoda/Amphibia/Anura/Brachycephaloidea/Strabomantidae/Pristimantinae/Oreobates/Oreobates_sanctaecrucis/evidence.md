@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates sanctaecrucis
       zh: Oreobates sanctaecrucis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchophylla bokermanni
       en: Lonchophylla bokermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

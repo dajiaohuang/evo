@@ -9,7 +9,6 @@ records:
     name:
       zh: Macgregoria pulchra
       en: Macgregoria pulchra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

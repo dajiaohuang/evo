@@ -9,7 +9,6 @@ records:
     name:
       en: Julianus fontanarrosai
       zh: Julianus fontanarrosai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris regius
       en: Cinnyris regius
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

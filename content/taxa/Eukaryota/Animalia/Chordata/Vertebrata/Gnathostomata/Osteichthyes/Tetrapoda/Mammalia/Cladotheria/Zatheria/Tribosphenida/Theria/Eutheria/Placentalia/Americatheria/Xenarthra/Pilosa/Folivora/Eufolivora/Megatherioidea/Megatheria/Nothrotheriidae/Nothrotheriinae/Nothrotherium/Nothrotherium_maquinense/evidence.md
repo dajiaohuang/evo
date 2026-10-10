@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothrotherium maquinense
       en: Nothrotherium maquinense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

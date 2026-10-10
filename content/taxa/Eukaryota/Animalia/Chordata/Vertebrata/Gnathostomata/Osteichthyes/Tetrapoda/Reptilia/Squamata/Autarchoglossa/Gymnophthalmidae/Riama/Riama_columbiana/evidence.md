@@ -9,7 +9,6 @@ records:
     name:
       zh: Riama columbiana
       en: Riama columbiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

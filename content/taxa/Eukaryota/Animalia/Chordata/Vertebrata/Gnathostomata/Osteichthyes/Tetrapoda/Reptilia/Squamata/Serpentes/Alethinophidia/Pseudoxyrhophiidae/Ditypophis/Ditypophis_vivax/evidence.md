@@ -9,7 +9,6 @@ records:
     name:
       zh: Ditypophis vivax
       en: Ditypophis vivax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

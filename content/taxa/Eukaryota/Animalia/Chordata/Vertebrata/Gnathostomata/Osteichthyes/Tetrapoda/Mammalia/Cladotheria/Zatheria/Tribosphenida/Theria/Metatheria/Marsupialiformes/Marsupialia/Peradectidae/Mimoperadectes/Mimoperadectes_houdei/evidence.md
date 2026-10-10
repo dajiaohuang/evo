@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimoperadectes houdei
       en: Mimoperadectes houdei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

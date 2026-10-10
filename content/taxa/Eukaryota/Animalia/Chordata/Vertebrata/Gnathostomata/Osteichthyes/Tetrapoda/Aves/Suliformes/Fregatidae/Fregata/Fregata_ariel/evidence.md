@@ -9,7 +9,6 @@ records:
     name:
       zh: Fregata ariel
       en: Fregata ariel
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

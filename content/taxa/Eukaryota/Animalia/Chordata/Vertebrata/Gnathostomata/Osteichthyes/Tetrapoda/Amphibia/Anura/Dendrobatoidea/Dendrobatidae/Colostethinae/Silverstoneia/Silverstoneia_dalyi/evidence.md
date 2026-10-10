@@ -9,7 +9,6 @@ records:
     name:
       en: Silverstoneia dalyi
       zh: Silverstoneia dalyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

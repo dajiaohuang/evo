@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplodactylus ameyi
       en: Diplodactylus ameyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

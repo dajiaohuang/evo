@@ -16,5 +16,5 @@ Across the 2 Cebuella rows in Supplementary Table S1, range-map overlaps sum to:
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a genus-level guide to the matrix in Supplementary Table S1 of Mourthé et al. (2022), not a complete natural-history or range review. Range-map overlap is not point-level field confirmation; main-text Table 2 has inconsistent 80/81 totals and 57%/58% reporting. This guide is not externally expert-reviewed.
+This is a genus-level guide to the matrix in Supplementary Table S1 of Mourthé et al. (2022), not a complete natural-history or range review. Range-map overlap is not point-level field confirmation; main-text Table 2 has inconsistent 80/81 totals and 57%/58% reporting. This guide is.
 <!-- /evo:text -->

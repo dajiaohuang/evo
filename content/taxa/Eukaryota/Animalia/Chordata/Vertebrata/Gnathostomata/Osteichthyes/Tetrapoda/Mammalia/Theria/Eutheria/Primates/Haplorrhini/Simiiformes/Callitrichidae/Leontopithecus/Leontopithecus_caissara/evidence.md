@@ -9,7 +9,6 @@ records:
     name:
       en: Black-faced Lion Tamarin
       zh: 黑脸狮面狨
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

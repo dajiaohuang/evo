@@ -9,7 +9,6 @@ records:
     name:
       zh: Neotetracus sinensis
       en: Neotetracus sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Stereocyclops histrio
       zh: Stereocyclops histrio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

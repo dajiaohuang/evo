@@ -9,7 +9,6 @@ records:
     name:
       zh: Cardinalis sinuatus
       en: Cardinalis sinuatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

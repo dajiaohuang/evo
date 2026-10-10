@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops kohimaensis
       zh: Amolops kohimaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Isolobodon
       en: Isolobodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

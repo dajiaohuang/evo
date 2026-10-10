@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptophis nigrostriatus
       en: Cryptophis nigrostriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

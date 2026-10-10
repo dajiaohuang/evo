@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypogramma hypogrammicum
       en: Hypogramma hypogrammicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

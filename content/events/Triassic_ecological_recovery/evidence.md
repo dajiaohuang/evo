@@ -111,9 +111,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-19
-      reviewedAgainstReferenceVersion: chen-2012-triassic-recovery @ DOI 10.1038/ngeo1475
       referenceLinks:
         - relation: supports
           referenceId: chen-2012-triassic-recovery

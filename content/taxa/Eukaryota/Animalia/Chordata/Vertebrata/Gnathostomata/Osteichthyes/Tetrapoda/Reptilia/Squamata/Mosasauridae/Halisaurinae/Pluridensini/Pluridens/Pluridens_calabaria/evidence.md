@@ -9,7 +9,6 @@ records:
     name:
       zh: Pluridens calabaria
       en: Pluridens calabaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

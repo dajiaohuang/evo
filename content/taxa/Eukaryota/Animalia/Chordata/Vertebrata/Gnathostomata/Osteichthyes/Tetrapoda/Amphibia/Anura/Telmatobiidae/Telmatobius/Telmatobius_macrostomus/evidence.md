@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius macrostomus
       zh: Telmatobius macrostomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

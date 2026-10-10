@@ -9,7 +9,6 @@ records:
     name:
       en: Peltophryne taladai
       zh: Peltophryne taladai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

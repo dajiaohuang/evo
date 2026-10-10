@@ -9,7 +9,6 @@ records:
     name:
       zh: Ochthoeca piurae
       en: Ochthoeca piurae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremias szczerbaki
       en: Eremias szczerbaki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

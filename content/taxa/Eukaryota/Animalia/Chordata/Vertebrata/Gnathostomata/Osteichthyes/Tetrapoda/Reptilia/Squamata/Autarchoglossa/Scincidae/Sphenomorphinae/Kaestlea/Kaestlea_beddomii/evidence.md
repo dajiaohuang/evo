@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaestlea beddomii
       en: Kaestlea beddomii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

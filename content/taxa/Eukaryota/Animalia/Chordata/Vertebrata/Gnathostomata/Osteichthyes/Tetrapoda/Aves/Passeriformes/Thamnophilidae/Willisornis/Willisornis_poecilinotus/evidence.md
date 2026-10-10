@@ -9,7 +9,6 @@ records:
     name:
       zh: Willisornis poecilinotus
       en: Willisornis poecilinotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

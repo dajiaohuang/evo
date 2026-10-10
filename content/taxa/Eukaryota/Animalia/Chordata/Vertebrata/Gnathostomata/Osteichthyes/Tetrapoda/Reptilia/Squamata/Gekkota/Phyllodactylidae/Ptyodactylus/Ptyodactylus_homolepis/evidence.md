@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptyodactylus homolepis
       en: Ptyodactylus homolepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

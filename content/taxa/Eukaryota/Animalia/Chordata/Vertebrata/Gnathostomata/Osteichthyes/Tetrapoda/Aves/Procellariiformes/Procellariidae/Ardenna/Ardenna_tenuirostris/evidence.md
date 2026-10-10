@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardenna tenuirostris
       en: Ardenna tenuirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

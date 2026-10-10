@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreonympha nobilis
       en: Oreonympha nobilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

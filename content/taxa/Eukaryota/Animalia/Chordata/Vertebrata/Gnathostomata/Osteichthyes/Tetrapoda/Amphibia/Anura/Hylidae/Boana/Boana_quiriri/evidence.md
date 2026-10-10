@@ -9,7 +9,6 @@ records:
     name:
       en: Boana quiriri
       zh: Boana quiriri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -10,7 +10,6 @@ records:
     name:
       en: Olive colobus genus
       zh: 橄榄叶猴属
-    reviewStatus: source-linked
     sections:
       - topic: readingPath
         text:

@@ -9,7 +9,6 @@ records:
     name:
       en: Diasporus igneus
       zh: Diasporus igneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

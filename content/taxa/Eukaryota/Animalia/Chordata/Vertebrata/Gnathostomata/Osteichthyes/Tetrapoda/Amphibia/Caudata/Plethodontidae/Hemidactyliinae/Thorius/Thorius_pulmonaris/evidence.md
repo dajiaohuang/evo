@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius pulmonaris
       zh: Thorius pulmonaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

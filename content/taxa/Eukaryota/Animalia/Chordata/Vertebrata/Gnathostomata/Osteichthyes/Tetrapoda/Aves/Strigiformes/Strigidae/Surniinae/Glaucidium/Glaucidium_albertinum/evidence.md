@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium albertinum
       en: Glaucidium albertinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

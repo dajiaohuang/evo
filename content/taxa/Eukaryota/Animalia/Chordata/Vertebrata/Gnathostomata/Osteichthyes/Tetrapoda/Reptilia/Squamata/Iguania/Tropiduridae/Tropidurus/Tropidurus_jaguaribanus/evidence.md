@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus jaguaribanus
       en: Tropidurus jaguaribanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

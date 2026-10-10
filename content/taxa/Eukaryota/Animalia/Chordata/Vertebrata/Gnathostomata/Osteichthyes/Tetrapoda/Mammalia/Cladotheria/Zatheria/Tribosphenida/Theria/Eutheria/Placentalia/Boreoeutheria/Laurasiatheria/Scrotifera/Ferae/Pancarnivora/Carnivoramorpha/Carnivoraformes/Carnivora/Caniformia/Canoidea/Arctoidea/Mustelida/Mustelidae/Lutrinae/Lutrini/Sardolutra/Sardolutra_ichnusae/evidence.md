@@ -9,7 +9,6 @@ records:
     name:
       zh: Sardolutra ichnusae
       en: Sardolutra ichnusae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

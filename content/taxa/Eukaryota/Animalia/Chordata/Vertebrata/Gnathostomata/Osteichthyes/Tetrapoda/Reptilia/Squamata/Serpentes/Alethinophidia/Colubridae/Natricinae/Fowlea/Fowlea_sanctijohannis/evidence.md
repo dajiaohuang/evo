@@ -9,7 +9,6 @@ records:
     name:
       zh: Fowlea sanctijohannis
       en: Fowlea sanctijohannis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

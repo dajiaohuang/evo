@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptides
       zh: Arthroleptides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

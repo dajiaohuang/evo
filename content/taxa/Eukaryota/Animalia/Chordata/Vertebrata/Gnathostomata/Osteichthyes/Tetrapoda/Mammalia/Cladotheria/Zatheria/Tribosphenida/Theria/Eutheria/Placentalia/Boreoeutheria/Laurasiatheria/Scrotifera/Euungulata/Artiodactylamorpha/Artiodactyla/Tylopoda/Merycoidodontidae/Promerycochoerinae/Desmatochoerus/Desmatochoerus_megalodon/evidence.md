@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatochoerus megalodon
       en: Desmatochoerus megalodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

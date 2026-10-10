@@ -9,7 +9,6 @@ records:
     name:
       zh: Scalopognathus multituberculatus
       en: Scalopognathus multituberculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

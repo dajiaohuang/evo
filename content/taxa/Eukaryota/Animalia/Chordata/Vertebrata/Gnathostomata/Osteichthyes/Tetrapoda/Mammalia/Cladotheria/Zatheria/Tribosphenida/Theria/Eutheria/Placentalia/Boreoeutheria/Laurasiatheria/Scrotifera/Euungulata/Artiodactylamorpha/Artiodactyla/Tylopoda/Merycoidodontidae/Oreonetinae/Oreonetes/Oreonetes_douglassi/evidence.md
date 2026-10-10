@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreonetes douglassi
       en: Oreonetes douglassi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

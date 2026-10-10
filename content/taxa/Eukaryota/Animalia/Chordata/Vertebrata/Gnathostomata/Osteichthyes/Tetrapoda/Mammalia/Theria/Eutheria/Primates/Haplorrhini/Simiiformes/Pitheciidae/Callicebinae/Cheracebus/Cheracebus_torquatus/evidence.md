@@ -9,7 +9,6 @@ records:
     name:
       zh: 白领跳猴
       en: White-collared Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

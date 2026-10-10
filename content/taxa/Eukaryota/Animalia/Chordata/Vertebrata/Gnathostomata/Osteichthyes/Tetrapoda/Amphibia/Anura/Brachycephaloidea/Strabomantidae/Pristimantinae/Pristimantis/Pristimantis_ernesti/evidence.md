@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ernesti
       zh: Pristimantis ernesti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis hartlaubi
       en: Pternistis hartlaubi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

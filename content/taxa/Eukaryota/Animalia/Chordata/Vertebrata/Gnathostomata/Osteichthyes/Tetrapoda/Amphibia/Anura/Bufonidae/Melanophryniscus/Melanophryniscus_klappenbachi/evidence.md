@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus klappenbachi
       zh: Melanophryniscus klappenbachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

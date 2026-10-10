@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon takarai
       en: Plestiodon takarai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

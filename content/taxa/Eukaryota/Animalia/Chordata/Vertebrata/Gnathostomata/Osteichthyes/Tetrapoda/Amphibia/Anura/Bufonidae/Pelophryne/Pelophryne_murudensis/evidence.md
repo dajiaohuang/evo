@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophryne murudensis
       zh: Pelophryne murudensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

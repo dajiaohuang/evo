@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotheroides waghapadarensis
       en: Eotheroides waghapadarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

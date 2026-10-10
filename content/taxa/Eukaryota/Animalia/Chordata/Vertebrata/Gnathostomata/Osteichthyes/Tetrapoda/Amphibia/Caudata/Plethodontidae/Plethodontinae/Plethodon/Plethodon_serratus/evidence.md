@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon serratus
       zh: Plethodon serratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

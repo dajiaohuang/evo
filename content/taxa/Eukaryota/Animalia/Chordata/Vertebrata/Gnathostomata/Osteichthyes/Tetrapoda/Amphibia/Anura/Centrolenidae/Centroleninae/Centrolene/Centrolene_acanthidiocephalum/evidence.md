@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene acanthidiocephalum
       zh: Centrolene acanthidiocephalum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis planifrons
       en: Trachylepis planifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

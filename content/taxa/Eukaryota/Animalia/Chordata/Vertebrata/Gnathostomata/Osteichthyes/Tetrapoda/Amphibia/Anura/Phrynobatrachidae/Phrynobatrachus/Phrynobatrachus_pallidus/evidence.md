@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus pallidus
       zh: Phrynobatrachus pallidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

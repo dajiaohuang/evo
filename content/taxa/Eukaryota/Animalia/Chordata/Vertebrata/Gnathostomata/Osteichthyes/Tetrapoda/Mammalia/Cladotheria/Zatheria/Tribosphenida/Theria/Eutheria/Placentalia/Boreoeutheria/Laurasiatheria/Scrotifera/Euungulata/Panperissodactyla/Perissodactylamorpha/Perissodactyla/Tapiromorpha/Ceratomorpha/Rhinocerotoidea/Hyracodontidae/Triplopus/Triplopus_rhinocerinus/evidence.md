@@ -9,7 +9,6 @@ records:
     name:
       zh: Triplopus rhinocerinus
       en: Triplopus rhinocerinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

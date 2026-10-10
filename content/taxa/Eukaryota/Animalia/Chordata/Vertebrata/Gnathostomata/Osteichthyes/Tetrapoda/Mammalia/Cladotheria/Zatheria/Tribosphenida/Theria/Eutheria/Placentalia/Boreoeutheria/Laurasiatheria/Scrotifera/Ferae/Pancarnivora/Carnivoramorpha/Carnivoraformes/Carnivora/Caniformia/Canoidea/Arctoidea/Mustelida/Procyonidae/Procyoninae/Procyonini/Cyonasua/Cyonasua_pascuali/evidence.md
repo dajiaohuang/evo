@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyonasua pascuali
       en: Cyonasua pascuali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

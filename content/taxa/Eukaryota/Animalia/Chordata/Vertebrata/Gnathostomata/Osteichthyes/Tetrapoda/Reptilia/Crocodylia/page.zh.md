@@ -38,11 +38,11 @@ Crocodylia 的本批路线包含 21 条历史生活史导读，可从 Alligator 
 ## 证据范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-来源链接的类群导读，尚未经过外部领域专家评审。数据反映有限的成年机构样本及 2012 年所用分类；固定 COL26.8 鳄目分支有 27 个接受种，后续分类拆分未据旧样本推算。
-本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
+来源链接的类群导读。数据反映有限的成年机构样本及 2012 年所用分类；固定 COL26.8 鳄目分支有 27 个接受种，后续分类拆分未据旧样本推算。
+本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
-新增感知正文使用两篇出版 HTML 中实际读过的材料、所选方法／结果／讨论与图说，不声称全篇审评。2012 年研究美洲短吻鳄与尼罗鳄，2013 年研究尼罗鳄与眼镜凯门鳄，各实验子样本、发育期与部位分开。未独立查看图像、补充视频、全部表格、原始神经数据或重跑实验；不推广到所有鳄类、化石种或野外种群，无外部专家审评。
+新增感知正文使用两篇出版 HTML 中实际读过的材料、所选方法／结果／讨论与图说，不声称全篇审评。2012 年研究美洲短吻鳄与尼罗鳄，2013 年研究尼罗鳄与眼镜凯门鳄，各实验子样本、发育期与部位分开。未独立查看图像、补充视频、全部表格、原始神经数据或重跑实验；不推广到所有鳄类、化石种或野外种群。
 <!-- /evo:text -->
 
 ## 阅读路径
@@ -58,19 +58,19 @@ Crocodylia 的本批路线包含 21 条历史生活史导读，可从 Alligator 
 ## Alligatoridae 阅读索引
 
 <!-- evo:text /records/catalogue-profile/sections/4/text/zh -->
-固定版本的 Alligatoridae 分支有 8 个接受种：Alligator mississippiensis（COL BTRB）；Alligator sinensis（COL BTRF）；Caiman crocodilus（COL PBBP）；Caiman latirostris（COL PBBS）；Caiman yacare（COL PBBW）；Melanosuchus niger（COL 3ZBL4）；Paleosuchus palpebrosus（COL 4C47J）；Paleosuchus trigonatus（COL 4C47K）。本分支为各条记录保留双语专题研究导读；此名单不表示完整种志或专家评审已经完成。
+固定版本的 Alligatoridae 分支有 8 个接受种：Alligator mississippiensis（COL BTRB）；Alligator sinensis（COL BTRF）；Caiman crocodilus（COL PBBP）；Caiman latirostris（COL PBBS）；Caiman yacare（COL PBBW）；Melanosuchus niger（COL 3ZBL4）；Paleosuchus palpebrosus（COL 4C47J）；Paleosuchus trigonatus（COL 4C47K）。本分支为各条记录保留双语专题研究导读；此名单不表示完整种志已经完成。
 <!-- /evo:text -->
 
 ## Crocodylidae 阅读索引
 
 <!-- evo:text /records/catalogue-profile/sections/5/text/zh -->
-固定版本的 Crocodylidae 分支有 17 个接受种：Crocodylus acutus（COL ZKNB）；Crocodylus halli（COL 8GRXJ）；Crocodylus intermedius（COL ZKND）；Crocodylus johnstoni（COL C6Q4M）；Crocodylus mindorensis（COL ZKNG）；Crocodylus moreletii（COL ZKNH）；Crocodylus niloticus（COL ZKNK）；Crocodylus novaeguineae（COL ZKNM）；Crocodylus palustris（COL ZKNN）；Crocodylus porosus（COL ZKNP）；Crocodylus rhombifer（COL ZKNR）；Crocodylus siamensis（COL ZKNS）；Crocodylus suchus（COL ZKNT）；Mecistops cataphractus（COL 3YKJB）；Mecistops leptorhynchus（COL 8GPZP）；Osteolaemus osborni（COL 8SBC9）；Osteolaemus tetraspis（COL 6TBCB）。本分支为各条记录保留双语专题研究导读；此名单不表示完整种志或专家评审已经完成。
+固定版本的 Crocodylidae 分支有 17 个接受种：Crocodylus acutus（COL ZKNB）；Crocodylus halli（COL 8GRXJ）；Crocodylus intermedius（COL ZKND）；Crocodylus johnstoni（COL C6Q4M）；Crocodylus mindorensis（COL ZKNG）；Crocodylus moreletii（COL ZKNH）；Crocodylus niloticus（COL ZKNK）；Crocodylus novaeguineae（COL ZKNM）；Crocodylus palustris（COL ZKNN）；Crocodylus porosus（COL ZKNP）；Crocodylus rhombifer（COL ZKNR）；Crocodylus siamensis（COL ZKNS）；Crocodylus suchus（COL ZKNT）；Mecistops cataphractus（COL 3YKJB）；Mecistops leptorhynchus（COL 8GPZP）；Osteolaemus osborni（COL 8SBC9）；Osteolaemus tetraspis（COL 6TBCB）。本分支为各条记录保留双语专题研究导读；此名单不表示完整种志已经完成。
 <!-- /evo:text -->
 
 ## Gavialidae 阅读索引
 
 <!-- evo:text /records/catalogue-profile/sections/6/text/zh -->
-固定版本的 Gavialidae 分支有 2 个接受种：Gavialis gangeticus（COL 3FFQ3）；Tomistoma schlegelii（COL 57D4X）。本分支为各条记录保留双语专题研究导读；此名单不表示完整种志或专家评审已经完成。
+固定版本的 Gavialidae 分支有 2 个接受种：Gavialis gangeticus（COL 3FFQ3）；Tomistoma schlegelii（COL 57D4X）。本分支为各条记录保留双语专题研究导读；此名单不表示完整种志已经完成。
 <!-- /evo:text -->
 
 ## 从有性状记录的物种开始
@@ -94,7 +94,7 @@ Crocodylia 的本批 ReptTraits 阅读路径包含 23 条同名同科、有逐�
 ## 部分后代条目的引用缺口
 
 <!-- evo:text /records/catalogue-profile/sections/10/text/zh -->
-这条 ReptTraits 阅读路径中有 3 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整或专家审查完成。
+这条 ReptTraits 阅读路径中有 3 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 <!-- /evo:text -->
 
 ## 从有性状记录的物种开始

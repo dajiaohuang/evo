@@ -9,7 +9,6 @@ records:
     name:
       zh: Kentriodon obscurus
       en: Kentriodon obscurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

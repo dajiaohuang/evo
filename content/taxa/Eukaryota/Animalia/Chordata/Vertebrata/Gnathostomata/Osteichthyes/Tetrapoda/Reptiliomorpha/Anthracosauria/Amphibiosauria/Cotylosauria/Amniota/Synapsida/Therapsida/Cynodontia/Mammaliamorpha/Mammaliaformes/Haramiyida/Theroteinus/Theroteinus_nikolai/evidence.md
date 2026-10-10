@@ -9,7 +9,6 @@ records:
     name:
       zh: Theroteinus nikolai
       en: Theroteinus nikolai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

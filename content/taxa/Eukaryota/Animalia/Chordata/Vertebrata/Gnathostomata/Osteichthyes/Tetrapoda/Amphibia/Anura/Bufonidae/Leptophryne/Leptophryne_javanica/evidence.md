@@ -9,7 +9,6 @@ records:
     name:
       en: Leptophryne javanica
       zh: Leptophryne javanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

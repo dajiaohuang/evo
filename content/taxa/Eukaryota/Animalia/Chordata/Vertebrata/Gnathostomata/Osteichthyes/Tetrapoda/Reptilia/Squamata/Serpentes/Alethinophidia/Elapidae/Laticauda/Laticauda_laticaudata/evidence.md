@@ -9,7 +9,6 @@ records:
     name:
       zh: Laticauda laticaudata
       en: Laticauda laticaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

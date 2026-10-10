@@ -9,7 +9,6 @@ records:
     name:
       en: Speleomantes ambrosii
       zh: Speleomantes ambrosii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

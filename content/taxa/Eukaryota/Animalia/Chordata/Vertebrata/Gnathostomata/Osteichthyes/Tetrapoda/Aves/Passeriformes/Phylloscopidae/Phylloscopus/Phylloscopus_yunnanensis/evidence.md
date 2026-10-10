@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus yunnanensis
       en: Phylloscopus yunnanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

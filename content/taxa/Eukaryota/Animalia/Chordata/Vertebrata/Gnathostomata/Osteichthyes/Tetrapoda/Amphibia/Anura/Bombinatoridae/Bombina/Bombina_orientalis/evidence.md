@@ -9,7 +9,6 @@ records:
     name:
       en: Bombina orientalis
       zh: Bombina orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

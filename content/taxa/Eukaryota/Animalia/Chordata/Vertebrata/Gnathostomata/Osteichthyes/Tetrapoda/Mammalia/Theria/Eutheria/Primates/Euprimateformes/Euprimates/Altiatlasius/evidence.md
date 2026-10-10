@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: sige-1990-altiatlasius concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: sige-1990-altiatlasius
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: sige-1990-altiatlasius
           locator: 31–56; Plate 1
-      reviewStatus: automated-audit-passed
 ---
 
 # Altiatlasius

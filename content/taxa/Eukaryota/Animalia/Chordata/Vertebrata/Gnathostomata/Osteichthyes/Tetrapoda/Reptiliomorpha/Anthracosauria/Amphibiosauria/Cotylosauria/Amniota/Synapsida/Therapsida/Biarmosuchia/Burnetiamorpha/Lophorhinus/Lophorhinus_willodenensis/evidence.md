@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophorhinus willodenensis
       en: Lophorhinus willodenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

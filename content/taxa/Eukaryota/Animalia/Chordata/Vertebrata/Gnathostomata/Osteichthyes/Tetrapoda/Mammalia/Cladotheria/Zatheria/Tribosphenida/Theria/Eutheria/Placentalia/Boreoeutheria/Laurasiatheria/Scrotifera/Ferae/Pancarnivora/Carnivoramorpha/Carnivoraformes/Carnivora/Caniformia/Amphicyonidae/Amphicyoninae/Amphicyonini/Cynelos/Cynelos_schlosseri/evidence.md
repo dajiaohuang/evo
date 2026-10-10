@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynelos schlosseri
       en: Cynelos schlosseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

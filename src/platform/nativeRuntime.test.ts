@@ -20,6 +20,9 @@ describe('native deep-link routing', () => {
   it('opens static evidence in its matching native route and leaves other documents external', () => {
     expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/zh/taxa/perissodactyla/'))
       .toBe('#/taxa?id=perissodactyla')
+    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/taxa/txn~3A371114/'))
+      .toBe('#/taxa?id=txn%3A371114')
+    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/taxa/bad~FF/')).toBeNull()
     expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/stories/rise-and-fall-perissodactyls/'))
       .toBe('#/stories?id=rise-and-fall-perissodactyls')
     expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/methods/')).toBe('#/methods')

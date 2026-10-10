@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius houyi
       zh: Hyperolius houyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

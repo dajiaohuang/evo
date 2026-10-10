@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrovenator jacuiensis
       en: Erythrovenator jacuiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

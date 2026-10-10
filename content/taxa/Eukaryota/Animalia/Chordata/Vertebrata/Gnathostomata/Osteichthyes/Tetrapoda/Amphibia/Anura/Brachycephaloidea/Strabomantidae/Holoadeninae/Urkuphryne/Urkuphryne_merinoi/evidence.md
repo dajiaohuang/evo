@@ -9,7 +9,6 @@ records:
     name:
       en: Urkuphryne merinoi
       zh: Urkuphryne merinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

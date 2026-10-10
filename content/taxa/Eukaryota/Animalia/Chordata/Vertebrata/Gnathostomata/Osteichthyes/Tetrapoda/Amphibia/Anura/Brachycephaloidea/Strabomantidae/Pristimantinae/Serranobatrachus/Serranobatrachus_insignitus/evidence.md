@@ -9,7 +9,6 @@ records:
     name:
       en: Serranobatrachus insignitus
       zh: Serranobatrachus insignitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

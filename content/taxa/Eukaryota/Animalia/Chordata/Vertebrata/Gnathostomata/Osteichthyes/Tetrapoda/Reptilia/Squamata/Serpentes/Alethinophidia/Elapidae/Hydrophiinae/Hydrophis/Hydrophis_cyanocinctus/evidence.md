@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophis cyanocinctus
       en: Hydrophis cyanocinctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

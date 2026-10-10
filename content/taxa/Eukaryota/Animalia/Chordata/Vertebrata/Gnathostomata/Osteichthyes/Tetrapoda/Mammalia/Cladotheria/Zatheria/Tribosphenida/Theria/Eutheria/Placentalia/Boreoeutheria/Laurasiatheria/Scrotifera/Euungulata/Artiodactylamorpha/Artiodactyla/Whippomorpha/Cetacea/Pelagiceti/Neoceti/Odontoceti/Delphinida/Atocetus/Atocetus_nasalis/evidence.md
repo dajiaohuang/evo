@@ -9,7 +9,6 @@ records:
     name:
       zh: Atocetus nasalis
       en: Atocetus nasalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

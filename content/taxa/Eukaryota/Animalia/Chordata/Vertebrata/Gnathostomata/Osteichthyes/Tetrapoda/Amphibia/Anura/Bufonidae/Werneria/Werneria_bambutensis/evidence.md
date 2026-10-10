@@ -9,7 +9,6 @@ records:
     name:
       en: Werneria bambutensis
       zh: Werneria bambutensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

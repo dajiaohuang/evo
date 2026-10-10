@@ -9,7 +9,6 @@ records:
     name:
       zh: Caprimulgus climacurus
       en: Caprimulgus climacurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

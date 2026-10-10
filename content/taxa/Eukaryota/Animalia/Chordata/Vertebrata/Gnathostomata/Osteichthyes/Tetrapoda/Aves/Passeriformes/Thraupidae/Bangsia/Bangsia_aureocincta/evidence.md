@@ -9,7 +9,6 @@ records:
     name:
       zh: Bangsia aureocincta
       en: Bangsia aureocincta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

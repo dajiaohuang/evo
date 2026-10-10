@@ -9,7 +9,6 @@ records:
     name:
       en: Hydrolaetare
       zh: Hydrolaetare
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

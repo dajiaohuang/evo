@@ -9,7 +9,6 @@ records:
     name:
       zh: Kritosaurus navajovius
       en: Kritosaurus navajovius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pachytriton granulosus
       zh: Pachytriton granulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

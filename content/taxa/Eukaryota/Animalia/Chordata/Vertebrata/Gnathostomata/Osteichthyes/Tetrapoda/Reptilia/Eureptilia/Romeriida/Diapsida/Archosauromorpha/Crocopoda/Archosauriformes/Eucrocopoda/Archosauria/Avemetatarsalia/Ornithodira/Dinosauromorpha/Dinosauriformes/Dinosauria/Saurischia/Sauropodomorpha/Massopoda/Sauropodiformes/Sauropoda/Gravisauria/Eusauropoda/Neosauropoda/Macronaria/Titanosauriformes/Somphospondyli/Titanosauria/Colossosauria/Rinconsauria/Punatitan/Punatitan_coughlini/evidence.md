@@ -9,7 +9,6 @@ records:
     name:
       zh: Punatitan coughlini
       en: Punatitan coughlini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

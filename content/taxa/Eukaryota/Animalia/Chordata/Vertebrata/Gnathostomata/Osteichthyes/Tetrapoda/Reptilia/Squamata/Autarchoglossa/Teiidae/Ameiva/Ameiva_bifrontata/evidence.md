@@ -9,7 +9,6 @@ records:
     name:
       zh: Ameiva bifrontata
       en: Ameiva bifrontata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

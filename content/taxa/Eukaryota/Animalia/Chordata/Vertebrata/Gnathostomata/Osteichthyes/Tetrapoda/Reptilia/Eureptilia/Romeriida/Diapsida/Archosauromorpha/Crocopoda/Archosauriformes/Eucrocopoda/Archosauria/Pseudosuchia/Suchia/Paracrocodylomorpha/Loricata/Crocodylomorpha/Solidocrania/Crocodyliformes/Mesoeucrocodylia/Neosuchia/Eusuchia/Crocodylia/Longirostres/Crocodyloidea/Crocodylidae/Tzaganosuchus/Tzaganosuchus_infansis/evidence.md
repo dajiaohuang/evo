@@ -9,7 +9,6 @@ records:
     name:
       zh: Tzaganosuchus infansis
       en: Tzaganosuchus infansis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

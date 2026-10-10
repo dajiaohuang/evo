@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippopotamus behemoth
       en: Hippopotamus behemoth
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

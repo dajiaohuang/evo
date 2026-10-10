@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthreptes rectirostris
       en: Anthreptes rectirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

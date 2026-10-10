@@ -9,7 +9,6 @@ records:
     name:
       zh: Mormopterus kalinowskii
       en: Mormopterus kalinowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

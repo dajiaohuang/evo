@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochilus scitulus
       en: Trochilus scitulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

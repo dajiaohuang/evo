@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus oreonympha
       zh: Nymphargus oreonympha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

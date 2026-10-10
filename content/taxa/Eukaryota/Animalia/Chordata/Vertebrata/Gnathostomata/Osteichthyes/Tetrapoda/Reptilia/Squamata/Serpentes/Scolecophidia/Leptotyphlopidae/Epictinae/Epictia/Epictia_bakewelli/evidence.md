@@ -9,7 +9,6 @@ records:
     name:
       zh: Epictia bakewelli
       en: Epictia bakewelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Reinwardtoena crassirostris
       en: Reinwardtoena crassirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

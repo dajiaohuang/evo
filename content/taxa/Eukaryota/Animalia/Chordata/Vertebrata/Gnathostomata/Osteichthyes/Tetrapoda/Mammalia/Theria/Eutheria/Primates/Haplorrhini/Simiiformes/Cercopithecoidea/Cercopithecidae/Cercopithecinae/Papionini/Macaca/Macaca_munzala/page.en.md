@@ -22,5 +22,5 @@ In the same study's approximate Bayesian computation, a decline scenario for the
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Both demographic accounts are model results for the same tentative population, not a census or species-wide reconstruction; historical effective size is not a current individual count.
+Source-linked introduction;. Both demographic accounts are model results for the same tentative population, not a census or species-wide reconstruction; historical effective size is not a current individual count.
 <!-- /evo:text -->

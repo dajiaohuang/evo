@@ -9,7 +9,6 @@ records:
     name:
       zh: Indohyus
       en: Indohyus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

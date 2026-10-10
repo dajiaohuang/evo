@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia edmondsi
       zh: Stumpffia edmondsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

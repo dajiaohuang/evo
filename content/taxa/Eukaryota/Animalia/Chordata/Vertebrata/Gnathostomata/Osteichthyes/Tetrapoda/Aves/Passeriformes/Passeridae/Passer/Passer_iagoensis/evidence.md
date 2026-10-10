@@ -9,7 +9,6 @@ records:
     name:
       zh: Passer iagoensis
       en: Passer iagoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

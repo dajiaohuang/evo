@@ -9,7 +9,6 @@ records:
     name:
       en: Myersiohyla neblinaria
       zh: Myersiohyla neblinaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Echis pyramidum
       en: Echis pyramidum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

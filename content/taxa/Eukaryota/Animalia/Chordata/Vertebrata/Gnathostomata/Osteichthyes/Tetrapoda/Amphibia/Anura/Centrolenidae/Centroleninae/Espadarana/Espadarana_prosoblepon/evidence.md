@@ -9,7 +9,6 @@ records:
     name:
       en: Espadarana prosoblepon
       zh: Espadarana prosoblepon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phasmagyps patritus
       en: Phasmagyps patritus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

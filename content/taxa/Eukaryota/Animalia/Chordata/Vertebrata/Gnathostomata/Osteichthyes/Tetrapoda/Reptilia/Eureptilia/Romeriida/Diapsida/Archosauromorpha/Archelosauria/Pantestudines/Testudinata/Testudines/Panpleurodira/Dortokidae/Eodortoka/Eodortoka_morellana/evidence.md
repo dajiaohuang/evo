@@ -9,7 +9,6 @@ records:
     name:
       zh: Eodortoka morellana
       en: Eodortoka morellana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapornia flavirostra
       en: Zapornia flavirostra
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

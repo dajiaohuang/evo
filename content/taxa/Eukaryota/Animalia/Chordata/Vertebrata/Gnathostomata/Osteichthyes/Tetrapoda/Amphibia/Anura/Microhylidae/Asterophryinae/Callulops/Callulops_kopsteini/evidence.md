@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops kopsteini
       zh: Callulops kopsteini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

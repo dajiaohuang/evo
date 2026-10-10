@@ -9,7 +9,6 @@ records:
     name:
       zh: 西非鳄
       en: West African crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic:

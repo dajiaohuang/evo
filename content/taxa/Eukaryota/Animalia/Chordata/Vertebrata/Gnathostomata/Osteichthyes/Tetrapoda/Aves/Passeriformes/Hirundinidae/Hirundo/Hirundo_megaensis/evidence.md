@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundo megaensis
       en: Hirundo megaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

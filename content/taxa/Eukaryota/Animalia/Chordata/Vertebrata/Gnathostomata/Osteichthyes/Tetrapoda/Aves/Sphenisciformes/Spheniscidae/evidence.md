@@ -9,7 +9,6 @@ records:
     name:
       zh: Spheniscidae
       en: Spheniscidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: huddleCase

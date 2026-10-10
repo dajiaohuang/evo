@@ -9,7 +9,6 @@ records:
     name:
       zh: 婆罗洲蜂猴
       en: Bornean Slow Loris
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

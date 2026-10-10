@@ -9,7 +9,6 @@ records:
     name:
       zh: Camelus knoblochi
       en: Camelus knoblochi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

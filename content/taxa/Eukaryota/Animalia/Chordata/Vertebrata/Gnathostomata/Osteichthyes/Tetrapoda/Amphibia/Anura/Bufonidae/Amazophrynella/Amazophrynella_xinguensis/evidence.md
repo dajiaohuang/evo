@@ -9,7 +9,6 @@ records:
     name:
       en: Amazophrynella xinguensis
       zh: Amazophrynella xinguensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

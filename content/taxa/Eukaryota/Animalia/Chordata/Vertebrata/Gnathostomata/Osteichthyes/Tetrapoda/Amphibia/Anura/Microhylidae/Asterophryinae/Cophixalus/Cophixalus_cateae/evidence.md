@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus cateae
       zh: Cophixalus cateae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

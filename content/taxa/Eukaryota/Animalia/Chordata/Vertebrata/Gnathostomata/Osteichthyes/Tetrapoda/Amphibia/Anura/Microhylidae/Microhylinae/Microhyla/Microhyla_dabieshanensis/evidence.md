@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla dabieshanensis
       zh: Microhyla dabieshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

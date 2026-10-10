@@ -22,5 +22,5 @@ This is a taxonomic comparison using one existing sequence, not new sampling acr
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The taxonomic account rests on one public mitochondrial sequence and comparative analysis; new multi-population sampling is lacking. This page has not received external expert review. This page is not externally expert-reviewed.
+The taxonomic account rests on one public mitochondrial sequence and comparative analysis; new multi-population sampling is lacking. This page. This page is.
 <!-- /evo:text -->

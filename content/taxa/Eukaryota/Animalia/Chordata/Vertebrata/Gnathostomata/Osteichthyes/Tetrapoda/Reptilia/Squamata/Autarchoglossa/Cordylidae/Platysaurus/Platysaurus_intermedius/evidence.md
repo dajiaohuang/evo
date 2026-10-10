@@ -9,7 +9,6 @@ records:
     name:
       zh: Platysaurus intermedius
       en: Platysaurus intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

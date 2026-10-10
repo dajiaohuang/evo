@@ -9,7 +9,6 @@ records:
     name:
       en: Osteocephalus heyeri
       zh: Osteocephalus heyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

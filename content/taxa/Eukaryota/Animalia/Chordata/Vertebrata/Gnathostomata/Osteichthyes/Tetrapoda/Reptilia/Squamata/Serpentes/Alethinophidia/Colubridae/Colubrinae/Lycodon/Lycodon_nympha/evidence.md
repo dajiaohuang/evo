@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon nympha
       en: Lycodon nympha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus arsyecue
       zh: Atelopus arsyecue
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

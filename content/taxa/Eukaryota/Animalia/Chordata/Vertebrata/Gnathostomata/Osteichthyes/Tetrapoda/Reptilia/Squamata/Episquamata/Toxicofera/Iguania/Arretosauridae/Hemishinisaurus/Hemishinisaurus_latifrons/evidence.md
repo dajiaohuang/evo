@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemishinisaurus latifrons
       en: Hemishinisaurus latifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

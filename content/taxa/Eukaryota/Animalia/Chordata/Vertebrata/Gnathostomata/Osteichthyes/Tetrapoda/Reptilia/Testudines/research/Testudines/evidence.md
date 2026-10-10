@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Li et al. 2008 DOI 10.1038/nature07533; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: li-2008-odontochelys
           relation: supports
@@ -81,9 +78,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Li et al. 2008 DOI 10.1038/nature07533; Joyce 2007 DOI 10.3374/0079-032X(2007)48[3:PROMT]2.0.CO;2
       referenceLinks:
         - referenceId: li-2008-odontochelys
           relation: supports
@@ -107,9 +101,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Li et al. 2008 DOI 10.1038/nature07533; Schoch and Sues 2015 DOI 10.1038/nature14472
       referenceLinks:
         - referenceId: li-2008-odontochelys
           relation: supports
@@ -133,9 +124,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Li et al. 2008 DOI 10.1038/nature07533; Schoch and Sues 2015 DOI 10.1038/nature14472
       referenceLinks:
         - referenceId: li-2008-odontochelys
           relation: supports
@@ -159,9 +147,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Li et al. 2008 DOI 10.1038/nature07533; Schoch and Sues 2015 DOI 10.1038/nature14472
       referenceLinks:
         - referenceId: li-2008-odontochelys
           relation: supports
@@ -218,7 +203,6 @@ records:
       referenceLocators:
         - referenceId: li-2008-odontochelys
           locator: pp. 497–501; Figures 1–4; systematic palaeontology, specimen and horizon, Description and Discussion
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

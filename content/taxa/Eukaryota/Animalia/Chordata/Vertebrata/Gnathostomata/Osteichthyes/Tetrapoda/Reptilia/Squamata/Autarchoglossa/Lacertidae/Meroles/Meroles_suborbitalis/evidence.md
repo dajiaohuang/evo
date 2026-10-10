@@ -9,7 +9,6 @@ records:
     name:
       zh: Meroles suborbitalis
       en: Meroles suborbitalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

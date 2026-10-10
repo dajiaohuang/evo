@@ -9,7 +9,6 @@ records:
     name:
       en: Rhaebo olallai
       zh: Rhaebo olallai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

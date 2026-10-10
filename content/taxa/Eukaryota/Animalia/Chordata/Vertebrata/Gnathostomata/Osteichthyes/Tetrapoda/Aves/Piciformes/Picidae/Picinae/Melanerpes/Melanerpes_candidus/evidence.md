@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanerpes candidus
       en: Melanerpes candidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

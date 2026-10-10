@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca weinlandii
       zh: Gastrotheca weinlandii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aviceda leuphotes
       en: Aviceda leuphotes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctocephalus tropicalis
       en: Arctocephalus tropicalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla arfakiana
       zh: Amnihyla arfakiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

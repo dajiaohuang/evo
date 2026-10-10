@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis semidoliatus
       en: Geophis semidoliatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus truongsonensis
       en: Trimeresurus truongsonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

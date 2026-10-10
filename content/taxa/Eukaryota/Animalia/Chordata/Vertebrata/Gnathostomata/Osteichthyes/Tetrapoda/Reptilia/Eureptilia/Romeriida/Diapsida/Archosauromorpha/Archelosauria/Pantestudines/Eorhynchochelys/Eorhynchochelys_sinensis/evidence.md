@@ -9,7 +9,6 @@ records:
     name:
       zh: Eorhynchochelys sinensis
       en: Eorhynchochelys sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

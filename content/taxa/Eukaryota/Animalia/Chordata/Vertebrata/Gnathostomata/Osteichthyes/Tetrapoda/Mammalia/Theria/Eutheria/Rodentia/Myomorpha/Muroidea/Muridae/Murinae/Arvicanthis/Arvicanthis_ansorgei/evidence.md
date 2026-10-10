@@ -9,7 +9,6 @@ records:
     name:
       zh: Arvicanthis ansorgei
       en: Arvicanthis ansorgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

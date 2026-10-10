@@ -9,7 +9,6 @@ records:
     name:
       zh: 西布里侏狐猴
       en: Sibree's Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: materials

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus adamanteus
       en: Crotalus adamanteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

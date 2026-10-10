@@ -9,7 +9,6 @@ records:
     name:
       zh: Luperosaurus corfieldi
       en: Luperosaurus corfieldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

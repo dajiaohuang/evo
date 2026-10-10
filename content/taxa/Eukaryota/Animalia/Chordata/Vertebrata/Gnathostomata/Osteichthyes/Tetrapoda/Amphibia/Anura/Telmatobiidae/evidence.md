@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobiidae
       zh: Telmatobiidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

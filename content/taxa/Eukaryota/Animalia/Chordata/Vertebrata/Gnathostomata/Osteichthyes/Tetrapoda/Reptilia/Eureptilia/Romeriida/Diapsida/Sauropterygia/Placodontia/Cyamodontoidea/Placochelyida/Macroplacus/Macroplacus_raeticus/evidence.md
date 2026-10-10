@@ -9,7 +9,6 @@ records:
     name:
       zh: Macroplacus raeticus
       en: Macroplacus raeticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

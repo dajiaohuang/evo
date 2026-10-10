@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Holmes and Budd 2022 DOI 10.1038/s42003-022-04146-6 and Mychko 2025 DOI 10.26879/1399 checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: holmes-budd-2022-early-trilobites
           relation: supports
@@ -71,7 +68,6 @@ records:
           locator: article 1177; Figures 1–4 and supplementary analyses
         - referenceId: mychko-2025-latest-trilobites
           locator: article 28.2:a22; Figures 1–7 and global Lopingian overview
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

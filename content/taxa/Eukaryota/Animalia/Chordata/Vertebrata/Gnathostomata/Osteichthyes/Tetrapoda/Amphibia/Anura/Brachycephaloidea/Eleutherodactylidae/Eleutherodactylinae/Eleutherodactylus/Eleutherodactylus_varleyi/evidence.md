@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus varleyi
       zh: Eleutherodactylus varleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

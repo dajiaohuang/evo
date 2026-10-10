@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammophis notostictus
       en: Psammophis notostictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

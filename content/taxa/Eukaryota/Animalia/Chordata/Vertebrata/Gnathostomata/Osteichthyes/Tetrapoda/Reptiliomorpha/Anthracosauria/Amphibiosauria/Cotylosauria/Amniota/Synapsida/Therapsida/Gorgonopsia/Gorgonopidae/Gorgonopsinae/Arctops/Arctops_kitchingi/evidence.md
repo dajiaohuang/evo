@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctops kitchingi
       en: Arctops kitchingi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

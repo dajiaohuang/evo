@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteogallus meridionalis
       en: Buteogallus meridionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

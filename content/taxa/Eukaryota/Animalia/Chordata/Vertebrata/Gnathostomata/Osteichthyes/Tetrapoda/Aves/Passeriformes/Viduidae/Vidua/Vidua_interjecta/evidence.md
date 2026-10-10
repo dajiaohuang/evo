@@ -9,7 +9,6 @@ records:
     name:
       zh: Vidua interjecta
       en: Vidua interjecta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

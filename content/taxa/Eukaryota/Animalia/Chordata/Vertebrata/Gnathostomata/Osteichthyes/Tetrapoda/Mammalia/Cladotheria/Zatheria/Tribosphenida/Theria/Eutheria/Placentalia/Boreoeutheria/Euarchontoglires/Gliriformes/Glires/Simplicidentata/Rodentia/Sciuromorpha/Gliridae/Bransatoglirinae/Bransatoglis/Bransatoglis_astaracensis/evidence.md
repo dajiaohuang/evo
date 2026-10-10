@@ -9,7 +9,6 @@ records:
     name:
       zh: Bransatoglis astaracensis
       en: Bransatoglis astaracensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

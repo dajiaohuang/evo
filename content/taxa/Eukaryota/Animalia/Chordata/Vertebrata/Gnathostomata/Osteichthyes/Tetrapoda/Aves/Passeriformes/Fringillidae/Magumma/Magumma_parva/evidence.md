@@ -9,7 +9,6 @@ records:
     name:
       zh: Magumma parva
       en: Magumma parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

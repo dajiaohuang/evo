@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerbillus burtoni
       en: Gerbillus burtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

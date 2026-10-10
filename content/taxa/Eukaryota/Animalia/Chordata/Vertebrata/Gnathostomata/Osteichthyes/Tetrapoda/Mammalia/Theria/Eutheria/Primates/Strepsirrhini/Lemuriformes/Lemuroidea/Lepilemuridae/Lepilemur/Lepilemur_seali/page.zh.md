@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-分布与 Mananara-Nord 的归属均是 2006 年待检验的判断；本页不把潜在拆分写成现行分类。分类名按 COL26.8 保留，中文普通名为编辑翻译，尚未经过外部领域专家评审。
+分布与 Mananara-Nord 的归属均是 2006 年待检验的判断；本页不把潜在拆分写成现行分类。分类名按 COL26.8 保留，中文普通名为编辑翻译。
 <!-- /evo:text -->

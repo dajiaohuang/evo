@@ -9,7 +9,6 @@ records:
     name:
       zh: Monilesaurus ellioti
       en: Monilesaurus ellioti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

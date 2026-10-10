@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeophis tamdy
       en: Palaeophis tamdy
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

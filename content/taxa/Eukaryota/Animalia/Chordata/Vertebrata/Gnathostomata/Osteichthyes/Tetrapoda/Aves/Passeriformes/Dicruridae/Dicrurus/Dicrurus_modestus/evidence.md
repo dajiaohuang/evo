@@ -9,7 +9,6 @@ records:
     name:
       zh: Dicrurus modestus
       en: Dicrurus modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

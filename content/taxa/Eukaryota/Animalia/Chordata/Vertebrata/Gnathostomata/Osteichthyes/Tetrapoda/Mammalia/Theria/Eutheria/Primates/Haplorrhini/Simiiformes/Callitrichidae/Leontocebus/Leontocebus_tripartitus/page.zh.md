@@ -22,5 +22,5 @@ COL26.8 接受 *Leontocebus tripartitus*。分子分类研究和区域记录支�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-地点与群体密度来自厄瓜多尔局地调查，23 处地点的分布调查多数仅一至两日；不据此估算整个分布区的数量、趋势或保育状态。MDD v2.5 使用 Saguinus 亚属组合，COL26.8 ID 保持固定。尚未外审。 尚未经过外部领域专家评审。
+地点与群体密度来自厄瓜多尔局地调查，23 处地点的分布调查多数仅一至两日；不据此估算整个分布区的数量、趋势或保育状态。MDD v2.5 使用 Saguinus 亚属组合，COL26.8 ID 保持固定。尚未外审。 。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Daniadyptes primaevus
       en: Daniadyptes primaevus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

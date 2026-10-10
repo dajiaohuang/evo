@@ -9,7 +9,6 @@ records:
     name:
       zh: Elochelys perfecta
       en: Elochelys perfecta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

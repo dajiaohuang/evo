@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis avilapiresae
       zh: Chiasmocleis avilapiresae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

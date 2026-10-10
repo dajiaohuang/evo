@@ -9,7 +9,6 @@ records:
     name:
       zh: Larus fuscus
       en: Larus fuscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

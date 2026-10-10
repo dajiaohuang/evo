@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne nigrescens
       zh: Choerophryne nigrescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

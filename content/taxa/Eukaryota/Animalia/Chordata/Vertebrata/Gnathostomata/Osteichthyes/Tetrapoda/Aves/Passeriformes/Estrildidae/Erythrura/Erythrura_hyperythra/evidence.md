@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrura hyperythra
       en: Erythrura hyperythra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

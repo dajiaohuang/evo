@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanolyca viridicyanus
       en: Cyanolyca viridicyanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

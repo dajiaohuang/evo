@@ -9,7 +9,6 @@ records:
     name:
       zh: Cosesaurus aviceps
       en: Cosesaurus aviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

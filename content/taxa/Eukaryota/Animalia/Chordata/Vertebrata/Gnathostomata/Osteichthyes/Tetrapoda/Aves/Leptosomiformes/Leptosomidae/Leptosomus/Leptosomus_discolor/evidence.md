@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptosomus discolor
       en: Leptosomus discolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

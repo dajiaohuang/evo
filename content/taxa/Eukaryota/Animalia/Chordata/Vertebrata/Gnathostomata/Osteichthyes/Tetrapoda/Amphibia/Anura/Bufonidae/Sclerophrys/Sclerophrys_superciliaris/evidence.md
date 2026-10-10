@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys superciliaris
       zh: Sclerophrys superciliaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

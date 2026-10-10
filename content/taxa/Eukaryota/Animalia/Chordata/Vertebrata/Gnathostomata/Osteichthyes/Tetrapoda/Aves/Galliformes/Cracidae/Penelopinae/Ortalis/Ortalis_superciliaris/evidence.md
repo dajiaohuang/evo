@@ -9,7 +9,6 @@ records:
     name:
       zh: Ortalis superciliaris
       en: Ortalis superciliaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Epiklohnia verticalis
       en: Epiklohnia verticalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

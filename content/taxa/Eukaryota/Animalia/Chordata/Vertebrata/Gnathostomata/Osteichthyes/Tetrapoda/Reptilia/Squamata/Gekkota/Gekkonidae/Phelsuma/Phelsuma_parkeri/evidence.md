@@ -9,7 +9,6 @@ records:
     name:
       zh: Phelsuma parkeri
       en: Phelsuma parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

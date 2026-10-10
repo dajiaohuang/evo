@@ -9,7 +9,6 @@ records:
     name:
       en: Southern Muriqui
       zh: 南方绒毛蛛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

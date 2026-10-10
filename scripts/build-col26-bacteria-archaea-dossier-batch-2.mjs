@@ -42,9 +42,7 @@ function makeRecord(t) {
     sources,
     systematicSearch: { date: batch.checkedAt, scope: `Bounded COL26.8 identity and LPSN crosswalk check for ${t.colId}, plus evidence extraction from one peer-reviewed species description.`, method: 'Compared exact COL ID, scientific name, authorship, rank, accepted status and sourceDatasetId; checked the release-pinned COL-to-LPSN row; extracted only item-level species-account observations. No systematic multi-database, life-history, fossil, conservation or global-distribution search was performed.', queryOrPath: `ChecklistBank dataset 316115 usage ${t.colId}; LPSN record ${t.lpsnId}; DOI ${t.paper.doi}; ${t.paper.pmcid}`, inclusionCriteria: 'Exact accepted COL identity, exact pinned crosswalk and claims explicitly reported in the cited species treatment.', exclusionCriteria: 'Name-only joins, unbounded genus claims, unsupported ecological function, global range, life history, fossils and conservation.', searcher: 'Evo source audit' },
     facets,
-    completeness: { status: 'incomplete', reasons: ['Only one peer-reviewed species treatment was assessed per record.', 'Several facets remain not assessed and supported claims are limited to specified strains, samples, sites and methods.', 'Independent expert review and comprehensive multi-source review are incomplete.'] },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null }
-  }
+    completeness: { status: 'incomplete', reasons: ['Only one peer-reviewed species treatment was assessed per record.', 'Several facets remain not assessed and supported claims are limited to specified strains, samples, sites and methods.', 'A comprehensive multi-source search is incomplete.'] }}
 }
 
 const records = batch.candidates.map(makeRecord)

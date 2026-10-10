@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthophis wellsi
       en: Acanthophis wellsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

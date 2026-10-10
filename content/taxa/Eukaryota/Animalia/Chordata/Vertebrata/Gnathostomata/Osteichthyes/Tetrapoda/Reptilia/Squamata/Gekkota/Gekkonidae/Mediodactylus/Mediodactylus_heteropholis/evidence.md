@@ -9,7 +9,6 @@ records:
     name:
       zh: Mediodactylus heteropholis
       en: Mediodactylus heteropholis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

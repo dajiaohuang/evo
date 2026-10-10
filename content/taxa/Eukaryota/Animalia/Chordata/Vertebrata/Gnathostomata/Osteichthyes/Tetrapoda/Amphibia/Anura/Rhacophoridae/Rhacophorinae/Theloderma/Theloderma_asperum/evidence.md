@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma asperum
       zh: Theloderma asperum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

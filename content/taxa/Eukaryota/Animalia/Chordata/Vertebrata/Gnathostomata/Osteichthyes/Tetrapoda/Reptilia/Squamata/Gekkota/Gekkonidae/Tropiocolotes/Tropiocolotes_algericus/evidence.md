@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropiocolotes algericus
       en: Tropiocolotes algericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

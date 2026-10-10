@@ -9,7 +9,6 @@ records:
     name:
       zh: Ekaltadeta
       en: Ekaltadeta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

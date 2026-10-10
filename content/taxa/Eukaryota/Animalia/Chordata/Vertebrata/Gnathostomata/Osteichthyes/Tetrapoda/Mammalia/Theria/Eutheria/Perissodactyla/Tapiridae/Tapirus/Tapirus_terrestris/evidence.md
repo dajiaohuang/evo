@@ -9,7 +9,6 @@ records:
     name:
       zh: 南美貘
       en: Lowland tapir
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

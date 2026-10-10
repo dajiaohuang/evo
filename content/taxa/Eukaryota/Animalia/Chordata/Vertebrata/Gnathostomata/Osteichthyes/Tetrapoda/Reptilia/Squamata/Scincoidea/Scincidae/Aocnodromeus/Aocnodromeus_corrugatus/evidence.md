@@ -9,7 +9,6 @@ records:
     name:
       zh: Aocnodromeus corrugatus
       en: Aocnodromeus corrugatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

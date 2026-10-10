@@ -9,7 +9,6 @@ records:
     name:
       en: Poyntonia
       zh: Poyntonia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus spelunca
       zh: Micrixalus spelunca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

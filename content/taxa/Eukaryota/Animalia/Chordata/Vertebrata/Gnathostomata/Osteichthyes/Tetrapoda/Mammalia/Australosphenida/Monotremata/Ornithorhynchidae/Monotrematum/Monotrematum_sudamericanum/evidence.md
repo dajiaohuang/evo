@@ -9,7 +9,6 @@ records:
     name:
       zh: Monotrematum sudamericanum
       en: Monotrematum sudamericanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

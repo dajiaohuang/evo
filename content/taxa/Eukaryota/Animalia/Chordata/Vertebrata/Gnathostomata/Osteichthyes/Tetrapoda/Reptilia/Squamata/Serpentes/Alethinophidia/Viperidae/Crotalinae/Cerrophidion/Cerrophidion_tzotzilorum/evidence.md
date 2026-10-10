@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerrophidion tzotzilorum
       en: Cerrophidion tzotzilorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

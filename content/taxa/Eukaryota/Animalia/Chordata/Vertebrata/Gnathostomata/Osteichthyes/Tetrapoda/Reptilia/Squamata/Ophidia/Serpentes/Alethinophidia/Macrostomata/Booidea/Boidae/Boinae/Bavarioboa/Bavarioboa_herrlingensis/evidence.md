@@ -9,7 +9,6 @@ records:
     name:
       zh: Bavarioboa herrlingensis
       en: Bavarioboa herrlingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

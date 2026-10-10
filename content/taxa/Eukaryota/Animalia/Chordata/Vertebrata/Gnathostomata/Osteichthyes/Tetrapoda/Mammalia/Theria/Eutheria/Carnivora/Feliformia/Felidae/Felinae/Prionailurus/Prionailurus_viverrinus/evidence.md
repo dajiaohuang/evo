@@ -9,7 +9,6 @@ records:
     name:
       zh: Prionailurus viverrinus
       en: Prionailurus viverrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

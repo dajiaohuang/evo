@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella duyenae
       zh: Leptobrachella duyenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

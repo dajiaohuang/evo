@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra ankoberensis
       en: Crithagra ankoberensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

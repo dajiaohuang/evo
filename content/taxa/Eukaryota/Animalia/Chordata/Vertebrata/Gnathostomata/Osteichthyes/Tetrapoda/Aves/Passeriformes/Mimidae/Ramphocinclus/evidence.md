@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphocinclus
       en: Ramphocinclus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

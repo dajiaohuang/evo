@@ -9,7 +9,6 @@ records:
     name:
       zh: Argillipes aurorum
       en: Argillipes aurorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -154,10 +154,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Parabembras robinsoni
@@ -268,10 +264,4 @@ Only partial morphology and regional distribution evidence from one taxonomic re
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 No systematic literature search or full comparison with the complete COL26.8 species concept has been completed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

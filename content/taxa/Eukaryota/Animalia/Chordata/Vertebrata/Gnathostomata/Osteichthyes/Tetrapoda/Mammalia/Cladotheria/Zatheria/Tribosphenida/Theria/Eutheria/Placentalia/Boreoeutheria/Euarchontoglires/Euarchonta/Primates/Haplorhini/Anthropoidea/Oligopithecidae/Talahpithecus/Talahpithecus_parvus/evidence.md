@@ -9,7 +9,6 @@ records:
     name:
       zh: Talahpithecus parvus
       en: Talahpithecus parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

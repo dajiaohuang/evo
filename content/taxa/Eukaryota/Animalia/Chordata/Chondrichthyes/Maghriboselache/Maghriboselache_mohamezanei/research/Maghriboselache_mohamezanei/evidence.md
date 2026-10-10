@@ -62,9 +62,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Klug et al. 2023 DOI 10.1186/s13358-023-00266-6
       referenceLinks:
         - relation: supports
           referenceId: klug-2023-maghriboselache
@@ -83,9 +80,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Klug et al. 2023 DOI 10.1186/s13358-023-00266-6
       referenceLinks:
         - relation: supports
           referenceId: klug-2023-maghriboselache
@@ -104,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Klug et al. 2023 DOI 10.1186/s13358-023-00266-6
       referenceLinks:
         - relation: supports
           referenceId: klug-2023-maghriboselache
@@ -130,9 +121,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Klug et al. 2023 DOI 10.1186/s13358-023-00266-6
       referenceLinks:
         - relation: supports
           referenceId: klug-2023-maghriboselache
@@ -151,9 +139,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Klug et al. 2023 DOI 10.1186/s13358-023-00266-6
       referenceLinks:
         - relation: supports
           referenceId: klug-2023-maghriboselache
@@ -206,7 +191,6 @@ records:
       referenceLocators:
         - referenceId: klug-2023-maghriboselache
           locator: pp. 1–7, 19–28; Figures 1–2, 13–15; Material; time calibration; Conclusions
-      reviewStatus: automated-audit-passed
 ---
 
 # Maghriboselache mohamezanei

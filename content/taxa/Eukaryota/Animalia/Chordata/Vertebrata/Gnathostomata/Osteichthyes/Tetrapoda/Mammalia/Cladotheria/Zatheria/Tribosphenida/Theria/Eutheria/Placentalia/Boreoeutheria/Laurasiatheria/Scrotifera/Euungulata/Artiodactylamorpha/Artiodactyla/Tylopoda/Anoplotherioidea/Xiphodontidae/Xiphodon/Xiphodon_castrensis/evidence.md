@@ -9,7 +9,6 @@ records:
     name:
       zh: Xiphodon castrensis
       en: Xiphodon castrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

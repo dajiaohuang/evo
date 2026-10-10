@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudis caraya
       zh: Pseudis caraya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

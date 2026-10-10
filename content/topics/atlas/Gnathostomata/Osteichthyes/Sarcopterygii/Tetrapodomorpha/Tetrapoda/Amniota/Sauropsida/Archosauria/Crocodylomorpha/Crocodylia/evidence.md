@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lee-yates-2018-crocodylian-tip-dating concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: lee-yates-2018-crocodylian-tip-dating
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: lee-yates-2018-crocodylian-tip-dating
           locator: 20181071; Figures 1–4; Morphological, molecular and stratigraphic data; Bayesian tip dating; Discussion
-      reviewStatus: automated-audit-passed
 ---
 
 # Crocodylia

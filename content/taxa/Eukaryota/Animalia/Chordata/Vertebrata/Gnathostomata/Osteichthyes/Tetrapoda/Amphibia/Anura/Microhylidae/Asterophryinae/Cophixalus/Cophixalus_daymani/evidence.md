@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus daymani
       zh: Cophixalus daymani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Katepensaurus goicoecheai
       en: Katepensaurus goicoecheai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

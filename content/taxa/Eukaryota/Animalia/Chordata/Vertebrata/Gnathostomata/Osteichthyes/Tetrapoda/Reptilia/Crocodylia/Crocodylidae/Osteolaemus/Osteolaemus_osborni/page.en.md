@@ -30,7 +30,7 @@ gvozdik2024
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local-survey and genomic study guide, not externally expert-reviewed. Syntopy evidence comes from one site and few individuals; it cannot estimate how common co-occurrence, range-wide gene flow or hybridization may be.
+Source-linked local-survey and genomic study guide. Syntopy evidence comes from one site and few individuals; it cannot estimate how common co-occurrence, range-wide gene flow or hybridization may be.
 <!-- /evo:text -->
 
 ## Name and this data account

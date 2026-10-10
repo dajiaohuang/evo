@@ -9,7 +9,6 @@ records:
     name:
       en: Mimosiphonops vermiculatus
       zh: Mimosiphonops vermiculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

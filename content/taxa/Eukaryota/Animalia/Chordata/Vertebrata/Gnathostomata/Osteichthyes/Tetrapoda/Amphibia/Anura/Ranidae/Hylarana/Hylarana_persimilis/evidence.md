@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana persimilis
       zh: Hylarana persimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

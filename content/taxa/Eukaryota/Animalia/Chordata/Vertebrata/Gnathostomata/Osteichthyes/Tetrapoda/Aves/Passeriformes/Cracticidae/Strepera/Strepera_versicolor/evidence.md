@@ -9,7 +9,6 @@ records:
     name:
       zh: Strepera versicolor
       en: Strepera versicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

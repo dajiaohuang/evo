@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiarchus stolidus
       en: Myiarchus stolidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

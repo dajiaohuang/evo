@@ -9,7 +9,6 @@ records:
     name:
       en: Lagothrix genus guide
       zh: 绒毛猴属导读
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

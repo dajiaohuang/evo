@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceutholestes acerbus
       en: Ceutholestes acerbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

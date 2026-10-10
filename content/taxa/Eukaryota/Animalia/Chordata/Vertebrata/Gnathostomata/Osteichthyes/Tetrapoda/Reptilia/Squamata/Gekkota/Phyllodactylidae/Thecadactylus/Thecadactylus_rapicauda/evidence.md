@@ -9,7 +9,6 @@ records:
     name:
       zh: Thecadactylus rapicauda
       en: Thecadactylus rapicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

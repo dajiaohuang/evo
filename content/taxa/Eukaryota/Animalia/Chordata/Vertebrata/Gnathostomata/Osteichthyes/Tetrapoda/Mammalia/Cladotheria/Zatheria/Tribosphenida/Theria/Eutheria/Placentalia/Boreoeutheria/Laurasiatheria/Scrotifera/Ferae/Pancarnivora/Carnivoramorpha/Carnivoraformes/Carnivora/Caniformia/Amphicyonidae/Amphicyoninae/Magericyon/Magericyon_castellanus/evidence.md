@@ -9,7 +9,6 @@ records:
     name:
       zh: Magericyon castellanus
       en: Magericyon castellanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

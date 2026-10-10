@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleorhinus sawini
       en: Paleorhinus sawini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

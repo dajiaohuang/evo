@@ -9,7 +9,6 @@ records:
     name:
       zh: Haestasaurus becklesii
       en: Haestasaurus becklesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

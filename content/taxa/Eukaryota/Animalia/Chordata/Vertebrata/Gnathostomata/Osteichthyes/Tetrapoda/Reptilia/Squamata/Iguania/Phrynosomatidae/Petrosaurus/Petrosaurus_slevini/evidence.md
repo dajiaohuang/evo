@@ -9,7 +9,6 @@ records:
     name:
       zh: Petrosaurus slevini
       en: Petrosaurus slevini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ganlea megacanina
       en: Ganlea megacanina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

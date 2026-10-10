@@ -9,7 +9,6 @@ records:
     name:
       zh: Melipotes ater
       en: Melipotes ater
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phascolotherium bucklandi
       en: Phascolotherium bucklandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

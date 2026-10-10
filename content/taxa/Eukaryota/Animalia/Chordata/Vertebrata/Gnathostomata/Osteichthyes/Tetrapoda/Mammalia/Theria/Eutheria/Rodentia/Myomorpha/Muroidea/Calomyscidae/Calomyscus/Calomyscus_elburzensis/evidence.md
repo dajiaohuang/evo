@@ -9,7 +9,6 @@ records:
     name:
       zh: Calomyscus elburzensis
       en: Calomyscus elburzensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

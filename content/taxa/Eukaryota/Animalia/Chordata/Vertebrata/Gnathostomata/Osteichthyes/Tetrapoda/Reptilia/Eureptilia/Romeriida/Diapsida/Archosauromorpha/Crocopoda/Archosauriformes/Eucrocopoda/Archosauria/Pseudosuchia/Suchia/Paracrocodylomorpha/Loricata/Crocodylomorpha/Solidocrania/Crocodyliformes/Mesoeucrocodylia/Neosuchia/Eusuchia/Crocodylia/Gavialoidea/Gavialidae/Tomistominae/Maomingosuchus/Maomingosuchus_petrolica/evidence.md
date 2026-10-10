@@ -9,7 +9,6 @@ records:
     name:
       zh: Maomingosuchus petrolica
       en: Maomingosuchus petrolica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

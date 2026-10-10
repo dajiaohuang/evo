@@ -9,7 +9,6 @@ records:
     name:
       zh: Polychrus liogaster
       en: Polychrus liogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

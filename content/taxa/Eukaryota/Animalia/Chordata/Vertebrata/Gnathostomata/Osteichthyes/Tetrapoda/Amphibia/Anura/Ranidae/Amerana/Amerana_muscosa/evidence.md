@@ -9,7 +9,6 @@ records:
     name:
       en: Amerana muscosa
       zh: Amerana muscosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

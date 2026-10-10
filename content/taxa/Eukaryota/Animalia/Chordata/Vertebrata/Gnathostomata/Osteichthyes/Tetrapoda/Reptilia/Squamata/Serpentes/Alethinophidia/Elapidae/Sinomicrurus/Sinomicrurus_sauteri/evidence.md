@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinomicrurus sauteri
       en: Sinomicrurus sauteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

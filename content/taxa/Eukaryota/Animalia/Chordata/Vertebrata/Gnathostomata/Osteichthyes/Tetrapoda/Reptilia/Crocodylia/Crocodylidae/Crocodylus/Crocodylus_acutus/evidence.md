@@ -9,7 +9,6 @@ records:
     name:
       zh: 美洲鳄
       en: American crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

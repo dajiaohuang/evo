@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoplohophorus berroi
       en: Pseudoplohophorus berroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

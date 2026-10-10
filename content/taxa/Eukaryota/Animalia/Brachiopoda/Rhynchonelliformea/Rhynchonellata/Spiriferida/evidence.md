@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: carter-1994-spiriferids
       referenceLinks:
         - referenceId: carter-1994-spiriferids
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Carter et al. 1994 DOI 10.5962/p.215817
       referenceLinks:
         - relation: supports
           referenceId: carter-1994-spiriferids
@@ -97,7 +91,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/1/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Spiriferida

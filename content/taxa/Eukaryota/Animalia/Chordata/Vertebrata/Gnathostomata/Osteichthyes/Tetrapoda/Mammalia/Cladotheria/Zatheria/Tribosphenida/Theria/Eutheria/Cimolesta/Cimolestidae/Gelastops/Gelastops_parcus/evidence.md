@@ -9,7 +9,6 @@ records:
     name:
       zh: Gelastops parcus
       en: Gelastops parcus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

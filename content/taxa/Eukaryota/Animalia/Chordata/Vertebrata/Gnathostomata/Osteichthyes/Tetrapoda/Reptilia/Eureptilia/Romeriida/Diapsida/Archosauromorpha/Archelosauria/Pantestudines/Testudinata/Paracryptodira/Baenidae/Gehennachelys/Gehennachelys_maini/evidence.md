@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehennachelys maini
       en: Gehennachelys maini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroreomyza montana
       en: Paroreomyza montana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

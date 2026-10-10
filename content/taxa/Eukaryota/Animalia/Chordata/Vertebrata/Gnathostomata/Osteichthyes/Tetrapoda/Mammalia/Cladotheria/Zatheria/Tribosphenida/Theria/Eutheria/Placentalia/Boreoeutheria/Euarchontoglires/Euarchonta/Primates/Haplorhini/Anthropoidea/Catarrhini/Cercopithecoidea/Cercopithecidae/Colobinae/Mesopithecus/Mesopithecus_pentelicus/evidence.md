@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesopithecus pentelicus
       en: Mesopithecus pentelicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

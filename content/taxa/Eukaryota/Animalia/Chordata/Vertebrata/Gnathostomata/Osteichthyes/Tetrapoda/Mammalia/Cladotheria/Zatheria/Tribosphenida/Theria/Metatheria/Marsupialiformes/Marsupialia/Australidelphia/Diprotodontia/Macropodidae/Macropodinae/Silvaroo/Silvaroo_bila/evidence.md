@@ -9,7 +9,6 @@ records:
     name:
       zh: Silvaroo bila
       en: Silvaroo bila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes fastigatus
       zh: Limnonectes fastigatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

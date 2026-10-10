@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyoryctoides engesseri
       en: Tachyoryctoides engesseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

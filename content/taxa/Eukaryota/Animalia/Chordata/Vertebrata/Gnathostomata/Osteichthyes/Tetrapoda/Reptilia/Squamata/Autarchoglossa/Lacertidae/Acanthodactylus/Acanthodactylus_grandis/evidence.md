@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthodactylus grandis
       en: Acanthodactylus grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

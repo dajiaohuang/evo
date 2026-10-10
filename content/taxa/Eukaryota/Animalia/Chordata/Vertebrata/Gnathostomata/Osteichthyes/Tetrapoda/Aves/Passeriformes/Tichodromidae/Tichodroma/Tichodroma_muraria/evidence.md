@@ -9,7 +9,6 @@ records:
     name:
       zh: Tichodroma muraria
       en: Tichodroma muraria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

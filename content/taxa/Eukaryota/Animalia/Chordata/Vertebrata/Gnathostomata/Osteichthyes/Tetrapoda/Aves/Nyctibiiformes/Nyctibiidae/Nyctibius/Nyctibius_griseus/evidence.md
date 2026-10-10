@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctibius griseus
       en: Nyctibius griseus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

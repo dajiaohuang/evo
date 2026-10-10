@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocheirus peregrinus
       en: Pseudocheirus peregrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

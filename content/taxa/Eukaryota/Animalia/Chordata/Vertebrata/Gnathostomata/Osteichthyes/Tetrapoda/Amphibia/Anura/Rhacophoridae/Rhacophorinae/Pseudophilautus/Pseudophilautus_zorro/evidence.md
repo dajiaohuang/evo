@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus zorro
       zh: Pseudophilautus zorro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

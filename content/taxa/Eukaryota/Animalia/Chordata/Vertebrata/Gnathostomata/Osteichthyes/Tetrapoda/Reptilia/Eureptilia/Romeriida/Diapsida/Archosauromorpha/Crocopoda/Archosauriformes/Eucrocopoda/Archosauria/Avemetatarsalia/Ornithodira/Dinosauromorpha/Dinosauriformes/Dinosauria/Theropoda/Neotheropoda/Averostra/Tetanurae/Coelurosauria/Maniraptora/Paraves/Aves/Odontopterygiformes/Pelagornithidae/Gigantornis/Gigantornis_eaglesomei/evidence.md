@@ -9,7 +9,6 @@ records:
     name:
       zh: Gigantornis eaglesomei
       en: Gigantornis eaglesomei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

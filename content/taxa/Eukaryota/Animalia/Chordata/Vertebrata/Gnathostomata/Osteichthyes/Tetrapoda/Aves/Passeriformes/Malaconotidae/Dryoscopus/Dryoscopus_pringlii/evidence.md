@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryoscopus pringlii
       en: Dryoscopus pringlii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

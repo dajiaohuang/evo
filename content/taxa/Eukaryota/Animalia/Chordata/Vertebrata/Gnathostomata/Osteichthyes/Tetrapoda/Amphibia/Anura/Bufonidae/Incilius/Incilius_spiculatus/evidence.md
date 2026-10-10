@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius spiculatus
       zh: Incilius spiculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

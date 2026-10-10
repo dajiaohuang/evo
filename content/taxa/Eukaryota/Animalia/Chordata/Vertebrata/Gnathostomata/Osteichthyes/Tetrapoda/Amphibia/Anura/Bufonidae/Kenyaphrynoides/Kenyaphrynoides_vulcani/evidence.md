@@ -9,7 +9,6 @@ records:
     name:
       en: Kenyaphrynoides vulcani
       zh: Kenyaphrynoides vulcani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

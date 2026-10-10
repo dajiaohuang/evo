@@ -9,7 +9,6 @@ records:
     name:
       zh: Landenodon phelizoni
       en: Landenodon phelizoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

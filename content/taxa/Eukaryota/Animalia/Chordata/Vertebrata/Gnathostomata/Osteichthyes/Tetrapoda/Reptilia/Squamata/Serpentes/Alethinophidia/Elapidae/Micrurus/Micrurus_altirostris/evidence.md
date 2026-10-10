@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus altirostris
       en: Micrurus altirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

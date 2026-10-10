@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus leptofasciatus
       en: Sphenomorphus leptofasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

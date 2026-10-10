@@ -9,7 +9,6 @@ records:
     name:
       zh: Campylopterus falcatus
       en: Campylopterus falcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

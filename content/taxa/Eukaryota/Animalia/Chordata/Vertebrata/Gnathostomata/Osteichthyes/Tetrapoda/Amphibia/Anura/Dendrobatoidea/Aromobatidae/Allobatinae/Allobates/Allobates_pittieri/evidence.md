@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates pittieri
       zh: Allobates pittieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

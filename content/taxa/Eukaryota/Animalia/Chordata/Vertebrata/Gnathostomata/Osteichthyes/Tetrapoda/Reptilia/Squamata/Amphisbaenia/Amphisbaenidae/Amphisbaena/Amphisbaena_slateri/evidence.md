@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena slateri
       en: Amphisbaena slateri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

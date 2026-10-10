@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyseps punctatus
       en: Brachyseps punctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

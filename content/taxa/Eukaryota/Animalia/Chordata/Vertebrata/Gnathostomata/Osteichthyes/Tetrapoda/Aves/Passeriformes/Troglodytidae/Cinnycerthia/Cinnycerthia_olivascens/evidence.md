@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnycerthia olivascens
       en: Cinnycerthia olivascens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

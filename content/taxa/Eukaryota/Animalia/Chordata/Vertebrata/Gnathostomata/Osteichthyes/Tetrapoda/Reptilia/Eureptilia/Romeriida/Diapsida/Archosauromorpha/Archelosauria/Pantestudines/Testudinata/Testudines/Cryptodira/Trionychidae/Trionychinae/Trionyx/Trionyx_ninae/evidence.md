@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx ninae
       en: Trionyx ninae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

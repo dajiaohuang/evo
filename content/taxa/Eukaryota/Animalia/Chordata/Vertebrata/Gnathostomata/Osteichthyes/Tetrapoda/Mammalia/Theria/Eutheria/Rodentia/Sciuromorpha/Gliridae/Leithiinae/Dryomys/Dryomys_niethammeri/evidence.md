@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryomys niethammeri
       en: Dryomys niethammeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

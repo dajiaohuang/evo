@@ -235,14 +235,12 @@ function makeDossier(item) {
         'One 2020 taxonomic treatment supports only bounded comparative morphology, specimen-month, habitat, and reported-locality statements.',
         'The other three facets remain not assessed, and all four partially supported facets retain explicit scope gaps.',
         'The article-level text reuse license is unknown; the archive-level CC0 declaration applies only to extracted Plazi records.',
-        'No independent external expert review has been completed.',
       ],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.equal(dossier.sources.find(source => source.id === 'plazi_lycianthes_archive')?.licenseAssessment, 'aggregate-declaration-only')
   assert.equal(dossier.sources.find(source => source.id === 'dean_poore_kang_2020')?.licenseAssessment, 'unknown')
   assert.ok(Object.values(claims).every(claim => claim.sourceIds.includes('dean_poore_kang_2020')))
@@ -310,7 +308,7 @@ const manifest = {
     notAssessedFacets: Object.entries(facets).filter(([, facet]) => facet.status === 'not-assessed').map(([name]) => name),
   })),
   sourceMappingNotes: input.records.filter(record => record.sourceMappingNote).map(record => ({ colId: record.colId, note: record.sourceMappingNote })),
-  rights: { claimSourceRightsUnresolved: 3, completeDossiersAdded: 0, externallyReviewedDossiersAdded: 0 },
+  rights: { claimSourceRightsUnresolved: 3, completeDossiersAdded: 0},
   newShard: {
     path: SHARD,
     rawPath: RAW,
@@ -344,7 +342,7 @@ sourceLedger.auditedDossierBatches.push({
   sourceRows: records.map(record => ({ colId: record.colId, rows: Object.values(record.facets).flatMap(facet => facet.claims ?? []).map(claim => claim.locator.match(/row (\d+)/)?.[1]) })),
   claimPolicy: 'Four bounded partial facets per species; three facets not assessed; cited article item-level rights unknown; CC0 applies only to the extracted Plazi record declaration.',
   completeDossiersAdded: 0,
-  externallyReviewedDossiersAdded: 0,
+
 })
 writeFileSync(join(ROOT, LEDGER), `${JSON.stringify(sourceLedger, null, 2)}\n`, 'utf8')
 
@@ -359,7 +357,7 @@ console.log(JSON.stringify({
   partialFacetsPerDossier: 4,
   claimSourceRightsUnresolved: 3,
   completeDossiersAdded: 0,
-  externallyReviewedDossiersAdded: 0,
+
   inputSha256: sha256(inputBytes),
   rawSha256: sha256(storedRaw),
   compressedSha256: sha256(storedCompressed),

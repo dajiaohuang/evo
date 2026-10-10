@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyrrhenotragus gracillimus
       en: Tyrrhenotragus gracillimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

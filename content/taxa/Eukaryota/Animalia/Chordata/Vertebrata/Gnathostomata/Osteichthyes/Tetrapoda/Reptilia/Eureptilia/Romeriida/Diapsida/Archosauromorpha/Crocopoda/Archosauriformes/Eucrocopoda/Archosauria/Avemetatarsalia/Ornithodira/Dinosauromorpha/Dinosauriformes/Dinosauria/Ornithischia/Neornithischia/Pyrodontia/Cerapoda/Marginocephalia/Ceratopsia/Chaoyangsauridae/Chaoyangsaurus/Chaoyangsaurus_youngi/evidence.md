@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaoyangsaurus youngi
       en: Chaoyangsaurus youngi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

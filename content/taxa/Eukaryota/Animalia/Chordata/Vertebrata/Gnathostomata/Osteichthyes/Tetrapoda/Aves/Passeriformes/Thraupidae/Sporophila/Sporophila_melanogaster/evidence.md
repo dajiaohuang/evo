@@ -9,7 +9,6 @@ records:
     name:
       zh: Sporophila melanogaster
       en: Sporophila melanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

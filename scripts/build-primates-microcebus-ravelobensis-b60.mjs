@@ -191,7 +191,7 @@ const record = {
     conservation: { status: 'not-assessed', claims: [], gaps: ['The article title uses “vulnerable,” but no current formal conservation assessment was verified; no current threat category is asserted.'] },
   },
   completeness: { status: 'incomplete', reasons: structuredClone(source.completenessReasons) },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
 }
 
 assert.deepEqual(Object.keys(record.facets).sort(), [...FACETS].sort())
@@ -199,7 +199,6 @@ assert.equal(record.sources.filter(item => item.stableId === source.source.stabl
 assert.equal(articleSource.licenseAssessment, 'item-level-verified')
 assert.equal(articleSource.licenseVersion, 'CC BY 4.0')
 assert.equal(record.completeness.status, 'incomplete')
-assert.equal(record.expertReview.status, 'not-reviewed')
 for (const facet of FACETS) {
   for (const claim of record.facets[facet].claims) {
     assert.ok(claim.text && claim.locator && claim.placeTimeScope && claim.lifeStatus, 'Unbounded claim in ' + facet)

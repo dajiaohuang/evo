@@ -9,7 +9,6 @@ records:
     name:
       zh: Coronelsuchus civali
       en: Coronelsuchus civali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

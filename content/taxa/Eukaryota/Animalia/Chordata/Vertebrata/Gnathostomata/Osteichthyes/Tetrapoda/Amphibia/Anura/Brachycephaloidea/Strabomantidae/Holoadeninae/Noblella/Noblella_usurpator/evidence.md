@@ -9,7 +9,6 @@ records:
     name:
       en: Noblella usurpator
       zh: Noblella usurpator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

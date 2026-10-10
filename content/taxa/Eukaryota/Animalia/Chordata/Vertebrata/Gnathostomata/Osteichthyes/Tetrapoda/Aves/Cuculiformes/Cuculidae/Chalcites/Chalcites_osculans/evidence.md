@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcites osculans
       en: Chalcites osculans
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

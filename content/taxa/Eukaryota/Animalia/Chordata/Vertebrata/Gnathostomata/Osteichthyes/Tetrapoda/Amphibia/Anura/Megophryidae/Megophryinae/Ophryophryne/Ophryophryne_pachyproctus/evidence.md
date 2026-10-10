@@ -9,7 +9,6 @@ records:
     name:
       en: Ophryophryne pachyproctus
       zh: Ophryophryne pachyproctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

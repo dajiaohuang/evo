@@ -10,7 +10,6 @@ records:
     name:
       en: Golden Angwantibo
       zh: 金色熊猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

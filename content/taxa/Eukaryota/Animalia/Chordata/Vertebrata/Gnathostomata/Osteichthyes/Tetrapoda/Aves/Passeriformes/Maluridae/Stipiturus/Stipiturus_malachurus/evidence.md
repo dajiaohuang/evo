@@ -9,7 +9,6 @@ records:
     name:
       zh: Stipiturus malachurus
       en: Stipiturus malachurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

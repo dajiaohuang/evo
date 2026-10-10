@@ -9,7 +9,6 @@ records:
     name:
       zh: Calliophis bivirgatus
       en: Calliophis bivirgatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

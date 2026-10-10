@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus bourgati
       zh: Mantidactylus bourgati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

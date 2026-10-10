@@ -9,7 +9,6 @@ records:
     name:
       zh: Bambusicola fytchii
       en: Bambusicola fytchii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Agalychnis moreletii
       zh: Agalychnis moreletii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

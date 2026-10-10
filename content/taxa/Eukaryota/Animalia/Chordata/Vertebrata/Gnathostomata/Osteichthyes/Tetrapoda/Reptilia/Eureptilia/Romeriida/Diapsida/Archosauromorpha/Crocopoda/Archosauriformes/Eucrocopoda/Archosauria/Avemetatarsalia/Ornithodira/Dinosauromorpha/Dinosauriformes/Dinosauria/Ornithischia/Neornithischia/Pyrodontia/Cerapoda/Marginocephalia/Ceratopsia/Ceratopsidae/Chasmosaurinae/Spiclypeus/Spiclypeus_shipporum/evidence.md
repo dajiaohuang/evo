@@ -9,7 +9,6 @@ records:
     name:
       zh: Spiclypeus shipporum
       en: Spiclypeus shipporum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

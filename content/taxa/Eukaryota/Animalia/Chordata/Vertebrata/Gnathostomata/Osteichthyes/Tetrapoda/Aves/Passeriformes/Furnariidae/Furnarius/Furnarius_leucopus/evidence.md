@@ -9,7 +9,6 @@ records:
     name:
       zh: Furnarius leucopus
       en: Furnarius leucopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

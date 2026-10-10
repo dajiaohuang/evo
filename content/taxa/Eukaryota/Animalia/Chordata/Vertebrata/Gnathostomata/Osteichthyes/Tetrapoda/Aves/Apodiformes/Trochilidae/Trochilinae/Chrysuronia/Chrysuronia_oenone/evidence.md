@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysuronia oenone
       en: Chrysuronia oenone
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

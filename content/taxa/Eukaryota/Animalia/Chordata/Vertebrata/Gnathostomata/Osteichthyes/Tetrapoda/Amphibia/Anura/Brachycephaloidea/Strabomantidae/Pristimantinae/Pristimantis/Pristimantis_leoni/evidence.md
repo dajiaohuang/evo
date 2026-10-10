@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis leoni
       zh: Pristimantis leoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Walbeckodon krumbiegeli
       en: Walbeckodon krumbiegeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

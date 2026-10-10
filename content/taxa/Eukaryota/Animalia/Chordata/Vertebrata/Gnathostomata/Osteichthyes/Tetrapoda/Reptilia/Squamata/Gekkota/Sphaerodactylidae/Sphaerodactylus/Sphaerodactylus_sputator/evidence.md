@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus sputator
       en: Sphaerodactylus sputator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Xenohyla eugenioi
       zh: Xenohyla eugenioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

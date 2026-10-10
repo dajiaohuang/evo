@@ -9,7 +9,6 @@ records:
     name:
       en: Plectrohyla pokomchi
       zh: Plectrohyla pokomchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

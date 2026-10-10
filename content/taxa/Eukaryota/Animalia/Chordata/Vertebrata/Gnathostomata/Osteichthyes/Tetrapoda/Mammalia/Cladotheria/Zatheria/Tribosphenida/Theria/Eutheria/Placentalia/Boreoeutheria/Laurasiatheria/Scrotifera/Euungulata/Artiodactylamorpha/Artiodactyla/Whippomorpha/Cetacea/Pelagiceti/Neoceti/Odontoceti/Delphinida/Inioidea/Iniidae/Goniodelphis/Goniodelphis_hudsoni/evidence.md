@@ -9,7 +9,6 @@ records:
     name:
       zh: Goniodelphis hudsoni
       en: Goniodelphis hudsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

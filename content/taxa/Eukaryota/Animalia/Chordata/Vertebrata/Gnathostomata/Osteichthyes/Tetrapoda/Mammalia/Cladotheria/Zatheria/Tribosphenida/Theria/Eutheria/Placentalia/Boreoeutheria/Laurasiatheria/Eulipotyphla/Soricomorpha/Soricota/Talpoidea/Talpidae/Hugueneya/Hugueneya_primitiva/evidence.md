@@ -9,7 +9,6 @@ records:
     name:
       zh: Hugueneya primitiva
       en: Hugueneya primitiva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

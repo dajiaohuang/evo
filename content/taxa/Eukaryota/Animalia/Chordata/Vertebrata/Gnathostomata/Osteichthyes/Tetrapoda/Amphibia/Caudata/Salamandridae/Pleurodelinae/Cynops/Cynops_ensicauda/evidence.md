@@ -9,7 +9,6 @@ records:
     name:
       en: Cynops ensicauda
       zh: Cynops ensicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimus saturninus
       en: Mimus saturninus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

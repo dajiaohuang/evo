@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus armstrongi
       zh: Eleutherodactylus armstrongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

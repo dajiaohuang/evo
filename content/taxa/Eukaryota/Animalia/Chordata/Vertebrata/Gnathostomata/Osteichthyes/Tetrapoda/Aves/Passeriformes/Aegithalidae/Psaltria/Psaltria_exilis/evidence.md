@@ -9,7 +9,6 @@ records:
     name:
       zh: Psaltria exilis
       en: Psaltria exilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

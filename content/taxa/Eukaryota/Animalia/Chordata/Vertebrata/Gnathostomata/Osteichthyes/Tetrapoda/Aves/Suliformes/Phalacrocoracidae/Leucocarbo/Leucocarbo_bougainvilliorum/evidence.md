@@ -9,7 +9,6 @@ records:
     name:
       zh: 瓜奈鸬鹚
       en: Guanay Cormorant
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -310,9 +309,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Leucocarbo bougainvilliorum
@@ -436,7 +432,7 @@ Only one pre-spill collection month and three post-spill collection months from 
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, broader ecology, evolution, distribution, fossils, conservation, systematic search, and independent review remain unassessed.
+Morphology, life history, broader ecology, evolution, distribution, fossils, conservation, systematic search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -454,5 +450,5 @@ The design is observational and does not establish an oil-spill cause or a gener
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets, systematic search, and external expert review remain unassessed.
+Most biological facets, systematic search, remain unassessed.
 <!-- /evo:text -->

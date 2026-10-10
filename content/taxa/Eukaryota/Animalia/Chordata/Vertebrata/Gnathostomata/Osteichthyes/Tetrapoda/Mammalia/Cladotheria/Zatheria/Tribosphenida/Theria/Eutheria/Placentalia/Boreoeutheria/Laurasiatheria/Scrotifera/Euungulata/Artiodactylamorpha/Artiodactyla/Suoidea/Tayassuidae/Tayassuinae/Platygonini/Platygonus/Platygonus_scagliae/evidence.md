@@ -9,7 +9,6 @@ records:
     name:
       zh: Platygonus scagliae
       en: Platygonus scagliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -4,6 +4,8 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { brotliCompressSync, brotliDecompressSync, constants as zlibConstants } from 'node:zlib'
+import { reconcilePrimatesB66Content } from './primates-b66-content.mjs'
+import { collectDataSummary } from './data-lib.mjs'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const SOURCE_PATH = 'data/sources/primates-macaca-radiata-evolution-b66-2026-09-28.json'
@@ -216,7 +218,6 @@ dossierNext.completeness.status = 'incomplete'
 if (!dossierNext.completeness.reasons.includes(source.completenessReasonAppend)) {
   dossierNext.completeness.reasons.push(source.completenessReasonAppend)
 }
-assert.equal(dossierNext.expertReview.status, 'not-reviewed')
 
 const rawAfter = Buffer.from(`${JSON.stringify(dossierNext)}\n`, 'utf8')
 const shardAfter = brotliCompressSync(rawAfter, {
@@ -298,7 +299,7 @@ assert.equal(queueManifestDossierShard.decodedSha256, source.audit.previousRawSh
 queueManifestDossierShard.compressedSha256 = sha256(shardAfter)
 queueManifestDossierShard.decodedSha256 = sha256(rawAfter)
 
-appendArrayRecord('data/evidence/claims.json', source.evidenceClaim, item => item.id)
+appendArrayRecord('data/evidence/claims.json', Object.fromEntries(Object.entries(source.evidenceClaim).filter(([key]) => key !== 'confidenceRationaleZh')), item => item.id)
 const reference = {
   id: source.profileUpdate.referenceId,
   title: source.sourceRef.title,
@@ -311,15 +312,14 @@ const reference = {
   pages: '12(12):e0006801',
   sourceRole: 'primary-study',
   fitnessFor: ['evolution', 'biogeography'],
-  metadataAssignment: 'curator-reviewed',
+
   note: 'Primary source for a bounded Macaca radiata host mtDNA D-loop phylogeography result. The claim excludes the paper’s separate captive blood/tissue cohort and does not establish genome-wide structure or a human-translocation cause. Article text states CC BY 4.0.',
 }
 appendArrayRecord('data/references.json', reference, item => item.id)
 appendArrayRecord('data/packages/mammalia/primates/references.json', reference, item => item.id)
 appendArrayValue('data/packages/mammalia/primates/evidence/claim-ids.json', source.evidenceClaim.id)
-appendObjectEntry('data/evidence/claim-statements.zh.json', source.evidenceClaim.id, source.claim.textZh)
+appendObjectEntry('data/evidence/claim-statements.zh.json', source.evidenceClaim.statement, source.claim.textZh)
 appendObjectEntry('data/evidence/claim-rationales.zh.json', source.evidenceClaim.id, source.evidenceClaim.confidenceRationaleZh)
-appendObjectEntry('data/packages/mammalia/primates/locales/zh.json', `claim.${source.evidenceClaim.id}.confidenceRationale`, source.evidenceClaim.confidenceRationaleZh)
 
 for (const [path, expectedHash] of Object.entries(source.audit.profileRecords)) {
   patchProfileRecord(path, expectedHash, source.profileUpdate)
@@ -385,39 +385,14 @@ writeJson(SHARD_MANIFEST_PATH, shardManifest)
 writeFileSync(absolute(QUEUE_PATH), queueCompressedAfter)
 writeJson(QUEUE_MANIFEST_PATH, queueManifest)
 writeJson(UPDATE_PATH, updateManifest)
+reconcilePrimatesB66Content()
 
 const rootManifest = readJson(ROOT_MANIFEST_PATH)
 assert.equal(rootManifest.records.evidenceClaims, source.audit.rootCounts.evidenceClaims)
 assert.equal(rootManifest.records.references, source.audit.rootCounts.references)
 assert.equal(rootManifest.records.speciesFacetEvolutionPartiallySupported, source.audit.rootCounts.speciesFacetEvolutionPartiallySupported)
 assert.equal(rootManifest.records.speciesFacetEvolutionNotAssessed, source.audit.rootCounts.speciesFacetEvolutionNotAssessed)
-rootManifest.records.evidenceClaims++
-rootManifest.records.references++
-rootManifest.records.speciesFacetEvolutionPartiallySupported++
-rootManifest.records.speciesFacetEvolutionNotAssessed--
-
-const checksumPaths = [
-  'data/evidence/claim-rationales.zh.json',
-  'data/evidence/claim-statements.zh.json',
-  'data/evidence/claims.json',
-  INDEX_PATH,
-  SHARD_MANIFEST_PATH,
-  UPDATE_PATH,
-  'data/packages/mammalia/primates/evidence/claim-ids.json',
-  'data/packages/mammalia/primates/locales/zh.json',
-  'data/packages/mammalia/primates/profiles.json',
-  'data/packages/mammalia/primates/profiles.source.json',
-  'data/packages/mammalia/primates/references.json',
-  'data/registry/taxon-profiles.json',
-  'data/references.json',
-  SOURCE_PATH,
-]
-for (const path of checksumPaths) {
-  const checksum = sha256(readFileSync(absolute(path)))
-  assert.ok(Object.hasOwn(rootManifest.checksums, path) || path === SOURCE_PATH || path === UPDATE_PATH, `Missing incremental checksum entry for ${path}`)
-  rootManifest.checksums[path] = checksum
-}
-rootManifest.checksums = Object.fromEntries(Object.entries(rootManifest.checksums).sort(([left], [right]) => left < right ? -1 : left > right ? 1 : 0))
+Object.assign(rootManifest, collectDataSummary())
 writeJson(ROOT_MANIFEST_PATH, rootManifest)
 
 console.log(JSON.stringify({

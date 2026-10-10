@@ -9,7 +9,6 @@ records:
     name:
       en: Elachistocleis helianneae
       zh: Elachistocleis helianneae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

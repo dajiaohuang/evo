@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploderma laeviventre
       en: Diploderma laeviventre
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

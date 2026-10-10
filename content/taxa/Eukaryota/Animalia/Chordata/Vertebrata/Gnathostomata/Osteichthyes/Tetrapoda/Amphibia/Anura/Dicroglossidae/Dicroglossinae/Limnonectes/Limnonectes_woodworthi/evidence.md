@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes woodworthi
       zh: Limnonectes woodworthi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

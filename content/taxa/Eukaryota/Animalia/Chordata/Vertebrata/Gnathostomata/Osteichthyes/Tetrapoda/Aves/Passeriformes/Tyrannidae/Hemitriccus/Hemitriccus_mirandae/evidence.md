@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemitriccus mirandae
       en: Hemitriccus mirandae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

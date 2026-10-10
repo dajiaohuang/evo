@@ -9,7 +9,6 @@ records:
     name:
       en: Ophryophryne gerti
       zh: Ophryophryne gerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

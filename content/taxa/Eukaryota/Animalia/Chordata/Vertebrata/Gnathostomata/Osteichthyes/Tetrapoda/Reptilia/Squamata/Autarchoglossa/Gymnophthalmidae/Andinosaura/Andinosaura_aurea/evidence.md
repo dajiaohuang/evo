@@ -9,7 +9,6 @@ records:
     name:
       zh: Andinosaura aurea
       en: Andinosaura aurea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus taylori
       en: Hemidactylus taylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

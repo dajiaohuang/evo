@@ -9,7 +9,6 @@ records:
     name:
       zh: Peroryctes broadbenti
       en: Peroryctes broadbenti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

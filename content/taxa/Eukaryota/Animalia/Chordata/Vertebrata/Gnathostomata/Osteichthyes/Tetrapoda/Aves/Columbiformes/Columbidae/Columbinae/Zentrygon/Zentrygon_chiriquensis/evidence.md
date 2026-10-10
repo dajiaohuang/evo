@@ -9,7 +9,6 @@ records:
     name:
       zh: Zentrygon chiriquensis
       en: Zentrygon chiriquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

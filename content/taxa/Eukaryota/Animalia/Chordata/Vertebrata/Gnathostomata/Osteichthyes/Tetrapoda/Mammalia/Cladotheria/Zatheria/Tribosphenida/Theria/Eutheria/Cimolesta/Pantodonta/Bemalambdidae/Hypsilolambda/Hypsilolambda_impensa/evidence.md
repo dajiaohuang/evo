@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsilolambda impensa
       en: Hypsilolambda impensa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

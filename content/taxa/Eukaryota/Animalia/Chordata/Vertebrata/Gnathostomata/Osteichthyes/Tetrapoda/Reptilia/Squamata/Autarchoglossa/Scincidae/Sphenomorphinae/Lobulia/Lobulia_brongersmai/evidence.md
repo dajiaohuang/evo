@@ -9,7 +9,6 @@ records:
     name:
       zh: Lobulia brongersmai
       en: Lobulia brongersmai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acritoparamys atavus
       en: Acritoparamys atavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

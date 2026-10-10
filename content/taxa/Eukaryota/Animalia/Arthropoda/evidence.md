@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Holmes and Budd 2022 DOI 10.1038/s42003-022-04146-6 checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: holmes-budd-2022-early-trilobites
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: holmes-budd-2022-early-trilobites
           locator: article 1177; Figures 1–4 and supplementary analyses
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

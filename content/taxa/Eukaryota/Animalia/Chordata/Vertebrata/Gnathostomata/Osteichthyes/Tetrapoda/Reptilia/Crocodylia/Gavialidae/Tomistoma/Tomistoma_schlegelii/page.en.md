@@ -30,5 +30,5 @@ erickson2012
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked biomechanical study guide, not externally expert-reviewed. Values use the taxonomy in the original study and a limited adult sample; they are not species-wide statistics or field bite performance and are not transferred to lineages split later.
+Source-linked biomechanical study guide. Values use the taxonomy in the original study and a limited adult sample; they are not species-wide statistics or field bite performance and are not transferred to lineages split later.
 <!-- /evo:text -->

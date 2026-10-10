@@ -9,7 +9,6 @@ records:
     name:
       zh: Kallokibotion bajazidi
       en: Kallokibotion bajazidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

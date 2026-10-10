@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius platyceps
       zh: Hyperolius platyceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

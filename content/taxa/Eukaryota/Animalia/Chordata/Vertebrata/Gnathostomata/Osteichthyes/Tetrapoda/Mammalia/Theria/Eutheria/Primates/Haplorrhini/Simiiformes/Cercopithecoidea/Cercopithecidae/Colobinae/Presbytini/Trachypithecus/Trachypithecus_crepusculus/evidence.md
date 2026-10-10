@@ -9,7 +9,6 @@ records:
     name:
       zh: 印支灰叶猴
       en: Indochinese Gray Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: ecology

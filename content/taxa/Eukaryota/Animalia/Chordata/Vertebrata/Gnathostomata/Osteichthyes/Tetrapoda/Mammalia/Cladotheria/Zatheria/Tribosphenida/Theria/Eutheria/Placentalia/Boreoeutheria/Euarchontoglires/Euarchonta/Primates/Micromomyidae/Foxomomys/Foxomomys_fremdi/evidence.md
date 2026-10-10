@@ -9,7 +9,6 @@ records:
     name:
       zh: Foxomomys fremdi
       en: Foxomomys fremdi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

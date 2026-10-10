@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudonaja guttata
       en: Pseudonaja guttata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

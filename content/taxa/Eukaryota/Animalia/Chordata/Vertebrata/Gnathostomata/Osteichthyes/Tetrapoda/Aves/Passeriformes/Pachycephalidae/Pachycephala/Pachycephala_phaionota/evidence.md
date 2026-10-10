@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephala phaionota
       en: Pachycephala phaionota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

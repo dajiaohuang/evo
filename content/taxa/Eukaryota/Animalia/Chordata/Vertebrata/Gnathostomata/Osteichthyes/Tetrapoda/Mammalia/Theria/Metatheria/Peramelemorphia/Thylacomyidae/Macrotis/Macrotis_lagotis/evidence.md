@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrotis lagotis
       en: Macrotis lagotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

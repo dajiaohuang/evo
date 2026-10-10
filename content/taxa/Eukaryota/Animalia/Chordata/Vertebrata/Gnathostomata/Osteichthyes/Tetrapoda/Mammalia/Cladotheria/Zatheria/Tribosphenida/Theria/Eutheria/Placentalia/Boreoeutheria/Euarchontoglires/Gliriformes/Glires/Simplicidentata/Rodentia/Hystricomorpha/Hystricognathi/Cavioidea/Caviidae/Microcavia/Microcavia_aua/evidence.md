@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcavia aua
       en: Microcavia aua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

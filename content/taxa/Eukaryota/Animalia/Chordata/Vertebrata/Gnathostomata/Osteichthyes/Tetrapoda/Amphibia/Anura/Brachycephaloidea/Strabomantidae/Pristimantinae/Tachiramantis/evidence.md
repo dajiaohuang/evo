@@ -9,7 +9,6 @@ records:
     name:
       en: Tachiramantis
       zh: Tachiramantis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thecachampsa
       en: Thecachampsa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

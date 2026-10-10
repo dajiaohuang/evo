@@ -9,7 +9,6 @@ records:
     name:
       zh: Caribicus warreni
       en: Caribicus warreni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

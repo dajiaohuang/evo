@@ -9,7 +9,6 @@ records:
     name:
       zh: Mylagaulus kinseyi
       en: Mylagaulus kinseyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

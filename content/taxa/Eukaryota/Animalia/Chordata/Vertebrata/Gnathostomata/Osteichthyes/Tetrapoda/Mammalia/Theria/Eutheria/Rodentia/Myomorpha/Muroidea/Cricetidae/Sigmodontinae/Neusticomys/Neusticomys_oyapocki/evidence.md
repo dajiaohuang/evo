@@ -9,7 +9,6 @@ records:
     name:
       zh: Neusticomys oyapocki
       en: Neusticomys oyapocki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

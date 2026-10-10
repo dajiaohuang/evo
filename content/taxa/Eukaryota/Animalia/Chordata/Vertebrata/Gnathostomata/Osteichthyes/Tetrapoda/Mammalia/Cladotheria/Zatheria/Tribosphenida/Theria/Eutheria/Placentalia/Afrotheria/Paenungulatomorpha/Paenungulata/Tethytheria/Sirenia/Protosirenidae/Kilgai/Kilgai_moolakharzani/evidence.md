@@ -9,7 +9,6 @@ records:
     name:
       zh: Kilgai moolakharzani
       en: Kilgai moolakharzani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

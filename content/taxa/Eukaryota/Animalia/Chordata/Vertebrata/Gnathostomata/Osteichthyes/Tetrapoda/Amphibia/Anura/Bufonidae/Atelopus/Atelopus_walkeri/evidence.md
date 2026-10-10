@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus walkeri
       zh: Atelopus walkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

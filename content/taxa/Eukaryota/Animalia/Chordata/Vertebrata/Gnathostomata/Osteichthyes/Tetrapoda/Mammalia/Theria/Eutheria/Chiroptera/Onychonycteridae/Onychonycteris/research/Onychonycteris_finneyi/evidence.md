@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: simmons-2008-onychonycteris primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: simmons-2008-onychonycteris
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: simmons-2008-onychonycteris primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: simmons-2008-onychonycteris
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: simmons-2008-onychonycteris primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: simmons-2008-onychonycteris
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: simmons-2008-onychonycteris primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: simmons-2008-onychonycteris
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: simmons-2008-onychonycteris primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: simmons-2008-onychonycteris
           relation: supports
@@ -189,7 +174,6 @@ records:
       referenceLocators:
         - referenceId: simmons-2008-onychonycteris
           locator: 818–821; Figures 1–4; Holotype and locality
-      reviewStatus: automated-audit-passed
 ---
 
 # Onychonycteris finneyi

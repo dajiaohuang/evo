@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus sinensis
       zh: Kalophrynus sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

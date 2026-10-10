@@ -9,7 +9,6 @@ records:
     name:
       zh: Siderolamprus hylaius
       en: Siderolamprus hylaius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza tahapisi
       en: Emberiza tahapisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

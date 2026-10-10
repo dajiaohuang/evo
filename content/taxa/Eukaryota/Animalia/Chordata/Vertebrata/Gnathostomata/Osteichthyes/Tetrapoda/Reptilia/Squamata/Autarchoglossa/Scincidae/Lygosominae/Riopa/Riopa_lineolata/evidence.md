@@ -9,7 +9,6 @@ records:
     name:
       zh: Riopa lineolata
       en: Riopa lineolata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

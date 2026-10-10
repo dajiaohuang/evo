@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis philipi
       zh: Pristimantis philipi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

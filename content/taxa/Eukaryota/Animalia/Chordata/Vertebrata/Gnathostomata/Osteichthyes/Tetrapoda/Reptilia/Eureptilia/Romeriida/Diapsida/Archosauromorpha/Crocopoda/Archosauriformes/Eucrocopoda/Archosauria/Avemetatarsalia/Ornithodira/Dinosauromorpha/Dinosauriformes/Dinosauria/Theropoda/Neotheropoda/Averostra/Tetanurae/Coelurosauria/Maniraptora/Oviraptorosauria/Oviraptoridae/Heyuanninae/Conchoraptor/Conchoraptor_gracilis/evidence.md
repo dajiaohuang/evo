@@ -9,7 +9,6 @@ records:
     name:
       zh: Conchoraptor gracilis
       en: Conchoraptor gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

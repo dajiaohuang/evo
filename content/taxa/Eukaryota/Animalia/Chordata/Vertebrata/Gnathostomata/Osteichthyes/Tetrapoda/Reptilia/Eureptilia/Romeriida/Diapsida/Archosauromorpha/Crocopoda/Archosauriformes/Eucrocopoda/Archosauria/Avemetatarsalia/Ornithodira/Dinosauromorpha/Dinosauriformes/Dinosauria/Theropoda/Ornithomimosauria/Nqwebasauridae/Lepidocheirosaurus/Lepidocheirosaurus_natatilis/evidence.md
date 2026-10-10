@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidocheirosaurus natatilis
       en: Lepidocheirosaurus natatilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

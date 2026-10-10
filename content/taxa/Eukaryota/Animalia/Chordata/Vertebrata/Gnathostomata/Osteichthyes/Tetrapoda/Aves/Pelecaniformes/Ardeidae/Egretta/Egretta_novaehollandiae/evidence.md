@@ -9,7 +9,6 @@ records:
     name:
       zh: Egretta novaehollandiae
       en: Egretta novaehollandiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

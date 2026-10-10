@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelyopsis raabei
       en: Chelyopsis raabei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

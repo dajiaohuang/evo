@@ -9,7 +9,6 @@ records:
     name:
       zh: Falco rupicolus
       en: Falco rupicolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

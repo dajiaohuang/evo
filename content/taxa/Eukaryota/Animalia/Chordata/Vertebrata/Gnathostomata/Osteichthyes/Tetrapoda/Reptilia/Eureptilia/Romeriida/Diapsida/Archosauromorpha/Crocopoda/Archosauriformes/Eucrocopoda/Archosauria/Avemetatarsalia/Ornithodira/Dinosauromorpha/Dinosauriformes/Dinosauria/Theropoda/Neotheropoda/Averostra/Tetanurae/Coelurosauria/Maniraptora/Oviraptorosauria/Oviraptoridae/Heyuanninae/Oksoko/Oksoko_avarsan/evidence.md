@@ -9,7 +9,6 @@ records:
     name:
       zh: Oksoko avarsan
       en: Oksoko avarsan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus spekeoides
       en: Ploceus spekeoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zeuctherium niteles
       en: Zeuctherium niteles
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

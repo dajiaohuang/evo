@@ -9,7 +9,6 @@ records:
     name:
       zh: Discosura letitiae
       en: Discosura letitiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

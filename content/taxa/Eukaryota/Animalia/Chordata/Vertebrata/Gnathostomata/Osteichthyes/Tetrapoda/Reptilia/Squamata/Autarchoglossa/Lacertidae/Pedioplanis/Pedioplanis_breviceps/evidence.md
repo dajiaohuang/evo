@@ -9,7 +9,6 @@ records:
     name:
       zh: Pedioplanis breviceps
       en: Pedioplanis breviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

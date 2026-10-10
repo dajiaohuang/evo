@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus boraceiensis
       zh: Cycloramphus boraceiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

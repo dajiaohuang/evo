@@ -9,7 +9,6 @@ records:
     name:
       en: Roloway monkey
       zh: 罗洛韦长尾猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipposideros speoris
       en: Hipposideros speoris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

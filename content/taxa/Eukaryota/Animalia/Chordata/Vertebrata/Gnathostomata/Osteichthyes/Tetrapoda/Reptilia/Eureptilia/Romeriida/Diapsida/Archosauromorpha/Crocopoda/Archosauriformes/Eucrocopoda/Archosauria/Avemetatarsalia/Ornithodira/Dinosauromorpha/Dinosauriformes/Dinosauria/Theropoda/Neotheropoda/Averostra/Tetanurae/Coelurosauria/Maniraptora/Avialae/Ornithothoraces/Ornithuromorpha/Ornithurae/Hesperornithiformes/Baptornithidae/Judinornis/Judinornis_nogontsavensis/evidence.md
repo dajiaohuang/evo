@@ -9,7 +9,6 @@ records:
     name:
       zh: Judinornis nogontsavensis
       en: Judinornis nogontsavensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

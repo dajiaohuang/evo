@@ -9,7 +9,6 @@ records:
     name:
       zh: Malia grata
       en: Malia grata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

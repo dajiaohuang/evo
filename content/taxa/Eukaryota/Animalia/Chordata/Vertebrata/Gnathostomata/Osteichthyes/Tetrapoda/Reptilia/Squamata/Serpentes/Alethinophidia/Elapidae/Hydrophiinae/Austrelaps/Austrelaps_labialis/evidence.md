@@ -9,7 +9,6 @@ records:
     name:
       zh: Austrelaps labialis
       en: Austrelaps labialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaenicophaeus viridirostris
       en: Phaenicophaeus viridirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Santos et al. 2024 DOI 10.1093/zoolinnean/zlad188
       referenceLinks:
         - relation: supports
           referenceId: santos-2024-ymboirana

@@ -9,7 +9,6 @@ records:
     name:
       en: Vietnamophryne cuongi
       zh: Vietnamophryne cuongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

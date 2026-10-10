@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes nigrilabris
       en: Calotes nigrilabris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Odontorchilus cinereus
       en: Odontorchilus cinereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

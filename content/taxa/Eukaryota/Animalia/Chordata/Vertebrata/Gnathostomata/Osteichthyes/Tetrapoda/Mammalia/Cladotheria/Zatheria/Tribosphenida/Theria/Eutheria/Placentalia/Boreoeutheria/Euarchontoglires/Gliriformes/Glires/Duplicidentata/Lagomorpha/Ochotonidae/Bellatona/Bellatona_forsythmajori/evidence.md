@@ -9,7 +9,6 @@ records:
     name:
       zh: Bellatona forsythmajori
       en: Bellatona forsythmajori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

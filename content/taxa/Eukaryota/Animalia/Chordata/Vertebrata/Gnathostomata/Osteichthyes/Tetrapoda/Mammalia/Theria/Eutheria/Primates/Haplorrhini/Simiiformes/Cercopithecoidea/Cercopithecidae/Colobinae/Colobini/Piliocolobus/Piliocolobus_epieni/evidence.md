@@ -9,7 +9,6 @@ records:
     name:
       en: Niger Delta Red Colobus
       zh: 尼日尔三角洲红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: survey

@@ -212,9 +212,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Physcomitrium patens
@@ -324,7 +321,7 @@ The authors could not track the dissected live samples for longer, and the later
 ## facets / morphology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/morphology/gaps/2 -->
-Life history, ecology, evolution, geographic distribution, fossils, conservation, systematic evidence search, and independent expert review remain unassessed.
+Life history, ecology, evolution, geographic distribution, fossils, conservation, systematic evidence search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -342,5 +339,5 @@ The fate of the resulting spacer cell remains unresolved in the cited study.
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Six other biological facets, a systematic source search, and independent expert review have not been completed.
+Six other biological facets, a systematic source search have not been completed.
 <!-- /evo:text -->

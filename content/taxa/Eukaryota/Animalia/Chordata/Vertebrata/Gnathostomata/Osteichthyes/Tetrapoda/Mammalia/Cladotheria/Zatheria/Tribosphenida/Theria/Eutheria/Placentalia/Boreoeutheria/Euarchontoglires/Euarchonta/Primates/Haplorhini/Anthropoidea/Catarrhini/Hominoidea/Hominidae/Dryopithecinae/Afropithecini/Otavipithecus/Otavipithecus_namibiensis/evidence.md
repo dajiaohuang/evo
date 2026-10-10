@@ -9,7 +9,6 @@ records:
     name:
       zh: Otavipithecus namibiensis
       en: Otavipithecus namibiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

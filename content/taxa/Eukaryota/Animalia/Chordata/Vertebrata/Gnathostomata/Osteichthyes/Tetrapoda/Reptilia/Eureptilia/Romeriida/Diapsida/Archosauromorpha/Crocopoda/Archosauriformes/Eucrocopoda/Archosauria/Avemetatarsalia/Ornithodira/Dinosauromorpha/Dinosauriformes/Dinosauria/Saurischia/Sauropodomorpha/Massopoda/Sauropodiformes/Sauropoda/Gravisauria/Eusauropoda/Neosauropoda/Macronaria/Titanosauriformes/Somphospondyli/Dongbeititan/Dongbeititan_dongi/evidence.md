@@ -9,7 +9,6 @@ records:
     name:
       zh: Dongbeititan dongi
       en: Dongbeititan dongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

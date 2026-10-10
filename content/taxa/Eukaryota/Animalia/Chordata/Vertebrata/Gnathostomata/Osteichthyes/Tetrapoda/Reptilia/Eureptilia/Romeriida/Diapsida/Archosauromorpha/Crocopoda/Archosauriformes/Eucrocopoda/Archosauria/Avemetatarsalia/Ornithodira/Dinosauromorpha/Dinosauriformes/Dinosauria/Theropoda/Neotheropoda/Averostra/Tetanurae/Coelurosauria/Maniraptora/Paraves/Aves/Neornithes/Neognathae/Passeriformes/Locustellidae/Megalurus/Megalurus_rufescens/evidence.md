@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalurus rufescens
       en: Megalurus rufescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arenaria melanocephala
       en: Arenaria melanocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

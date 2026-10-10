@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhampholeon nicolai
       en: Rhampholeon nicolai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

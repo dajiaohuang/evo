@@ -9,7 +9,6 @@ records:
     name:
       zh: Machairodus tanneri
       en: Machairodus tanneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolagostomus
       en: Prolagostomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

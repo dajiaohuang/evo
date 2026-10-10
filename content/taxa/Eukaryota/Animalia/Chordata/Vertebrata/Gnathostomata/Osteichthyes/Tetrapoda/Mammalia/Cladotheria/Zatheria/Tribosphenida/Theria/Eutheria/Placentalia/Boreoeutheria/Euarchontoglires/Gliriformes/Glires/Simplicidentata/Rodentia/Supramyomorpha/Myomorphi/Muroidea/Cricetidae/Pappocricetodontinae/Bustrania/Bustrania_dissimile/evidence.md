@@ -9,7 +9,6 @@ records:
     name:
       zh: Bustrania dissimile
       en: Bustrania dissimile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

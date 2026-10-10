@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus montevidensis
       zh: Melanophryniscus montevidensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

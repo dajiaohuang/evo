@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptosiaphos dungeri
       en: Leptosiaphos dungeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

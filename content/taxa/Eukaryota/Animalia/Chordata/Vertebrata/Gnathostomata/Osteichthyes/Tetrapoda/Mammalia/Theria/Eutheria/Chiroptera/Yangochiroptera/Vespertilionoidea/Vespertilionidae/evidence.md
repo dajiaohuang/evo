@@ -9,7 +9,6 @@ records:
     name:
       zh: Vespertilionidae
       en: Vespertilionidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

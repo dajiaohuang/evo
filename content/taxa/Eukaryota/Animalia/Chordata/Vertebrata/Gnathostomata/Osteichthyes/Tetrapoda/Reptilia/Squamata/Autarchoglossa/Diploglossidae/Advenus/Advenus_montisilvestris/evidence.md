@@ -9,7 +9,6 @@ records:
     name:
       zh: Advenus montisilvestris
       en: Advenus montisilvestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

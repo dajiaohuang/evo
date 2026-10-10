@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: smith-et-al-2011-mollusca
       referenceLinks:
         - referenceId: smith-et-al-2011-mollusca
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: smith-et-al-2011-mollusca
           locator: 364–367; Figures 1–2; Supplementary Table 1 and phylogenomic matrices
-      reviewStatus: automated-audit-passed
 ---
 
 # Scaphopoda

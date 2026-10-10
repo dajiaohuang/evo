@@ -9,7 +9,6 @@ records:
     name:
       en: Pachytriton wuguanfui
       zh: Pachytriton wuguanfui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

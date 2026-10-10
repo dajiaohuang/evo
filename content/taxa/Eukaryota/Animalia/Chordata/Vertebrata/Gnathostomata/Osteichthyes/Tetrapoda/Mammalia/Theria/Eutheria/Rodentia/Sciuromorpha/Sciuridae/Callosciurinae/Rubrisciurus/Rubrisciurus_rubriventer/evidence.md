@@ -9,7 +9,6 @@ records:
     name:
       zh: Rubrisciurus rubriventer
       en: Rubrisciurus rubriventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

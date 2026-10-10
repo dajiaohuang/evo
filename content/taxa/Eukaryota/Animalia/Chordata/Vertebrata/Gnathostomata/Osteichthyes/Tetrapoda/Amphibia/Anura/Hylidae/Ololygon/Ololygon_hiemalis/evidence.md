@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon hiemalis
       zh: Ololygon hiemalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

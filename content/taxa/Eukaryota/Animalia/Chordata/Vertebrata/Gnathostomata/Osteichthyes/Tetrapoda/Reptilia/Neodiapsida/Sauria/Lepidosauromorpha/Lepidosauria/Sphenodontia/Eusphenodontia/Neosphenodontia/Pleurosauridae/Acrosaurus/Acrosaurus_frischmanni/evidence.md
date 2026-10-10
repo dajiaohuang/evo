@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrosaurus frischmanni
       en: Acrosaurus frischmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

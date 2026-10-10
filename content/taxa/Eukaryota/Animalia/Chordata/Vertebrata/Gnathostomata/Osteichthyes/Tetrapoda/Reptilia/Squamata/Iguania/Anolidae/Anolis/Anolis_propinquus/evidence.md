@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis propinquus
       en: Anolis propinquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

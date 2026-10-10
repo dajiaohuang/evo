@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucyon odessanus
       en: Eucyon odessanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

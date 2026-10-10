@@ -9,7 +9,6 @@ records:
     name:
       en: Paratelmatobius segallai
       zh: Paratelmatobius segallai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

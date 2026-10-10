@@ -9,7 +9,6 @@ records:
     name:
       zh: Derorhynchus minutus
       en: Derorhynchus minutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

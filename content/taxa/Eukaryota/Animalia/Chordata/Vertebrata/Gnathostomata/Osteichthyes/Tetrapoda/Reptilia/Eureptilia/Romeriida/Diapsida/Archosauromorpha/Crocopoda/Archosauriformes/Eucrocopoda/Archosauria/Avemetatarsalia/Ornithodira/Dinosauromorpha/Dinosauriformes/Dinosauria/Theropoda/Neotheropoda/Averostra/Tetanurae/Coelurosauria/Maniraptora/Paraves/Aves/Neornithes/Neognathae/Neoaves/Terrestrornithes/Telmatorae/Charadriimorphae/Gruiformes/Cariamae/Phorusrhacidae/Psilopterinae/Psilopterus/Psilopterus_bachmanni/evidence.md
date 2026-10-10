@@ -9,7 +9,6 @@ records:
     name:
       zh: Psilopterus bachmanni
       en: Psilopterus bachmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

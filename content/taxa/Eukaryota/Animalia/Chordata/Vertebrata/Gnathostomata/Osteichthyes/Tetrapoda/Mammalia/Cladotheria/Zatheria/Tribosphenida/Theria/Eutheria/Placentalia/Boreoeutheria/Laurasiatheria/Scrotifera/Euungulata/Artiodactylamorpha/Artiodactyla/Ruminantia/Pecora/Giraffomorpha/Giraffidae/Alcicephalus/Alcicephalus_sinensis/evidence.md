@@ -9,7 +9,6 @@ records:
     name:
       zh: Alcicephalus sinensis
       en: Alcicephalus sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

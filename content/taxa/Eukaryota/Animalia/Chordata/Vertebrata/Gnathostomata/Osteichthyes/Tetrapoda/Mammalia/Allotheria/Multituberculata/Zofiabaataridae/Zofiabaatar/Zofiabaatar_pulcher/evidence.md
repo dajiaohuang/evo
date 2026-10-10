@@ -9,7 +9,6 @@ records:
     name:
       zh: Zofiabaatar pulcher
       en: Zofiabaatar pulcher
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

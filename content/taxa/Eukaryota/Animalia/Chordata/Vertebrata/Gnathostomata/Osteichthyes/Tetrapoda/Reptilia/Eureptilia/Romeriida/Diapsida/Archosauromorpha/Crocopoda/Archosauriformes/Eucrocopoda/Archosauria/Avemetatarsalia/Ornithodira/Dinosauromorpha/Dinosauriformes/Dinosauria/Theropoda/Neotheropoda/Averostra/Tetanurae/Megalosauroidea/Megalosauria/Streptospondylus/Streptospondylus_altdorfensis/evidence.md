@@ -9,7 +9,6 @@ records:
     name:
       zh: Streptospondylus altdorfensis
       en: Streptospondylus altdorfensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pithecheir melanurus
       en: Pithecheir melanurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

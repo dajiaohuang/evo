@@ -9,7 +9,6 @@ records:
     name:
       zh: Aciprion majus
       en: Aciprion majus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

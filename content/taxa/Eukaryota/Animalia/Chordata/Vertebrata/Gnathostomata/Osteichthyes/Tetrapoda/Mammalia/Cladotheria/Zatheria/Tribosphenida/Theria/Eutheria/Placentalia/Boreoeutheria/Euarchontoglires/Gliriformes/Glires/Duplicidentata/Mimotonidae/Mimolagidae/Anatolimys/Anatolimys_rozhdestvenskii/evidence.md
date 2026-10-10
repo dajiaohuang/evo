@@ -9,7 +9,6 @@ records:
     name:
       zh: Anatolimys rozhdestvenskii
       en: Anatolimys rozhdestvenskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

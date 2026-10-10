@@ -9,7 +9,6 @@ records:
     name:
       zh: Bungarus bungaroides
       en: Bungarus bungaroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

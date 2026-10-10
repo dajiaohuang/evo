@@ -9,7 +9,6 @@ records:
     name:
       zh: Petinomys setosus
       en: Petinomys setosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

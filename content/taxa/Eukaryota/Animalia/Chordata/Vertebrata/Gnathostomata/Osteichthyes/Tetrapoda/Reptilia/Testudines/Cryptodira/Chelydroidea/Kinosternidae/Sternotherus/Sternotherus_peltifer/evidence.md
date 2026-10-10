@@ -9,7 +9,6 @@ records:
     name:
       zh: Sternotherus peltifer
       en: Sternotherus peltifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

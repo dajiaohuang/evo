@@ -9,7 +9,6 @@ records:
     name:
       zh: Microcnemus efremovi
       en: Microcnemus efremovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

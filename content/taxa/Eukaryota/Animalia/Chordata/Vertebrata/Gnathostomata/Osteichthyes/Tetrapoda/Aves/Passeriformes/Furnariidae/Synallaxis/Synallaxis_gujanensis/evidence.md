@@ -9,7 +9,6 @@ records:
     name:
       zh: Synallaxis gujanensis
       en: Synallaxis gujanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

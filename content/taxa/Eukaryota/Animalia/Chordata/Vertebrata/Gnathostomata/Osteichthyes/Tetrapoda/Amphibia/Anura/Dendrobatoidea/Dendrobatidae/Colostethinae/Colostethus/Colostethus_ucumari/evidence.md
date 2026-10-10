@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus ucumari
       zh: Colostethus ucumari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

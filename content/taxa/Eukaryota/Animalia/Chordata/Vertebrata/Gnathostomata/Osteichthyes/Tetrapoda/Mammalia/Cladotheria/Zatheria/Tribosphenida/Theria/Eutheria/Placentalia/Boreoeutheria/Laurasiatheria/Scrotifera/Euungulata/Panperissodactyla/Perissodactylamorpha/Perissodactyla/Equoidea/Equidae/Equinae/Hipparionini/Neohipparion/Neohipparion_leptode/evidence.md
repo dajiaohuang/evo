@@ -9,7 +9,6 @@ records:
     name:
       zh: Neohipparion leptode
       en: Neohipparion leptode
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

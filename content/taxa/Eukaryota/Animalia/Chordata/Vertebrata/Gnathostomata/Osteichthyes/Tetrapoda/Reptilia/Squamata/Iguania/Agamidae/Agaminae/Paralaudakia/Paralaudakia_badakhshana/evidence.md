@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralaudakia badakhshana
       en: Paralaudakia badakhshana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

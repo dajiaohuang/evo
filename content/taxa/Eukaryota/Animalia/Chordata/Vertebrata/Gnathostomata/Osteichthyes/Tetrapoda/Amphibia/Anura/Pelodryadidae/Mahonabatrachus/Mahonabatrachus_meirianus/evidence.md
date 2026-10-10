@@ -9,7 +9,6 @@ records:
     name:
       en: Mahonabatrachus meirianus
       zh: Mahonabatrachus meirianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

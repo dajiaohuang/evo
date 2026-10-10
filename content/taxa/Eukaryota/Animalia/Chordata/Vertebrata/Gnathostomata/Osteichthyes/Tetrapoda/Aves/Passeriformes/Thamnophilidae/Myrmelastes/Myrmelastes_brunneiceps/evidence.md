@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmelastes brunneiceps
       en: Myrmelastes brunneiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Potwarmus thailandicus
       en: Potwarmus thailandicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

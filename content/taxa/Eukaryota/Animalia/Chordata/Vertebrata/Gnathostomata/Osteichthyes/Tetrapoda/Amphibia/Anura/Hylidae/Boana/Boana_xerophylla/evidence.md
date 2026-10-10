@@ -9,7 +9,6 @@ records:
     name:
       en: Boana xerophylla
       zh: Boana xerophylla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothosaurus cymatosauroides
       en: Nothosaurus cymatosauroides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

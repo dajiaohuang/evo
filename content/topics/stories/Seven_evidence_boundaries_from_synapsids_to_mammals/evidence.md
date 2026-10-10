@@ -222,5 +222,5 @@ Anatomical connection is observed; stabilization and auditory effects remain fun
 ## story / steps / annotation
 
 <!-- evo:text /records/story/steps/6/annotation -->
-COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to order-specific or other-mammals packages and Synapsida lacks a reliable materialized species root. Zero is a routing boundary, not evidence of no living synapsids, no nomenclatural coverage or complete dossier maturity.
+COL26.8 assigns zero accepted species directly to mammal-origins because living Mammalia route to order-specific or other-mammals packages and Synapsida lacks a reliable materialized species root. Zero is a package-routing boundary.
 <!-- /evo:text -->

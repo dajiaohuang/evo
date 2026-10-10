@@ -9,7 +9,6 @@ records:
     name:
       zh: Shartegosuchus asperopalatum
       en: Shartegosuchus asperopalatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

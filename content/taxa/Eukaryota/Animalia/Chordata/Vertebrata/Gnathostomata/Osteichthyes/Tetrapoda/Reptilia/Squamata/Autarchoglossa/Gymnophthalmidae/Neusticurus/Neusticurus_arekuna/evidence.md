@@ -9,7 +9,6 @@ records:
     name:
       zh: Neusticurus arekuna
       en: Neusticurus arekuna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

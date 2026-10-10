@@ -9,7 +9,6 @@ records:
     name:
       zh: Diandongosaurus acutidentatus
       en: Diandongosaurus acutidentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

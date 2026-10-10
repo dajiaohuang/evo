@@ -9,7 +9,6 @@ records:
     name:
       en: Bombina microdeladigitora
       zh: Bombina microdeladigitora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

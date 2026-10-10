@@ -9,7 +9,6 @@ records:
     name:
       zh: Zeledonia coronata
       en: Zeledonia coronata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

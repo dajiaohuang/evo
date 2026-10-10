@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracoceros malayanus
       en: Anthracoceros malayanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

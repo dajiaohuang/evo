@@ -9,7 +9,6 @@ records:
     name:
       zh: Strenulagus solaris
       en: Strenulagus solaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

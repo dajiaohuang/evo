@@ -9,7 +9,6 @@ records:
     name:
       en: Synapturanus rabus
       zh: Synapturanus rabus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

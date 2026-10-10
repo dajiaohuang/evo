@@ -9,7 +9,6 @@ records:
     name:
       zh: Deseadomys arambourgi
       en: Deseadomys arambourgi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

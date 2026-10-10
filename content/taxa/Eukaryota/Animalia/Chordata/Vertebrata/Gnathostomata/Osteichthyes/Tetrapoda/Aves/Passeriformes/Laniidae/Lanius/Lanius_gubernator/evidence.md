@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanius gubernator
       en: Lanius gubernator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

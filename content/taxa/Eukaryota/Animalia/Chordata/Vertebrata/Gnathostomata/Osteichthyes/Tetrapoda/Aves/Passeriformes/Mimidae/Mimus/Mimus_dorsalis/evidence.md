@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimus dorsalis
       en: Mimus dorsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

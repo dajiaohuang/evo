@@ -9,7 +9,6 @@ records:
     name:
       zh: Brookesia exarmata
       en: Brookesia exarmata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

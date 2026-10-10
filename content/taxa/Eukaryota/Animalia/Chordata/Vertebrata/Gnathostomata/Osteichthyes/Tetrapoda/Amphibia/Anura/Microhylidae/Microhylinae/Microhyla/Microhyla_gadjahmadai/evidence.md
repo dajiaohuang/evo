@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla gadjahmadai
       zh: Microhyla gadjahmadai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

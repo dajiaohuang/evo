@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesembriornis milneedwardsi
       en: Mesembriornis milneedwardsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

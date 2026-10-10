@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon hypsirhinoides
       en: Lycodon hypsirhinoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

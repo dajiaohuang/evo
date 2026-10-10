@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina punctata
       zh: Austrochaperina punctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

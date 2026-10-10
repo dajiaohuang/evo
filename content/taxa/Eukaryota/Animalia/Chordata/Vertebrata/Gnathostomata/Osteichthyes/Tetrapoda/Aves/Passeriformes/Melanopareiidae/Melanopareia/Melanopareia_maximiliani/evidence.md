@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanopareia maximiliani
       en: Melanopareia maximiliani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

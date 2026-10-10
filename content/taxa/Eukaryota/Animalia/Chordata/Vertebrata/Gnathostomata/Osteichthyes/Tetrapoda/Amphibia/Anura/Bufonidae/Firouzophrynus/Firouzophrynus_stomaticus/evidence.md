@@ -9,7 +9,6 @@ records:
     name:
       en: Firouzophrynus stomaticus
       zh: Firouzophrynus stomaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

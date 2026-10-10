@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploderma luei
       en: Diploderma luei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

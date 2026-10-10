@@ -9,7 +9,6 @@ records:
     name:
       zh: Arrhyton supernum
       en: Arrhyton supernum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

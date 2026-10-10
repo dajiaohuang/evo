@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis meridionalis
       en: Anolis meridionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

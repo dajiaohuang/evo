@@ -9,7 +9,6 @@ records:
     name:
       en: Peleng Tarsier
       zh: 佩冷眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy

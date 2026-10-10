@@ -275,10 +275,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/2
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Radomaniola frauenfeldiana
@@ -514,5 +510,5 @@ Biological source item-level reuse rights are unverified; all biological stateme
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-Several themes have only local or study-specific partial evidence; no complete systematic search or external review was performed.
+Several themes have only local or study-specific partial evidence; no complete systematic search was performed.
 <!-- /evo:text -->

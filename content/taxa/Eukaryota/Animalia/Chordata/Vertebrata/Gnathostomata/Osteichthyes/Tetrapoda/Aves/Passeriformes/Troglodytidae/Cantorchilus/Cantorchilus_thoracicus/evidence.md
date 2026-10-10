@@ -9,7 +9,6 @@ records:
     name:
       zh: Cantorchilus thoracicus
       en: Cantorchilus thoracicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Komodomys rintjanus
       en: Komodomys rintjanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

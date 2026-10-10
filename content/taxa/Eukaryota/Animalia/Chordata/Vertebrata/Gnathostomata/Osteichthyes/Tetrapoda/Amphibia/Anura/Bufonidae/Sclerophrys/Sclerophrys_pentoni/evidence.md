@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys pentoni
       zh: Sclerophrys pentoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Isphanatherium ferganensis
       en: Isphanatherium ferganensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

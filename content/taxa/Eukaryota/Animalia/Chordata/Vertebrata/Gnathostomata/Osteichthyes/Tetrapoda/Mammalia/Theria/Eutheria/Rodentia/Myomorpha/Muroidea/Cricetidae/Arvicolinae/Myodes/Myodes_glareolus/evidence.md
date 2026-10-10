@@ -9,7 +9,6 @@ records:
     name:
       zh: Myodes glareolus
       en: Myodes glareolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

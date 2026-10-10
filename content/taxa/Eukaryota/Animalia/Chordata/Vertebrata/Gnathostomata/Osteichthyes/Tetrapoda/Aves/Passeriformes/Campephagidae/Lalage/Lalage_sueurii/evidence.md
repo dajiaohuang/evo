@@ -9,7 +9,6 @@ records:
     name:
       zh: Lalage sueurii
       en: Lalage sueurii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

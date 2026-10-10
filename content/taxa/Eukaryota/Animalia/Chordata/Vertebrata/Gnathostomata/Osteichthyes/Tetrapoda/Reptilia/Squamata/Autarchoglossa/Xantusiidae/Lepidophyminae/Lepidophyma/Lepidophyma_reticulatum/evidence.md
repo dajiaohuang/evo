@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidophyma reticulatum
       en: Lepidophyma reticulatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

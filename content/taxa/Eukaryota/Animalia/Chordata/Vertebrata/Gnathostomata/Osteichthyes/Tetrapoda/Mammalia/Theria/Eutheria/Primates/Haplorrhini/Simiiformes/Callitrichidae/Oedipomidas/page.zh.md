@@ -28,5 +28,5 @@ COL26.8 在 Oedipomidas 属下列出三个接受种：O. oedipus、O. geoffroyi 
 ## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-属级接受种数依据固定 COL26.8 名录，不表示其他名录必须采用相同属级安排。野外论文常使用 Saguinus 组合；MDD 的本地精确名称联接对这三个 COL ID 均未匹配，因此页面不据名称相似性合并记录。中文属名与种名均为编辑译名；新建页面尚未经过外部领域专家评审。
+属级接受种数依据固定 COL26.8 名录，不表示其他名录必须采用相同属级安排。野外论文常使用 Saguinus 组合；MDD 的本地精确名称联接对这三个 COL ID 均未匹配，因此页面不据名称相似性合并记录。中文属名与种名均为编辑译名；。
 <!-- /evo:text -->

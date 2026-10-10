@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus capillitas
       en: Liolaemus capillitas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

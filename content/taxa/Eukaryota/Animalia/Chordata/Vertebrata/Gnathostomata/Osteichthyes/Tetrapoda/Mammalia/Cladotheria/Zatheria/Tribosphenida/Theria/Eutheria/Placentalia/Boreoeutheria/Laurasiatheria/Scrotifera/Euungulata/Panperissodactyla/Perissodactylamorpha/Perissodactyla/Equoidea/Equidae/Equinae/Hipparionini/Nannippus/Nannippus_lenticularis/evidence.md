@@ -9,7 +9,6 @@ records:
     name:
       zh: Nannippus lenticularis
       en: Nannippus lenticularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxylabes madagascariensis
       en: Oxylabes madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

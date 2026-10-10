@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomasomys incanus
       en: Thomasomys incanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius tokyoensis
       zh: Hynobius tokyoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

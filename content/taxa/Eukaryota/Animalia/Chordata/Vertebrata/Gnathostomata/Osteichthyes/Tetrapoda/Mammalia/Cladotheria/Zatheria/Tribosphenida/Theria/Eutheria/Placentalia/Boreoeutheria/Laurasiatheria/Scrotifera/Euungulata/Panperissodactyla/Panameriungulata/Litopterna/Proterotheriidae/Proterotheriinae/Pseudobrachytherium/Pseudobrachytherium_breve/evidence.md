@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudobrachytherium breve
       en: Pseudobrachytherium breve
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza vincenti
       en: Emberiza vincenti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

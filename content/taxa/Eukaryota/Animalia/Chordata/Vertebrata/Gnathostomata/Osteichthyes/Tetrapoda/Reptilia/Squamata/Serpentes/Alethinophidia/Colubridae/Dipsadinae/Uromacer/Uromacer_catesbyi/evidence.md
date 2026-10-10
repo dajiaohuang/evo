@@ -9,7 +9,6 @@ records:
     name:
       zh: Uromacer catesbyi
       en: Uromacer catesbyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

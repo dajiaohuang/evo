@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanospiza richardsoni
       en: Melanospiza richardsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

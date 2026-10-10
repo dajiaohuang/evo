@@ -9,7 +9,6 @@ records:
     name:
       zh: Acynodon adriaticus
       en: Acynodon adriaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

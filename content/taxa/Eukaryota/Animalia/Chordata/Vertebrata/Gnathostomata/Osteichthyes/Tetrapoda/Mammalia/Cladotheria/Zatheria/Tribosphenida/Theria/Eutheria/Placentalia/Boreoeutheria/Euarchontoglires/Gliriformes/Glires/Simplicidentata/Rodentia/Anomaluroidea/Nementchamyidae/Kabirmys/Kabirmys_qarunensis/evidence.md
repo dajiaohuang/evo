@@ -9,7 +9,6 @@ records:
     name:
       zh: Kabirmys qarunensis
       en: Kabirmys qarunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

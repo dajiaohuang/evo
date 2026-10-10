@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea longicauda
       zh: Eurycea longicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

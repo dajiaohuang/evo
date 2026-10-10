@@ -9,7 +9,6 @@ records:
     name:
       zh: Maxomys surifer
       en: Maxomys surifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ceuthomantis smaragdinus
       zh: Ceuthomantis smaragdinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

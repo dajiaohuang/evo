@@ -9,7 +9,6 @@ records:
     name:
       zh: Dispholidus typus
       en: Dispholidus typus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

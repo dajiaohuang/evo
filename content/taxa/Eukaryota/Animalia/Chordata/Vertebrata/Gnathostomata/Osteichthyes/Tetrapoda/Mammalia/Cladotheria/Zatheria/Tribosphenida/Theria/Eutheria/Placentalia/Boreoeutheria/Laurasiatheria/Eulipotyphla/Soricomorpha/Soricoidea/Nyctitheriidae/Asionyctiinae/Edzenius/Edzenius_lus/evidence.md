@@ -9,7 +9,6 @@ records:
     name:
       zh: Edzenius lus
       en: Edzenius lus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

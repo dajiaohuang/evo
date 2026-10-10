@@ -9,7 +9,6 @@ records:
     name:
       en: Lynchius tabaconas
       zh: Lynchius tabaconas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

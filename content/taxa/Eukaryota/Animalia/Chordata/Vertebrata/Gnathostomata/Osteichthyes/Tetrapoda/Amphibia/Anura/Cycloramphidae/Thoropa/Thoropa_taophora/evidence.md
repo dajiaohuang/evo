@@ -9,7 +9,6 @@ records:
     name:
       en: Thoropa taophora
       zh: Thoropa taophora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Microgecko latifi
       en: Microgecko latifi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

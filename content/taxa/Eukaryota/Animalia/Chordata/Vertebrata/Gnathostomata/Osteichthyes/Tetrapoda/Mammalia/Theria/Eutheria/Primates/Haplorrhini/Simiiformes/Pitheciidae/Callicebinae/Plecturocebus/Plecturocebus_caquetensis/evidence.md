@@ -9,7 +9,6 @@ records:
     name:
       zh: 卡克塔绢毛猴
       en: Caquetá Titi Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

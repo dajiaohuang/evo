@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypolagus gidleyi
       en: Hypolagus gidleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramsayornis fasciatus
       en: Ramsayornis fasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

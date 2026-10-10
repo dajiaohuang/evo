@@ -9,7 +9,6 @@ records:
     name:
       zh: Lyrurus tetrix
       en: Lyrurus tetrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

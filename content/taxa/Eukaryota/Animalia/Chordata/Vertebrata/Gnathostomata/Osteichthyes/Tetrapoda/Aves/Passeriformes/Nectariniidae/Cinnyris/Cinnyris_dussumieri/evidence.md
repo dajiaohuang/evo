@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris dussumieri
       en: Cinnyris dussumieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

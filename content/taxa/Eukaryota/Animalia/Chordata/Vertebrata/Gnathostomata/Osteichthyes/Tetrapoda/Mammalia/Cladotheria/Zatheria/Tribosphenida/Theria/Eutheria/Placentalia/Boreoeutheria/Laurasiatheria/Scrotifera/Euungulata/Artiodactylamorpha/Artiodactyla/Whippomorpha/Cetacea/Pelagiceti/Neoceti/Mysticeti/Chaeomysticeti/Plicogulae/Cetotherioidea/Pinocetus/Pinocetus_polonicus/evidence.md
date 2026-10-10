@@ -9,7 +9,6 @@ records:
     name:
       zh: Pinocetus polonicus
       en: Pinocetus polonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

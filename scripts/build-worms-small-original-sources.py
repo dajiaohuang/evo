@@ -409,8 +409,8 @@ def project(key: str, output_root: Path = ROOT) -> dict:
                                                        "files": [f["path"] for f in col_files + source_files],
                                                        "totalCompressedBytes": sum(f["bytes"] for f in col_files + source_files),
                                                        "totalSourceBytes": sum(f["sourceBytes"] for f in col_files + source_files)}},
-                  "evidenceBoundary": {"en": "Frozen original WoRMS archive projection; not species-concept equivalence, fossil evidence or expert review.",
-                                       "zh": "冻结的WoRMS原始归档投影；不是物种概念等同性、化石证据或专家审查。"},
+                  "evidenceBoundary": {"en": "Frozen original WoRMS archive projection; not species-concept equivalence, fossil evidence.",
+                                       "zh": "冻结的WoRMS原始归档投影；不是物种概念等同性、化石证据。"},
                   "limitations": ["Source-only rows retain null COL ownership.",
                                   "Only the exact pinned archive is replayed; no live endpoint is used.",
                                   "Archive completeness and nomenclatural status do not establish biological completeness."]}

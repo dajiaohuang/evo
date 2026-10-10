@@ -9,7 +9,6 @@ records:
     name:
       zh: Nasutoceratops titusi
       en: Nasutoceratops titusi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

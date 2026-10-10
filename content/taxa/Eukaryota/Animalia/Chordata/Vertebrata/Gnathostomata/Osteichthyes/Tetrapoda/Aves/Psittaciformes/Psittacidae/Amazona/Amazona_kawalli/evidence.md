@@ -9,7 +9,6 @@ records:
     name:
       zh: Amazona kawalli
       en: Amazona kawalli
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

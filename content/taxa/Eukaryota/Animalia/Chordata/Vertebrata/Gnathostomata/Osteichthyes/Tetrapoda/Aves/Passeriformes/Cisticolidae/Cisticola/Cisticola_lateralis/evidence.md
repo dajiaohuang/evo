@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola lateralis
       en: Cisticola lateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

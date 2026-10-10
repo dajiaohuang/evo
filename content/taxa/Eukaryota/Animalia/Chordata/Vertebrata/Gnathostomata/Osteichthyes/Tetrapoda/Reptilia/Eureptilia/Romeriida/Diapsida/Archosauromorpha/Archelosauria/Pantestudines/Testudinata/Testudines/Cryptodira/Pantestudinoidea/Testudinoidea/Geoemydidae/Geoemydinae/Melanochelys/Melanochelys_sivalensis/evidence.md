@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanochelys sivalensis
       en: Melanochelys sivalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

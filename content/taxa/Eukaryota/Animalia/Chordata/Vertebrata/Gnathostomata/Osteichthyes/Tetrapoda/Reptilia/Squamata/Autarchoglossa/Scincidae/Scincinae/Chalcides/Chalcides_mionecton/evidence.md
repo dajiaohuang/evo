@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcides mionecton
       en: Chalcides mionecton
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

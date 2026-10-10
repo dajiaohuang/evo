@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-正文是基于十个样本与两个地点的分类导读，不是完整地理范围或行为综述。中文普通名为编辑翻译；尚未经过外部领域专家评审。
+正文是基于十个样本与两个地点的分类导读，不是完整地理范围或行为综述。中文普通名为编辑翻译。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis cretensis
       en: Podarcis cretensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

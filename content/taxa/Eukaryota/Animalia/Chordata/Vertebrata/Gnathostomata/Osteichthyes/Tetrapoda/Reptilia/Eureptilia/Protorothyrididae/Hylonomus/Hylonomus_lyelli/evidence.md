@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylonomus lyelli
       en: Hylonomus lyelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus sanmeniensis
       en: Equus sanmeniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

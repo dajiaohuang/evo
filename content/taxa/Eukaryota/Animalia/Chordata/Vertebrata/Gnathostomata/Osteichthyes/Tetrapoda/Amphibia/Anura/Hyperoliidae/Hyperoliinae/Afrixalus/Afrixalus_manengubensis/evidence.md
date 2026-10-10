@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus manengubensis
       zh: Afrixalus manengubensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

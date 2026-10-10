@@ -9,7 +9,6 @@ records:
     name:
       zh: Caluromys lanatus
       en: Caluromys lanatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

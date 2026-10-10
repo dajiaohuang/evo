@@ -9,7 +9,6 @@ records:
     name:
       zh: Petrochelidon rufocollaris
       en: Petrochelidon rufocollaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

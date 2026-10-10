@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor vulcani
       zh: Craugastor vulcani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

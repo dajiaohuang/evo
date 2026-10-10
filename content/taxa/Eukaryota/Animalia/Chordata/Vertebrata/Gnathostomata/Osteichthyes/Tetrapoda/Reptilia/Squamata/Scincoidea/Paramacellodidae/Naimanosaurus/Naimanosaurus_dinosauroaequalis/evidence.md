@@ -9,7 +9,6 @@ records:
     name:
       zh: Naimanosaurus dinosauroaequalis
       en: Naimanosaurus dinosauroaequalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

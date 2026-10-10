@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlocebus carmenensis
       en: Carlocebus carmenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

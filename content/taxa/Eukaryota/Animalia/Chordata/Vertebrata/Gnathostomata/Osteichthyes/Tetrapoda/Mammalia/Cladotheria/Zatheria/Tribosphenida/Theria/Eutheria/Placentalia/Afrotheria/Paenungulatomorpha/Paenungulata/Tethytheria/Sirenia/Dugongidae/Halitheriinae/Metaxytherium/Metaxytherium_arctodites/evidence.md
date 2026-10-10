@@ -9,7 +9,6 @@ records:
     name:
       zh: Metaxytherium arctodites
       en: Metaxytherium arctodites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thripadectes holostictus
       en: Thripadectes holostictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

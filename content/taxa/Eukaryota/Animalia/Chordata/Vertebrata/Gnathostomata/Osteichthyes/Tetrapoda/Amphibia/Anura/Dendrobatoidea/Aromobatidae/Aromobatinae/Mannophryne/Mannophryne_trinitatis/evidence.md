@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne trinitatis
       zh: Mannophryne trinitatis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

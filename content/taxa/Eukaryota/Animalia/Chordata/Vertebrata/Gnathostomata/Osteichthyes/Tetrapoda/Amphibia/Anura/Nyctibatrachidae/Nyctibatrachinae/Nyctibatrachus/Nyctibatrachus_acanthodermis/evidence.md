@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus acanthodermis
       zh: Nyctibatrachus acanthodermis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

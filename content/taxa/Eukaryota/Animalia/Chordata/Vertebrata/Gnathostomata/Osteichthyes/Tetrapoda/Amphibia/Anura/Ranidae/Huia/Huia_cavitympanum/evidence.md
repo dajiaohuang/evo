@@ -9,7 +9,6 @@ records:
     name:
       en: Huia cavitympanum
       zh: Huia cavitympanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

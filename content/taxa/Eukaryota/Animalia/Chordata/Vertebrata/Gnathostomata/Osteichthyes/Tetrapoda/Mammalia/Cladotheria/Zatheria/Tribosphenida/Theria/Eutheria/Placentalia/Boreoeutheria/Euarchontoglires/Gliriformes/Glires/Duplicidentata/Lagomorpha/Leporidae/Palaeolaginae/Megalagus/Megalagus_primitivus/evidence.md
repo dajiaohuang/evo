@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalagus primitivus
       en: Megalagus primitivus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

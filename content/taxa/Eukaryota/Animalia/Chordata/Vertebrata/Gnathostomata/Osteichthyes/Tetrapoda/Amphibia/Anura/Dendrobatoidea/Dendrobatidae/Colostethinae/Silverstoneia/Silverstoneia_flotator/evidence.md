@@ -9,7 +9,6 @@ records:
     name:
       en: Silverstoneia flotator
       zh: Silverstoneia flotator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

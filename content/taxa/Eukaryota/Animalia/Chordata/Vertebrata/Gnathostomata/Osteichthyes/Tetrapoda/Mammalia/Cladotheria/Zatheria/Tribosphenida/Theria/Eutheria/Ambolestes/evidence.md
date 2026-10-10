@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bi-2018-ambolestes concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: bi-2018-ambolestes
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: bi-2018-ambolestes
           locator: 390–395; Figures 1–5
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Ambolestes
     rank: genus
@@ -74,7 +70,6 @@ records:
     name:
       zh: Ambolestes
       en: Ambolestes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

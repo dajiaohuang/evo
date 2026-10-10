@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenodermus
       en: Xenodermus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

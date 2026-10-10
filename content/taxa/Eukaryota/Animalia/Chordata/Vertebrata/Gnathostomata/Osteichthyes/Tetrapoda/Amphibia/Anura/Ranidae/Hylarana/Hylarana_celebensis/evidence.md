@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana celebensis
       zh: Hylarana celebensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

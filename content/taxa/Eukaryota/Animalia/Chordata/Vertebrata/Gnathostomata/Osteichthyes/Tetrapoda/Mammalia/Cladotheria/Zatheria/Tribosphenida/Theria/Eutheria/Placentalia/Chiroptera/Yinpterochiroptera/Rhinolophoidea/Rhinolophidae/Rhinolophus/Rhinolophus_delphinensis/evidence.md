@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus delphinensis
       en: Rhinolophus delphinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

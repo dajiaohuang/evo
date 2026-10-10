@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus septentrionalis
       en: Cyrtodactylus septentrionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

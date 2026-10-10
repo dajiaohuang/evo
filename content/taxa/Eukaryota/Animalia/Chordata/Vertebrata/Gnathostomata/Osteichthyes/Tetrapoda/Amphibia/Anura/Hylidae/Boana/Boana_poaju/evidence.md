@@ -9,7 +9,6 @@ records:
     name:
       en: Boana poaju
       zh: Boana poaju
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

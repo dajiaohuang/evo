@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor emcelae
       zh: Craugastor emcelae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

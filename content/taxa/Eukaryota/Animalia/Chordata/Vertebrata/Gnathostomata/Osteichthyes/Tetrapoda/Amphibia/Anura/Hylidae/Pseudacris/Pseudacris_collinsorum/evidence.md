@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudacris collinsorum
       zh: Pseudacris collinsorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

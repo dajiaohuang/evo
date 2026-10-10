@@ -54,5 +54,5 @@ Start with Microraptor zhaoianus, Microraptor gui, Microraptor hanqingi and comp
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route connects slab anatomy, reconstructed wind-tunnel models, a short holotype-preservation guide and fixed occurrences at differing depths. Complete original and later literature, species boundaries and a genus synthesis remain unfinished. Specimens were not independently remeasured or extinct flight observed; counts and broad ages do not measure abundance or lifespan. External expert review has not occurred.
+This route connects slab anatomy, reconstructed wind-tunnel models, a short holotype-preservation guide and fixed occurrences at differing depths. Complete original and later literature, species boundaries and a genus synthesis remain unfinished. Specimens were not independently remeasured or extinct flight observed; counts and broad ages do not measure abundance or lifespan.
 <!-- /evo:text -->

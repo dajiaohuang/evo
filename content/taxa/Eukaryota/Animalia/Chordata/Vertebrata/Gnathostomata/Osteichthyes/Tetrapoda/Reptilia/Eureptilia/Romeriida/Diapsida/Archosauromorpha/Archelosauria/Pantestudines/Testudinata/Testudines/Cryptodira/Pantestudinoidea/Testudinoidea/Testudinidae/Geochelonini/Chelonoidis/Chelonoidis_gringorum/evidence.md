@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelonoidis gringorum
       en: Chelonoidis gringorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Bryophryne bakersfield
       zh: Bryophryne bakersfield
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus jog
       zh: Nyctibatrachus jog
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kerberos langebadreae
       en: Kerberos langebadreae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

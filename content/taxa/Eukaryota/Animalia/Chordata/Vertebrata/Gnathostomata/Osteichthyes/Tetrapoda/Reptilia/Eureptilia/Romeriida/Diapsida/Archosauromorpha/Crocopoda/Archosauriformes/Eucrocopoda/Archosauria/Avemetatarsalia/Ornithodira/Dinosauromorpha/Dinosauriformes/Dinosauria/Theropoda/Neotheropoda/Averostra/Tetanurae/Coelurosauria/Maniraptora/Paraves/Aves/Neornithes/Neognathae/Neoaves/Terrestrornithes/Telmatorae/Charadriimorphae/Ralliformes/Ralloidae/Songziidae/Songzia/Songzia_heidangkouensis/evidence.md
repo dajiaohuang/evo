@@ -9,7 +9,6 @@ records:
     name:
       zh: Songzia heidangkouensis
       en: Songzia heidangkouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Strongylopus wageri
       zh: Strongylopus wageri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

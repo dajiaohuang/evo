@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus weygoldti
       zh: Aplastodiscus weygoldti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

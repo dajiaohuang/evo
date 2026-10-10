@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax pyroinguinis
       zh: Scinax pyroinguinis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

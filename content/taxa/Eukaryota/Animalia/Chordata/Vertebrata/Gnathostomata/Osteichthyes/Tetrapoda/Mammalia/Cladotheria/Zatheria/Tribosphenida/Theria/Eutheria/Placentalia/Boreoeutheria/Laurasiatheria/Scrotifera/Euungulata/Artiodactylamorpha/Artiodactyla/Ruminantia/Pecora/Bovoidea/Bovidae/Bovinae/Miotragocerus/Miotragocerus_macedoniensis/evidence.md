@@ -9,7 +9,6 @@ records:
     name:
       zh: Miotragocerus macedoniensis
       en: Miotragocerus macedoniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

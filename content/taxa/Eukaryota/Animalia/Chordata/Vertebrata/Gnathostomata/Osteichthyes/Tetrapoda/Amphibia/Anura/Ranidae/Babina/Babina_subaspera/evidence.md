@@ -9,7 +9,6 @@ records:
     name:
       en: Babina subaspera
       zh: Babina subaspera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

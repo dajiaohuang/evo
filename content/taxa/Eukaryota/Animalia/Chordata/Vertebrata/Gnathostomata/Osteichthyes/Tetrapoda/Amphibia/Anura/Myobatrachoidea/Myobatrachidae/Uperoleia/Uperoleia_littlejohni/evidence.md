@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia littlejohni
       zh: Uperoleia littlejohni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

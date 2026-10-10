@@ -9,7 +9,6 @@ records:
     name:
       zh: Blastomerycinae
       en: Blastomerycinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

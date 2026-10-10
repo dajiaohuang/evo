@@ -9,7 +9,6 @@ records:
     name:
       zh: Bos primigenius
       en: Bos primigenius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

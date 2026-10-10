@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus (Sussemionus)
       en: Equus (Sussemionus)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

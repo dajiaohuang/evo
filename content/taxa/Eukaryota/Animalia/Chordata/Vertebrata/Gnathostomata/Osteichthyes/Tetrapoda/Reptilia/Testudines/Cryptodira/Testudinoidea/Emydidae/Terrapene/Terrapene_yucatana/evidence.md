@@ -9,7 +9,6 @@ records:
     name:
       zh: Terrapene yucatana
       en: Terrapene yucatana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bradypterus carpalis
       en: Bradypterus carpalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

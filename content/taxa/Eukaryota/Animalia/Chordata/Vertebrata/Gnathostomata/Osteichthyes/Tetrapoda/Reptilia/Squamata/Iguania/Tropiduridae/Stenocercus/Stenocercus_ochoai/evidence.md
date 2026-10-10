@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenocercus ochoai
       en: Stenocercus ochoai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus beattyi
       en: Sphaerodactylus beattyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

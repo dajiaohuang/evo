@@ -9,7 +9,6 @@ records:
     name:
       zh: Calomyscus urartensis
       en: Calomyscus urartensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

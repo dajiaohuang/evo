@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus roraima
       zh: Anomaloglossus roraima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

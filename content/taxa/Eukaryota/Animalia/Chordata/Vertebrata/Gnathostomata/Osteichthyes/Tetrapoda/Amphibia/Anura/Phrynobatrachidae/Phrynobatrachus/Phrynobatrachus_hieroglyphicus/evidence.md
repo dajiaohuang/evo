@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus hieroglyphicus
       zh: Phrynobatrachus hieroglyphicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

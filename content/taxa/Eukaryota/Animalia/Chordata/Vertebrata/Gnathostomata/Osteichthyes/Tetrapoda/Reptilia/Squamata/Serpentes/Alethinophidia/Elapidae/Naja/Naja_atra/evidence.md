@@ -9,7 +9,6 @@ records:
     name:
       zh: Naja atra
       en: Naja atra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

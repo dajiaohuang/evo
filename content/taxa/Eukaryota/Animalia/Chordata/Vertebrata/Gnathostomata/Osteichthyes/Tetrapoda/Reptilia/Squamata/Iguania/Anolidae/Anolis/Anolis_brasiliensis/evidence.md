@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis brasiliensis
       en: Anolis brasiliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

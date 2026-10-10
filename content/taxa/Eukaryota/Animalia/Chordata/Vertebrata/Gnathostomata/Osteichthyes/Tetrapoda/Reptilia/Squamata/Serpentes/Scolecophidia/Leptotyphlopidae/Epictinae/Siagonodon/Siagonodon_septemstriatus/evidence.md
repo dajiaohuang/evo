@@ -9,7 +9,6 @@ records:
     name:
       zh: Siagonodon septemstriatus
       en: Siagonodon septemstriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

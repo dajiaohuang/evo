@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralouatta
       en: Paralouatta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protacmon reubsameni
       en: Protacmon reubsameni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

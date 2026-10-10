@@ -9,7 +9,6 @@ records:
     name:
       en: Parapelophryne
       zh: Parapelophryne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis chinguelas
       zh: Pristimantis chinguelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

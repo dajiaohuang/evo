@@ -9,7 +9,6 @@ records:
     name:
       zh: Salvadora hexalepis
       en: Salvadora hexalepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

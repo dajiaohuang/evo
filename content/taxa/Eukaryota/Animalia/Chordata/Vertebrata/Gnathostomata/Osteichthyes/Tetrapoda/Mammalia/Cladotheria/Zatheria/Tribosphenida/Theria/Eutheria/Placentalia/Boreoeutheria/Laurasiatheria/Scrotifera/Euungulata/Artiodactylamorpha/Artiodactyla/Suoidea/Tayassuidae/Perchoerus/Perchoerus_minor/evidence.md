@@ -9,7 +9,6 @@ records:
     name:
       zh: Perchoerus minor
       en: Perchoerus minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

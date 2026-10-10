@@ -28,5 +28,5 @@ Göbel 与 Heymann（2018）在秘鲁 Panguana 私人保护地开展首轮系统
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-Panguana 是单一地点的生态观察；林隙关联不是对全分布区栖地偏好的估计。COL 与 MDD 的属级处理和 ID 联接分开记录；页面不据此解决分类争议。尚未外审。 尚未经过外部领域专家评审。
+Panguana 是单一地点的生态观察；林隙关联不是对全分布区栖地偏好的估计。COL 与 MDD 的属级处理和 ID 联接分开记录；页面不据此解决分类争议。尚未外审。 。
 <!-- /evo:text -->

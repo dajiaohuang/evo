@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomasomys onkiro
       en: Thomasomys onkiro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiothlypis virginiae
       en: Leiothlypis virginiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

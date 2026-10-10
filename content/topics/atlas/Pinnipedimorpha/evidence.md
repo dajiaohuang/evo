@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: nyakatura-2012-carnivora-supertree concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: nyakatura-2012-carnivora-supertree
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: nyakatura-2012-carnivora-supertree
           locator: Article 12; Caniformia family topology including extant pinniped families
-      reviewStatus: automated-audit-passed
 ---
 
 # Pinnipedimorpha

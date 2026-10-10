@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus xanthopterus
       en: Ploceus xanthopterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

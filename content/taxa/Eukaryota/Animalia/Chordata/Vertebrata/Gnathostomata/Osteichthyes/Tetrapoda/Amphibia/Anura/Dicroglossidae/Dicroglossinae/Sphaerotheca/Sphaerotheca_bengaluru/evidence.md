@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaerotheca bengaluru
       zh: Sphaerotheca bengaluru
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

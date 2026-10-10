@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocylindrodon neglectus
       en: Pseudocylindrodon neglectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

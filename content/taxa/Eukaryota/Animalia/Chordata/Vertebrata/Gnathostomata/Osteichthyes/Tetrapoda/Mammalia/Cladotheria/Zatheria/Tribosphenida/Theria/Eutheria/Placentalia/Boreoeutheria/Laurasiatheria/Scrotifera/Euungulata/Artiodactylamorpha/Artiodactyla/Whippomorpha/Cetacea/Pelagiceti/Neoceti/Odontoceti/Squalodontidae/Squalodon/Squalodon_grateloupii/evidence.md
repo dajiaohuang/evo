@@ -9,7 +9,6 @@ records:
     name:
       zh: Squalodon grateloupii
       en: Squalodon grateloupii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

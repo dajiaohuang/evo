@@ -9,7 +9,6 @@ records:
     name:
       zh: Anoplotherium pompeckji
       en: Anoplotherium pompeckji
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

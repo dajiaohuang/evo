@@ -9,7 +9,6 @@ records:
     name:
       zh: Foliesaurus boutersemensis
       en: Foliesaurus boutersemensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

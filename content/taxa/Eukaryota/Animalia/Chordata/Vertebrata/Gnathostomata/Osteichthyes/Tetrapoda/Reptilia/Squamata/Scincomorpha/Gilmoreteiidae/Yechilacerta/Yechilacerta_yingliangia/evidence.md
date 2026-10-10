@@ -9,7 +9,6 @@ records:
     name:
       zh: Yechilacerta yingliangia
       en: Yechilacerta yingliangia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

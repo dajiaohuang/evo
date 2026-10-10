@@ -9,7 +9,6 @@ records:
     name:
       en: Amazophrynella javierbustamantei
       zh: Amazophrynella javierbustamantei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

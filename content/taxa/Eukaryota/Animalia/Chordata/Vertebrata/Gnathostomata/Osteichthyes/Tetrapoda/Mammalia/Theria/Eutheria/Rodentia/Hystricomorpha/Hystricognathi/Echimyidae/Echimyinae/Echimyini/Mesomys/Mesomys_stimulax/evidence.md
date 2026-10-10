@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesomys stimulax
       en: Mesomys stimulax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

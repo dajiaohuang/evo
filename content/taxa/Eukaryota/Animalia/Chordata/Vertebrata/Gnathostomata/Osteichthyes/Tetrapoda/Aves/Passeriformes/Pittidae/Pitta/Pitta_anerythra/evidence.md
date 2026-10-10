@@ -9,7 +9,6 @@ records:
     name:
       zh: Pitta anerythra
       en: Pitta anerythra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

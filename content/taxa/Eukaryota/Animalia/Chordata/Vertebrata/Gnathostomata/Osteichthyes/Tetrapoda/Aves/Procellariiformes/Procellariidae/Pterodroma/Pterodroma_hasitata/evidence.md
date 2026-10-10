@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma hasitata
       en: Pterodroma hasitata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

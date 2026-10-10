@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius camerunensis
       zh: Hyperolius camerunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

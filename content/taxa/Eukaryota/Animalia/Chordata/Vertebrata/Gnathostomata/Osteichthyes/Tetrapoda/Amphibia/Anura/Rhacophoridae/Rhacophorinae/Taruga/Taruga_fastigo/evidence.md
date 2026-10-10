@@ -9,7 +9,6 @@ records:
     name:
       en: Taruga fastigo
       zh: Taruga fastigo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

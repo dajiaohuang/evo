@@ -9,7 +9,6 @@ records:
     name:
       en: Ecnomiohyla echinata
       zh: Ecnomiohyla echinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

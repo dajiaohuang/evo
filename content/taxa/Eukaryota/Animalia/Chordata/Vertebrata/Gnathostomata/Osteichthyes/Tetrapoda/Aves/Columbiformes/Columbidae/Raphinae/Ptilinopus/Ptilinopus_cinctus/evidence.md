@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus cinctus
       en: Ptilinopus cinctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

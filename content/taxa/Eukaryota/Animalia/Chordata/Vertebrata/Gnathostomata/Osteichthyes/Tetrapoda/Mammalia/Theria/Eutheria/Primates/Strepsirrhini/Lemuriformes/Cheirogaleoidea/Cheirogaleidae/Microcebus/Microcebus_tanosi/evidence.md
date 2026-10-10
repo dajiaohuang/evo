@@ -9,7 +9,6 @@ records:
     name:
       zh: 安诺西鼠狐猴
       en: Anosy Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

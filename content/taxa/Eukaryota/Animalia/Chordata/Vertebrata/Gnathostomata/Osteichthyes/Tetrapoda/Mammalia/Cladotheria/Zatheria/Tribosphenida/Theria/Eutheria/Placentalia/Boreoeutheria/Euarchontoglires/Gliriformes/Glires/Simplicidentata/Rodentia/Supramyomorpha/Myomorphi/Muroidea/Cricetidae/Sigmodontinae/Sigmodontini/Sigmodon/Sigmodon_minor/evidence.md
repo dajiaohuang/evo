@@ -9,7 +9,6 @@ records:
     name:
       zh: Sigmodon minor
       en: Sigmodon minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

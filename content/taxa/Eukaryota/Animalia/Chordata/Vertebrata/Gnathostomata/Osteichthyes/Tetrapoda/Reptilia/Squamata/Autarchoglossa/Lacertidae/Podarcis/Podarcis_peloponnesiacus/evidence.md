@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis peloponnesiacus
       en: Podarcis peloponnesiacus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

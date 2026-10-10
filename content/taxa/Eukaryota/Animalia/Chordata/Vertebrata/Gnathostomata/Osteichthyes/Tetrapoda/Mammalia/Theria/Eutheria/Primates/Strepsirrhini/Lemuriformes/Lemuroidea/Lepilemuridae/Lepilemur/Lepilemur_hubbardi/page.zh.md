@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-页面依据 2006 年有限标本与线粒体片段的物种描述；没有现今种群或保育评估。分类名按 COL26.8 保留，中文普通名为编辑翻译，尚未经过外部领域专家评审。
+页面依据 2006 年有限标本与线粒体片段的物种描述；没有现今种群或保育评估。分类名按 COL26.8 保留，中文普通名为编辑翻译。
 <!-- /evo:text -->

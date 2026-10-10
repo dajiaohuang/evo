@@ -9,7 +9,6 @@ records:
     name:
       en: Andinobates altobueyensis
       zh: Andinobates altobueyensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

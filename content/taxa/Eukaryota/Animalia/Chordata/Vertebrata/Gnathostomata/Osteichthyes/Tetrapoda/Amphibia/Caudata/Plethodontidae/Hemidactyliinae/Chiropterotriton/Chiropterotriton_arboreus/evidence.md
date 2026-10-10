@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton arboreus
       zh: Chiropterotriton arboreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

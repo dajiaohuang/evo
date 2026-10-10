@@ -9,7 +9,6 @@ records:
     name:
       zh: Cramauchenia normalis
       en: Cramauchenia normalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

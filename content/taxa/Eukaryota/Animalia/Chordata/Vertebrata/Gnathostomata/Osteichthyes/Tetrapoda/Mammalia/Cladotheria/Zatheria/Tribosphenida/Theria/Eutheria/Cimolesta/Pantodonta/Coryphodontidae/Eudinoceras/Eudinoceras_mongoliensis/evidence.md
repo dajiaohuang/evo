@@ -9,7 +9,6 @@ records:
     name:
       zh: Eudinoceras mongoliensis
       en: Eudinoceras mongoliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

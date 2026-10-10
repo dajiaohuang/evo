@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia aramia
       en: Carlia aramia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

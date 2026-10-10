@@ -9,7 +9,6 @@ records:
     name:
       zh: Stibarus yoderensis
       en: Stibarus yoderensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

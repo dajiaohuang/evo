@@ -9,7 +9,6 @@ records:
     name:
       zh: Glauconycteris beatrix
       en: Glauconycteris beatrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

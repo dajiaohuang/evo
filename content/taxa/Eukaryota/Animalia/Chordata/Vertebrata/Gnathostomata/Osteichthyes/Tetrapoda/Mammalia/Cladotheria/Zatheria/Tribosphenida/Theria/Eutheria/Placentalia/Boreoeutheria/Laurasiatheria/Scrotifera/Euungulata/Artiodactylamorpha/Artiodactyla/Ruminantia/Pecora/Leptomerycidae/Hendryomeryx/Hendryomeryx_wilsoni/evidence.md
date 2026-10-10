@@ -9,7 +9,6 @@ records:
     name:
       zh: Hendryomeryx wilsoni
       en: Hendryomeryx wilsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

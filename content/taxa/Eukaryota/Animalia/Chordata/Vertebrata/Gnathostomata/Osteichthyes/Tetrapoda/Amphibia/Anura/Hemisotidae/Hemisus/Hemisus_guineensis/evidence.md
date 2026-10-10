@@ -9,7 +9,6 @@ records:
     name:
       en: Hemisus guineensis
       zh: Hemisus guineensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

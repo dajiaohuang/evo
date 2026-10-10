@@ -9,7 +9,6 @@ records:
     name:
       zh: Cylindrophis jodiae
       en: Cylindrophis jodiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

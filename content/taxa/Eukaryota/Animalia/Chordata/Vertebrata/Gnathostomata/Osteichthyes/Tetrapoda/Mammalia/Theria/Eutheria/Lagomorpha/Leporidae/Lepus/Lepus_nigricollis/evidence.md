@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepus nigricollis
       en: Lepus nigricollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

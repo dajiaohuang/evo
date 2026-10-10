@@ -9,7 +9,6 @@ records:
     name:
       zh: Japalura austeniana
       en: Japalura austeniana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

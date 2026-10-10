@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys serchhipii
       zh: Xenophrys serchhipii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

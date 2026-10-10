@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus gracilis
       en: Trimeresurus gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

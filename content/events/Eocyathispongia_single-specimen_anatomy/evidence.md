@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: yin-2015-eocyathispongia @ DOI 10.1073/pnas.1414577112
       referenceLinks:
         - referenceId: yin-2015-eocyathispongia
           relation: supports

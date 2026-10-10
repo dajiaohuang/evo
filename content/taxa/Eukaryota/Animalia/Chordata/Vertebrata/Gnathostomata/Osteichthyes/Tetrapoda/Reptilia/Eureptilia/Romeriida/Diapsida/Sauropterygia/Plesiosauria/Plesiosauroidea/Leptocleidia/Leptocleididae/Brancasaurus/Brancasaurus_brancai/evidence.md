@@ -9,7 +9,6 @@ records:
     name:
       zh: Brancasaurus brancai
       en: Brancasaurus brancai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

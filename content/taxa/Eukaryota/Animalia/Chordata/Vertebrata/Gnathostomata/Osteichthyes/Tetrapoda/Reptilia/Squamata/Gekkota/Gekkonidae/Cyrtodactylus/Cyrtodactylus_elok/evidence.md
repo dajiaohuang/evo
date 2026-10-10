@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus elok
       en: Cyrtodactylus elok
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

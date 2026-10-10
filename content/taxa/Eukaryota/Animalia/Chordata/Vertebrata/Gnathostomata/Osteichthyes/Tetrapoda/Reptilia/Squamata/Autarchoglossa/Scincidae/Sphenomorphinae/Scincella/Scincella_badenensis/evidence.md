@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincella badenensis
       en: Scincella badenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

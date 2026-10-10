@@ -9,7 +9,6 @@ records:
     name:
       zh: Tilmatura dupontii
       en: Tilmatura dupontii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

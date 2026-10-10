@@ -9,7 +9,6 @@ records:
     name:
       zh: 滇金丝猴
       en: Black-and-white snub-nosed monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: morphology
@@ -635,12 +634,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Rhinopithecus bieti
@@ -841,10 +834,4 @@ One focused primary source supports a bounded claim in morphology only.
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The other six scientific facets remain explicitly not assessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

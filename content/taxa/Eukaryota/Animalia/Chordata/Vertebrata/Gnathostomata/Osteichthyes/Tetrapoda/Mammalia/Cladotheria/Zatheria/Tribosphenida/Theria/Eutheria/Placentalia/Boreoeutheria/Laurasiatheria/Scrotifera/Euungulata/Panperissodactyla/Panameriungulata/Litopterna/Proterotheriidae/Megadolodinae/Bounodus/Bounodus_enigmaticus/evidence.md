@@ -9,7 +9,6 @@ records:
     name:
       zh: Bounodus enigmaticus
       en: Bounodus enigmaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

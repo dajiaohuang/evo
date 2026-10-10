@@ -9,7 +9,6 @@ records:
     name:
       zh: Phasmasaurus maruia
       en: Phasmasaurus maruia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

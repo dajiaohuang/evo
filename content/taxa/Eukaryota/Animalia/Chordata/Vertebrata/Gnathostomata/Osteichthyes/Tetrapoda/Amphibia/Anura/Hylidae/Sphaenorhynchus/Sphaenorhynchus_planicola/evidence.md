@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaenorhynchus planicola
       zh: Sphaenorhynchus planicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

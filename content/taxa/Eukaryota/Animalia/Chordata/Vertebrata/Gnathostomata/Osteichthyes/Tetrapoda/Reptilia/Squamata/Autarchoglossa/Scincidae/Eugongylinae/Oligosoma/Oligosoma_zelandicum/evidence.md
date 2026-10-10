@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma zelandicum
       en: Oligosoma zelandicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

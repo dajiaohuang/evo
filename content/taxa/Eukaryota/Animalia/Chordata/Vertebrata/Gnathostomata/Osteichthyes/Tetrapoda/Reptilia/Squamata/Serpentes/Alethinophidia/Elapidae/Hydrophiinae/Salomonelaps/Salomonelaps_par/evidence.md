@@ -9,7 +9,6 @@ records:
     name:
       zh: Salomonelaps par
       en: Salomonelaps par
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

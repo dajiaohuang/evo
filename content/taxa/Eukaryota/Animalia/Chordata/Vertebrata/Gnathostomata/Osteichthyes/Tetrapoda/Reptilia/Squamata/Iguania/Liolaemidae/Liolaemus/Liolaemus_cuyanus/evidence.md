@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus cuyanus
       en: Liolaemus cuyanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

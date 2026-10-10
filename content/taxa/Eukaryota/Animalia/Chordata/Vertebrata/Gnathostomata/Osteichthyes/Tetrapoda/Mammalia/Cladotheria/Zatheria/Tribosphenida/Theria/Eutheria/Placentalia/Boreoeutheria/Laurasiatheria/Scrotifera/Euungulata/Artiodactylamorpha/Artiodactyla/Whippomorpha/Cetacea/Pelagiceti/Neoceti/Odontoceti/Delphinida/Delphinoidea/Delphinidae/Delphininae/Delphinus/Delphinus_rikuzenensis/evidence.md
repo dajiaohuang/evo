@@ -9,7 +9,6 @@ records:
     name:
       zh: Delphinus rikuzenensis
       en: Delphinus rikuzenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Anderson et al. 2021, doi:10.1111/pala.12534; withdrawal of Parioscorpio-based Scorpiones range
       referenceLinks:
         - referenceId: anderson-2021-parioscorpio-reassessment
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: anderson-2021-parioscorpio-reassessment
           locator: Redescription and rejection of scorpion affinities; phylogenetic conclusions
-      reviewStatus: automated-audit-passed
 ---
 
 # Scorpiones

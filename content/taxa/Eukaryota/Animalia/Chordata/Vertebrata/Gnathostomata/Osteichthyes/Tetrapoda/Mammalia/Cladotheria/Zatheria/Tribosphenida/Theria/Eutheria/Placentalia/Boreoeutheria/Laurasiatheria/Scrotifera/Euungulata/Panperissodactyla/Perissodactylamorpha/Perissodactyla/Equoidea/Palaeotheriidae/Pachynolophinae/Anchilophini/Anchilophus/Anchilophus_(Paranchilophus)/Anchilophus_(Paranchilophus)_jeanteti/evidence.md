@@ -9,7 +9,6 @@ records:
     name:
       zh: Anchilophus (Paranchilophus) jeanteti
       en: Anchilophus (Paranchilophus) jeanteti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

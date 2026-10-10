@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpesaurus ensicauda
       en: Harpesaurus ensicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

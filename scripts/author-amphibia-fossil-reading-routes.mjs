@@ -23,7 +23,7 @@ const ledger = []
 for (const [group, descendants] of groups) {
   const node = readNodeContent(group), before = semanticJson(node.records)
   const index = fs.readFileSync(`${group}/index.yaml`)
-  const record = node.records['pbdb-fossil-reader'] ??= { scientificName: node.index.scientificName, name: { en: node.index.scientificName, zh: node.index.scientificName }, checkedAt: '2026-10-02', reviewStatus: 'source-linked', sections: [], sources: { referenceBindings: [{ referenceId, metadataVariant: 0, sourceKey: 'pbdb', usage: { locator: 'Complete accepted fossil-species query under PBDB txn:36319; recorded parent chains retained in the local source snapshot' }, originalFields: ['id', ...Object.keys(metadata), 'locator'] }] } }
+  const record = node.records['pbdb-fossil-reader'] ??= { scientificName: node.index.scientificName, name: { en: node.index.scientificName, zh: node.index.scientificName }, checkedAt: '2026-10-02',  sections: [], sources: { referenceBindings: [{ referenceId, metadataVariant: 0, sourceKey: 'pbdb', usage: { locator: 'Complete accepted fossil-species query under PBDB txn:36319; recorded parent chains retained in the local source snapshot' }, originalFields: ['id', ...Object.keys(metadata), 'locator'] }] } }
   record.sections = record.sections.filter(x => !['pbdb-descendant-material', 'pbdb-child-route'].includes(x.readerSectionKind))
   const material = descendants.flatMap(x => occurrences.get(x.sourceTaxonId))
   const dated = material.filter(x => Number.isFinite(x.olderAgeMa) && Number.isFinite(x.youngerAgeMa))
@@ -34,7 +34,7 @@ for (const [group, descendants] of groups) {
   const links = children.map(x => `- [${names.get(x)}](${path.posix.relative(group, x)}/page.LOCALE.md)`)
   if (children.length) record.sections.push({ topic: 'overview', sourceIds: ['pbdb'], readerSectionKind: 'pbdb-child-route', title: { en: 'Read the recorded PBDB descendants', zh: '阅读所记 PBDB 后代' }, text: { en: `Follow these pages through the separately retained fossil ancestry. Read each source scope before combining fossil and current-species evidence.\n\n${links.join('\n').replaceAll('LOCALE', 'en')}`, zh: `沿以下页面阅读单独保留的化石分类路径。合并化石与当前物种证据前，请先查看各来源范围。\n\n${links.join('\n').replaceAll('LOCALE', 'zh')}` } })
   record.descendantMaterialSummary = { sourceConceptIds: descendants.map(x => x.sourceTaxonId), exactOccurrenceCount: material.length, datedOccurrenceCount: dated.length, collectionIntervalBoundsMa: dated.length ? { older: oldest, younger: youngest } : null, conceptEquivalenceCertified: false }
-  record.limitations = { en: 'Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is not externally expert-reviewed.', zh: '本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留；未经过外部领域专家评审。' }
+  record.limitations = { en: 'Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.', zh: '本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。' }
   if (semanticJson(node.records) !== before) {
     writeNodeContent(group, node.index, node.records)
     fs.writeFileSync(`${group}/index.yaml`, index)

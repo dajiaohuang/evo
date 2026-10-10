@@ -154,9 +154,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: maiolino-2012-notharctus concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: maiolino-2012-notharctus
@@ -175,9 +172,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: "Evo Atlas issue #189 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Maiolino et al. 2012 DOI 10.1371/journal.pone.0029135; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: maiolino-2012-notharctus
           relation: supports
@@ -196,9 +190,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: "Evo Atlas issue #189 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Maiolino et al. 2012 DOI 10.1371/journal.pone.0029135; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: maiolino-2012-notharctus
           relation: supports
@@ -217,9 +208,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: "Evo Atlas issue #189 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Maiolino et al. 2012 DOI 10.1371/journal.pone.0029135; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: maiolino-2012-notharctus
           relation: supports
@@ -238,9 +226,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: "Evo Atlas issue #189 primary-source audit"
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Maiolino et al. 2012 DOI 10.1371/journal.pone.0029135; concrete locator audited 2026-09-01
       referenceLinks:
         - referenceId: maiolino-2012-notharctus
           relation: supports
@@ -293,7 +278,6 @@ records:
       referenceLocators:
         - referenceId: maiolino-2012-notharctus
           locator: e29135; Figures 1–16; Tables 2–8; Tables S1–S6
-      reviewStatus: automated-audit-passed
 ---
 
 # Notharctus (AMNH 143612 and AMNH 143640 foot)

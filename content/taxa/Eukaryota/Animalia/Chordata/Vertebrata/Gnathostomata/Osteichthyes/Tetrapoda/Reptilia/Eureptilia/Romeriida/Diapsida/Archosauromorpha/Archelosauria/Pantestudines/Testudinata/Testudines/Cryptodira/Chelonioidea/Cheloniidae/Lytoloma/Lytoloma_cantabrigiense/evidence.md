@@ -9,7 +9,6 @@ records:
     name:
       zh: Lytoloma cantabrigiense
       en: Lytoloma cantabrigiense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

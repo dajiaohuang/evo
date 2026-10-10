@@ -9,7 +9,6 @@ records:
     name:
       zh: Styracosaurus
       en: Styracosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

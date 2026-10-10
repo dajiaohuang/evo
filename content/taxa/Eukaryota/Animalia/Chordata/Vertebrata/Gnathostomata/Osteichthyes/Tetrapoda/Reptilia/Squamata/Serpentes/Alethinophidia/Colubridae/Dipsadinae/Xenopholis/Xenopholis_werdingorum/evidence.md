@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenopholis werdingorum
       en: Xenopholis werdingorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

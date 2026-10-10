@@ -9,7 +9,6 @@ records:
     name:
       en: Mantella expectata
       zh: Mantella expectata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

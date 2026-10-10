@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoplagiaulax kremnus
       en: Neoplagiaulax kremnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

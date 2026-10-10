@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmecodaptria
       en: Myrmecodaptria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

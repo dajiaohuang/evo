@@ -16,5 +16,5 @@ A short post-release study at Mehao Wildlife Sanctuary in Arunachal Pradesh, Ind
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Evidence is limited to three post-release groups at one sanctuary and a short observation period, not wild-born groups or a general species diet.
+Source-linked introduction;. Evidence is limited to three post-release groups at one sanctuary and a short observation period, not wild-born groups or a general species diet.
 <!-- /evo:text -->

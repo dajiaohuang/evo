@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemophilidae
       en: Cnemophilidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

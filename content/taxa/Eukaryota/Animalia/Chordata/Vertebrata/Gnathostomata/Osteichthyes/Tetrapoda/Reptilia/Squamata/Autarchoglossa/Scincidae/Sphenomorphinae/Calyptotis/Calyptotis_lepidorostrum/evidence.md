@@ -9,7 +9,6 @@ records:
     name:
       zh: Calyptotis lepidorostrum
       en: Calyptotis lepidorostrum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

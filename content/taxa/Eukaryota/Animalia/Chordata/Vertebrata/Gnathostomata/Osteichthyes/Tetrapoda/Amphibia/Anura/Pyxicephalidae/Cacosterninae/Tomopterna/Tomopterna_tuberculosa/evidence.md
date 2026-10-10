@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna tuberculosa
       zh: Tomopterna tuberculosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

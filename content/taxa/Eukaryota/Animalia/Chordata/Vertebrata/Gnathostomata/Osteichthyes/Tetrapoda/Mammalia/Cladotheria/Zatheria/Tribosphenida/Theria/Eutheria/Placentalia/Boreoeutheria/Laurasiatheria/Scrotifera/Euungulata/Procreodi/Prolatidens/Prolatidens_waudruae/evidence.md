@@ -9,7 +9,6 @@ records:
     name:
       zh: Prolatidens waudruae
       en: Prolatidens waudruae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

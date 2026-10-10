@@ -9,7 +9,6 @@ records:
     name:
       en: Ecnomiohyla veraguensis
       zh: Ecnomiohyla veraguensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

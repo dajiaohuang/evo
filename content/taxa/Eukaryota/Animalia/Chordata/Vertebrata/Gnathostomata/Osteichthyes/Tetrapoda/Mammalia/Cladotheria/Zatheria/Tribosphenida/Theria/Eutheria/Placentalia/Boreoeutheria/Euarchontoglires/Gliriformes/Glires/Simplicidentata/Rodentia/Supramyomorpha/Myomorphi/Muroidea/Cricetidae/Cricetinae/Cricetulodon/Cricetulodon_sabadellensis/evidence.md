@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricetulodon sabadellensis
       en: Cricetulodon sabadellensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

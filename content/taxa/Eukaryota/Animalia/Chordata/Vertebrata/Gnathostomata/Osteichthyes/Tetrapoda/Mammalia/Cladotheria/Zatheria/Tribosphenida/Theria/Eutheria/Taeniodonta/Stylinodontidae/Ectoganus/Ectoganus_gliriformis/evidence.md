@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectoganus gliriformis
       en: Ectoganus gliriformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

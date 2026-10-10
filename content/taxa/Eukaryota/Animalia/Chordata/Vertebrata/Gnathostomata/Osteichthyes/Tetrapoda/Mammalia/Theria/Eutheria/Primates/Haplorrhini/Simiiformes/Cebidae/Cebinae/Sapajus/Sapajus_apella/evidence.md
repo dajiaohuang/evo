@@ -9,7 +9,6 @@ records:
     name:
       zh: 圭亚那褐卷尾猴
       en: Guianan Brown Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

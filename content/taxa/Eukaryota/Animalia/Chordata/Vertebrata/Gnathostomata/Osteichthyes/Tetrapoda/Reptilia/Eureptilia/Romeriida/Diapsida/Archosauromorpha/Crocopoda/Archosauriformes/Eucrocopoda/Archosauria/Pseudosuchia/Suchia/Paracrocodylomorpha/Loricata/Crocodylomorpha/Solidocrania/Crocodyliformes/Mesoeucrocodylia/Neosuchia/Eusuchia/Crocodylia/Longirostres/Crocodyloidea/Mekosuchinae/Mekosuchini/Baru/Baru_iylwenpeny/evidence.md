@@ -9,7 +9,6 @@ records:
     name:
       zh: Baru iylwenpeny
       en: Baru iylwenpeny
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

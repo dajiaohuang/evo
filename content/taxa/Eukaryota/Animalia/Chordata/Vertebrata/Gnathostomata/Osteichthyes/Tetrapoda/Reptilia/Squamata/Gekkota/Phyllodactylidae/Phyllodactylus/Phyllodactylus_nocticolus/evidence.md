@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus nocticolus
       en: Phyllodactylus nocticolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

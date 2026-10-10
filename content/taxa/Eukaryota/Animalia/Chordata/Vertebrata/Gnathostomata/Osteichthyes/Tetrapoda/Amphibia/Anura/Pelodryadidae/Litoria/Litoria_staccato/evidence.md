@@ -9,7 +9,6 @@ records:
     name:
       en: Litoria staccato
       zh: Litoria staccato
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

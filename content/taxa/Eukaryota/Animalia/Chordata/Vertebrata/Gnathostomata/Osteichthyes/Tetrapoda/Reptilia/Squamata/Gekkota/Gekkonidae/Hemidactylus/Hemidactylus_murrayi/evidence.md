@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus murrayi
       en: Hemidactylus murrayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mus minotaurus
       en: Mus minotaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

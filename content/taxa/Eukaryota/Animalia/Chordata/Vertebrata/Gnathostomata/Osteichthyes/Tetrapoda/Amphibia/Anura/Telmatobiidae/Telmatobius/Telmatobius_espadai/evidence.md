@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius espadai
       zh: Telmatobius espadai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Jimomys labaughi
       en: Jimomys labaughi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

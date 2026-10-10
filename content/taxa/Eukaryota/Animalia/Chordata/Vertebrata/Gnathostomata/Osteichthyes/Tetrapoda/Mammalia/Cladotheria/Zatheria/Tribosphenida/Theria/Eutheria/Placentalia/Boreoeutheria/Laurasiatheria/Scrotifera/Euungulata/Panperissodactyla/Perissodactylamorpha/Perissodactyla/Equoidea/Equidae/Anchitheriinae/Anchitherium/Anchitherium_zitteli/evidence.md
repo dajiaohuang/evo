@@ -9,7 +9,6 @@ records:
     name:
       zh: Anchitherium zitteli
       en: Anchitherium zitteli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

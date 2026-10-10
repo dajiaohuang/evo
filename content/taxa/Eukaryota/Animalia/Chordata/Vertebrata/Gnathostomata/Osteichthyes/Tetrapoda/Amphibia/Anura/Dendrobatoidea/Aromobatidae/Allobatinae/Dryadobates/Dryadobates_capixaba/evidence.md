@@ -9,7 +9,6 @@ records:
     name:
       en: Dryadobates capixaba
       zh: Dryadobates capixaba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

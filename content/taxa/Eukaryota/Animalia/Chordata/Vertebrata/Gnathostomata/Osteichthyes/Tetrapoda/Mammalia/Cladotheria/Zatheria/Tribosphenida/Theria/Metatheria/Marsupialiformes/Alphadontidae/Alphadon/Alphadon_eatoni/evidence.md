@@ -9,7 +9,6 @@ records:
     name:
       zh: Alphadon eatoni
       en: Alphadon eatoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

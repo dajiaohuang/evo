@@ -9,7 +9,6 @@ records:
     name:
       zh: Baurusuchus albertoi
       en: Baurusuchus albertoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

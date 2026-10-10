@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-计数与密度只适用于 Ankarafa 森林的一个区域和 2007—2008 年调查时期。 本页尚未经过外部领域专家评审。
+计数与密度只适用于 Ankarafa 森林的一个区域和 2007—2008 年调查时期。 。
 <!-- /evo:text -->

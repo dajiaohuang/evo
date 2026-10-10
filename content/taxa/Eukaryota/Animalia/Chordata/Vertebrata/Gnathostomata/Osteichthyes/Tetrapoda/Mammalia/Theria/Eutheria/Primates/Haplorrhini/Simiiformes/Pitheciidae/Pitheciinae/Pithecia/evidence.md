@@ -9,7 +9,6 @@ records:
     name:
       zh: 僧面猴属
       en: Sakis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

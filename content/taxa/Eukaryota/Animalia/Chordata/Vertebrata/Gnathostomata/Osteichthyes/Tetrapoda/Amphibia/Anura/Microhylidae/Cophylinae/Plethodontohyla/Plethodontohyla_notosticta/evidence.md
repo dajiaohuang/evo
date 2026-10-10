@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodontohyla notosticta
       zh: Plethodontohyla notosticta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

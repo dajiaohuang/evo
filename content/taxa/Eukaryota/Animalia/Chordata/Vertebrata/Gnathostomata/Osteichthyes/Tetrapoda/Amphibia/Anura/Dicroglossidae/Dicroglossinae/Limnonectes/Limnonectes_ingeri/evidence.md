@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes ingeri
       zh: Limnonectes ingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

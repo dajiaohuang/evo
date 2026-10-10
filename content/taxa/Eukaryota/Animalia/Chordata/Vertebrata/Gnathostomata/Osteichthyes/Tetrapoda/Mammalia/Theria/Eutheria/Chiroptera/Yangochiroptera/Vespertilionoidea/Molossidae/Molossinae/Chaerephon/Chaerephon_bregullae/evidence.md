@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaerephon bregullae
       en: Chaerephon bregullae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

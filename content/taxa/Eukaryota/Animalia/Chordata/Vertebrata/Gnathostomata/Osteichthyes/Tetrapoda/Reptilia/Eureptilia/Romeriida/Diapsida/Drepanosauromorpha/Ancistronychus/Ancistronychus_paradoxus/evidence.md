@@ -9,7 +9,6 @@ records:
     name:
       zh: Ancistronychus paradoxus
       en: Ancistronychus paradoxus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

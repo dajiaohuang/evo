@@ -9,7 +9,6 @@ records:
     name:
       zh: Blanosaurus primeocaenus
       en: Blanosaurus primeocaenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

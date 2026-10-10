@@ -9,7 +9,6 @@ records:
     name:
       zh: Provelosaurus americanus
       en: Provelosaurus americanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

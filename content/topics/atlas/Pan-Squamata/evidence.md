@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: simoes-2018-megachirella concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: simoes-2018-megachirella
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: simoes-2018-megachirella; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: simoes-2018-megachirella
@@ -90,7 +84,6 @@ records:
       referenceLocators:
         - referenceId: simoes-2018-megachirella
           locator: 706–709; Figures 1–2; Extended Data Figures 1–8; PZO 628 horizon, CT anatomy and combined-evidence stem placement
-      reviewStatus: automated-audit-passed
 ---
 
 # Pan-Squamata

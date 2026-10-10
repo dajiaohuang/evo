@@ -40,5 +40,5 @@ Tosi's comparative study included representatives of preussi in the lhoesti grou
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page guides readers through interviews around Ebo and limited-marker phylogenetic research; it is not a complete species account. Interviews do not estimate field density or trends, and the sources do not cover the full range, year-round ecology or a current conservation assessment. The Chinese name is editorial; the page has not received external expert review. This page is not externally expert-reviewed.
+This page guides readers through interviews around Ebo and limited-marker phylogenetic research; it is not a complete species account. Interviews do not estimate field density or trends, and the sources do not cover the full range, year-round ecology or a current conservation assessment. The Chinese name is editorial.
 <!-- /evo:text -->

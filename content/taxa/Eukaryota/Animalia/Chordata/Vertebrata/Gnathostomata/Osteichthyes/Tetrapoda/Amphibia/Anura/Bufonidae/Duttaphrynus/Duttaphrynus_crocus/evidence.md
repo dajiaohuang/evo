@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus crocus
       zh: Duttaphrynus crocus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

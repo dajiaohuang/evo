@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius yangi
       zh: Hynobius yangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

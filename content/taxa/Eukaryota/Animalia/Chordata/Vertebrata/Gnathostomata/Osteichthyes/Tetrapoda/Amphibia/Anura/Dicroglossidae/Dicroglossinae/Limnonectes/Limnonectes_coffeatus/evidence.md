@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes coffeatus
       zh: Limnonectes coffeatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

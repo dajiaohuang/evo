@@ -9,7 +9,6 @@ records:
     name:
       zh: Eothenomys custos
       en: Eothenomys custos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

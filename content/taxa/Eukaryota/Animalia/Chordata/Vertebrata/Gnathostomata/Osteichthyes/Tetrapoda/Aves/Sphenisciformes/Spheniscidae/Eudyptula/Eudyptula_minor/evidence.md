@@ -9,7 +9,6 @@ records:
     name:
       zh: Eudyptula minor
       en: Eudyptula minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: researchScope

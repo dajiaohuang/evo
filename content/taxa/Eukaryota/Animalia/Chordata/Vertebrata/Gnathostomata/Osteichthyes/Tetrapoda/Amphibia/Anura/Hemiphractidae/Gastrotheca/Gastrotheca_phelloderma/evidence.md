@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca phelloderma
       zh: Gastrotheca phelloderma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

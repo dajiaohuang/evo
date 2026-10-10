@@ -9,7 +9,6 @@ records:
     name:
       zh: Plateosaurus longiceps
       en: Plateosaurus longiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Conepatus semistriatus
       en: Conepatus semistriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

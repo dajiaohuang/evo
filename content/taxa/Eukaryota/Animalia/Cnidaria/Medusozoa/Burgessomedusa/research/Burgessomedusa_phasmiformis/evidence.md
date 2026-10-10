@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: moon-2023-burgessomedusa
       referenceLinks:
         - referenceId: moon-2023-burgessomedusa
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: moon-2023-burgessomedusa locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: moon-2023-burgessomedusa
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: moon-2023-burgessomedusa @ DOI 10.1098/rspb.2022.2490
       referenceLinks:
         - referenceId: moon-2023-burgessomedusa
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: moon-2023-burgessomedusa @ DOI 10.1098/rspb.2022.2490
       referenceLinks:
         - referenceId: moon-2023-burgessomedusa
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: moon-2023-burgessomedusa @ DOI 10.1098/rspb.2022.2490
       referenceLinks:
         - referenceId: moon-2023-burgessomedusa
           relation: supports
@@ -164,9 +149,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: moon-2023-burgessomedusa @ DOI 10.1098/rspb.2022.2490
       referenceLinks:
         - referenceId: moon-2023-burgessomedusa
           relation: supports
@@ -224,7 +206,6 @@ records:
       referenceLocators:
         - referenceId: moon-2023-burgessomedusa
           locator: 20222490; Figures 1–5; Supplementary Figures; Raymond Quarry specimens, diagnosis and medusozoan comparisons
-      reviewStatus: automated-audit-passed
 ---
 
 # Burgessomedusa phasmiformis

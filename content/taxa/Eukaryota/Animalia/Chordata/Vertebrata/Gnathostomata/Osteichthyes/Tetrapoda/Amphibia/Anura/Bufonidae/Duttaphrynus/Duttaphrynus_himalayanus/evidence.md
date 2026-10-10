@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus himalayanus
       zh: Duttaphrynus himalayanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

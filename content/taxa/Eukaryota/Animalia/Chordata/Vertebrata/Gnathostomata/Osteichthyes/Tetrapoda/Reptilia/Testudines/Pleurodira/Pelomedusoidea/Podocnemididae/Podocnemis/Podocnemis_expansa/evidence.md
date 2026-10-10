@@ -9,7 +9,6 @@ records:
     name:
       zh: Podocnemis expansa
       en: Podocnemis expansa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

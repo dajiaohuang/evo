@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus sanguineus
       en: Atractus sanguineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

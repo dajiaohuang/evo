@@ -9,7 +9,6 @@ records:
     name:
       zh: Cercosaura schreibersii
       en: Cercosaura schreibersii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

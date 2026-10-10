@@ -9,7 +9,6 @@ records:
     name:
       zh: Centropus anselli
       en: Centropus anselli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

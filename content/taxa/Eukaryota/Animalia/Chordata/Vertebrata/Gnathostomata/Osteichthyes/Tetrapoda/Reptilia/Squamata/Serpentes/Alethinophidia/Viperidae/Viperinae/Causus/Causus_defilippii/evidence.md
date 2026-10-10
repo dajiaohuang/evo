@@ -9,7 +9,6 @@ records:
     name:
       zh: Causus defilippii
       en: Causus defilippii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Omanosaura jayakari
       en: Omanosaura jayakari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

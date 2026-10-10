@@ -9,7 +9,6 @@ records:
     name:
       zh: Scoloparia glyphanodon
       en: Scoloparia glyphanodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

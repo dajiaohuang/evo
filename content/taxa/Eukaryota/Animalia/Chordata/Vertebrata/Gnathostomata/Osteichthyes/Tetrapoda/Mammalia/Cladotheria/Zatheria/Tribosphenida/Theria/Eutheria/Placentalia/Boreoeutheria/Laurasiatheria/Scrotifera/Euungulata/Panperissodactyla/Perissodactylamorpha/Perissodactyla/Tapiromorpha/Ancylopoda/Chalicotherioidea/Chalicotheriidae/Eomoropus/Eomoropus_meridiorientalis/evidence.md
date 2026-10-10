@@ -9,7 +9,6 @@ records:
     name:
       zh: Eomoropus meridiorientalis
       en: Eomoropus meridiorientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

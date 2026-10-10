@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudotaria muramotoi
       en: Pseudotaria muramotoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

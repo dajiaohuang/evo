@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: aria-caron-2019-mollisonia-plenovenatrix; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: aria-caron-2019-mollisonia-plenovenatrix
           relation: supports
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: liu-2026 + lerosey-aubril-ortega-2026 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: liu-2026-urokodia
           relation: supports
@@ -98,7 +92,6 @@ records:
           locator: pp. 653–658; Figures 1–3; Chengjiang Urokodia sample at 519–518 Ma
         - referenceId: lerosey-aubril-ortega-2026-megachelicerax
           locator: pp. 931–937; Figures 1–3; Wheeler Formation Megachelicerax sample at 504.5–500.5 Ma
-      reviewStatus: automated-audit-passed
 ---
 
 # Stem-chelicerate evidence

@@ -9,7 +9,6 @@ records:
     name:
       en: Andinobates tolimense
       zh: Andinobates tolimense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

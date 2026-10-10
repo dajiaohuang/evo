@@ -9,7 +9,6 @@ records:
     name:
       zh: Lampropeltis getula
       en: Lampropeltis getula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

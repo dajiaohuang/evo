@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorochrysa nitidissima
       en: Chlorochrysa nitidissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

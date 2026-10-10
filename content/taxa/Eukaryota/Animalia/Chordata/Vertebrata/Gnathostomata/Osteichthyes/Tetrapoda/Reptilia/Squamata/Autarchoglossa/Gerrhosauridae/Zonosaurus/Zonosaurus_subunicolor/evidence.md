@@ -9,7 +9,6 @@ records:
     name:
       zh: Zonosaurus subunicolor
       en: Zonosaurus subunicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

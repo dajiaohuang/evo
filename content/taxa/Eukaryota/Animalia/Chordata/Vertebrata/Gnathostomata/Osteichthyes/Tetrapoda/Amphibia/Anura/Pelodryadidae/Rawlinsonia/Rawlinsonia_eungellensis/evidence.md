@@ -9,7 +9,6 @@ records:
     name:
       en: Rawlinsonia eungellensis
       zh: Rawlinsonia eungellensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rionegrophis madtsoioides
       en: Rionegrophis madtsoioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

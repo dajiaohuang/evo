@@ -9,7 +9,6 @@ records:
     name:
       zh: 米尔恩-爱德华兹运动狐猴
       en: Milne-Edwards's Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: phylogenetic placement

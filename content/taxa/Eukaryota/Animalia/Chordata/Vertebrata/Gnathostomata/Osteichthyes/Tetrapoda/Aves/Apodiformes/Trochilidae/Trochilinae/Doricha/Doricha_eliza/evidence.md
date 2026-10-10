@@ -9,7 +9,6 @@ records:
     name:
       zh: Doricha eliza
       en: Doricha eliza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

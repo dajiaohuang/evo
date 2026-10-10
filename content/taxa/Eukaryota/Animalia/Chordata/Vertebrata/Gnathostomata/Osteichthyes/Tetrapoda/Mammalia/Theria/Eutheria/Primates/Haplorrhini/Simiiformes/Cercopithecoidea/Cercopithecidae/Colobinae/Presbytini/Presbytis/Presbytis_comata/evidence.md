@@ -9,7 +9,6 @@ records:
     name:
       zh: 爪哇灰叶猴
       en: Javan Grizzled Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

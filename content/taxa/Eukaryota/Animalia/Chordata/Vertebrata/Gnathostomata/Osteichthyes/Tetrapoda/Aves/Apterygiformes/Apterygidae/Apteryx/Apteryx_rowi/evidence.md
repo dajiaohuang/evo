@@ -9,7 +9,6 @@ records:
     name:
       zh: Apteryx rowi
       en: Apteryx rowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gyps indicus
       en: Gyps indicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

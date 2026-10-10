@@ -9,7 +9,6 @@ records:
     name:
       zh: Indotherium pranhitai
       en: Indotherium pranhitai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

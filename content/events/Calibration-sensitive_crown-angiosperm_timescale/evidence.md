@@ -95,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Wu et al. 2026 DOI 10.1038/s41477-026-02311-x
       referenceLinks:
         - relation: supports
           referenceId: wu-2026-angiosperm-timescale

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibon marleyae
       en: Sibon marleyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

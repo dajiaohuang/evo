@@ -9,7 +9,6 @@ records:
     name:
       zh: Ilianodon lunanensis
       en: Ilianodon lunanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

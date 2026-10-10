@@ -10,7 +10,6 @@ records:
     name:
       zh: Haliskia
       en: Haliskia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -340,7 +339,6 @@ records:
       referenceLocators:
         - referenceId: ref-e9f69786-79b3-4da7-bdaa-1244e580f3a5
           locator: data/sources/snapshots/pbdb-wing-reader-range-records-2026-10-02.json; response.records oid txn:492614; fea/fla/lea/lla fields
-      reviewStatus: not-reviewed
       evidenceLevel: database-derived
       entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Archosauromorpha/Crocopoda/Archosauriformes/Eucrocopoda/Archosauria/Avemetatarsalia/Ornithodira/Pterosauromorpha/Pterosauria/Pterodactyloidea/Pteranodontia/Ornithocheiroidea/Anhangueridae/Haliskia
 ---

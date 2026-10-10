@@ -9,7 +9,6 @@ records:
     name:
       zh: Erlianomys combinatus
       en: Erlianomys combinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pelobates varaldii
       zh: Pelobates varaldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

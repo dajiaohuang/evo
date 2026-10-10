@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammotragus lervia
       en: Ammotragus lervia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

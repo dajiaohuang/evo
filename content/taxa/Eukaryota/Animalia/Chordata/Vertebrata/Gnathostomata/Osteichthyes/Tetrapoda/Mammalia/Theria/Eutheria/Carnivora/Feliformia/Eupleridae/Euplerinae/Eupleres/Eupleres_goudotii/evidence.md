@@ -9,7 +9,6 @@ records:
     name:
       zh: Eupleres goudotii
       en: Eupleres goudotii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

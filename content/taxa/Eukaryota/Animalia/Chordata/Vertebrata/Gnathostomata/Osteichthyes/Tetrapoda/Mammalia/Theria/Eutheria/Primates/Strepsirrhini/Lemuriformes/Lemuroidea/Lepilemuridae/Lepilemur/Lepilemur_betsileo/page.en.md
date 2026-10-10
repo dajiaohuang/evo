@@ -22,5 +22,5 @@ The authors placed the known records around Fandriana, between the Mangoro and N
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is based on the 2006 description, limited specimens, and mitochondrial fragments; the source did not establish population boundaries or present-day status. The COL26.8 accepted name is retained. The Chinese common name is editorial, and the guide is not externally expert-reviewed.
+This is based on the 2006 description, limited specimens, and mitochondrial fragments; the source did not establish population boundaries or present-day status. The COL26.8 accepted name is retained. The Chinese common name is editorial, and the guide is.
 <!-- /evo:text -->

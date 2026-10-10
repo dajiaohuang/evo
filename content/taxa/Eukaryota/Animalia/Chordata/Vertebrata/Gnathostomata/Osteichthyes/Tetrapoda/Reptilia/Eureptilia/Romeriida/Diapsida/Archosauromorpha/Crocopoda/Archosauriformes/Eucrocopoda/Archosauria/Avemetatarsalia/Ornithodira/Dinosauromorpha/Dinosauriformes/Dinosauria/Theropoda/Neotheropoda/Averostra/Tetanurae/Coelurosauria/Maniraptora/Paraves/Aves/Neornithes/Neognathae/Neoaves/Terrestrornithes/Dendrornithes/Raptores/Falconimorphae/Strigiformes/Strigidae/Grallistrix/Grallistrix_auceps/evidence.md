@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallistrix auceps
       en: Grallistrix auceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

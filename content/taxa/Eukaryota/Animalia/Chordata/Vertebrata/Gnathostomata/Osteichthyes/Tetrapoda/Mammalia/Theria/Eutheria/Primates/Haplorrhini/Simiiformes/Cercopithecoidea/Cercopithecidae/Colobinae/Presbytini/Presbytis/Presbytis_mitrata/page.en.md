@@ -22,5 +22,5 @@ The study surveyed three riparian transects in the Merangin Geopark area of West
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Biological evidence is limited to a riparian site in the Merangin Geopark. The paper used the older combination Presbytis melalophos ssp. mitrata and did not test taxonomic boundaries. The Chinese common name is an editorial translation; this page has not received external expert review. This entry is not externally expert-reviewed.
+Biological evidence is limited to a riparian site in the Merangin Geopark. The paper used the older combination Presbytis melalophos ssp. mitrata and did not test taxonomic boundaries. The Chinese common name is an editorial translation. This entry is.
 <!-- /evo:text -->

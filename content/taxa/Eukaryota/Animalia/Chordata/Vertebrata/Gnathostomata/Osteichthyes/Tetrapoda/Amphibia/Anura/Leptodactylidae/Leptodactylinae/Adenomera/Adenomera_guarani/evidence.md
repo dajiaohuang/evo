@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera guarani
       zh: Adenomera guarani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

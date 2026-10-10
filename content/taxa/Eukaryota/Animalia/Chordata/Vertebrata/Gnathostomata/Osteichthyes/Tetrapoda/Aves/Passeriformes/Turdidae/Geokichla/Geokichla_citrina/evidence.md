@@ -9,7 +9,6 @@ records:
     name:
       zh: Geokichla citrina
       en: Geokichla citrina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

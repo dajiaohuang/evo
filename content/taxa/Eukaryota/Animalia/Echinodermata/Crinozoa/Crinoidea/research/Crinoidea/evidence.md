@@ -55,9 +55,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: guensburg-2020-crinoid-origin @ DOI 10.1017/jpa.2019.87
       referenceLinks:
         - relation: supports
           referenceId: guensburg-2020-crinoid-origin
@@ -75,9 +72,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: guensburg-2020-crinoid-origin
           relation: supports
@@ -95,9 +89,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: guensburg-2020-crinoid-origin
           relation: supports
@@ -115,9 +106,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: guensburg-2020-crinoid-origin
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: guensburg-2020-crinoid-origin at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: guensburg-2020-crinoid-origin
           relation: supports
@@ -188,7 +173,6 @@ records:
       referenceLocators:
         - referenceId: guensburg-2020-crinoid-origin
           locator: pp. 311–312, Introduction
-      reviewStatus: not-reviewed
       evidenceLevel: literature-synthesized
 ---
 

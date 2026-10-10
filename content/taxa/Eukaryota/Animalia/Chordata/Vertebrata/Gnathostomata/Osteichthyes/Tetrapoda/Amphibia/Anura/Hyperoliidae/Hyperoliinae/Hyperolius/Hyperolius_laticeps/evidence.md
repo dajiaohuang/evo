@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius laticeps
       zh: Hyperolius laticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

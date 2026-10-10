@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibothrosuchus
       en: Dibothrosuchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

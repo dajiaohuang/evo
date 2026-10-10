@@ -9,7 +9,6 @@ records:
     name:
       zh: Archboldia papuensis
       en: Archboldia papuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

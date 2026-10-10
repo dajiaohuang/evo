@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus amicorum
       zh: Dendropsophus amicorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

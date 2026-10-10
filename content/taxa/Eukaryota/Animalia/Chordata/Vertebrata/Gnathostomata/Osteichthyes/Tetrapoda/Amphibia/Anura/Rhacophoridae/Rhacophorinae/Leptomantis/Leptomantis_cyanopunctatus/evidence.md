@@ -9,7 +9,6 @@ records:
     name:
       en: Leptomantis cyanopunctatus
       zh: Leptomantis cyanopunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

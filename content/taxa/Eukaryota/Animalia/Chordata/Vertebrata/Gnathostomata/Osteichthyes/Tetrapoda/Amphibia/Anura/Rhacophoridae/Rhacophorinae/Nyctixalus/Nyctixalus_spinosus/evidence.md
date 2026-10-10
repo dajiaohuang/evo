@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctixalus spinosus
       zh: Nyctixalus spinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

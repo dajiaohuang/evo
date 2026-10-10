@@ -9,7 +9,6 @@ records:
     name:
       zh: Aelurodon montanensis
       en: Aelurodon montanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

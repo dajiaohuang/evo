@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodryas gaimardi
       en: Lycodryas gaimardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

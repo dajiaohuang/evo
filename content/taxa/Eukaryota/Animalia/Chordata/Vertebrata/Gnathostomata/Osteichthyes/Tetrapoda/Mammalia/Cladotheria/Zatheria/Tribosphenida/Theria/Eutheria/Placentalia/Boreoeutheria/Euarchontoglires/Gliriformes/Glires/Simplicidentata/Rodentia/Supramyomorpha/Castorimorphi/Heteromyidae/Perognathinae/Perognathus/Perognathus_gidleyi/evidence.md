@@ -9,7 +9,6 @@ records:
     name:
       zh: Perognathus gidleyi
       en: Perognathus gidleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

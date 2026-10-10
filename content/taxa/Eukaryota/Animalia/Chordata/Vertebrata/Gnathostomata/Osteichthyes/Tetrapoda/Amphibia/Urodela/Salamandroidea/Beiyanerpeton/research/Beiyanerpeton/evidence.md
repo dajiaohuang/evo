@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gao-2012-beiyanerpeton at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gao-2012-beiyanerpeton
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gao-2012-beiyanerpeton at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gao-2012-beiyanerpeton
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gao-2012-beiyanerpeton at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gao-2012-beiyanerpeton
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gao-2012-beiyanerpeton at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gao-2012-beiyanerpeton
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: gao-2012-beiyanerpeton at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: gao-2012-beiyanerpeton
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: gao-2012-beiyanerpeton
           locator: 5767–5772; Figures 1–4; Geological setting; holotype and referred material; description and phylogenetic results
-      reviewStatus: automated-audit-passed
 ---
 
 # Beiyanerpeton

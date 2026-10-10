@@ -9,7 +9,6 @@ records:
     name:
       en: Anaxyrus houstonensis
       zh: Anaxyrus houstonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

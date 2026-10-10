@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammomanes cinctura
       en: Ammomanes cinctura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

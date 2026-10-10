@@ -9,7 +9,6 @@ records:
     name:
       en: Amerana cascadae
       zh: Amerana cascadae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

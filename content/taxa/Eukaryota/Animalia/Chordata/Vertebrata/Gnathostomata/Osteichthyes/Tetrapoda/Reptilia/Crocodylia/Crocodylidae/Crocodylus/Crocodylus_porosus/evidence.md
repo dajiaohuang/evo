@@ -9,7 +9,6 @@ records:
     name:
       zh: 湾鳄
       en: Saltwater crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

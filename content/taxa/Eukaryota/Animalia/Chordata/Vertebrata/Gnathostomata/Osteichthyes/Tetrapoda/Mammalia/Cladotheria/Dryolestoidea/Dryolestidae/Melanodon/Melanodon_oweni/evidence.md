@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanodon oweni
       en: Melanodon oweni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

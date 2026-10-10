@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana taihangnica
       zh: Nanorana taihangnica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

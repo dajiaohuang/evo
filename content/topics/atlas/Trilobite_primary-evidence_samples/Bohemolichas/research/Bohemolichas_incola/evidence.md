@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: kraft-2023-trilobite-gut primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: kraft-2023-trilobite-gut
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: kraft-2023-trilobite-gut primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: kraft-2023-trilobite-gut
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: kraft-2023-trilobite-gut primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: kraft-2023-trilobite-gut
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: kraft-2023-trilobite-gut primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: kraft-2023-trilobite-gut
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: kraft-2023-trilobite-gut primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: kraft-2023-trilobite-gut
           relation: supports
@@ -189,7 +174,6 @@ records:
       referenceLocators:
         - referenceId: kraft-2023-trilobite-gut
           locator: 545–551; Figures 1–4; Extended Data; Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation
-      reviewStatus: automated-audit-passed
 ---
 
 # Bohemolichas incola

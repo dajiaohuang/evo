@@ -9,7 +9,6 @@ records:
     name:
       zh: Eohaplomys matutinus
       en: Eohaplomys matutinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

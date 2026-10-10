@@ -9,7 +9,6 @@ records:
     name:
       zh: Trilepida pastusa
       en: Trilepida pastusa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

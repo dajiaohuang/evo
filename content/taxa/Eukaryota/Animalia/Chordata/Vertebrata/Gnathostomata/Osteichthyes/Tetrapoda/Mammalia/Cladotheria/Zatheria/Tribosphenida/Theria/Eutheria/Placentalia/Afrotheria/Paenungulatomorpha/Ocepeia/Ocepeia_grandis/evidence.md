@@ -9,7 +9,6 @@ records:
     name:
       zh: Ocepeia grandis
       en: Ocepeia grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

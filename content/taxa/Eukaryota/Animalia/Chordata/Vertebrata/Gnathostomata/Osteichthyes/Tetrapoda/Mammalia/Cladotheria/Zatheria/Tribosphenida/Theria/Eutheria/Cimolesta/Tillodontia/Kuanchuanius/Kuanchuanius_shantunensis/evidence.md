@@ -9,7 +9,6 @@ records:
     name:
       zh: Kuanchuanius shantunensis
       en: Kuanchuanius shantunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

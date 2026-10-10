@@ -9,7 +9,6 @@ records:
     name:
       en: Bufotes luristanicus
       zh: Bufotes luristanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

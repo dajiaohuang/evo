@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrolagus ursinus
       en: Dendrolagus ursinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

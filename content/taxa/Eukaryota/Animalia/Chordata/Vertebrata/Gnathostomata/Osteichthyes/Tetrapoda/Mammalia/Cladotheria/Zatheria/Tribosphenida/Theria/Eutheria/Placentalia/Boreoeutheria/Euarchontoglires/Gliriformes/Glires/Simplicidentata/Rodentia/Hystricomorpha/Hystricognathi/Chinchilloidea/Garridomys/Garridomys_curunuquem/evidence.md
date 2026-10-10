@@ -9,7 +9,6 @@ records:
     name:
       zh: Garridomys curunuquem
       en: Garridomys curunuquem
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

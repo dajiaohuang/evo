@@ -9,7 +9,6 @@ records:
     name:
       en: Boana pulchella
       zh: Boana pulchella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

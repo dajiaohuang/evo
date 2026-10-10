@@ -9,7 +9,6 @@ records:
     name:
       en: Minervarya chilapata
       zh: Minervarya chilapata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

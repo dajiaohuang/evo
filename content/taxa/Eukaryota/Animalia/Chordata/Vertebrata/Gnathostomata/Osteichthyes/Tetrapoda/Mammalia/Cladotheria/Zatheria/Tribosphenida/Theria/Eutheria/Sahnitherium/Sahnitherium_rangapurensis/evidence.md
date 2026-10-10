@@ -9,7 +9,6 @@ records:
     name:
       zh: Sahnitherium rangapurensis
       en: Sahnitherium rangapurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pareas margaritophorus
       en: Pareas margaritophorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

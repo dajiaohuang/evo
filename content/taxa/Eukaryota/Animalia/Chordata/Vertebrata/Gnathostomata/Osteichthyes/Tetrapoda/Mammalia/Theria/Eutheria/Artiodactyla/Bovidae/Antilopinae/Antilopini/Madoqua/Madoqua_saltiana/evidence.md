@@ -9,7 +9,6 @@ records:
     name:
       zh: Madoqua saltiana
       en: Madoqua saltiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

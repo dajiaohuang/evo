@@ -9,7 +9,6 @@ records:
     name:
       zh: Urtinotherium intermedium
       en: Urtinotherium intermedium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

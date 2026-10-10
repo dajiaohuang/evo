@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus aurantius
       en: Turdus aurantius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

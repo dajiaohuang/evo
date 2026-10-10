@@ -9,7 +9,6 @@ records:
     name:
       zh: Apostolepis goiasensis
       en: Apostolepis goiasensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

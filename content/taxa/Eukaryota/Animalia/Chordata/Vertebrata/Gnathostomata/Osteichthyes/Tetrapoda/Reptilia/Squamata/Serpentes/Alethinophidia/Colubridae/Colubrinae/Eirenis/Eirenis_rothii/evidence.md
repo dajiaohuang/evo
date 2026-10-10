@@ -9,7 +9,6 @@ records:
     name:
       zh: Eirenis rothii
       en: Eirenis rothii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

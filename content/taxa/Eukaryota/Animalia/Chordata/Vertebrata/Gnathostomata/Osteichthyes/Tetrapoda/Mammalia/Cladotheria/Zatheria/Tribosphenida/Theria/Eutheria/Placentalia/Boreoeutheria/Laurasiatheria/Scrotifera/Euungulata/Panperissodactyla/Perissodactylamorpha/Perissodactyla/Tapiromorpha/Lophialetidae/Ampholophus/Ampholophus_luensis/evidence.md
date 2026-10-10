@@ -9,7 +9,6 @@ records:
     name:
       zh: Ampholophus luensis
       en: Ampholophus luensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

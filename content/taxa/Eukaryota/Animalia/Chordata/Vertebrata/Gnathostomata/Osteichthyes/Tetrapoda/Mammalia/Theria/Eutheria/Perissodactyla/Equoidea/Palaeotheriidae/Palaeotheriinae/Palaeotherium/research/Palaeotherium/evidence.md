@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: joomun-2008-palaeotherium-diet + hooker-2004-grande-coupure locator audit at 2026-08-31
       referenceLinks:
         - referenceId: joomun-2008-palaeotherium-diet
           relation: supports
@@ -84,9 +81,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: joomun-2008-palaeotherium-diet + hooker-2004-grande-coupure locator audit at 2026-08-31
       referenceLinks:
         - referenceId: joomun-2008-palaeotherium-diet
           relation: supports
@@ -110,9 +104,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: joomun-2008-palaeotherium-diet locator audit at 2026-08-31
       referenceLinks:
         - referenceId: joomun-2008-palaeotherium-diet
           relation: supports
@@ -131,9 +122,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: joomun-2008-palaeotherium-diet locator audit at 2026-08-31
       referenceLinks:
         - referenceId: joomun-2008-palaeotherium-diet
           relation: supports
@@ -152,9 +140,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: joomun-2008-palaeotherium-diet + hooker-2004-grande-coupure locator audit at 2026-08-31
       referenceLinks:
         - referenceId: joomun-2008-palaeotherium-diet
           relation: supports
@@ -224,7 +209,6 @@ records:
           locator: pp. 92–106; Figures 1–8; Tables 1–4; late Eocene La Débruge Palaeotherium medium sample
         - referenceId: hooker-2004-grande-coupure
           locator: doi:10.1144/0016-764903-091; pp. 161–172; Figures 2–4; Hampshire Basin regional mammal range chart
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

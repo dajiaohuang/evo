@@ -9,7 +9,6 @@ records:
     name:
       zh: Diglossa brunneiventris
       en: Diglossa brunneiventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

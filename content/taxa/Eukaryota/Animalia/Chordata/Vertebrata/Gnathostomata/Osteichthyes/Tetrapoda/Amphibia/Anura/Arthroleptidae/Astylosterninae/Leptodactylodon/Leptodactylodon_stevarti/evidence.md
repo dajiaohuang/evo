@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylodon stevarti
       zh: Leptodactylodon stevarti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

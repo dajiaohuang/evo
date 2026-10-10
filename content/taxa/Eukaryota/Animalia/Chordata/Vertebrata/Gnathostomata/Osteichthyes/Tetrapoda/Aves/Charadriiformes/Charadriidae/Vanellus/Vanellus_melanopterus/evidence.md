@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanellus melanopterus
       en: Vanellus melanopterus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

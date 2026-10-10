@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacricetodon debruijni
       en: Megacricetodon debruijni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes moreirae
       en: Asthenes moreirae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

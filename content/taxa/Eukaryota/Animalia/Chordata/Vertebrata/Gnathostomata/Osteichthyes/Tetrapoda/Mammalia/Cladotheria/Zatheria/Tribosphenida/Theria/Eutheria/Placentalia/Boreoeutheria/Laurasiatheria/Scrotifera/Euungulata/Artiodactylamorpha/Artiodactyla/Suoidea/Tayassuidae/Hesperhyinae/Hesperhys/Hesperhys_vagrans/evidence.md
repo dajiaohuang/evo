@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperhys vagrans
       en: Hesperhys vagrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

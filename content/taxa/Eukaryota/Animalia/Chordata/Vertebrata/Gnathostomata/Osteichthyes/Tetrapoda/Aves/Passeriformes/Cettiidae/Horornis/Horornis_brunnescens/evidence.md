@@ -9,7 +9,6 @@ records:
     name:
       zh: Horornis brunnescens
       en: Horornis brunnescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

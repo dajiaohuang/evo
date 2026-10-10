@@ -9,7 +9,6 @@ records:
     name:
       zh: Gujaratia pakistanensis
       en: Gujaratia pakistanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

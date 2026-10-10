@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。历史范围比例依赖尚有分类歧义的旧记录，不能视为完整且经遗传验证的历史范围，也不能替代当前种群或保育评估。
+。历史范围比例依赖尚有分类歧义的旧记录，不能视为完整且经遗传验证的历史范围，也不能替代当前种群或保育评估。
 <!-- /evo:text -->

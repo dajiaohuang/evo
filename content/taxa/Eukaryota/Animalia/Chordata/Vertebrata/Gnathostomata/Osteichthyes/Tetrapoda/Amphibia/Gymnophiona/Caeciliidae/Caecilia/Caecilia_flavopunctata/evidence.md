@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia flavopunctata
       zh: Caecilia flavopunctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

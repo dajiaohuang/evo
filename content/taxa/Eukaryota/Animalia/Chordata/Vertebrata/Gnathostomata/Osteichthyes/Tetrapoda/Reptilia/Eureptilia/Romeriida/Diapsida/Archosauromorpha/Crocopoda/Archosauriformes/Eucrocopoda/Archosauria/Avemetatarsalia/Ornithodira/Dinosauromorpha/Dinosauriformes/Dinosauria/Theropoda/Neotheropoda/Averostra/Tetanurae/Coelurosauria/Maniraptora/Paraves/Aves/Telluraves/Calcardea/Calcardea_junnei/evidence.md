@@ -9,7 +9,6 @@ records:
     name:
       zh: Calcardea junnei
       en: Calcardea junnei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

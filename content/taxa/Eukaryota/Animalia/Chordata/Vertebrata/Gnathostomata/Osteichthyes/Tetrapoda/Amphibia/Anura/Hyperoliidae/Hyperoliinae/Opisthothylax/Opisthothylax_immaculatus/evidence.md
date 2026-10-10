@@ -9,7 +9,6 @@ records:
     name:
       en: Opisthothylax immaculatus
       zh: Opisthothylax immaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

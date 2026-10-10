@@ -9,7 +9,6 @@ records:
     name:
       zh: Ernosorex jilinensis
       en: Ernosorex jilinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

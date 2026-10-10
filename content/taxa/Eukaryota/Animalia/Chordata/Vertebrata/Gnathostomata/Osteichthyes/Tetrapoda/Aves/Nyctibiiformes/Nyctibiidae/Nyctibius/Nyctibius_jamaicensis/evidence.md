@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctibius jamaicensis
       en: Nyctibius jamaicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

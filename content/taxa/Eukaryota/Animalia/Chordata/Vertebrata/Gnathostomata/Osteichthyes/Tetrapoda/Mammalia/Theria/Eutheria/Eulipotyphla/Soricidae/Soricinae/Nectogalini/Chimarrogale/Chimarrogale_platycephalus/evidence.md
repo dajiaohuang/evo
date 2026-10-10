@@ -9,7 +9,6 @@ records:
     name:
       zh: Chimarrogale platycephalus
       en: Chimarrogale platycephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

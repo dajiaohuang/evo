@@ -9,7 +9,6 @@ records:
     name:
       en: Andrias japonicus
       zh: Andrias japonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bibimys chacoensis
       en: Bibimys chacoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

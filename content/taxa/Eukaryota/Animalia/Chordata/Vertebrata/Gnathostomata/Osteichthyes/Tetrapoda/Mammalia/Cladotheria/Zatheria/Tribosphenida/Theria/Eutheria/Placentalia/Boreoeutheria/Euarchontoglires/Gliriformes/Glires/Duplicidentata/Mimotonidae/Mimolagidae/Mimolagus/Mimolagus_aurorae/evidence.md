@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimolagus aurorae
       en: Mimolagus aurorae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

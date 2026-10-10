@@ -9,7 +9,6 @@ records:
     name:
       zh: Bootherium bombifrons
       en: Bootherium bombifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

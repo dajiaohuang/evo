@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus maculabialis
       zh: Eleutherodactylus maculabialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

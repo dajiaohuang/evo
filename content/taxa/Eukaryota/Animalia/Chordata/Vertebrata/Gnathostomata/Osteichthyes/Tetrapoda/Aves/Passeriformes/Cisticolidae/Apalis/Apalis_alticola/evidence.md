@@ -9,7 +9,6 @@ records:
     name:
       zh: Apalis alticola
       en: Apalis alticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

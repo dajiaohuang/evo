@@ -9,7 +9,6 @@ records:
     name:
       en: Minervarya agricola
       zh: Minervarya agricola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

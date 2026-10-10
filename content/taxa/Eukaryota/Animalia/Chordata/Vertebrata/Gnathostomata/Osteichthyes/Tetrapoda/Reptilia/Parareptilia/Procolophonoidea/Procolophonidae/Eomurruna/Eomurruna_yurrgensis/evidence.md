@@ -9,7 +9,6 @@ records:
     name:
       zh: Eomurruna yurrgensis
       en: Eomurruna yurrgensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

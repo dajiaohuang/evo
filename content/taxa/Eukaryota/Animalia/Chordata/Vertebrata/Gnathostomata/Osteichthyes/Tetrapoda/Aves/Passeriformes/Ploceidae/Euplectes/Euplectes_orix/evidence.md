@@ -9,7 +9,6 @@ records:
     name:
       zh: Euplectes orix
       en: Euplectes orix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

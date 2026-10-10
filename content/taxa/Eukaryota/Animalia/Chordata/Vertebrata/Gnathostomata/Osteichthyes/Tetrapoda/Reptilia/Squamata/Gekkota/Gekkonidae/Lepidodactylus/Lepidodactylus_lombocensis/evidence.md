@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus lombocensis
       en: Lepidodactylus lombocensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

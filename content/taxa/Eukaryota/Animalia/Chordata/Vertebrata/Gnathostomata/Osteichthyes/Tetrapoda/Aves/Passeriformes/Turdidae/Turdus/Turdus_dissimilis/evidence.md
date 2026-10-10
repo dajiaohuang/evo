@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus dissimilis
       en: Turdus dissimilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

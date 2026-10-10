@@ -9,7 +9,6 @@ records:
     name:
       zh: Strophurus intermedius
       en: Strophurus intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

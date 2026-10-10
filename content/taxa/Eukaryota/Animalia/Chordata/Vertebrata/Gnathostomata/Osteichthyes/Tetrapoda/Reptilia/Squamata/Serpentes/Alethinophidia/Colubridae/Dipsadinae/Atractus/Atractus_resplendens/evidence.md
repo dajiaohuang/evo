@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus resplendens
       en: Atractus resplendens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

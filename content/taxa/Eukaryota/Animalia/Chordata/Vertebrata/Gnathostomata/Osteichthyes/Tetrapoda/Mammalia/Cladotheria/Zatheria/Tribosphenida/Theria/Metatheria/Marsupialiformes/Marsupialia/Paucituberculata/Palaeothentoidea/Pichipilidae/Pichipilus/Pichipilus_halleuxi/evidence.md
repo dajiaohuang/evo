@@ -9,7 +9,6 @@ records:
     name:
       zh: Pichipilus halleuxi
       en: Pichipilus halleuxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

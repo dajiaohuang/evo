@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys yezhongensis
       zh: Boulenophrys yezhongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

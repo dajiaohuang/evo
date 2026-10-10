@@ -9,7 +9,6 @@ records:
     name:
       zh: Polemon robustus
       en: Polemon robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

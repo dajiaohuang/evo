@@ -246,12 +246,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Saccharomyces cerevisiae
@@ -482,10 +476,4 @@ Ecology and evolution remain limited to a selected 2009 strain panel and five-lo
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 No systematic literature review or complete comparison with the COL26.8 species concept has been completed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->

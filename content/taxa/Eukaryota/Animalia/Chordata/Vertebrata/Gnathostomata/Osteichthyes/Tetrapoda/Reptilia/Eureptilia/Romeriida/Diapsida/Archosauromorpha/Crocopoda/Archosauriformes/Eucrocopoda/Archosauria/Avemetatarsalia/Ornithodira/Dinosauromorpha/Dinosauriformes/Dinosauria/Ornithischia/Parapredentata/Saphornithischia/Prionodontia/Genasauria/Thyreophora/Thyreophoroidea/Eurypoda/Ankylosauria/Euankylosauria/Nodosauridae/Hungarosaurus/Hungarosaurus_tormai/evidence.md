@@ -9,7 +9,6 @@ records:
     name:
       zh: Hungarosaurus tormai
       en: Hungarosaurus tormai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

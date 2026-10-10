@@ -9,7 +9,6 @@ records:
     name:
       zh: Oenanthe albonigra
       en: Oenanthe albonigra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoborus umbrosus
       en: Palaeoborus umbrosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus mucubajiensis
       zh: Atelopus mucubajiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

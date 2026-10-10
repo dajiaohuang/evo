@@ -9,7 +9,6 @@ records:
     name:
       zh: Felis lunensis
       en: Felis lunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

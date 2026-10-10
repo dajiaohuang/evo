@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis zorro
       zh: Pristimantis zorro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

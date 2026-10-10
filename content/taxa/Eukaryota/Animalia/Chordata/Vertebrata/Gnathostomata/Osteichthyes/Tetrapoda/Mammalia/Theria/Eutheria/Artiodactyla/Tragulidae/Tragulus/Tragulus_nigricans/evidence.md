@@ -9,7 +9,6 @@ records:
     name:
       zh: Tragulus nigricans
       en: Tragulus nigricans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

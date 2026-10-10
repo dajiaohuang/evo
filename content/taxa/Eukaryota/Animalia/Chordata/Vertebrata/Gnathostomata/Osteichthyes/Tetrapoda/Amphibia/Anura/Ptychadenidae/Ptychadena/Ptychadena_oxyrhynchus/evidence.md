@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena oxyrhynchus
       zh: Ptychadena oxyrhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

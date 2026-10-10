@@ -36,5 +36,5 @@ Begin with meyerii spelling and the two older genera at megarhynchus, then read 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Six historical guides do not complete eight immediate catalogue children. Older crosswalk names, spellings, single female or male birds, complete sets, independent mass and ecological codes retain their boundaries without brood parasitism, hosts, breeding, current maps or expert review.
+Six historical guides do not complete eight immediate catalogue children. Older crosswalk names, spellings, single female or male birds, complete sets, independent mass and ecological codes retain their boundaries without brood parasitism, hosts, breeding, current maps.
 <!-- /evo:text -->

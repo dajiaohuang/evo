@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoacontias angelorum
       en: Pseudoacontias angelorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

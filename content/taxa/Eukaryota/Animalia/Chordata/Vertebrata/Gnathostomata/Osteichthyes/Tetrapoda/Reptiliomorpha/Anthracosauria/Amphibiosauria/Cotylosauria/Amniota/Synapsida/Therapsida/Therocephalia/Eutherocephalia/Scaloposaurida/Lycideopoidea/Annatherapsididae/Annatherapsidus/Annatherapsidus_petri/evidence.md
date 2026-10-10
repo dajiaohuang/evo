@@ -9,7 +9,6 @@ records:
     name:
       zh: Annatherapsidus petri
       en: Annatherapsidus petri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

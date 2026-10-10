@@ -9,7 +9,6 @@ records:
     name:
       en: Sphenophryne crassa
       zh: Sphenophryne crassa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

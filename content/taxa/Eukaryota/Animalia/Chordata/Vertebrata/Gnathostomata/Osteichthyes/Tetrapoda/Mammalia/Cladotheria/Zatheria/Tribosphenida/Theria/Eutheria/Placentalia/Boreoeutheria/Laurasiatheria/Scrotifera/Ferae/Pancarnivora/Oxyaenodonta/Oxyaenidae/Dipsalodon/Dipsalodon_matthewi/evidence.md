@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsalodon matthewi
       en: Dipsalodon matthewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

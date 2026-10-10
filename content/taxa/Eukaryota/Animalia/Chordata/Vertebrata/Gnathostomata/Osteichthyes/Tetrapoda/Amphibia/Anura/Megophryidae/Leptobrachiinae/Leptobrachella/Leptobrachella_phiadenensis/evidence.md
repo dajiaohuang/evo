@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella phiadenensis
       zh: Leptobrachella phiadenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

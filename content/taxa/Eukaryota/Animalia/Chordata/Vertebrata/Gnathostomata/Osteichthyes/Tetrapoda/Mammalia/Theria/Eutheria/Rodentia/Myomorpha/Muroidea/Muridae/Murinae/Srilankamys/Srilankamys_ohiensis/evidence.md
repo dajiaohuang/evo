@@ -9,7 +9,6 @@ records:
     name:
       zh: Srilankamys ohiensis
       en: Srilankamys ohiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

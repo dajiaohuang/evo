@@ -9,7 +9,6 @@ records:
     name:
       zh: Arundelemys
       en: Arundelemys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

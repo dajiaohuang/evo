@@ -9,7 +9,6 @@ records:
     name:
       zh: Tchagra australis
       en: Tchagra australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

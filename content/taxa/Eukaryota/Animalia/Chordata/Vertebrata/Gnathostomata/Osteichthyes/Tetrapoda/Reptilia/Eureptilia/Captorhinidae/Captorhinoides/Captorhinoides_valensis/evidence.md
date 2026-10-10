@@ -9,7 +9,6 @@ records:
     name:
       zh: Captorhinoides valensis
       en: Captorhinoides valensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

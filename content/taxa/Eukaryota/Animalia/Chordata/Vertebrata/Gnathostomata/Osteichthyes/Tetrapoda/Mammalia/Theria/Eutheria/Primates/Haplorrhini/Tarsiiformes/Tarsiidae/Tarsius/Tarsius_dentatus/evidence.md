@@ -9,7 +9,6 @@ records:
     name:
       en: Dian's Tarsier
       zh: 戴安娜眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: taxonomy

@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodacus erythrinus
       en: Carpodacus erythrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

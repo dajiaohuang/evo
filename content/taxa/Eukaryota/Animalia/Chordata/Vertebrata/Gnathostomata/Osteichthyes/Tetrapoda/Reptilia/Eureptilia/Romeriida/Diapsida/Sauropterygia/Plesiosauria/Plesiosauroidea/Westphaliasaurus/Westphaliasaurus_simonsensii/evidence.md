@@ -9,7 +9,6 @@ records:
     name:
       zh: Westphaliasaurus simonsensii
       en: Westphaliasaurus simonsensii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

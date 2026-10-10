@@ -9,7 +9,6 @@ records:
     name:
       zh: Oklatheridium szalayi
       en: Oklatheridium szalayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

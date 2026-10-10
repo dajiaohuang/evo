@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: oleary-2013-placental-ancestor-model primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: oleary-2013-placental-ancestor-model
           relation: supports
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: oleary-2013-placental-ancestor-model
           locator: pp. 662–667; Figure 1; Table 1; Tables S1–S8
-      reviewStatus: automated-audit-passed
 ---
 
 # Xenarthra

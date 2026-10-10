@@ -9,7 +9,6 @@ records:
     name:
       zh: Aratinga weddellii
       en: Aratinga weddellii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

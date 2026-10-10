@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: chester-2015-purgatorius @ DOI 10.1073/pnas.1421707112
       referenceLinks:
         - referenceId: chester-2015-purgatorius
           relation: supports

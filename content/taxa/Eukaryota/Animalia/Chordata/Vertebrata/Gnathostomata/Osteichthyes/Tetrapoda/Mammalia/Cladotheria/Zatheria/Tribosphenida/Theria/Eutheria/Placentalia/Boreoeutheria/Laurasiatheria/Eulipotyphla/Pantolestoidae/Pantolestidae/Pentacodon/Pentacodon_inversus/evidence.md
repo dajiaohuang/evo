@@ -9,7 +9,6 @@ records:
     name:
       zh: Pentacodon inversus
       en: Pentacodon inversus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

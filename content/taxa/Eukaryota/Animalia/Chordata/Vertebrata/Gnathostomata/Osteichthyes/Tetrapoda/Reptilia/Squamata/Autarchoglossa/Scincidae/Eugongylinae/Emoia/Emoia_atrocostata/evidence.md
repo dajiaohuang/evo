@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia atrocostata
       en: Emoia atrocostata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

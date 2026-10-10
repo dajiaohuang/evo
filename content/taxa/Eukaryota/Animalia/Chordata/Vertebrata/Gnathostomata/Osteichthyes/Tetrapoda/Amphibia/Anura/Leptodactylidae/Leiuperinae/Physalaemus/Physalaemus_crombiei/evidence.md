@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus crombiei
       zh: Physalaemus crombiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

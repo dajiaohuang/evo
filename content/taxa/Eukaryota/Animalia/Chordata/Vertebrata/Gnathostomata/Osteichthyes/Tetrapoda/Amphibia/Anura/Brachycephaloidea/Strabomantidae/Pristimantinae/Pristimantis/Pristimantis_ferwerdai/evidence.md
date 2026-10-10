@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ferwerdai
       zh: Pristimantis ferwerdai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

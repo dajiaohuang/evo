@@ -9,7 +9,6 @@ records:
     name:
       zh: Iole
       en: Iole
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

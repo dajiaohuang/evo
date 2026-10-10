@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerebavis cenomanica
       en: Cerebavis cenomanica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

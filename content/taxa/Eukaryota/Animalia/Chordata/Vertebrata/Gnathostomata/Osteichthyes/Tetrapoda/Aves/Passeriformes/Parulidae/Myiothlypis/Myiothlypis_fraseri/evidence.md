@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiothlypis fraseri
       en: Myiothlypis fraseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

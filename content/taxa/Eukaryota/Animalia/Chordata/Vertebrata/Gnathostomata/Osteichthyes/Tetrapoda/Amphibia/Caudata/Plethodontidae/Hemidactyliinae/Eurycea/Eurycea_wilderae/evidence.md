@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea wilderae
       zh: Eurycea wilderae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lambertocyon gingerichi
       en: Lambertocyon gingerichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

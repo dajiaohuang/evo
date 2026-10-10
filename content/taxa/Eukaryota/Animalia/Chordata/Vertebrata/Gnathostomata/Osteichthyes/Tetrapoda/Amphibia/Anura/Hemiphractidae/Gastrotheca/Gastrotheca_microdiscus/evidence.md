@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca microdiscus
       zh: Gastrotheca microdiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

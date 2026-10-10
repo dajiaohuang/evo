@@ -9,7 +9,6 @@ records:
     name:
       zh: Prototeius stageri
       en: Prototeius stageri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

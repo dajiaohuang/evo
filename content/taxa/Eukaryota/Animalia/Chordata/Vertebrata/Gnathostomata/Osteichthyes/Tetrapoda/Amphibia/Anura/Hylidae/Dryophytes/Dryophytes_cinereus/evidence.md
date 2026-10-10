@@ -9,7 +9,6 @@ records:
     name:
       en: Dryophytes cinereus
       zh: Dryophytes cinereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

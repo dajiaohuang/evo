@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiosminthus qiui
       en: Gobiosminthus qiui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

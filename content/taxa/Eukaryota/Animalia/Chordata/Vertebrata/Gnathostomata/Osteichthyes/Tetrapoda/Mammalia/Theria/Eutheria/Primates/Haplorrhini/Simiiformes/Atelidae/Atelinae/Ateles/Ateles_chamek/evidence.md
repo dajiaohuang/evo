@@ -9,7 +9,6 @@ records:
     name:
       zh: 查梅克蜘蛛猴
       en: Chamek Spider Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

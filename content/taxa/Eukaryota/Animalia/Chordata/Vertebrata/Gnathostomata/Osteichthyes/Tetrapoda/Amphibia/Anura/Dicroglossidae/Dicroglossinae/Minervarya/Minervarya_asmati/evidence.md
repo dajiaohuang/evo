@@ -9,7 +9,6 @@ records:
     name:
       en: Minervarya asmati
       zh: Minervarya asmati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

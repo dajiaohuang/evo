@@ -9,7 +9,6 @@ records:
     name:
       en: Tufted Gray Langur
       zh: 冠灰叶猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding-and-activity

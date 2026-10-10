@@ -9,7 +9,6 @@ records:
     name:
       zh: Tempestia hartenbergeri
       en: Tempestia hartenbergeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

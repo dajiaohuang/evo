@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Giles et al. 2015 DOI 10.1111/pala.12182; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: giles-2015-cheirolepis-endoskeleton
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: giles-2015-cheirolepis-endoskeleton
           locator: pp. 849–870, especially 852–862; Figures 2–4 and 9–11; material, geological occurrence and anatomical descriptions
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

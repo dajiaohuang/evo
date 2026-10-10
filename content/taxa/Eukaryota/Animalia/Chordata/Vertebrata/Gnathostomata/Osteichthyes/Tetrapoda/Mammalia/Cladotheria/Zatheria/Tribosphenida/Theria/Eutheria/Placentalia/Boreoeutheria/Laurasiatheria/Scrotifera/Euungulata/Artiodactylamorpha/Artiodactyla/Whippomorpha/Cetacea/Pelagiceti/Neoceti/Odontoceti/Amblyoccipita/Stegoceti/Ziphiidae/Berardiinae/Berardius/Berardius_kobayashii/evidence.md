@@ -9,7 +9,6 @@ records:
     name:
       zh: Berardius kobayashii
       en: Berardius kobayashii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mictomys kansasensis
       en: Mictomys kansasensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

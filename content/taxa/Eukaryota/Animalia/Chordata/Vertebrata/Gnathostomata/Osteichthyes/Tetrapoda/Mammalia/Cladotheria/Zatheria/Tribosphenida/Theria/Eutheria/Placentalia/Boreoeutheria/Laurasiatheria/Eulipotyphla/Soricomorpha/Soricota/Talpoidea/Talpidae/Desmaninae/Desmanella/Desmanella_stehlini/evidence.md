@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmanella stehlini
       en: Desmanella stehlini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bungarus flaviceps
       en: Bungarus flaviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

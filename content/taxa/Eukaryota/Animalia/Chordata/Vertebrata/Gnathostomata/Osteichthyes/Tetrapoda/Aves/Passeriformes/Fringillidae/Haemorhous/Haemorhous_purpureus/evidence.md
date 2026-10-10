@@ -9,7 +9,6 @@ records:
     name:
       zh: Haemorhous purpureus
       en: Haemorhous purpureus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmodus rotundus
       en: Desmodus rotundus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

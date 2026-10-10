@@ -9,7 +9,6 @@ records:
     name:
       en: Hyla sanchiangensis
       zh: Hyla sanchiangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

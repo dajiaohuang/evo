@@ -9,7 +9,6 @@ records:
     name:
       zh: Shansiodon wangi
       en: Shansiodon wangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

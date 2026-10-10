@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon welleri
       zh: Plethodon welleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

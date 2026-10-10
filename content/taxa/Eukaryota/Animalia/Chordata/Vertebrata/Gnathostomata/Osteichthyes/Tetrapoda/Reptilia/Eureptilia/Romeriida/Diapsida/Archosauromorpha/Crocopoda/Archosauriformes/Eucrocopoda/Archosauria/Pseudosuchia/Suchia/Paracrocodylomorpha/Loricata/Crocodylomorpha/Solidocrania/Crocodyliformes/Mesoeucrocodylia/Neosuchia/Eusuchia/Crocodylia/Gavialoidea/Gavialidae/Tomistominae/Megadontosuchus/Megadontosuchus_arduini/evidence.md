@@ -9,7 +9,6 @@ records:
     name:
       zh: Megadontosuchus arduini
       en: Megadontosuchus arduini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

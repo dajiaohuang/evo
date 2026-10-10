@@ -9,7 +9,6 @@ records:
     name:
       zh: Polyplectron napoleonis
       en: Polyplectron napoleonis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pedimontanus
       zh: Pristimantis pedimontanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

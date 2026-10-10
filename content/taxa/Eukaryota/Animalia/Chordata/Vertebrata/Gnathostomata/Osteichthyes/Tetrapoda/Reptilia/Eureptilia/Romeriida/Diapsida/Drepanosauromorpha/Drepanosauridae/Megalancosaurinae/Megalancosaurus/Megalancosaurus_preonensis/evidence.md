@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalancosaurus preonensis
       en: Megalancosaurus preonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

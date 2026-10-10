@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis gagliardoi
       zh: Pristimantis gagliardoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

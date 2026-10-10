@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphidon aequicrurius
       en: Amphidon aequicrurius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

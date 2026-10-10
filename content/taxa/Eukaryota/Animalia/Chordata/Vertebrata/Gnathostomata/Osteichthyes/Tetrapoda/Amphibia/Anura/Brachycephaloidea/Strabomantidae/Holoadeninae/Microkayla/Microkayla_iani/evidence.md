@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla iani
       zh: Microkayla iani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

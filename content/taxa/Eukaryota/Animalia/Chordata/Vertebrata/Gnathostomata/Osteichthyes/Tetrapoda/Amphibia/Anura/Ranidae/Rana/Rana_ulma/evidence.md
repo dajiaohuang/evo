@@ -9,7 +9,6 @@ records:
     name:
       en: Rana ulma
       zh: Rana ulma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

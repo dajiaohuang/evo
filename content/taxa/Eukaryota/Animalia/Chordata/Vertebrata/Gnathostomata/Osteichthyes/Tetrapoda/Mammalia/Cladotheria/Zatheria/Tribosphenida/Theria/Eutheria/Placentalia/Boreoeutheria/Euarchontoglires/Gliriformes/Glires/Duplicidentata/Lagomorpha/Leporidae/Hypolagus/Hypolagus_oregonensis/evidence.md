@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypolagus oregonensis
       en: Hypolagus oregonensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

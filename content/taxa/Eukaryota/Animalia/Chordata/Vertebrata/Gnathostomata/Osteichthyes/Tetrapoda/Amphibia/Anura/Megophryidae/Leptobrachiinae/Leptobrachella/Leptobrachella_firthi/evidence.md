@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella firthi
       zh: Leptobrachella firthi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

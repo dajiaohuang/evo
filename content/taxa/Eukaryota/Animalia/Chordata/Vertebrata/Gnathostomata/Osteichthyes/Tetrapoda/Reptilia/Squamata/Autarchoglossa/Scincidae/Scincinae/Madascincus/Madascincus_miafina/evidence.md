@@ -9,7 +9,6 @@ records:
     name:
       zh: Madascincus miafina
       en: Madascincus miafina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

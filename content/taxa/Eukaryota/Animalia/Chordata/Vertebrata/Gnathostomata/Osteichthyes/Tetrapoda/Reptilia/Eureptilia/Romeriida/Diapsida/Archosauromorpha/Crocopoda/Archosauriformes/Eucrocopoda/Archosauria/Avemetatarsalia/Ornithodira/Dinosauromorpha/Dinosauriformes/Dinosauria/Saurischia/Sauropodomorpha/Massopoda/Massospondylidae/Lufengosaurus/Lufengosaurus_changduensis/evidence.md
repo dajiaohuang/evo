@@ -9,7 +9,6 @@ records:
     name:
       zh: Lufengosaurus changduensis
       en: Lufengosaurus changduensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

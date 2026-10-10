@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenerpestes minlosi
       en: Xenerpestes minlosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

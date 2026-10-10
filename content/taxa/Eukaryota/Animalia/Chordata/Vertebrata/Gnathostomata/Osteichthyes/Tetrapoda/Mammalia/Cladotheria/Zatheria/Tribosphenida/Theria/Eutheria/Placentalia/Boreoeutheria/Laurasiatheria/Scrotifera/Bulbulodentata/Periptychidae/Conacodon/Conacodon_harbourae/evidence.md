@@ -9,7 +9,6 @@ records:
     name:
       zh: Conacodon harbourae
       en: Conacodon harbourae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

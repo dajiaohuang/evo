@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana serendipi
       zh: Hylarana serendipi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

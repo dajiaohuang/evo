@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kayal-2018-cnidarian-phylogenomics
       referenceLinks:
         - referenceId: kayal-2018-cnidarian-phylogenomics
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: dunn-2022-auroralumina locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: dunn-2022-auroralumina
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: dunn-2022-auroralumina
           locator: 1095–1104; Figures 1–4; Extended Data Figures 1–8; Charnwood age, morphology and stem-medusozoan placement
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

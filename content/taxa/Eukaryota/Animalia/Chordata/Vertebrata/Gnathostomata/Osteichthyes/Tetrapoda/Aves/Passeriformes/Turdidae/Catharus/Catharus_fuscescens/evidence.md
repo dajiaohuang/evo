@@ -9,7 +9,6 @@ records:
     name:
       zh: Catharus fuscescens
       en: Catharus fuscescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

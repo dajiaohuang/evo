@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana splendida
       zh: Odorrana splendida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

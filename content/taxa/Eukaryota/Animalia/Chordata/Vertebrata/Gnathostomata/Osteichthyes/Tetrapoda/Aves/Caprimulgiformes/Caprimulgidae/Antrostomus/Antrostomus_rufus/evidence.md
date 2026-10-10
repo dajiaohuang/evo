@@ -9,7 +9,6 @@ records:
     name:
       zh: Antrostomus rufus
       en: Antrostomus rufus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liaoningornis longidigitris
       en: Liaoningornis longidigitris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

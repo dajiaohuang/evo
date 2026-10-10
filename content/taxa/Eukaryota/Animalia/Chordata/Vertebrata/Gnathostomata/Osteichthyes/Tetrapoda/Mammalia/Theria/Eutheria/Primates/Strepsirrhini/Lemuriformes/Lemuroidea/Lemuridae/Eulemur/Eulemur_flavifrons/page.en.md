@@ -16,5 +16,5 @@ Researchers used a total-count method with marked individuals and known groups i
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Counts and density apply to one part of Ankarafa Forest and the 2007–2008 survey window. This page is not externally expert-reviewed.
+Counts and density apply to one part of Ankarafa Forest and the 2007–2008 survey window. This page is.
 <!-- /evo:text -->

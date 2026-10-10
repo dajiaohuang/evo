@@ -9,7 +9,6 @@ records:
     name:
       zh: Platalea leucorodia
       en: Platalea leucorodia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

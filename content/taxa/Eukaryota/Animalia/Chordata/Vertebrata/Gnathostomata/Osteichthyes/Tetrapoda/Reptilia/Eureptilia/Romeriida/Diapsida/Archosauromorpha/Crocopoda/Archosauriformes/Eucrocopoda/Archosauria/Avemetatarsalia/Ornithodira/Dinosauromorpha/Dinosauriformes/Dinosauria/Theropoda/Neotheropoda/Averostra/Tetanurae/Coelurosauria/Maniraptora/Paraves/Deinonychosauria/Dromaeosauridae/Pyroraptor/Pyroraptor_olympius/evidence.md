@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyroraptor olympius
       en: Pyroraptor olympius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

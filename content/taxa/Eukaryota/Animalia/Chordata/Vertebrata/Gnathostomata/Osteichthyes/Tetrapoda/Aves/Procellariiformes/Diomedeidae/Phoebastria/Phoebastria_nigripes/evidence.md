@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑脚信天翁
       en: Black-footed Albatross
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -653,8 +652,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Phoebastria nigripes
@@ -860,5 +857,5 @@ Evolution, fossils, and current conservation status remain unassessed; morpholog
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Claims have no verified Chinese translations, no systematic literature search is recorded, and no independent external review has occurred.
+Claims have no verified Chinese translations and no systematic literature search is recorded.
 <!-- /evo:text -->

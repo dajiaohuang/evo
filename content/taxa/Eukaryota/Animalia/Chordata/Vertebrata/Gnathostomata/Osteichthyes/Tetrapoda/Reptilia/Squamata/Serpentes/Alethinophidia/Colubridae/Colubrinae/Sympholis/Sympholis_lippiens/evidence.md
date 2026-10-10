@@ -9,7 +9,6 @@ records:
     name:
       zh: Sympholis lippiens
       en: Sympholis lippiens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

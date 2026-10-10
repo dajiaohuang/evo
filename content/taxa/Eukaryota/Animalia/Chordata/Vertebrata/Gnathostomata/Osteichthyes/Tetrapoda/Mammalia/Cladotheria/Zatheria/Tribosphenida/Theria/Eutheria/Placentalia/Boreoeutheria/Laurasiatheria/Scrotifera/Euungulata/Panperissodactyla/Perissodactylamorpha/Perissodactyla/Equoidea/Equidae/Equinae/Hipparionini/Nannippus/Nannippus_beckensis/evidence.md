@@ -9,7 +9,6 @@ records:
     name:
       zh: Nannippus beckensis
       en: Nannippus beckensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

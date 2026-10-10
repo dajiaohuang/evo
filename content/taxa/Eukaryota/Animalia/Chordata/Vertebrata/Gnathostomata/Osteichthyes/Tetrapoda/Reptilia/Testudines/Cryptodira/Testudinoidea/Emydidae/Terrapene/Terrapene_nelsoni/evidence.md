@@ -9,7 +9,6 @@ records:
     name:
       zh: Terrapene nelsoni
       en: Terrapene nelsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

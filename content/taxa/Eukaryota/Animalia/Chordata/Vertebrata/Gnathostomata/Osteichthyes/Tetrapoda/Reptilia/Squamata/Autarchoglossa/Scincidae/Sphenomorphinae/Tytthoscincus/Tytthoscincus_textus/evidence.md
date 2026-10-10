@@ -9,7 +9,6 @@ records:
     name:
       zh: Tytthoscincus textus
       en: Tytthoscincus textus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosaurus bitractensis
       en: Plesiosaurus bitractensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudopus moguntinus
       en: Pseudopus moguntinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

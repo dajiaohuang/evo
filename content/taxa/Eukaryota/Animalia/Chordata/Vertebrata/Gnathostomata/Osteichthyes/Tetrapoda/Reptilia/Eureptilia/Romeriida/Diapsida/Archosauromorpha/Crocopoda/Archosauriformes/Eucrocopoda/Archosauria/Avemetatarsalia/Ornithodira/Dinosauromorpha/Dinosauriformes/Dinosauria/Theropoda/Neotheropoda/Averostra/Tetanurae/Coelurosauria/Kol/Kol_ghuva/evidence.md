@@ -9,7 +9,6 @@ records:
     name:
       zh: Kol ghuva
       en: Kol ghuva
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocolopteryx acutipennis
       en: Pseudocolopteryx acutipennis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

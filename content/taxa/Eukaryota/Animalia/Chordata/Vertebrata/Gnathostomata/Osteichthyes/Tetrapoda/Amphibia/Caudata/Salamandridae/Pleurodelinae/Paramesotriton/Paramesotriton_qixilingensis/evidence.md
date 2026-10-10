@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton qixilingensis
       zh: Paramesotriton qixilingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

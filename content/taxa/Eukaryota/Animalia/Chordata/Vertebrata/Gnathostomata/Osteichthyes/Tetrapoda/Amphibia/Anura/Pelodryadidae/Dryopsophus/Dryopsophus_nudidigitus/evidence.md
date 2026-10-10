@@ -9,7 +9,6 @@ records:
     name:
       en: Dryopsophus nudidigitus
       zh: Dryopsophus nudidigitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

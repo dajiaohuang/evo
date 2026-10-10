@@ -9,7 +9,6 @@ records:
     name:
       zh: Udelartitan celeste
       en: Udelartitan celeste
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

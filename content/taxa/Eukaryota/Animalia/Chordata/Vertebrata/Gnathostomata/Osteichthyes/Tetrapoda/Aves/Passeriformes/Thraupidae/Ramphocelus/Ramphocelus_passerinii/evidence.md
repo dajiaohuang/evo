@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphocelus passerinii
       en: Ramphocelus passerinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

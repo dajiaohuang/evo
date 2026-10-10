@@ -9,7 +9,6 @@ records:
     name:
       zh: Ornatops incantatus
       en: Ornatops incantatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

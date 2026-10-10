@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops torrentis
       zh: Amolops torrentis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

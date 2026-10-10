@@ -9,7 +9,6 @@ records:
     name:
       zh: Chachapoyamys kathetos
       en: Chachapoyamys kathetos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

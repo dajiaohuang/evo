@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeophis toliapicus
       en: Palaeophis toliapicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

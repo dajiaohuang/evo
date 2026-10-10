@@ -9,7 +9,6 @@ records:
     name:
       zh: Bensonomys elachys
       en: Bensonomys elachys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

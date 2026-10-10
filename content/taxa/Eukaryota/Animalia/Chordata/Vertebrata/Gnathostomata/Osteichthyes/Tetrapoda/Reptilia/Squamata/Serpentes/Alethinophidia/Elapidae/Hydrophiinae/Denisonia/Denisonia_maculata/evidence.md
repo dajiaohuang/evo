@@ -9,7 +9,6 @@ records:
     name:
       zh: Denisonia maculata
       en: Denisonia maculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

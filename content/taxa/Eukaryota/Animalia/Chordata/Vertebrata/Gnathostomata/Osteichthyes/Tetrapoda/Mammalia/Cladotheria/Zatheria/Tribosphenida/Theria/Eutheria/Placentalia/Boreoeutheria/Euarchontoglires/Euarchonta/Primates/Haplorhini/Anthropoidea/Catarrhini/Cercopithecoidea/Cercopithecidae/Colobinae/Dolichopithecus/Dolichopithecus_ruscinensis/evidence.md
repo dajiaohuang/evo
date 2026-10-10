@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolichopithecus ruscinensis
       en: Dolichopithecus ruscinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

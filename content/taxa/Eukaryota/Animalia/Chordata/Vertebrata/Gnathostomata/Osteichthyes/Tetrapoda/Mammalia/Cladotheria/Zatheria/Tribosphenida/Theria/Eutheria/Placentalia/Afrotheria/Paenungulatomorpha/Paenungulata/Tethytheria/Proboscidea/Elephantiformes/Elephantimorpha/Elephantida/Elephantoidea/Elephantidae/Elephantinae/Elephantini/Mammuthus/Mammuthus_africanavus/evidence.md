@@ -9,7 +9,6 @@ records:
     name:
       zh: Mammuthus africanavus
       en: Mammuthus africanavus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

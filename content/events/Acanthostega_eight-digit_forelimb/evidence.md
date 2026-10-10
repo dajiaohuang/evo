@@ -99,9 +99,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Coates and Clack 1990 DOI 10.1038/347066a0
       referenceLinks:
         - relation: supports
           referenceId: coates-1990-polydactyly

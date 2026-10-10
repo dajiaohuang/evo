@@ -9,7 +9,6 @@ records:
     name:
       zh: Eolagurus przewalskii
       en: Eolagurus przewalskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

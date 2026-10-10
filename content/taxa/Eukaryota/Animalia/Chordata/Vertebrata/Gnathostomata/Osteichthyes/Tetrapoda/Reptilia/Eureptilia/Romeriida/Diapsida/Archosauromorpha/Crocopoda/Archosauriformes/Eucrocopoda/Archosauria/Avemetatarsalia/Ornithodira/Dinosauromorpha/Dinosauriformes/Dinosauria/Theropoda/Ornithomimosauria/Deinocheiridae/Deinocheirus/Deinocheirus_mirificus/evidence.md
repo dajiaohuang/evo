@@ -9,7 +9,6 @@ records:
     name:
       zh: Deinocheirus mirificus
       en: Deinocheirus mirificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: specimenMaterial

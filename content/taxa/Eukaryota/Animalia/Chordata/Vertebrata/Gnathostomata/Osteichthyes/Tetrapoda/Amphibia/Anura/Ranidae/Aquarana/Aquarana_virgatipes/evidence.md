@@ -9,7 +9,6 @@ records:
     name:
       en: Aquarana virgatipes
       zh: Aquarana virgatipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

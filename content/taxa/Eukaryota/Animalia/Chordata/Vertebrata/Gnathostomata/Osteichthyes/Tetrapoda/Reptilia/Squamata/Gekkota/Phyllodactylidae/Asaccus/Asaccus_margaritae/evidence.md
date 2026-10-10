@@ -9,7 +9,6 @@ records:
     name:
       zh: Asaccus margaritae
       en: Asaccus margaritae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

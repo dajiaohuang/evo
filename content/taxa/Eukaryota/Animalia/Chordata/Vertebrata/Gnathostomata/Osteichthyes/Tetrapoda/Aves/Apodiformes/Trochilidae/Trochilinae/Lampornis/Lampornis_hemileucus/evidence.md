@@ -9,7 +9,6 @@ records:
     name:
       zh: Lampornis hemileucus
       en: Lampornis hemileucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

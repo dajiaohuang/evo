@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrantophis madagascariensis
       en: Acrantophis madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

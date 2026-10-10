@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophis inornatus
       en: Hydrophis inornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

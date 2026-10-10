@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterodactylus septentrionalis
       en: Heterodactylus septentrionalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

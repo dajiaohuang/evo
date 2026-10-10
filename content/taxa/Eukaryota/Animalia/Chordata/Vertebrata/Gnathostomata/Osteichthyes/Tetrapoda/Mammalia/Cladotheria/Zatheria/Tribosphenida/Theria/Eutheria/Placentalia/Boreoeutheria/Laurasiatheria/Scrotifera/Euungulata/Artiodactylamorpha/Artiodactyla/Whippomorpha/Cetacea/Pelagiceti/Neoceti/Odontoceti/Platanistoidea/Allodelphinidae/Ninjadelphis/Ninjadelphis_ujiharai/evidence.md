@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninjadelphis ujiharai
       en: Ninjadelphis ujiharai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

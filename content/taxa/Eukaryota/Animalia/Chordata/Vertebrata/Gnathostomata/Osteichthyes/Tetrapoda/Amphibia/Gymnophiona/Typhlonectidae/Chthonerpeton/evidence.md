@@ -9,7 +9,6 @@ records:
     name:
       en: Chthonerpeton
       zh: Chthonerpeton
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

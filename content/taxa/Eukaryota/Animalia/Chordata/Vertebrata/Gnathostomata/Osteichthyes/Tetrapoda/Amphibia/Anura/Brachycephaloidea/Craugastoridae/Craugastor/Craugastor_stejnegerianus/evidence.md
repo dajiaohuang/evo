@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor stejnegerianus
       zh: Craugastor stejnegerianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

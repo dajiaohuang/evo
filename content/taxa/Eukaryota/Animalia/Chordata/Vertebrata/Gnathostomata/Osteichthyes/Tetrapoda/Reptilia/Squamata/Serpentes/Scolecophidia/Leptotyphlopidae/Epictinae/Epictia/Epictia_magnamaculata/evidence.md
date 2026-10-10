@@ -9,7 +9,6 @@ records:
     name:
       zh: Epictia magnamaculata
       en: Epictia magnamaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

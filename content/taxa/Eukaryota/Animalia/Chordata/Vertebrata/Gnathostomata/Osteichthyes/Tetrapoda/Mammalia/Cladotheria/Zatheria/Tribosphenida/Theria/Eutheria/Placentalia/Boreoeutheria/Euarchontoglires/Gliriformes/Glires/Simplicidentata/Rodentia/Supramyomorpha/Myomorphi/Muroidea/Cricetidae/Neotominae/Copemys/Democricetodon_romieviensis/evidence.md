@@ -9,7 +9,6 @@ records:
     name:
       zh: Democricetodon romieviensis
       en: Democricetodon romieviensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

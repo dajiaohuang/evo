@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidosauriformes
       en: Lepidosauriformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

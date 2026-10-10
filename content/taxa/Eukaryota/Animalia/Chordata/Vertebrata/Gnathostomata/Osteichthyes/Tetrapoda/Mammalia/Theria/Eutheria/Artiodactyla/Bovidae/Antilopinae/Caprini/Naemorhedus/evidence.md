@@ -9,7 +9,6 @@ records:
     name:
       zh: Naemorhedus
       en: Naemorhedus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

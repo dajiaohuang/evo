@@ -9,7 +9,6 @@ records:
     name:
       zh: Zoothera talaseae
       en: Zoothera talaseae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

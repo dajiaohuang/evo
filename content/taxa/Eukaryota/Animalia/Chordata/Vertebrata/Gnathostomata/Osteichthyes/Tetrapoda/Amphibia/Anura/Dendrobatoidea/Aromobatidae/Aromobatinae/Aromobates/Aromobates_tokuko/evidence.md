@@ -9,7 +9,6 @@ records:
     name:
       en: Aromobates tokuko
       zh: Aromobates tokuko
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

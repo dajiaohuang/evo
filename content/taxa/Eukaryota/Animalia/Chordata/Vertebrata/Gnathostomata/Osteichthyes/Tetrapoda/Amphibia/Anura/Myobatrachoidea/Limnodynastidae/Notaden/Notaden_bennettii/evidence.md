@@ -9,7 +9,6 @@ records:
     name:
       en: Notaden bennettii
       zh: Notaden bennettii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

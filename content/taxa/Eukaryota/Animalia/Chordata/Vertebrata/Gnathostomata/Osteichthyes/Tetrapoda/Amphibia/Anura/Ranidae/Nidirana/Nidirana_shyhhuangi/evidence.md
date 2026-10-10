@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana shyhhuangi
       zh: Nidirana shyhhuangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

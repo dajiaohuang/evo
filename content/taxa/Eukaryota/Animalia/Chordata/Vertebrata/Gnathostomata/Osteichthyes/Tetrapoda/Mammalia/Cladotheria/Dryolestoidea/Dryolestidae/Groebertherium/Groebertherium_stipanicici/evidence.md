@@ -9,7 +9,6 @@ records:
     name:
       zh: Groebertherium stipanicici
       en: Groebertherium stipanicici
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

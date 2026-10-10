@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteogallus (Wetmoregyps) daggetti
       en: Buteogallus (Wetmoregyps) daggetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

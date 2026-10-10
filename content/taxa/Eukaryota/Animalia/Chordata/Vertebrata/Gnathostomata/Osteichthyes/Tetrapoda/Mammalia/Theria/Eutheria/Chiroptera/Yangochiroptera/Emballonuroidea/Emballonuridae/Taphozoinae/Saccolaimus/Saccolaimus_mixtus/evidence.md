@@ -9,7 +9,6 @@ records:
     name:
       zh: Saccolaimus mixtus
       en: Saccolaimus mixtus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

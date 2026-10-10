@@ -9,7 +9,6 @@ records:
     name:
       zh: Limosa haemastica
       en: Limosa haemastica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

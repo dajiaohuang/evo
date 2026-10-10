@@ -9,7 +9,6 @@ records:
     name:
       zh: Phelsuma laticauda
       en: Phelsuma laticauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

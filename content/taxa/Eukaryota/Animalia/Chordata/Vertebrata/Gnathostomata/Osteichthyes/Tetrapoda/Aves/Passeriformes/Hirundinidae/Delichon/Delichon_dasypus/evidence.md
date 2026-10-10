@@ -9,7 +9,6 @@ records:
     name:
       zh: Delichon dasypus
       en: Delichon dasypus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

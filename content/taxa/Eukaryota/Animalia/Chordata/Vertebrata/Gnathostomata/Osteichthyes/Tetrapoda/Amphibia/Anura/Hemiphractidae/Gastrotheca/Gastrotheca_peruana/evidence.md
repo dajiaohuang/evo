@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca peruana
       zh: Gastrotheca peruana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

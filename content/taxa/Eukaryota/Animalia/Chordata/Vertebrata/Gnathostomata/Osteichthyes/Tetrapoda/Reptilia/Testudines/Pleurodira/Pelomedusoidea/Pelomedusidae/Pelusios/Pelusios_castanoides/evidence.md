@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelusios castanoides
       en: Pelusios castanoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

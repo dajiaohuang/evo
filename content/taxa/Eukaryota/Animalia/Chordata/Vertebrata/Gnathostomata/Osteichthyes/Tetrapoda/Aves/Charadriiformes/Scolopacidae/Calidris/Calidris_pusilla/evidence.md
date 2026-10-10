@@ -9,7 +9,6 @@ records:
     name:
       zh: Calidris pusilla
       en: Calidris pusilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

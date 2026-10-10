@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenostira scita
       en: Stenostira scita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

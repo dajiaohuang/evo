@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemitriccus margaritaceiventer
       en: Hemitriccus margaritaceiventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

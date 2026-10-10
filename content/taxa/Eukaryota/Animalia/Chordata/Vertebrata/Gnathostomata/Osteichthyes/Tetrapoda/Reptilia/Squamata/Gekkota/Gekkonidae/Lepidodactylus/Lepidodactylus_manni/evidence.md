@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidodactylus manni
       en: Lepidodactylus manni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

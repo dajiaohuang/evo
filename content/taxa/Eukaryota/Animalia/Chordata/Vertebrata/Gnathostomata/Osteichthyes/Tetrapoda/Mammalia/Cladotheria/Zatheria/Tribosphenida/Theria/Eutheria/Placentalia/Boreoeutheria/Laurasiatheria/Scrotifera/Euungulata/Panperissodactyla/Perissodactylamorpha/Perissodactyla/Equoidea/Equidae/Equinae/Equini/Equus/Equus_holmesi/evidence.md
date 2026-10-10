@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus holmesi
       en: Equus holmesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

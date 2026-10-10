@@ -9,7 +9,6 @@ records:
     name:
       en: Feihyla kajau
       zh: Feihyla kajau
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

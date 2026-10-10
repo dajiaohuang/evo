@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料适用范围
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页是所引两个阅读页之间的导览，不是 Lagothrix 属所有接受种的完整综述，也不提供属级分布、数量或生态概述。本页没有新增 dossier，也未经过外部领域专家评审。
+本页是所引两个阅读页之间的导览，不是 Lagothrix 属所有接受种的完整综述，也不提供属级分布、数量或生态概述。本页没有新增 dossier。
 <!-- /evo:text -->

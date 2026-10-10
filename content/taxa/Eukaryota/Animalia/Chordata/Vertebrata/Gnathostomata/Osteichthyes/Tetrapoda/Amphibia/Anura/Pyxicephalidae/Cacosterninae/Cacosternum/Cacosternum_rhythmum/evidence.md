@@ -9,7 +9,6 @@ records:
     name:
       en: Cacosternum rhythmum
       zh: Cacosternum rhythmum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

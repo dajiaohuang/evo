@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax sugillatus
       zh: Scinax sugillatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

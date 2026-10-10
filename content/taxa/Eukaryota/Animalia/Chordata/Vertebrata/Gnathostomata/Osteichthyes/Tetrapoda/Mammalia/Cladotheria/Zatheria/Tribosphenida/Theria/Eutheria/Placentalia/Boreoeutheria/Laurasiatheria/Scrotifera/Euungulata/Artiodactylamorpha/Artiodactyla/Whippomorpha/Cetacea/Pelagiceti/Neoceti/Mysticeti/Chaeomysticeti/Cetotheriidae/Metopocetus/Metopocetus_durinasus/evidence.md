@@ -9,7 +9,6 @@ records:
     name:
       zh: Metopocetus durinasus
       en: Metopocetus durinasus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Azemiops feae
       en: Azemiops feae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

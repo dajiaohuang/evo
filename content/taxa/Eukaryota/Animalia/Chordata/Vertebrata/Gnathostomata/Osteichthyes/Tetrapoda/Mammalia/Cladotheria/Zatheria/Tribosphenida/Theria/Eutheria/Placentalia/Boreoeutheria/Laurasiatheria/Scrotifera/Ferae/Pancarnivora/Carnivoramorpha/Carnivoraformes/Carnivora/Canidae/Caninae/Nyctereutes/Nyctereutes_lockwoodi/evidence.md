@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctereutes lockwoodi
       en: Nyctereutes lockwoodi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

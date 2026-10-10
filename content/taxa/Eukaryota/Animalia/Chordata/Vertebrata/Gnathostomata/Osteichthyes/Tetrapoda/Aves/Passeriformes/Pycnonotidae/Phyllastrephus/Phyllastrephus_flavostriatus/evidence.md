@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllastrephus flavostriatus
       en: Phyllastrephus flavostriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parotia sefilata
       en: Parotia sefilata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

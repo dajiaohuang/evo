@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton pasmansi
       zh: Tylototriton pasmansi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

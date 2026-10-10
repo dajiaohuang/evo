@@ -28,7 +28,7 @@ This guide covers only this batch’s entries with at least four sourced focal t
 ## Citation gaps in some descendant accounts
 
 <!-- evo:text /records/catalogue-profile/sections/2/text/en -->
-In this ReptTraits route, some fields in 1 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage or expert review.
+In this ReptTraits route, some fields in 1 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 <!-- /evo:text -->
 
 ## Start with sourced trait records

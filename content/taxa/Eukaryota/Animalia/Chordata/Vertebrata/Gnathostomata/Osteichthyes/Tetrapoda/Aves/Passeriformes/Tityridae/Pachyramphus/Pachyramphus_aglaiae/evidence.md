@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachyramphus aglaiae
       en: Pachyramphus aglaiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

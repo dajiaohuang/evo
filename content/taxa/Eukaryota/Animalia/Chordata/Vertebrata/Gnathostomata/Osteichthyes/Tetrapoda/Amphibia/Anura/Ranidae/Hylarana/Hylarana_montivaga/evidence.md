@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana montivaga
       zh: Hylarana montivaga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

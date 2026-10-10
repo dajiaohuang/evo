@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxymycterus hispidus
       en: Oxymycterus hispidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

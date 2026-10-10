@@ -9,7 +9,6 @@ records:
     name:
       zh: Mecistops nkondoensis
       en: Mecistops nkondoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

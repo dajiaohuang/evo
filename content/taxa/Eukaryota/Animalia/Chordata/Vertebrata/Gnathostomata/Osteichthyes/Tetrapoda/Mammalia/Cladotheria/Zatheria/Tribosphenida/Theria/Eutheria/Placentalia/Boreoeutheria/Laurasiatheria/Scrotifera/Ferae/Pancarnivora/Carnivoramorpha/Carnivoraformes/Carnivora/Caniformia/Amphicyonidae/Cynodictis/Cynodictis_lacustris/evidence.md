@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynodictis lacustris
       en: Cynodictis lacustris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

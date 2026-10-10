@@ -9,7 +9,6 @@ records:
     name:
       zh: Montirictus kuwajimaensis
       en: Montirictus kuwajimaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

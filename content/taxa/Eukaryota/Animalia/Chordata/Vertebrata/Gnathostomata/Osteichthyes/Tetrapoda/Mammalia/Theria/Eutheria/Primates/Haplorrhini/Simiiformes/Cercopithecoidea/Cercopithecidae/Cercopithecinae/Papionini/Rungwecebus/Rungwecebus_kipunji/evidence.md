@@ -9,7 +9,6 @@ records:
     name:
       en: Kipunji
       zh: 基彭吉
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

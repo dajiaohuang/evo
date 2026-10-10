@@ -9,7 +9,6 @@ records:
     name:
       zh: Mckennahyus parisidutrai
       en: Mckennahyus parisidutrai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

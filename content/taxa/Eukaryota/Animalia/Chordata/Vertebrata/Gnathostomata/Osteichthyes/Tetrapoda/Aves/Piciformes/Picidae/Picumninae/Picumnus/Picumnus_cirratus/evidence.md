@@ -9,7 +9,6 @@ records:
     name:
       zh: Picumnus cirratus
       en: Picumnus cirratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

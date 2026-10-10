@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus klugei
       en: Lygodactylus klugei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

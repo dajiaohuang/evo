@@ -9,7 +9,6 @@ records:
     name:
       zh: Aethopyga flagrans
       en: Aethopyga flagrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

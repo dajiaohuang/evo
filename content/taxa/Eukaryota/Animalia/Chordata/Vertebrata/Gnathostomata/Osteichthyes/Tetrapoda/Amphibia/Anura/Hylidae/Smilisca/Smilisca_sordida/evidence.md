@@ -9,7 +9,6 @@ records:
     name:
       en: Smilisca sordida
       zh: Smilisca sordida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Larus robustus
       en: Larus robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

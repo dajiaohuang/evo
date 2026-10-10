@@ -9,7 +9,6 @@ records:
     name:
       zh: Niptomomys favorum
       en: Niptomomys favorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

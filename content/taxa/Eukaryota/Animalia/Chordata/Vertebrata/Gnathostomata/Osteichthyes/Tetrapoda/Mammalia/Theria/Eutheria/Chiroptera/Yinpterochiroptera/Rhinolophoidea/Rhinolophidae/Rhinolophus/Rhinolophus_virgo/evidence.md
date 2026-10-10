@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus virgo
       en: Rhinolophus virgo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

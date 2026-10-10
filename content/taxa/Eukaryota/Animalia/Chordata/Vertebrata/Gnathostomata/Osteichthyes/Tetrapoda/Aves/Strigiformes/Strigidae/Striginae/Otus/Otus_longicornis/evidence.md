@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus longicornis
       en: Otus longicornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis negrosensis
       zh: Platymantis negrosensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Orosaura nebulosylvestris
       en: Orosaura nebulosylvestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

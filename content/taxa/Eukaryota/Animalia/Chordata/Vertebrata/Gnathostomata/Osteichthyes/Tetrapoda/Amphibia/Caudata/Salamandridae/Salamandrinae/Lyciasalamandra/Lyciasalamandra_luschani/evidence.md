@@ -9,7 +9,6 @@ records:
     name:
       en: Lyciasalamandra luschani
       zh: Lyciasalamandra luschani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

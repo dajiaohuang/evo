@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: holmes-budd-2022-early-trilobites; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: holmes-budd-2022-early-trilobites
           relation: supports
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: holmes-budd-2022 + hou-2021 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: holmes-budd-2022-early-trilobites
           relation: supports
@@ -98,7 +92,6 @@ records:
           locator: Article 1177; Abstract and Introduction; Figures 1–4; widespread early trilobite record at approximately 521 Ma
         - referenceId: hou-2021-trilobite-gill
           locator: Article eabe7377; Figures 1–5 and supplement; Beecher's Bed Triarthrus sample within 450–443 Ma
-      reviewStatus: automated-audit-passed
 ---
 
 # Trilobite primary-evidence samples

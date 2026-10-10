@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-局部范围与分类接触研究导读，不是全种种志、数量估计或保育评估；所涉杂交与基因交流仍是假说。尚未经过外部领域专家评审。
+局部范围与分类接触研究导读，不是全种种志、数量估计或保育评估；所涉杂交与基因交流仍是假说。。
 <!-- /evo:text -->

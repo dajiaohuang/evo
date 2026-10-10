@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus valhallae
       zh: Duttaphrynus valhallae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

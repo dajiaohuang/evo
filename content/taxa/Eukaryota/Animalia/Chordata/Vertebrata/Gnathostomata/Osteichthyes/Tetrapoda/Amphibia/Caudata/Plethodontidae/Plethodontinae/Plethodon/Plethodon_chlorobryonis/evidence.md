@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon chlorobryonis
       zh: Plethodon chlorobryonis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon tiwarii
       en: Lycodon tiwarii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

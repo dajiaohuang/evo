@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagioctenodon thewisseni
       en: Plagioctenodon thewisseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

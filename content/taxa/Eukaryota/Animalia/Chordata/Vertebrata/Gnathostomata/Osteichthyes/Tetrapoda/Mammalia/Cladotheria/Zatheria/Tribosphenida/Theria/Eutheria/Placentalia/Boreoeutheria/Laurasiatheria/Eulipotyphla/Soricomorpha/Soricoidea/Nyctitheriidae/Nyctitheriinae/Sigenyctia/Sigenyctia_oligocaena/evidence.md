@@ -9,7 +9,6 @@ records:
     name:
       zh: Sigenyctia oligocaena
       en: Sigenyctia oligocaena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Spilopelia senegalensis
       en: Spilopelia senegalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla miyatai
       en: Tantilla miyatai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ortygospiza atricollis
       en: Ortygospiza atricollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ieldraan melkshamensis
       en: Ieldraan melkshamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

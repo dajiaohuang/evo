@@ -9,7 +9,6 @@ records:
     name:
       en: Spicicalyx genimaculata
       zh: Spicicalyx genimaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

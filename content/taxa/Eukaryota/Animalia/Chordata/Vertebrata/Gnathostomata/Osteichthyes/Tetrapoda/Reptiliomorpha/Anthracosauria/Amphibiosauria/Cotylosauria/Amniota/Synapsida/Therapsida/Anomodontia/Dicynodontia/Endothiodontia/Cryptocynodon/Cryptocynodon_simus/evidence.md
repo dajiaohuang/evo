@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptocynodon simus
       en: Cryptocynodon simus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

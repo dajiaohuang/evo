@@ -9,7 +9,6 @@ records:
     name:
       zh: Alsophis danforthi
       en: Alsophis danforthi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

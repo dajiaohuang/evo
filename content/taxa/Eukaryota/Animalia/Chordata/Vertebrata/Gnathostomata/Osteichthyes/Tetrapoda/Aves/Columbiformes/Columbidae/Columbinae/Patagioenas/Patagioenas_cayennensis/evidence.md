@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagioenas cayennensis
       en: Patagioenas cayennensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

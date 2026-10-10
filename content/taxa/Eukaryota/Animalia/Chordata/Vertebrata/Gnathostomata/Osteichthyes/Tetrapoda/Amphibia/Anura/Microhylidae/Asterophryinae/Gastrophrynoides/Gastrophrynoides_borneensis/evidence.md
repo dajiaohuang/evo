@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrophrynoides borneensis
       zh: Gastrophrynoides borneensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

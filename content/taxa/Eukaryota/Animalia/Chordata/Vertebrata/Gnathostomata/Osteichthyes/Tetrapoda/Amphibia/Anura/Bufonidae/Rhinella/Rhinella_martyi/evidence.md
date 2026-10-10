@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella martyi
       zh: Rhinella martyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

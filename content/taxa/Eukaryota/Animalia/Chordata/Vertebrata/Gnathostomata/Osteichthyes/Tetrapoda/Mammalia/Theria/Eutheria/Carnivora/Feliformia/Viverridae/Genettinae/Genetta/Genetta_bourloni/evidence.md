@@ -9,7 +9,6 @@ records:
     name:
       zh: Genetta bourloni
       en: Genetta bourloni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

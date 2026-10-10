@@ -9,7 +9,6 @@ records:
     name:
       zh: Dacrytherium priscum
       en: Dacrytherium priscum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

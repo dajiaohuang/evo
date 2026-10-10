@@ -9,7 +9,6 @@ records:
     name:
       zh: Boiga quincunciata
       en: Boiga quincunciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

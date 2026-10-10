@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaps chalcoptera
       en: Phaps chalcoptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

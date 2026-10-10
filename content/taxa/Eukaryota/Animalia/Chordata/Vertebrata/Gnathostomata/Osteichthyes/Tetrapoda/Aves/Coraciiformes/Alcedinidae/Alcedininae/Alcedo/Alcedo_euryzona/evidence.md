@@ -9,7 +9,6 @@ records:
     name:
       zh: Alcedo euryzona
       en: Alcedo euryzona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

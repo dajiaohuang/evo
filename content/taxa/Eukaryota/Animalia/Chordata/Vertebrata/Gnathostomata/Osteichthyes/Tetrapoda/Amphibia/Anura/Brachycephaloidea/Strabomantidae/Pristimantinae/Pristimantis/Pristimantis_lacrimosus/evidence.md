@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis lacrimosus
       zh: Pristimantis lacrimosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

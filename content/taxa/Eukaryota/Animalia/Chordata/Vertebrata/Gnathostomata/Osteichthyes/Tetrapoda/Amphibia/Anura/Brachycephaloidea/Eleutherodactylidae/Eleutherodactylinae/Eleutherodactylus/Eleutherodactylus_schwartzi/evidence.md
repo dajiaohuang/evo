@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus schwartzi
       zh: Eleutherodactylus schwartzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

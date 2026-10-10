@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon hubrichti
       zh: Plethodon hubrichti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

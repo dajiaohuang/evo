@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops shuichengicus
       zh: Amolops shuichengicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

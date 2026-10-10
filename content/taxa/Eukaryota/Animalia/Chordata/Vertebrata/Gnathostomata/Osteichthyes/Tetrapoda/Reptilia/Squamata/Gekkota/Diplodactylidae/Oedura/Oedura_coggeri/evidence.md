@@ -9,7 +9,6 @@ records:
     name:
       zh: Oedura coggeri
       en: Oedura coggeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

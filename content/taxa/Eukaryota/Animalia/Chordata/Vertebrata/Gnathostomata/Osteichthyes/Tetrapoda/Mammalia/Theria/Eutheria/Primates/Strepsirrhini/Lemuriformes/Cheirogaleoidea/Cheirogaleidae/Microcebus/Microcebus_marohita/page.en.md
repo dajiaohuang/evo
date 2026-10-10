@@ -28,5 +28,5 @@ The catalogues differ: pinned COL26.8 retains *Microcebus marohita* as accepted 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-COL26.8 accepts this name; the current MDD page lists *M. marohita* as a synonym of *M. jollyae*. This guide follows the fixed COL26.8 accepted name, and its biological account is limited to the small 2013 sample and study locality. Both the Chinese translation and the English common label Marohita Mouse Lemur are editorial; the page is not externally expert-reviewed.
+COL26.8 accepts this name; the current MDD page lists *M. marohita* as a synonym of *M. jollyae*. This guide follows the fixed COL26.8 accepted name, and its biological account is limited to the small 2013 sample and study locality. Both the Chinese translation and the English common label Marohita Mouse Lemur are editorial.
 <!-- /evo:text -->

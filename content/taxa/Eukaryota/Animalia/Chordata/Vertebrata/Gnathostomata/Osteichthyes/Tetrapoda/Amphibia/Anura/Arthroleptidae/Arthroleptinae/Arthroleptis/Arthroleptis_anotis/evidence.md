@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptis anotis
       zh: Arthroleptis anotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

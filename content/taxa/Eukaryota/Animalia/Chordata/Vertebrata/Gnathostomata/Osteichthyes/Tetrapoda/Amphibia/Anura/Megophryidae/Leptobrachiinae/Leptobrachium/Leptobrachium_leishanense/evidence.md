@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium leishanense
       zh: Leptobrachium leishanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

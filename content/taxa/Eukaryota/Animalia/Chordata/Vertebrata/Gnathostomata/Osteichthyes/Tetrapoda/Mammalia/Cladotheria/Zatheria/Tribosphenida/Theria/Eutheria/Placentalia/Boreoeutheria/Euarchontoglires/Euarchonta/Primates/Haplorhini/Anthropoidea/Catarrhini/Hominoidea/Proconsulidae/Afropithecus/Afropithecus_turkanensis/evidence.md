@@ -9,7 +9,6 @@ records:
     name:
       zh: Afropithecus turkanensis
       en: Afropithecus turkanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

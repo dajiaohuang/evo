@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonatodes timidus
       en: Gonatodes timidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

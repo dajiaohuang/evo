@@ -9,7 +9,6 @@ records:
     name:
       zh: Arpadosaurus sepulchralis
       en: Arpadosaurus sepulchralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

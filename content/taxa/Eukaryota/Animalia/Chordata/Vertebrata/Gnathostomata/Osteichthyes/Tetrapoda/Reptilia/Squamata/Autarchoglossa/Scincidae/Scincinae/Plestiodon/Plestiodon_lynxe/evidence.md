@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon lynxe
       en: Plestiodon lynxe
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

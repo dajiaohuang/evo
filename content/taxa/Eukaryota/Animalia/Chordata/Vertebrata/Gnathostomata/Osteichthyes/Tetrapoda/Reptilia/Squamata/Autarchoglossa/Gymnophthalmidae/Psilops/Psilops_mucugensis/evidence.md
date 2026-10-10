@@ -9,7 +9,6 @@ records:
     name:
       zh: Psilops mucugensis
       en: Psilops mucugensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

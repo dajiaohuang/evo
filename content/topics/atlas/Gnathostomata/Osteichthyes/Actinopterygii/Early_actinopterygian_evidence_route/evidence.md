@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: giles-2015-cheirolepis-endoskeleton; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: giles-2015-cheirolepis-endoskeleton
@@ -78,7 +75,6 @@ records:
           locator: pp. 849–870; Figs. 2–4, 9–11
         - referenceId: giles-2017-ray-fin-timescale
           locator: pp. 265–268; Figs. 1–3
-      reviewStatus: automated-audit-passed
 ---
 
 # Early actinopterygian evidence route

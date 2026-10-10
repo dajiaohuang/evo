@@ -9,7 +9,6 @@ records:
     name:
       zh: 暗色叶猴
       en: Dusky Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding_ecology

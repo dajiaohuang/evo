@@ -9,7 +9,6 @@ records:
     name:
       zh: Nannosuchus gracilidens
       en: Nannosuchus gracilidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

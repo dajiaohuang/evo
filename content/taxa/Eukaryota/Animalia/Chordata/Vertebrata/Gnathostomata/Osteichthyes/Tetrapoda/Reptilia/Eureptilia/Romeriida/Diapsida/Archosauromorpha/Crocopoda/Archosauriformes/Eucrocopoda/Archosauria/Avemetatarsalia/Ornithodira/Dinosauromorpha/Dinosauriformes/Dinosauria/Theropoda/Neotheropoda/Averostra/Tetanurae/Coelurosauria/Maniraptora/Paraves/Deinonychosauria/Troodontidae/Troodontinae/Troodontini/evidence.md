@@ -9,7 +9,6 @@ records:
     name:
       zh: Troodontini
       en: Troodontini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

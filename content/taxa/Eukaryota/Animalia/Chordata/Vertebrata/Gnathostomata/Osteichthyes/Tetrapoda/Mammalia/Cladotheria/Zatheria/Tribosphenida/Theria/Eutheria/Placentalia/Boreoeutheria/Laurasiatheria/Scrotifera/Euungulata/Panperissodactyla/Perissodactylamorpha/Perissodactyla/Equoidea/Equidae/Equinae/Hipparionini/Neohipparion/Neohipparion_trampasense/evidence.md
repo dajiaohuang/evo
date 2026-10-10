@@ -9,7 +9,6 @@ records:
     name:
       zh: Neohipparion trampasense
       en: Neohipparion trampasense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

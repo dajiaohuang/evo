@@ -9,7 +9,6 @@ records:
     name:
       zh: Amazona vinacea
       en: Amazona vinacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

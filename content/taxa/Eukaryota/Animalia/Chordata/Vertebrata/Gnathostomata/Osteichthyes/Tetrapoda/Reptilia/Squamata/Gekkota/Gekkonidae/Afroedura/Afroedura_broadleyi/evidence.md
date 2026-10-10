@@ -9,7 +9,6 @@ records:
     name:
       zh: Afroedura broadleyi
       en: Afroedura broadleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

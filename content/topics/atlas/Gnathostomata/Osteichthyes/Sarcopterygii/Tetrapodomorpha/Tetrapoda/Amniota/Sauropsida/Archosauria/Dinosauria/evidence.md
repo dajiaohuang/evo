@@ -24,7 +24,6 @@ records:
     firstAppearance: 233.2
     lastAppearance: 0
     rangeEvidenceLevel: literature-synthesized
-    rangeReviewStatus: automated-audit-passed
     rangeProvisional: true
     geography: []
     overview:
@@ -224,9 +223,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: cabreira-2016-buriolestes primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: cabreira-2016-buriolestes
           relation: supports
@@ -262,7 +258,6 @@ records:
       referenceLocators:
         - referenceId: cabreira-2016-buriolestes
           locator: pp. 3090–3095; Figures 1–4; Supplemental Information
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   classification-support:
     - support: moderate

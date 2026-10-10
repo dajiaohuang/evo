@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodiacodon paucus
       en: Prodiacodon paucus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

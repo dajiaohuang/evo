@@ -9,7 +9,6 @@ records:
     name:
       zh: Daurlong wangi
       en: Daurlong wangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

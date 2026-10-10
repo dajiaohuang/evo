@@ -313,9 +313,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: COL26.8 ChecklistBank dataset 316115; accepted usage 6TM9B, source dataset 2144, and parent chain checked 2026-09-27
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -332,11 +329,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/1/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: druelle-2017-olive-baboon-growth
           relation: supports
@@ -359,11 +351,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/2/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: druelle-2017-olive-baboon-growth
           relation: supports
@@ -382,11 +369,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: kiffner-2022-lake-manyara-baboon-distance
           relation: supports
@@ -403,11 +385,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/4/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: bailey-2021-gombe-baboon-reproduction
           relation: supports
@@ -426,11 +403,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/5/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -493,7 +465,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 dataset 316115; accepted usage 6TM9B, with Papio parent classification (identity and classification only)
-      reviewStatus: automated-audit-passed
   field-claim-overrides:
     - ecology.diet:
         status: not-assessed

@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia meikeae
       zh: Stumpffia meikeae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

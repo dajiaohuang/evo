@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera araucaria
       zh: Adenomera araucaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenophidion acanthognathus
       en: Xenophidion acanthognathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

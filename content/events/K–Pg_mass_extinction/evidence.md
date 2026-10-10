@@ -152,9 +152,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Renne et al. 2013 DOI 10.1126/science.1230492
       referenceLinks:
         - relation: supports
           referenceId: alvarez-1980-kpg
@@ -178,9 +175,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-20
-      reviewedAgainstReferenceVersion: schulte-2010-chicxulub @ DOI 10.1126/science.1177265
       referenceLinks:
         - relation: supports
           referenceId: schulte-2010-chicxulub
@@ -199,9 +193,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-20
-      reviewedAgainstReferenceVersion: schulte-2010-chicxulub @ DOI 10.1126/science.1177265
       referenceLinks:
         - relation: supports
           referenceId: schulte-2010-chicxulub

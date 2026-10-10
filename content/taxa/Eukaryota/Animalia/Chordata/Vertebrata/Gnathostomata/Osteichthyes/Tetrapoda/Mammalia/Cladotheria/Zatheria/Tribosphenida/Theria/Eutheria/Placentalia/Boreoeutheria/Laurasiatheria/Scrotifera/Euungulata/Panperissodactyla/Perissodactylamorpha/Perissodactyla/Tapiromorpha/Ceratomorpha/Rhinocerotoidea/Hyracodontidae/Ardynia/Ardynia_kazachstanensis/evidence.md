@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardynia kazachstanensis
       en: Ardynia kazachstanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

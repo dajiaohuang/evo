@@ -9,7 +9,6 @@ records:
     name:
       zh: Camelops kansanus
       en: Camelops kansanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

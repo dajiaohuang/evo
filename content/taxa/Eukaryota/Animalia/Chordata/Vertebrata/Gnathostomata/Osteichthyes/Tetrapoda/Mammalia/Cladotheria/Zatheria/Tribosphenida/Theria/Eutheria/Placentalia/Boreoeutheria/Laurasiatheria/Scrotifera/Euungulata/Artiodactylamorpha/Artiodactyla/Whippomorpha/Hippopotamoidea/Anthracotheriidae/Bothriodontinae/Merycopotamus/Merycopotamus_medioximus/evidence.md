@@ -9,7 +9,6 @@ records:
     name:
       zh: Merycopotamus medioximus
       en: Merycopotamus medioximus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

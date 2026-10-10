@@ -9,7 +9,6 @@ records:
     name:
       zh: Protapirus bavaricus
       en: Protapirus bavaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

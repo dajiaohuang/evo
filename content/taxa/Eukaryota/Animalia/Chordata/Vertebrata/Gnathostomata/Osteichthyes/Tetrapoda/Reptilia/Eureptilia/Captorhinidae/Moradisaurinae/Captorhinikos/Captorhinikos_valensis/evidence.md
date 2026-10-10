@@ -9,7 +9,6 @@ records:
     name:
       zh: Captorhinikos valensis
       en: Captorhinikos valensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

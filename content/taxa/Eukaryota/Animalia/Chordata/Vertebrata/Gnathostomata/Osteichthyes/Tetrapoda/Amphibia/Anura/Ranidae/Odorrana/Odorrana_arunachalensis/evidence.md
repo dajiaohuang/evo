@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana arunachalensis
       zh: Odorrana arunachalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

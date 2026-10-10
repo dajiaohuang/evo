@@ -9,7 +9,6 @@ records:
     name:
       en: Hylophorbus picoides
       zh: Hylophorbus picoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

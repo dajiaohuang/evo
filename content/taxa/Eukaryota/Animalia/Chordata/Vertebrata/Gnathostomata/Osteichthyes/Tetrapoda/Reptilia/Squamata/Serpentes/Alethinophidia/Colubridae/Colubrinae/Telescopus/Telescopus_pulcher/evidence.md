@@ -9,7 +9,6 @@ records:
     name:
       zh: Telescopus pulcher
       en: Telescopus pulcher
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

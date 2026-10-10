@@ -9,7 +9,6 @@ records:
     name:
       zh: Oceanosuchus boecensis
       en: Oceanosuchus boecensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

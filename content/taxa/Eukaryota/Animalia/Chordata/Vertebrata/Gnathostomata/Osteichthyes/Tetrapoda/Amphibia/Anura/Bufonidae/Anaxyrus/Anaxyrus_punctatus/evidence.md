@@ -9,7 +9,6 @@ records:
     name:
       en: Anaxyrus punctatus
       zh: Anaxyrus punctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

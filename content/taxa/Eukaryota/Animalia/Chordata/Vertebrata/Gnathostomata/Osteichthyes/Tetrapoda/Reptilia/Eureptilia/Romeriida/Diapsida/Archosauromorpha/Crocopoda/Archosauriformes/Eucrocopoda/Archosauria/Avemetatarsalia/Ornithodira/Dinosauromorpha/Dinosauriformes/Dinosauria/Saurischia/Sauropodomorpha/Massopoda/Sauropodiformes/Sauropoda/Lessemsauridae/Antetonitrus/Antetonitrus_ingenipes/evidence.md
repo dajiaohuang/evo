@@ -9,7 +9,6 @@ records:
     name:
       zh: Antetonitrus ingenipes
       en: Antetonitrus ingenipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

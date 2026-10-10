@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrolagus matschiei
       en: Dendrolagus matschiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

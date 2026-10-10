@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchocyon chrysopygus
       en: Rhynchocyon chrysopygus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

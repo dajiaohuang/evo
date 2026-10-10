@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates talamancae
       zh: Allobates talamancae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

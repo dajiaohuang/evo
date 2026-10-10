@@ -9,7 +9,6 @@ records:
     name:
       zh: Convallisodon convexus
       en: Convallisodon convexus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

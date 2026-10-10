@@ -9,7 +9,6 @@ records:
     name:
       zh: Graptemys gibbonsi
       en: Graptemys gibbonsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus austeni
       en: Pachydactylus austeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

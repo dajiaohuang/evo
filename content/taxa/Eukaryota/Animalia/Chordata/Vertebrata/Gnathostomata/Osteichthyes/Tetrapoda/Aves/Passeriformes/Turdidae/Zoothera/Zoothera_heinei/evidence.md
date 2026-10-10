@@ -9,7 +9,6 @@ records:
     name:
       zh: Zoothera heinei
       en: Zoothera heinei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Gegeneophis danieli
       zh: Gegeneophis danieli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

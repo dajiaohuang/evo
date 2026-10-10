@@ -9,7 +9,6 @@ records:
     name:
       zh: Escribania talonicuspis
       en: Escribania talonicuspis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

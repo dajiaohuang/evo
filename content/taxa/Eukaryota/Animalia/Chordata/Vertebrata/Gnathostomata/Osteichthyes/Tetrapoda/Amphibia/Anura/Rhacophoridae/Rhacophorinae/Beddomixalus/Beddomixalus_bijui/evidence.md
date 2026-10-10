@@ -9,7 +9,6 @@ records:
     name:
       en: Beddomixalus bijui
       zh: Beddomixalus bijui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

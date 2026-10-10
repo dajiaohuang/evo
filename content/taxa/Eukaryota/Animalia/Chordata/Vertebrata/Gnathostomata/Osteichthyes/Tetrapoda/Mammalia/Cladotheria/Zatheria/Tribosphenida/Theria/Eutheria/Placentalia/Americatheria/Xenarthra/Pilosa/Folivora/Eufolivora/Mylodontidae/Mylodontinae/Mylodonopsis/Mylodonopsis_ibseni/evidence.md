@@ -9,7 +9,6 @@ records:
     name:
       zh: Mylodonopsis ibseni
       en: Mylodonopsis ibseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

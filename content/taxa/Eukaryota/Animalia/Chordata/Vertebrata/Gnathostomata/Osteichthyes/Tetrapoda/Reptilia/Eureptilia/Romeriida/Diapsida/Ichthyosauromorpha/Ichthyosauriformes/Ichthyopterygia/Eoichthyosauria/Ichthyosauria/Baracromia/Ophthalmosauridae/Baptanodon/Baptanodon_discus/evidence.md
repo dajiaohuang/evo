@@ -9,7 +9,6 @@ records:
     name:
       zh: Baptanodon discus
       en: Baptanodon discus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

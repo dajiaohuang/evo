@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus quattuordecimlineatus
       en: Ctenotus quattuordecimlineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

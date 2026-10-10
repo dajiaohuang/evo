@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus baluensis
       zh: Kalophrynus baluensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis vrazi
       zh: Pristimantis vrazi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

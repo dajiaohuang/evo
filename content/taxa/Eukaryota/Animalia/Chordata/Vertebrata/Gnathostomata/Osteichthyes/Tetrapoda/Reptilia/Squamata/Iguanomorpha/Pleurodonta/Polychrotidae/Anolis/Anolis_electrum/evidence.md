@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis electrum
       en: Anolis electrum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

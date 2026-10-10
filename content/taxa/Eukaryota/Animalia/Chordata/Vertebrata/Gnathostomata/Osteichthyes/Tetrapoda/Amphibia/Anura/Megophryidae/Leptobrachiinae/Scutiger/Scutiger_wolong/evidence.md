@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger wolong
       zh: Scutiger wolong
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

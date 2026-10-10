@@ -9,7 +9,6 @@ records:
     name:
       zh: Dhofarella sigei
       en: Dhofarella sigei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

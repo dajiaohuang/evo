@@ -9,7 +9,6 @@ records:
     name:
       zh: Limosa lapponica
       en: Limosa lapponica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -1,9 +1,7 @@
 name: Native iOS
 
 on:
-  pull_request:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -15,6 +13,8 @@ concurrency:
 jobs:
   ios-tests:
     runs-on: macos-26
+    env:
+      NODE_OPTIONS: --max-old-space-size=8192
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v7

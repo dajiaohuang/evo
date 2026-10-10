@@ -9,7 +9,6 @@ records:
     name:
       zh: Plocepasser rufoscapulatus
       en: Plocepasser rufoscapulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

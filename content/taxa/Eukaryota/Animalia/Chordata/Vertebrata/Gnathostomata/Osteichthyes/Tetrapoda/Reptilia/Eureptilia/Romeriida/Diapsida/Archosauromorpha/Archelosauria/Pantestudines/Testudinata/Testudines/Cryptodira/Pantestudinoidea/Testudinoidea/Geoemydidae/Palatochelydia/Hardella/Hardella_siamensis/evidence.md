@@ -9,7 +9,6 @@ records:
     name:
       zh: Hardella siamensis
       en: Hardella siamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

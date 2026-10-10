@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla thorectes
       zh: Sarcohyla thorectes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

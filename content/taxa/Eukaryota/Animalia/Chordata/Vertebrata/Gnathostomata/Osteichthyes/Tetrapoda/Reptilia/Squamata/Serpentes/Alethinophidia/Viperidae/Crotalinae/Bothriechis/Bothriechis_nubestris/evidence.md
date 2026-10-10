@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothriechis nubestris
       en: Bothriechis nubestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

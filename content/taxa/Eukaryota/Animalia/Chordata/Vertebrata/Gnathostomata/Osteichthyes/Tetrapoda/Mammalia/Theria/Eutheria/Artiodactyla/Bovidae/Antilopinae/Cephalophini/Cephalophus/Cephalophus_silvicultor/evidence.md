@@ -9,7 +9,6 @@ records:
     name:
       zh: Cephalophus silvicultor
       en: Cephalophus silvicultor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

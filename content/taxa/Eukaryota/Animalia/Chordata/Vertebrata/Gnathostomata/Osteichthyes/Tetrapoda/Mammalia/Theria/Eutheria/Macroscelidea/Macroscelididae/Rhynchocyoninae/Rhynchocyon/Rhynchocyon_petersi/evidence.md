@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchocyon petersi
       en: Rhynchocyon petersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

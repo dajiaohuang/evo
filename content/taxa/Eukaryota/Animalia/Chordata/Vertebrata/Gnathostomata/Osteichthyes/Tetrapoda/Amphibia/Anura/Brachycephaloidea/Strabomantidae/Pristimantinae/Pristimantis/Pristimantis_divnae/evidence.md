@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis divnae
       zh: Pristimantis divnae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

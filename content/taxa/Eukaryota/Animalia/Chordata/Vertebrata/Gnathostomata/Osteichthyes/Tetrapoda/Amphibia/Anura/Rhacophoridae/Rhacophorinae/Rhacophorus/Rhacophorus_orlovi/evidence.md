@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus orlovi
       zh: Rhacophorus orlovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

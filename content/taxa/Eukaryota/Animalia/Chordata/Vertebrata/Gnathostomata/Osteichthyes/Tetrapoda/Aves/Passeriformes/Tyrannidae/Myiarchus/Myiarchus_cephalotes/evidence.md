@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiarchus cephalotes
       en: Myiarchus cephalotes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

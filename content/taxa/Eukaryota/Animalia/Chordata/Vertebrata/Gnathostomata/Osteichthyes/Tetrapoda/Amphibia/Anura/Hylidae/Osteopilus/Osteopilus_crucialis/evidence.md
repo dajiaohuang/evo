@@ -9,7 +9,6 @@ records:
     name:
       en: Osteopilus crucialis
       zh: Osteopilus crucialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

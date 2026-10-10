@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis omeviridis
       zh: Pristimantis omeviridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

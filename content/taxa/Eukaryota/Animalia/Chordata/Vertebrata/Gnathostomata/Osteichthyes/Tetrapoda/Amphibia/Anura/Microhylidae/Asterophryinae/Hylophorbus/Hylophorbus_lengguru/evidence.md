@@ -9,7 +9,6 @@ records:
     name:
       en: Hylophorbus lengguru
       zh: Hylophorbus lengguru
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

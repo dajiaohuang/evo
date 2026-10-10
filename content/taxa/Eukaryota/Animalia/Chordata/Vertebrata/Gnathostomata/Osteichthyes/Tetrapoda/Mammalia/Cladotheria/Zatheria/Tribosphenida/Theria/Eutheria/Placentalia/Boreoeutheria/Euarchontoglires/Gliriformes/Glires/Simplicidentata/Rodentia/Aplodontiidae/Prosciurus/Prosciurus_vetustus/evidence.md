@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosciurus vetustus
       en: Prosciurus vetustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crotalus cerastes
       en: Crotalus cerastes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

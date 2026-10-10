@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepus mandshuricus
       en: Lepus mandshuricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

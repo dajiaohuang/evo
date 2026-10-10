@@ -9,7 +9,6 @@ records:
     name:
       zh: Martensius bromackerensis
       en: Martensius bromackerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

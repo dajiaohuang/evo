@@ -9,7 +9,6 @@ records:
     name:
       zh: Waincophis pressulus
       en: Waincophis pressulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

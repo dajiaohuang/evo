@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardeola speciosa
       en: Ardeola speciosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

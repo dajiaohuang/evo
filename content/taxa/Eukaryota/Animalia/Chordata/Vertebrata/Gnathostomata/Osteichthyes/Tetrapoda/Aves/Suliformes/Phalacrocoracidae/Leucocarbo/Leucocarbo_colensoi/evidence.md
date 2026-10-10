@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucocarbo colensoi
       en: Leucocarbo colensoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninia diademata
       en: Ninia diademata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

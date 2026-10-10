@@ -9,7 +9,6 @@ records:
     name:
       zh: Techmarscincus jigurru
       en: Techmarscincus jigurru
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

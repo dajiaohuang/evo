@@ -49,6 +49,6 @@ Foraminifera remains a separate WFD/ChecklistBank authority layer: all 47,975 CO
 - Chlorophyta and Glaucophyta have no exact COL26.8 root in this package. Their rows are current ITIS-only records and do not reuse or duplicate the WFO plant crosswalk.
 - Labyrinthulomycetes does not substitute the nearby COL `Labyrinthulea`, which is already below Bigyra. Radiolaria does not substitute Rhizaria. Centrohelida's exact ITIS name is a legacy `valid` order with no accepted-current species descendants.
 - Dinoflagellata can legitimately map an accepted COL name and an official ITIS synonym redirect to the same current TSN; this is not a duplicate species-row claim.
-- Exact names and identifiers do not establish that COL and ITIS use identical species concepts. These records do not provide ecology, morphology, distribution, media, fossils, phylogeny, or expert review.
+- Exact names and identifiers do not establish that COL and ITIS use identical species concepts. These records do not provide ecology, morphology, distribution, media, fossils, phylogeny.
 
 Every scope has a dedicated descriptor, deterministic generator, import ledger, focused test, and boundary note under `docs/itis-*-authority.md` or `docs/itis-*-sidecar.md`. The package manifest is the machine-readable source of truth for current counts and canonical hashes.

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracynarctus kelloggi
       en: Paracynarctus kelloggi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

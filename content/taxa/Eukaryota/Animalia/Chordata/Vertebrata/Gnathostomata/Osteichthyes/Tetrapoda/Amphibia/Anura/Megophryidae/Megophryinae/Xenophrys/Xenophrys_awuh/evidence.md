@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys awuh
       zh: Xenophrys awuh
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

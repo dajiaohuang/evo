@@ -9,7 +9,6 @@ records:
     name:
       zh: Periptychus carinidens
       en: Periptychus carinidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

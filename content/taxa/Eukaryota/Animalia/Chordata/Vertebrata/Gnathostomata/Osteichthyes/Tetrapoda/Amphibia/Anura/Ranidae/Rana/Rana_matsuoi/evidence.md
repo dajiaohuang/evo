@@ -9,7 +9,6 @@ records:
     name:
       en: Rana matsuoi
       zh: Rana matsuoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

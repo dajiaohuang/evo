@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenomys bonettoi
       en: Ctenomys bonettoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

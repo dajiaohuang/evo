@@ -22,5 +22,5 @@ The authors also compared germination trials using seeds collected from trees wi
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local feeding and seed-dispersal study; not externally expert-reviewed. Sampling lasted seven months at one protected Cerrado site and does not establish a complete annual or range-wide diet.
+Source-linked local feeding and seed-dispersal study;. Sampling lasted seven months at one protected Cerrado site and does not establish a complete annual or range-wide diet.
 <!-- /evo:text -->

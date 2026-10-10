@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus sartori
       zh: Dendropsophus sartori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

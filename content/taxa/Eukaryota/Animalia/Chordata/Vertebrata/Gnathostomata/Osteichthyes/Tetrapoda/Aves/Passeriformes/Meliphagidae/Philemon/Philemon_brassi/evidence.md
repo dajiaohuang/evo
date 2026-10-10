@@ -9,7 +9,6 @@ records:
     name:
       zh: Philemon brassi
       en: Philemon brassi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

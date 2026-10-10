@@ -9,7 +9,6 @@ records:
     name:
       zh: Homoeosaurus rhodani
       en: Homoeosaurus rhodani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

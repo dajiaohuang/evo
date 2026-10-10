@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus acuminatus
       en: Rhinolophus acuminatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thripophaga cherriei
       en: Thripophaga cherriei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

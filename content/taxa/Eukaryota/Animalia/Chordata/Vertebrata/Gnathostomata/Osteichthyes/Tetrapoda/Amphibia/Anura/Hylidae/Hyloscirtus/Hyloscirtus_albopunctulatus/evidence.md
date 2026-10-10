@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus albopunctulatus
       zh: Hyloscirtus albopunctulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

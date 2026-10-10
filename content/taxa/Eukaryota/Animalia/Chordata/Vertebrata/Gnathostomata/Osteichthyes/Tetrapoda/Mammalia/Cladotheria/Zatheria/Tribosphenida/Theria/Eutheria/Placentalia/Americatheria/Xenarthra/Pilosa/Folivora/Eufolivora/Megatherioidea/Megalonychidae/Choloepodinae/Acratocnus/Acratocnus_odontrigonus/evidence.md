@@ -9,7 +9,6 @@ records:
     name:
       zh: Acratocnus odontrigonus
       en: Acratocnus odontrigonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

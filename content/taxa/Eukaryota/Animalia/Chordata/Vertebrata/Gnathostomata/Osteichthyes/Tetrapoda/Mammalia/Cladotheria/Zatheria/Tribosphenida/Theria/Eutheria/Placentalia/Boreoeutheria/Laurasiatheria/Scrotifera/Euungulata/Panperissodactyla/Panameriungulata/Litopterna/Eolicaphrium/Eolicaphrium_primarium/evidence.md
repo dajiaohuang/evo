@@ -9,7 +9,6 @@ records:
     name:
       zh: Eolicaphrium primarium
       en: Eolicaphrium primarium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

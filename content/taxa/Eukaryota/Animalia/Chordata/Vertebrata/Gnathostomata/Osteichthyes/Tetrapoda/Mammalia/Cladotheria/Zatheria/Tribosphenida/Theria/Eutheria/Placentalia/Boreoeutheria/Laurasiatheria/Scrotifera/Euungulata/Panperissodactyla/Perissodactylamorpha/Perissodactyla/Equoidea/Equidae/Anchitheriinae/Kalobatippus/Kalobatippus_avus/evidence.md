@@ -9,7 +9,6 @@ records:
     name:
       zh: Kalobatippus avus
       en: Kalobatippus avus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

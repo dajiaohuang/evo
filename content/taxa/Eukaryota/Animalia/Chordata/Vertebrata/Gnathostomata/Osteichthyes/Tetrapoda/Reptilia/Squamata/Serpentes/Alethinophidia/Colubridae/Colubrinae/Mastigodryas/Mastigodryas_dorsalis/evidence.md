@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastigodryas dorsalis
       en: Mastigodryas dorsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinclairomeryx riparius
       en: Sinclairomeryx riparius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Miocyon magnus
       en: Miocyon magnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

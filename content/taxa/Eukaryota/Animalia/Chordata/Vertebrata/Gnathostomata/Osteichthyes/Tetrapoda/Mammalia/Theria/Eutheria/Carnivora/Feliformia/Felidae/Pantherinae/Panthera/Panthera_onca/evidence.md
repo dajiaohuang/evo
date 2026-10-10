@@ -9,7 +9,6 @@ records:
     name:
       zh: Panthera onca
       en: Panthera onca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonatodes concinnatus
       en: Gonatodes concinnatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

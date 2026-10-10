@@ -9,7 +9,6 @@ records:
     name:
       zh: Andinosaura oculata
       en: Andinosaura oculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

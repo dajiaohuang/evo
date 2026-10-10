@@ -9,7 +9,6 @@ records:
     name:
       zh: Talahphiomys libycus
       en: Talahphiomys libycus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

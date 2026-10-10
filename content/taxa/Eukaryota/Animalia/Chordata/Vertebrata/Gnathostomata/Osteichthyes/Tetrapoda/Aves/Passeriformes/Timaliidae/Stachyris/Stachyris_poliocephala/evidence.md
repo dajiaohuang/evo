@@ -9,7 +9,6 @@ records:
     name:
       zh: Stachyris poliocephala
       en: Stachyris poliocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Squalodon bellunensis
       en: Squalodon bellunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

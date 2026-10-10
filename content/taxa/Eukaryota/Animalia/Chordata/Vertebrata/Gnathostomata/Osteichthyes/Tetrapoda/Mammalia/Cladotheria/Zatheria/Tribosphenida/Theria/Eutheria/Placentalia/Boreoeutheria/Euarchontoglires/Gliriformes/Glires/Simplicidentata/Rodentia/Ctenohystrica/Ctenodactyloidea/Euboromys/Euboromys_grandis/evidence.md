@@ -9,7 +9,6 @@ records:
     name:
       zh: Euboromys grandis
       en: Euboromys grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

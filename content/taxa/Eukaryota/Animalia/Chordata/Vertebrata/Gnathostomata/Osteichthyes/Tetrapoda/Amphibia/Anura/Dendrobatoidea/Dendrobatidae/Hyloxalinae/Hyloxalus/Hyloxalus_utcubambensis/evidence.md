@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus utcubambensis
       zh: Hyloxalus utcubambensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

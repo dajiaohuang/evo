@@ -9,7 +9,6 @@ records:
     name:
       zh: Praeornis sharovi
       en: Praeornis sharovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

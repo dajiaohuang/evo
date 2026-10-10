@@ -9,7 +9,6 @@ records:
     name:
       zh: 白足运动狐猴
       en: White-footed Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: phylogenetic placement

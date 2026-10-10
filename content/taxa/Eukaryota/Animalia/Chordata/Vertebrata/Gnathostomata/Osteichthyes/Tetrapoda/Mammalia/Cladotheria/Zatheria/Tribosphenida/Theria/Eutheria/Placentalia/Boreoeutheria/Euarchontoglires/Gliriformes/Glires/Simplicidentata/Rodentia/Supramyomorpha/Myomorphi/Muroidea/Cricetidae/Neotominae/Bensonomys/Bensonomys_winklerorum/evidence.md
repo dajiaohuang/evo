@@ -9,7 +9,6 @@ records:
     name:
       zh: Bensonomys winklerorum
       en: Bensonomys winklerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Oecomys auyantepui
       en: Oecomys auyantepui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

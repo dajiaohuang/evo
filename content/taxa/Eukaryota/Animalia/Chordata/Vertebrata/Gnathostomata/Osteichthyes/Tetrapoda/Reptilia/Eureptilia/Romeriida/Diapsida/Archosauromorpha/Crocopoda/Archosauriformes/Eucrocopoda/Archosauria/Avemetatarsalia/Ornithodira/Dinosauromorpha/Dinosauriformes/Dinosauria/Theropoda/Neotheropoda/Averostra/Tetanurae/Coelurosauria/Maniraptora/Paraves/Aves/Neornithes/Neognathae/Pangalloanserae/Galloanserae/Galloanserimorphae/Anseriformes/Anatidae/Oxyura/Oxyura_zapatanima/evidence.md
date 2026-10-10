@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyura zapatanima
       en: Oxyura zapatanima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

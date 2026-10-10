@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: engel-grimaldi-2004-rhyniognatha; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: engel-grimaldi-2004-rhyniognatha
           relation: supports
@@ -73,7 +70,6 @@ records:
           locator: 627–630; Figures 1–2
         - referenceId: haug-haug-2017-rhyniognatha
           locator: e3402; Figures 1–7
-      reviewStatus: automated-audit-passed
 ---
 
 # Rhyniognatha hirsti

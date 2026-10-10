@@ -9,7 +9,6 @@ records:
     name:
       zh: 犀科
       en: Rhinoceros family
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -385,9 +384,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bai-2020-ceratomorpha + price-2009-perissodactyl-phylogeny concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: bai-2020-ceratomorpha
@@ -428,7 +424,6 @@ records:
           locator: Article 509; Figure 7; true-rhinocerotoid topology and sampled fossil placements
         - referenceId: price-2009-perissodactyl-phylogeny
           locator: pp. 277–292; extant Rhinocerotidae results; no complete fossil family range
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

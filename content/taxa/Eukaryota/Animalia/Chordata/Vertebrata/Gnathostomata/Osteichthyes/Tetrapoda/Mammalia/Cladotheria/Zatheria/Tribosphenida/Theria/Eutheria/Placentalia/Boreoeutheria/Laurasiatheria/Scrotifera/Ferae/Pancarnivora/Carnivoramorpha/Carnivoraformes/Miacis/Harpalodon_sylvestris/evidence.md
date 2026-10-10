@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpalodon sylvestris
       en: Harpalodon sylvestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

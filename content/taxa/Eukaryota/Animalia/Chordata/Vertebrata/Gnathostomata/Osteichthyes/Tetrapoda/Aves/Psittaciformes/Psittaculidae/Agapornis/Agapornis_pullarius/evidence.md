@@ -9,7 +9,6 @@ records:
     name:
       zh: Agapornis pullarius
       en: Agapornis pullarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

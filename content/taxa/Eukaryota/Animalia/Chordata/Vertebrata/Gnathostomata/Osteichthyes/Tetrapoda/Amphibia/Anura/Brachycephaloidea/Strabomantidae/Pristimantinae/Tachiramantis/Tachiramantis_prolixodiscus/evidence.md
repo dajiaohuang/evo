@@ -9,7 +9,6 @@ records:
     name:
       en: Tachiramantis prolixodiscus
       zh: Tachiramantis prolixodiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neochelys zamorensis
       en: Neochelys zamorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

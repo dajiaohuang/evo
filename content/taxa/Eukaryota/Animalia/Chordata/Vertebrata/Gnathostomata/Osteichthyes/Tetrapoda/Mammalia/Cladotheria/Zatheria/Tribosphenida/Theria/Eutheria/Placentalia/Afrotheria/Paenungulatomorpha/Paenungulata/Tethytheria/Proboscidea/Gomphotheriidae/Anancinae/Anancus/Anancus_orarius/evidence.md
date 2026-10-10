@@ -9,7 +9,6 @@ records:
     name:
       zh: Anancus orarius
       en: Anancus orarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

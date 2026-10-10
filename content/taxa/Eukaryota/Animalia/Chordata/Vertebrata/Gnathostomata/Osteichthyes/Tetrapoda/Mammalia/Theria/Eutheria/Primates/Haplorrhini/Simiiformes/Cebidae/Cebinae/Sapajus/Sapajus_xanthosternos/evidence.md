@@ -9,7 +9,6 @@ records:
     name:
       zh: 黄胸卷尾猴
       en: Yellow-breasted Capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: population

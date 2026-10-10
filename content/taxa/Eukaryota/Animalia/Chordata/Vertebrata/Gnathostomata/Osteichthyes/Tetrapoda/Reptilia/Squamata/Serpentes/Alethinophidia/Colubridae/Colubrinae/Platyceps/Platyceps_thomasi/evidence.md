@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyceps thomasi
       en: Platyceps thomasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

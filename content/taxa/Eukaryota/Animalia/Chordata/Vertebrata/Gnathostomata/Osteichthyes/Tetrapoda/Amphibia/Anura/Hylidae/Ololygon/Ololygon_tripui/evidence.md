@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon tripui
       zh: Ololygon tripui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

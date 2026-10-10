@@ -9,7 +9,6 @@ records:
     name:
       zh: Dawsonolagus antiquus
       en: Dawsonolagus antiquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallica lapparentiana
       en: Gallica lapparentiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

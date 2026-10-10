@@ -9,7 +9,6 @@ records:
     name:
       zh: Bissektipelta archibaldi
       en: Bissektipelta archibaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

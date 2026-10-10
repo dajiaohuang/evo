@@ -71,7 +71,6 @@ function verifyAcceptedIdentity(registry, dossier) {
 function validateDossier(dossier) {
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete', 'Selected claims cannot imply whole-species completeness')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed', 'No expert review was performed by this update')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const sourceIds = new Set(dossier.sources.map(source => source.id))
   assert.equal(sourceIds.size, dossier.sources.length, `Duplicate source IDs in ${dossier.colId}`)
@@ -196,8 +195,7 @@ for (const item of update.claims) {
   facet.gaps = item.replaceExistingFacetGaps ? [item.remainingGap] : [...new Set([...(facet.gaps ?? []), item.remainingGap])]
 }
 dossier.completeness = { status: 'incomplete', reasons: [...new Set([...(dossier.completeness?.reasons ?? []), ...update.completenessReasons])] }
-dossier.expertReview ??= { status: 'not-reviewed' }
-assert.equal(dossier.expertReview.status, 'not-reviewed')
+
 validateDossier(dossier)
 verifyAcceptedIdentity(registry, dossier)
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeophis casei
       en: Palaeophis casei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

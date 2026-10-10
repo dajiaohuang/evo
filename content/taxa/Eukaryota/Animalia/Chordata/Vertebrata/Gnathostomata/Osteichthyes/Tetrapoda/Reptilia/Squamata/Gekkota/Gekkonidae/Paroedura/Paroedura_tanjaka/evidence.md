@@ -228,10 +228,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   catalogue-profile:
     scientificName: Paroedura tanjaka
     rank: species
@@ -239,7 +235,6 @@ records:
     name:
       zh: Paroedura tanjaka
       en: Paroedura tanjaka
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -550,5 +545,5 @@ The single selected taxonomic revision provides limited morphology, locality, sy
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No systematic current literature search or independent expert review has been completed.
+No systematic current literature search has been completed.
 <!-- /evo:text -->

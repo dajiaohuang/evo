@@ -9,7 +9,6 @@ records:
     name:
       zh: Alsophis sibonius
       en: Alsophis sibonius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

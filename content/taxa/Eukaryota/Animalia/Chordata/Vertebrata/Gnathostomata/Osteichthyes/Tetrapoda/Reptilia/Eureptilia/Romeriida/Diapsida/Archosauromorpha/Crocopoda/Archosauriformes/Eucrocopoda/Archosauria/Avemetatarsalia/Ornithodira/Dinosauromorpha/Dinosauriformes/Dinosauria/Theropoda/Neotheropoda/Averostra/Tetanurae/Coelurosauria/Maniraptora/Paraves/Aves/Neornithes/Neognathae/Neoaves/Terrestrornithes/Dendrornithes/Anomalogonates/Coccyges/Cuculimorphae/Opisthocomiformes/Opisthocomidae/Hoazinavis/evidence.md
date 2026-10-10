@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoazinavis
       en: Hoazinavis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

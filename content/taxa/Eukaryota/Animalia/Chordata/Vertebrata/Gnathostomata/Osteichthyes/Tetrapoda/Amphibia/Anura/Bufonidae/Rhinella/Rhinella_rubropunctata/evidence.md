@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella rubropunctata
       zh: Rhinella rubropunctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

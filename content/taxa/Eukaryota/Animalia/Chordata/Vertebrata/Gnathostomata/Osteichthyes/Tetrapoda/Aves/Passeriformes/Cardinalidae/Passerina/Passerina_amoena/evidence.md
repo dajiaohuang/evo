@@ -9,7 +9,6 @@ records:
     name:
       zh: Passerina amoena
       en: Passerina amoena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

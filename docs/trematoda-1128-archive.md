@@ -29,7 +29,7 @@ bibliography metadata and Name.txt/Taxon.txt/NameReference.txt/Reference.txt
 row locators are retained for every linked source row. Complete original fields,
 including empty fields, remain in the committed archive. It is frozen source
 provenance and nomenclatural linkage, not species-concept equivalence, a
-biological dossier, fossil evidence or expert review.
+biological dossier, fossil evidence.
 
 The API metadata reports DOI `10.48580/d3cx`, version DOI
 `10.48580/d3cx.v86`, and license `cc by`; the archive's own `metadata.yml`

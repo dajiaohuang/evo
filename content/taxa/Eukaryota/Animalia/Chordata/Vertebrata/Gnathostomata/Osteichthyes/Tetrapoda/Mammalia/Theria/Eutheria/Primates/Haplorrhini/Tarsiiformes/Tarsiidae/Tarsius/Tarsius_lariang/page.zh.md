@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-所引描述基于小型标本系列和有限野外区域；本页不据此确定当前分布界限或更广泛生态。 本页尚未经过外部领域专家评审。
+所引描述基于小型标本系列和有限野外区域；本页不据此确定当前分布界限或更广泛生态。 。
 <!-- /evo:text -->

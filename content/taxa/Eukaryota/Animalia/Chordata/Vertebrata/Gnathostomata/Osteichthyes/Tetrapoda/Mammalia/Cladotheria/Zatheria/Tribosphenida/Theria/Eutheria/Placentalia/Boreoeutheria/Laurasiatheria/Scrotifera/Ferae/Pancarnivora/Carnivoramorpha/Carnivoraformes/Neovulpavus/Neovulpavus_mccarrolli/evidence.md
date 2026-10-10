@@ -9,7 +9,6 @@ records:
     name:
       zh: Neovulpavus mccarrolli
       en: Neovulpavus mccarrolli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

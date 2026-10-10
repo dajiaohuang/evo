@@ -9,7 +9,6 @@ records:
     name:
       zh: 菲律宾蜂猴
       en: Philippine Slow Loris
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

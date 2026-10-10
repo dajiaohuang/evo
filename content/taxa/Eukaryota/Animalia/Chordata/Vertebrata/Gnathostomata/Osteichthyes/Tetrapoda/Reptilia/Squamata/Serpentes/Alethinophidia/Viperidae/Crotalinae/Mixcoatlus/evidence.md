@@ -9,7 +9,6 @@ records:
     name:
       zh: Mixcoatlus
       en: Mixcoatlus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

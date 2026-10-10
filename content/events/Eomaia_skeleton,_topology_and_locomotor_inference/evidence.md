@@ -112,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Ji et al. 2002 DOI 10.1038/416816a; O’Leary et al. 2013 DOI 10.1126/science.1229237
       referenceLinks:
         - referenceId: ji-2002-eomaia
           relation: supports

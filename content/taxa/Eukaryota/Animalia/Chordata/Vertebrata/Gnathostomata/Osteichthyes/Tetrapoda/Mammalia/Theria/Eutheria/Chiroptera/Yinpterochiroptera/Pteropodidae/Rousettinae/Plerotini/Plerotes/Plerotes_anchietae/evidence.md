@@ -9,7 +9,6 @@ records:
     name:
       zh: Plerotes anchietae
       en: Plerotes anchietae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

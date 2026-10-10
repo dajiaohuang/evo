@@ -9,7 +9,6 @@ records:
     name:
       en: Leptopelis diffidens
       zh: Leptopelis diffidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

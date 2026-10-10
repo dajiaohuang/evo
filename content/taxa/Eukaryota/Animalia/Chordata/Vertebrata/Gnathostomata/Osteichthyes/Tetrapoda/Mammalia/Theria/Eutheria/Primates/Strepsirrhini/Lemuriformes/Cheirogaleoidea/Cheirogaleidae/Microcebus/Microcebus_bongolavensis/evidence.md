@@ -9,7 +9,6 @@ records:
     name:
       zh: 邦戈拉瓦鼠狐猴
       en: Bongolava Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

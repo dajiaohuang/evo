@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus bogerti
       en: Varanus bogerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

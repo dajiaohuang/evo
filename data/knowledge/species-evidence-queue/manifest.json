@@ -3,7 +3,7 @@
   "generatedBy": "scripts/build-species-evidence-queue.mjs",
   "releaseAlias": "COL26.8",
   "identityBoundary": "Accepted species are exactly rank=species and status=accepted in the pinned COL26.8 hierarchy; every queue row is keyed by the verbatim COL usage ID.",
-  "coverageBoundary": "Source-original associations, introductory profiles, dossiers, facet states, and external review are separate per-species stages. Missing evidence is not a negative biological finding.",
+  "coverageBoundary": "Source-original associations, introductory profiles, dossiers and facet states describe different per-species content. Missing evidence is not a negative biological finding.",
   "notIncludedInRuntime": true,
   "inputs": {
     "registryManifestPath": "data/catalogue-of-life/releases/2026-08-20/registry/manifest.json",
@@ -11,553 +11,553 @@
     "hierarchyNodeFiles": 256,
     "hierarchyNodeCount": 2429092,
     "profilePath": "data/knowledge/catalogue-profiles.json.gz",
-    "profileSha256": "d9e07eaa94365f0d31d1c8c5e3656167dde08c31efa19f7eace7303492a3df2c",
-    "profileDecodedSha256": "dd8f912eb748316aa27e4824965d20fb8726e73b5d70ef4f428a856883b555fc",
-    "profileRecordCount": 10379,
+    "profileSha256": "79a97ebc1aa73b9118573a8fcc9f63ec1189090fe8153fcfe66f4f867f26274f",
+    "profileDecodedSha256": "7f53816293b95fe4c29950bd274b8e9a24e36fed1855f0d30ff201e378d28c46",
+    "profileRecordCount": 38586,
     "dossierBasePath": "data/knowledge/catalogue-dossiers.json",
     "dossierBaseSha256": "88def9f9997c16f6eba9c51aca5c134b4af198442ae941baa284e6dd0c86beb5",
     "dossierIndexPath": "data/knowledge/catalogue-dossier-shards.json",
-    "dossierIndexSha256": "b960be26801686c139d63a5e05fe75baeac8eb7e1eb1649fe7bf7b6de824675d",
+    "dossierIndexSha256": "56c02df55a27e6fb6e77e924a85589c132e811b513ac1183a1ea1116e332a5c4",
     "dossierShards": [
       {
         "path": "data/knowledge/catalogue-dossiers-actinopterygii-batch-2026-09-24.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "5bc542f36170adf0122c64efe5cb49f5569fc9dba68cbd0f76c882dd3966b156",
-        "decodedSha256": "578d759402e9200bbd35b71c40a64bc35d23ed59a89e3bbd132b89010b38eb2e"
+        "compressedSha256": "3f0419e2bc61c3ece9ba3cf6584b4816fa287c391f9fc6060b23f7357a801d4c",
+        "decodedSha256": "a962332b1314923e0774fa982da9dcd6a1a96085aeaece20e23f2864fa860936"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-all.jsonl.br",
         "recordCount": 3841,
-        "compressedSha256": "2ac8676560b32a5b495b131bf769dfaf797930c62800ed1729d6c9788242b9c4",
-        "decodedSha256": "7d9aa0ad4c8c5a0fb234f350559a9eacbf865ae5da19e0de12d286bbad91000f"
+        "compressedSha256": "8bac1c303701026f292a26d5dca0b82381da8f64178183c95bf4295f9299ada6",
+        "decodedSha256": "79076b87458fcf00a1f0b1c281b005c2378e8020dfbc0a5afe9f65a98a895eba"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-amanita-vaginatae-2023.jsonl.br",
         "recordCount": 4,
-        "compressedSha256": "c61ef06a8946697387d2e19d8a29387f95f1e0be2e9579737db3e0af31019550",
-        "decodedSha256": "ab48003091877c601f0c281cbb6402aa9796e325b66beb8ece5e29f6204c8a08"
+        "compressedSha256": "7dc363a486b4290ca25836e988504354b68fa5c6ccd660f93fb9107fa9ce2202",
+        "decodedSha256": "a458c558bfaf74e71c9f9ad01feb3f52b66bc8ece3134a1c5b7f2e75fa564bbe"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-amphibia-batch-2026-09-24.jsonl.br",
         "recordCount": 5,
-        "compressedSha256": "7a504cca567715780bba8de79b876954c966b0fdf378d6f3e3bee873755196a5",
-        "decodedSha256": "13c664c47cea24f498df0eeaa71cb0d601ce2e7939eefdaa659aa526f1345d37"
+        "compressedSha256": "cb507962122883fb977d45af673ee43b1cc77671335cd858ccbd20e107b2bfd3",
+        "decodedSha256": "4a2ff4de5ceb7e288fe7c30659b26bbb68179d4f4775847ff91b5b27297b0891"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-aves-batch-1.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "75766de7b2595e4817efae13671a1c81544ceb3ad4e2e641b517ff5ce796827e",
-        "decodedSha256": "4344080bbfe2afefb414e72a1450bab771536c83c9304177ef1a14d6a219eaad"
+        "compressedSha256": "f236b9c94496e78ad3ff131b1667bd64ce0dafbd50cdaf13f01ed2e21c235a96",
+        "decodedSha256": "10074457c4171df25fabc9d1e846f32d951537e40427c719c3c69a0853491e85"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-aves-model-conservation-batch-2026-09-24.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "64eeab7f23c826bb1551e94b0be5197e799e8469a5158367631e16fb8d77182f",
-        "decodedSha256": "6c0536165925626bcc3b3f127c51b22337a43cb1edb5dcab40f25c72aea2ba15"
+        "compressedSha256": "852d45748fc78c6ed3d3e4659ba3800182d702dc5c0273ec8bb66d2287aeafa5",
+        "decodedSha256": "78af9c1a494621e5d7cea25d37d09d4c4c1120c87eb51b1d0b85398b79485cf9"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-aves-north-pacific.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "1a78b1a10cc7b770fc3901a9ca2e9b306c0c8ad2f4e0a9b9b205c92a6cb4e01c",
-        "decodedSha256": "04266cd12130151f3d5bb2f66937c14ceccbb5fc9caf767fa9364f7ea320e15c"
+        "compressedSha256": "bdd860d39b103541cb914fe6526769252fc10bc95ca36ae1e1049ad2470f2710",
+        "decodedSha256": "010aa0f841fef289855b8c3bd91f34c24ae769f87fff2577df1e5c0b01e7f637"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-brazil-flora-batch-2026-09-27.jsonl.br",
         "recordCount": 27593,
-        "compressedSha256": "87d7b07eb5869cdbeca453074ed81fbb501c7c91aaba7085ae5de7b83b96a614",
-        "decodedSha256": "34762dbf46e6f0fc61e75782185b22748a43cf4a8c561067fe715adcb707d703"
+        "compressedSha256": "183761db1fb8c298961337187c28ef8e5605a38a29331bb55148909df6b0ff5b",
+        "decodedSha256": "a2e380e978d403b9bc3bf20a54ec1d9af7b0f6e31d838766568de8378f7fd219"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-chiroptera-histiotus-alienus-2023.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "9436f934643f2a08c5ab25b07997c54cb2ea1e5381f61c1d1ea430c23ab4bf2c",
-        "decodedSha256": "595c0537d4cd647eecfc7f1372c0b43c591652435f0f9496ccfc25c557388c39"
+        "compressedSha256": "990074b7e32dc19f8bb2801e65863c5540efc5ff4b0d7ca11dbcc610a877717f",
+        "decodedSha256": "ee9f8899fa4134b1e39de8ec92fda76424a21f8e63c171564efe0cba128aad30"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-chiroptera-molossus-2025.jsonl.br",
         "recordCount": 5,
-        "compressedSha256": "45ef56ac9211b3e7f41d0a6b2e2fd2fbb67e924539695dc2d02412256573c09c",
-        "decodedSha256": "52f096be3d3c7e0d436c5623d8713b654544464f75331e1c5bfcf930d96714e4"
+        "compressedSha256": "14c2699cccc4a2963c5f918dc90af8b68a19046deb301db312a500f1555b2357",
+        "decodedSha256": "165dcd9f63d4a009b8183b691dee589da73aaa315c01e81cde1f4555789dd6a9"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-col26-bacteria-archaea-batch-1.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "421a143ce196c55c501d32477a0c355fc7682cd1ccbb27df6c90f58d672417e7",
-        "decodedSha256": "1fa533659bc8d54223fb35133df8ce0074ae493516618a3ca257a2a6f3341c19"
+        "compressedSha256": "06145e8dab1f5bd19f51bf1ce931be67324e1fb88d571b4513bc4455d978ffad",
+        "decodedSha256": "4f72ddd93fd2bd3b470deffd3f282a394a9bd0d32a943a80f5913d64212c191f"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-col26-bacteria-archaea-batch-2.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "88b039e48df110fdbbe8fceb7841c6ac50634cf7a0f9cdd03f5d20827ba5c9bb",
-        "decodedSha256": "d2c2b8eec3977a9003698f9aceb7125fa08cba02123d2cfae65304a94762f4eb"
+        "compressedSha256": "8913a3f03b3899787834487c109a1e0e3694c21eb3abb86ef0d5886b00b22bca",
+        "decodedSha256": "a6dad8eb2330ff97aeaa99cf14305dd50342c972c28f90bd4f1875b870e7399c"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-crustacea-daphnia-magna-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "531ccd758756c99c9b95748eb804226f0073d92f71e16263ba4b33997cafbd78",
-        "decodedSha256": "226b7c625aa7b4b2290802b6067d97e5ff3358004eeb0d97bc61f67e1f5f42e3"
+        "compressedSha256": "c1a4f22b2019605229a19c6bb37f9e19534e2ece4dc798a8f1ad24232edf1472",
+        "decodedSha256": "f947ea36f9e6623123fdf928892664cd09313f77dc2a96ba8e7df287b1e01129"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-crustacea-gammarus-pulex-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "e2698eb3fccba85176a952707dfb93665a150db05d59e70a160ad724217c122d",
-        "decodedSha256": "bc032675079604d6d386a548498ba932e2d88fe333121991743249c9e7b2d3b2"
+        "compressedSha256": "afa5c69a0fc1ca104f2ceb6a93e7488b3ddce05a976a088584bea0c7c5cbe068",
+        "decodedSha256": "d95dd8e0d44ae7202a7f8f20fa34235c9a7afadcc4da605cea9e8a348364f4a0"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-flagship-species-evidence-batch31-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "4ef91e4d5cfeda921a19c38bed6d46e49947a5571afbd3a34d32eb653c3bd628",
-        "decodedSha256": "c2e43df6b068dcf2d1f86061c05b806f0f670740a638de57f9e0e663d208a77f"
+        "compressedSha256": "b725d8b66a438fd9a3b1ede95bebc2a4a1c6959ef5abb886ea82629b41e9093d",
+        "decodedSha256": "befc37b2f2fff0c295fa7cc67da0d8eadc5c3c732150a5c124ad15ab72e34f39"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-flora-panama-batch-2026-09-27.jsonl.br",
         "recordCount": 1619,
-        "compressedSha256": "084cfa8e641f23f8a2ef6593e6e8b7ceaca5d7fd83c85fb2f85ddc7a9cda1a2c",
-        "decodedSha256": "7653b4de72d6120448292cd501c202f3dc702bec6fa5d71b37ff0bb5b6433879"
+        "compressedSha256": "a88b244b9aaa0faad031f30a7d66b4d089243c9f3c20e60bab185a7bddade607",
+        "decodedSha256": "e50c5f0e1f0baff65b42f202e803ee710cf9474b34177d0501b5110dd54a6096"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-fna-pinus-albicaulis-dossier-batch-2026-09-27.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "42ff38127087b9beeb96358071aaf60d84784c882f61d21f5dfa90e62de64308",
-        "decodedSha256": "8321708ec9a6b71ddf46fc3cddd194b1a57b1394453f5d33447b86864d86b149"
+        "compressedSha256": "65119d4dbf12e19adae9de11c49af233d8b0e0270e29749004d72c96bfa15359",
+        "decodedSha256": "90c493bce75d8c941645d1c1631213dc1a6de52eaa3b70e29f6bc138e04caf13"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-fna-pinus-longaeva-dossier-batch-2026-09-27.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "bea6dd03ec325fb5c89bcdd3258926b07998b893cda0861784ada33b106c1b3c",
-        "decodedSha256": "52396b6e1d09bf3d606b97c5d69eac62b3cdff2e0c8b0e216eed8b2d927c76ee"
+        "compressedSha256": "f6e81943e1daebe56e124f9f30f76d0a8e4913f2b49af1f77a4a31eed4027dff",
+        "decodedSha256": "d9a997ead0d4bb1d22b516265b2cce503cb25ffe0e9508a2df3e6d8702b3c378"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-fna-pinus-morphology-dossier-batch-2-2026-09-27.jsonl.br",
         "recordCount": 18,
-        "compressedSha256": "f9d9b8c756699fcbb2ec7ac6e78bebe199a97248b7283fc9d8e43e7106bacb92",
-        "decodedSha256": "e1516af852360e26a6892f63a302b34e30edd47d7dfbcf1588773282f810813e"
+        "compressedSha256": "5ecdcf0f273ad8eb9d0f3e976d424509e498c6ea438ff9c5d4813329991af8cf",
+        "decodedSha256": "fd1e0c5809c4bb97738918fbe56cbfc0f7aa068902b1cf5b8e7af63a49ca55dd"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-fna-pinus-morphology-dossier-batch-2026-09-27.jsonl.br",
         "recordCount": 12,
-        "compressedSha256": "51764252efcef9bb07df1f8ec30f0b0efddc2118a3b9441a8a9755b4c4f260c0",
-        "decodedSha256": "b468f7e429135ebf569ae7dc0c536ce3da67d650bd7d90addc98922d731a3f4c"
+        "compressedSha256": "a88cb246e2e1c1f87354ec02be6d4f2790d2b508cda08de166365d6e2416e8cb",
+        "decodedSha256": "41d5c230e02b76304e8b29ad5a1e5323a50375504e2e0fe0e88862cc92d1fec5"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-fna-stratified-morphology-dossier-batch-2026-09-27.jsonl.br",
         "recordCount": 99,
-        "compressedSha256": "9d81b19f279c096f73cb85da7cdda1d3c39d4acbb5ad8fa47e87738cc0148907",
-        "decodedSha256": "4f78e6acc238560e7e2b0fd4baef4af1db8b99a44c90232767d9cc5682d18d5c"
+        "compressedSha256": "86a96d836483d4c47f31cf5e377d1ad987ec0cc5544ae1efb05c2a71c0b835dc",
+        "decodedSha256": "978b1e5eea1bc5523f4e78087b169073b738a4c3243864fb9d9c99a8fd66cf64"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-fungi-model-yeasts-dossier-batch-2026-09-24.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "e3a8d4d4fc3e2b733d7d601ea3f02862fb6ccc5810d1594bdfa9731a92bab52c",
-        "decodedSha256": "75746a8129de5ae4c9b1a972807cd9f4b19b1df97661838b5bc921aee5484d19"
+        "compressedSha256": "309a99c8a14326d3b772483ff7da4e9e682971a8e4bcdf8be8bf90d6566968c5",
+        "decodedSha256": "8fbd1205f266157b7332e0bfa879e3455b8cb6a02d5e2d48a7c55097e4c81d41"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-fungi-postfire-cereal-pathogen-dossiers-2026-09-24.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "0744916e7c106545f4df6061fb341d8cbbe38efaf7a44c10961da7c2fda73e67",
-        "decodedSha256": "a70a9ad6ae177a6dc11d231653e202aae724457ce451d692ab959483bc4d4ca8"
+        "compressedSha256": "e703bf99af265e22db05d06098c19cb215adaba5dd9b5ca60681df333a455b33",
+        "decodedSha256": "d693f7dbf781ad87b48ede7014289b0896d5299b5fa3c2aac6cabf403fcb4fa4"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-insecta-aedes-host-choice-2026-09-24.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "c39fde6eba0ce42cbac321f70f0496561394d1d3acb1c0f2e2ef062f7b591020",
-        "decodedSha256": "930821d7b23aae3f0014f9d5d2697a1ae6083617be04346fabad4ad9e75ad93a"
+        "compressedSha256": "4290d427b0c9f36c87deb6099d1b4e199869d02035d400959414a1da0896e73b",
+        "decodedSha256": "d3de10310f4ef72e5419b6366cd47ef235641cfdc5790965633b691fa9311516"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-mollusca-radomaniola-batch-1.jsonl.br",
         "recordCount": 5,
-        "compressedSha256": "3d7e6032649e776d782002f42d1fc077d45db258b13c5b424da0969612fc6be6",
-        "decodedSha256": "14cc037dd1087056d1232ebc7581dceb8aab655bf9d7399222432a6345d0eef4"
+        "compressedSha256": "db7529453aee89607fc3e63b2bf3be0a037faa779dcb46245b03a487622ecb62",
+        "decodedSha256": "c4fa04034784d0b8c4de26d9b74baefab6911ab20135faa7832349c499e87578"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-multi-clade-evidence-batch30-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "2d184fd21a880b43d178cf8937c5941e25c57e93740d3e2e0f6a9c0db708c713",
-        "decodedSha256": "a126897a382d526cd5871f5abd9154342224add47d2f89d8d042f4a67a5b2319"
+        "compressedSha256": "c2cbb31578eab59955fc79574c348c1b982cca2546df222f1f3476dd2fcf97cc",
+        "decodedSha256": "ceec2aada6ff2b0633704c7e9619939a1b544e0d60f6d4cff101a52460ab28ad"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-oomycota-saprolegnia-parasitica-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "9946fb399ba15b3cbc82468f5a3f6dcbc9fbfde164795bd94dec6a2cc7c64353",
-        "decodedSha256": "7b3a64617a4612b0c835b3dc41f98762d08bd350371df3ae0bc61e35bec508a3"
+        "compressedSha256": "a291044a7f91af5118adfd61f6ed914d8d7a238dabb68f99fc5141ab6c0c3ce0",
+        "decodedSha256": "f74a4d3a49cfb822095900f387ad38742856149d483808ac675479731bea333c"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-plants-models-batch-1.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "7ea0a5c2b132594813f1ea321f136a68500e526604885f6c8b3078f2bd8f3274",
-        "decodedSha256": "1c3d22f9936c9999751c7d845b180d0f8240696d90f20c03ae82b3c2b7cdef5e"
+        "compressedSha256": "de740e66937fc573e88c69ff265b169c9dad65734b11bf4eb4e7065a17ba30ad",
+        "decodedSha256": "853d5ecad1420960c56bdc7c731b8a533a2419ab9549b36bb0f6e50139c39cd6"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-plazi-hyphessobrycon-batch-2026-09-27.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "3876c31c7614756de65669f07a88389d6d3c11c3dae92d31af7a33f52323d938",
-        "decodedSha256": "b0fe1805302a4f99854900ed3680c7cd6865c2a170acd01a0a9ef5156f2dcae0"
+        "compressedSha256": "55d49d8373c478efb6832c04dc8c0e5d097206ce35b435844f2d9fb467cd7ab0",
+        "decodedSha256": "b5899564ca443aa36ef154615a41e620c2c7304efb564f99660c5f69f5dede91"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-plazi-lycianthes-batch-2026-09-27.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "1de12db34d2d234447f4c092a1db3ab5dc570ba2f73f72516886105058f7e636",
-        "decodedSha256": "02dfd586ef8cd851e68e7f1d18f570644042a4a29744f8f207729986037d2a0c"
+        "compressedSha256": "820b012341d557c5bcd48df941313d28810614d4799363185a4103126c1bb2e7",
+        "decodedSha256": "bac45287dd1bfa87f8ebc1b88567602e34304e48a0f0d5275e650e6b8474d6c3"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-plazi-rio-fish-batch-2026-09-27.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "39461403008e8ee20b0d26ae9afb7117f913e111ae1cd312124ee8c59c3e6fc2",
-        "decodedSha256": "911905c2c020593b68de47028fec9368c34cb50973f36b54b08adc372757b1a2"
+        "compressedSha256": "50a14096a980b0ada630070f259042ddbf8b93fe938b24a37296ee2ca361060b",
+        "decodedSha256": "ac6651dd06d5e7e718442f2b102e062fe2fea3e6aae95bee1caf2767dd44f171"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-plazi-syspira-batch-2026-09-27.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "c3b68555ad9ffd6bd9bdc3451ec6716cf9634757f7169f819724e895acf3a3f6",
-        "decodedSha256": "705d7ec807d97565f6e907922fc1e4946447e2707d274df9b80d48900725e7eb"
+        "compressedSha256": "e411f9f9074099ce1c02dd9f0cab202e46145b14d684f177179db6346808e6fe",
+        "decodedSha256": "b6e0374dcbfe3df74568ac886d11332f39c9857ae871714db9721c6401f7eafc"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-alouatta-palliata-batch18-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "10b0a7ce9c1041da1db173c62b4ab1e356cf67e85650b89a642f5fa9099811f0",
-        "decodedSha256": "7f12ae4b8804184a8fb4a08c3d6d47d0f8d1f5c4472ef4938be3a327cb5f4a7b"
+        "compressedSha256": "a35d6c0904a1d154d78a494170485e7093a80997b97433720b4a5aac1160f1d0",
+        "decodedSha256": "90c129336fd42c9133531b808d9e53a68e9e50bc5610ec62242240a4e4478c09"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-batch-2.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "826b9ed322a85876b716bea59fa74eca48f12ae92d2119a7dc121a2070c8a511",
-        "decodedSha256": "20948f343138e241a71d5a980c967319465ff518a91abae5f3c56169183572d7"
+        "compressedSha256": "33266e15593d0985fa2adf5be50b4d34e7cded0513b775d22c8e23422a3fb0f7",
+        "decodedSha256": "ea9dd6f17c57d5f6b4f2ed14aab75462df7c98647bedf3fcfbee080e227d3df6"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-batch-3.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "008727440c5c440b1d3333e9358638fa0dc8a2b3e94a0a06662c2977fc916f5a",
-        "decodedSha256": "feed7df774871250f1dfaf34477369a181ae1ca33ce19c3c2e69a8970f94abf0"
+        "compressedSha256": "8bda09d5d253c14371102dc6466bb681ed4a1657de6c76b752c781d6b7bf6131",
+        "decodedSha256": "304c0f04dd58373df8355a0e930a2dbc20051299073b1443ad81857fc9417e3b"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-callithrix-jacchus-batch27-2026-09-25.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "525bd3651717f2b4cf57db1da85a3959cea42cb19028e55d614f4ee275f53ce0",
-        "decodedSha256": "709b966605bc7deba60961059cef465163b7e9e8b74ef4b2d4a14ed2adbaaecc"
+        "compressedSha256": "8482f3a1007deab7cd42769b7ee3efabe78e12d81b7e24428c5d2447393b76ea",
+        "decodedSha256": "39f332b6b9858dd406d174863830b12841d495f92f45732fcd0988d0d55cb893"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-cebus-capucinus-batch16-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "4b815a628505b5cf3a6dfd6a58ac11cb43fc246c3ba56d87124d9b3fe30ca237",
-        "decodedSha256": "d4b731e9ab8812f79d30ff3e67f2a954307b84aa8f0e3d3844a2f1780f8cf4da"
+        "compressedSha256": "3b0e9848b992c903184acfb99fb06e10fdccdea44ea910fd3cc63f7c30b498ea",
+        "decodedSha256": "d2394372c428468a22b8cd474dd66cc7631957df378effd7918e0fda9e955e35"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-cercopithecoidea-batch-8.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "e225079f5b48875636868f3a5dc73de223207d2a142d4b268bc5212095d7d420",
-        "decodedSha256": "e28cdb9b45e8097d606dbd432dfc01712e51bc4a9e248632dd5063c4997b7ab9"
+        "compressedSha256": "a52e002a727d366510b2cc6915a14882832b58abdd31e68a4ef641d67d36b264",
+        "decodedSha256": "17c0b3185230eaac7174f6eccf9568df28df1b1eec9c060dfbc5f833bfcf1fe4"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-cercopithecus-diana-batch18-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "52768ddfdca8bcee26580bd4c050d8276c24221e2e540690d672b955644196bf",
-        "decodedSha256": "6c1e9c404499a9b20902b9f5c7d6dcc71474fe95100dc14fe00aa734a6a9f6a7"
+        "compressedSha256": "3b38b755e9075e30d4430bd0e065d15c0193512debd679231df1e1c6ded610b2",
+        "decodedSha256": "caa58f8c239881ac823f97878877af5cce5c51843dd0ab77a6f06b1d5b2eafc8"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-chlorocebus-sabaeus-batch15-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "0e2b0c1fca541416420e8bc84325a053c139b482358cdb86cd6522a6309480cc",
-        "decodedSha256": "b5f4fad41d92c72c01aacf438c8e3164240fa33cac1a96bc0a30ad400c7dcb61"
+        "compressedSha256": "310bb286700c9ab652ffba81e7944b004cdbdf793e02420454e225b40c73105a",
+        "decodedSha256": "340de5221bae2dd716b310385a493b59e3dd5fc4e11cb4d6e2f539f65c5ab300"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-colobus-guereza-batch18-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "2a14fabbf79fc1125674294fe1b99015b9f9f35b0f34d929888f9c4478a6cf1d",
-        "decodedSha256": "3c77876534f8283073a12843ead6eb56538c4fe504462148e5ff388e98e923c9"
+        "compressedSha256": "ff39ff78bfc27201e16b803857514431c6191bc6c8b40ab8ed2d87fae5953da4",
+        "decodedSha256": "5811831702d4938f10224e3025570ec34470a72ce6799974f78855061bd215fb"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-core-batch5-2026-09-24.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "d195635986107aabcd2c7a003adb2a5e66edc2bffaab40cedb9ae4a0111dba16",
-        "decodedSha256": "0c8ccf04cf3d71777a4cd95fe644e60a7d1fd3025fec26e1bb692987c66d9114"
+        "compressedSha256": "4362b2c93b93766cb44cdb67076ff2cf6a143dafa784777f1db5abfaab5fda22",
+        "decodedSha256": "de76f931f6cc54683b27b3a2e7eb22d391bf26657ed1f734dace8c3655154059"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-gorilla-beringei-batch12-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "1a01644a5ad523f011673824321443369d6a029684d816a38d512bf4e901570f",
-        "decodedSha256": "6fb136c9652f2e068d05ef005e096d787fcda56d7f63c96ae87bf5f58e6e28e9"
+        "compressedSha256": "f3539a8e30ee348e1070035fd3aa0f36cd83a1b81ca546534fed3a324940db6a",
+        "decodedSha256": "e43067e68dfd1b3b1a2cd1fa94c2d9d55d7aa8c77707a954851ceb6ad7d7de12"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-homo-sapiens-south-african-genomes-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "fbb9e8b254b7c215c91226e1e2d00984e2c2dec7d7dab0be25b3ead9db766d8c",
-        "decodedSha256": "fae59b0ef6a30214d2cf9ee920c5faa83ca71997c69cdfeeff230be23e9f37bf"
+        "compressedSha256": "4674280dc07e22a6036ba519a5c9e25156640048ba27155004408ba2a5e526ef",
+        "decodedSha256": "ac3c8009b48abcfa42e69378d66d03a9bba493aeacd8bc3ff75c1cf497e18ab9"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-hylobates-agilis-batch22-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "ed82b199a1b361ed2eed77c6d716c3bf13be0e063b60a654433ad32e8466248c",
-        "decodedSha256": "1da71249af2041e571ae3a5f96c4680daa87fbed28f3e143974ea0930846954c"
+        "compressedSha256": "a3602de51496cd731ccd950c0adf80d9e97fa2bf75c2a15b9c402694135c1ef6",
+        "decodedSha256": "606a00d576c0e4283454da3f6480751e06c8631f28eaee1e010490db84f67477"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-hylobates-lar-batch6-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "2f08cfaaff12737a422b79b062d9fa36cc6351b4236c50cb348ef8b593e01a2a",
-        "decodedSha256": "a52213c0f7c95b4ee93600d6d242b4ca2ef2f695849c7a46e4730908f73e7de2"
+        "compressedSha256": "e6907760a836e4ec03273c7f062635a54d852bcd4ac77cdbc2033950ab98a7a5",
+        "decodedSha256": "85b1f133f312efa3d541044c0f6364db83f48a941ade05cc231c1cbbabbf286c"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-lemur-catta-macaca-nemestrina-batch-2026-09-24.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "73db289747f4eaf84797e3e158a1b8afec4bd2b4d7c822bdd885c8a65dfb4eab",
-        "decodedSha256": "9492095ac91c75bed10f8f073b5e023bb482c82d2edf5618d839a47566f1b8ec"
+        "compressedSha256": "a8243620db7aa0da92323fdb0622e49d0978ce6e566d0c7d2d4bb5688a884745",
+        "decodedSha256": "48e2b0bdfe463c8146ccee65a81422c254dbcda458c5518e1fac09f7a312b8cf"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-lemuriformes-batch7-indri-indri-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "d19d950aeaaf6f26c624d7a373a3f9f951944e0ef83ec1b6d7d879fb827e7d30",
-        "decodedSha256": "b8bc2015ce526a98450e238583052b5f067318f60c25b67097dd74e045208f2c"
+        "compressedSha256": "1ebfe0faf6720423c1d9cc51bbbe8226ffaaf29866d26e3c86f4158b337164d2",
+        "decodedSha256": "002b0dbd66a954a8659f067da5d2a173e55986a6b71e3e0bd3da85e233b3b893"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-macaca-nigra-batch19-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "b8caca613cab7e6c1a2ae0faeb64b82aed9672b80b7d2f9aa32a10333646dee1",
-        "decodedSha256": "41dbec5cbf9a7471838ebf7a5615d9d932a328e5ccc1731aea0236f07b2538bb"
+        "compressedSha256": "c5fc100380dd152f9f5b4c056d27256366280c1fd2595651d61794ef9b3f4014",
+        "decodedSha256": "5efba880be72a9a12de8a483072c4e966ab59887ba34cb7b12f1b6af13aa6f0d"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-macaca-radiata-core-2026-09-26.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "390f8b2ac9692814ef21d69dff8e3577570ed8798daa04a0fd105602a56a6119",
-        "decodedSha256": "6833ec545d596f9f1a33a456236090e2da2f02b0a7592d43b65d3bf4688f5b7b"
+        "compressedSha256": "ea871b83b7489bb2e0cb031cae0274e88d8158c999c517c7c365848aab9102a6",
+        "decodedSha256": "8abac3eeb2f5673553bad780e92b6fda2dafc2eed67d67eb7e4fe96198493d5b"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-mandrillus-leucophaeus-batch17-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "df2b7ba132c133ac944dc84a47cf063d8462993223405b5ad2bf636bcf1916e5",
-        "decodedSha256": "4a9e6ba687de17e3abd2b004343e1579f30368f237732cc78ae96f85dcf01d5a"
+        "compressedSha256": "a076262c0e6ab50d7c7b00d5d61814b4c9250254e8967e8bf9f846cb1414ff57",
+        "decodedSha256": "b535d944c8ab52f79b1b8e1d11de9b6c081db09c426a595f959649406946bb9f"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-microcebus-mamiratra-2026-09-28.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "c0a0654b4410c824f93edced46e1772f44476a085ea98fb899cb6aa92b743d2d",
-        "decodedSha256": "06d21d3f8ac7c0b1ad342ced35108ce884dbcea7368479145ac3585d594536eb"
+        "compressedSha256": "bfd551c76f747a4e0511b347e288ae9c6273f4ea9e0a3d8d5bc01c582880e1f3",
+        "decodedSha256": "32de888affcdfa9e2679d34d316a5517443835180c19c3f7bb8fded66ab56aa0"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-microcebus-murinus-batch14-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "3d0e2b79db0d77086cf0bf1830e35c242b1a44be34494f305af6741fbdb7f368",
-        "decodedSha256": "dbf648184f37fe8107c81ca2f2a1119ccdceffe42be188f4e95b36253d3ccf03"
+        "compressedSha256": "573aaa6750d084a6ef870e4c34b41184005f89e6251dd523befc570e4fa4293c",
+        "decodedSha256": "ace422bd25ed7675c7ecb5c2daadb2a7872a9f0db954c25e08b84ee16e2ea852"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-microcebus-ravelobensis-b60-2026-09-28.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "e426abdfa4c2553d549f7222fb9c17d22d9cc8f5e99567eaa9e583476d0a8ecf",
-        "decodedSha256": "2f2fd73478bca580e4ab9d0ce3b2ce99d30b7a48bc629eedb9556bd46dfe8b53"
+        "compressedSha256": "cb015d991cfccbbeb1d936e12d060c0c28043f081298004543923904ffe7ca2f",
+        "decodedSha256": "50688d7b7ae2b8fc07da80b84d1922c10fe5c6971f0463f06bbdc27a63594e48"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-nasalis-larvatus-batch17-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "10efb5e2546663b64cf458ed22d930244c9ef173cd7b7037d43e21c26c60ed3a",
-        "decodedSha256": "9f416ca92bc31a4e547f61f07b8392be7ad3a470c64fce105413171d4f7c5f8e"
+        "compressedSha256": "319ff0d958256f3aa234fab67a34bed4833a914b05a4f56ec7d263477352bb19",
+        "decodedSha256": "d1ff2970b00304196e3e33cf90a1386870cbccf417bb085f7026acc3dfaf6226"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-pan-paniscus-batch11-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "008fbdb4b0bc16d7b69db0e93cd59eee7332afa005f869b0e1ba3eaa9a47cf1b",
-        "decodedSha256": "792a06a3fc94bfb4736c3f198581109cba2cda02fd8814eeaa7f593fb275589c"
+        "compressedSha256": "9423d951d1b2172811c627f19a480ff118c7daf1d07e2b6e2c934c0260476a11",
+        "decodedSha256": "04e9fce29c9190acd4a4a9550f861b65cf339f0fe627133159917440d1a83311"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-pithecia-pithecia-batch29-2026-09-25.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "38e6ebcbe41ac98b405aa17294d21de9219f63156467dc9b93d1c8958b7756ce",
-        "decodedSha256": "321176c84aff959af85c0dfb3a4aa228477f4eba9d968fd76caceaf3ae4899bc"
+        "compressedSha256": "4c9a4a1c100a7e4570ac8a4f8fb40dcb133f94c93f6240aad19f8b1baccdb8f2",
+        "decodedSha256": "78ebf058772d1c46a2a8eb24847bbc38daf608d105f908d4d1a134085719796e"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-platyrrhini-batch9-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "af3b1e7c13128a9b11007fa9b6fa000f0c990567a7b820d9eeca1756bf59423c",
-        "decodedSha256": "a7a813d5ef9212bede584ed7e4f9f6d8908940f938641a2347fad944f8e4fdca"
+        "compressedSha256": "af756b3c379bfdacb1e70908e8e4f32ca4b0ab4c958ac851ba95c7d57765c128",
+        "decodedSha256": "f6e7f96b49c97f154aa407ccd40464966feb4de109760072fcbcff949cae5da4"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-pongo-tapanuliensis-batch13-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "7a3fbf91791d9beb0485ffd3bba4ed4a7fb58f54c5d4245b90760bd7742b6855",
-        "decodedSha256": "9e93653e83c2696da2fe2d472ec3584164e54e84dfcc9d5ba87c5bdb07b10597"
+        "compressedSha256": "f435c2b8d1365f074b92dbb50daa7a9aa28d92a90846f52d3e9ddfe740c0a14e",
+        "decodedSha256": "8b7bb0669e965d4f87191477896028f87f0b411173a5dc194d33514a3474180d"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-propithecus-verreauxi-batch21-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "6e2f0855c141c8f9600adf4c0fc57e23bb2e2ffc9831c855cc74b7a422f5b3d9",
-        "decodedSha256": "f2c24d7b323495f2458829a21dab3af7ad6d48bce749fc1510134dd193f01057"
+        "compressedSha256": "aa931bcfe1aa4aae50d2c167aca16e92ad366567fec3367b3922175b1ce0f359",
+        "decodedSha256": "779e5a8ccc4a1ad0adf6f58482a25e42a86cd71d54586e9d6f84a5cd86515f4d"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-saguinus-bicolor-batch28-2026-09-25.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "acc11868c95424108c99fa2a196a93f56a90d8c3c5d6fa89f7db669c5cd0467c",
-        "decodedSha256": "1e46a1f0262c0d738083954e3648ecaaeec08dada1c5a4a7e5c67159eff82a4a"
+        "compressedSha256": "0f222f606b6d6a61bb186ded3796bf01ffd4f18a8a2c109daf15789d95fe2939",
+        "decodedSha256": "9bc649edc3d737bd83e4e24889d038826868127e8adf68607b070d8af57dbdf4"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-saimiri-sciureus-2026-09-28.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "d21abf3304eba07ef21b98c8d14b5f6b6ee292d01a95170ea4dd75ed0ea94d82",
-        "decodedSha256": "703baec2e9d65cce52c6e8aa739aa5ab0da9934821046573cf770fe1eb8fc6c2"
+        "compressedSha256": "c5625b7ac2507fe4e77281264108668e9fca429714cc9e1fc36af728f4ecb827",
+        "decodedSha256": "f7e88b65799ebaf1c6c56950cd397473287fd6abbf04c116197158855217232e"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-symphalangus-syndactylus-batch24-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "25356d89971ddb4fea4b65bd216806476e3189b0b8ce6b447aa6a78e7570b322",
-        "decodedSha256": "f1d990c8f65add3ca01b46d2cc77335c1bcf798f79a081f00d509a767c1527bd"
+        "compressedSha256": "80f9d898a1bd3d50f26c8b0ab68d8ae3cde12cf68557daa5a5aac97f1d58987b",
+        "decodedSha256": "5117a7211b703a1977946e3e5aa84acf4de0aab8ead1745f5f3515840e2077be"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-tarsiiformes-batch10-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "0ac9b2d436bc25849e5d63991e729e47e0a4decc77add57ff4208c76a808d139",
-        "decodedSha256": "ca2d93bc6aa768d72c7725c91479694f745f3644ae070b4cb212f05d9d48109c"
+        "compressedSha256": "6709b41757cc66259c04445e20d9053f24b5d7010bd08ab62d35ecdc603f97dd",
+        "decodedSha256": "7fccbbfdb8b11f7e0a51c3526f77394e621e7ad6ff1d63fa9d2a8a4dfdd449f2"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primates-trachypithecus-francoisi-batch20-2026-09-24.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "a377276cc3143f8decb9d5704e4acfbf8bdf38db826d0f6d4ef768cc34741cf6",
-        "decodedSha256": "9e7581196bcb341093795dfd41e469e5cca6efbf2a05fd9c6237a64121bb9865"
+        "compressedSha256": "db5f1f7402de8b59ac1587b440a4681b013a9e8a242c1290dbf4cea51e29fb17",
+        "decodedSha256": "d4ce59eba7b9a08fb98ee4ba9cbd3b7229d8fc027bbb2e4c29bb6e827f3eac1b"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-reptilia-paroedura-bastardi-2026-09-24.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "ff037d92744675d140b8e11351ddb7ea995ce2a6e13d07ca69fcfe1902d6cc3a",
-        "decodedSha256": "49a529a95e45dd153d83397e0bb733a13419b726a35f490f05aeb8e39b193018"
+        "compressedSha256": "4bfd6c937dd47920421c7adfea1a638b6e93f1c5ad9d882b69db3375f9d917cf",
+        "decodedSha256": "7c4a018950a07f4b2dac21ceb773324ebb00251078b26bc13899a80efc32d2fe"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-sanbi-1141-batch-1.jsonl.br",
         "recordCount": 3000,
-        "compressedSha256": "1f0feec9a28b07c63847eece445bb93aea54e3b4e3317d6f98bbc60462f5e8ec",
-        "decodedSha256": "87e890102657033ecce938ab3e88838e47a3ea6c838bd14b64bd4d0ac976ab5a"
+        "compressedSha256": "2b7eb47b720d57812001256d59aef28f52e1180fed19ec57dd27dd35f7d4a8b1",
+        "decodedSha256": "97ba9e6a607c4e7fc4c0012be9db08598066c59e24e16131b08db69e74ec2925"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-sanbi-agathosma.jsonl.br",
         "recordCount": 5,
-        "compressedSha256": "e8976cf5ed964fc64b1a8f28593c64cdf574c1f4e6b5bcbf542fcf7ff2a8d5ee",
-        "decodedSha256": "c3cc47c292d2135b555cf83a042314e86cb743246cc1559d1b2594f3e8f836cb"
+        "compressedSha256": "4d5ecca4f8460e0c9b1cea4844ed14d22f11bf9f778fd4d384951bcdc6fe455d",
+        "decodedSha256": "90866718980efb345a6d6962f9dd048e0f4c80029117401884c6f0c1236b4a83"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-sanbi-cyclopia.jsonl.br",
         "recordCount": 5,
-        "compressedSha256": "d2086987ab302f6f67b03948f13e167640ac5a41739dfaef945da545e36164e8",
-        "decodedSha256": "b6a833af26f9025720c75bc9b4a4b4a4673235a7b6304bab756fd0b1418ec859"
+        "compressedSha256": "1b3a8579ea820c9827f9f7d3bb6e226230de047f1f4859c5ab4ef38809e665d8",
+        "decodedSha256": "d769acf7717e57792a6895999dfb2b18d5a04b5dc247577e0635058d9c743f9f"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch32-2026-09-25.jsonl.br",
         "recordCount": 6,
-        "compressedSha256": "37455a23c30a3677fd4c667228078f89d60b1a311317e47de83feef14c6e8733",
-        "decodedSha256": "1c191271302f934165b0863b6ae53c8ffc3a96361ebf00e14bf0a18898829fed"
+        "compressedSha256": "20e7ba4c8dcb78efdac74d1acd13848efc0a538f9574dc47eff763d077b8365b",
+        "decodedSha256": "0c0db601034beabf2f5245341fc57b5c5b6ab346521c77d98ebfd3a53ffd3d9b"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch34-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "f107adb52087fbf480bfc2a3b73fcf948a5e8d486c939fd077f1123cc9695927",
-        "decodedSha256": "405efc261ef6b5f37d1bc9e2427ae7311e17366f427cc7e9236e7f8ab182ebef"
+        "compressedSha256": "6c99f10a0197066a70beb57b1736c3e3ed21563f8cb027c79a6e688f36e9acbb",
+        "decodedSha256": "39f6bb84d8b7978febc8552f811b0f1898ae176305012f640060d313d2561097"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch35-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "b682142704b0c0c6f8caebfe513b31d563cdd41a4725fc764f7a7a11046b2178",
-        "decodedSha256": "a921a1236eab081bbd7a40b7ecbbb3bf17b1fd4ecd34583daf8a903e3a3f11f0"
+        "compressedSha256": "9c2edb6184cf4aeb300ee5e3a93f3eebec1c28e85d1bbb09f097dbcf279c9a85",
+        "decodedSha256": "76dfd60ed9b30f6d7b3be7f4633b9b0dcb565438bd6e0a6bf72876b2c61e6789"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch36-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "cfaa34e2de1e064c9e1a61f545ca07e8f0c3297a93a7991a443aa08c07354650",
-        "decodedSha256": "9105850d69cce7cbad25a399beabdef05b3624abf923f8f3827fcb354f803226"
+        "compressedSha256": "5165a3149028513cd559b1abbf59ba7190c1556649f527fa7f686afdae6e425f",
+        "decodedSha256": "e05d1689a9e5cb0b6b5315ad4f3126f8e5b488be6826d657182011ab7b1eb565"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch37-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "9dc741e2119e72c3ada57fbaa47883fcf6b1e3e923a35675ca657dbcdeb26d98",
-        "decodedSha256": "ec0dae2d26529e45a10957960ce4eacefe1476a21599ba888046bad2533bbb4d"
+        "compressedSha256": "ce6a2d33afb3d9330ff55c60090fcbf8558330362ca3aa84c68142a236102dd5",
+        "decodedSha256": "dfc1fca9f5191944173da5dfcd5504a749e6f947cf7d6a8f8f33fe3dd9f2377f"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch38-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "360d309a4a501cf6401a5f838ebb63f2ab5fe001e897765daaed3bbedca0fa0e",
-        "decodedSha256": "e3a02fe16ffd7549b44bccfcf6f2eae5af33b86a9e795eb9df759a44fb7dddce"
+        "compressedSha256": "2f11971b01b8c1931e9e3771d8acfb22d2972d620d9d9c588ec98dd7489b293f",
+        "decodedSha256": "680c34a7428b7cfe620f478b1fe45270ad72af8c7208ed736aef9e92408598ad"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch39-2026-09-25.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "476d0fe470c40d1dd02d0696453744fea19b57d6d791c1eed803bb1be37dde57",
-        "decodedSha256": "f435597cfdd0380a8f136c934d489a1b1010db4b3030c6ca5c35eebf3439443b"
+        "compressedSha256": "37b350c8f15d3a98536343241a6c43b747cb02c3f27b661e3717b8dfa46a965c",
+        "decodedSha256": "2ac3dbfcc0265efef0a1a5d9b9b7c5f7dd0b8c24c44082b917c006e9924a9859"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch55-2026-09-27.jsonl.br",
         "recordCount": 2,
-        "compressedSha256": "7ac0e9263066b347d2058b303c483b5a4914eef3078a6433817c3326aef2bf15",
-        "decodedSha256": "defdd1058e30f4e28aeeca234d3d77d0615c2b1b71b9e6f71c8a9e008fd2de75"
+        "compressedSha256": "b38a48fad6a2c4ad35862e0abbfd11bde356bb062e2f36f0edf11d47a3ce8761",
+        "decodedSha256": "46149855eb7581acfb009c828bcba1217bca21fd384715d739c8f99be0531d8c"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-batch56-2026-09-27.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "4c793f0647a4370f752682d5629ab6a2a32049eea237a6aaebdb3baeeeffb96a",
-        "decodedSha256": "3d079b9b2f678dc4a669070e2817f5ad4a878f6ea2ee24df95af8a06ccc5599f"
+        "compressedSha256": "b9ff9e1cf07361d80e86c4bd601c634ac53c9491eca34406d22313bfc30529d1",
+        "decodedSha256": "3fad603fa6bd1f90eb89c5fb57d2b29730878c78fb80da2e112da401fae42a82"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-species-evidence-facet-progress-batch33-2026-09-25.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "f480f80db9a8500fdb9229caae32cab02dcaeb96ae664637525a18d530082d3f",
-        "decodedSha256": "8c40f68c8a4c4544072d2c60906e266d4d7ce305098a6026a27ce321bc9a9b8a"
+        "compressedSha256": "9f4a9abbfe9e884302d2c41a99b07013b68f946091786eb818d51420abf50ab9",
+        "decodedSha256": "29e4e79d2de84bbb9fefbef07531b6bb01751aba2f263b83ceac44b7a53e441d"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-tatraea-2024.jsonl.br",
         "recordCount": 4,
-        "compressedSha256": "aa1cec0ff96835e8be4e819e1bb878cad4f185f16ea0a433649d4a3476844b29",
-        "decodedSha256": "05e932976f8ddcc4bd81a30e9a752d2bf5a4b2a489c74197cd2b7a72e483dd51"
+        "compressedSha256": "cd9ec8d384c3df4d800d34d775b7407ff844b27fca463fda3043d7e84fe22863",
+        "decodedSha256": "d2d699b6cf0488bfdda6157ba51482e22d9ee1e34a3c4e29c7bd4715b504fbdb"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-araneae-caerostris-darwini-batch-2026-09-28.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "5979bf86c83f9a1d83b8d6b3fad202181c2ba92b8e85509da89248a928602404",
-        "decodedSha256": "9978c15f4f27353919cacc60c8ee3179fc89f396195471853fc2e9434a24230b"
+        "compressedSha256": "9c2423fc8474ba125cfad932f0ae1db14d793ca49efd8d9fab4043d6a369a597",
+        "decodedSha256": "9c633a6c6104d0a3b5006f7324b7dc0c54ad7f6e0a675df5aff7c0962fc6e38a"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-cross-clade-species-evidence-2026-09-28.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "d4b50798f275d02c7bdadfb75a052a20c77a1cbdee3543903cf1031b0377a770",
-        "decodedSha256": "c514bfe62befaa671b5f4db6568be2adc9324179518669fda44c14d82c4d5a2d"
+        "compressedSha256": "b6eb67918032365d867accc9a53a7b6b0a7398e70815f674d7a0caec31209da7",
+        "decodedSha256": "672f6eabae5c28a83a161d386c0e592ed8566e1e4e28120c8232855300fd15d8"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-cross-clade-priority-species-evidence-2026-09-28.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "7f86597b19dca867425f05f045ab023774d7521255b2b44b5763f9b3f5c54640",
-        "decodedSha256": "84a380b4a04980c352878885692b8e669b324ce22ab047240a242bd3c46c762c"
+        "compressedSha256": "5b56e355f0462f8f3789459a113159b1a139c369de5d312abb2a8cf5a52b4f98",
+        "decodedSha256": "bcb1010cfe8e9031359fb7d1053cc7e7dce0963b12c9d8e6d99426cead5f67c4"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-c.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "8e96e63b2b4592bb8b9e8a88cbb91340e0a8ae597758f82d9494169609f69cb0",
-        "decodedSha256": "26790fe5e34256756ecb6b3df226a76a5b94c5faadb0454e15f0756651a2e6e7"
+        "compressedSha256": "a7ab69e7164e4eb261d778d63316a2d94065b569c57765c9836ee55a80e4011f",
+        "decodedSha256": "6e7ab46d1ad4d28b549e24c661edc3f71168abd40eb2dfaa051a4f6937d3a07f"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-d.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "1479c8dc89bbed7064a5acc265b67a030275ce7c5b8a9eb6131d0f8041db94be",
-        "decodedSha256": "f8a7c08eaee14e17bafa0500b15efdd578c3dbded9357da0362a0b0e12957965"
+        "compressedSha256": "220560b5e273a7036db50daac25c7ac3de9816d5037b1e212797f035bcf0db59",
+        "decodedSha256": "63f049b68c2e6d60aadec5c93f8764a725eab9b42eafd8b8d88ac1a56f5d67a2"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-e.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "1e3bfa34192eaed027bf83558a28d12c217c866072c9ca5ab9e0170802390b5e",
-        "decodedSha256": "0d95f8f0a47cc383171f297df0ba3cc82a013de212f4ade638fe28e87e6b4fb1"
+        "compressedSha256": "d205d022348a9398a7877a8474e9c3bd569d52eaf2d0d2a85c7e500f450301bd",
+        "decodedSha256": "f52f65ba172f02259f2e4c97b18eecbe5bcf19cc9f70c4eeaf9b5b848c997329"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-f.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "17015f918a59715cfda9abcdf309107eb6af1dc62d0577fdbb0812f4c743c493",
-        "decodedSha256": "f93e9fc67cffdd92f8872760bd7a2d1088ade98a33bce74909717bc1ff9c5e2a"
+        "compressedSha256": "c657853031966d93c5051216cc41172ddd0a3cd0941c9b008617408c682a8965",
+        "decodedSha256": "984b8d781cc0c5a21572eec74e8ee418f1b9bb204d23edf287898b05a3aed86f"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-g.jsonl.br",
         "recordCount": 3,
-        "compressedSha256": "e640e97952d2ebae294ca60844f41ae62065ce35660e164b0c3187e08a0d27ee",
-        "decodedSha256": "f418538a844bf4f609823ef73c425b24536939f5ba90a5ca81d58fb075d05d33"
+        "compressedSha256": "8f2422e79d775e412c9da53549f8e379ca26fda250437f6756f6d032b9e02427",
+        "decodedSha256": "892dd1f3a42114a8c203f70dbdb8488cfdbe8a48479d6bf020a27842470a47f1"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-primate-evidence-2026-09-28-h.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "29c65815a512260e130fa42798f4de2673b320bc0b5833e3c384ad0d6669cee2",
-        "decodedSha256": "9d4e2461d230633e176ab7423723f5e5b4278a5b2d32210ae3d5c9bbd40ca91c"
+        "compressedSha256": "d0a6a9942baa44a0b8a015f8c0958dcdf90f40921dbe3ada45945e37e41c73fd",
+        "decodedSha256": "53dc416156f12a3ea64ab4b6a08f9b364549e646ab016d62d24acc575f315af1"
       },
       {
         "path": "data/knowledge/catalogue-dossiers-cross-clade-evidence-2026-09-28-i.jsonl.br",
         "recordCount": 1,
-        "compressedSha256": "28c34f68dccfac86c3bbc9903e687307922350a1f1cb2110a97d051117d01510",
-        "decodedSha256": "306d1f2ac12a98763d6940089ba641bc6158e29439362f4e85adeeabb375de06"
+        "compressedSha256": "d61581f6f6881563940c06311314c1762f08ff91920d282a5cbe02a197cb97c4",
+        "decodedSha256": "3705a4e54c4e4a59f56fdc51d69cb47f49d24214be8e662a06604a4b13c1db55"
       }
     ],
     "sourceOriginalCollections": [
@@ -584,7 +584,7 @@
       {
         "collection": "floraChinaDescriptions",
         "ledgerPath": "data/sources/flora-china-descriptions-import-ledger.json",
-        "ledgerSha256": "30432acc24117eb20ae3d1426d317d792954ec3878d12b58364e1c9b71c19929",
+        "ledgerSha256": "8cb3ccd84b896c3935191b2225d206f624c5c66bcf586a8bdd9d605e75b6fae4",
         "outputPath": "data/sources/flora-china-descriptions.jsonl.br",
         "outputSha256": "7c293a3e50fe6b5499e149039d1129acc10c0b2347e04222ed402e1e029c13fa",
         "outputBytes": 4812044,
@@ -674,7 +674,7 @@
       {
         "collection": "plaziDescriptions",
         "ledgerPath": "data/sources/plazi-descriptions-import-ledger.json",
-        "ledgerSha256": "d00fc0d321c9028be168b293cd1c8ffff7f17bc03139a97864edfb23babec9e9",
+        "ledgerSha256": "885e92d5084d3e1e0afa887887f5b58e5365e5aa558688de738ca5ac3f5105b1",
         "outputPath": "data/sources/plazi-descriptions.jsonl.gz",
         "outputSha256": "466773ce5eca7e77627dd13903e074c6446eb2d91ba3eaaa53c79f10ebd3cda0",
         "outputBytes": 51512,
@@ -706,12 +706,11 @@
   "counts": {
     "acceptedSpecies": 2183133,
     "sourceOriginalAssociatedSpecies": 80838,
-    "introductorySummarySpecies": 9525,
+    "introductorySummarySpecies": 32624,
     "dossierSpecies": 36354,
     "completeDossierSpecies": 0,
-    "externallyReviewedSpecies": 0,
-    "speciesWithAnyEvidenceStage": 90430,
-    "speciesWithoutAnyEvidenceStage": 2092703,
+    "speciesWithAnyEvidenceStage": 113519,
+    "speciesWithoutAnyEvidenceStage": 2069614,
     "speciesWithoutDossier": 2146779,
     "sourceOriginalCollectionSpecies": {
       "brazilFloraDescriptions": 28896,
@@ -730,25 +729,24 @@
       "turkeyDescriptions": 262
     },
     "profileRanks": {
-      "class": 1,
-      "family": 90,
-      "genus": 684,
-      "order": 14,
-      "species": 9525,
-      "subfamily": 61,
-      "suborder": 1,
-      "superfamily": 3
+      "class": 4,
+      "family": 568,
+      "genus": 4876,
+      "infraclass": 2,
+      "infraorder": 9,
+      "order": 82,
+      "species": 32624,
+      "subclass": 2,
+      "subfamily": 277,
+      "suborder": 28,
+      "subtribe": 8,
+      "superfamily": 21,
+      "tribe": 85
     },
     "dossierStatuses": {
       "missing": 2146779,
       "incomplete": 36354,
       "complete": 0
-    },
-    "expertReviewStatuses": {
-      "no-dossier": 2146779,
-      "not-reviewed": 36354,
-      "maintainer-reviewed": 0,
-      "externally-reviewed": 0
     },
     "claimSourceRightsStatuses": {
       "not-assessed": 2146779,
@@ -815,10 +813,10 @@
       "prefix": "0",
       "path": "data/knowledge/species-evidence-queue/0.jsonl.br",
       "recordCount": 135942,
-      "decodedBytes": 97674927,
-      "decodedSha256": "e097540e66d6e2dad6bb2070fd513c5094d750186eccc34bb3a4b587aeb63531",
-      "compressedBytes": 4669589,
-      "compressedSha256": "5aeffee8c77ac730a9d53d03b6d9c3b6840784421e9e818e3c6678084cf239cd",
+      "decodedBytes": 93175407,
+      "decodedSha256": "caa43d65039f21dbc823e3e745cc0ce19ab570a0a980dc20d377fef42c5664af",
+      "compressedBytes": 4653453,
+      "compressedSha256": "fe37fecb95bbd18c1eab54d04af70f32619d3356d637f0ed8a1516aef7f0c1c8",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -826,10 +824,10 @@
       "prefix": "1",
       "path": "data/knowledge/species-evidence-queue/1.jsonl.br",
       "recordCount": 136976,
-      "decodedBytes": 98405742,
-      "decodedSha256": "45f312a6adc1096d11f929c36d2342ef08981048738dedcf1090ccf7796eec84",
-      "compressedBytes": 4696757,
-      "compressedSha256": "9f13fe781723ff486dfa14c53b16719bda6a0407bf3ef0de846b2353bea654b9",
+      "decodedBytes": 93868829,
+      "decodedSha256": "7f81f3aab37b83d60183e15e3ba3efcb1897c5bc3c60d135014650c28bca237b",
+      "compressedBytes": 4680762,
+      "compressedSha256": "dbd0ef4e2b44f88d8ccf2f4419a7af3fec996702cffaaa094a685aeb6204ac47",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -837,10 +835,10 @@
       "prefix": "2",
       "path": "data/knowledge/species-evidence-queue/2.jsonl.br",
       "recordCount": 136881,
-      "decodedBytes": 98352209,
-      "decodedSha256": "2c5c4a5b4893b47826e2f1cda97ce7c09e05ab1ad7973bffb289cd45c199974b",
-      "compressedBytes": 4695047,
-      "compressedSha256": "ee3674eac5088ed7a6da03ba85e694c763b8de4d1553583fa75bf08dcb195812",
+      "decodedBytes": 93813072,
+      "decodedSha256": "c592441f1f8edeeb3b30f1354354d62a43207808abfcab1264bea8aedd9f4a2b",
+      "compressedBytes": 4678577,
+      "compressedSha256": "5b5d6f8efd3a801c2d1d2d61a3ab96b4fd17354e1af2318940ff729c1fb26200",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -848,10 +846,10 @@
       "prefix": "3",
       "path": "data/knowledge/species-evidence-queue/3.jsonl.br",
       "recordCount": 136169,
-      "decodedBytes": 97848259,
-      "decodedSha256": "326e3f535ff574992eba2d2f783f177b71fdc5228c0028682aab6a5985bb358b",
-      "compressedBytes": 4675190,
-      "compressedSha256": "ca3fe8f020783c3027bf315981b47be8ad20dd733380070636045aee9f7d7bd2",
+      "decodedBytes": 93344352,
+      "decodedSha256": "bfbe45c105d331934267da99b18a5fc80a26e6b8559009199a5d0c2872f6fc49",
+      "compressedBytes": 4659078,
+      "compressedSha256": "d0069f7d05415f43d0083f47d7fb6c7276cf2e3b538305d6cf71764acc41e5db",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -859,10 +857,10 @@
       "prefix": "4",
       "path": "data/knowledge/species-evidence-queue/4.jsonl.br",
       "recordCount": 136426,
-      "decodedBytes": 98022404,
-      "decodedSha256": "364b47803372c756ebb267d8e8af08edd41fa3cd572353d0cb01a6ee56fb10d9",
-      "compressedBytes": 4677818,
-      "compressedSha256": "f023b80d60618d2d75f1d2bbd557828e73afdfbabe98401a8a9c9dc93c695780",
+      "decodedBytes": 93502979,
+      "decodedSha256": "8dd26d6e07dd8fe75917dce8a34618ab662b9e5ca973b97365f58e69561d1e9c",
+      "compressedBytes": 4662065,
+      "compressedSha256": "da0be4fd835a10e607edf8fa459aec2100f6173b2713b8f1d35ed05ba723f692",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -870,10 +868,10 @@
       "prefix": "5",
       "path": "data/knowledge/species-evidence-queue/5.jsonl.br",
       "recordCount": 136354,
-      "decodedBytes": 97966455,
-      "decodedSha256": "42342cd1248c840cb41ce876cacdc79de9ea17f054735439921dc426cca5038e",
-      "compressedBytes": 4677098,
-      "compressedSha256": "be03a0c856cb225fcde472846e24a3c3be3bcd8c3a3956f09d587ef2943e6894",
+      "decodedBytes": 93451424,
+      "decodedSha256": "1b2c25bfae849b4626dfef828941b5bce35916321acb020cfe46080784ccf673",
+      "compressedBytes": 4660967,
+      "compressedSha256": "fb95e7f4d7de7d5133cf305fab9ca0eef7988ed42378b71814c8b5b383c239a9",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -881,10 +879,10 @@
       "prefix": "6",
       "path": "data/knowledge/species-evidence-queue/6.jsonl.br",
       "recordCount": 136391,
-      "decodedBytes": 98008627,
-      "decodedSha256": "470417550c8ab2806d74c1a277d99c001921728db620be1a7878c3cc8c24c380",
-      "compressedBytes": 4683634,
-      "compressedSha256": "1218564ba2029cba2bbfb2213a0f6a992960c969e923b12f20b5d171c3406147",
+      "decodedBytes": 93490643,
+      "decodedSha256": "76f9412fe28e7896ea7b1db9f2381a0f6d01f898ca28ced8c7f861ccb20c71ff",
+      "compressedBytes": 4666646,
+      "compressedSha256": "41248411f5fd81f35e57de862f26d5bdda4b0cfb76e4e5065b57daa74e857120",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -892,10 +890,10 @@
       "prefix": "7",
       "path": "data/knowledge/species-evidence-queue/7.jsonl.br",
       "recordCount": 136584,
-      "decodedBytes": 98139027,
-      "decodedSha256": "c62c6e2912fabc04cc4968ceaf1cb8cde509a0710cc8c62f449a43d6c7eada5a",
-      "compressedBytes": 4686573,
-      "compressedSha256": "d23d6204f887f3395dc41fdda3a159fc0f9b6af1f70728ce44c31c53335eec9a",
+      "decodedBytes": 93611753,
+      "decodedSha256": "60cf62f73781d8cd3f80f61189e5970ba8b1c8fd86c7369e4304f66a17ebda47",
+      "compressedBytes": 4669884,
+      "compressedSha256": "625d1e83b797741d7c7e45a5784018ee0b79cfc4b38975844cb777b4a082e933",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -903,10 +901,10 @@
       "prefix": "8",
       "path": "data/knowledge/species-evidence-queue/8.jsonl.br",
       "recordCount": 136479,
-      "decodedBytes": 98062464,
-      "decodedSha256": "45a4f2eda734fa86d450243f3303d450c5e4d88fe2a53e75321265cfe553dfa1",
-      "compressedBytes": 4510151,
-      "compressedSha256": "05c69cf611c4230b5698c0c52beec8fc12b0e3abdee4079b4ed519b4db2c342b",
+      "decodedBytes": 93540644,
+      "decodedSha256": "e8e0fd924fd798f936b4d8c8bc91c7fd5a07e5ac7f40699ab04e017cf64330cd",
+      "compressedBytes": 4663750,
+      "compressedSha256": "cdba08f90829d0dbe5ba31ba9ff8d7970c9e9d11a298ee7b933d04d9fa9637ac",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -914,10 +912,10 @@
       "prefix": "9",
       "path": "data/knowledge/species-evidence-queue/9.jsonl.br",
       "recordCount": 136401,
-      "decodedBytes": 98007252,
-      "decodedSha256": "94a3d951ad694703e660152a7f6a42626111feeaf9e6bdb6a252e64ffee4d490",
-      "compressedBytes": 4678808,
-      "compressedSha256": "33dd5d2610c309abfda2317a9d6b696ca211f856d71e7029a6ddab0c382ff0b0",
+      "decodedBytes": 93488031,
+      "decodedSha256": "dbcd3fe13c38b9f1843ff6b80751d1f6ef1c184638519e106250656237629068",
+      "compressedBytes": 4662553,
+      "compressedSha256": "ce02d99cb8c5cab147a6a0b412b07484146c8b2afdba78764cf3219f54627d01",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -925,10 +923,10 @@
       "prefix": "a",
       "path": "data/knowledge/species-evidence-queue/a.jsonl.br",
       "recordCount": 136281,
-      "decodedBytes": 97920357,
-      "decodedSha256": "b033e35a394ea39a69815e30747221a6f07faf75c1774e351ec018f69aa1708c",
-      "compressedBytes": 4675075,
-      "compressedSha256": "4a4342257e2495c3324bcf3f35f78d97cbf1c5a83c3b4134e55af10ae6333472",
+      "decodedBytes": 93406471,
+      "decodedSha256": "a76725c9fbed5eebf4d4d72fb69e0ed2a66317b81f35bb1584a5048f8ddd208d",
+      "compressedBytes": 4659510,
+      "compressedSha256": "7f23f390cec1277905fb21f87c2f2e6102f391c82ca0edbf79e19d2a428c715b",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -936,10 +934,10 @@
       "prefix": "b",
       "path": "data/knowledge/species-evidence-queue/b.jsonl.br",
       "recordCount": 135951,
-      "decodedBytes": 97688084,
-      "decodedSha256": "70204f9d3da9aa5e539bac9fdf73682c488278fd68e0c03727cd9a838830286b",
-      "compressedBytes": 4664253,
-      "compressedSha256": "cec4360235441bdd877a8e476ed94dfed950641c624446aab2b0cd9c15c925e2",
+      "decodedBytes": 93182595,
+      "decodedSha256": "ef1c7170da77a3cf5466056310656b45e3b3e1af94f25fee853814f91bce63d1",
+      "compressedBytes": 4648055,
+      "compressedSha256": "6472e65c75e2faea15835c615ca07cd156352a9377aa0331bacb47807b066752",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -947,10 +945,10 @@
       "prefix": "c",
       "path": "data/knowledge/species-evidence-queue/c.jsonl.br",
       "recordCount": 136532,
-      "decodedBytes": 98106114,
-      "decodedSha256": "cf88b2586bebadd8e1c61ea90079aadf93165c6bba054d0c2e89b4b20df6785f",
-      "compressedBytes": 4683072,
-      "compressedSha256": "1764e566a888d6ef3e741e654eb069478cd3be51b84bb2ce1bcddf4a16291d6e",
+      "decodedBytes": 93590025,
+      "decodedSha256": "71337e6f1d78ee8ec64e199e9b2781c27ed5209f4dc5d2ea90e694a8b233bc42",
+      "compressedBytes": 4667033,
+      "compressedSha256": "d7e0002319eb0be1e8b652e838c4e0292c05b155fec725e2fa055fd0ea766f86",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -958,10 +956,10 @@
       "prefix": "d",
       "path": "data/knowledge/species-evidence-queue/d.jsonl.br",
       "recordCount": 136588,
-      "decodedBytes": 98151333,
-      "decodedSha256": "0025e20c4b7c73127a52ad4815b18408c29278de05a2f21fed112e61148880fa",
-      "compressedBytes": 4686260,
-      "compressedSha256": "f74fe6b0e17923d219c086db373797cf19c04e991bc41ea599badf852ed86b9a",
+      "decodedBytes": 93623218,
+      "decodedSha256": "4fe5a37de4a133cdfd541afadeef49e1810d92a6f7a025e9b8bf81f3ad5b1cc7",
+      "compressedBytes": 4669665,
+      "compressedSha256": "39b5014b948200e8576e076dfa841744328de43746fc8bf0718bfcae53a191ee",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -969,10 +967,10 @@
       "prefix": "e",
       "path": "data/knowledge/species-evidence-queue/e.jsonl.br",
       "recordCount": 136267,
-      "decodedBytes": 97910992,
-      "decodedSha256": "d60aa593c3014380baaed7c1acbe1152368d648c6aa55b9a2fa35b4d8962aa54",
-      "compressedBytes": 4673639,
-      "compressedSha256": "f90a1df36e7beee019fdfc3f6c901b135c77df2732ecdd3f0d1221c64dcfb31c",
+      "decodedBytes": 93396002,
+      "decodedSha256": "6b2fd3fea01979aae5e35ab310b89f9abf72f2c7cebd612ff3bfb3c08d12095c",
+      "compressedBytes": 4657386,
+      "compressedSha256": "9c61c3cacba2b27adc5981d7cad676555b5780e29469eee12c019a1a8c2869f3",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     },
@@ -980,10 +978,10 @@
       "prefix": "f",
       "path": "data/knowledge/species-evidence-queue/f.jsonl.br",
       "recordCount": 136911,
-      "decodedBytes": 98380441,
-      "decodedSha256": "a167c4cbedebc47d6c7694d15735774aa7cd895de4ac693ae52e0595794f3c5e",
-      "compressedBytes": 4695411,
-      "compressedSha256": "5a475ee7cc0b564d23831f72c672762730eb80202db3505b7a5ba0f181c647fb",
+      "decodedBytes": 93847875,
+      "decodedSha256": "c74fafc4deb5288a0a6e2c8d6044092b25a8ba52d3ffb70d5276869c398158f5",
+      "compressedBytes": 4679302,
+      "compressedSha256": "5040b788047d7c0e515259747c1a2c55a9f910589f74e6940ee8411a5e5d47e6",
       "encoding": "brotli-jsonl",
       "brotliQuality": 8
     }

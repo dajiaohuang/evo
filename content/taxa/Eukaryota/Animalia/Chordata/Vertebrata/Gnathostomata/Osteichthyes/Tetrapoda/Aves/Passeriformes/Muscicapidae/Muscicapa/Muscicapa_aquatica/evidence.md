@@ -9,7 +9,6 @@ records:
     name:
       zh: Muscicapa aquatica
       en: Muscicapa aquatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

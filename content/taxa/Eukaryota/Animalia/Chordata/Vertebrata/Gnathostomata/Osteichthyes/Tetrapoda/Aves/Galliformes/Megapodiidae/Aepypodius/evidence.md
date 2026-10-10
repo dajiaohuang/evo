@@ -9,7 +9,6 @@ records:
     name:
       zh: Aepypodius
       en: Aepypodius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

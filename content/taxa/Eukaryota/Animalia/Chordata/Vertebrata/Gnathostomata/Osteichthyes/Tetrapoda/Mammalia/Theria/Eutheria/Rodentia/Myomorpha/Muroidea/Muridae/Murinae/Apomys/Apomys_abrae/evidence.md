@@ -9,7 +9,6 @@ records:
     name:
       zh: Apomys abrae
       en: Apomys abrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

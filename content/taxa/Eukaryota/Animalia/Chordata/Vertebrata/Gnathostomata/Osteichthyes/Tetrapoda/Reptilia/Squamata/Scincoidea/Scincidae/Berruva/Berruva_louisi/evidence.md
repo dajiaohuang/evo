@@ -9,7 +9,6 @@ records:
     name:
       zh: Berruva louisi
       en: Berruva louisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

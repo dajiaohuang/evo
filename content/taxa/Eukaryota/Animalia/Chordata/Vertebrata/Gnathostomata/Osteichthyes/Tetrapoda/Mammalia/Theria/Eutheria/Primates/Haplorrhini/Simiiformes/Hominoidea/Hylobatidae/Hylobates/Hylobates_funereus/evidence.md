@@ -9,7 +9,6 @@ records:
     name:
       en: Eastern Gray Gibbon
       zh: 东部灰长臂猿
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: behaviour

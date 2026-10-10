@@ -9,7 +9,6 @@ records:
     name:
       en: Adelophryne glandulata
       zh: Adelophryne glandulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

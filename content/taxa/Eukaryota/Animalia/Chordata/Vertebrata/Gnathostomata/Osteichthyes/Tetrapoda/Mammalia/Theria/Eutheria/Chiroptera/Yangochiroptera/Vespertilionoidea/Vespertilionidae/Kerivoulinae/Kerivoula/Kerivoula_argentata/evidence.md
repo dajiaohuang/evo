@@ -9,7 +9,6 @@ records:
     name:
       zh: Kerivoula argentata
       en: Kerivoula argentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

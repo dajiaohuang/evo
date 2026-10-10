@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax iquitorum
       zh: Scinax iquitorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

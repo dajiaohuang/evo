@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: flynn-2005-carnivora-molecular DOI-linked primary source
       referenceLinks:
         - referenceId: flynn-2005-carnivora-molecular
           relation: supports

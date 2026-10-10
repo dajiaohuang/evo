@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus dimbullae
       zh: Pseudophilautus dimbullae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

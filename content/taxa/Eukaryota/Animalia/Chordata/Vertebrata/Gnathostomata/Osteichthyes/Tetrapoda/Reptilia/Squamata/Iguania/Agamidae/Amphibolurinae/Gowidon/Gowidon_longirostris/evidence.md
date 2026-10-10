@@ -9,7 +9,6 @@ records:
     name:
       zh: Gowidon longirostris
       en: Gowidon longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

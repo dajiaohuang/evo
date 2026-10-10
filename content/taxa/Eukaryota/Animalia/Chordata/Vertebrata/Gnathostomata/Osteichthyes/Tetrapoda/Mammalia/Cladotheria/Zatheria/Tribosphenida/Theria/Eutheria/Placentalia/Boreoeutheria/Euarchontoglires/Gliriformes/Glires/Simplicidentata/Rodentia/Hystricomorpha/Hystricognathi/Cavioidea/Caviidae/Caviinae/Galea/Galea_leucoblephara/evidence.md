@@ -9,7 +9,6 @@ records:
     name:
       zh: Galea leucoblephara
       en: Galea leucoblephara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

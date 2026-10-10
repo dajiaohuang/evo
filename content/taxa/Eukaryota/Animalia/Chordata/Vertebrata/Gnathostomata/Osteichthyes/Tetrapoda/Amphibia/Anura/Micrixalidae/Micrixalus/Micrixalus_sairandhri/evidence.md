@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus sairandhri
       zh: Micrixalus sairandhri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

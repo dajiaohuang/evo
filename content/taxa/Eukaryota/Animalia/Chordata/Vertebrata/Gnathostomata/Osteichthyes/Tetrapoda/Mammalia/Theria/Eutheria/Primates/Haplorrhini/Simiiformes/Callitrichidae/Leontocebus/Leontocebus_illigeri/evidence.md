@@ -9,7 +9,6 @@ records:
     name:
       zh: 伊利格鞍背狨
       en: Illiger's Saddle-back Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

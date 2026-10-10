@@ -9,7 +9,6 @@ records:
     name:
       en: Micryletta lineata
       zh: Micryletta lineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

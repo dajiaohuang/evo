@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo tuberospinius
       zh: Bufo tuberospinius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

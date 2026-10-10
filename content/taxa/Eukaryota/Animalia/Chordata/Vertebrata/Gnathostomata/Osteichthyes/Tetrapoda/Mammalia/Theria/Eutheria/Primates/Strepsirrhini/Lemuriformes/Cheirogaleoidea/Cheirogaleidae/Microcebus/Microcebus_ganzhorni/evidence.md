@@ -9,7 +9,6 @@ records:
     name:
       zh: 甘茨霍恩鼠狐猴
       en: Ganzhorn's Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

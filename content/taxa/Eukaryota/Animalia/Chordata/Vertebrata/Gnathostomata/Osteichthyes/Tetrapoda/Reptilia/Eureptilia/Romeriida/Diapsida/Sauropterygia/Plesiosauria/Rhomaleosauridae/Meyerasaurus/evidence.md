@@ -9,7 +9,6 @@ records:
     name:
       zh: Meyerasaurus
       en: Meyerasaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

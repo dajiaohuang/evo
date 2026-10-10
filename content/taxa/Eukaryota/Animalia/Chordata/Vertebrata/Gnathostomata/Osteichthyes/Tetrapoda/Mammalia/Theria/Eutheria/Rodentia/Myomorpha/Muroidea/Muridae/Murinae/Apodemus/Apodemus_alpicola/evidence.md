@@ -9,7 +9,6 @@ records:
     name:
       zh: Apodemus alpicola
       en: Apodemus alpicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

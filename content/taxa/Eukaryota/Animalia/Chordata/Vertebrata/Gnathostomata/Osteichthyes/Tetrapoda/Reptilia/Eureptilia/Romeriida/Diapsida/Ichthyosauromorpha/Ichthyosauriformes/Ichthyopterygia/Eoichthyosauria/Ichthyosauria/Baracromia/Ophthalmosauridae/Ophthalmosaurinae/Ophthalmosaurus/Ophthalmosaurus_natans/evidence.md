@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophthalmosaurus natans
       en: Ophthalmosaurus natans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

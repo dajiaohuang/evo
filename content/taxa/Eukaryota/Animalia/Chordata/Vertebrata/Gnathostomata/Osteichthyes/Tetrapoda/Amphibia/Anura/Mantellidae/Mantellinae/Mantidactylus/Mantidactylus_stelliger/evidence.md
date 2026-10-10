@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus stelliger
       zh: Mantidactylus stelliger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lytorhynchus kennedyi
       en: Lytorhynchus kennedyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

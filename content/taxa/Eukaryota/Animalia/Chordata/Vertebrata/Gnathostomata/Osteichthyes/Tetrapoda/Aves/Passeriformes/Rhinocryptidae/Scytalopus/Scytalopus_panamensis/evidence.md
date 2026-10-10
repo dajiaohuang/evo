@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus panamensis
       en: Scytalopus panamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

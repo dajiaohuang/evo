@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiopleurodon wellesi
       en: Plesiopleurodon wellesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

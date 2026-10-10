@@ -9,7 +9,6 @@ records:
     name:
       zh: Peregocetus pacificus
       en: Peregocetus pacificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

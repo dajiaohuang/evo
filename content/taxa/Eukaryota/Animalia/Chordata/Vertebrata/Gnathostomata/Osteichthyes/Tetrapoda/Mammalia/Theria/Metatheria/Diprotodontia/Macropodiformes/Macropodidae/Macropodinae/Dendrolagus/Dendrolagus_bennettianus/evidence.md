@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrolagus bennettianus
       en: Dendrolagus bennettianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

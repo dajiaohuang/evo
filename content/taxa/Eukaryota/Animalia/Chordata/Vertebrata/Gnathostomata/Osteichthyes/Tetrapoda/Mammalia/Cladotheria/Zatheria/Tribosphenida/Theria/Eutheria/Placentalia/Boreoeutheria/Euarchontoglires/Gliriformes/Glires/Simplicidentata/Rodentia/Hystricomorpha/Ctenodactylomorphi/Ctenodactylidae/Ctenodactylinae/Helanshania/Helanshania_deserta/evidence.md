@@ -9,7 +9,6 @@ records:
     name:
       zh: Helanshania deserta
       en: Helanshania deserta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

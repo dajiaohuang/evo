@@ -9,7 +9,6 @@ records:
     name:
       zh: Neosclerocalyptus castellanosi
       en: Neosclerocalyptus castellanosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

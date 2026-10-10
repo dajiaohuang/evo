@@ -9,7 +9,6 @@ records:
     name:
       zh: Gavia paradoxa
       en: Gavia paradoxa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

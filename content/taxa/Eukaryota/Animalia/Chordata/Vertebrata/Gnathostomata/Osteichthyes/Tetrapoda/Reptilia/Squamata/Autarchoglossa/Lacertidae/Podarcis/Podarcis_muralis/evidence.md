@@ -9,7 +9,6 @@ records:
     name:
       zh: Podarcis muralis
       en: Podarcis muralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

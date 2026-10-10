@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa awajun
       zh: Bolitoglossa awajun
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

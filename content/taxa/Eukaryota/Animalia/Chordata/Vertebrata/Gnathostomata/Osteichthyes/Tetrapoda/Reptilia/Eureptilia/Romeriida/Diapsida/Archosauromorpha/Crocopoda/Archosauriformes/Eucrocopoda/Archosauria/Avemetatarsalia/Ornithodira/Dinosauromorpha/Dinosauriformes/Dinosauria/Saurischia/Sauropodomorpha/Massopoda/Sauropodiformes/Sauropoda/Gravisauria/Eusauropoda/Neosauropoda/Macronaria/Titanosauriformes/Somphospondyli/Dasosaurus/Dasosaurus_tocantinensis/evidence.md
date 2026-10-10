@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasosaurus tocantinensis
       en: Dasosaurus tocantinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Maxomys
       en: Maxomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

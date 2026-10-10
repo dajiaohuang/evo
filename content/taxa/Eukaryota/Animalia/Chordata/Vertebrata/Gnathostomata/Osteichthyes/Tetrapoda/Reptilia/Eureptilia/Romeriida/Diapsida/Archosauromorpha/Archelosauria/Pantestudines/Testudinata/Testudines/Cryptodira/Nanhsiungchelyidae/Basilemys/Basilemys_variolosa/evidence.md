@@ -9,7 +9,6 @@ records:
     name:
       zh: Basilemys variolosa
       en: Basilemys variolosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

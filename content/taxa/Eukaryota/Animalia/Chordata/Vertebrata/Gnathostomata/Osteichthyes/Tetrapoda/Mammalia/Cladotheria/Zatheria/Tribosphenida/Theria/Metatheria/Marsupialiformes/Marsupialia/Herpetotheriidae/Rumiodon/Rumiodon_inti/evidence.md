@@ -9,7 +9,6 @@ records:
     name:
       zh: Rumiodon inti
       en: Rumiodon inti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

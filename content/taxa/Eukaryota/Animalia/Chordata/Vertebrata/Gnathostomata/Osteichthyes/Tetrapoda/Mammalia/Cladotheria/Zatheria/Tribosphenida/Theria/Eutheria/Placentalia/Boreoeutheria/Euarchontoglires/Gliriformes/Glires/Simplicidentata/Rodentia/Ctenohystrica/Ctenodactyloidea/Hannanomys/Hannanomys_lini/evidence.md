@@ -9,7 +9,6 @@ records:
     name:
       zh: Hannanomys lini
       en: Hannanomys lini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

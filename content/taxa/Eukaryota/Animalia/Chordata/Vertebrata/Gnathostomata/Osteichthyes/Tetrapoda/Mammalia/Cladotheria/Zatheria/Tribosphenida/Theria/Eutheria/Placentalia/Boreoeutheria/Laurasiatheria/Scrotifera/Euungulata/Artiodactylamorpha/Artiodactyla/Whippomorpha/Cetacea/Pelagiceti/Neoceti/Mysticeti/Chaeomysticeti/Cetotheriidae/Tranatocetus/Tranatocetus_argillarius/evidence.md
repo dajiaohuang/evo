@@ -9,7 +9,6 @@ records:
     name:
       zh: Tranatocetus argillarius
       en: Tranatocetus argillarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

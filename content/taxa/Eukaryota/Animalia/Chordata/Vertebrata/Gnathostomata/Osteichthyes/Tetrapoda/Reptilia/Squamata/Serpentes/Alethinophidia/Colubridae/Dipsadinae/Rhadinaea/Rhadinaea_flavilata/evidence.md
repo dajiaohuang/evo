@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinaea flavilata
       en: Rhadinaea flavilata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

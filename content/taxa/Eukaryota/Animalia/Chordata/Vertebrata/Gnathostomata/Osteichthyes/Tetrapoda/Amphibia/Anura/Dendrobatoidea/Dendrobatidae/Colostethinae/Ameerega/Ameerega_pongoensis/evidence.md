@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega pongoensis
       zh: Ameerega pongoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

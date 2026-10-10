@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractus alytogrammus
       en: Atractus alytogrammus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

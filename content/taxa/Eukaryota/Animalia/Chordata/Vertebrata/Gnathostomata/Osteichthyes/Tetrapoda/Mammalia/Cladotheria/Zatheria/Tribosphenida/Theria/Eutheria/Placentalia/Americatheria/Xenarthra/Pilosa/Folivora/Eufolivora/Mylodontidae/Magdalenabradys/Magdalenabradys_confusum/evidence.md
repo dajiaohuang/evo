@@ -9,7 +9,6 @@ records:
     name:
       zh: Magdalenabradys confusum
       en: Magdalenabradys confusum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

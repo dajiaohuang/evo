@@ -9,7 +9,6 @@ records:
     name:
       zh: Coscinocercus marcalaini
       en: Coscinocercus marcalaini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

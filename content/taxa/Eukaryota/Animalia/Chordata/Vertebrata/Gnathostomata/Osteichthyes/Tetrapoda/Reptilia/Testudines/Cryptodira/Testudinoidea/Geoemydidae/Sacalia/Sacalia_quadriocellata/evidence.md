@@ -9,7 +9,6 @@ records:
     name:
       zh: Sacalia quadriocellata
       en: Sacalia quadriocellata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

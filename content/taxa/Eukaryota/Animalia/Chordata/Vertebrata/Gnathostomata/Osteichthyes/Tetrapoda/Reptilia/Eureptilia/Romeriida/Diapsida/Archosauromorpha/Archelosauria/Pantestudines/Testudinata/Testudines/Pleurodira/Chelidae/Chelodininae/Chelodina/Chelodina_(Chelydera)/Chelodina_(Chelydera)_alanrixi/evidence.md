@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelodina (Chelydera) alanrixi
       en: Chelodina (Chelydera) alanrixi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

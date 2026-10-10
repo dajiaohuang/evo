@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus saueri
       zh: Philautus saueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

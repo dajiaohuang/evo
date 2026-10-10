@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanlingilambda
       en: Nanlingilambda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

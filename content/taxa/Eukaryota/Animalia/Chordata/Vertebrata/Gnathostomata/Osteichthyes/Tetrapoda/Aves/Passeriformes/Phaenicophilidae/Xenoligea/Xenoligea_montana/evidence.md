@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenoligea montana
       en: Xenoligea montana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

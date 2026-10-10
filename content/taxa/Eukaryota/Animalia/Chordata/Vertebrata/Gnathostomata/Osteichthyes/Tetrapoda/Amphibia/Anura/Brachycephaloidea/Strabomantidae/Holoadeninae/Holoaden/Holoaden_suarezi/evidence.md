@@ -9,7 +9,6 @@ records:
     name:
       en: Holoaden suarezi
       zh: Holoaden suarezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

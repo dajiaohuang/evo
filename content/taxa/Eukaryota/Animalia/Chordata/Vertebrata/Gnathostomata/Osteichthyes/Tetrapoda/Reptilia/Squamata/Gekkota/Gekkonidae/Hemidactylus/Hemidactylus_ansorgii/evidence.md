@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus ansorgii
       en: Hemidactylus ansorgii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

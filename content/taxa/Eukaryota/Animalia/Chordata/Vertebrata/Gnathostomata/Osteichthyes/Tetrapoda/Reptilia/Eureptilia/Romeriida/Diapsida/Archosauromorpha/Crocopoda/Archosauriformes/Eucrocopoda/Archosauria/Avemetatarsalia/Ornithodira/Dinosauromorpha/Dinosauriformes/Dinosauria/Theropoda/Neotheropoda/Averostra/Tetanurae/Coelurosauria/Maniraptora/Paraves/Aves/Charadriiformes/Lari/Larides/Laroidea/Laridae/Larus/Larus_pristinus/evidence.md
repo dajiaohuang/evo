@@ -9,7 +9,6 @@ records:
     name:
       zh: Larus pristinus
       en: Larus pristinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

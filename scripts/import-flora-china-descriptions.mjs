@@ -19,7 +19,7 @@ if (!brotliDecompressSync(compressed).equals(source)) throw new Error('Source st
 const output = 'data/sources/flora-china-descriptions.jsonl.br'
 writeFileSync(resolve(root, output), compressed)
 const ledger = {
-  provider: 'Missouri Botanical Garden', title: 'Flora of China', retrievedAt: '2026-09-05', reviewedAt: '2026-09-06',
+  provider: 'Missouri Botanical Garden', title: 'Flora of China', retrievedAt: '2026-09-05',
   sourceVersion: 'WFO Flora of China retained archive, 2026-09-05',
   sourceUrl: 'https://files.worldfloraonline.org/files/eFloras/Flora_Of_China/Flora_Of_China.zip',
   license: 'CC BY 4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',

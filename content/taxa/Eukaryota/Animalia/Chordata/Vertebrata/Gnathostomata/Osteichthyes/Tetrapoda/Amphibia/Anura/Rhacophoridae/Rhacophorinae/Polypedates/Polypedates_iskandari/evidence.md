@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates iskandari
       zh: Polypedates iskandari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

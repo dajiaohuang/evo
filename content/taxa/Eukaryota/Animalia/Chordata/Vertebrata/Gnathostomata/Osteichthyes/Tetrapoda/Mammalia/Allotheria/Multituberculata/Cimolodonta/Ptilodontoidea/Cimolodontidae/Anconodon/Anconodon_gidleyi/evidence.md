@@ -9,7 +9,6 @@ records:
     name:
       zh: Anconodon gidleyi
       en: Anconodon gidleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

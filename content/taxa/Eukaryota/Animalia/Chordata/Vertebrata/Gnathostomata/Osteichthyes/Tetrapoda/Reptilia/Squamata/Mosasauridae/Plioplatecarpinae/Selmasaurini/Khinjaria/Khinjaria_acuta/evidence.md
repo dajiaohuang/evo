@@ -9,7 +9,6 @@ records:
     name:
       zh: Khinjaria acuta
       en: Khinjaria acuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

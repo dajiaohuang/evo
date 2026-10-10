@@ -9,7 +9,6 @@ records:
     name:
       zh: Agama hulbertorum
       en: Agama hulbertorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

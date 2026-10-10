@@ -9,7 +9,6 @@ records:
     name:
       zh: Crichtonpelta benxiensis
       en: Crichtonpelta benxiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

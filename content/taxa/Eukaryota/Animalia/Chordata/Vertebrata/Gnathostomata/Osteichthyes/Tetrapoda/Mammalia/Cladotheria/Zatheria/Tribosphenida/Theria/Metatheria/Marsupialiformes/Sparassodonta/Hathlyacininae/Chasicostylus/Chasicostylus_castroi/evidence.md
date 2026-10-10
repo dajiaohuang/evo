@@ -9,7 +9,6 @@ records:
     name:
       zh: Chasicostylus castroi
       en: Chasicostylus castroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

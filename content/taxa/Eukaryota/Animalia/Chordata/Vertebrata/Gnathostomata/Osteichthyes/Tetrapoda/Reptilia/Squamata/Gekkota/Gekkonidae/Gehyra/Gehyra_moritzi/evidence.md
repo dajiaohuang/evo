@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra moritzi
       en: Gehyra moritzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

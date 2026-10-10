@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: wesley-hunt-flynn-2005-miacoidea DOI-linked primary source
       referenceLinks:
         - referenceId: wesley-hunt-flynn-2005-miacoidea
           relation: supports

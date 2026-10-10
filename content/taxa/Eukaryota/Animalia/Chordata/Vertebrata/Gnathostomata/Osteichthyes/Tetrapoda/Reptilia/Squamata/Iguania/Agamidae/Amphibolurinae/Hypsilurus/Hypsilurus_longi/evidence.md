@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsilurus longi
       en: Hypsilurus longi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

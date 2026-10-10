@@ -9,7 +9,6 @@ records:
     name:
       zh: Albalophosaurus yamaguchiorum
       en: Albalophosaurus yamaguchiorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

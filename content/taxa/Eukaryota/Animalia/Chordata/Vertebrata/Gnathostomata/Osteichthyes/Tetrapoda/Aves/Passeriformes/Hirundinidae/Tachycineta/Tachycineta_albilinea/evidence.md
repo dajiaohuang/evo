@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachycineta albilinea
       en: Tachycineta albilinea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

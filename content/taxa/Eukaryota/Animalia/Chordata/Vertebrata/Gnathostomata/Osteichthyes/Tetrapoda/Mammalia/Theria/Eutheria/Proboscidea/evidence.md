@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: upham-2019-mammal-tree concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: upham-2019-mammal-tree
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: upham-2019-mammal-tree
           locator: Article e3000494; Global mammal topology; DNA-only versus completed trees
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
   catalogue-profile:
     scientificName: Proboscidea
@@ -72,7 +68,6 @@ records:
     name:
       zh: Proboscidea
       en: Proboscidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

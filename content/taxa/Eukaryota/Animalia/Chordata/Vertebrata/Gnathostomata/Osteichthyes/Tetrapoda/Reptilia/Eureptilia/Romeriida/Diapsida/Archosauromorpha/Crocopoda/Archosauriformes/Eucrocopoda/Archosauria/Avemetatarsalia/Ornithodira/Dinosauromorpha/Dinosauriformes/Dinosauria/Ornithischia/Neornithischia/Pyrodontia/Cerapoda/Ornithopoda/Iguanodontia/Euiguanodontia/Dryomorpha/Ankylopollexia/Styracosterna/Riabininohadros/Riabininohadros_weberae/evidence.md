@@ -9,7 +9,6 @@ records:
     name:
       zh: Riabininohadros weberae
       en: Riabininohadros weberae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

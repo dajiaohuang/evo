@@ -9,7 +9,6 @@ records:
     name:
       zh: Odontophorus dialeucos
       en: Odontophorus dialeucos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

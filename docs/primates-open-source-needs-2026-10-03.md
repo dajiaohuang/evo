@@ -2,7 +2,7 @@
 
 固定接受种分母 530。原目标 19 项，已记录关闭 4 项（BSD27、STGT、4HTQR、BSCYK），仍保留 15 项；当前能识别 10 个 ID，另外 5 个原始 ID 未恢复。本记录不减少缺口数，也不把双语页存在或字段增加计为缺口关闭。
 
-本轮读取当前双语页和来源绑定，以下是下一份材料需要解决的具体关系；不是声称这些材料在全球不存在。既有论文及名录解释按各页原来源日期保留，未在本轮重新裁决外部分类。完整分布、全种数量、dossier 和专家审查分别记录，不能要求每个局地研究导读同时具备它们。
+本轮读取当前双语页和来源绑定，以下是下一份材料需要解决的具体关系；不是声称这些材料在全球不存在。既有论文及名录解释按各页原来源日期保留，未在本轮重新裁决外部分类。完整分布、全种数量、dossier 分别记录，不能要求每个局地研究导读同时具备它们。
 
 ## 1. 名称或模式与研究材料的对应
 
@@ -21,7 +21,7 @@
 
 ## 3. 已有区域摘要仍需直接生态观察
 
-- **BSCWK Cacajao rubicundus** — 已有官方区域出现与保护摘要，但栖地关联部分为推断，本页尚缺独立种级生态研究。需要有个体鉴定、方法及样本条件的直接生态观察；数量估计和专家审查是另行交付，不是局地来源限定导读的前提。 [中文页](../content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/Cacajao_rubicundus/page.zh.md) · [English](../content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/Cacajao_rubicundus/page.en.md)。
+- **BSCWK Cacajao rubicundus** — 已有官方区域出现与保护摘要，但栖地关联部分为推断，本页尚缺独立种级生态研究。需要有个体鉴定、方法及样本条件的直接生态观察；数量估计是另行交付，不是局地来源限定导读的前提。 [中文页](../content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/Cacajao_rubicundus/page.zh.md) · [English](../content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Cacajao/Cacajao_rubicundus/page.en.md)。
 
 ## 4. 尚未恢复的五个原始目标
 
@@ -29,7 +29,7 @@
 
 ## 本轮实际变更与访问边界
 
-十个物种的 20 个双语页面改为具体、可读的章节标题，机器指针、来源绑定、正文事实与成熟度保持原意。移除两个英文限制段落的重复专家审查句。Smithsonian 1949 年原论文的网页读取失败，直接下载返回 HTTP 403，未获得原 PDF，因此未从检索摘要写入新生物学事实。逐页路径、来源 ID、文件哈希及下一份材料要求见 [来源需求记录](../data/sources/primates-open-source-needs-2026-10-03.json)。
+十个物种的 20 个双语页面改为具体、可读的章节标题，机器指针、来源绑定与正文事实保持原意。移除两个英文限制段落的重复专家审查句。Smithsonian 1949 年原论文的网页读取失败，直接下载返回 HTTP 403，未获得原 PDF，因此未从检索摘要写入新生物学事实。逐页路径、来源 ID、文件哈希及下一份材料要求见 [来源需求记录](../data/sources/primates-open-source-needs-2026-10-03.json)。
 
 内容阶段未运行测试、类型检查、验证器、生成、提交或发布；运行端交付仍待完成。
 

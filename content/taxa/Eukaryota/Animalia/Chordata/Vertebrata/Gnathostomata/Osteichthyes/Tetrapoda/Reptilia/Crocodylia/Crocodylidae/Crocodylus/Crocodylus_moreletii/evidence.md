@@ -9,7 +9,6 @@ records:
     name:
       zh: 莫雷莱鳄
       en: Morelet's crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

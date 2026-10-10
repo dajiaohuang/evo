@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesokia indica
       en: Nesokia indica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

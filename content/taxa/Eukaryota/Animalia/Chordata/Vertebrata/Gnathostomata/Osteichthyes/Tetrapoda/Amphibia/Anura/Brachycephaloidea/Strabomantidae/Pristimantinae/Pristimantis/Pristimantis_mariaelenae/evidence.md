@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis mariaelenae
       zh: Pristimantis mariaelenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

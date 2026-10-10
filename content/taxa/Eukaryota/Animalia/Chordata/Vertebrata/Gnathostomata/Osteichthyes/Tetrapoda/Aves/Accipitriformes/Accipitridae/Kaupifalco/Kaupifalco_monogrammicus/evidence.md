@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaupifalco monogrammicus
       en: Kaupifalco monogrammicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

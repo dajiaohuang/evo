@@ -9,7 +9,6 @@ records:
     name:
       zh: Colobomycter pholeter
       en: Colobomycter pholeter
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

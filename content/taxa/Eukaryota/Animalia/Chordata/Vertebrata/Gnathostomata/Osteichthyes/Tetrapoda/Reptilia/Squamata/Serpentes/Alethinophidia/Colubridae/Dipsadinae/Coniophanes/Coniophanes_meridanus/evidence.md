@@ -9,7 +9,6 @@ records:
     name:
       zh: Coniophanes meridanus
       en: Coniophanes meridanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

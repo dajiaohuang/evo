@@ -9,7 +9,6 @@ records:
     name:
       zh: Dysithamnus puncticeps
       en: Dysithamnus puncticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

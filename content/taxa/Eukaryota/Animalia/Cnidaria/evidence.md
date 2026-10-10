@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Dunn et al. 2022 DOI 10.1038/s41559-022-01807-x checked for 2026.08-static-v5-rc39
       referenceLinks:
         - referenceId: dunn-2022-auroralumina
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: dunn-2022-auroralumina
           locator: pp. 1095–1104; Figures 1–5 and Extended Data Figures 1–8
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

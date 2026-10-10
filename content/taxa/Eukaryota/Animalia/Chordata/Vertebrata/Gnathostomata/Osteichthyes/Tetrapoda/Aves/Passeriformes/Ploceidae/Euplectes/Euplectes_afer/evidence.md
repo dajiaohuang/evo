@@ -9,7 +9,6 @@ records:
     name:
       zh: Euplectes afer
       en: Euplectes afer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

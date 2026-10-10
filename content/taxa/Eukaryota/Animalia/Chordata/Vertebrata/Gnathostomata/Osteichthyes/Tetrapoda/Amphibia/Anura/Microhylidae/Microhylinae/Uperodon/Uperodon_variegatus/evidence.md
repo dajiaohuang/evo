@@ -9,7 +9,6 @@ records:
     name:
       en: Uperodon variegatus
       zh: Uperodon variegatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

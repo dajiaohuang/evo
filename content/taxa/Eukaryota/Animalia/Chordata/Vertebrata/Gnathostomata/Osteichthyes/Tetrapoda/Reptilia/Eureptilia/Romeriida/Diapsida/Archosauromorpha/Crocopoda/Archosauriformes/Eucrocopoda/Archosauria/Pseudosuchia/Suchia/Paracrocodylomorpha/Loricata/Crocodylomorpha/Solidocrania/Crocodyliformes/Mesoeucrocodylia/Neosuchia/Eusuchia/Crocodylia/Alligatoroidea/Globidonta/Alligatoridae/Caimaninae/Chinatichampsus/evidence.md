@@ -9,7 +9,6 @@ records:
     name:
       zh: Chinatichampsus
       en: Chinatichampsus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cratoavis cearensis
       en: Cratoavis cearensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

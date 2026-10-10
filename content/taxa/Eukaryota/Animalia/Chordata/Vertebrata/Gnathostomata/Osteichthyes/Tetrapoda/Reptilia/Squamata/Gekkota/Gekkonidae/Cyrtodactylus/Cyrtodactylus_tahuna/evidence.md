@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus tahuna
       en: Cyrtodactylus tahuna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

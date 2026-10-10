@@ -9,7 +9,6 @@ records:
     name:
       zh: Prionochilus plateni
       en: Prionochilus plateni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophornis magnificus
       en: Lophornis magnificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

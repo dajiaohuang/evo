@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca ovifera
       zh: Gastrotheca ovifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

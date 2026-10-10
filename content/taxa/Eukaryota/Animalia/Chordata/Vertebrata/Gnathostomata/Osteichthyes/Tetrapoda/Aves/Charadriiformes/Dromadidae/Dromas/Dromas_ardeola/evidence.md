@@ -9,7 +9,6 @@ records:
     name:
       zh: Dromas ardeola
       en: Dromas ardeola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

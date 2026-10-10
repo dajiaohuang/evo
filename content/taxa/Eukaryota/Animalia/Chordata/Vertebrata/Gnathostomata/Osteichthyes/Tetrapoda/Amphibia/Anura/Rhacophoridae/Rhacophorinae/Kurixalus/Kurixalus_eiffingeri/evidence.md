@@ -9,7 +9,6 @@ records:
     name:
       en: Kurixalus eiffingeri
       zh: Kurixalus eiffingeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

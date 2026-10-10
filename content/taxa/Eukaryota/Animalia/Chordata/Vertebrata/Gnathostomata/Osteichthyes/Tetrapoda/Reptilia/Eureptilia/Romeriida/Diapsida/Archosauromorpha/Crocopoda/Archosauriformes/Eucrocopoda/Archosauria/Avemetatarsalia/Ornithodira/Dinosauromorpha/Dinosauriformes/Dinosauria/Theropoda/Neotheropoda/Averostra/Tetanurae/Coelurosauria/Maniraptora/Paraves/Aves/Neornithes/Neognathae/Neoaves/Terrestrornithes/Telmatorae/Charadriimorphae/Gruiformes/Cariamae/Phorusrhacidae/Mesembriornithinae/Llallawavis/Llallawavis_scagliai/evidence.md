@@ -9,7 +9,6 @@ records:
     name:
       zh: Llallawavis scagliai
       en: Llallawavis scagliai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

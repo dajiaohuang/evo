@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus sanctamariensis
       zh: Hyloxalus sanctamariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

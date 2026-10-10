@@ -22,5 +22,5 @@ The 2015 paper reinstated Callicebus toppini after its earlier synonym treatment
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The 2015 range is a hypothesis based on limited observations, specimens and literature; the paper explicitly leaves the northern limit and some river boundaries unresolved. No current abundance is inferred. The Chinese name is editorial; this guide is not externally expert-reviewed.
+The 2015 range is a hypothesis based on limited observations, specimens and literature; the paper explicitly leaves the northern limit and some river boundaries unresolved. No current abundance is inferred. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

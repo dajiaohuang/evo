@@ -9,7 +9,6 @@ records:
     name:
       zh: Eothyris
       en: Eothyris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

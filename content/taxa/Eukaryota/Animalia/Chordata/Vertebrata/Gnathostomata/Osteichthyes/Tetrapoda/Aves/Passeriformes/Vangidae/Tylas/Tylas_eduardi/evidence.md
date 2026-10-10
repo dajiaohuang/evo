@@ -9,7 +9,6 @@ records:
     name:
       zh: Tylas eduardi
       en: Tylas eduardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

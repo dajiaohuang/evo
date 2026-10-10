@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliopedia pacifica
       en: Pliopedia pacifica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

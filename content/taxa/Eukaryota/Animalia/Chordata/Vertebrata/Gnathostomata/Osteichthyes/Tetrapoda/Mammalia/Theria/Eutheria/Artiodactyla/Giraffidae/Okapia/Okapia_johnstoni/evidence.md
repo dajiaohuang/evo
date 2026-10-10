@@ -9,7 +9,6 @@ records:
     name:
       zh: Okapia johnstoni
       en: Okapia johnstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

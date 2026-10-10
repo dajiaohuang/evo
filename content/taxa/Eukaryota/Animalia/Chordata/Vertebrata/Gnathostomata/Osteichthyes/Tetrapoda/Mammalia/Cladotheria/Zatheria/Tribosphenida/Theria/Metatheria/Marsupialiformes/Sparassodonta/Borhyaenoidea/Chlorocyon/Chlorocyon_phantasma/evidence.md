@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorocyon phantasma
       en: Chlorocyon phantasma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

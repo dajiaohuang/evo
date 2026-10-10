@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis luscombei
       zh: Pristimantis luscombei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Buteogallus fragilis
       en: Buteogallus fragilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

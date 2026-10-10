@@ -9,7 +9,6 @@ records:
     name:
       zh: Eubrontotherium clarnoensis
       en: Eubrontotherium clarnoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

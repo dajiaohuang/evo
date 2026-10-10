@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis tschenki
       zh: Gephyromantis tschenki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

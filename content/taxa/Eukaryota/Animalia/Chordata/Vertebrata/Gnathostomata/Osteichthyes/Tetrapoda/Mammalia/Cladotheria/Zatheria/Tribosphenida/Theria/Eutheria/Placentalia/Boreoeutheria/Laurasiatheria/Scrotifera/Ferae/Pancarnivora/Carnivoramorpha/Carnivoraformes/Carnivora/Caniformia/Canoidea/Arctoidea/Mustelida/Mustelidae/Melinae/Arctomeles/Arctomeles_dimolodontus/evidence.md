@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctomeles dimolodontus
       en: Arctomeles dimolodontus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

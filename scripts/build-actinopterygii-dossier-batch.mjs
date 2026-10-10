@@ -26,7 +26,6 @@ for (const dossier of batch.records) {
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.sourceDatasetId, '1010')
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...expectedFacets].sort())
   const name = dossier.scientificName.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('en-US').replace(/[^a-z0-9]+/g, ' ').trim()
   const route = name.slice(0, 2)

@@ -9,7 +9,6 @@ records:
     name:
       zh: Marinussaurus curupira
       en: Marinussaurus curupira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

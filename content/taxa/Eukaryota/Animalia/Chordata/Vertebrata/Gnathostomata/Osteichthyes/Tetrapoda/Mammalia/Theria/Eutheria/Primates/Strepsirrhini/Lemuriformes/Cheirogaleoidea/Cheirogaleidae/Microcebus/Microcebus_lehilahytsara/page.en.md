@@ -28,5 +28,5 @@ The paper lists Andasibe in eastern Madagascar as the type locality. This page d
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Limited to the Andasibe sample and morphology in the 2005 original description; current distribution, behavior, diet and conservation status are not fully assessed by that paper. The Chinese common name is editorial. The page is not externally expert-reviewed.
+Limited to the Andasibe sample and morphology in the 2005 original description; current distribution, behavior, diet and conservation status are not fully assessed by that paper. The Chinese common name is editorial. The page is.
 <!-- /evo:text -->

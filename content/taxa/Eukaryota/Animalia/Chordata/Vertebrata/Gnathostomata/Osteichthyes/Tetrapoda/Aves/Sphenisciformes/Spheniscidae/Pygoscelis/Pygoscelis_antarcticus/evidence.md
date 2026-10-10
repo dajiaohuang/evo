@@ -10,7 +10,6 @@ records:
     name:
       en: Chinstrap Penguin
       zh: 帽带企鹅
-    reviewStatus: source-linked
     sections:
       - topic: researchScope
         sourceIds:

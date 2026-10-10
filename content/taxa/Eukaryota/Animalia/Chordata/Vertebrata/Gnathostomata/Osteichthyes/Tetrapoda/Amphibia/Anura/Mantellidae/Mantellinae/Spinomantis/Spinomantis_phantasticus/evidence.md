@@ -9,7 +9,6 @@ records:
     name:
       en: Spinomantis phantasticus
       zh: Spinomantis phantasticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

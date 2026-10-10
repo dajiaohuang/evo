@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctophilus gouldi
       en: Nyctophilus gouldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

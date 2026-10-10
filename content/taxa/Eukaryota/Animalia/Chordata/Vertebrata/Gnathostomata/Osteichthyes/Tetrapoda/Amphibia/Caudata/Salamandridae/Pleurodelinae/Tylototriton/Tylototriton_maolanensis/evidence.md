@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton maolanensis
       zh: Tylototriton maolanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

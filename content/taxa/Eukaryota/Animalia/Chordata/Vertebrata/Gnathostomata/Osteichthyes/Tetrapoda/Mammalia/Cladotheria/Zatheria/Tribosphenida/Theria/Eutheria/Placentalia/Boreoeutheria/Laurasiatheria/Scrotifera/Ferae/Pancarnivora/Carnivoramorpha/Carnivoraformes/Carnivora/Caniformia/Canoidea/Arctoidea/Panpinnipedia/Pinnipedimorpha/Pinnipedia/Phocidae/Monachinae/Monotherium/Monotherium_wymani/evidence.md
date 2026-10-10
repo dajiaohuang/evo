@@ -9,7 +9,6 @@ records:
     name:
       zh: Monotherium wymani
       en: Monotherium wymani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

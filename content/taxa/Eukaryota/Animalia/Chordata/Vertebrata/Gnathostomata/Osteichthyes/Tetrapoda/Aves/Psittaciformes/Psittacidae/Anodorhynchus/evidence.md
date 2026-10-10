@@ -9,7 +9,6 @@ records:
     name:
       zh: Anodorhynchus
       en: Anodorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

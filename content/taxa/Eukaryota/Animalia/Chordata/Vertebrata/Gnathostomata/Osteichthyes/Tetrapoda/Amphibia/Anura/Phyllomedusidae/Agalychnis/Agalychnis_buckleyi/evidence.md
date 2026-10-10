@@ -9,7 +9,6 @@ records:
     name:
       en: Agalychnis buckleyi
       zh: Agalychnis buckleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

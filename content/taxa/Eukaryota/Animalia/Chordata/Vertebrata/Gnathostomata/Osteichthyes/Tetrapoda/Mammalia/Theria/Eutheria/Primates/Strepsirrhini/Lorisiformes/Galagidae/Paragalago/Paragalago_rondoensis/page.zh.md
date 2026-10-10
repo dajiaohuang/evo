@@ -28,5 +28,5 @@ Tanzania Forest Conservation Group 在 Rondo 保护区于 2012 和 2013 年设�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-两项直接报告来自单一保护区的局地调查，且主要资料距今较久；Pande 数量由粗略密度外推，Rondo Reserve 只有一笔叫声记录。本页不把这些材料说成现况或完整分布。来源链接的双语初稿，尚未经过外部领域专家评审。
+两项直接报告来自单一保护区的局地调查，且主要资料距今较久；Pande 数量由粗略密度外推，Rondo Reserve 只有一笔叫声记录。本页不把这些材料说成现况或完整分布。来源链接的双语初稿。
 <!-- /evo:text -->

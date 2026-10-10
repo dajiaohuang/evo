@@ -9,7 +9,6 @@ records:
     name:
       zh: Apodemus alsomyoides
       en: Apodemus alsomyoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

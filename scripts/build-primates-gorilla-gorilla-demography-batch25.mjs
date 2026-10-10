@@ -167,7 +167,7 @@ if (alreadyApplied) {
   }
   dossier.completeness.reasons = [
     'The record now contains site-specific ecology evidence and one model-based demographic inference for mostly zoo-held western lowland gorillas; morphology, life history, distribution, fossil evidence, and conservation remain unassessed.',
-    'Systematic literature coverage across the accepted species concept and independent expert review remain incomplete.',
+    'Systematic literature coverage across the accepted species concept remain incomplete.',
   ]
   dossier.checkedAt = source.checkedAt
 }

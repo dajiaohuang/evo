@@ -9,7 +9,6 @@ records:
     name:
       zh: 红褐狐猴
       en: Rufous Brown Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

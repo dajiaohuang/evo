@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptopogon rufipectus
       en: Leptopogon rufipectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

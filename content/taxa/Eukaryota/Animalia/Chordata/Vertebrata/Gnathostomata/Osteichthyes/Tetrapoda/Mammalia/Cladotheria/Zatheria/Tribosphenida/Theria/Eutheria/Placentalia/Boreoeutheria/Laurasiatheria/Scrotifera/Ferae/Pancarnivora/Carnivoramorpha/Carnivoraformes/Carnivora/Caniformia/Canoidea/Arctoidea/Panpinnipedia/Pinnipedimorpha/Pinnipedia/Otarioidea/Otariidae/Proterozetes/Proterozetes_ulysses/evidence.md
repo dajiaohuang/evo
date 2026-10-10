@@ -9,7 +9,6 @@ records:
     name:
       zh: Proterozetes ulysses
       en: Proterozetes ulysses
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

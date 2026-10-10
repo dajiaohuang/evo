@@ -1,8 +1,10 @@
 import { describe, expect, it, vi } from 'vitest'
 import type { AppState } from '../index'
 import { createFossilSlice } from '../fossilSlice'
+import { getFossilsByInterval } from '../../services/localFossils'
 
 vi.mock('../../services/localFossils', () => ({
+  getFossilsByInterval: vi.fn(),
   getFossilsByEntity: async (entityId: string, scope: 'exact' | 'descendants') => ({
     entityId,
     scope,
@@ -25,6 +27,37 @@ vi.mock('../../services/localFossils', () => ({
 }))
 
 describe('createFossilSlice', () => {
+  it('publishes a failed interval load and allows an explicit retry without recording an empty sample', async () => {
+    const state: Partial<AppState> = {}
+    Object.assign(state, createFossilSlice(partial => Object.assign(state, partial), () => state as AppState))
+    const load = vi.mocked(getFossilsByInterval)
+    load.mockRejectedValueOnce(new Error('Static data request failed (503)')).mockResolvedValueOnce([])
+
+    await state.loadOccurrencesForInterval!('Cretaceous')
+    expect(state.intervalOccurrenceStatus!.Cretaceous).toBe('error')
+    expect(state.intervalOccurrenceErrors!.Cretaceous).toContain('503')
+    expect(Object.hasOwn(state.occurrencesByInterval!, 'Cretaceous')).toBe(false)
+
+    await state.loadOccurrencesForInterval!('Cretaceous')
+    expect(state.intervalOccurrenceStatus!.Cretaceous).toBe('empty')
+    expect(state.intervalOccurrenceErrors!.Cretaceous).toBeNull()
+    expect(state.occurrencesByInterval!.Cretaceous).toEqual([])
+  })
+
+  it('keeps simultaneous interval loads from publishing duplicate requests', async () => {
+    const state: Partial<AppState> = {}
+    Object.assign(state, createFossilSlice(partial => Object.assign(state, partial), () => state as AppState))
+    let finish!: (records: []) => void
+    const load = vi.mocked(getFossilsByInterval)
+    load.mockReset().mockImplementationOnce(() => new Promise(resolve => { finish = resolve }))
+    const first = state.loadOccurrencesForInterval!('Cretaceous')
+    await state.loadOccurrencesForInterval!('Cretaceous')
+    expect(load).toHaveBeenCalledTimes(1)
+    finish([])
+    await first
+    expect(state.intervalOccurrenceStatus!.Cretaceous).toBe('empty')
+  })
+
   it('keeps exact and descendant records under separate query keys', async () => {
     const state: Partial<AppState> = {}
     const set = (partial: Partial<AppState>) => { Object.assign(state, partial) }

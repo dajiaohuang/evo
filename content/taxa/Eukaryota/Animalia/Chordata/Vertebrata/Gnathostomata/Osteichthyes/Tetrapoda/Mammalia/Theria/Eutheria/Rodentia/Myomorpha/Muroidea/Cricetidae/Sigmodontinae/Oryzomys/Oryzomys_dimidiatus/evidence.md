@@ -9,7 +9,6 @@ records:
     name:
       zh: Oryzomys dimidiatus
       en: Oryzomys dimidiatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

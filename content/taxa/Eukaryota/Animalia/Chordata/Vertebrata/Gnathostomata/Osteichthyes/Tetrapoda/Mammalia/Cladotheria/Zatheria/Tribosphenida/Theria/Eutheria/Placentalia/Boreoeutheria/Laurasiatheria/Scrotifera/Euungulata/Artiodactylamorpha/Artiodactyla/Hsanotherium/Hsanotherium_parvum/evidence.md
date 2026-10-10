@@ -9,7 +9,6 @@ records:
     name:
       zh: Hsanotherium parvum
       en: Hsanotherium parvum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

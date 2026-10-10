@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus bennetti
       en: Varanus bennetti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

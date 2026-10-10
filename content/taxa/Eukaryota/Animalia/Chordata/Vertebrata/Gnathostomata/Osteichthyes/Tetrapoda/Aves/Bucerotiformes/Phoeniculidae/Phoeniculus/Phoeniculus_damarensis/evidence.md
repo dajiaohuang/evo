@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoeniculus damarensis
       en: Phoeniculus damarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

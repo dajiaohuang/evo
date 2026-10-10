@@ -9,7 +9,6 @@ records:
     name:
       zh: Aulacorhynchus albivitta
       en: Aulacorhynchus albivitta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

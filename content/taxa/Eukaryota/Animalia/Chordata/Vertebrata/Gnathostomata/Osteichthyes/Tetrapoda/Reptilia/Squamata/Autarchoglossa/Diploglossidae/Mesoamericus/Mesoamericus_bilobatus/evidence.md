@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesoamericus bilobatus
       en: Mesoamericus bilobatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosansanosmilus peregrinus
       en: Prosansanosmilus peregrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

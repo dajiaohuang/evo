@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliangelus viola
       en: Heliangelus viola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

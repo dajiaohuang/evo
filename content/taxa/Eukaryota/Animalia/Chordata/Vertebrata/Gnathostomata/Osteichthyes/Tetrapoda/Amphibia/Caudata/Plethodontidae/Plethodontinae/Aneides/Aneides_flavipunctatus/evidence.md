@@ -9,7 +9,6 @@ records:
     name:
       en: Aneides flavipunctatus
       zh: Aneides flavipunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

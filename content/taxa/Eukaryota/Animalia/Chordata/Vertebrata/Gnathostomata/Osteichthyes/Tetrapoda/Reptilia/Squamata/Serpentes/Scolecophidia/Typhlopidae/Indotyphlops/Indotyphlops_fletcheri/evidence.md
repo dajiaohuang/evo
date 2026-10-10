@@ -9,7 +9,6 @@ records:
     name:
       zh: Indotyphlops fletcheri
       en: Indotyphlops fletcheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

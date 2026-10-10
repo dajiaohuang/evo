@@ -9,7 +9,6 @@ records:
     name:
       zh: Mustela nudipes
       en: Mustela nudipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

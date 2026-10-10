@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius pardalis
       zh: Hyperolius pardalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

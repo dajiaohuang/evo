@@ -9,7 +9,6 @@ records:
     name:
       zh: Parastrapotherium crassum
       en: Parastrapotherium crassum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

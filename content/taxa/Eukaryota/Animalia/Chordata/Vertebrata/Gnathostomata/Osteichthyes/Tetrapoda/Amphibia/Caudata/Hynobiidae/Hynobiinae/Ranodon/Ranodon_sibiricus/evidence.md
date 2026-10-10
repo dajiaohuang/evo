@@ -9,7 +9,6 @@ records:
     name:
       en: Ranodon sibiricus
       zh: Ranodon sibiricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

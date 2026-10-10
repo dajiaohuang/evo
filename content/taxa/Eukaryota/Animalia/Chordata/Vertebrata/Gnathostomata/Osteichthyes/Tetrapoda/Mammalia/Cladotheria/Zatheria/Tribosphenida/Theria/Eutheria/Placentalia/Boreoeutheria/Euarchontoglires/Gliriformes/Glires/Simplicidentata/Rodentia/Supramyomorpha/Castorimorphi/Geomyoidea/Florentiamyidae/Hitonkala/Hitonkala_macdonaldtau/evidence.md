@@ -9,7 +9,6 @@ records:
     name:
       zh: Hitonkala macdonaldtau
       en: Hitonkala macdonaldtau
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

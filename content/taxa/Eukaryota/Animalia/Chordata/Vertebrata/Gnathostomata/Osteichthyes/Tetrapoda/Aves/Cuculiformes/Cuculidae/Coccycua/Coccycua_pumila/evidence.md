@@ -9,7 +9,6 @@ records:
     name:
       zh: Coccycua pumila
       en: Coccycua pumila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geothlypis flavovelata
       en: Geothlypis flavovelata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

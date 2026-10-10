@@ -9,7 +9,6 @@ records:
     name:
       zh: Liberiictis kuhni
       en: Liberiictis kuhni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

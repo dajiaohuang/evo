@@ -9,7 +9,6 @@ records:
     name:
       zh: Myriopholis macrura
       en: Myriopholis macrura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

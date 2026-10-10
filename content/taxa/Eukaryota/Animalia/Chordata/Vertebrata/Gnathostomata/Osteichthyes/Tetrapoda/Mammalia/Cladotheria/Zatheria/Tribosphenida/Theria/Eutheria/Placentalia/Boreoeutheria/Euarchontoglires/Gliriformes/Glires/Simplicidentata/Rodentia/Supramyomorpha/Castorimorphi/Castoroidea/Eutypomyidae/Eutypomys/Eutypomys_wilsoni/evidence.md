@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutypomys wilsoni
       en: Eutypomys wilsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

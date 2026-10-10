@@ -9,7 +9,6 @@ records:
     name:
       zh: Argillochelys foveopalatus
       en: Argillochelys foveopalatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lemmysuchus obtusidens
       en: Lemmysuchus obtusidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

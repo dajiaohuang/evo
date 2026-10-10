@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrochilus boa
       en: Bothrochilus boa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

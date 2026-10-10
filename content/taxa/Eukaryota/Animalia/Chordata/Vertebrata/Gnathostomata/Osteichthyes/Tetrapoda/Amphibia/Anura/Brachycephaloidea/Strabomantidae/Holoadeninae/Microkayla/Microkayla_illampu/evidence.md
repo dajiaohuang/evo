@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla illampu
       zh: Microkayla illampu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Cacosternum capense
       zh: Cacosternum capense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

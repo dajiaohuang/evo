@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyornis banyumas
       en: Cyornis banyumas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

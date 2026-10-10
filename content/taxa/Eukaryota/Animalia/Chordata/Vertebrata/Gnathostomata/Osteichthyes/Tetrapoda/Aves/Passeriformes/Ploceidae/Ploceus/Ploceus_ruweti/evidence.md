@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus ruweti
       en: Ploceus ruweti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

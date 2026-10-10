@@ -9,7 +9,6 @@ records:
     name:
       zh: Mbiresaurus raathi
       en: Mbiresaurus raathi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

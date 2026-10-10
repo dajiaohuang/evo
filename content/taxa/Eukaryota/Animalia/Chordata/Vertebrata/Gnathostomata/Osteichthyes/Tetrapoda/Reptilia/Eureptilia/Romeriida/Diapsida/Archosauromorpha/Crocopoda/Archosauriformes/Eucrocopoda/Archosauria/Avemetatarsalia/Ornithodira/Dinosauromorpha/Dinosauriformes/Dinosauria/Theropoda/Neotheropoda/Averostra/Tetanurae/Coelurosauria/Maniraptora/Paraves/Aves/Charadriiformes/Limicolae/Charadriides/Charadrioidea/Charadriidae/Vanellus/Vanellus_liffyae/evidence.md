@@ -9,7 +9,6 @@ records:
     name:
       zh: Vanellus liffyae
       en: Vanellus liffyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

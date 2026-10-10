@@ -9,7 +9,6 @@ records:
     name:
       zh: Proheteromys matthewi
       en: Proheteromys matthewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

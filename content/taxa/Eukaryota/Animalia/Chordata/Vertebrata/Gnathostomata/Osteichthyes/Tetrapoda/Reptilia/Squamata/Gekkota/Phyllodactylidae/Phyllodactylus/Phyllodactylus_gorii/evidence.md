@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus gorii
       en: Phyllodactylus gorii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

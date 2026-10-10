@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis sibilans
       zh: Boophis sibilans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

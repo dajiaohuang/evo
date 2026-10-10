@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana xuelinensis
       zh: Nanorana xuelinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

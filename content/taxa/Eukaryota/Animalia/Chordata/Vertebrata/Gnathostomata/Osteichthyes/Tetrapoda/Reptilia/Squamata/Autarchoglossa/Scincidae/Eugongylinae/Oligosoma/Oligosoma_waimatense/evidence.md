@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma waimatense
       en: Oligosoma waimatense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

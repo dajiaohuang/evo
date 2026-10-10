@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylopetes hoeckarum
       en: Hylopetes hoeckarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

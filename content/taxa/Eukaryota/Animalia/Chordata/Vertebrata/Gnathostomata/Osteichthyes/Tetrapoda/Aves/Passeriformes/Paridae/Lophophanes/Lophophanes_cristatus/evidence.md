@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophophanes cristatus
       en: Lophophanes cristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

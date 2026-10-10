@@ -9,7 +9,6 @@ records:
     name:
       en: Astylosternus robustus
       zh: Astylosternus robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

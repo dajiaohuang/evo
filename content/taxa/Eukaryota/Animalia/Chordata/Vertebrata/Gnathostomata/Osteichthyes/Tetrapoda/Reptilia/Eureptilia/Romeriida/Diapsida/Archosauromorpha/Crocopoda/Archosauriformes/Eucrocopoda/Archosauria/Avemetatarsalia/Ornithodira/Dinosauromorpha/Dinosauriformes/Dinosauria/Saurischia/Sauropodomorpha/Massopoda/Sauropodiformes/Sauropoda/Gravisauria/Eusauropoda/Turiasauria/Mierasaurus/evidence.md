@@ -9,7 +9,6 @@ records:
     name:
       zh: Mierasaurus
       en: Mierasaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

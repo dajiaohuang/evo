@@ -9,7 +9,6 @@ records:
     name:
       zh: Miniochoerus forsythae
       en: Miniochoerus forsythae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

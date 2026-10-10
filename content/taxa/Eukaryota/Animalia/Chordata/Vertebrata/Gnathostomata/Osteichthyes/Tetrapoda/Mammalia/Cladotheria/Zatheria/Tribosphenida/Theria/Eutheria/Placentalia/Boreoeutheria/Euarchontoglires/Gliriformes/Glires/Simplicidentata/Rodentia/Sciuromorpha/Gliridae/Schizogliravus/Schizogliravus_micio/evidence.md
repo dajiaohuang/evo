@@ -9,7 +9,6 @@ records:
     name:
       zh: Schizogliravus micio
       en: Schizogliravus micio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

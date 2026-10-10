@@ -9,7 +9,6 @@ records:
     name:
       zh: Antarctanax shackletoni
       en: Antarctanax shackletoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

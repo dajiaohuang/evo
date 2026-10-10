@@ -9,7 +9,6 @@ records:
     name:
       zh: Spatula cyanoptera
       en: Spatula cyanoptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Peirosaurus torminni
       en: Peirosaurus torminni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

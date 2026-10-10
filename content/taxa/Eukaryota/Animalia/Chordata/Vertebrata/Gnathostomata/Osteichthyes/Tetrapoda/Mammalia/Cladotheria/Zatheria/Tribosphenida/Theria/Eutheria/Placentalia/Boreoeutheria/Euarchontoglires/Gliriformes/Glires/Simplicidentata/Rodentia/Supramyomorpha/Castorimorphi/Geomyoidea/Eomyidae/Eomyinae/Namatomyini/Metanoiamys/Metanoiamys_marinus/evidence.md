@@ -9,7 +9,6 @@ records:
     name:
       zh: Metanoiamys marinus
       en: Metanoiamys marinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

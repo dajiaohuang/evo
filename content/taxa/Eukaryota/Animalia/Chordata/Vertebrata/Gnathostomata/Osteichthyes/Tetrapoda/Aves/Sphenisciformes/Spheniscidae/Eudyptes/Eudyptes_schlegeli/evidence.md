@@ -9,7 +9,6 @@ records:
     name:
       zh: Eudyptes schlegeli
       en: Eudyptes schlegeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: researchScope

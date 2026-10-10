@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrogenys gravivox
       en: Erythrogenys gravivox
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

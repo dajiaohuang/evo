@@ -9,7 +9,6 @@ records:
     name:
       zh: Lytoloma bruxelliensis
       en: Lytoloma bruxelliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

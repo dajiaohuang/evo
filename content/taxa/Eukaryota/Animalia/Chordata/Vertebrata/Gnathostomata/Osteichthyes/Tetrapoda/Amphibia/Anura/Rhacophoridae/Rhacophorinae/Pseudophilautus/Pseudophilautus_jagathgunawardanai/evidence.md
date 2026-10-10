@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus jagathgunawardanai
       zh: Pseudophilautus jagathgunawardanai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

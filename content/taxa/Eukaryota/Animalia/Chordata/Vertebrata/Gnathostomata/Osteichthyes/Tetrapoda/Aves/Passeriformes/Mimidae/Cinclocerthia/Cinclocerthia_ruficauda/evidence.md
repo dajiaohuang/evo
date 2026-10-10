@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinclocerthia ruficauda
       en: Cinclocerthia ruficauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

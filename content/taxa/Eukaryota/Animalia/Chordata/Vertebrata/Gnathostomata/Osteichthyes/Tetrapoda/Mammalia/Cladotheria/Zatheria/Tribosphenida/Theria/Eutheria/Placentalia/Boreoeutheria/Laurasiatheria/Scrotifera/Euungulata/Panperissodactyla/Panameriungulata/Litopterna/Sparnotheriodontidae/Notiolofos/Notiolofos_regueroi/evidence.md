@@ -9,7 +9,6 @@ records:
     name:
       zh: Notiolofos regueroi
       en: Notiolofos regueroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

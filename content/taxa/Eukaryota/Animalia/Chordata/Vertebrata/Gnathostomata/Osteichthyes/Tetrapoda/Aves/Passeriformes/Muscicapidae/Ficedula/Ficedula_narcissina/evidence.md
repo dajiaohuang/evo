@@ -9,7 +9,6 @@ records:
     name:
       zh: Ficedula narcissina
       en: Ficedula narcissina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

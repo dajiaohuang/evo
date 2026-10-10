@@ -154,9 +154,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: maclatchy-2000-morotopithecus concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: maclatchy-2000-morotopithecus
@@ -175,9 +172,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas RC84 package authoring
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: maclatchy-2000-morotopithecus @ DOI 10.1006/jhev.2000.0407
       referenceLinks:
         - referenceId: maclatchy-2000-morotopithecus
           relation: supports
@@ -196,9 +190,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas RC84 package authoring
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: maclatchy-2000-morotopithecus @ DOI 10.1006/jhev.2000.0407
       referenceLinks:
         - referenceId: maclatchy-2000-morotopithecus
           relation: supports
@@ -217,9 +208,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas RC84 package authoring
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: maclatchy-2000-morotopithecus @ DOI 10.1006/jhev.2000.0407
       referenceLinks:
         - referenceId: maclatchy-2000-morotopithecus
           relation: supports
@@ -238,9 +226,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas RC84 package authoring
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: maclatchy-2000-morotopithecus @ DOI 10.1006/jhev.2000.0407
       referenceLinks:
         - referenceId: maclatchy-2000-morotopithecus
           relation: supports
@@ -293,7 +278,6 @@ records:
       referenceLocators:
         - referenceId: maclatchy-2000-morotopithecus
           locator: 159–183; Figures 1–12; Tables 1–10
-      reviewStatus: automated-audit-passed
 ---
 
 # Morotopithecus bishopi

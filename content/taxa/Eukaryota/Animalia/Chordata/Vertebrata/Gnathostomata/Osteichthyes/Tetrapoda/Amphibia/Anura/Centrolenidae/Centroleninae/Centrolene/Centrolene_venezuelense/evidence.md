@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene venezuelense
       zh: Centrolene venezuelense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

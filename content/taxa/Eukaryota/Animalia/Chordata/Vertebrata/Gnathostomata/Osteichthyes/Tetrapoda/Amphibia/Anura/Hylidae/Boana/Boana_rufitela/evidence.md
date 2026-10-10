@@ -9,7 +9,6 @@ records:
     name:
       en: Boana rufitela
       zh: Boana rufitela
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

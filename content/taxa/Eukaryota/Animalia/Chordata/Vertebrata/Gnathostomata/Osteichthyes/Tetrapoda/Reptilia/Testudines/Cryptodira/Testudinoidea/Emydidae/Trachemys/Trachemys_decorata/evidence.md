@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachemys decorata
       en: Trachemys decorata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

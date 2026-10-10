@@ -9,7 +9,6 @@ records:
     name:
       en: Laurentophryne parkeri
       zh: Laurentophryne parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

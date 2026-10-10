@@ -9,7 +9,6 @@ records:
     name:
       en: Sanje River Mangabey
       zh: 桑杰河白眼丛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: population

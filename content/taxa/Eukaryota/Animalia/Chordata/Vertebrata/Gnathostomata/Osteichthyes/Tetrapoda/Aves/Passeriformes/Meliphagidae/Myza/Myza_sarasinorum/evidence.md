@@ -9,7 +9,6 @@ records:
     name:
       zh: Myza sarasinorum
       en: Myza sarasinorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

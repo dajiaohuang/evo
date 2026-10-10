@@ -9,7 +9,6 @@ records:
     name:
       zh: Yulong mini
       en: Yulong mini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

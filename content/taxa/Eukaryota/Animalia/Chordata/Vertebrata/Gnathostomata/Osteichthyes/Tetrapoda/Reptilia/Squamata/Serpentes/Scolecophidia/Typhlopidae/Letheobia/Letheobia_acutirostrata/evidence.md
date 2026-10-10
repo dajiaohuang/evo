@@ -9,7 +9,6 @@ records:
     name:
       zh: Letheobia acutirostrata
       en: Letheobia acutirostrata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

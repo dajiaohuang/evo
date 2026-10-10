@@ -9,7 +9,6 @@ records:
     name:
       zh: Zygaspis maraisi
       en: Zygaspis maraisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

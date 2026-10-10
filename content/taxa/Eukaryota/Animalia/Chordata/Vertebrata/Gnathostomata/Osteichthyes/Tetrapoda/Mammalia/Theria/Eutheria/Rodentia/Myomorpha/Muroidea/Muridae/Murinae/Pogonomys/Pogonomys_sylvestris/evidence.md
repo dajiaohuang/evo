@@ -9,7 +9,6 @@ records:
     name:
       zh: Pogonomys sylvestris
       en: Pogonomys sylvestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stylolophus major
       en: Stylolophus major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

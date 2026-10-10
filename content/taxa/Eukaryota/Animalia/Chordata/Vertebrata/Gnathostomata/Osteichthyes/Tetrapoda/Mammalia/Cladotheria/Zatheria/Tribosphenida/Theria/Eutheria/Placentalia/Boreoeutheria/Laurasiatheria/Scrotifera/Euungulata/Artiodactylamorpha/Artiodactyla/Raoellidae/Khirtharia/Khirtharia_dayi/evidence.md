@@ -9,7 +9,6 @@ records:
     name:
       zh: Khirtharia dayi
       en: Khirtharia dayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

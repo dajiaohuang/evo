@@ -9,7 +9,6 @@ records:
     name:
       zh: 厄瓜多尔松鼠猴
       en: Ecuadorian Squirrel Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: ecology

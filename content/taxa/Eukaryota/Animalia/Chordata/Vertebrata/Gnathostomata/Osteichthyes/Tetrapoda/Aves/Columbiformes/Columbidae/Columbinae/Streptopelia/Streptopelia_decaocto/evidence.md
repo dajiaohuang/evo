@@ -9,7 +9,6 @@ records:
     name:
       zh: Streptopelia decaocto
       en: Streptopelia decaocto
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

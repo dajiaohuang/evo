@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllodytes edelmoi
       zh: Phyllodytes edelmoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

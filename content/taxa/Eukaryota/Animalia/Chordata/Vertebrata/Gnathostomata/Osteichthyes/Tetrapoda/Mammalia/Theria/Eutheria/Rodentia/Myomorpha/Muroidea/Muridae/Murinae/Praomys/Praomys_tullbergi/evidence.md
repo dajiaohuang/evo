@@ -9,7 +9,6 @@ records:
     name:
       zh: Praomys tullbergi
       en: Praomys tullbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

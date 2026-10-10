@@ -9,7 +9,6 @@ records:
     name:
       zh: Anorrhinus galeritus
       en: Anorrhinus galeritus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

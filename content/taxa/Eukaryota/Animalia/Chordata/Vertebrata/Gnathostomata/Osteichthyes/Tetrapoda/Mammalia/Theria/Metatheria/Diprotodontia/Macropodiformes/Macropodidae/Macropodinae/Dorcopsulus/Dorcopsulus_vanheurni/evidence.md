@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorcopsulus vanheurni
       en: Dorcopsulus vanheurni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

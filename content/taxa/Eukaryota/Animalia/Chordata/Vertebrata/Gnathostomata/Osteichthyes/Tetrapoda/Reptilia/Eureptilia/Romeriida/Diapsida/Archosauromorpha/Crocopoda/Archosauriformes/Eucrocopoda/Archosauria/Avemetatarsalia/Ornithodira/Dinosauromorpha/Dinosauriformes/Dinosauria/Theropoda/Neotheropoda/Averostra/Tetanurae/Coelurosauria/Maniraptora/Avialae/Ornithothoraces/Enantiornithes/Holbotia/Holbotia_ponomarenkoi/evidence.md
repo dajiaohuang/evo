@@ -9,7 +9,6 @@ records:
     name:
       zh: Holbotia ponomarenkoi
       en: Holbotia ponomarenkoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

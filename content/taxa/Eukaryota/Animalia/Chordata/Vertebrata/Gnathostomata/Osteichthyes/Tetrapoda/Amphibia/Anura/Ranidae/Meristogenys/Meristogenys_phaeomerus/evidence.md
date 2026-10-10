@@ -9,7 +9,6 @@ records:
     name:
       en: Meristogenys phaeomerus
       zh: Meristogenys phaeomerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

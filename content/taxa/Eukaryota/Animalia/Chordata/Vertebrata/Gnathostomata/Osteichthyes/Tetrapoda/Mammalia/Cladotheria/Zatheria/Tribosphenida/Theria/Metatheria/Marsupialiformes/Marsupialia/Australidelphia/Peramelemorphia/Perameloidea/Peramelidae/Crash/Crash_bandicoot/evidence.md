@@ -9,7 +9,6 @@ records:
     name:
       zh: Crash bandicoot
       en: Crash bandicoot
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

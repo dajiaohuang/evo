@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus elberti
       zh: Phrynobatrachus elberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

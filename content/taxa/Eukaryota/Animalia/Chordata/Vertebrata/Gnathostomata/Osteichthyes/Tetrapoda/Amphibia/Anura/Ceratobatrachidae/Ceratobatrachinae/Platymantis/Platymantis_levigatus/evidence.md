@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis levigatus
       zh: Platymantis levigatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

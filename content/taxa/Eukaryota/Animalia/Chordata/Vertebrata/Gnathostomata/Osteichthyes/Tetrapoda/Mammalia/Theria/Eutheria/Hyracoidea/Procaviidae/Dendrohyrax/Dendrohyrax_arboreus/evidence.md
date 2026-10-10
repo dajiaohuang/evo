@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrohyrax arboreus
       en: Dendrohyrax arboreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Aglyptodactylus chorus
       zh: Aglyptodactylus chorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

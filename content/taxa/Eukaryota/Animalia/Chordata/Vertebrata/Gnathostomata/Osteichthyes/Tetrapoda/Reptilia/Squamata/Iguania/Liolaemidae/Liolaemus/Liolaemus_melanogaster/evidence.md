@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus melanogaster
       en: Liolaemus melanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

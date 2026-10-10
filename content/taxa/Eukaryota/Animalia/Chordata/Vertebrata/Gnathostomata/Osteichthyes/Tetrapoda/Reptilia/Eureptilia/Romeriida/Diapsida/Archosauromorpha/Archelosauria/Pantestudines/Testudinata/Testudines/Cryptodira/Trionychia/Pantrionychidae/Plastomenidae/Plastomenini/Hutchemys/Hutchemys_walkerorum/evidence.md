@@ -9,7 +9,6 @@ records:
     name:
       zh: Hutchemys walkerorum
       en: Hutchemys walkerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

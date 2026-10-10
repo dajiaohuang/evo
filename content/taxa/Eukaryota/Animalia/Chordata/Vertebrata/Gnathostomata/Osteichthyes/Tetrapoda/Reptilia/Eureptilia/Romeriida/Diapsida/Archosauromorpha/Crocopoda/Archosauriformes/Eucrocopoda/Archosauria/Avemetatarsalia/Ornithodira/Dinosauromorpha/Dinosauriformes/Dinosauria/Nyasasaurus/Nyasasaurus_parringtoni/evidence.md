@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyasasaurus parringtoni
       en: Nyasasaurus parringtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

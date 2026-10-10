@@ -22,5 +22,5 @@ Ang 等人 2020 年的研究沿用旧组合 P. femoralis robinsoni。作者指�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-分类说明基于一条公开线粒体序列及研究者的比较分析；缺少多种群新采样。本页尚未经过外部领域专家评审。
+分类说明基于一条公开线粒体序列及研究者的比较分析；缺少多种群新采样。。
 <!-- /evo:text -->

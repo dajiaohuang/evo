@@ -9,7 +9,6 @@ records:
     name:
       en: Necturus punctatus
       zh: Necturus punctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

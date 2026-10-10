@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis archeri
       zh: Boophis archeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

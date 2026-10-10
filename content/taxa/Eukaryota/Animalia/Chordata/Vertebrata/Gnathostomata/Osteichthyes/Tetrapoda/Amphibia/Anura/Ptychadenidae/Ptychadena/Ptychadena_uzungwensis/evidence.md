@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena uzungwensis
       zh: Ptychadena uzungwensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

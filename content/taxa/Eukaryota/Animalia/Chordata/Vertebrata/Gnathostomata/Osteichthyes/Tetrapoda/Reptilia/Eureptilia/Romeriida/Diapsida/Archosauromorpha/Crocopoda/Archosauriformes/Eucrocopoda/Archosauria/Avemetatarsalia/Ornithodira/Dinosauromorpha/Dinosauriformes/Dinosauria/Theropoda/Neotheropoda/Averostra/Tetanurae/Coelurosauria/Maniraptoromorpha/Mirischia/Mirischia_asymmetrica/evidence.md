@@ -9,7 +9,6 @@ records:
     name:
       zh: Mirischia asymmetrica
       en: Mirischia asymmetrica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

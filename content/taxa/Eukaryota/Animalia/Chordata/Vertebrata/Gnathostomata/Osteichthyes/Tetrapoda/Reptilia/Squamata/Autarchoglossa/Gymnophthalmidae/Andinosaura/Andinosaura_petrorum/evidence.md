@@ -9,7 +9,6 @@ records:
     name:
       zh: Andinosaura petrorum
       en: Andinosaura petrorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

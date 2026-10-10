@@ -9,7 +9,6 @@ records:
     name:
       zh: Aplonis grandis
       en: Aplonis grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

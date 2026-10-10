@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsilurus tenuicephalus
       en: Hypsilurus tenuicephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

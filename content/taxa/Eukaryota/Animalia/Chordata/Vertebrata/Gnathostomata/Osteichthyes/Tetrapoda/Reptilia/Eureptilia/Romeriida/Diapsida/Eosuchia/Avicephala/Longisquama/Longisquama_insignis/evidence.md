@@ -9,7 +9,6 @@ records:
     name:
       zh: Longisquama insignis
       en: Longisquama insignis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

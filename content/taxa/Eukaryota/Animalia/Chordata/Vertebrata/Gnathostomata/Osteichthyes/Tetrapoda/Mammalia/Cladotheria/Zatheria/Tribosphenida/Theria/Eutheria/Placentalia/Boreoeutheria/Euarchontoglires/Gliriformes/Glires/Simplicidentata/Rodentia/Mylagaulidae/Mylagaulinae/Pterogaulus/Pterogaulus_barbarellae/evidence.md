@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterogaulus barbarellae
       en: Pterogaulus barbarellae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

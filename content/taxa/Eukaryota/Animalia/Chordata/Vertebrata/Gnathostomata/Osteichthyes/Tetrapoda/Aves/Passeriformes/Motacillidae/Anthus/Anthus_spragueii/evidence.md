@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus spragueii
       en: Anthus spragueii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

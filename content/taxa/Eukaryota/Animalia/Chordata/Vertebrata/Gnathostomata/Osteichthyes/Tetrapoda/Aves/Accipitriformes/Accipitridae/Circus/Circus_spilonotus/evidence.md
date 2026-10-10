@@ -9,7 +9,6 @@ records:
     name:
       zh: Circus spilonotus
       en: Circus spilonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

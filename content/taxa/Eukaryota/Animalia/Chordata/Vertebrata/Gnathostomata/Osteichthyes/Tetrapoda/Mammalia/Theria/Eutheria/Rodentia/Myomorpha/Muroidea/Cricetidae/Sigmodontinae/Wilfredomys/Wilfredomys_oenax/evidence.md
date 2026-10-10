@@ -9,7 +9,6 @@ records:
     name:
       zh: Wilfredomys oenax
       en: Wilfredomys oenax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

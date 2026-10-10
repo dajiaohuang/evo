@@ -9,7 +9,6 @@ records:
     name:
       zh: Natovenator polydontus
       en: Natovenator polydontus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: morphology

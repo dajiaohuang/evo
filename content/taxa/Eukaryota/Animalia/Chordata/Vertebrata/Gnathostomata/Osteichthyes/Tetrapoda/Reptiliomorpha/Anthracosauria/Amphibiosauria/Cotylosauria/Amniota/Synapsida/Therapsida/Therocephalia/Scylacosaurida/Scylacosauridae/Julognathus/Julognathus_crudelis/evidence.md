@@ -9,7 +9,6 @@ records:
     name:
       zh: Julognathus crudelis
       en: Julognathus crudelis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

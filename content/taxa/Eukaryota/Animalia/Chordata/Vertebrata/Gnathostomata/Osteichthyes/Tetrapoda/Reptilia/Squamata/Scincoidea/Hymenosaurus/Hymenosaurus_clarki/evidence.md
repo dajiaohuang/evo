@@ -9,7 +9,6 @@ records:
     name:
       zh: Hymenosaurus clarki
       en: Hymenosaurus clarki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

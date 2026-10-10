@@ -9,7 +9,6 @@ records:
     name:
       zh: Libysiren sickenbergi
       en: Libysiren sickenbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

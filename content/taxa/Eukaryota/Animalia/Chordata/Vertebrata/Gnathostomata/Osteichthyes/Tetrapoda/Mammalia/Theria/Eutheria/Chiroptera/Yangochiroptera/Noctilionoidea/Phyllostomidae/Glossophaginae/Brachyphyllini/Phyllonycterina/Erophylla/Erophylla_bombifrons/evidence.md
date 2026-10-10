@@ -9,7 +9,6 @@ records:
     name:
       zh: Erophylla bombifrons
       en: Erophylla bombifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

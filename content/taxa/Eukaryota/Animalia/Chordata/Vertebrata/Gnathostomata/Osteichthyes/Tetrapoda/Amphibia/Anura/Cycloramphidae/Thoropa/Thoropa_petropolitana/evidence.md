@@ -9,7 +9,6 @@ records:
     name:
       en: Thoropa petropolitana
       zh: Thoropa petropolitana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

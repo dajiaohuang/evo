@@ -9,7 +9,6 @@ records:
     name:
       en: Boana cipoensis
       zh: Boana cipoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

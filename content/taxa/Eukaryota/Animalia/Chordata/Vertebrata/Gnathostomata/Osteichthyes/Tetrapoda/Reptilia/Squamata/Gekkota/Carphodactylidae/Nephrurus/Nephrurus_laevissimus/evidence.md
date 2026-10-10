@@ -9,7 +9,6 @@ records:
     name:
       zh: Nephrurus laevissimus
       en: Nephrurus laevissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

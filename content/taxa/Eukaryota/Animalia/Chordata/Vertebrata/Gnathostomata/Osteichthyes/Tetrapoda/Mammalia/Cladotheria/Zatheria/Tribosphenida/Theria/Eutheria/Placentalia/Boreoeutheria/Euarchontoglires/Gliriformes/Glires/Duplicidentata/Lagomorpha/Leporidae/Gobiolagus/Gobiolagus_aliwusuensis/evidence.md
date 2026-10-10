@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiolagus aliwusuensis
       en: Gobiolagus aliwusuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

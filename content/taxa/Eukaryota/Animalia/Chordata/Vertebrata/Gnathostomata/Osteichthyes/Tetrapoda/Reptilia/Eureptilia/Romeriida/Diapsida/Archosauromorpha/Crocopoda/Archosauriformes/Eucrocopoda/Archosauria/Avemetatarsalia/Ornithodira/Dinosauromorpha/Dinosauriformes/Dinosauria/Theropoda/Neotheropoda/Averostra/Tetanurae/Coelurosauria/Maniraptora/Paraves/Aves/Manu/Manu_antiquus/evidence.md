@@ -9,7 +9,6 @@ records:
     name:
       zh: Manu antiquus
       en: Manu antiquus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

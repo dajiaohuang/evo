@@ -9,7 +9,6 @@ records:
     name:
       zh: Litomylus grandaletes
       en: Litomylus grandaletes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vectipithex quaylei
       en: Vectipithex quaylei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

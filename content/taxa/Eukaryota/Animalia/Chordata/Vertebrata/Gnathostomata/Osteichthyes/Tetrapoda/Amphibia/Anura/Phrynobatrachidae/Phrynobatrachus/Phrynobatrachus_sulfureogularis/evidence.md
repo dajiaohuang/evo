@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus sulfureogularis
       zh: Phrynobatrachus sulfureogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis sternothylax
       zh: Pristimantis sternothylax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

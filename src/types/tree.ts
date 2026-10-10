@@ -6,7 +6,7 @@ export interface TreeNode {
   taxonId?: string;
   firstAppearance: number;
   lastAppearance: number;
-  rangeEvidenceLevel?: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'withheld-no-range-evidence' | 'expert-reviewed';
+  rangeEvidenceLevel?: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'withheld-no-range-evidence';
   children: TreeNode[];
   extinct: boolean;
   imageUrl?: string;

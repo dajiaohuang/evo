@@ -9,7 +9,6 @@ records:
     name:
       zh: 小铁灰侏狐猴
       en: Lesser Iron-gray Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

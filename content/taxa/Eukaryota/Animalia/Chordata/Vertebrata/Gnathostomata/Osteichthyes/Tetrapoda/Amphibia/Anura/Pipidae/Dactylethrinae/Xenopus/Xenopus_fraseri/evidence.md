@@ -9,7 +9,6 @@ records:
     name:
       en: Xenopus fraseri
       zh: Xenopus fraseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus thorntoni
       zh: Colostethus thorntoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

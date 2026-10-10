@@ -9,7 +9,6 @@ records:
     name:
       zh: 巽他银叶猴
       en: Sunda Silvery Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

@@ -9,7 +9,6 @@ records:
     name:
       en: Hydromantes shastae
       zh: Hydromantes shastae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brookesia micra
       en: Brookesia micra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

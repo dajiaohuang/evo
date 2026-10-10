@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipistrellus endoi
       en: Pipistrellus endoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis zeus
       en: Anolis zeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

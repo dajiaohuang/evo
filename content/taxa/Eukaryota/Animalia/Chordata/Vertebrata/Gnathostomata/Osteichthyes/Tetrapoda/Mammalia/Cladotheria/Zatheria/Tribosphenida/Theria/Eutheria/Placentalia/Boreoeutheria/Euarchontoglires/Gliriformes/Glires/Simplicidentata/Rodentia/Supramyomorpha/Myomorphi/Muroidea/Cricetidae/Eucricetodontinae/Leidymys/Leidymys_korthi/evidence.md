@@ -9,7 +9,6 @@ records:
     name:
       zh: Leidymys korthi
       en: Leidymys korthi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

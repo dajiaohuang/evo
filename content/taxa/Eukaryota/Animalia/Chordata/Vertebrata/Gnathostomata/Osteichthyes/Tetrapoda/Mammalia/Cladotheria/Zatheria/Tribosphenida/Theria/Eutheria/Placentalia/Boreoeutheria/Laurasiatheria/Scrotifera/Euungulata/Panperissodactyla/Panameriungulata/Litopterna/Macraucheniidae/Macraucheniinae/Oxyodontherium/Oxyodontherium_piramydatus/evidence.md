@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyodontherium piramydatus
       en: Oxyodontherium piramydatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

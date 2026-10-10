@@ -9,7 +9,6 @@ records:
     name:
       zh: Neocometes similis
       en: Neocometes similis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

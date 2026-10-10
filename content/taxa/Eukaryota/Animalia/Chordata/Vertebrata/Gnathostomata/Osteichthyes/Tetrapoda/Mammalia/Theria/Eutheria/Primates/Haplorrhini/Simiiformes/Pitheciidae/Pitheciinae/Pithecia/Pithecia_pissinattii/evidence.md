@@ -9,7 +9,6 @@ records:
     name:
       zh: 皮萨纳蒂白面僧面猴
       en: Pissinatti's Bald-faced Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

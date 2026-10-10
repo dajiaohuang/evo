@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus planiceps
       zh: Desmognathus planiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

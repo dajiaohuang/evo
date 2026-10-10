@@ -9,7 +9,6 @@ records:
     name:
       zh: Stigmochelys pardalis
       en: Stigmochelys pardalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

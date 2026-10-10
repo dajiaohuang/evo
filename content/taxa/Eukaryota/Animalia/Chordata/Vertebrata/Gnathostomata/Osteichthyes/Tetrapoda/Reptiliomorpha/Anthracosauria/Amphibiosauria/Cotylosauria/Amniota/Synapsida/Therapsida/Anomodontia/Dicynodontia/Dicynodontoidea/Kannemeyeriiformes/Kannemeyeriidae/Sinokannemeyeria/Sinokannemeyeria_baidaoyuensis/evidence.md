@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinokannemeyeria baidaoyuensis
       en: Sinokannemeyeria baidaoyuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

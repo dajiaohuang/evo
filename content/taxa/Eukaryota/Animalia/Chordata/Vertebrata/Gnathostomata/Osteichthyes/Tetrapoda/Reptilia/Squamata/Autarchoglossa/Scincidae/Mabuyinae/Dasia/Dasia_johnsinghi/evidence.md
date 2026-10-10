@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasia johnsinghi
       en: Dasia johnsinghi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

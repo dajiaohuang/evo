@@ -9,7 +9,6 @@ records:
     name:
       en: Duellmanohyla uranochroa
       zh: Duellmanohyla uranochroa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

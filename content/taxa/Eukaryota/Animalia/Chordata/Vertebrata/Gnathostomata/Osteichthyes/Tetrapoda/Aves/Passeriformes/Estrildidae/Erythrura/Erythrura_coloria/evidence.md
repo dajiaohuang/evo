@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrura coloria
       en: Erythrura coloria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

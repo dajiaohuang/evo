@@ -9,7 +9,6 @@ records:
     name:
       zh: Galliformes
       en: Galliformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

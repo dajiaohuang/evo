@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasymys montanus
       en: Dasymys montanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

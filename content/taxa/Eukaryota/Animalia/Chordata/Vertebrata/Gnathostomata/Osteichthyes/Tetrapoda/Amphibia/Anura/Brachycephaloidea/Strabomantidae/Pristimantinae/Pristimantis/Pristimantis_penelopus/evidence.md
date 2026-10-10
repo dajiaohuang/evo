@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis penelopus
       zh: Pristimantis penelopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

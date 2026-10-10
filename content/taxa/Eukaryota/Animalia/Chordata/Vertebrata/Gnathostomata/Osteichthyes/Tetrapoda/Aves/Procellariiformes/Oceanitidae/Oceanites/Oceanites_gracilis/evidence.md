@@ -9,7 +9,6 @@ records:
     name:
       zh: Oceanites gracilis
       en: Oceanites gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus leoncei
       zh: Eleutherodactylus leoncei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tiliqua occipitalis
       en: Tiliqua occipitalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

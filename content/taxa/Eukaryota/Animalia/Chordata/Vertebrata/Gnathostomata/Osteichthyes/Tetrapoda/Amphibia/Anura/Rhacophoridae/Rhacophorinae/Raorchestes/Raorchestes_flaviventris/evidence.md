@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes flaviventris
       zh: Raorchestes flaviventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

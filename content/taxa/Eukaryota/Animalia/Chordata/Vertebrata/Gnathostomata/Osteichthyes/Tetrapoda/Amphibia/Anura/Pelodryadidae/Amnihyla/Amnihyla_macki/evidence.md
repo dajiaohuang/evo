@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla macki
       zh: Amnihyla macki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

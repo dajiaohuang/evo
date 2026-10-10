@@ -9,7 +9,6 @@ records:
     name:
       zh: Pipreola riefferii
       en: Pipreola riefferii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

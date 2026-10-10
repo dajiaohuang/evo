@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyclarhis nigrirostris
       en: Cyclarhis nigrirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

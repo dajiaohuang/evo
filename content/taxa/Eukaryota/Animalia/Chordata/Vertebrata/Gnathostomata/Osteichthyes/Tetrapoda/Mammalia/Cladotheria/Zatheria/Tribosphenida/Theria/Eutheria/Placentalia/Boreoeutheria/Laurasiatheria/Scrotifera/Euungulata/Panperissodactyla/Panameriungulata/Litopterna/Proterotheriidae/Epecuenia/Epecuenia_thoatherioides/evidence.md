@@ -9,7 +9,6 @@ records:
     name:
       zh: Epecuenia thoatherioides
       en: Epecuenia thoatherioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

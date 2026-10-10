@@ -149,7 +149,7 @@ async function fetchSubquery(packageId, entityId, boundedRecords) {
         rowsFetched: null,
         pagesFetched: null,
         completeness: 'withheld',
-        conceptReviewStatus: resolution?.conceptReviewStatus ?? 'unresolved',
+
         queryEligible: false,
         eligibilityBasis: eligibility.reason,
         rawPageSha256: [],
@@ -213,7 +213,7 @@ async function fetchSubquery(packageId, entityId, boundedRecords) {
       rowsFetched: occurrenceIds.length,
       pagesFetched,
       completeness: 'complete',
-      conceptReviewStatus: resolution.conceptReviewStatus,
+
       queryEligible: true,
       eligibilityBasis: eligibility.reason,
       rawPageSha256,
@@ -280,7 +280,7 @@ for (const packageId of packageIds) {
     withheldQueries: withheld.map((result) => ({
       entityId: result.ledger.entityId,
       taxonConcept: result.ledger.taxonConcept,
-      conceptReviewStatus: result.ledger.conceptReviewStatus,
+
       eligibilityBasis: result.ledger.eligibilityBasis,
     })),
     summedSubqueryRows: fetchedRows,
@@ -318,7 +318,7 @@ for (const packageId of packageIds) {
     limitations: [
       'Complete applies to each recorded PBDB subquery at retrieval time, not to the fossil record or biological sampling.',
       'Subqueries overlap; summed rows and page counts must not be interpreted as unique occurrence or diversity totals.',
-      'Historical grades, unresolved names and needs-concept-review mappings are explicitly withheld rather than represented by fabricated identifiers or zero results.',
+      'Historical grades, unresolved names and incompatible or unverified lineage mappings are explicitly withheld rather than represented by fabricated identifiers or zero results.',
       `Accepted broad roots with more than ${maximumCompleteSubqueryRows.toLocaleString('en-US')} rows in the pinned resolution snapshot are withheld from this targeted release in favor of complete scoped subqueries.`,
       'The package occurrence-detail projection is bounded by occurrence identifier and is neither random nor representative; complete result identities remain recorded per subquery.',
       'PBDB does not return an independent total in this JSON response; upstreamReportedTotal records the row count observed after terminal-page pagination.',

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tomodon dorsatus
       en: Tomodon dorsatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

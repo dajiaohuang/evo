@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus montanus
       zh: Cophixalus montanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

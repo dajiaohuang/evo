@@ -9,7 +9,6 @@ records:
     name:
       zh: Ortalis canicollis
       en: Ortalis canicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

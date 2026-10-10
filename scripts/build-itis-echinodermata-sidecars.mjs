@@ -271,8 +271,8 @@ async function main() {
       prohibited: 'No fuzzy, edit-distance, phonetic, case-folded, diacritic-stripped, token-reordered or taxon-substituted matching is used.',
     },
     evidenceBoundary: {
-      en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Echinodermata partition only. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record or expert-review record.',
-      zh: '此 CC0 ITIS 侧车仅为明确声明的棘皮动物 Echinodermata 分区提供冻结的严格命名交叉映射。它不是最终分类权威、系统发育、物种概念等同性声明、生物档案、化石记录或专家审阅记录。',
+      en: 'This CC0 ITIS sidecar is a frozen exact nomenclatural crosswalk for the declared Echinodermata partition only. It is not a final classification authority, phylogeny, species-concept equivalence assertion, biological dossier, fossil record.',
+      zh: '此 CC0 ITIS 侧车仅为明确声明的棘皮动物 Echinodermata 分区提供冻结的严格命名交叉映射。它不是最终分类权威、系统发育、物种概念等同性声明、生物档案、化石记录记录。',
     },
     counts,
     colUsageIdLocator: { key: 'colUsageId', ordering: 'Unicode code-unit ascending', sourceShardLimitBytes: SHARD_SOURCE_LIMIT_BYTES, stableAddressing: 'Binary-search non-overlapping inclusive colUsageId ranges; one detail query loads exactly one immutable JSONL gzip shard.', files: shards },

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nemolestes lagunafriensis
       en: Nemolestes lagunafriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: andreev-2022-qianodus primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: andreev-2022-qianodus
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: andreev-2022-qianodus
           locator: pp. 964–968, especially 965–967; Figures 1–2; Extended Data Figures 1–5
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

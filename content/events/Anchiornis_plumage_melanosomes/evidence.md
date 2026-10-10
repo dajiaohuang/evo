@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Li, Q. et al. 2010 DOI 10.1126/science.1186290
       referenceLinks:
         - referenceId: li-2010-anchiornis-plumage
           relation: supports

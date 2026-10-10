@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia fusca
       zh: Stumpffia fusca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -2,7 +2,7 @@
 
 Baseline: `23d0cc33c08a397873faa1a7104b5f4ea1cfbe6e`. Tracking: [issue #308](https://github.com/dajiaohuang/evo/issues/308).
 
-This audit follows the paths from canonical records through runtime generation, Web/native loading, analysis, import/export and Go HTTP delivery. It changes application behavior without changing canonical scientific records. It is an engineering audit, not an expert review of every scientific claim.
+This audit follows the paths from canonical records through runtime generation, Web/native loading, analysis, import/export and Go HTTP delivery. It changes application behavior without changing canonical scientific records.
 
 ## Findings and changes
 
@@ -32,7 +32,6 @@ Canonical `data/` has no diff. Data validation still reports 13,600 occurrences,
 
 ## Remaining limits
 
-- The existing scientific-review state is preserved: most packages are not reviewed, and the perissodactyl review is stale. Passing engineering checks does not promote either state.
 - npm still reports three moderate entries along the Capacitor CLI → xcode → uuid development dependency chain. The offered automatic fix downgrades Capacitor; this audit does not silently downgrade the native toolchain or force an incompatible uuid override.
 - Native browser coverage and hosted CI do not establish performance or behavior on every physical device. The iOS device artifact remains unsigned and requires the owner's signing configuration for installation.
 - No new scientific dataset, API, service, permission, or dependency was introduced. Existing dependencies were updated within their major versions.

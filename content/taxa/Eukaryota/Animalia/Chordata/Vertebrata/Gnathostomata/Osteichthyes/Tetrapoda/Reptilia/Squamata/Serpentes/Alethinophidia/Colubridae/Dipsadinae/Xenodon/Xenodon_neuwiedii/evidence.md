@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenodon neuwiedii
       en: Xenodon neuwiedii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

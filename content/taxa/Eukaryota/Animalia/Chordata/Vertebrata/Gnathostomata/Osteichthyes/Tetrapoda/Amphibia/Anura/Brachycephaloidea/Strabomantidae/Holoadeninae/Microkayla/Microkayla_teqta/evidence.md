@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla teqta
       zh: Microkayla teqta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sulcusuchus erraini
       en: Sulcusuchus erraini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

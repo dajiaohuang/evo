@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema octavioi
       zh: Ischnocnema octavioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

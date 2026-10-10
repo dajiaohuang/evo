@@ -9,7 +9,6 @@ records:
     name:
       zh: Neoplagiaulax mckennai
       en: Neoplagiaulax mckennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

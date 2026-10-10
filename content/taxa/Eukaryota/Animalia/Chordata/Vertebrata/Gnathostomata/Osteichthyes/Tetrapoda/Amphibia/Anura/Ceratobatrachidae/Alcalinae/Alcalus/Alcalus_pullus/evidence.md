@@ -9,7 +9,6 @@ records:
     name:
       en: Alcalus pullus
       zh: Alcalus pullus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

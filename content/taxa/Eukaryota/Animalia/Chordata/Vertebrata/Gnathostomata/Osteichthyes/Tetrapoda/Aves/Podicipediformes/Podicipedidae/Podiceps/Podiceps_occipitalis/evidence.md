@@ -9,7 +9,6 @@ records:
     name:
       zh: Podiceps occipitalis
       en: Podiceps occipitalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

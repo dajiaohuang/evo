@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenisia turgaica
       en: Tenisia turgaica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliobolus nitidus
       en: Heliobolus nitidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

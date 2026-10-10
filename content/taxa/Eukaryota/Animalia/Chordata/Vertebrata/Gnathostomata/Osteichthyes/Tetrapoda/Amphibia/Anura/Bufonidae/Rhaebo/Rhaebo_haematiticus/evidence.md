@@ -9,7 +9,6 @@ records:
     name:
       en: Rhaebo haematiticus
       zh: Rhaebo haematiticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

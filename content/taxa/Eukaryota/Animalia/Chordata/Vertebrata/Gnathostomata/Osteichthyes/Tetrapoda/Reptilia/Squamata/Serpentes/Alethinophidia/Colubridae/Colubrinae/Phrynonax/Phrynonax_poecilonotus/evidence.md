@@ -9,7 +9,6 @@ records:
     name:
       zh: Phrynonax poecilonotus
       en: Phrynonax poecilonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

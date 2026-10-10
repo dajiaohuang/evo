@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudantechinus mimulus
       en: Pseudantechinus mimulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

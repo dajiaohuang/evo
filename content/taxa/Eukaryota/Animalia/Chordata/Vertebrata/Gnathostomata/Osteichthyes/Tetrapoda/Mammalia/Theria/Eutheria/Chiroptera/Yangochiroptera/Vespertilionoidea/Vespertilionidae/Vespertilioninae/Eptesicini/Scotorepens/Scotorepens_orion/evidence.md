@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotorepens orion
       en: Scotorepens orion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

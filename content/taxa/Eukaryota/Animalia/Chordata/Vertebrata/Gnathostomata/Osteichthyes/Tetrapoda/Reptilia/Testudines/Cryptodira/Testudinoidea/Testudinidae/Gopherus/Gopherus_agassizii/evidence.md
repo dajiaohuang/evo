@@ -9,7 +9,6 @@ records:
     name:
       zh: Gopherus agassizii
       en: Gopherus agassizii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

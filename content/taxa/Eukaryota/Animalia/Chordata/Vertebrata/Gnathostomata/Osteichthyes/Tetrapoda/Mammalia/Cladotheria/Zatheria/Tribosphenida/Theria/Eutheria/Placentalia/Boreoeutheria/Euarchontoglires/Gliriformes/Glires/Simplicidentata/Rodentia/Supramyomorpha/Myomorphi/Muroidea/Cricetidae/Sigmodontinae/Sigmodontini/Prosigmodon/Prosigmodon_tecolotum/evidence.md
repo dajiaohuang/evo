@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosigmodon tecolotum
       en: Prosigmodon tecolotum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

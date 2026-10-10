@@ -9,7 +9,6 @@ records:
     name:
       zh: Boiga melanota
       en: Boiga melanota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

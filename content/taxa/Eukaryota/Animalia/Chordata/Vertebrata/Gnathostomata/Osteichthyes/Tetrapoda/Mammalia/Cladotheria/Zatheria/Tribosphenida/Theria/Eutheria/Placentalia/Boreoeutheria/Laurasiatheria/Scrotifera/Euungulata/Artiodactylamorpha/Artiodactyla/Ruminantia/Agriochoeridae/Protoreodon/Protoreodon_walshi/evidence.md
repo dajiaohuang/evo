@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoreodon walshi
       en: Protoreodon walshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

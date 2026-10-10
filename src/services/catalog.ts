@@ -21,7 +21,6 @@ import type {
 } from '../types/catalog'
 import type { TreeNode } from '../types/tree'
 import { periods, timeScaleUnits } from './geology'
-import { getEntityPublication } from './publication'
 import { isPagesPreview, isPreviewEventAllowed, isPreviewStoryAllowed } from '../config/pagesPreview'
 
 const evidenceClaimById = new Map((evidenceClaimsData as EvidenceClaim[]).map((claim) => [claim.id, claim]))
@@ -143,7 +142,6 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
   const candidates: Array<SearchResult & { score: number }> = []
 
   for (const profile of taxonProfiles) {
-    const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
     const title = `${profile.commonNameZh} ${profile.scientificName} ${profile.commonName}`
     const keywords = `${title} ${profile.rank} ${profile.parentName} ${profile.traits.join(' ')}`
     const resultScore = score(searchable(keywords), query)
@@ -156,7 +154,6 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
       subtitleZh: `${profile.rank} · ${hasPublishedRange(profile) ? `${profile.firstAppearance}–${profile.lastAppearance || '现今'} Ma` : '区间暂无可发布证据'}`,
       keywords,
       route: `#/taxa?id=${profile.id}`,
-      scientificMaturity: publication?.scientificMaturity,
       score: resultScore + 4,
     })
   }
@@ -206,7 +203,6 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
       subtitleZh: `${node.name} · 树节点`,
       keywords,
       route: `#/explore?taxon=${node.id}&age=${Math.min(node.firstAppearance, 4567).toFixed(1)}&view=tree`,
-      scientificMaturity: getEntityPublication(node.id)?.scientificMaturity,
       score: resultScore,
     })
   }
@@ -248,7 +244,7 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
   return candidates
     .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title))
     .slice(0, limit)
-    .map(({ id, kind, title, titleZh, subtitle, subtitleZh, keywords, route, scientificMaturity }) => ({
-      id, kind, title, titleZh, subtitle, subtitleZh, keywords, route, scientificMaturity,
+    .map(({ id, kind, title, titleZh, subtitle, subtitleZh, keywords, route }) => ({
+      id, kind, title, titleZh, subtitle, subtitleZh, keywords, route,
     }))
 }

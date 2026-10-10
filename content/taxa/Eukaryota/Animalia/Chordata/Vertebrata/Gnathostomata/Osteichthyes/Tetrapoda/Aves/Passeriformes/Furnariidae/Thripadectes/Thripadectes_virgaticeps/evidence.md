@@ -9,7 +9,6 @@ records:
     name:
       zh: Thripadectes virgaticeps
       en: Thripadectes virgaticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

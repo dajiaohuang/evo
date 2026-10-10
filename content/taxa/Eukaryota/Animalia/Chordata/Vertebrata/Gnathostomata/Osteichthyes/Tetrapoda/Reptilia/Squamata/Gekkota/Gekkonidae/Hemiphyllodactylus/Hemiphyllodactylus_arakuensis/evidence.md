@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus arakuensis
       en: Hemiphyllodactylus arakuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

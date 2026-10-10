@@ -9,7 +9,6 @@ records:
     name:
       zh: Taphrosphys nodosus
       en: Taphrosphys nodosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

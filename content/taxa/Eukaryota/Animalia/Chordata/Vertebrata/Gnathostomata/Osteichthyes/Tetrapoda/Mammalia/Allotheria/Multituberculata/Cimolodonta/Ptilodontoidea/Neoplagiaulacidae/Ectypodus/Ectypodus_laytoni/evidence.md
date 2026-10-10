@@ -9,7 +9,6 @@ records:
     name:
       zh: Ectypodus laytoni
       en: Ectypodus laytoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

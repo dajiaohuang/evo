@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina fortunensis
       zh: Oedipina fortunensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

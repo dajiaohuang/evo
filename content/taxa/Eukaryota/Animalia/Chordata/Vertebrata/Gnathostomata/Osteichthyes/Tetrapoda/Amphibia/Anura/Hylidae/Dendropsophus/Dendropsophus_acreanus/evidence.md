@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus acreanus
       zh: Dendropsophus acreanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

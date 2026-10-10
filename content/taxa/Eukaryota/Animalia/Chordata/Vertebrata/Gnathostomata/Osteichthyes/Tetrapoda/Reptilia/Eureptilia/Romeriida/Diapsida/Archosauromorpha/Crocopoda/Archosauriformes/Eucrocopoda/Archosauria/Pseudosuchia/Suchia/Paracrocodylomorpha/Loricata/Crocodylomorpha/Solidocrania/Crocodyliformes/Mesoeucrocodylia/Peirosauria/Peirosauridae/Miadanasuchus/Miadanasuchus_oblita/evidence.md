@@ -9,7 +9,6 @@ records:
     name:
       zh: Miadanasuchus oblita
       en: Miadanasuchus oblita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

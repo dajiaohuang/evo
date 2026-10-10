@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus junori
       zh: Eleutherodactylus junori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

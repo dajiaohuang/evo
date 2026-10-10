@@ -9,7 +9,6 @@ records:
     name:
       zh: Tedoribaatar reini
       en: Tedoribaatar reini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

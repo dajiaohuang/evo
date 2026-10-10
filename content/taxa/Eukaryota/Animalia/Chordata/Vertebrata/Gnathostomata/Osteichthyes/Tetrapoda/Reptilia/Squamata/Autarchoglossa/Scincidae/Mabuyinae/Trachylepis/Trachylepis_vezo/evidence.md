@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis vezo
       en: Trachylepis vezo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

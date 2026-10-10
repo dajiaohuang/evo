@@ -9,7 +9,6 @@ records:
     name:
       zh: Triplopus jeminaiensis
       en: Triplopus jeminaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

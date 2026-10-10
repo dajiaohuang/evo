@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipposideros rotalis
       en: Hipposideros rotalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

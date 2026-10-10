@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutrochodon inceptus
       en: Eutrochodon inceptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

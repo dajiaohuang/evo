@@ -9,7 +9,6 @@ records:
     name:
       zh: Savannasaurus elliottorum
       en: Savannasaurus elliottorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

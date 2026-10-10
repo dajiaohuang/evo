@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus robertmertensi
       zh: Dendropsophus robertmertensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

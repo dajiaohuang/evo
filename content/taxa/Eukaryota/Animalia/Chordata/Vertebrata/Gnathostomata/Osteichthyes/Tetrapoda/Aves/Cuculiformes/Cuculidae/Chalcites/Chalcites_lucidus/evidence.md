@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcites lucidus
       en: Chalcites lucidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

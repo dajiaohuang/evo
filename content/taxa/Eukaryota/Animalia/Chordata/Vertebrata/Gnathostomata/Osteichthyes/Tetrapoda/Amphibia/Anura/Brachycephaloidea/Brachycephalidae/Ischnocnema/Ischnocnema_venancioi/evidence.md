@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema venancioi
       zh: Ischnocnema venancioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

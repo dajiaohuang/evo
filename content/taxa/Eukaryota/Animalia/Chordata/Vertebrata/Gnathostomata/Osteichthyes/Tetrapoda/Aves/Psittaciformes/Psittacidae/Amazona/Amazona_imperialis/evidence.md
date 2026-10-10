@@ -9,7 +9,6 @@ records:
     name:
       zh: Amazona imperialis
       en: Amazona imperialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

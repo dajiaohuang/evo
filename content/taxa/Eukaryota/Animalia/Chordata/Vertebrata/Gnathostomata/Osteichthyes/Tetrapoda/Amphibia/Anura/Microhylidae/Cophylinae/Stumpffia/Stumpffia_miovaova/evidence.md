@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia miovaova
       zh: Stumpffia miovaova
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

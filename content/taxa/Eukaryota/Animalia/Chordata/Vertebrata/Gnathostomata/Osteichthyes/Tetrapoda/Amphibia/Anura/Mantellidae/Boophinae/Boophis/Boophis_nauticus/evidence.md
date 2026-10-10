@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis nauticus
       zh: Boophis nauticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

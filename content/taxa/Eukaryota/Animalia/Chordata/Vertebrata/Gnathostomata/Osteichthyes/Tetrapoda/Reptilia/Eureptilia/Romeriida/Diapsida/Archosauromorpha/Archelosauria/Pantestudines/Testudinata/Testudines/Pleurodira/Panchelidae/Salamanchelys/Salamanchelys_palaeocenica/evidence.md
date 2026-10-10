@@ -9,7 +9,6 @@ records:
     name:
       zh: Salamanchelys palaeocenica
       en: Salamanchelys palaeocenica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

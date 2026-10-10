@@ -9,7 +9,6 @@ records:
     name:
       zh: 白头叶猴
       en: White-headed Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution_habitat

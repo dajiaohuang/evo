@@ -9,7 +9,6 @@ records:
     name:
       zh: 眼镜凯门鳄
       en: Spectacled caiman
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: sensoryMaterial

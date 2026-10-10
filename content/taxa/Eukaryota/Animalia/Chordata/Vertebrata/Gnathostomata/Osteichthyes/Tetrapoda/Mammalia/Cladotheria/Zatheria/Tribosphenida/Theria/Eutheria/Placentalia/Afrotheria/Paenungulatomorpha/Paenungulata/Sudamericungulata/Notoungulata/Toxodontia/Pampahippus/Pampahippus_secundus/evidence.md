@@ -9,7 +9,6 @@ records:
     name:
       zh: Pampahippus secundus
       en: Pampahippus secundus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

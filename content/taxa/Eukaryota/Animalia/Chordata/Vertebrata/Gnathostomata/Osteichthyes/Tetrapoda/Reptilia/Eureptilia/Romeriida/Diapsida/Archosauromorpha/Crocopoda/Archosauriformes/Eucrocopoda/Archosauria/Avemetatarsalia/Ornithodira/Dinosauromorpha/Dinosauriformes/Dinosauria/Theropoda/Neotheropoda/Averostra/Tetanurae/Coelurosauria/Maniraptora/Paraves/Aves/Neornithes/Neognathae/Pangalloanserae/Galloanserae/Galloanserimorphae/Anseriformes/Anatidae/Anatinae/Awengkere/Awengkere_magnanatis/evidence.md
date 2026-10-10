@@ -9,7 +9,6 @@ records:
     name:
       zh: Awengkere magnanatis
       en: Awengkere magnanatis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

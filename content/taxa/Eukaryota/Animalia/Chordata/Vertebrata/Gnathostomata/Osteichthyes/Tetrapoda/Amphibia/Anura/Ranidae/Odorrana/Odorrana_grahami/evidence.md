@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana grahami
       zh: Odorrana grahami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

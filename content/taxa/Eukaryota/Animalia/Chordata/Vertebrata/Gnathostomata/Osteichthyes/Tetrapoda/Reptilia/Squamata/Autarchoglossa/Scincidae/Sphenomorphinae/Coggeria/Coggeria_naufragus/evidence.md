@@ -9,7 +9,6 @@ records:
     name:
       zh: Coggeria naufragus
       en: Coggeria naufragus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

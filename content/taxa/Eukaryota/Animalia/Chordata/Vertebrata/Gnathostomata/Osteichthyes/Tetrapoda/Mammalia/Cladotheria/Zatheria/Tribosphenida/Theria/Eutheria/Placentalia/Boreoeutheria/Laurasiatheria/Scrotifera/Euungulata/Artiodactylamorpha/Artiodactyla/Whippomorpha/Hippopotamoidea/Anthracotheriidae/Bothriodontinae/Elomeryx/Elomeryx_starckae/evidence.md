@@ -9,7 +9,6 @@ records:
     name:
       zh: Elomeryx starckae
       en: Elomeryx starckae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

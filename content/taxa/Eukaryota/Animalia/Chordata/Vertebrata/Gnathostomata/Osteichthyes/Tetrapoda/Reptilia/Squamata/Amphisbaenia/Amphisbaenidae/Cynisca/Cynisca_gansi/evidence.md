@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynisca gansi
       en: Cynisca gansi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

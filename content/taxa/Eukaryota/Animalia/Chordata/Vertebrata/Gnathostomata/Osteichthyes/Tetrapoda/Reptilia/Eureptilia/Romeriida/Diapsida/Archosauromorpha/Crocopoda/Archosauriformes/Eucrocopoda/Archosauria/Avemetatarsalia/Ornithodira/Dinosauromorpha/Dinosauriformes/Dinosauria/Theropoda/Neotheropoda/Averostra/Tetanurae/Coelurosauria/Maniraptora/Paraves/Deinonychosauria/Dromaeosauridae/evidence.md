@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: turner-2012-dromaeosaurid-systematics concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: turner-2012-dromaeosaurid-systematics
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: turner-2012-dromaeosaurid-systematics @ DOI 10.1206/748.1
       referenceLinks:
         - relation: supports
           referenceId: turner-2012-dromaeosaurid-systematics
@@ -96,7 +90,6 @@ records:
           locator: 1–206; Specimen review; character matrix; phylogenetic results; unstable placements
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Dromaeosauridae
@@ -105,7 +98,6 @@ records:
     name:
       zh: Dromaeosauridae
       en: Dromaeosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: readingPath

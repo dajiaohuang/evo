@@ -9,7 +9,6 @@ records:
     name:
       zh: Coeligena iris
       en: Coeligena iris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

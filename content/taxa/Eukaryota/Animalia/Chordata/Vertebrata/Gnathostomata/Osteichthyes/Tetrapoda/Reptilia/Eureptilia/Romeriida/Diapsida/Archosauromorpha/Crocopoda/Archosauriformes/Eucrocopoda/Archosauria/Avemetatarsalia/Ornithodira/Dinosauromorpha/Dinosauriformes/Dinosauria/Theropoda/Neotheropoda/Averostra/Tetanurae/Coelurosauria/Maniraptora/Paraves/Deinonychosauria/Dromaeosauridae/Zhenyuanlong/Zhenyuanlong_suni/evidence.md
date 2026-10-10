@@ -9,7 +9,6 @@ records:
     name:
       zh: Zhenyuanlong suni
       en: Zhenyuanlong suni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

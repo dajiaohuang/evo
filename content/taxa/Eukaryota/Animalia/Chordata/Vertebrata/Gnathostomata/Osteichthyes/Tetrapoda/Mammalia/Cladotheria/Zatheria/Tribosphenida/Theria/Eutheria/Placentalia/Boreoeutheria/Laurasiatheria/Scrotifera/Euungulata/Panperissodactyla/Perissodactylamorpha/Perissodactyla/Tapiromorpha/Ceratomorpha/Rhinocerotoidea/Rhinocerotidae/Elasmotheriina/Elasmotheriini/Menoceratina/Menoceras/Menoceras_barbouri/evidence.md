@@ -9,7 +9,6 @@ records:
     name:
       zh: Menoceras barbouri
       en: Menoceras barbouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

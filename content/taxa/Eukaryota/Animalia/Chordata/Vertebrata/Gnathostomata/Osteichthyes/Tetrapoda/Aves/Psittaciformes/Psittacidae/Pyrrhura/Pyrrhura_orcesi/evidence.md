@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrhura orcesi
       en: Pyrrhura orcesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

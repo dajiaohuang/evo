@@ -9,7 +9,6 @@ records:
     name:
       en: Tepuihyla exophthalma
       zh: Tepuihyla exophthalma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

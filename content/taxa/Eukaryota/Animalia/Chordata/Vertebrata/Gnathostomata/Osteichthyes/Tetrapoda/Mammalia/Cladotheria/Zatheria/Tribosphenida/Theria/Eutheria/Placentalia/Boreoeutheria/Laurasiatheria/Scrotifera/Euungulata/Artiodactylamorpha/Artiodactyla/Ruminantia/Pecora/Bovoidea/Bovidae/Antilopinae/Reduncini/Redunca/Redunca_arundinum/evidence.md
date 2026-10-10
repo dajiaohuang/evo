@@ -9,7 +9,6 @@ records:
     name:
       zh: Redunca arundinum
       en: Redunca arundinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

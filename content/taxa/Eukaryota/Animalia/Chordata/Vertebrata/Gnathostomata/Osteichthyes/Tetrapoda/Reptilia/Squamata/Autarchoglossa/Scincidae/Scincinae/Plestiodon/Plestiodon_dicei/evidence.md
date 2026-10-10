@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon dicei
       en: Plestiodon dicei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

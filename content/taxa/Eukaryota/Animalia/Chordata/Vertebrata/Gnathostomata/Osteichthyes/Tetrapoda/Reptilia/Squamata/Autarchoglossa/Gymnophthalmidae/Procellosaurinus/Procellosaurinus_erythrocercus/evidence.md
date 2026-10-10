@@ -9,7 +9,6 @@ records:
     name:
       zh: Procellosaurinus erythrocercus
       en: Procellosaurinus erythrocercus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

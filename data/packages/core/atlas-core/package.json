@@ -1,7 +1,7 @@
 {
   "schemaVersion": 5,
   "id": "atlas-core",
-  "version": "2026.09-static-v5-rc154",
+  "version": "2026.09-2026.10-static-v5-rc155",
   "title": "Atlas Core Navigation",
   "titleZh": "图谱核心导航",
   "conceptScope": {
@@ -42,10 +42,6 @@
     "occurrences": "data/fossils/*.json",
     "profilesSource": "data/packages/core/atlas-core/profiles.source.json"
   },
-  "platformMaturity": "published",
-  "scientificMaturity": "source-linked",
-  "automatedReviewStatus": "passed",
-  "reviewStatus": "not-reviewed",
   "limitations": [
     "Package dossiers expose the current curated evidence boundary; unavailable fields are explicit and are not inferred."
   ]

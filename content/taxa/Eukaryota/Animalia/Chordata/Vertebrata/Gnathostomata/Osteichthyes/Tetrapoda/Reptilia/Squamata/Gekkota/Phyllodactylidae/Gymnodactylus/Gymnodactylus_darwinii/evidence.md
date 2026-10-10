@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnodactylus darwinii
       en: Gymnodactylus darwinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

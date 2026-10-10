@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammospermophilus nelsoni
       en: Ammospermophilus nelsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

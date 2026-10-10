@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus tristis
       en: Corvus tristis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

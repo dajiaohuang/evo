@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus guanahacabibes
       zh: Eleutherodactylus guanahacabibes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

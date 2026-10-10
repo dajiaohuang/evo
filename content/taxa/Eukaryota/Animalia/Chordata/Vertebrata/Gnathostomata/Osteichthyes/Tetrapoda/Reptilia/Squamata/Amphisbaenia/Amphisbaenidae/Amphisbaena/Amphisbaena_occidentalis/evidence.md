@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena occidentalis
       en: Amphisbaena occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

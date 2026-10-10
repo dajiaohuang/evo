@@ -9,7 +9,6 @@ records:
     name:
       zh: Xiphocolaptes promeropirhynchus
       en: Xiphocolaptes promeropirhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

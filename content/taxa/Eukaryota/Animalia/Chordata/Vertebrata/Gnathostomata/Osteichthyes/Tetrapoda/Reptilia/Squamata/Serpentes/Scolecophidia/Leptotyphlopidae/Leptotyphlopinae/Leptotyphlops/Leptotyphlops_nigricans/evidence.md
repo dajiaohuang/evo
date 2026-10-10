@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotyphlops nigricans
       en: Leptotyphlops nigricans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

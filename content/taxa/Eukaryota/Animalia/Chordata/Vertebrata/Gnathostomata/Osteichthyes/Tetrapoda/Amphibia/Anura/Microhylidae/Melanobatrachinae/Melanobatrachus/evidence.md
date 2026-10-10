@@ -9,7 +9,6 @@ records:
     name:
       en: Melanobatrachus
       zh: Melanobatrachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

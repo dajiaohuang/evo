@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus virolinensis
       zh: Dendropsophus virolinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

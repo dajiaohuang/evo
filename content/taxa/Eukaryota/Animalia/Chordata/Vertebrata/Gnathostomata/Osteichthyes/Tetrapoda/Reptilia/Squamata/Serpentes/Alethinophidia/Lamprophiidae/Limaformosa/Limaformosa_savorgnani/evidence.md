@@ -9,7 +9,6 @@ records:
     name:
       zh: Limaformosa savorgnani
       en: Limaformosa savorgnani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

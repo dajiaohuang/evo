@@ -9,7 +9,6 @@ records:
     name:
       zh: 红额狐猴
       en: Red-fronted Brown Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: movement

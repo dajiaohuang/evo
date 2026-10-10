@@ -9,7 +9,6 @@ records:
     name:
       zh: Enyalioides praestabilis
       en: Enyalioides praestabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lowesaurus matthewi
       en: Lowesaurus matthewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

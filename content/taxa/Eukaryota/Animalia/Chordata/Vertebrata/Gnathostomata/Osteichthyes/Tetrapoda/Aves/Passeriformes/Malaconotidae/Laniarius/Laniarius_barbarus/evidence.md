@@ -9,7 +9,6 @@ records:
     name:
       zh: Laniarius barbarus
       en: Laniarius barbarus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

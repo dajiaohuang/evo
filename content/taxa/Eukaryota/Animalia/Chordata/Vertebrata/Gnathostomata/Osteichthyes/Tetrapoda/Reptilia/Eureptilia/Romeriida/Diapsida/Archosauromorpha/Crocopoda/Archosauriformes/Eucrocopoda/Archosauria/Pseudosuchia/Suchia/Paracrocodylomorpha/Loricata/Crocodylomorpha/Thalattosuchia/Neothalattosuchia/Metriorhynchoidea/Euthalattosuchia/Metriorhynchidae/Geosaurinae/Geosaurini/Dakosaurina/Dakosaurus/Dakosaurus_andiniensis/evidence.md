@@ -9,7 +9,6 @@ records:
     name:
       zh: Dakosaurus andiniensis
       en: Dakosaurus andiniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

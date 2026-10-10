@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsadoboa unicolor
       en: Dipsadoboa unicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

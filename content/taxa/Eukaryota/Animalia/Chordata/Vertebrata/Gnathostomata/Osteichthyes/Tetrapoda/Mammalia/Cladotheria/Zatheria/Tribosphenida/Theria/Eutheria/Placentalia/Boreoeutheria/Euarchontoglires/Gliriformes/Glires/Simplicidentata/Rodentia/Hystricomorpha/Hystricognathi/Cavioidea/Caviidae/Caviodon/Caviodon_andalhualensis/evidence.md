@@ -9,7 +9,6 @@ records:
     name:
       zh: Caviodon andalhualensis
       en: Caviodon andalhualensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

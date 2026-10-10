@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena anchietae
       zh: Ptychadena anchietae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

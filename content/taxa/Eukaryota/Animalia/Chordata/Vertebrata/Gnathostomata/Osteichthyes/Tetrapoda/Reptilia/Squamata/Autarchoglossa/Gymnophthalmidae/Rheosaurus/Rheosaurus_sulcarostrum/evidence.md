@@ -9,7 +9,6 @@ records:
     name:
       zh: Rheosaurus sulcarostrum
       en: Rheosaurus sulcarostrum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

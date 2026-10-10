@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynomys spenceri
       en: Cynomys spenceri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

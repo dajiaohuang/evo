@@ -9,7 +9,6 @@ records:
     name:
       zh: Psephoderma anglicum
       en: Psephoderma anglicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

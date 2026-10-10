@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus stewartae
       zh: Phrynobatrachus stewartae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

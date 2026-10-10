@@ -9,7 +9,6 @@ records:
     name:
       zh: Viverravus acutus
       en: Viverravus acutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

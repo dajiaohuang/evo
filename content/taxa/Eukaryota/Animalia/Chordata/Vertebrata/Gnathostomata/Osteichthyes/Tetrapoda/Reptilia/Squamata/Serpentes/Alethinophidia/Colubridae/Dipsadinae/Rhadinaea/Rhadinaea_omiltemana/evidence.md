@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinaea omiltemana
       en: Rhadinaea omiltemana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

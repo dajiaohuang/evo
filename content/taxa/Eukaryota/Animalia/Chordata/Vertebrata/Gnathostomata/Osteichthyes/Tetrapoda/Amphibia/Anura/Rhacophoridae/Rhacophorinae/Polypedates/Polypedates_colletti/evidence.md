@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates colletti
       zh: Polypedates colletti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

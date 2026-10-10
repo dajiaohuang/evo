@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor rhodopis
       zh: Craugastor rhodopis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

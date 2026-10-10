@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Warren et al. 2008 DOI 10.1038/nature06936
       referenceLinks:
         - referenceId: warren-2008-platypus-genome
           relation: supports

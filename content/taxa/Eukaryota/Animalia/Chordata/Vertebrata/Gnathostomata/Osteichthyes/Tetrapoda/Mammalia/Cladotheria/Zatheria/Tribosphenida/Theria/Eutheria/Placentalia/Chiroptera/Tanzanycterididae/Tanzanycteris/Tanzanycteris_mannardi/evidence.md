@@ -9,7 +9,6 @@ records:
     name:
       zh: Tanzanycteris mannardi
       en: Tanzanycteris mannardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

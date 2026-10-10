@@ -9,7 +9,6 @@ records:
     name:
       zh: Giraffa pomeli
       en: Giraffa pomeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

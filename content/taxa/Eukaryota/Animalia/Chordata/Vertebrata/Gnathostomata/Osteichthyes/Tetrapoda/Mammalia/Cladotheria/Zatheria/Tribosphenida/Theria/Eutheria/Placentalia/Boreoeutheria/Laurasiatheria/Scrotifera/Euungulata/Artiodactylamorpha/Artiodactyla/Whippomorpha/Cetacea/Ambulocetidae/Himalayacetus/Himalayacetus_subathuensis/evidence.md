@@ -9,7 +9,6 @@ records:
     name:
       zh: Himalayacetus subathuensis
       en: Himalayacetus subathuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastigodryas alternatus
       en: Mastigodryas alternatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

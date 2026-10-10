@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis feonnyala
       zh: Boophis feonnyala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

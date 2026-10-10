@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraloris bavaricus
       en: Paraloris bavaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

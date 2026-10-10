@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeopython filholi
       en: Palaeopython filholi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

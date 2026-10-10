@@ -9,7 +9,6 @@ records:
     name:
       zh: Babakotia radofilai
       en: Babakotia radofilai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

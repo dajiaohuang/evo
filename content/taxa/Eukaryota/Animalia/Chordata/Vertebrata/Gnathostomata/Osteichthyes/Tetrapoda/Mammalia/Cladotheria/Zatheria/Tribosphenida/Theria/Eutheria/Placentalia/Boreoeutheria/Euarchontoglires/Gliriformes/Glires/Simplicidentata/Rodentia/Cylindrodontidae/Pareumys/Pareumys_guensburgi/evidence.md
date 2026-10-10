@@ -9,7 +9,6 @@ records:
     name:
       zh: Pareumys guensburgi
       en: Pareumys guensburgi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

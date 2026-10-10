@@ -9,7 +9,6 @@ records:
     name:
       en: Cochranella duidaeana
       zh: Cochranella duidaeana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

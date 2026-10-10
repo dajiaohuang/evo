@@ -9,7 +9,6 @@ records:
     name:
       zh: Lacertaspis lepesmei
       en: Lacertaspis lepesmei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

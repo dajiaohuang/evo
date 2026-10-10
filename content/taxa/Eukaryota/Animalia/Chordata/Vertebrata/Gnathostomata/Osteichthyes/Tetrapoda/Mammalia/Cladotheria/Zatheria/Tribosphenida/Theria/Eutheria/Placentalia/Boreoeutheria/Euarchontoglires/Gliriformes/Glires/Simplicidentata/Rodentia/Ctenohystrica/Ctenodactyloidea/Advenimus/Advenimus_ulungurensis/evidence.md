@@ -9,7 +9,6 @@ records:
     name:
       zh: Advenimus ulungurensis
       en: Advenimus ulungurensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

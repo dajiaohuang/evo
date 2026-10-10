@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa aureogularis
       zh: Bolitoglossa aureogularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

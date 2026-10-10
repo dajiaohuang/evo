@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemidophorus arenivagus
       en: Cnemidophorus arenivagus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

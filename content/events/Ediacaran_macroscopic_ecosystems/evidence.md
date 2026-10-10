@@ -147,9 +147,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Pu et al. 2016 DOI 10.1130/G38284.1
       referenceLinks:
         - relation: supports
           referenceId: pu-2016-gaskiers-ediacara

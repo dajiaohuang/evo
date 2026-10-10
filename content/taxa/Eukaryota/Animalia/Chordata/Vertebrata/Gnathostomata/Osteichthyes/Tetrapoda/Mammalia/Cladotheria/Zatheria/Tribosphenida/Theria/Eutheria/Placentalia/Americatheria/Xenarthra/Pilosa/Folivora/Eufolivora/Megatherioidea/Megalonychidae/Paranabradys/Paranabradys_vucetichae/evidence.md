@@ -9,7 +9,6 @@ records:
     name:
       zh: Paranabradys vucetichae
       en: Paranabradys vucetichae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

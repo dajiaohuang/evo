@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroedura stumpffi
       en: Paroedura stumpffi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

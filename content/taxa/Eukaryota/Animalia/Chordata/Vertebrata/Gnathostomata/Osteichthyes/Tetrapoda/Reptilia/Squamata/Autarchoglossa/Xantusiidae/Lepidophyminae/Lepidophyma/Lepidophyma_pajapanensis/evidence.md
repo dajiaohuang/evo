@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidophyma pajapanensis
       en: Lepidophyma pajapanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

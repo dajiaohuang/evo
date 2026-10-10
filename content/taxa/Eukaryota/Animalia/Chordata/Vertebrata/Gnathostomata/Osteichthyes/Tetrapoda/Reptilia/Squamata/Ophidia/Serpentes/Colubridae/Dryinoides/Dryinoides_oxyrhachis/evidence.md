@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryinoides oxyrhachis
       en: Dryinoides oxyrhachis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

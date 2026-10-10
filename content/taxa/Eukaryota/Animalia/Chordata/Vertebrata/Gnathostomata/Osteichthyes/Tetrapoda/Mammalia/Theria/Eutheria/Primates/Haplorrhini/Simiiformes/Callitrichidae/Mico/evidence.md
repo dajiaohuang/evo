@@ -9,7 +9,6 @@ records:
     name:
       zh: 狨属
       en: Mico marmosets
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: overview

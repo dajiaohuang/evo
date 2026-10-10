@@ -9,7 +9,6 @@ records:
     name:
       en: Plectrohyla teuchestes
       zh: Plectrohyla teuchestes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Reithroparamys delicatissimus
       en: Reithroparamys delicatissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

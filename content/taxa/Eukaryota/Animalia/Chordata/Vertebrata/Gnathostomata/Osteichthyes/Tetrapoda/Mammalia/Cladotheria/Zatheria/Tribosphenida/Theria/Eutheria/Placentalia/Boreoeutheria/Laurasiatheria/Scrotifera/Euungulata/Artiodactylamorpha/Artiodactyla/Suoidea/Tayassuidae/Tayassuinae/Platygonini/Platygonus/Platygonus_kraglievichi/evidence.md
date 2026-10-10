@@ -9,7 +9,6 @@ records:
     name:
       zh: Platygonus kraglievichi
       en: Platygonus kraglievichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

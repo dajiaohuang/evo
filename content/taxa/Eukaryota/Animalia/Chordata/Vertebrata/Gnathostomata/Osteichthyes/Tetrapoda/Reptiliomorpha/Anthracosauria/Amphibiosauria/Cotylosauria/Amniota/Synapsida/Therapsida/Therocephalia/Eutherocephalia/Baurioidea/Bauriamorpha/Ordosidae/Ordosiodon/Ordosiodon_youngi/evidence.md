@@ -9,7 +9,6 @@ records:
     name:
       zh: Ordosiodon youngi
       en: Ordosiodon youngi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

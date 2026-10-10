@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga goldmani
       en: Setophaga goldmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

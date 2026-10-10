@@ -9,7 +9,6 @@ records:
     name:
       zh: Sinomicrurus iwasakii
       en: Sinomicrurus iwasakii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

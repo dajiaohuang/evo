@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtopodion gastrophole
       en: Cyrtopodion gastrophole
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ordosiodon lincheyuensis
       en: Ordosiodon lincheyuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

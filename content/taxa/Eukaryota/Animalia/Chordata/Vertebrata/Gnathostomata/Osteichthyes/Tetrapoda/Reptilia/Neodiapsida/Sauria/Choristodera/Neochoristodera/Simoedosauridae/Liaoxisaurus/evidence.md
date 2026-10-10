@@ -9,7 +9,6 @@ records:
     name:
       zh: Liaoxisaurus
       en: Liaoxisaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

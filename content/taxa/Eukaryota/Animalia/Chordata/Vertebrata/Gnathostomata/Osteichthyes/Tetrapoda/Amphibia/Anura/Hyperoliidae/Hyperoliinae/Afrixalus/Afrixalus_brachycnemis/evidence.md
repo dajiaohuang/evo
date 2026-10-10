@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus brachycnemis
       zh: Afrixalus brachycnemis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

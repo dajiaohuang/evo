@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus iozonus
       en: Ptilinopus iozonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

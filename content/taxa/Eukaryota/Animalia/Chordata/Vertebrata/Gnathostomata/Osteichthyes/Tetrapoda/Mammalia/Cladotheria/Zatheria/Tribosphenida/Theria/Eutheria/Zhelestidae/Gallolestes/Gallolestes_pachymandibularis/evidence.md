@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallolestes pachymandibularis
       en: Gallolestes pachymandibularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

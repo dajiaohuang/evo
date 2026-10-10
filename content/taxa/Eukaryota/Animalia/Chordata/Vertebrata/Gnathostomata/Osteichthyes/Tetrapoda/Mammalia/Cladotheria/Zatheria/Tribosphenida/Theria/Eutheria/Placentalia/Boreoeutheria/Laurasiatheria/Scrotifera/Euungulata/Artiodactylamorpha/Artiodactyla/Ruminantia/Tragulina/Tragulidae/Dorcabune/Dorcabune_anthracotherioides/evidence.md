@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorcabune anthracotherioides
       en: Dorcabune anthracotherioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

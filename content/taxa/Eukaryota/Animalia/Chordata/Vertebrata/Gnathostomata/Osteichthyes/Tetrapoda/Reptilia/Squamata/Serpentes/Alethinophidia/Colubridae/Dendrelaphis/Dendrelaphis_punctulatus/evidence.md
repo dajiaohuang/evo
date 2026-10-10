@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis punctulatus
       en: Dendrelaphis punctulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

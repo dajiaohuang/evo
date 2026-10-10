@@ -9,7 +9,6 @@ records:
     name:
       zh: Oecomys superans
       en: Oecomys superans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

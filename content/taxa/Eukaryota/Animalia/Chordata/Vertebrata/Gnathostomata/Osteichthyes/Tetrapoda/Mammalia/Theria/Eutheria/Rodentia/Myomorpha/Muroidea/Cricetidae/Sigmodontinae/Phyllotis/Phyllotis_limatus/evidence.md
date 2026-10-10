@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllotis limatus
       en: Phyllotis limatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

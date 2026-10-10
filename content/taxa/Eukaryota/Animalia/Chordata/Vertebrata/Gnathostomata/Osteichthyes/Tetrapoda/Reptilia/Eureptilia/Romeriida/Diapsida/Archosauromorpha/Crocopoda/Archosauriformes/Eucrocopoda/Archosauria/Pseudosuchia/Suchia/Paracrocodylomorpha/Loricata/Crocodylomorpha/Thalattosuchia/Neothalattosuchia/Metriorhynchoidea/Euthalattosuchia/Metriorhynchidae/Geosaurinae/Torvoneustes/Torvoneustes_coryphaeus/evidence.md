@@ -9,7 +9,6 @@ records:
     name:
       zh: Torvoneustes coryphaeus
       en: Torvoneustes coryphaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

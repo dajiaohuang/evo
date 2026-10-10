@@ -9,7 +9,6 @@ records:
     name:
       zh: Crunomys suncoides
       en: Crunomys suncoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

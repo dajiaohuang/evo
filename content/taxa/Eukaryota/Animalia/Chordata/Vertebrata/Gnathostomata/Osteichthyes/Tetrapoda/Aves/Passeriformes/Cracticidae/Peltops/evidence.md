@@ -9,7 +9,6 @@ records:
     name:
       zh: Peltops
       en: Peltops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

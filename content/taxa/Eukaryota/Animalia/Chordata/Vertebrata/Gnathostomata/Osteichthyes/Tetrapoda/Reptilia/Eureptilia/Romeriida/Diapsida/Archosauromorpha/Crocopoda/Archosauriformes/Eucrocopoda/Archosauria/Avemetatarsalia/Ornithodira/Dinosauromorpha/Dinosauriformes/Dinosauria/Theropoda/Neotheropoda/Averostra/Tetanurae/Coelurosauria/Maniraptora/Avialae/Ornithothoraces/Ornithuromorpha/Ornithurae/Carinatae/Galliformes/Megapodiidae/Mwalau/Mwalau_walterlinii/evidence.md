@@ -9,7 +9,6 @@ records:
     name:
       zh: Mwalau walterlinii
       en: Mwalau walterlinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliokogia apenninica
       en: Pliokogia apenninica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliohippus bakeri
       en: Pliohippus bakeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

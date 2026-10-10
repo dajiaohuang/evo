@@ -9,7 +9,6 @@ records:
     name:
       zh: Helicops danieli
       en: Helicops danieli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

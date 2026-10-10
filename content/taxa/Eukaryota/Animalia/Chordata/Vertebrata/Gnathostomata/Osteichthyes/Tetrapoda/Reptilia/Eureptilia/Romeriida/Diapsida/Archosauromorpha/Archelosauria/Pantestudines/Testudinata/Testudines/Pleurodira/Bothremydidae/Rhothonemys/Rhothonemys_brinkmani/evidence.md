@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhothonemys brinkmani
       en: Rhothonemys brinkmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -28,5 +28,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-2016 年生态观察来自 Remedios 一个碎片化牧场景观的两群，GPS 结果来自另一个方法试验中的一群两只成年个体。地点、样本和估算方法不同，不合并为全种食谱、种子扩散能力或通用家域。野外来源使用 Saguinus leucopus 组合，页面分类身份仍按固定 COL26.8 ID。尚未经过外部领域专家评审。
+2016 年生态观察来自 Remedios 一个碎片化牧场景观的两群，GPS 结果来自另一个方法试验中的一群两只成年个体。地点、样本和估算方法不同，不合并为全种食谱、种子扩散能力或通用家域。野外来源使用 Saguinus leucopus 组合，页面分类身份仍按固定 COL26.8 ID。。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor palenque
       zh: Craugastor palenque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes lechiya
       zh: Raorchestes lechiya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

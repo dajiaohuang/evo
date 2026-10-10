@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptyas dipsas
       en: Ptyas dipsas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

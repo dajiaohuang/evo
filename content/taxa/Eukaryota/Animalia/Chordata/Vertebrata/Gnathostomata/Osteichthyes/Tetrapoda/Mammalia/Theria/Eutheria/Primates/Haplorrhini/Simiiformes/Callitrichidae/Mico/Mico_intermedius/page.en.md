@@ -16,5 +16,5 @@ Rylands' preliminary account describes observations at Dardanelos on the Rio Ari
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. The study is a preliminary 1978 account at Dardanelos and predates the current Mico combination; it cannot establish current abundance, full distribution or genus-wide habitat preference.
+Source-linked introduction;. The study is a preliminary 1978 account at Dardanelos and predates the current Mico combination; it cannot establish current abundance, full distribution or genus-wide habitat preference.
 <!-- /evo:text -->

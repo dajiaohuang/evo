@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma arminjoniana
       en: Pterodroma arminjoniana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

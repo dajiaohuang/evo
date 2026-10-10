@@ -9,7 +9,6 @@ records:
     name:
       zh: Plioplatecarpus marshi
       en: Plioplatecarpus marshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

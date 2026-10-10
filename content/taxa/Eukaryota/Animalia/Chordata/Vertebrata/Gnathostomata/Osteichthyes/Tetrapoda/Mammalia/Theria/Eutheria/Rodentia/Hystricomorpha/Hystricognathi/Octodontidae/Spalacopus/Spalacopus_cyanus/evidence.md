@@ -9,7 +9,6 @@ records:
     name:
       zh: Spalacopus cyanus
       en: Spalacopus cyanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

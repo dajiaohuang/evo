@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtonyx ocellatus
       en: Cyrtonyx ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

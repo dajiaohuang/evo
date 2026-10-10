@@ -9,7 +9,6 @@ records:
     name:
       zh: Cavioidea
       en: Cavioidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

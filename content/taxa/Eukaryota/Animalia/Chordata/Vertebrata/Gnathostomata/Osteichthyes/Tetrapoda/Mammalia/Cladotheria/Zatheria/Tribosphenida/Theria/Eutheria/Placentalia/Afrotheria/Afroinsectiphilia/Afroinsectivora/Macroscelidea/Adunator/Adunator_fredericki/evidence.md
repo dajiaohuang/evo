@@ -9,7 +9,6 @@ records:
     name:
       zh: Adunator fredericki
       en: Adunator fredericki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

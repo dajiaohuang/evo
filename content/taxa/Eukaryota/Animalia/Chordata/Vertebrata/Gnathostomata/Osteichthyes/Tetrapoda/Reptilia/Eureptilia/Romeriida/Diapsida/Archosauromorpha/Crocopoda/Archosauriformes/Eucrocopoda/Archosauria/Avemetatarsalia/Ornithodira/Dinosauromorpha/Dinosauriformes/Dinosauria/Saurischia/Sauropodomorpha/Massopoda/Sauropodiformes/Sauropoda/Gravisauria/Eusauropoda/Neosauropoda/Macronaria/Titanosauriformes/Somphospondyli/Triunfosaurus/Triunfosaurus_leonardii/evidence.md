@@ -9,7 +9,6 @@ records:
     name:
       zh: Triunfosaurus leonardii
       en: Triunfosaurus leonardii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 黄手跳猴
       en: Yellow-handed Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

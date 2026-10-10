@@ -9,7 +9,6 @@ records:
     name:
       zh: Chloropsis venusta
       en: Chloropsis venusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

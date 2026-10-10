@@ -9,7 +9,6 @@ records:
     name:
       zh: Nipponopelta yezoensis
       en: Nipponopelta yezoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

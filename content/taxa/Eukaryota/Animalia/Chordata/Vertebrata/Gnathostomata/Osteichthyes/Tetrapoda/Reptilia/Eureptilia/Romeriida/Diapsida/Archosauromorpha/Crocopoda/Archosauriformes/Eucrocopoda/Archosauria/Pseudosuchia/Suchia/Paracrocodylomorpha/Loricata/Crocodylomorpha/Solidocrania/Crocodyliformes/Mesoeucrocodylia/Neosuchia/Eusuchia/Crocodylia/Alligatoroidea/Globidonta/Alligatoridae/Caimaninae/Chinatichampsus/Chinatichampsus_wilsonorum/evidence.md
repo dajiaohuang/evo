@@ -9,7 +9,6 @@ records:
     name:
       zh: Chinatichampsus wilsonorum
       en: Chinatichampsus wilsonorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

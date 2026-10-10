@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: competing primary matrices at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: schoch-2019-dissorophoid-lissamphibia
           relation: supports
@@ -51,9 +48,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: competing primary matrices at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: marjanovic-laurin-2019-lissamphibian-origin
           relation: supports
@@ -81,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: competing primary matrices at 2026.08-static-v5-rc34
       referenceLinks:
         - referenceId: pardo-2017-chinlestegophis
           relation: supports
@@ -107,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: kligman-2023-funcusvermis; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: kligman-2023-funcusvermis
@@ -157,7 +145,6 @@ records:
       referenceLocators:
         - referenceId: kligman-2023-funcusvermis
           locator: 102–107; Figure 3; Extended Data Figures 5–7; Triassic stem caecilian and competing lissamphibian-origin implications
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

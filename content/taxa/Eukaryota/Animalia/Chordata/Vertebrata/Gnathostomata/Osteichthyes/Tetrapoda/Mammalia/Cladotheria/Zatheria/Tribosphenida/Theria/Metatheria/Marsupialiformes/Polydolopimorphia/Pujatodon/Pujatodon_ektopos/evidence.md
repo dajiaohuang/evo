@@ -9,7 +9,6 @@ records:
     name:
       zh: Pujatodon ektopos
       en: Pujatodon ektopos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

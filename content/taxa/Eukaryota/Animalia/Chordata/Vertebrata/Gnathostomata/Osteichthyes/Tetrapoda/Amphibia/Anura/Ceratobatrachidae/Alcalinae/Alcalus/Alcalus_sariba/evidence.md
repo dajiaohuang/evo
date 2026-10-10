@@ -9,7 +9,6 @@ records:
     name:
       en: Alcalus sariba
       zh: Alcalus sariba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis praedictus
       zh: Boophis praedictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

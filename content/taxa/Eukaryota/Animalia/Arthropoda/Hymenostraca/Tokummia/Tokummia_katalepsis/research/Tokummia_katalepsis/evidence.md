@@ -58,9 +58,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: aria-caron-2017-tokummia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: aria-caron-2017-tokummia
           relation: supports
@@ -77,9 +74,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: aria-caron-2017-tokummia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: aria-caron-2017-tokummia
           relation: supports
@@ -96,9 +90,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: aria-caron-2017-tokummia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: aria-caron-2017-tokummia
           relation: supports
@@ -115,9 +106,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: aria-caron-2017-tokummia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: aria-caron-2017-tokummia
           relation: supports
@@ -134,9 +122,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: aria-caron-2017-tokummia primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: aria-caron-2017-tokummia
           relation: supports
@@ -188,7 +173,6 @@ records:
       referenceLocators:
         - referenceId: aria-caron-2017-tokummia
           locator: 89–92; Figures 1–4; Extended Data
-      reviewStatus: automated-audit-passed
 ---
 
 # Tokummia katalepsis

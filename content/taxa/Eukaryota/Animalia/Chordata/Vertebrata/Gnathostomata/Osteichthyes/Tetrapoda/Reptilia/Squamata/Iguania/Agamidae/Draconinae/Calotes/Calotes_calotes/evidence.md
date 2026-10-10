@@ -9,7 +9,6 @@ records:
     name:
       zh: Calotes calotes
       en: Calotes calotes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

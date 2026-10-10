@@ -9,7 +9,6 @@ records:
     name:
       zh: Philisis sphingis
       en: Philisis sphingis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

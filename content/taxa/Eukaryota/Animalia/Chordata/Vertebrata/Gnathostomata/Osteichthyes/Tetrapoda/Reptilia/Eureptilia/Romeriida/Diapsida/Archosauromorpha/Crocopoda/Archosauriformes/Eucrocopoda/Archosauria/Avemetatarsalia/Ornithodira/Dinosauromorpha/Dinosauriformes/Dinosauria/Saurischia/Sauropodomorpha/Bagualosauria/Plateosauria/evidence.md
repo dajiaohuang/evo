@@ -9,7 +9,6 @@ records:
     name:
       zh: Plateosauria
       en: Plateosauria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

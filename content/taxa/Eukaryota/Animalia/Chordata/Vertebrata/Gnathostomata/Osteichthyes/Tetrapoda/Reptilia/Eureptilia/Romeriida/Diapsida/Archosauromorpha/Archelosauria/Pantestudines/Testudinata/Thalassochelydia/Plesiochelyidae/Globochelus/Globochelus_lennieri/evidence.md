@@ -9,7 +9,6 @@ records:
     name:
       zh: Globochelus lennieri
       en: Globochelus lennieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

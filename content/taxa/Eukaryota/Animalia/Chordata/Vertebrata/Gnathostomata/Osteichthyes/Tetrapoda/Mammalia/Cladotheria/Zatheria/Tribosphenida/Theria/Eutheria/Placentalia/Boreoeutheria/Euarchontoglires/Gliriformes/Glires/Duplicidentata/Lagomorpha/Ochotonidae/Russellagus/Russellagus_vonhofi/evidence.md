@@ -9,7 +9,6 @@ records:
     name:
       zh: Russellagus vonhofi
       en: Russellagus vonhofi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

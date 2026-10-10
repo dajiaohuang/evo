@@ -9,7 +9,6 @@ records:
     name:
       zh: Djilgaringa gillespiei
       en: Djilgaringa gillespiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

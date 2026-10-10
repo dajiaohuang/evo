@@ -9,7 +9,6 @@ records:
     name:
       zh: Amerotyphlops caetanoi
       en: Amerotyphlops caetanoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

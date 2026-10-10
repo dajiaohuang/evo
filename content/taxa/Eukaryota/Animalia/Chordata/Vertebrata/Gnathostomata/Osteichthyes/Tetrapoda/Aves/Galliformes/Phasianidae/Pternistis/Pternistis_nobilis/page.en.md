@@ -34,5 +34,5 @@ Habitat is Forest; density code 2 means semi-open habitats, not birds per unit a
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a historical AVONET v7 guide using read fields, two name crosswalks, relevant Metadata definitions and local COL name shards. Morphology and mass denominators remain separate, and historical categories are not guaranteed to equal catalogue concepts. The whole workbook, individual raw measurements, Dunning’s book and a new full methods-paper reading were not read. Breeding, plumage identification, population movements, current range and conservation status still need independent sources; no expert review or complete monograph is claimed.
+This is a historical AVONET v7 guide using read fields, two name crosswalks, relevant Metadata definitions and local COL name shards. Morphology and mass denominators remain separate, and historical categories are not guaranteed to equal catalogue concepts. The whole workbook, individual raw measurements, Dunning’s book and a new full methods-paper reading were not read. Breeding, plumage identification, population movements, current range and conservation status still need independent sources;
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumops trumbulli
       en: Eumops trumbulli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

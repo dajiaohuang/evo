@@ -9,7 +9,6 @@ records:
     name:
       zh: Centropus andamanensis
       en: Centropus andamanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

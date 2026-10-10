@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatoclaenus protogonioides
       en: Desmatoclaenus protogonioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Jabalisaurus meztli
       en: Jabalisaurus meztli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

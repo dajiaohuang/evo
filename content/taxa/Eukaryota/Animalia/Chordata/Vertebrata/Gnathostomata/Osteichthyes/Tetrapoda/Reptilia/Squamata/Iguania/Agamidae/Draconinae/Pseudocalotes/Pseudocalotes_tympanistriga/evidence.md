@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudocalotes tympanistriga
       en: Pseudocalotes tympanistriga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus mucujensis
       en: Tropidurus mucujensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

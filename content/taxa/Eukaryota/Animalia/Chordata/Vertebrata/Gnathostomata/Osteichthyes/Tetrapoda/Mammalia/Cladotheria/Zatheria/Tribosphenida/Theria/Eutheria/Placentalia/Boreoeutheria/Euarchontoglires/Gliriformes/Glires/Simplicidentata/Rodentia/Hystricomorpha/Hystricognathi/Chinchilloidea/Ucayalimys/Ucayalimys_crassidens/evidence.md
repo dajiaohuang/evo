@@ -9,7 +9,6 @@ records:
     name:
       zh: Ucayalimys crassidens
       en: Ucayalimys crassidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

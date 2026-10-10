@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus bogerti
       zh: Dendropsophus bogerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

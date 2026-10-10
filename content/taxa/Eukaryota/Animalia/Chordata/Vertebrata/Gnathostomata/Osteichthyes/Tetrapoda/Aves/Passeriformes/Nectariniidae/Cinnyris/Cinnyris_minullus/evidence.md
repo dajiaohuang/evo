@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris minullus
       en: Cinnyris minullus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

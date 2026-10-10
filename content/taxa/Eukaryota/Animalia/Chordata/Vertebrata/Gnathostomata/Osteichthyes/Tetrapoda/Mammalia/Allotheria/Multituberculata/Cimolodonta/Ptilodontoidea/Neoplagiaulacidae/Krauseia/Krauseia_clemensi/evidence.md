@@ -9,7 +9,6 @@ records:
     name:
       zh: Krauseia clemensi
       en: Krauseia clemensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

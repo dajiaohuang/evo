@@ -9,7 +9,6 @@ records:
     name:
       zh: Sonora straminea
       en: Sonora straminea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

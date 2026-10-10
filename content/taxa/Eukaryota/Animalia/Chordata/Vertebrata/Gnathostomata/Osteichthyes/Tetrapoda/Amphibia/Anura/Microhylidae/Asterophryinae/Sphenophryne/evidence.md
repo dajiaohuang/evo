@@ -9,7 +9,6 @@ records:
     name:
       en: Sphenophryne
       zh: Sphenophryne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

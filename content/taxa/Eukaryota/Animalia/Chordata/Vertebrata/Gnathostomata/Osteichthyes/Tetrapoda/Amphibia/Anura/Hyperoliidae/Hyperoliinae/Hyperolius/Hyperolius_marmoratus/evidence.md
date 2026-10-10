@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius marmoratus
       zh: Hyperolius marmoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireo magister
       en: Vireo magister
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

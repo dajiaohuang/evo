@@ -9,7 +9,6 @@ records:
     name:
       zh: Haeromys margarettae
       en: Haeromys margarettae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: fedonkin-waggoner-1997-kimberella DOI-linked primary source
       referenceLinks:
         - referenceId: fedonkin-waggoner-1997-kimberella
           relation: supports

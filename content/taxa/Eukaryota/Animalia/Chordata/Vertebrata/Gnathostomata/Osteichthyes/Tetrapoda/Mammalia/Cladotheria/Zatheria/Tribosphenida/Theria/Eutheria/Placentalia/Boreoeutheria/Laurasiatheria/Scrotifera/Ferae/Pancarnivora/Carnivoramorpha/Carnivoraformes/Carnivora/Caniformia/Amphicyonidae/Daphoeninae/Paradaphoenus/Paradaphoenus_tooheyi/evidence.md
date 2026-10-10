@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradaphoenus tooheyi
       en: Paradaphoenus tooheyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

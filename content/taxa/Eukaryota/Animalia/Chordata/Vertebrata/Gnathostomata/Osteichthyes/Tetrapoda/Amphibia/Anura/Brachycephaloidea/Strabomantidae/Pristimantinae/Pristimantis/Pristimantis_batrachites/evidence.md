@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis batrachites
       zh: Pristimantis batrachites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

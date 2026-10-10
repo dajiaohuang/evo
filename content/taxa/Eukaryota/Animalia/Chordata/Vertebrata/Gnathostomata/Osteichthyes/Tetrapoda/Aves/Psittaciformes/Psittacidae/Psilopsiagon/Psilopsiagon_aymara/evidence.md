@@ -9,7 +9,6 @@ records:
     name:
       zh: Psilopsiagon aymara
       en: Psilopsiagon aymara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

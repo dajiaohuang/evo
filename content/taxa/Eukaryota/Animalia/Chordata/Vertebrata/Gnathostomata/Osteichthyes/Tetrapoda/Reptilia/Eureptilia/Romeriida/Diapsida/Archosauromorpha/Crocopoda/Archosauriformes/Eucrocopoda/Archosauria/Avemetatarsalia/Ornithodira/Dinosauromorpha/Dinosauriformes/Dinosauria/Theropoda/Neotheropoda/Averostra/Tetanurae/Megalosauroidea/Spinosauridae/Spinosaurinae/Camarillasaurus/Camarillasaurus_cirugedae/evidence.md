@@ -9,7 +9,6 @@ records:
     name:
       zh: Camarillasaurus cirugedae
       en: Camarillasaurus cirugedae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -49,8 +49,8 @@ This batch’s Chelonia route includes 1 historical life-history accounts; start
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction, not externally expert-reviewed or a complete species account. The underlying dossier remains incomplete and not-reviewed. Morphology, evolution, broad distribution, fossil evidence and conservation are not assessed; life history and ecology are supported only by the named local studies. COL and PBDB concepts remain separate.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+Source-linked introduction or a complete species account. The underlying dossier remains incomplete and not-reviewed. Morphology, evolution, broad distribution, fossil evidence and conservation are not assessed; life history and ecology are supported only by the named local studies. COL and PBDB concepts remain separate.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 <!-- /evo:text -->

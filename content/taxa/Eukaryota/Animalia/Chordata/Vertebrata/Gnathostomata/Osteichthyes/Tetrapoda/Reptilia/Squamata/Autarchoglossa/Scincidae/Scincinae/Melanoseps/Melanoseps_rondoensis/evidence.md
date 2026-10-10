@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanoseps rondoensis
       en: Melanoseps rondoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

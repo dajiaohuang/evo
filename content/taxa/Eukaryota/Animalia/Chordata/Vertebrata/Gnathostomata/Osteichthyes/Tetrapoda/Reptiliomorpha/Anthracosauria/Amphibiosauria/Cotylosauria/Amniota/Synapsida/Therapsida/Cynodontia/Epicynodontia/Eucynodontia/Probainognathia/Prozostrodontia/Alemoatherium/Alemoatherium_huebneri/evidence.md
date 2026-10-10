@@ -9,7 +9,6 @@ records:
     name:
       zh: Alemoatherium huebneri
       en: Alemoatherium huebneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

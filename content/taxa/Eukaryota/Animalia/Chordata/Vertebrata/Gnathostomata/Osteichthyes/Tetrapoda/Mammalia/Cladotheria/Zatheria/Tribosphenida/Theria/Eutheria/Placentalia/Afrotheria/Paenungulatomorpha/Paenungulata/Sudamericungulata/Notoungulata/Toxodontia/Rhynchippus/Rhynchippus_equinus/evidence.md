@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchippus equinus
       en: Rhynchippus equinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

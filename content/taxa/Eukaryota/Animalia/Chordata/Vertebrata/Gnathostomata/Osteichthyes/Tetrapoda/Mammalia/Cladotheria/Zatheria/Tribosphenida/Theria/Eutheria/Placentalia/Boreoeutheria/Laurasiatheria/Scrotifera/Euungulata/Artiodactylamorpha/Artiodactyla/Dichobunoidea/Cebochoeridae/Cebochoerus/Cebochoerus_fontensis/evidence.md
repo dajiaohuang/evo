@@ -9,7 +9,6 @@ records:
     name:
       zh: Cebochoerus fontensis
       en: Cebochoerus fontensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

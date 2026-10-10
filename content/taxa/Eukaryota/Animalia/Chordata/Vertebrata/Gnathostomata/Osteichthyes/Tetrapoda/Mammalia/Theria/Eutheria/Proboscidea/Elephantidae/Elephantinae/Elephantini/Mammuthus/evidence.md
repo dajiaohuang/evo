@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: palkopoulou-2018-elephant-genomes concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: palkopoulou-2018-elephant-genomes
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: palkopoulou-2018-elephant-genomes @ DOI 10.1073/pnas.1720554115
       referenceLinks:
         - relation: supports
           referenceId: palkopoulou-2018-elephant-genomes
@@ -96,7 +90,6 @@ records:
           locator: E2566–E2574; Genome sampling; phylogeny; admixture graph analyses
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

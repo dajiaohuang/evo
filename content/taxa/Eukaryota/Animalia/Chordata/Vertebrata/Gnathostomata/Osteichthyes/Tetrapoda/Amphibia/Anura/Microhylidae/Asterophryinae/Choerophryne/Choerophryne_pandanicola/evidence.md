@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne pandanicola
       zh: Choerophryne pandanicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

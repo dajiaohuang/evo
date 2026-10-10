@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis adnus
       zh: Pristimantis adnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

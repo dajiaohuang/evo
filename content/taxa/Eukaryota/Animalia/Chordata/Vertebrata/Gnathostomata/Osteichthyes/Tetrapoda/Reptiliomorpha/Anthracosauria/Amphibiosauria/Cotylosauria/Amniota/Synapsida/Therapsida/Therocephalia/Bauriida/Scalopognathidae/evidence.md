@@ -9,7 +9,6 @@ records:
     name:
       zh: Scalopognathidae
       en: Scalopognathidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

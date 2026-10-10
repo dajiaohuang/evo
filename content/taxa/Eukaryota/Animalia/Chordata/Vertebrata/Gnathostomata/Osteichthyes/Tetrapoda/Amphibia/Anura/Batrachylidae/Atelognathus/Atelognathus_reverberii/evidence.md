@@ -9,7 +9,6 @@ records:
     name:
       en: Atelognathus reverberii
       zh: Atelognathus reverberii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

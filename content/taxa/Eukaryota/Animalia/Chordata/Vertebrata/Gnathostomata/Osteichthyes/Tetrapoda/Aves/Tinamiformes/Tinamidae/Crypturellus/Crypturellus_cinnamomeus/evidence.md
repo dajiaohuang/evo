@@ -9,7 +9,6 @@ records:
     name:
       zh: Crypturellus cinnamomeus
       en: Crypturellus cinnamomeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

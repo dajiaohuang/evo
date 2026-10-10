@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis hypocyaneus
       zh: Ichthyophis hypocyaneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

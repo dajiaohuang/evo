@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia riparia
       zh: Crinia riparia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Helaletes nanus
       en: Helaletes nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

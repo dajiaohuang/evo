@@ -9,7 +9,6 @@ records:
     name:
       zh: 马来貘属
       en: Malayan tapir genus
-    reviewStatus: source-linked
     checkedAt: 2026-09-22
     sections:
       - topic:

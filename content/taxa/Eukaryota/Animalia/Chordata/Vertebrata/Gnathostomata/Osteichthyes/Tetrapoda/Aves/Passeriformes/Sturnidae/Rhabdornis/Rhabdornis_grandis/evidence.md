@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhabdornis grandis
       en: Rhabdornis grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

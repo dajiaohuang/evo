@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodromoides
       en: Pterodromoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

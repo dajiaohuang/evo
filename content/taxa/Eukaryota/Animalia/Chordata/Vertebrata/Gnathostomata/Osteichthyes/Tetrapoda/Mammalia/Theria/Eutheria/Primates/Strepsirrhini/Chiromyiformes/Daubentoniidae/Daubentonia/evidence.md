@@ -10,7 +10,6 @@ records:
     name:
       en: Aye-aye
       zh: 指猴属
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

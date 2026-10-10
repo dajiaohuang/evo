@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipparion (Proboscidipparion)
       en: Hipparion (Proboscidipparion)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

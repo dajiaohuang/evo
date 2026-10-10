@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis permixtus
       zh: Pristimantis permixtus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

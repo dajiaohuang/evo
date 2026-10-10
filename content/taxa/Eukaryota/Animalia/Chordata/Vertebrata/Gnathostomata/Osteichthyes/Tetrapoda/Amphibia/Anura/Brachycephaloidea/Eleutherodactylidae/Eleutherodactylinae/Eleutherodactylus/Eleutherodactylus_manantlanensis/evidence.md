@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus manantlanensis
       zh: Eleutherodactylus manantlanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

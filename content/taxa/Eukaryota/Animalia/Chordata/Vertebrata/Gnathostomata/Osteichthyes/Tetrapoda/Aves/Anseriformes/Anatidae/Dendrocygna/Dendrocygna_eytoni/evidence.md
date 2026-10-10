@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrocygna eytoni
       en: Dendrocygna eytoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

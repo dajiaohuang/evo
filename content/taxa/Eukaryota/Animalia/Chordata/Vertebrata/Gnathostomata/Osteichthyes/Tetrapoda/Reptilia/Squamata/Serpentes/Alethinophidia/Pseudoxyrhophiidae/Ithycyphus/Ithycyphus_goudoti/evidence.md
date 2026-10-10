@@ -9,7 +9,6 @@ records:
     name:
       zh: Ithycyphus goudoti
       en: Ithycyphus goudoti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

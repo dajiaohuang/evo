@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlanticetus patulus
       en: Atlanticetus patulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

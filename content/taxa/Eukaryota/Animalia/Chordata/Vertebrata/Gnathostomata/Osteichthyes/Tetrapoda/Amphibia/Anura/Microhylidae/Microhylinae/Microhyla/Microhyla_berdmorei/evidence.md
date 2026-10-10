@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla berdmorei
       zh: Microhyla berdmorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

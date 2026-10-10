@@ -9,7 +9,6 @@ records:
     name:
       zh: Oryzomys chapmani
       en: Oryzomys chapmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

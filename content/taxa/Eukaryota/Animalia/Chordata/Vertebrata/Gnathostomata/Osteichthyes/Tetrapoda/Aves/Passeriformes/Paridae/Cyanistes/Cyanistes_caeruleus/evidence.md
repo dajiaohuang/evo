@@ -9,7 +9,6 @@ records:
     name:
       zh: 蓝山雀
       en: Blue tit
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

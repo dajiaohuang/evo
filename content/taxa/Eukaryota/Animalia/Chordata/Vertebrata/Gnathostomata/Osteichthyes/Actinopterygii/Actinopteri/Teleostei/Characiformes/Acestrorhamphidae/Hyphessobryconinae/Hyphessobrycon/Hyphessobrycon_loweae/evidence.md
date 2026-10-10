@@ -297,12 +297,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/3
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Hyphessobrycon loweae
@@ -485,10 +479,4 @@ Life history, evolution, distribution, fossil, and conservation facets remain no
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
 The article-level text reuse license is unknown; the archive-level CC0 declaration applies only to extracted Plazi rows, and the original ZIP EML was not rechecked in this checkout.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/3 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

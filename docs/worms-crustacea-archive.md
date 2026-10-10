@@ -25,7 +25,7 @@ Every scoped COL species receives an explicit accepted-name match, source-declar
 
 A separate 8,675-record source-only partition brings the delivered projection to 89,565 rows in 30 COL shards and three source-only shards. These source-only records do not increase the global COL accepted-species total and are not asserted to be additional unique species relative to ITIS or every other authority: no global cross-authority concept reconciliation has been performed.
 
-This is a name, identifier and status layer, not an ecology, morphology, fossil-occurrence or expert-reviewed dossier. Original `taxon.txt` record locators remain available for source inspection. The existing ITIS and other authority collections keep their own provenance and outcome partitions.
+This is a name, identifier and status layer, not an ecology, morphology, fossil-occurrence or complete scientific dossier. Original `taxon.txt` record locators remain available for source inspection. The existing ITIS and other authority collections keep their own provenance and outcome partitions.
 
 ## Delivery and attribution
 

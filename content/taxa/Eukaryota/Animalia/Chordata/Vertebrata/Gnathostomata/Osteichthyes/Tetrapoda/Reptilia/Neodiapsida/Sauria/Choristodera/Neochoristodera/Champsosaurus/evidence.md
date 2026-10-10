@@ -9,7 +9,6 @@ records:
     name:
       zh: Champsosaurus
       en: Champsosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

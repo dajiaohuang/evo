@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys zhangi
       zh: Xenophrys zhangi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Fejervarya jhilmilensis
       zh: Fejervarya jhilmilensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

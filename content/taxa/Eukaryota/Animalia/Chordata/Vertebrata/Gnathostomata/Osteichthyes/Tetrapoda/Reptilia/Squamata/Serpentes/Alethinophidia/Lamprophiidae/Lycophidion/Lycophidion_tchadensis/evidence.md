@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycophidion tchadensis
       en: Lycophidion tchadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

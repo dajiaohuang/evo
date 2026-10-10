@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana macrops
       zh: Hylarana macrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesalina saudiarabica
       en: Mesalina saudiarabica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

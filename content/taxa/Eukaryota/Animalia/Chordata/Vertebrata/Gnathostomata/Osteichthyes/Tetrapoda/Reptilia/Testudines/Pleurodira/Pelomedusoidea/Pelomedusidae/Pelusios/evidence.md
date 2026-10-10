@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelusios 属
       en: Pelusios
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

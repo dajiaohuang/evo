@@ -9,7 +9,6 @@ records:
     name:
       zh: Mina hui
       en: Mina hui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

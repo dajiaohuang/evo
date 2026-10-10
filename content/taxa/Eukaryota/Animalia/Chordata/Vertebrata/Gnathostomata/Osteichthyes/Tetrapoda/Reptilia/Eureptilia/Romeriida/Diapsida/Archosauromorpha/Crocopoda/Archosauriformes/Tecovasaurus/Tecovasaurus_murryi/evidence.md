@@ -9,7 +9,6 @@ records:
     name:
       zh: Tecovasaurus murryi
       en: Tecovasaurus murryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura teysmanni
       en: Rhipidura teysmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

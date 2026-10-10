@@ -9,7 +9,6 @@ records:
     name:
       zh: Podoces pleskei
       en: Podoces pleskei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hexacodus pelodes
       en: Hexacodus pelodes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

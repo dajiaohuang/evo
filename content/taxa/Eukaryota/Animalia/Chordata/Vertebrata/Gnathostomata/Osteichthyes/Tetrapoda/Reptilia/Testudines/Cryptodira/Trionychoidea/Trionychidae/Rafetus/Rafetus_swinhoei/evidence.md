@@ -9,7 +9,6 @@ records:
     name:
       zh: Rafetus swinhoei
       en: Rafetus swinhoei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

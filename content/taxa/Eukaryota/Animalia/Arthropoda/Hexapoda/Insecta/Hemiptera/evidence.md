@@ -9,7 +9,6 @@ records:
     name:
       zh: 半翅目
       en: Bugs, aphids and cicadas
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

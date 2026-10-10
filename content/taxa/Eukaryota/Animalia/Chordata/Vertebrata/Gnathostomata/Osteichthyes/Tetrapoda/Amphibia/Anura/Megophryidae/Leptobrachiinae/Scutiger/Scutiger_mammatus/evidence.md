@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger mammatus
       zh: Scutiger mammatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

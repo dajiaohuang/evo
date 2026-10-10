@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus sernai
       zh: Atelopus sernai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

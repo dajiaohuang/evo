@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Zhu et al. 2022 DOI 10.1038/s41586-022-05136-8; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: zhu-2022-chongqing-gnathostomes
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: zhu-2022-chongqing-gnathostomes
           locator: pp. 954–958, especially 955–957; Figures 1–2; systematic palaeontology, horizon and phylogenetic analyses
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

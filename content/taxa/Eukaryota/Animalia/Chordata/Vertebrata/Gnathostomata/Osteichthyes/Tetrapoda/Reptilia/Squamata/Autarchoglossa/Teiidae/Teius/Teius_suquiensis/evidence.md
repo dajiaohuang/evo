@@ -9,7 +9,6 @@ records:
     name:
       zh: Teius suquiensis
       en: Teius suquiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

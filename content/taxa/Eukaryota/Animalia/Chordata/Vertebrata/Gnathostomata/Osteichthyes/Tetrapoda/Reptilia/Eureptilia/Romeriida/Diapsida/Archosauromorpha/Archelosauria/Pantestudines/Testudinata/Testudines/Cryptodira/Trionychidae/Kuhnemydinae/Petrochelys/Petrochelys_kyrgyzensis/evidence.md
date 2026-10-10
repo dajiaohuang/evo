@@ -9,7 +9,6 @@ records:
     name:
       zh: Petrochelys kyrgyzensis
       en: Petrochelys kyrgyzensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

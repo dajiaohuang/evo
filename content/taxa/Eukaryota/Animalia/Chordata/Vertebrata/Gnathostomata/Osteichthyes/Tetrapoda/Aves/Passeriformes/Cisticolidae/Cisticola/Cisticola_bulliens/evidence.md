@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola bulliens
       en: Cisticola bulliens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

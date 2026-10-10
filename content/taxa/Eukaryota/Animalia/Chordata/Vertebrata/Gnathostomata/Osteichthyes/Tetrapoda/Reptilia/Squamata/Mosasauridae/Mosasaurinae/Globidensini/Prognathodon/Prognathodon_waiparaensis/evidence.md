@@ -9,7 +9,6 @@ records:
     name:
       zh: Prognathodon waiparaensis
       en: Prognathodon waiparaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

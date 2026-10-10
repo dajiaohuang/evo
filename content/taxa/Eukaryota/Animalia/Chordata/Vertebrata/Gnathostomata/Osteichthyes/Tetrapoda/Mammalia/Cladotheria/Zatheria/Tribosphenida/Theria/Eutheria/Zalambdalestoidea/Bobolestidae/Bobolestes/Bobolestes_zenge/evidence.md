@@ -9,7 +9,6 @@ records:
     name:
       zh: Bobolestes zenge
       en: Bobolestes zenge
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tylomys bullaris
       en: Tylomys bullaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

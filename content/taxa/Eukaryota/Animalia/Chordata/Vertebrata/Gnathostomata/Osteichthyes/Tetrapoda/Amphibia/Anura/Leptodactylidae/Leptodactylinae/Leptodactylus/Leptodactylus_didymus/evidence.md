@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus didymus
       zh: Leptodactylus didymus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

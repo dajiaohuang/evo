@@ -9,7 +9,6 @@ records:
     name:
       zh: Ngawupodius minya
       en: Ngawupodius minya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

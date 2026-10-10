@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibamus novaeguineae
       en: Dibamus novaeguineae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

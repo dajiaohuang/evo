@@ -9,7 +9,6 @@ records:
     name:
       zh: Mystriosuchus westphali
       en: Mystriosuchus westphali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

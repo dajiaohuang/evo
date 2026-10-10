@@ -85,7 +85,6 @@ FishBase archive's distinct licence and scope boundary into an ITIS collection.
 
 The sidecars preserve a release-pinned name crosswalk only. They do not settle
 classification disagreements, establish species-concept equivalence, add
-ecology, media, distributions, fossil occurrences, detailed dossiers, or
-expert review. Later COL or ITIS updates require a new verified snapshot and
+ecology, media, distributions, fossil occurrences, detailed dossiers. Later COL or ITIS updates require a new verified snapshot and
 explicit regenerated descriptor/ledger diff; the pinned bytes above are never
 silently rewritten.

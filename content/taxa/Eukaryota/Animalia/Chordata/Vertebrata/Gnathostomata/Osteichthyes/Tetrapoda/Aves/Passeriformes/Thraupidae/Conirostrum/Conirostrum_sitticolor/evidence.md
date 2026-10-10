@@ -9,7 +9,6 @@ records:
     name:
       zh: Conirostrum sitticolor
       en: Conirostrum sitticolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

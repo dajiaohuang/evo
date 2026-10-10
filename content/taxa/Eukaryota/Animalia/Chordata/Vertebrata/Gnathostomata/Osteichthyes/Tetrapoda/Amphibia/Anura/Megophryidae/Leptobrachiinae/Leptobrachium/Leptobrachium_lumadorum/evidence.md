@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachium lumadorum
       zh: Leptobrachium lumadorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

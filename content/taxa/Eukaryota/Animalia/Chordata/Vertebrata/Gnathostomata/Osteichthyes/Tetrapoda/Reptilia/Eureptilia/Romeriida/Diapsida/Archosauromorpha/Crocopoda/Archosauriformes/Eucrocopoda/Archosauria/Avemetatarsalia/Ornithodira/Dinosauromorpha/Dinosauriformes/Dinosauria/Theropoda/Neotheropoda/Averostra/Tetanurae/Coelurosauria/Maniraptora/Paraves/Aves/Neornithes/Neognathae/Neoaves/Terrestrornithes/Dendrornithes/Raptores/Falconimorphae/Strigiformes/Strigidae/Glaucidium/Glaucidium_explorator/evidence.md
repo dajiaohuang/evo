@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium explorator
       en: Glaucidium explorator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

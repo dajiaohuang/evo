@@ -9,7 +9,6 @@ records:
     name:
       zh: Trogosus latidens
       en: Trogosus latidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

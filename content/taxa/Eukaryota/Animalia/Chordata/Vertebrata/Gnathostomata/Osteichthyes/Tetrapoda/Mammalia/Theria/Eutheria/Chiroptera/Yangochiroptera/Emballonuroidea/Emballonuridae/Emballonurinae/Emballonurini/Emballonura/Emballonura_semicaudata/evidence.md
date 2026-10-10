@@ -9,7 +9,6 @@ records:
     name:
       zh: Emballonura semicaudata
       en: Emballonura semicaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。分布范围是少量出现记录支持的区域界定；可能的接触区和杂交仍是作者假说，没有证实的杂交或基因交流记录。
+。分布范围是少量出现记录支持的区域界定；可能的接触区和杂交仍是作者假说，没有证实的杂交或基因交流记录。
 <!-- /evo:text -->

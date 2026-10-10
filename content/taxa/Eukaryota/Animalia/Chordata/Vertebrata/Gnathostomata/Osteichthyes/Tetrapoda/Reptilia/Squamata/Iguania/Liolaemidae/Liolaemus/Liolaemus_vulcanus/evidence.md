@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus vulcanus
       en: Liolaemus vulcanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

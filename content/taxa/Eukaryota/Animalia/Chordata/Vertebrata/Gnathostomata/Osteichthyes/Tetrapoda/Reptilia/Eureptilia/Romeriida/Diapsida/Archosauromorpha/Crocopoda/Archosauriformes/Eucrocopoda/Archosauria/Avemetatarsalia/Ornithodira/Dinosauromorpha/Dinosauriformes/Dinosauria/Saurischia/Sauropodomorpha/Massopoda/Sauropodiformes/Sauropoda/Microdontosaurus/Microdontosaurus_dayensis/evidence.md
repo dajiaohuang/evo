@@ -9,7 +9,6 @@ records:
     name:
       zh: Microdontosaurus dayensis
       en: Microdontosaurus dayensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

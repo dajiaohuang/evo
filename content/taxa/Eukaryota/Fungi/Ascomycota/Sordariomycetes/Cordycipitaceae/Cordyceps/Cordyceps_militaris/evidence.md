@@ -194,9 +194,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Cordyceps militaris
@@ -324,5 +321,5 @@ The study does not establish population-level variation or general developmental
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets and complete geographic, fossil, conservation, and external review coverage remain unassessed.
+Most biological facets and complete geographic, fossil and conservation coverage remain unassessed.
 <!-- /evo:text -->

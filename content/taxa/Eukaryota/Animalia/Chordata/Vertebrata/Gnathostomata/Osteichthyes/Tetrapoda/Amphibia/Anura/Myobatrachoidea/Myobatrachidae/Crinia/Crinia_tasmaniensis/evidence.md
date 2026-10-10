@@ -9,7 +9,6 @@ records:
     name:
       en: Crinia tasmaniensis
       zh: Crinia tasmaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

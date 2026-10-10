@@ -9,7 +9,6 @@ records:
     name:
       en: Eurycea sphagnicola
       zh: Eurycea sphagnicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

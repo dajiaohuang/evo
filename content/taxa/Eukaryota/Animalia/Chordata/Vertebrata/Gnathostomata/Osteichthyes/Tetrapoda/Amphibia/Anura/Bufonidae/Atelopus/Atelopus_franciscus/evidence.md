@@ -156,10 +156,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
   catalogue-profile:
     scientificName: Atelopus franciscus Lescure, 1974
     rank: species
@@ -167,7 +163,6 @@ records:
     name:
       en: Atelopus franciscus
       zh: Atelopus franciscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -864,12 +859,6 @@ Only bounded anatomical and acoustic evidence has been assessed; five facets rem
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The measurements do not constitute a complete biological literature search or a species-wide account.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / title

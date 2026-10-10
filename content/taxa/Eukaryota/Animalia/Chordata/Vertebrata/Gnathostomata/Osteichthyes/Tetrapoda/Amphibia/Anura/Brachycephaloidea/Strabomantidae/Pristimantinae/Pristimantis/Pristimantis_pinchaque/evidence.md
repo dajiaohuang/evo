@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pinchaque
       zh: Pristimantis pinchaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

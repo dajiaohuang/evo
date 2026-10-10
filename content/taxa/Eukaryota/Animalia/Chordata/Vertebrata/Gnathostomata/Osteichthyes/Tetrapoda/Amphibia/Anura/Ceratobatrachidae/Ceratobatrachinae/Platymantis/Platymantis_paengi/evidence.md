@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis paengi
       zh: Platymantis paengi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

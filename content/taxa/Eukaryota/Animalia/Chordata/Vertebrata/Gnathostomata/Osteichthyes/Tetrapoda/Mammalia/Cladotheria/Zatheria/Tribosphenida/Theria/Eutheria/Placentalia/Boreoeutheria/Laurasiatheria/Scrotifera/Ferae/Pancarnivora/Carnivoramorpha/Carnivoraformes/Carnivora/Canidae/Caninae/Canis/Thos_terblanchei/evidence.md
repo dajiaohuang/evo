@@ -9,7 +9,6 @@ records:
     name:
       zh: Thos terblanchei
       en: Thos terblanchei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Erpeton tentaculatum
       en: Erpeton tentaculatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

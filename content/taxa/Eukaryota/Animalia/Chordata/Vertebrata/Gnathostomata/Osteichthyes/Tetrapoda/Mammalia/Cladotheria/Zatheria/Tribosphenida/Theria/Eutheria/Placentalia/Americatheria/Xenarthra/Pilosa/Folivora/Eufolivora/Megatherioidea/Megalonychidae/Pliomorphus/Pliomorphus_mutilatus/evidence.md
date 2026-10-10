@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliomorphus mutilatus
       en: Pliomorphus mutilatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

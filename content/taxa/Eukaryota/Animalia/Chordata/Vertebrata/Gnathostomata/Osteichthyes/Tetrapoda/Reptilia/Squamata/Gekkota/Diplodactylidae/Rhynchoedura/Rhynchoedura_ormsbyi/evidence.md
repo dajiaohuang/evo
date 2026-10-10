@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchoedura ormsbyi
       en: Rhynchoedura ormsbyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

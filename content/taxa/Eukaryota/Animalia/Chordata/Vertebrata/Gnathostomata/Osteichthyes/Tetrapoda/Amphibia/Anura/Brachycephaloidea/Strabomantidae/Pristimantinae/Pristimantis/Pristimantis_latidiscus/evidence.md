@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis latidiscus
       zh: Pristimantis latidiscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

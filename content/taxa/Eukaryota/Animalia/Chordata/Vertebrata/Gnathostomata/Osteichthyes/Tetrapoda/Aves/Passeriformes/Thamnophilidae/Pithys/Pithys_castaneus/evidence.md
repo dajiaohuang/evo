@@ -9,7 +9,6 @@ records:
     name:
       zh: Pithys castaneus
       en: Pithys castaneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

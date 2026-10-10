@@ -9,7 +9,6 @@ records:
     name:
       en: Crowned Sifaka
       zh: 冠狐猴西法卡
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: survey

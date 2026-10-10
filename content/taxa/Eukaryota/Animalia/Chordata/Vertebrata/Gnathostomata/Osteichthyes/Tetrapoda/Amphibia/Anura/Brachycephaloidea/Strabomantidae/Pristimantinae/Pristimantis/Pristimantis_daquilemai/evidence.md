@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis daquilemai
       zh: Pristimantis daquilemai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetodipus penicillatus
       en: Chaetodipus penicillatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

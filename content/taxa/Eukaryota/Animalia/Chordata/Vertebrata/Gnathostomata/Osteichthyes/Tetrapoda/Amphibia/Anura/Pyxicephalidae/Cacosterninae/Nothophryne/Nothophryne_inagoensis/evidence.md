@@ -9,7 +9,6 @@ records:
     name:
       en: Nothophryne inagoensis
       zh: Nothophryne inagoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

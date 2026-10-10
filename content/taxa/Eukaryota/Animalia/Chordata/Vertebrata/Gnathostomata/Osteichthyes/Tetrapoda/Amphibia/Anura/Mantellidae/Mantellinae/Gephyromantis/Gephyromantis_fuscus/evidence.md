@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis fuscus
       zh: Gephyromantis fuscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

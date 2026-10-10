@@ -9,7 +9,6 @@ records:
     name:
       zh: Ignacius frugivorus
       en: Ignacius frugivorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

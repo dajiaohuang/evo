@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates zed
       zh: Polypedates zed
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus atroluteus
       zh: Melanophryniscus atroluteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

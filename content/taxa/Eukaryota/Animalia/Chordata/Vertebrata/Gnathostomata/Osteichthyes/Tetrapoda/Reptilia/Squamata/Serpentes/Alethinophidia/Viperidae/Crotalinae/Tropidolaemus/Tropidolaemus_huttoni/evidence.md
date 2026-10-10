@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidolaemus huttoni
       en: Tropidolaemus huttoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

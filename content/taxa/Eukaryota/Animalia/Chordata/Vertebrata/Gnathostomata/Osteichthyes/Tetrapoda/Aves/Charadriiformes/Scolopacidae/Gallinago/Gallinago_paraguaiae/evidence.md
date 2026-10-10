@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallinago paraguaiae
       en: Gallinago paraguaiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

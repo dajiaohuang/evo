@@ -9,7 +9,6 @@ records:
     name:
       zh: Urbacodon itemirensis
       en: Urbacodon itemirensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

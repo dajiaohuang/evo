@@ -9,7 +9,6 @@ records:
     name:
       en: Nasutibatrachus mucro
       zh: Nasutibatrachus mucro
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

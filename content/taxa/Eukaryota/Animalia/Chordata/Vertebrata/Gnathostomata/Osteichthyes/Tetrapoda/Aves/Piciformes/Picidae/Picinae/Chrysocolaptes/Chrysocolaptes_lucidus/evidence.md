@@ -9,7 +9,6 @@ records:
     name:
       zh: Chrysocolaptes lucidus
       en: Chrysocolaptes lucidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

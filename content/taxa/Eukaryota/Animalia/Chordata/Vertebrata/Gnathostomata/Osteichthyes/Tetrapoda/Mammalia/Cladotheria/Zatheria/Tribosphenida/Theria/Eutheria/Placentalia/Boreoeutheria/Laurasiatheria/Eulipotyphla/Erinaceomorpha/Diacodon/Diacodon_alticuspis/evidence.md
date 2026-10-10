@@ -9,7 +9,6 @@ records:
     name:
       zh: Diacodon alticuspis
       en: Diacodon alticuspis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

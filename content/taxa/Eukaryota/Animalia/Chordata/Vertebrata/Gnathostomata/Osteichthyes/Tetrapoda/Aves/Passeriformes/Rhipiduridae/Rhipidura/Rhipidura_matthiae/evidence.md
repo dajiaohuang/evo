@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura matthiae
       en: Rhipidura matthiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

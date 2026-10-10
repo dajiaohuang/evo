@@ -22,7 +22,7 @@ Palacios and Peres (2005) surveyed three lowland terra firme forests in southeas
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The page covers name and type information, MDD fields, historical regional transects and the 2025 Colombian national assessment. Old survey data remain unassigned to current C. medemi, and the national decline is suspected without a documented population time series. Current species-specific field ecology and abundance trends remain insufficient; this is not a complete species monograph. The Chinese name is editorial, and there has been no external expert review.
+The page covers name and type information, MDD fields, historical regional transects and the 2025 Colombian national assessment. Old survey data remain unassigned to current C. medemi, and the national decline is suspected without a documented population time series. Current species-specific field ecology and abundance trends remain insufficient; this is not a complete species monograph. The Chinese name is editorial.
 
 The 2020 museum comparison questions hand-colour diagnosis without formally synonymizing medemi or resolving its field ecology and abundance gaps.
 <!-- /evo:text -->

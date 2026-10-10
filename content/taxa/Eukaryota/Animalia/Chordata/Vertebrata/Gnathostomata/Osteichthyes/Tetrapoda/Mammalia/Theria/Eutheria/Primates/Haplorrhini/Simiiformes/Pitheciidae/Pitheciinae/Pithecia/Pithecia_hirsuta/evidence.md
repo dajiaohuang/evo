@@ -9,7 +9,6 @@ records:
     name:
       zh: 多毛僧面猴
       en: Hairy Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

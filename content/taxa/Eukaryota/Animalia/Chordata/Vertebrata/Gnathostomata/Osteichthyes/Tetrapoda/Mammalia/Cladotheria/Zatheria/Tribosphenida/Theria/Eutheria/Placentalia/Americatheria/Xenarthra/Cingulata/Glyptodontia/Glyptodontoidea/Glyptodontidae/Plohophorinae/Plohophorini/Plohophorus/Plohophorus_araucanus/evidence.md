@@ -9,7 +9,6 @@ records:
     name:
       zh: Plohophorus araucanus
       en: Plohophorus araucanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

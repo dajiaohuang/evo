@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachypsalis matutinus
       en: Brachypsalis matutinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

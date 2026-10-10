@@ -48,7 +48,7 @@ Start with Caiuajara dobruskii and compare the named collection and original ref
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route adds entry points to bonebed and cranial studies. All genus material, later histology and taxonomic disputes remain incompletely synthesized. Growth and behavioral inferences are not counted as direct observations, and external expert review has not occurred.
+This route adds entry points to bonebed and cranial studies. All genus material, later histology and taxonomic disputes remain incompletely synthesized. Growth and behavioral inferences are not counted as direct observations.
 
 The comparative route additionally uses the already-read 2019 shared-bonebed and 2020 dinosaur-histology main texts. Samples and models apply to their respective taxa; cross-links do not complete the site fauna or all developmental research.
 <!-- /evo:text -->

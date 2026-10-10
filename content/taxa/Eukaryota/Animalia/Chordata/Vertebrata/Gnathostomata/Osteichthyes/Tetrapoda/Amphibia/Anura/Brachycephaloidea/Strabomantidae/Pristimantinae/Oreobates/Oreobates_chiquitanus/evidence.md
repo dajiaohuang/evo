@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates chiquitanus
       zh: Oreobates chiquitanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius baumanni
       zh: Hyperolius baumanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

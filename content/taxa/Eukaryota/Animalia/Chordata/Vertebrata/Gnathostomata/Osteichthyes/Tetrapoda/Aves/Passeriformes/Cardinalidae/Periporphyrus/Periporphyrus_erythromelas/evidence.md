@@ -9,7 +9,6 @@ records:
     name:
       zh: Periporphyrus erythromelas
       en: Periporphyrus erythromelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

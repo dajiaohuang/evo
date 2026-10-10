@@ -9,7 +9,6 @@ records:
     name:
       en: Capensibufo magistratus
       zh: Capensibufo magistratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

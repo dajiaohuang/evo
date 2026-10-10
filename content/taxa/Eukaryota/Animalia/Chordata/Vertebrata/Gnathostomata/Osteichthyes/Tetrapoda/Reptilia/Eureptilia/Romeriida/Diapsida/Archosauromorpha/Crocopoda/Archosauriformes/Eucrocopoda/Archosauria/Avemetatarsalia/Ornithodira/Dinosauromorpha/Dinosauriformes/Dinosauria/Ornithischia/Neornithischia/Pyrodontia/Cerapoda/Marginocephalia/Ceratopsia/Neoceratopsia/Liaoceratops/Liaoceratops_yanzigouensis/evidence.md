@@ -9,7 +9,6 @@ records:
     name:
       zh: Liaoceratops yanzigouensis
       en: Liaoceratops yanzigouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

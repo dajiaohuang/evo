@@ -9,7 +9,6 @@ records:
     name:
       en: Mona monkey
       zh: 莫纳长尾猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

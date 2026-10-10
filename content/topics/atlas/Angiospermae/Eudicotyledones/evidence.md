@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: moore-2010-eudicot-plastids
       referenceLinks:
         - referenceId: moore-2010-eudicot-plastids
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Sun et al. 2011 DOI 10.1038/nature09811; Moore et al. 2010 DOI 10.1073/pnas.0907801107
       referenceLinks:
         - referenceId: sun-2011-leefructus
           relation: supports
@@ -72,9 +66,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Sun et al. 2011 DOI 10.1038/nature09811
       referenceLinks:
         - referenceId: sun-2011-leefructus
           relation: supports
@@ -93,9 +84,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Sun et al. 2011 DOI 10.1038/nature09811
       referenceLinks:
         - referenceId: sun-2011-leefructus
           relation: supports
@@ -113,9 +101,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Sun et al. 2011 DOI 10.1038/nature09811
       referenceLinks:
         - referenceId: sun-2011-leefructus
           relation: supports
@@ -134,9 +119,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: sun-2011-leefructus locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: sun-2011-leefructus
@@ -192,7 +174,6 @@ records:
       referenceLocators:
         - referenceId: sun-2011-leefructus
           locator: 625–628; Abstract; Figures 1–5; Daxinfangzi bed dates 122.6–125.8 Ma and Leefructus diagnosis
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

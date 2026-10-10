@@ -9,7 +9,6 @@ records:
     name:
       zh: Feeserpeton oklahomensis
       en: Feeserpeton oklahomensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

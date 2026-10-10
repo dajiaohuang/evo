@@ -9,7 +9,6 @@ records:
     name:
       en: Sigalegalephrynus burnitelongensis
       zh: Sigalegalephrynus burnitelongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola florencei
       zh: Pseudopaludicola florencei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Odontopterygiformes
       en: Odontopterygiformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

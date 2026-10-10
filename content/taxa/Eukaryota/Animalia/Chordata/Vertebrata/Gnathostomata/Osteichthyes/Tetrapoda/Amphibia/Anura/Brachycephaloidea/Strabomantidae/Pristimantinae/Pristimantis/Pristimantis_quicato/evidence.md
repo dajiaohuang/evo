@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis quicato
       zh: Pristimantis quicato
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

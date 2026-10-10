@@ -9,7 +9,6 @@ records:
     name:
       en: Coquerel's Sifaka
       zh: 科克雷尔西法卡
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

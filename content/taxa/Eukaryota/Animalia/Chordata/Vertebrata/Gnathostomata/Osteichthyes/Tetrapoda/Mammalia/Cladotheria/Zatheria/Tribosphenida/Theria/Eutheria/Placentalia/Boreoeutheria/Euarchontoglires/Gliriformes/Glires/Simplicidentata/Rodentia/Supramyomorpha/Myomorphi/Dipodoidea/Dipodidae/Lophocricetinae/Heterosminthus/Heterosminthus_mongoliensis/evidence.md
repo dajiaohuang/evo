@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterosminthus mongoliensis
       en: Heterosminthus mongoliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

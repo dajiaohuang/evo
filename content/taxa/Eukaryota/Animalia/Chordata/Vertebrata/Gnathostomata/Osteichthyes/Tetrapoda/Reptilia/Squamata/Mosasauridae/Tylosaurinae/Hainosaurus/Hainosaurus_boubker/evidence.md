@@ -9,7 +9,6 @@ records:
     name:
       zh: Hainosaurus boubker
       en: Hainosaurus boubker
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

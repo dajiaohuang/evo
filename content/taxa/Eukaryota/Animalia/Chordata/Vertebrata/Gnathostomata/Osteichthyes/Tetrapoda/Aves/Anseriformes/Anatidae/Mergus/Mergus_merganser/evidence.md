@@ -9,7 +9,6 @@ records:
     name:
       zh: Mergus merganser
       en: Mergus merganser
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

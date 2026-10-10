@@ -9,7 +9,6 @@ records:
     name:
       zh: Potamotelses aquilensis
       en: Potamotelses aquilensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne frieda
       zh: Choerophryne frieda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

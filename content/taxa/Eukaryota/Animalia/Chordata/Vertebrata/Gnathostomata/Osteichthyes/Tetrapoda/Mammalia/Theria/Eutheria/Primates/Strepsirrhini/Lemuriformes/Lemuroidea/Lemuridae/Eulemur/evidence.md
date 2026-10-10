@@ -9,7 +9,6 @@ records:
     name:
       en: Eulemur reading path
       zh: Eulemur 属阅读路径
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

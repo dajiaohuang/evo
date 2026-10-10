@@ -9,7 +9,6 @@ records:
     name:
       zh: Prionops retzii
       en: Prionops retzii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

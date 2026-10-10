@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenorhinos halli
       en: Xenorhinos halli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

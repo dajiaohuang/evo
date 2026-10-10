@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Lyson et al. 2013 DOI 10.1016/j.cub.2013.05.003
       referenceLinks:
         - referenceId: lyson-2013-eunotosaurus-shell
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scincella silvicola
       en: Scincella silvicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heptacodon gibbiceps
       en: Heptacodon gibbiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

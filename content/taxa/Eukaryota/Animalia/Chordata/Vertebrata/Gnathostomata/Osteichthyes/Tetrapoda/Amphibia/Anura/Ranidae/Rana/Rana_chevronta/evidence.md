@@ -9,7 +9,6 @@ records:
     name:
       en: Rana chevronta
       zh: Rana chevronta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

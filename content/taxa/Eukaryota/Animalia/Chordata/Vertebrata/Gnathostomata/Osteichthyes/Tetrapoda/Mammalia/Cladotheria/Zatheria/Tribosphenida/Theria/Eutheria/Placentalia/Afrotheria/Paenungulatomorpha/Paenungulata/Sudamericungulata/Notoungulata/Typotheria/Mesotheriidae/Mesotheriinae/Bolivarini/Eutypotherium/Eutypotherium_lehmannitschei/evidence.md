@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutypotherium lehmannitschei
       en: Eutypotherium lehmannitschei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Goniopholis affinis
       en: Goniopholis affinis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

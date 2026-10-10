@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus mjobergi
       zh: Philautus mjobergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

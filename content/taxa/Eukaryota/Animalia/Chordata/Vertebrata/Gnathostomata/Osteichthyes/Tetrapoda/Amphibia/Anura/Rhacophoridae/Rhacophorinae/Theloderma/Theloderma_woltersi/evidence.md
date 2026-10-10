@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma woltersi
       zh: Theloderma woltersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

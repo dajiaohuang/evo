@@ -9,7 +9,6 @@ records:
     name:
       zh: Hieraaetus morphnoides
       en: Hieraaetus morphnoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

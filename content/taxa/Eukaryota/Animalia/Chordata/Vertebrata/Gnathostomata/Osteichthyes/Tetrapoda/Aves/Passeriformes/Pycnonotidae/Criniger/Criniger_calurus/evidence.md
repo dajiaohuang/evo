@@ -9,7 +9,6 @@ records:
     name:
       zh: Criniger calurus
       en: Criniger calurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylophorops chapalmalensis
       en: Thylophorops chapalmalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

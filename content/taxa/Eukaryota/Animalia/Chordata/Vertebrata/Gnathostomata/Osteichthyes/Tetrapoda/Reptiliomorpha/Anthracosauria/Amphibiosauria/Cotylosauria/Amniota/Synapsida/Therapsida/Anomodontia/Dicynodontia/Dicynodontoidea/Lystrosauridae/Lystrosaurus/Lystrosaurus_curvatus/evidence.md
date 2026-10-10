@@ -9,7 +9,6 @@ records:
     name:
       zh: Lystrosaurus curvatus
       en: Lystrosaurus curvatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys poweri
       zh: Sclerophrys poweri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

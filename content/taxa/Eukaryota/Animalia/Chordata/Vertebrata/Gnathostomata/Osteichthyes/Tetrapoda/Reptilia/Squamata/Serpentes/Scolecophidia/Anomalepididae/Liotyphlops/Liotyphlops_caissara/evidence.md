@@ -9,7 +9,6 @@ records:
     name:
       zh: Liotyphlops caissara
       en: Liotyphlops caissara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

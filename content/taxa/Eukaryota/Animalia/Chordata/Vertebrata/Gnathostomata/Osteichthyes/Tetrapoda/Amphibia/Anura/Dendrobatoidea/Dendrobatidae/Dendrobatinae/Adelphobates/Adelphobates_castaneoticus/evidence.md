@@ -9,7 +9,6 @@ records:
     name:
       en: Adelphobates castaneoticus
       zh: Adelphobates castaneoticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

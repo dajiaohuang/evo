@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys cristiceps
       zh: Proceratophrys cristiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

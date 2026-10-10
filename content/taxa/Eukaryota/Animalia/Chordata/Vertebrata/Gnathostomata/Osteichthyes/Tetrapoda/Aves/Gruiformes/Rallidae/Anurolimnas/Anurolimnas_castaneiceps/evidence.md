@@ -9,7 +9,6 @@ records:
     name:
       zh: Anurolimnas castaneiceps
       en: Anurolimnas castaneiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

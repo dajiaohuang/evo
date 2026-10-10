@@ -9,7 +9,6 @@ records:
     name:
       zh: Paractiornis perpusillus
       en: Paractiornis perpusillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

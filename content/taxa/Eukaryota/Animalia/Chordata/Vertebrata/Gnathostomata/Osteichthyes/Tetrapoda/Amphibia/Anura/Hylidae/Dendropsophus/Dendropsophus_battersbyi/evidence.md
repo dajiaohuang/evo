@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus battersbyi
       zh: Dendropsophus battersbyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

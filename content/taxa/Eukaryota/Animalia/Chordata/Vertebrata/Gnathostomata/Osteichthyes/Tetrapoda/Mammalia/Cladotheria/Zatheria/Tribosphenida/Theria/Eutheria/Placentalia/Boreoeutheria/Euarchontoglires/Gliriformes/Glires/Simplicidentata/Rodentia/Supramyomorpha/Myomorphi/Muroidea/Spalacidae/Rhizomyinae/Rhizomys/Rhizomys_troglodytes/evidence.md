@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhizomys troglodytes
       en: Rhizomys troglodytes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Tana River Red Colobus
       zh: 塔纳河红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: habitat

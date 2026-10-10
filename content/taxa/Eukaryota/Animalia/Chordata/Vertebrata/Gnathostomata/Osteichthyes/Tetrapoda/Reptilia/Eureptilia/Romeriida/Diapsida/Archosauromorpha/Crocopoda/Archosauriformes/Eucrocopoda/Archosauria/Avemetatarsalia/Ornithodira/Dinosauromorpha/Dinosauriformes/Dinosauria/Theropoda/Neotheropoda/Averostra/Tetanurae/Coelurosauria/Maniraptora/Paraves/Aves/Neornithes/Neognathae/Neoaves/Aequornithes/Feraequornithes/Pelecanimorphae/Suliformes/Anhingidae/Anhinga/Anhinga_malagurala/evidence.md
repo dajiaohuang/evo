@@ -9,7 +9,6 @@ records:
     name:
       zh: Anhinga malagurala
       en: Anhinga malagurala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

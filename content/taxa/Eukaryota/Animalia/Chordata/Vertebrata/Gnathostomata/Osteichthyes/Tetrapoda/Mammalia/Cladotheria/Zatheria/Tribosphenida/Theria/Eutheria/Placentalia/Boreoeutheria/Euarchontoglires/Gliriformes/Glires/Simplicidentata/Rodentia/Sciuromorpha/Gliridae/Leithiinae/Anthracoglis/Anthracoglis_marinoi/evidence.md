@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthracoglis marinoi
       en: Anthracoglis marinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

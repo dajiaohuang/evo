@@ -9,7 +9,6 @@ records:
     name:
       zh: Woodfordia superciliosa
       en: Woodfordia superciliosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

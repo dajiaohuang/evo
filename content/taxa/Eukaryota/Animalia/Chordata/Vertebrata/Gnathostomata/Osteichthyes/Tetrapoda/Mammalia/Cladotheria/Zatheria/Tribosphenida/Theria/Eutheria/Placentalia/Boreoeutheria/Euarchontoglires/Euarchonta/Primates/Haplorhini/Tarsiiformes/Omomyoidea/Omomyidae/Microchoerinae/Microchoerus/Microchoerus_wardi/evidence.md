@@ -9,7 +9,6 @@ records:
     name:
       zh: Microchoerus wardi
       en: Microchoerus wardi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protadjidaumo altilophus
       en: Protadjidaumo altilophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

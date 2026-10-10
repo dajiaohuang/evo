@@ -9,7 +9,6 @@ records:
     name:
       zh: Felis pumoides
       en: Felis pumoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus kanburiensis
       en: Trimeresurus kanburiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

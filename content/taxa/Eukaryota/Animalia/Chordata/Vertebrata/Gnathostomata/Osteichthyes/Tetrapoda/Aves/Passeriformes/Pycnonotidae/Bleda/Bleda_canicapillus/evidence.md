@@ -9,7 +9,6 @@ records:
     name:
       zh: Bleda canicapillus
       en: Bleda canicapillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

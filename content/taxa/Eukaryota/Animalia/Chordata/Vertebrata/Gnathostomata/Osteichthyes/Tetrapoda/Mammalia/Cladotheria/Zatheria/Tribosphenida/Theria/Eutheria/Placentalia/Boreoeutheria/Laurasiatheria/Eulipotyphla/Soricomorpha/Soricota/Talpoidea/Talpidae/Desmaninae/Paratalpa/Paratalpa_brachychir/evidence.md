@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratalpa brachychir
       en: Paratalpa brachychir
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

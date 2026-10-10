@@ -9,7 +9,6 @@ records:
     name:
       zh: Peltephilus giganteus
       en: Peltephilus giganteus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

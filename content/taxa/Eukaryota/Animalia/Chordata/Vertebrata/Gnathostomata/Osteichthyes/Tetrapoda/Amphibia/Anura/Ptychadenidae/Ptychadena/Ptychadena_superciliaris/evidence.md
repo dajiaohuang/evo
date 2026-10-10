@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena superciliaris
       zh: Ptychadena superciliaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

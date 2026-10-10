@@ -9,7 +9,6 @@ records:
     name:
       zh: Gavia brodkorbi
       en: Gavia brodkorbi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

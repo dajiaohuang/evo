@@ -9,7 +9,6 @@ records:
     name:
       zh: Dologale dybowskii
       en: Dologale dybowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

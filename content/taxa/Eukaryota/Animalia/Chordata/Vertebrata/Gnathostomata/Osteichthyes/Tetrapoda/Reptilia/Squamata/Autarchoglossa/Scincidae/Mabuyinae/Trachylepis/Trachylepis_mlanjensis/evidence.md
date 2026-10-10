@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis mlanjensis
       en: Trachylepis mlanjensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

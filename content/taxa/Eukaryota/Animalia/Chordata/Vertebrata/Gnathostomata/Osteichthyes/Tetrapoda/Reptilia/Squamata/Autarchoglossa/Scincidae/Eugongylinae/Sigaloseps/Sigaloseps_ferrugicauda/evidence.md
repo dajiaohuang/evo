@@ -9,7 +9,6 @@ records:
     name:
       zh: Sigaloseps ferrugicauda
       en: Sigaloseps ferrugicauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

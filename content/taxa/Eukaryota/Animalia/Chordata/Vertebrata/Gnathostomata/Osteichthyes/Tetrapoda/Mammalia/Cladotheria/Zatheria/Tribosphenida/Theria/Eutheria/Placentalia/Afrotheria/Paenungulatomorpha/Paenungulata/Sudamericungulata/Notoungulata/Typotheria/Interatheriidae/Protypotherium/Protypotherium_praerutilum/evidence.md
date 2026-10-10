@@ -9,7 +9,6 @@ records:
     name:
       zh: Protypotherium praerutilum
       en: Protypotherium praerutilum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

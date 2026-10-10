@@ -9,7 +9,6 @@ records:
     name:
       zh: Leucopternis melanops
       en: Leucopternis melanops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

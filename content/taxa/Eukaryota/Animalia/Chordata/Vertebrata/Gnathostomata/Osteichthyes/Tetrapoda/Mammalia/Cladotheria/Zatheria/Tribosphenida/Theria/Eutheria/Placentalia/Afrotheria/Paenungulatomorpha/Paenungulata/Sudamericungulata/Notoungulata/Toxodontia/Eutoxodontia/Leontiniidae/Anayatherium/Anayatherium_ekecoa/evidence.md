@@ -9,7 +9,6 @@ records:
     name:
       zh: Anayatherium ekecoa
       en: Anayatherium ekecoa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

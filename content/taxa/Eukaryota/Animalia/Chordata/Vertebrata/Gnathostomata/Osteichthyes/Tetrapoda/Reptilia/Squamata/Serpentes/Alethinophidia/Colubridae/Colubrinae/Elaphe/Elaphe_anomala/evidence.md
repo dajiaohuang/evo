@@ -9,7 +9,6 @@ records:
     name:
       zh: Elaphe anomala
       en: Elaphe anomala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 沼泽鳄
       en: Mugger crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

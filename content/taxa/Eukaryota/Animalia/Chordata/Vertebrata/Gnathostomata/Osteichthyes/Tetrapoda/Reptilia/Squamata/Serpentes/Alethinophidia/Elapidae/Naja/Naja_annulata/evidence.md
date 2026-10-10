@@ -9,7 +9,6 @@ records:
     name:
       zh: Naja annulata
       en: Naja annulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

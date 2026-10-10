@@ -9,7 +9,6 @@ records:
     name:
       zh: Monasa atra
       en: Monasa atra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

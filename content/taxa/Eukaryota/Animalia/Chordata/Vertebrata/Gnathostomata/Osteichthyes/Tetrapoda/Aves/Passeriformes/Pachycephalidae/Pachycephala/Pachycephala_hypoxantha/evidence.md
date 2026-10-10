@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephala hypoxantha
       en: Pachycephala hypoxantha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

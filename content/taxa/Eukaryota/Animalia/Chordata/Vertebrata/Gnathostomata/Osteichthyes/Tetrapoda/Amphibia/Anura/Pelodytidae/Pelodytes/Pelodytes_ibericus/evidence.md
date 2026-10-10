@@ -9,7 +9,6 @@ records:
     name:
       en: Pelodytes ibericus
       zh: Pelodytes ibericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

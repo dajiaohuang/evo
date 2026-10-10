@@ -9,7 +9,6 @@ records:
     name:
       zh: Tricholaema leucomelas
       en: Tricholaema leucomelas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

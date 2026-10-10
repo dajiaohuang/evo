@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoceramodactylus
       en: Pseudoceramodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

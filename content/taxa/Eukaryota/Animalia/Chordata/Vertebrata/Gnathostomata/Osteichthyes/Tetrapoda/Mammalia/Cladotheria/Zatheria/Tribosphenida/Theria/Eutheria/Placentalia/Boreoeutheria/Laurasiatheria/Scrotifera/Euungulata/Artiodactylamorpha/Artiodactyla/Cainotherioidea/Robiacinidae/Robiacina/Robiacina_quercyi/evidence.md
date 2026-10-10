@@ -9,7 +9,6 @@ records:
     name:
       zh: Robiacina quercyi
       en: Robiacina quercyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

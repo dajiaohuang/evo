@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis bicegoi
       zh: Chiasmocleis bicegoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus hidupselamanya
       en: Cyrtodactylus hidupselamanya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

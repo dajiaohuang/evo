@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptilinopus melanospilus
       en: Ptilinopus melanospilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

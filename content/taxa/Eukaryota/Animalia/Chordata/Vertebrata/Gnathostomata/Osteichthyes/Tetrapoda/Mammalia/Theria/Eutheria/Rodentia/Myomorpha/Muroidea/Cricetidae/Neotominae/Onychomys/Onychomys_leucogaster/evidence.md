@@ -9,7 +9,6 @@ records:
     name:
       zh: Onychomys leucogaster
       en: Onychomys leucogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

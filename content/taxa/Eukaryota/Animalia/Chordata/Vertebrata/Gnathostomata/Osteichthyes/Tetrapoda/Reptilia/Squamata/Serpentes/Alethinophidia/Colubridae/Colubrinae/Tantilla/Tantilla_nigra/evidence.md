@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla nigra
       en: Tantilla nigra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

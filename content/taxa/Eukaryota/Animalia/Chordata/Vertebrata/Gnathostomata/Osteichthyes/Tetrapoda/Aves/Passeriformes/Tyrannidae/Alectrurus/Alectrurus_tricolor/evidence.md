@@ -9,7 +9,6 @@ records:
     name:
       zh: Alectrurus tricolor
       en: Alectrurus tricolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

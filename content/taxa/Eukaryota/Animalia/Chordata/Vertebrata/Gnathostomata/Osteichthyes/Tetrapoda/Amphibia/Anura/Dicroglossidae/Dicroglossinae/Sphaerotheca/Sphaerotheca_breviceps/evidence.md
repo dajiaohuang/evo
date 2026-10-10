@@ -9,7 +9,6 @@ records:
     name:
       en: Sphaerotheca breviceps
       zh: Sphaerotheca breviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna tandyi
       zh: Tomopterna tandyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

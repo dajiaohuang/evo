@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroplocephalus
       en: Paroplocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

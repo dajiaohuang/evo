@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerrophidion sasai
       en: Cerrophidion sasai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Helicops trivittatus
       en: Helicops trivittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

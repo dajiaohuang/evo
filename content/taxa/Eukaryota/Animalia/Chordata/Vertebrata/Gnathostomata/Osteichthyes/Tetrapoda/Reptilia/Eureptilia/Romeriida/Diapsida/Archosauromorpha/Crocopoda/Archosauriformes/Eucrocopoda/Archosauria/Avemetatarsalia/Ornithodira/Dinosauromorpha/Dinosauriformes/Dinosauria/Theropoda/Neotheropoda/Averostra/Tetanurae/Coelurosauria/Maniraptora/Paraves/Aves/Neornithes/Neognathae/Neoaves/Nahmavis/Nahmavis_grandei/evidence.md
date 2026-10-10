@@ -9,7 +9,6 @@ records:
     name:
       zh: Nahmavis grandei
       en: Nahmavis grandei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

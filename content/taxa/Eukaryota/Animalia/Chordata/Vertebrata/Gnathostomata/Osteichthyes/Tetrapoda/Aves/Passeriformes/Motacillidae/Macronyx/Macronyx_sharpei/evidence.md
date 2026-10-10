@@ -9,7 +9,6 @@ records:
     name:
       zh: Macronyx sharpei
       en: Macronyx sharpei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

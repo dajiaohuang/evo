@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilotherium intermedium
       en: Chilotherium intermedium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

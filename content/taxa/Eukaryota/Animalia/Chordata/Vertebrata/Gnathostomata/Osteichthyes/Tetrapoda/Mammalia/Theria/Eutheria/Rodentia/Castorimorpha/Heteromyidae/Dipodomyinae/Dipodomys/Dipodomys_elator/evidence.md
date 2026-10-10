@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipodomys elator
       en: Dipodomys elator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

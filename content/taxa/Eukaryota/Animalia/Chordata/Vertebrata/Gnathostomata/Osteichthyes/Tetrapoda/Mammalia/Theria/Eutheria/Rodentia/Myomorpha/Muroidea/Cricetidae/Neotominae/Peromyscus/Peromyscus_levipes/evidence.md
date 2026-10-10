@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus levipes
       en: Peromyscus levipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

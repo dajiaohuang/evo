@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus fergusonianus
       zh: Pseudophilautus fergusonianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

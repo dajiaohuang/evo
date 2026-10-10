@@ -9,7 +9,6 @@ records:
     name:
       zh: Mytonomys wortmani
       en: Mytonomys wortmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

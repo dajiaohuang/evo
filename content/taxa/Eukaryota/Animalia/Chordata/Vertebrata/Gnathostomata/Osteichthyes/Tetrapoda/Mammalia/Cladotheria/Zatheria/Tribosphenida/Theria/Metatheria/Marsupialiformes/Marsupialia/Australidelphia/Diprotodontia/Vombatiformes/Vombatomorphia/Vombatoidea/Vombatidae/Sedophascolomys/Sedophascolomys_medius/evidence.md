@@ -9,7 +9,6 @@ records:
     name:
       zh: Sedophascolomys medius
       en: Sedophascolomys medius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

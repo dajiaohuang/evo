@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis humayuni
       en: Dendrelaphis humayuni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

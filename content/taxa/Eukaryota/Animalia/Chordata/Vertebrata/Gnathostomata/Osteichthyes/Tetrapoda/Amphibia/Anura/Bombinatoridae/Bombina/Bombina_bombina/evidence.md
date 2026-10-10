@@ -9,7 +9,6 @@ records:
     name:
       en: Bombina bombina
       zh: Bombina bombina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

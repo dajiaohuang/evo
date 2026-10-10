@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyornis tickelliae
       en: Cyornis tickelliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

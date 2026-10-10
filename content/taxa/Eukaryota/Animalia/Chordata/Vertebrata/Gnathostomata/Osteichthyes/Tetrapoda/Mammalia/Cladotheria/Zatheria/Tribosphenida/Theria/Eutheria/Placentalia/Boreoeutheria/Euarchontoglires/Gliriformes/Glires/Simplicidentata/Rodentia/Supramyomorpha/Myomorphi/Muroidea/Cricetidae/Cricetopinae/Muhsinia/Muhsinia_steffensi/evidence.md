@@ -9,7 +9,6 @@ records:
     name:
       zh: Muhsinia steffensi
       en: Muhsinia steffensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

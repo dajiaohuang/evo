@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeodesmana baetica
       en: Archaeodesmana baetica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

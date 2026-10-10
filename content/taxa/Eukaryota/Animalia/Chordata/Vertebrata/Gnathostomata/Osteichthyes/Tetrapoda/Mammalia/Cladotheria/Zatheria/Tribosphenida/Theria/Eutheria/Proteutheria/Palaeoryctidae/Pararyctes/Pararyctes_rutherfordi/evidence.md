@@ -9,7 +9,6 @@ records:
     name:
       zh: Pararyctes rutherfordi
       en: Pararyctes rutherfordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

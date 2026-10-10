@@ -9,7 +9,6 @@ records:
     name:
       zh: 黔金丝猴
       en: Guizhou Snub-nosed Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

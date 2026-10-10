@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesolicaphrium sanalfonense
       en: Mesolicaphrium sanalfonense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

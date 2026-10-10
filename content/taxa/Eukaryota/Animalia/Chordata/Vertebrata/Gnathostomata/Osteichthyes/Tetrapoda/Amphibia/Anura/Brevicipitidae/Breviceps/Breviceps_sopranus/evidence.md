@@ -9,7 +9,6 @@ records:
     name:
       en: Breviceps sopranus
       zh: Breviceps sopranus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

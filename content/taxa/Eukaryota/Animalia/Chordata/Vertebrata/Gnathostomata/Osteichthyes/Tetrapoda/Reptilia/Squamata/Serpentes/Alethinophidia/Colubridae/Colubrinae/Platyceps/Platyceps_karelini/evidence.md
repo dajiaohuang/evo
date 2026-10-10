@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyceps karelini
       en: Platyceps karelini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius collaris
       en: Charadrius collaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

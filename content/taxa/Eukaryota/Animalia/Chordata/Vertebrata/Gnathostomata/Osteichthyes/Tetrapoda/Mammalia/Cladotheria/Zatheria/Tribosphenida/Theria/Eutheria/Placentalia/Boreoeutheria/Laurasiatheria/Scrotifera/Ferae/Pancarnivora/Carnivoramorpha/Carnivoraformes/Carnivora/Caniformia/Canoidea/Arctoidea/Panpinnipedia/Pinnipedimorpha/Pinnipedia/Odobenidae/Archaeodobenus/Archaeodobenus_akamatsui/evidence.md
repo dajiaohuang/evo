@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeodobenus akamatsui
       en: Archaeodobenus akamatsui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

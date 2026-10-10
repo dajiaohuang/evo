@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis zophus
       zh: Pristimantis zophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

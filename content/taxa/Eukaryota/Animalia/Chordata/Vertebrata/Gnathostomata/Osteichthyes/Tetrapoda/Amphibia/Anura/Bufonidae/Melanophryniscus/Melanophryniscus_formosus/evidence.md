@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus formosus
       zh: Melanophryniscus formosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllonastes personinus
       zh: Phyllonastes personinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoltinomys phosphoricus
       en: Pseudoltinomys phosphoricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

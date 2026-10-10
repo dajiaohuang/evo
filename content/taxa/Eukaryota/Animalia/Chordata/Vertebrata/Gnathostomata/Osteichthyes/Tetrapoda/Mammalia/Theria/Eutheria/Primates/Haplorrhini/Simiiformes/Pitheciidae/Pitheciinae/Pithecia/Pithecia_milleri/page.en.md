@@ -16,5 +16,5 @@ Villalba, Páez and Palacios combined opportunistic field observations from 2007
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The 77 records combine different years, collections and opportunistic observations; alone they do not establish present occupancy, abundance or a contact boundary with P. hirsuta. The Chinese name is editorial; this page has not received external expert review. This page is not externally expert-reviewed.
+The 77 records combine different years, collections and opportunistic observations; alone they do not establish present occupancy, abundance or a contact boundary with P. hirsuta. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

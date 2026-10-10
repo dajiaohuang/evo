@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella bidoupensis
       zh: Leptobrachella bidoupensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anguis cephallonica
       en: Anguis cephallonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

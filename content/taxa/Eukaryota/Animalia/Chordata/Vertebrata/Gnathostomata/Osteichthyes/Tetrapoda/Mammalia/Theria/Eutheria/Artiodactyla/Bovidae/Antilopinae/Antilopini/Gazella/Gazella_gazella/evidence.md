@@ -9,7 +9,6 @@ records:
     name:
       zh: Gazella gazella
       en: Gazella gazella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

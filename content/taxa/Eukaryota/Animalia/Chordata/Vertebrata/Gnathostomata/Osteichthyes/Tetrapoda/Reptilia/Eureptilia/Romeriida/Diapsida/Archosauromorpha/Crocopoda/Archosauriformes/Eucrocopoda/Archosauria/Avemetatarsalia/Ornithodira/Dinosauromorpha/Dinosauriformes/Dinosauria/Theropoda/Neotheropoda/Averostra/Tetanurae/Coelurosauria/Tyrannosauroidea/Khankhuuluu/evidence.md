@@ -9,7 +9,6 @@ records:
     name:
       zh: Khankhuuluu
       en: Khankhuuluu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

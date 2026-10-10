@@ -9,7 +9,6 @@ records:
     name:
       zh: 多彩白额卷尾猴
       en: Cebus versicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

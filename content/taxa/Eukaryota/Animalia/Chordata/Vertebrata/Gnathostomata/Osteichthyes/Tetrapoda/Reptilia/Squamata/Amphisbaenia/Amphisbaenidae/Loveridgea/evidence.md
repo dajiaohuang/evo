@@ -9,7 +9,6 @@ records:
     name:
       zh: Loveridgea
       en: Loveridgea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

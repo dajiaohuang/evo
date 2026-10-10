@@ -9,7 +9,6 @@ records:
     name:
       en: Barygenys parvula
       zh: Barygenys parvula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

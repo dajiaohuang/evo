@@ -9,7 +9,6 @@ records:
     name:
       zh: Liopholidophis rhadinaea
       en: Liopholidophis rhadinaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

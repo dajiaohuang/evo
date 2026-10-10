@@ -9,7 +9,6 @@ records:
     name:
       en: Cophyla maharipeo
       zh: Cophyla maharipeo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

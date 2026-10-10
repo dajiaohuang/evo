@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis asimus
       zh: Pristimantis asimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

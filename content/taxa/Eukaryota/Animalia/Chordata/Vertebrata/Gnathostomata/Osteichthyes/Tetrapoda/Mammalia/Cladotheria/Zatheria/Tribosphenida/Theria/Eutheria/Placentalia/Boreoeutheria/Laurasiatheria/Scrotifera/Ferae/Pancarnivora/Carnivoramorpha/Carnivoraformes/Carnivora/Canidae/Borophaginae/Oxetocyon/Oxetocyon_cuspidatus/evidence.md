@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxetocyon cuspidatus
       en: Oxetocyon cuspidatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

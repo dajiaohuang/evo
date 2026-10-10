@@ -9,7 +9,6 @@ records:
     name:
       zh: Trigonoceps occipitalis
       en: Trigonoceps occipitalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

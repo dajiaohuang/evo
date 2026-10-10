@@ -9,7 +9,6 @@ records:
     name:
       en: Spot-nosed monkey
       zh: 小斑鼻长尾猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

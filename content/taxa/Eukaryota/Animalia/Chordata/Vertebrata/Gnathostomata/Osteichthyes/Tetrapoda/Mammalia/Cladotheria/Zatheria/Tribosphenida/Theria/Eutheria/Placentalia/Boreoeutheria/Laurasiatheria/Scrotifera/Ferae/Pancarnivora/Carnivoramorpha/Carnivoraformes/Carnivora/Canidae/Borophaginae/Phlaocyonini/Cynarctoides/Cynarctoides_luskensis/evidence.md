@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynarctoides luskensis
       en: Cynarctoides luskensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

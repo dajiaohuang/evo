@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyrannoneustes lythrodectikos
       en: Tyrannoneustes lythrodectikos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

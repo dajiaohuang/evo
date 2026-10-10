@@ -9,7 +9,6 @@ records:
     name:
       zh: Bathornis fricki
       en: Bathornis fricki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

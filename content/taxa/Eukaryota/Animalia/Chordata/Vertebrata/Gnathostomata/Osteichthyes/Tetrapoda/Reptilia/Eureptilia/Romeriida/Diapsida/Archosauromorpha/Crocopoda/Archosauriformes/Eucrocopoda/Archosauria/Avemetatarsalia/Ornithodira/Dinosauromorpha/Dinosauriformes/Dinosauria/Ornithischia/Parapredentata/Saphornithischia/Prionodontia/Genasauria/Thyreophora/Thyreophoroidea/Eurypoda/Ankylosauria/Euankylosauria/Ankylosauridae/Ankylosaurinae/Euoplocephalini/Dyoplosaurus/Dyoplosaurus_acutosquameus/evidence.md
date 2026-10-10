@@ -9,7 +9,6 @@ records:
     name:
       zh: Dyoplosaurus acutosquameus
       en: Dyoplosaurus acutosquameus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

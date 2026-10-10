@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammodramus aurifrons
       en: Ammodramus aurifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

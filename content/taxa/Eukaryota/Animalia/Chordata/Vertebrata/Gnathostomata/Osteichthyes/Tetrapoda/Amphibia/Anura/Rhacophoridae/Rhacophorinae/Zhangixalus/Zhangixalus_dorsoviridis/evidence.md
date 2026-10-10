@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus dorsoviridis
       zh: Zhangixalus dorsoviridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Luscinia pectoralis
       en: Luscinia pectoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ COL26.8 genus ID BSTB7 connects two selected species routes: X. intermedius (BV3
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route links selected COL26.8 species pages and one genus-level taxonomic paper; it is not an exhaustive genus roster or ecological synthesis. Its field survey covers only Guangxi, China, and the other study is captive; they do not form a combined genus-wide sample. The Chinese genus name is editorial, and the page has not received external expert review. This page is not externally expert-reviewed.
+This route links selected COL26.8 species pages and one genus-level taxonomic paper; it is not an exhaustive genus roster or ecological synthesis. Its field survey covers only Guangxi, China, and the other study is captive; they do not form a combined genus-wide sample. The Chinese genus name is editorial. This page is.
 <!-- /evo:text -->

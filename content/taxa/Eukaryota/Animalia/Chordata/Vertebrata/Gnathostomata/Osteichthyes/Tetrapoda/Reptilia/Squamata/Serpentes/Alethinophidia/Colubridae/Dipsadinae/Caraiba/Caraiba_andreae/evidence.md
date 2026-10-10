@@ -9,7 +9,6 @@ records:
     name:
       zh: Caraiba andreae
       en: Caraiba andreae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

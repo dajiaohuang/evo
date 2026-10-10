@@ -9,7 +9,6 @@ records:
     name:
       zh: Araripesuchus gomesii
       en: Araripesuchus gomesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

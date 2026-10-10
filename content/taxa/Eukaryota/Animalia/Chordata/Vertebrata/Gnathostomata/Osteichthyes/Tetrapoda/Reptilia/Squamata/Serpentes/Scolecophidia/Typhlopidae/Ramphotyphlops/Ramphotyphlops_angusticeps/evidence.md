@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphotyphlops angusticeps
       en: Ramphotyphlops angusticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

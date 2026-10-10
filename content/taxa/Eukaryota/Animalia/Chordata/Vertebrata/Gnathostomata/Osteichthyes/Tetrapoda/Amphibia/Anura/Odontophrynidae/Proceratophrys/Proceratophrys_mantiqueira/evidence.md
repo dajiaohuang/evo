@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys mantiqueira
       zh: Proceratophrys mantiqueira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

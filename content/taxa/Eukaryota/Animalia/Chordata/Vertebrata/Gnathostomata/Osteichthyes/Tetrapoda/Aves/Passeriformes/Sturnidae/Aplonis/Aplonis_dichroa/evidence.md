@@ -9,7 +9,6 @@ records:
     name:
       zh: Aplonis dichroa
       en: Aplonis dichroa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

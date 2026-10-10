@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphelocephala leucopsis
       en: Aphelocephala leucopsis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

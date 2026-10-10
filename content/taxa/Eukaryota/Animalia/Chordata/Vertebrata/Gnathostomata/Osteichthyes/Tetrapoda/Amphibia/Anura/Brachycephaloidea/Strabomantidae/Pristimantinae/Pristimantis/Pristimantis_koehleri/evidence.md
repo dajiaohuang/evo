@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis koehleri
       zh: Pristimantis koehleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

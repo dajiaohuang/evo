@@ -26,11 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/0/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: ohtomo-2014-isua-biogenic-graphite
           relation: supports
@@ -73,7 +68,6 @@ records:
           locator: pp. 25–28; p. 25 abstract; Figures 3–4; p. 28 conclusion on isotope and graphite-nanostructure evidence
         - referenceId: pearce-2018-origin-life-window
           locator: pp. 343–364; Abstract and Introduction; Figure 1; Table 1; habitability versus biosignature boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   classification-support:
     - support: contextual

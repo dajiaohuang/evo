@@ -9,7 +9,6 @@ records:
     name:
       zh: Palatobaena cohen
       en: Palatobaena cohen
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

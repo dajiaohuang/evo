@@ -9,7 +9,6 @@ records:
     name:
       zh: Milvago chimango
       en: Milvago chimango
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

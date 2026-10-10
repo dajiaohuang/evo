@@ -9,7 +9,6 @@ records:
     name:
       en: Cruziohyla craspedopus
       zh: Cruziohyla craspedopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

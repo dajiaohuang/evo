@@ -9,7 +9,6 @@ records:
     name:
       zh: Lampropeltis pyromelana
       en: Lampropeltis pyromelana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

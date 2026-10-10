@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo verrucosissimus
       zh: Bufo verrucosissimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

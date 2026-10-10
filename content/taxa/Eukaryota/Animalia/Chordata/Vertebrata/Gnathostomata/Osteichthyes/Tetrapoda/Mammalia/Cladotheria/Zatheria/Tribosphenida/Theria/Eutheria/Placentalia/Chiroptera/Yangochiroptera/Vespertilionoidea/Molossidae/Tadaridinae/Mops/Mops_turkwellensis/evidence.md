@@ -9,7 +9,6 @@ records:
     name:
       zh: Mops turkwellensis
       en: Mops turkwellensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

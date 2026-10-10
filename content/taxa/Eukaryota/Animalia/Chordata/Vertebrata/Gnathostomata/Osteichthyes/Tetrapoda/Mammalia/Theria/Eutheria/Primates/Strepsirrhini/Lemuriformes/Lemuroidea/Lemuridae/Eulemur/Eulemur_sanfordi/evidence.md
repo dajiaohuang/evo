@@ -9,7 +9,6 @@ records:
     name:
       en: Sanford’s Brown Lemur
       zh: 桑福德褐狐猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: survey

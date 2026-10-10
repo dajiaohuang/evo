@@ -9,7 +9,6 @@ records:
     name:
       zh: Thambetochen chauliodous
       en: Thambetochen chauliodous
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

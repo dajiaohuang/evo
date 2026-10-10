@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus bifasciatus
       zh: Rhacophorus bifasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

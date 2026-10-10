@@ -9,7 +9,6 @@ records:
     name:
       zh: Lithophis sargenti
       en: Lithophis sargenti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

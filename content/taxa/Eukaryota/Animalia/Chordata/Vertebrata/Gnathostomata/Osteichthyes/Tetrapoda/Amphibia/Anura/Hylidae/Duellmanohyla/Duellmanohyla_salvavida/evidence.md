@@ -9,7 +9,6 @@ records:
     name:
       en: Duellmanohyla salvavida
       zh: Duellmanohyla salvavida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

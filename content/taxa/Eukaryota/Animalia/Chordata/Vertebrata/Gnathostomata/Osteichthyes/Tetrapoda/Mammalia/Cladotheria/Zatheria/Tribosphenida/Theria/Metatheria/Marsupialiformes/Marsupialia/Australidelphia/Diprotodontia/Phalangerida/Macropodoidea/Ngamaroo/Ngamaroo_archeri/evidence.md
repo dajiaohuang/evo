@@ -9,7 +9,6 @@ records:
     name:
       zh: Ngamaroo archeri
       en: Ngamaroo archeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

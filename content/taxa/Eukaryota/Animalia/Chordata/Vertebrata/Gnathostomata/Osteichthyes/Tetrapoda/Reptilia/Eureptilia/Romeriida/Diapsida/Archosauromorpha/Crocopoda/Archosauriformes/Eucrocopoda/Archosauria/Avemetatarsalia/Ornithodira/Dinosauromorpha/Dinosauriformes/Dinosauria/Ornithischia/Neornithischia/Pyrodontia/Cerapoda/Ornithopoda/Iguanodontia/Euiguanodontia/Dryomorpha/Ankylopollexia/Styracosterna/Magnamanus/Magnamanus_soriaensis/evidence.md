@@ -9,7 +9,6 @@ records:
     name:
       zh: Magnamanus soriaensis
       en: Magnamanus soriaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

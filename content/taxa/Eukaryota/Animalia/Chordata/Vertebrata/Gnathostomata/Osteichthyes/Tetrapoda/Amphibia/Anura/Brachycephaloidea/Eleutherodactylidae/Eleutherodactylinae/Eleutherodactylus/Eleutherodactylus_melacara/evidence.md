@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus melacara
       zh: Eleutherodactylus melacara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

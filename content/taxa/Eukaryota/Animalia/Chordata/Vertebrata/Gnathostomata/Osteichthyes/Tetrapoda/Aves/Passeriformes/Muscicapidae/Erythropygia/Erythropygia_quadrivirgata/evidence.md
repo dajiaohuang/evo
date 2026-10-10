@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythropygia quadrivirgata
       en: Erythropygia quadrivirgata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaphyromorphus mjobergi
       en: Glaphyromorphus mjobergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

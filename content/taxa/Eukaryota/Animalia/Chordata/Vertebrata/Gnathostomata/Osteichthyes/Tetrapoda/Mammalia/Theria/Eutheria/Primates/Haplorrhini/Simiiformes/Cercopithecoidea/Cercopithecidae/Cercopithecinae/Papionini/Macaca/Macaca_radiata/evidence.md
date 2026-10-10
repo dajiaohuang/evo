@@ -9,7 +9,6 @@ records:
     name:
       zh: 冠猕猴
       en: Bonnet macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -350,7 +349,9 @@ records:
           metadataVariant: 0
           sourceKey: pantheriaWR05
           usage:
-            locator: PanTHERIA_1-0_WR05_Aug2008.txt; MSW05_Binomial=Macaca radiata; metadata.htm Class IV Tables 1–2; Class V C; original References IDs=91;208;543;1167;1297;1347;1544;1547;1577;1848;1979;2151;2344;2493;2626;2655;2660;2986.
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-profile/sources/referenceBindings/3/usage/locator
             sourceWorksheet: PanTHERIA_1-0_WR05_Aug2008.txt
             originalReferenceNumbers:
               - "91"
@@ -409,8 +410,12 @@ records:
             sourceFileMd5: ca6fcc6935a8ab9cb54b6bfc84aeeb76
             sourceFileSha256: fe84274a39ba73b3c9b6950b78ba44c545852db9809d1549b0071cfdde46df9f
             scope:
-              zh: 2008 年历史条目与汇总统计；不使用 *_EXT 字段补值，不证明当前物种概念同一。
-              en: Historical 2008 entry and consolidated statistics; no filling from *_EXT fields or current concept-equivalence claim.
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en
           originalFields:
             - id
             - title
@@ -432,12 +437,18 @@ records:
           metadataVariant: 0
           sourceKey: pantheriaConsolidation2009
           usage:
-            locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-profile/sources/referenceBindings/4/usage/locator
             accessedAt: 2026-10-02
             licenseAssessment: paraphrase-only
             scope:
-              zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
-              en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en
           originalFields:
             - id
             - title
@@ -453,7 +464,9 @@ records:
           metadataVariant: 0
           sourceKey: amnioteLifeHistory2015
           usage:
-            locator: Amniote_Database_Aug_2015.csv row 12152; name Macaca radiata; reference table row 12152; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-profile/sources/referenceBindings/5/usage/locator
             accessedAt: 2026-10-02
             availableFields:
               - adult_body_mass_g
@@ -464,12 +477,24 @@ records:
               - birth_or_hatching_weight_g
               - maximum_longevity_y
             originalReferenceStrings:
-              adult_body_mass_g: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 & Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000 from median of 6(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
-              female_maturity_d: Ernest et al., 2003 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
-              litter_or_clutch_size_n: de Magalhaes and Costa, 2009 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
-              gestation_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
-              weaning_d: Ernest et al., 2003 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
-              birth_or_hatching_weight_g: Ernest et al., 2003 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+              adult_body_mass_g:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/adult_body_mass_g
+              female_maturity_d:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/female_maturity_d
+              litter_or_clutch_size_n:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/litter_or_clutch_size_n
+              gestation_d:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/gestation_d
+              weaning_d:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/weaning_d
+              birth_or_hatching_weight_g:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/birth_or_hatching_weight_g
               maximum_longevity_y: Weigl, R., 2005
             sameNameSourceLabels:
               - Jones, K., Bielby, J., Cardillo, M. et al., 2009
@@ -481,8 +506,12 @@ records:
             sourceVersion: August 2015 archive
             sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
             scope:
-              zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
-              en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en
           originalFields:
             - id
             - title
@@ -505,8 +534,12 @@ records:
             locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
             accessedAt: 2026-10-02
             scope:
-              zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
-              en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/6/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/6/usage/scope/en
             sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
             sourceVersion: August 2015 archive
             readerBoundaries:
@@ -530,34 +563,52 @@ records:
           metadataVariant: 0
           sourceKey: eltonTraits2014
           usage:
-            locator: MamFuncDat.txt logical TSV row 691; Scientific=Macaca radiata; MamFuncDatSources.txt; selected group source labels retained separately.
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-profile/sources/referenceBindings/7/usage/locator
             accessedAt: 2026-10-02
             sourceVersion: EltonTraits 1.0; metadata latest update August 2013
             sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
             selectedFieldGroups:
               diet:
                 fields:
-                  - Diet-Inv
-                  - Diet-Vend
-                  - Diet-Vect
-                  - Diet-Vfish
-                  - Diet-Vunk
-                  - Diet-Scav
-                  - Diet-Fruit
-                  - Diet-Nect
-                  - Diet-Seed
-                  - Diet-PlantO
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/0
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/1
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/2
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/3
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/4
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/5
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/6
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/7
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/8
+                  - markdown: evidence.md
+                    field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/9
                 references:
                   - id: Ref_1
-                    verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
-                certainty: ABC
+                    verbatim:
+                      markdown: evidence.md
+                      field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/references/0/verbatim
+                certainty:
+                  markdown: evidence.md
+                  field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/certainty
               foraging:
                 fields:
                   - ForStrat-Value
                   - ForStrat-Comment
                 references:
                   - id: metadata:Nowak1999
-                    verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+                    verbatim:
+                      markdown: evidence.md
+                      field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/foraging/references/0/verbatim
                 certainty: A
               activity:
                 fields:
@@ -566,14 +617,22 @@ records:
                   - Activity-Diurnal
                 references:
                   - id: Ref_1
-                    verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+                    verbatim:
+                      markdown: evidence.md
+                      field: /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/activity/references/0/verbatim
                 certainty: ABC
             withheldFieldGroups: []
             sourceRecordComment: null
-            associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+            associationBoundary:
+              markdown: evidence.md
+              field: /records/catalogue-profile/sources/referenceBindings/7/usage/associationBoundary
             scope:
-              zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
-              en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/7/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/7/usage/scope/en
           originalFields:
             - id
             - title
@@ -597,8 +656,12 @@ records:
             locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
             accessedAt: 2026-10-02
             scope:
-              zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
-              en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/8/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/8/usage/scope/en
           originalFields:
             - id
             - title
@@ -613,7 +676,9 @@ records:
           metadataVariant: 0
           sourceKey: ernestLifeHistories2003
           usage:
-            locator: "Mammal_lifehistories_v2.txt: Macaca radiata; original refs=1,16,22,24; metadata Class II B data collection and variable definitions; Class IV units and reference list."
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-profile/sources/referenceBindings/9/usage/locator
             sourceVersion: Ecological Archives E084-093-D1; 2003 v2
             sourceFileSha256: 9b7a4ef7082c7b37ab76b922cfd5c86fd3e49444fa2db180439cfbe051fef6b9
             sourceRecordName: Macaca radiata
@@ -642,8 +707,12 @@ records:
             accessedAt: 2026-10-03
             licenseAssessment: archived-no-restrictions-attributed-factual-summary
             scope:
-              zh: 历史生活史汇总：一般等权平均，最高寿命取记录最大值；成年体重不在本批解读，底层物种文献未逐条读取。
-              en: "Historical life-history summaries: generally equally weighted averages, maximum lifespan as a record maximum; adult mass not interpreted in this batch, underlying species literature not individually read."
+              zh:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/9/usage/scope/zh
+              en:
+                markdown: evidence.md
+                field: /records/catalogue-profile/sources/referenceBindings/9/usage/scope/en
           originalFields:
             - id
             - title
@@ -840,6 +909,46 @@ records:
             - licenseEvidenceLocator
             - rightsHolder
             - scope
+        - referenceId: ref-bd2d51b5-f8e3-8976-ab35-23e2c3ba09d6
+          metadataVariant: 0
+          sourceKey: dixit2018
+          usage:
+            stableId: doi:10.1371/journal.pntd.0006801
+            accessedAt: 2026-09-28
+            attribution:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/3/usage/attribution
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/3/usage/locator
+            licenseAssessment: item-level-verified
+            licenseAppliesTo:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/3/usage/licenseAppliesTo
+            rightsEvidenceUrl: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0006801
+            scope:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/sources/referenceBindings/3/usage/scope
+          originalFields:
+            - id
+            - title
+            - url
+            - version
+            - stableId
+            - publishedAt
+            - accessedAt
+            - attribution
+            - locator
+            - license
+            - licenseAssessment
+            - licenseAppliesTo
+            - licenseUrl
+            - licenseVersion
+            - rightsEvidenceUrl
+            - rightsEvidenceLocator
+            - rightsHolder
+            - dataAvailability
+            - scope
     facets:
       morphology:
         status: partially-supported
@@ -918,7 +1027,27 @@ records:
           - markdown: evidence.md
             field: /records/catalogue-dossier/facets/ecology/gaps/0
       evolution:
-        status: not-assessed
+        status: partially-supported
+        claims:
+          - text:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/facets/evolution/claims/0/text
+            textZh:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/facets/evolution/claims/0/textZh
+            sourceIds:
+              - dixit2018
+            locator:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/facets/evolution/claims/0/locator
+            placeTimeScope:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/facets/evolution/claims/0/placeTimeScope
+            lifeStatus:
+              markdown: evidence.md
+              field: /records/catalogue-dossier/facets/evolution/claims/0/lifeStatus
+            translationStatus: translated
+            originalLanguage: en
         gaps:
           - markdown: evidence.md
             field: /records/catalogue-dossier/facets/evolution/gaps/0
@@ -959,10 +1088,8 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
+        - markdown: evidence.md
+          field: /records/catalogue-dossier/completeness/reasons/2
   atlas-node:
     name: Macaca radiata
     commonName: Bonnet Macaque
@@ -1023,6 +1150,246 @@ Catalogue of Life COL26.8 · source 2144
 Pinned accepted name, authorship, rank and parent classification; not biological evidence.
 <!-- /evo:text -->
 
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/locator -->
+PanTHERIA_1-0_WR05_Aug2008.txt; MSW05_Binomial=Macaca radiata; metadata.htm Class IV Tables 1–2; Class V C; original References IDs=91;208;543;1167;1297;1347;1544;1547;1577;1848;1979;2151;2344;2493;2626;2655;2660;2986.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/zh -->
+2008 年历史条目与汇总统计；不使用 *_EXT 字段补值，不证明当前物种概念同一。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/3/usage/scope/en -->
+Historical 2008 entry and consolidated statistics; no filling from *_EXT fields or current concept-equivalence claim.
+<!-- /evo:text -->
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/locator -->
+Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/zh -->
+仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/4/usage/scope/en -->
+Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+<!-- /evo:text -->
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/locator -->
+Amniote_Database_Aug_2015.csv row 12152; name Macaca radiata; reference table row 12152; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+<!-- /evo:text -->
+
+## usage / originalReferenceStrings / adult_body_mass_g
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/adult_body_mass_g -->
+mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 & Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000 from median of 6(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+<!-- /evo:text -->
+
+## usage / originalReferenceStrings / female_maturity_d
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/female_maturity_d -->
+Ernest et al., 2003 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+<!-- /evo:text -->
+
+## usage / originalReferenceStrings / litter_or_clutch_size_n
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/litter_or_clutch_size_n -->
+de Magalhaes and Costa, 2009 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+<!-- /evo:text -->
+
+## usage / originalReferenceStrings / gestation_d
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/gestation_d -->
+Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+<!-- /evo:text -->
+
+## usage / originalReferenceStrings / weaning_d
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/weaning_d -->
+Ernest et al., 2003 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+<!-- /evo:text -->
+
+## usage / originalReferenceStrings / birth_or_hatching_weight_g
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/originalReferenceStrings/birth_or_hatching_weight_g -->
+Ernest et al., 2003 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/zh -->
+历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/5/usage/scope/en -->
+Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/6/usage/scope/zh -->
+中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/6/usage/scope/en -->
+Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+<!-- /evo:text -->
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/locator -->
+MamFuncDat.txt logical TSV row 691; Scientific=Macaca radiata; MamFuncDatSources.txt; selected group source labels retained separately.
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/0 -->
+Diet-Inv
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/1 -->
+Diet-Vend
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/2 -->
+Diet-Vect
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/3 -->
+Diet-Vfish
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/4 -->
+Diet-Vunk
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/5 -->
+Diet-Scav
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/6 -->
+Diet-Fruit
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/7 -->
+Diet-Nect
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/8 -->
+Diet-Seed
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / fields
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/fields/9 -->
+Diet-PlantO
+<!-- /evo:text -->
+
+## diet / references / verbatim
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/references/0/verbatim -->
+Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+<!-- /evo:text -->
+
+## selectedFieldGroups / diet / certainty
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/diet/certainty -->
+ABC
+<!-- /evo:text -->
+
+## foraging / references / verbatim
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/foraging/references/0/verbatim -->
+Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+<!-- /evo:text -->
+
+## activity / references / verbatim
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/selectedFieldGroups/activity/references/0/verbatim -->
+Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+<!-- /evo:text -->
+
+## referenceBindings / usage / associationBoundary
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/associationBoundary -->
+Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/scope/zh -->
+历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/7/usage/scope/en -->
+Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/8/usage/scope/zh -->
+文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/8/usage/scope/en -->
+Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+<!-- /evo:text -->
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/9/usage/locator -->
+Mammal_lifehistories_v2.txt: Macaca radiata; original refs=1,16,22,24; metadata Class II B data collection and variable definitions; Class IV units and reference list.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/9/usage/scope/zh -->
+历史生活史汇总：一般等权平均，最高寿命取记录最大值；成年体重不在本批解读，底层物种文献未逐条读取。
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-profile/sources/referenceBindings/9/usage/scope/en -->
+Historical life-history summaries: generally equally weighted averages, maximum lifespan as a record maximum; adult mass not interpreted in this batch, underlying species literature not individually read.
+<!-- /evo:text -->
+
 ## catalogue-dossier / identity / method
 
 <!-- evo:text /records/catalogue-dossier/identity/method -->
@@ -1038,7 +1405,7 @@ COL26.8 accepted usage 3WWP2 only. Its accepted species identity and parent chai
 ## catalogue-dossier / lifeStatusScope / wild
 
 <!-- evo:text /records/catalogue-dossier/lifeStatusScope/wild -->
-Existing ecology claims concern local free-ranging roadside and forest samples in southern India. The 2018 museum craniodental comparison preferred wild-caught/wild-shot material but occasionally included captive or unprovenanced specimens; its collection years are unreported. Neither evidence set is a current range-wide population estimate.
+Selected evidence includes the local free-ranging roadside and forest observations in southern India and a 2014–15 fecal-derived host mtDNA D-loop sample described as wild-population evidence. Neither source is a current range-wide population assessment.
 <!-- /evo:text -->
 
 ## catalogue-dossier / lifeStatusScope / domesticated
@@ -1087,6 +1454,30 @@ Grunstra NDS, Mitteroecker P, Foley RA. (2018). A multivariate ecogeographic ana
 
 <!-- evo:text /records/catalogue-dossier/sources/referenceBindings/2/usage/scope -->
 Primary museum craniodental morphometric comparison of 12 macaque species and 711 specimens. Table 1 lists 79 M. radiata specimens from South and West India (46 male, 33 female); the sample includes subadults. Authors preferred wild-caught/wild-shot specimens but occasionally included captive or unprovenanced material. The result is an interspecific comparison, not a species-wide or within-species estimate.
+<!-- /evo:text -->
+
+## referenceBindings / usage / attribution
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/3/usage/attribution -->
+Dixit J, Zachariah A, Sajesh P. K., Chandramohan B, Shanmuganatham V, Karanth KP. (2018). Reinvestigating the status of malaria parasite (Plasmodium sp.) in Indian non-human primates. PLOS Neglected Tropical Diseases, 12(12), e0006801. https://doi.org/10.1371/journal.pntd.0006801.
+<!-- /evo:text -->
+
+## referenceBindings / usage / locator
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/3/usage/locator -->
+Materials and methods—Samples (publisher HTML lines 185–188); Host molecular data using fecal samples (231–239); Results—Phylogenetic analysis of host and Host haplotype network and IBD model (327–333); Discussion—Phylogeography of M. radiata (357–361).
+<!-- /evo:text -->
+
+## referenceBindings / usage / licenseAppliesTo
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/3/usage/licenseAppliesTo -->
+Article text under CC BY 4.0; separately credited third-party figures and tables remain subject to their original rights.
+<!-- /evo:text -->
+
+## referenceBindings / usage / scope
+
+<!-- evo:text /records/catalogue-dossier/sources/referenceBindings/3/usage/scope -->
+Use only the host mitochondrial D-loop sampling and population-structure results for Macaca radiata. Exclude parasite detections and the separate captive blood/tissue cohort. No figures or tables are reproduced.
 <!-- /evo:text -->
 
 ## morphology / claims / text
@@ -1185,10 +1576,40 @@ Free-ranging groups at human-use sites; the finding is a historical site-status 
 Evidence remains limited to one 2017 study and local survey frames; broader habitat, seasonal and population variation, range-wide ecology and causal mechanisms remain unassessed.
 <!-- /evo:text -->
 
+## evolution / claims / text
+
+<!-- evo:text /records/catalogue-dossier/facets/evolution/claims/0/text -->
+In a 2018 phylogeographic analysis of 82 fecal-derived Macaca radiata mitochondrial D-loop sequences sampled across 16 southern Indian locations, sampled wet-zone and dry-zone individuals did not form separate mtDNA clades, haplotypes showed no geographic clustering, and isolation by distance was weak and not significant (r = 0.298, p = 0.09). This single mitochondrial-marker result does not represent nuclear or genome-wide variation; the authors' proposed human-mediated translocation explanation is a hypothesis, not a demonstrated cause.
+<!-- /evo:text -->
+
+## evolution / claims / textZh
+
+<!-- evo:text /records/catalogue-dossier/facets/evolution/claims/0/textZh -->
+在一项 2018 年的系统地理研究中，研究者分析了来自印度南部 16 个地点的 82 份冠猕猴粪便样本衍生线粒体 D-loop 序列；样本中的湿区和旱区个体没有形成分开的 mtDNA 支系，单倍型未见地理聚集，隔离随距离关系较弱且不显著（r = 0.298，p = 0.09）。这项单一线粒体标记研究不能代表核基因组或全基因组变异；作者提出的人为转移解释仍是假说，研究并未证明其因果。
+<!-- /evo:text -->
+
+## evolution / claims / locator
+
+<!-- evo:text /records/catalogue-dossier/facets/evolution/claims/0/locator -->
+Materials and methods—Samples and Host molecular data using fecal samples; Results—Phylogenetic analysis of host and Host haplotype network and IBD model; Discussion—Phylogeography of M. radiata. Publisher HTML lines 187–188, 233–239, 327–333, 357–361.
+<!-- /evo:text -->
+
+## evolution / claims / placeTimeScope
+
+<!-- evo:text /records/catalogue-dossier/facets/evolution/claims/0/placeTimeScope -->
+Eighty-two host mtDNA D-loop sequences from 16 sampled southern Indian locations; fecal collection took place in 2014–15, and the article was published in 2018. This sample does not establish full range limits or current population structure across every population.
+<!-- /evo:text -->
+
+## evolution / claims / lifeStatus
+
+<!-- evo:text /records/catalogue-dossier/facets/evolution/claims/0/lifeStatus -->
+The paper describes its fecal samples as evidence from wild primate populations. Separate captive blood/tissue samples discussed elsewhere in the article are excluded from this claim.
+<!-- /evo:text -->
+
 ## facets / evolution / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/evolution/gaps/0 -->
-No evolutionary, genomic or phylogenetic literature review was completed for this record.
+Evolutionary evidence remains limited to one mitochondrial D-loop study of 82 fecal-derived sequences from 16 locations. Nuclear/genome-wide population structure, broader geographic and temporal sampling, other evolutionary processes, and a systematic literature search remain unassessed.
 <!-- /evo:text -->
 
 ## facets / distribution / gaps
@@ -1236,5 +1657,11 @@ One bounded 2018 interspecific craniodental comparison now supports a morphology
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-No systematic literature search or independent external expert review has been completed.
+No systematic literature search has been completed.
+<!-- /evo:text -->
+
+## catalogue-dossier / completeness / reasons
+
+<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
+One 2018 host mtDNA study now supports a sample-bounded phylogeographic claim; the single-locus result does not provide a species-wide evolutionary synthesis.
 <!-- /evo:text -->

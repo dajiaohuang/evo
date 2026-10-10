@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeohodites naduensis
       en: Palaeohodites naduensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

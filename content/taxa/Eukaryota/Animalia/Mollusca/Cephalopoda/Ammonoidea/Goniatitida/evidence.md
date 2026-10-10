@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: korn-2005-goniatitidae
       referenceLinks:
         - referenceId: korn-2005-goniatitidae
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Korn et al. 2005 DOI 10.1666/0022-3360(2005)079<0356:TLAFGT>2.0.CO;2
       referenceLinks:
         - relation: supports
           referenceId: korn-2005-goniatitidae
@@ -98,7 +92,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/1/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Goniatitida

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella acutirostris
       zh: Rhinella acutirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumyarion margueritae
       en: Eumyarion margueritae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

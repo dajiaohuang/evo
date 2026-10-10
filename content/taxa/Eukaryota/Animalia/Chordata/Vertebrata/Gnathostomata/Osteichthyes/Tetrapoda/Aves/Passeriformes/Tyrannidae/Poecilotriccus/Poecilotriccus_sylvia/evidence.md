@@ -9,7 +9,6 @@ records:
     name:
       zh: Poecilotriccus sylvia
       en: Poecilotriccus sylvia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

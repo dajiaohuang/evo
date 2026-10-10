@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptasthenura xenothorax
       en: Leptasthenura xenothorax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

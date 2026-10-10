@@ -9,7 +9,6 @@ records:
     name:
       zh: Circaetus gallicus
       en: Circaetus gallicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Syndactyla guttulata
       en: Syndactyla guttulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prinia bairdii
       en: Prinia bairdii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

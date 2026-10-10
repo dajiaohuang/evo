@@ -9,7 +9,6 @@ records:
     name:
       zh: Emydocephalus ijimae
       en: Emydocephalus ijimae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

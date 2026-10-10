@@ -9,7 +9,6 @@ records:
     name:
       zh: Bronchocela vietnamensis
       en: Bronchocela vietnamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

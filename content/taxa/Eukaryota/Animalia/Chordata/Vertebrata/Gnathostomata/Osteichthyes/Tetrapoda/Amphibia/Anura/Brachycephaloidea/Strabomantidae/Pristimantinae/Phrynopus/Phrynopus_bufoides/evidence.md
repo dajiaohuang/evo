@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus bufoides
       zh: Phrynopus bufoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

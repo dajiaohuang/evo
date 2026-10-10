@@ -9,7 +9,6 @@ records:
     name:
       zh: Interatherium rodens
       en: Interatherium rodens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

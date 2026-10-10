@@ -9,7 +9,6 @@ records:
     name:
       zh: Suta spectabilis
       en: Suta spectabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Chrysopaa
       zh: Chrysopaa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

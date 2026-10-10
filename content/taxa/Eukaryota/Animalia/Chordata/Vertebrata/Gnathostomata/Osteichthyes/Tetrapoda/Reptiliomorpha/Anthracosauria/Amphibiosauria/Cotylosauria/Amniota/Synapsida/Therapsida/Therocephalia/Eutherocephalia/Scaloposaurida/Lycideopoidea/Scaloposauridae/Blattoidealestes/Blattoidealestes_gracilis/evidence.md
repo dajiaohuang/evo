@@ -9,7 +9,6 @@ records:
     name:
       zh: Blattoidealestes gracilis
       en: Blattoidealestes gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

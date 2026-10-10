@@ -9,7 +9,6 @@ records:
     name:
       en: Plectrohyla matudai
       zh: Plectrohyla matudai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

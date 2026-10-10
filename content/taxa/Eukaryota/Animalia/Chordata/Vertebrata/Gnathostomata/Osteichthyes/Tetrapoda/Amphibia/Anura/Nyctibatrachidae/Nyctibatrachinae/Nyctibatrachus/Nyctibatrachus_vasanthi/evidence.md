@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus vasanthi
       zh: Nyctibatrachus vasanthi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

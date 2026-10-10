@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis luciae
       zh: Boophis luciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

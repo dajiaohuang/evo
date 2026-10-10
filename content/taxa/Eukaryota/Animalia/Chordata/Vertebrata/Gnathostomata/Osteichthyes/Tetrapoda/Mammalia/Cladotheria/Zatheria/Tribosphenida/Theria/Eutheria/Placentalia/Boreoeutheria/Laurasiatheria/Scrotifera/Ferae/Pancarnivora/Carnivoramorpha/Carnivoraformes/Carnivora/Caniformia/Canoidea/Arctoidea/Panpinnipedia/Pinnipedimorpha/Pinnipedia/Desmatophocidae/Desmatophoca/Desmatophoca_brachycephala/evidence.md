@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmatophoca brachycephala
       en: Desmatophoca brachycephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

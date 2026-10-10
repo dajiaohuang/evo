@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceratophora aspera
       en: Ceratophora aspera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

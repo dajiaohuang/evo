@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibon linearis
       en: Sibon linearis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

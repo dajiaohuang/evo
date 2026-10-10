@@ -9,7 +9,6 @@ records:
     name:
       zh: Carollia subrufa
       en: Carollia subrufa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus smaug
       en: Liolaemus smaug
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanocorax cristatellus
       en: Cyanocorax cristatellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

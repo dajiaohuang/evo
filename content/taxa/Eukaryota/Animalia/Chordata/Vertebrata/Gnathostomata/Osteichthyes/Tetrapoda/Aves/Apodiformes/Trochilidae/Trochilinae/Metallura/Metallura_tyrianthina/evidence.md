@@ -9,7 +9,6 @@ records:
     name:
       zh: Metallura tyrianthina
       en: Metallura tyrianthina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

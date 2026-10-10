@@ -9,7 +9,6 @@ records:
     name:
       zh: 西部黑掌狨
       en: Western Black-handed Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

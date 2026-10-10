@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumeces persicus
       en: Eumeces persicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

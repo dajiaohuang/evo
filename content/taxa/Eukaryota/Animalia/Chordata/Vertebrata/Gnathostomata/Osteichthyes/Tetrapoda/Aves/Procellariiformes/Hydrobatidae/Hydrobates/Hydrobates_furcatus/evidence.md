@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrobates furcatus
       en: Hydrobates furcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

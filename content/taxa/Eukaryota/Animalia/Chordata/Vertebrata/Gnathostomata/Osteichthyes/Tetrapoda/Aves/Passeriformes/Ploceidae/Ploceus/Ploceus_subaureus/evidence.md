@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus subaureus
       en: Ploceus subaureus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

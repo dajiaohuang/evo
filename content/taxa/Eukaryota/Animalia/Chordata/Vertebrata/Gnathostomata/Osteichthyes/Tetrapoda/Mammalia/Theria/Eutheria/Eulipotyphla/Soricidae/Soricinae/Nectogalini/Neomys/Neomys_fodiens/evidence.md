@@ -9,7 +9,6 @@ records:
     name:
       zh: Neomys fodiens
       en: Neomys fodiens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

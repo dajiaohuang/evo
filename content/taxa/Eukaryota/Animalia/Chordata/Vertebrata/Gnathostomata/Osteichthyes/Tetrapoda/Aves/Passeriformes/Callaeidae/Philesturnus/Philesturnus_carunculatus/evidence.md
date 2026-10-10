@@ -9,7 +9,6 @@ records:
     name:
       zh: Philesturnus carunculatus
       en: Philesturnus carunculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

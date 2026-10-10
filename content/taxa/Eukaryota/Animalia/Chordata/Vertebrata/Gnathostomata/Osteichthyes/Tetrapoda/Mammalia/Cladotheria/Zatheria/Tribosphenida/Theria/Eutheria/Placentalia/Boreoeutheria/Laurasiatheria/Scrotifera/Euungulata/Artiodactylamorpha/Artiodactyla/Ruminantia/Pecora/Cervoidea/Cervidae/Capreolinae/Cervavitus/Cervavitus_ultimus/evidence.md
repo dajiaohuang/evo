@@ -9,7 +9,6 @@ records:
     name:
       zh: Cervavitus ultimus
       en: Cervavitus ultimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

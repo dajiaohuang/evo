@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius pusillus
       zh: Hyperolius pusillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

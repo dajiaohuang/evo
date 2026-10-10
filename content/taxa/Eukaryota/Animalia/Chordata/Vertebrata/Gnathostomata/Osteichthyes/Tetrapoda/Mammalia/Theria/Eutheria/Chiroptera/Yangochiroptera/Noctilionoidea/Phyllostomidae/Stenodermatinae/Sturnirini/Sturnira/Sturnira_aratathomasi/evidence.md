@@ -9,7 +9,6 @@ records:
     name:
       zh: Sturnira aratathomasi
       en: Sturnira aratathomasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eocypselus rowei
       en: Eocypselus rowei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

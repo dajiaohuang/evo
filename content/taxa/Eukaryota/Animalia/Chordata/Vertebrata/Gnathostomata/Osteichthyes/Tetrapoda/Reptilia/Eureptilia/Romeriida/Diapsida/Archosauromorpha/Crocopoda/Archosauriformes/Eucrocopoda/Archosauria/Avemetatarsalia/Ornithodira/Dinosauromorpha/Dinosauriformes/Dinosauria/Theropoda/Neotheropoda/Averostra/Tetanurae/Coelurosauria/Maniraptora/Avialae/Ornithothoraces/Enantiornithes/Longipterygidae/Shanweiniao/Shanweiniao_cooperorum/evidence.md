@@ -9,7 +9,6 @@ records:
     name:
       zh: Shanweiniao cooperorum
       en: Shanweiniao cooperorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensophryne anotis
       zh: Mertensophryne anotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

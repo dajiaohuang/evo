@@ -22,5 +22,5 @@ COL26.8 将 Plecturocebus aureipalatii 列为接受种；MDD 当前则把它列�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-原始描述的范围调查有限；2015 年论文保留与 P. toppini 的分类疑问，本页不裁定其后研究是否解决。中文名为编辑翻译，尚未经过外部领域专家评审。
+原始描述的范围调查有限；2015 年论文保留与 P. toppini 的分类疑问，本页不裁定其后研究是否解决。中文名为编辑翻译。
 <!-- /evo:text -->

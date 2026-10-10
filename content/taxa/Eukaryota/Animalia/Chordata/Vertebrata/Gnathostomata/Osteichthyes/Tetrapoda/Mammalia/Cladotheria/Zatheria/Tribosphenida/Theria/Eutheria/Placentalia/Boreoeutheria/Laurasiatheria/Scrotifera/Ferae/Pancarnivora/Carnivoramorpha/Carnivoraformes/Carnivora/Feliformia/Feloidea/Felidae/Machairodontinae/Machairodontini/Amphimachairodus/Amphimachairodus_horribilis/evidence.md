@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphimachairodus horribilis
       en: Amphimachairodus horribilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

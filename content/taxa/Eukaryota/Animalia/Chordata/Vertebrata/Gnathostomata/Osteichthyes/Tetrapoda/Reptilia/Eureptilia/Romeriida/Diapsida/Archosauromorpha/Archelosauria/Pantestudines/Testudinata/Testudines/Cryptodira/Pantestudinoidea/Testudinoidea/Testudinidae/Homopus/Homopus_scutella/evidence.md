@@ -9,7 +9,6 @@ records:
     name:
       zh: Homopus scutella
       en: Homopus scutella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

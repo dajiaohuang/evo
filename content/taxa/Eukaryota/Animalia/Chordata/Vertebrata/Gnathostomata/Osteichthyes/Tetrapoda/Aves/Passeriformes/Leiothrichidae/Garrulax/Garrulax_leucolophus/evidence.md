@@ -9,7 +9,6 @@ records:
     name:
       zh: Garrulax leucolophus
       en: Garrulax leucolophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

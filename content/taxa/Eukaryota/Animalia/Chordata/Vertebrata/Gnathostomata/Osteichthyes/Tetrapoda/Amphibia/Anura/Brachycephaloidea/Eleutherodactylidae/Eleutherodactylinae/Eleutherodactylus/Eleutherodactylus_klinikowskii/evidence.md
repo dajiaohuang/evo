@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus klinikowskii
       zh: Eleutherodactylus klinikowskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

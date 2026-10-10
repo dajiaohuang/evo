@@ -9,7 +9,6 @@ records:
     name:
       zh: Lambdaconus suinus
       en: Lambdaconus suinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnodactylus guttulatus
       en: Gymnodactylus guttulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

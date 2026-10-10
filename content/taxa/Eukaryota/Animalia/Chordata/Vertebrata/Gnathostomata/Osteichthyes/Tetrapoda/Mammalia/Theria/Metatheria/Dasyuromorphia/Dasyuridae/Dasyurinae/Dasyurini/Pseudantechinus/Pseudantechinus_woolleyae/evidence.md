@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudantechinus woolleyae
       en: Pseudantechinus woolleyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

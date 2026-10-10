@@ -16,5 +16,5 @@ Rylands 的初步记录描述了 1978 年 5 月至 11 月在阿里普阿南河 D
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门页，尚未经过外部领域专家评审。研究是 1978 年 Dardanelos 的初步记录，早于当前 Mico 组合名；它不能确定当前数量、完整分布或属级生境偏好。
+这是有来源的入门页。研究是 1978 年 Dardanelos 的初步记录，早于当前 Mico 组合名；它不能确定当前数量、完整分布或属级生境偏好。
 <!-- /evo:text -->

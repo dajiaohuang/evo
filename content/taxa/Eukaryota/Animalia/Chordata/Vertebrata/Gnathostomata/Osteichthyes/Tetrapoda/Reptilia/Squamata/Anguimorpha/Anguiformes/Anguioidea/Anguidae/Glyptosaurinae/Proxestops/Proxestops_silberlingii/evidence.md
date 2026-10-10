@@ -9,7 +9,6 @@ records:
     name:
       zh: Proxestops silberlingii
       en: Proxestops silberlingii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

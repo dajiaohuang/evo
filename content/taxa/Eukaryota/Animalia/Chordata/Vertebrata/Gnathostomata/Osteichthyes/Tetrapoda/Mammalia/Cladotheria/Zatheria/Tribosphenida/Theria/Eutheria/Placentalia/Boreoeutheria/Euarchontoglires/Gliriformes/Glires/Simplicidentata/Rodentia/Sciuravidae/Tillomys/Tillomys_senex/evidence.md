@@ -9,7 +9,6 @@ records:
     name:
       zh: Tillomys senex
       en: Tillomys senex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

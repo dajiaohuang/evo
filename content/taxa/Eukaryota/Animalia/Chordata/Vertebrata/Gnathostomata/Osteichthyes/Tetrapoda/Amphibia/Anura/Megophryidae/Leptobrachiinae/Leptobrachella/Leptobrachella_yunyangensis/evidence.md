@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella yunyangensis
       zh: Leptobrachella yunyangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

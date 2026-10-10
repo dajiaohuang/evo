@@ -9,7 +9,6 @@ records:
     name:
       zh: Seitaad ruessi
       en: Seitaad ruessi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

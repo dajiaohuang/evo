@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus salazar
       en: Trimeresurus salazar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

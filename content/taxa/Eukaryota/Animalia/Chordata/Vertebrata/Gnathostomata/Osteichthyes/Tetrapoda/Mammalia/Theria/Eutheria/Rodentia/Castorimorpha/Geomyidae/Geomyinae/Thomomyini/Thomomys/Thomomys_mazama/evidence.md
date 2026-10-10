@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomomys mazama
       en: Thomomys mazama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

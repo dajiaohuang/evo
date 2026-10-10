@@ -9,7 +9,6 @@ records:
     name:
       zh: Microderson laaroussii
       en: Microderson laaroussii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

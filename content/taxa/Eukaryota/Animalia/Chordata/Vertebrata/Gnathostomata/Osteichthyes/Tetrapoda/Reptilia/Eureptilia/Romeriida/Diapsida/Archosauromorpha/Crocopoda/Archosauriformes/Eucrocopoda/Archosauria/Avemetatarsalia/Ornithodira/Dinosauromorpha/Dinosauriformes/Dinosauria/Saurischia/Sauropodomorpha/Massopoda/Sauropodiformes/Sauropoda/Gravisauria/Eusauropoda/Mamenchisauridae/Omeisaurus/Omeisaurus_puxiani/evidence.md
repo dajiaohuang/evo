@@ -9,7 +9,6 @@ records:
     name:
       zh: Omeisaurus puxiani
       en: Omeisaurus puxiani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

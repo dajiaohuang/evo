@@ -9,7 +9,6 @@ records:
     name:
       zh: Urostrophus vautieri
       en: Urostrophus vautieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

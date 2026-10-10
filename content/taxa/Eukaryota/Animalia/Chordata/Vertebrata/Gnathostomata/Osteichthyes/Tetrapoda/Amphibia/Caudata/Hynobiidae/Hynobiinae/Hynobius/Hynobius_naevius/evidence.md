@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius naevius
       zh: Hynobius naevius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

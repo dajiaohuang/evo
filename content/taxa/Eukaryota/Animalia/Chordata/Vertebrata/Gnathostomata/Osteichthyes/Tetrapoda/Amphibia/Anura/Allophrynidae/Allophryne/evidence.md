@@ -9,7 +9,6 @@ records:
     name:
       en: Allophryne
       zh: Allophryne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

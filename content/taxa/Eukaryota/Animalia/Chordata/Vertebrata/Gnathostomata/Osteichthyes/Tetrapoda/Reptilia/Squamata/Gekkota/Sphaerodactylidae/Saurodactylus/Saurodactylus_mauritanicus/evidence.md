@@ -9,7 +9,6 @@ records:
     name:
       zh: Saurodactylus mauritanicus
       en: Saurodactylus mauritanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

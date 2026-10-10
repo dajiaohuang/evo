@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger brevipes
       zh: Scutiger brevipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Paleoparadoxia tabatai
       en: Paleoparadoxia tabatai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

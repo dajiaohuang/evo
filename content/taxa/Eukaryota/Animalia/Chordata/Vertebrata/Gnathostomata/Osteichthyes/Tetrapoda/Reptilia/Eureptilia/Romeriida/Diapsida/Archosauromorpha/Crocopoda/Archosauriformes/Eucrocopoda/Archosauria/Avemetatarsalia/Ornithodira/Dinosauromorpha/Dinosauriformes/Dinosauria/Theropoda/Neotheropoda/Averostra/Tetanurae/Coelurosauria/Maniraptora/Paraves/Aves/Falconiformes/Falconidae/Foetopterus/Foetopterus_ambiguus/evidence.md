@@ -9,7 +9,6 @@ records:
     name:
       zh: Foetopterus ambiguus
       en: Foetopterus ambiguus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

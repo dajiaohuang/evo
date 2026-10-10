@@ -9,7 +9,6 @@ records:
     name:
       zh: Myioborus castaneocapilla
       en: Myioborus castaneocapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

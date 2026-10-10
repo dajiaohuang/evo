@@ -9,7 +9,6 @@ records:
     name:
       zh: Neusticomys
       en: Neusticomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne brevicrus
       zh: Choerophryne brevicrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

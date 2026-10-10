@@ -9,7 +9,6 @@ records:
     name:
       zh: Eulampis holosericeus
       en: Eulampis holosericeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

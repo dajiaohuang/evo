@@ -163,7 +163,7 @@ const jakobssonReference = {
   version: 'Published online 2025-12-03; issue date 2026',
   sourceRole: 'primary-study',
   fitnessFor: ['biogeography', 'evolution', 'methods'],
-  metadataAssignment: 'curator-reviewed',
+
   note: 'Primary whole-genome study of 28 ancient southern African individuals dated 10,200–150 calibrated years before present. Genetic comparisons are bounded to the study samples and comparison panel, not a species-wide survey. Article text is item-level verified CC BY 4.0; summaries are paraphrased and figures, third-party content and data files are not reused.',
 }
 appendArrayRecords('data/references.json', [jakobssonReference])
@@ -185,9 +185,9 @@ const claims = [
     statement: taxonomyStatement,
     confidence: 'medium',
     confidenceRationale: 'The pinned COL26.8 checklist records accepted species usage 6MB3T, its authorship, rank, sourceDatasetId and Primates classification. This is a nomenclatural identity claim only.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'COL26.8 dataset 316115; accepted usage 6MB3T, source dataset 2144 checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: colReferenceId, relation: 'supports', pages: 'Accepted species usage 6MB3T; sourceDatasetId 2144; Primates classification' }],
   },
   {
@@ -198,9 +198,9 @@ const claims = [
     statement: evolutionStatement,
     confidence: 'medium',
     confidenceRationale: 'The peer-reviewed whole-genome study reports the sample dates, comparison result and operational variant classification. The result is bounded to the 28 ancient southern African individuals and specified comparison panel, not a species-wide sample.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Jakobsson et al., Nature 650(8100):156–163; DOI 10.1038/s41586-025-09811-4; abstract and Results checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: jakobssonReferenceId, relation: 'supports', quoteLocator: 'Abstract; Results, Unique ancient southern African ancestry' }],
   },
   {
@@ -211,9 +211,9 @@ const claims = [
     statement: localitiesStatement,
     confidence: 'medium',
     confidenceRationale: 'The article explicitly describes its archaeological sampling south of the Limpopo River and across central and southern South Africa. These are study localities and cannot define a modern or complete species range.',
-    reviewedBy: 'Evo Atlas primary-source audit',
-    reviewedAt: today,
-    reviewedAgainstReferenceVersion: 'Jakobsson et al., Nature 650(8100):156–163; DOI 10.1038/s41586-025-09811-4; sampling description and Figure 1 checked 2026-09-27',
+
+
+
     referenceLinks: [{ referenceId: jakobssonReferenceId, relation: 'supports', quoteLocator: 'Main, sampling description; Figure 1' }],
   },
 ]

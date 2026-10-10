@@ -9,7 +9,6 @@ records:
     name:
       zh: Tympanocryptis argillosa
       en: Tympanocryptis argillosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

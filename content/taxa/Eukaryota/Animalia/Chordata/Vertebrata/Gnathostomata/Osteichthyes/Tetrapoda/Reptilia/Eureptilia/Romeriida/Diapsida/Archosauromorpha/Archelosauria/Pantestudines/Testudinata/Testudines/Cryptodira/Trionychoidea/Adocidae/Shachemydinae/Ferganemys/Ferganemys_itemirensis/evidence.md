@@ -9,7 +9,6 @@ records:
     name:
       zh: Ferganemys itemirensis
       en: Ferganemys itemirensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

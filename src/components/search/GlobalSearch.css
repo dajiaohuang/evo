@@ -83,9 +83,6 @@
 .search-result-copy strong, .search-result-copy small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .search-result-copy strong { font-size: 11px; }
 .search-result-copy small { margin-top: 3px; color: var(--color-text-faint); font-size: 9px; }
-.search-result-copy .search-maturity { color: #d7b68c; font: 700 7px var(--font-mono); text-transform: uppercase; }
-.search-result-copy .search-maturity--generated-scaffold { color: var(--color-text-faint); }
-.search-result-copy .search-maturity--published { color: var(--color-accent); }
 .global-search-empty { padding: 50px 20px; color: var(--color-text-faint); text-align: center; font-size: 11px; }
 .catalogue-search-heading { display: flex; justify-content: space-between; gap: 12px; margin: 10px 10px 4px; padding: 9px 0 7px; border-top: 1px solid var(--color-border-subtle); color: #8fd8c0; font: 8px var(--font-mono); text-transform: uppercase; letter-spacing: 0.07em; }
 .catalogue-search-heading small { color: var(--color-text-faint); font: inherit; text-align: right; text-transform: none; letter-spacing: 0; }
@@ -101,7 +98,6 @@
 .search-kind { font-size: 10px; }
 .search-result-copy strong { font-size: 15px; }
 .search-result-copy small { font-size: 12px; white-space: normal; overflow-wrap: anywhere; }
-.search-result-copy .search-maturity { font-size: 10px; }
 .catalogue-search-heading { flex-direction: column; gap: 6px; font-size: 12px; text-transform: none; letter-spacing: 0; }
 .catalogue-search-heading small { text-align: left; }
 .catalogue-search-note, .global-search-empty { font-size: 14px; }

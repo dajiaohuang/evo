@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus xanthostomus
       zh: Melanophryniscus xanthostomus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

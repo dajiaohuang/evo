@@ -9,7 +9,6 @@ records:
     name:
       zh: 肯尼亚海岸矮伽拉戈
       en: Kenya Coast Dwarf Galago
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

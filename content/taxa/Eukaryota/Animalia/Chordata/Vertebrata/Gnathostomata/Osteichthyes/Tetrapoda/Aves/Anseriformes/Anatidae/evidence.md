@@ -9,7 +9,6 @@ records:
     name:
       zh: Anatidae
       en: Anatidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: historicalComparison

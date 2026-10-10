@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracias benghalensis
       en: Coracias benghalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

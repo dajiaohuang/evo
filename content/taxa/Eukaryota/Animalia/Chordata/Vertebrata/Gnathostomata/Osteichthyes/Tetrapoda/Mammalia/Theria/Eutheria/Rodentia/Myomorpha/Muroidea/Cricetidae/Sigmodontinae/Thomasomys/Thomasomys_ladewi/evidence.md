@@ -9,7 +9,6 @@ records:
     name:
       zh: Thomasomys ladewi
       en: Thomasomys ladewi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

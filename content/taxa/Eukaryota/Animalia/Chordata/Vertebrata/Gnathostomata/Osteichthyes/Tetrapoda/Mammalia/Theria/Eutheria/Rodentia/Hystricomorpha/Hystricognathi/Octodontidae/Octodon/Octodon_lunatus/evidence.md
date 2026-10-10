@@ -9,7 +9,6 @@ records:
     name:
       zh: Octodon lunatus
       en: Octodon lunatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena dubia
       en: Amphisbaena dubia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

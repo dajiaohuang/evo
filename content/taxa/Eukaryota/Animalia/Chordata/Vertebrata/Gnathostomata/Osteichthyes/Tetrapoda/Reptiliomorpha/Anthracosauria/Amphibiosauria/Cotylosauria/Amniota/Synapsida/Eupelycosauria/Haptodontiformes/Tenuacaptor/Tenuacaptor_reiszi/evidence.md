@@ -9,7 +9,6 @@ records:
     name:
       zh: Tenuacaptor reiszi
       en: Tenuacaptor reiszi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

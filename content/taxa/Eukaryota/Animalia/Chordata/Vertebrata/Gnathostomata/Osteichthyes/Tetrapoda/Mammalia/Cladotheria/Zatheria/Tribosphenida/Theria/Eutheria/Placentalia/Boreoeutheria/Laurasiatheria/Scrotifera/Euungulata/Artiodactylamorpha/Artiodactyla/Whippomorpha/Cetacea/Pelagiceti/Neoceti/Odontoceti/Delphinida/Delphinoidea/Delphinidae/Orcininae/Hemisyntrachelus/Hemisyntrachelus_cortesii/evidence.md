@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemisyntrachelus cortesii
       en: Hemisyntrachelus cortesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

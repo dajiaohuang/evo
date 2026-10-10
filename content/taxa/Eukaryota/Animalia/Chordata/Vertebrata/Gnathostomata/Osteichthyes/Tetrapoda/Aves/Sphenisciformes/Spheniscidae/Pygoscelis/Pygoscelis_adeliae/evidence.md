@@ -10,7 +10,6 @@ records:
     name:
       en: Adélie Penguin
       zh: 阿德利企鹅
-    reviewStatus: source-linked
     sections:
       - topic: researchScope
         sourceIds:
@@ -681,12 +680,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -918,10 +911,4 @@ One focused primary source supports a bounded claim in lifeHistory only.
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The other six scientific facets remain not assessed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent external expert review has been completed.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus phlebodes
       zh: Dendropsophus phlebodes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

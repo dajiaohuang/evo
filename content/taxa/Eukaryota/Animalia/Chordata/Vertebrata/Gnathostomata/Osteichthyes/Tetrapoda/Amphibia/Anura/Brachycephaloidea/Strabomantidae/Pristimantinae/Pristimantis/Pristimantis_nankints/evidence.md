@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis nankints
       zh: Pristimantis nankints
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

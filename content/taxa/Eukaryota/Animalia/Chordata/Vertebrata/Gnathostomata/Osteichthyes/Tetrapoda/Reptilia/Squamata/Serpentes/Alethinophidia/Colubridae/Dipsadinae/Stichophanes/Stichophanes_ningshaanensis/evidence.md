@@ -9,7 +9,6 @@ records:
     name:
       zh: Stichophanes ningshaanensis
       en: Stichophanes ningshaanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

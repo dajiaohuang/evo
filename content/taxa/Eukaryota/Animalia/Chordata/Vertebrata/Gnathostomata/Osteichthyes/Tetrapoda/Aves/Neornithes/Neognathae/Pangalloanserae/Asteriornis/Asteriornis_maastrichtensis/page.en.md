@@ -82,5 +82,5 @@ field-2020-asteriornis
 ## Limits and open questions
 
 <!-- evo:text /records/readerLimitations/en -->
-These sections are limited to NHMM 2013 008 and the description, comparisons and models in Field et al. (2020). A global range and first and last appearances remain unresolved for lack of sufficient provenance. Diet, flight or other locomotor performance, soft tissues and population variation remain unsupported in this batch. The horizon age does not close the range gap, and competing placements do not establish direct ancestry. This bilingual guide has no external expert review.
+These sections are limited to NHMM 2013 008 and the description, comparisons and models in Field et al. (2020). A global range and first and last appearances remain unresolved for lack of sufficient provenance. Diet, flight or other locomotor performance, soft tissues and population variation remain unsupported in this batch. The horizon age does not close the range gap, and competing placements do not establish direct ancestry. This bilingual guide.
 <!-- /evo:text -->

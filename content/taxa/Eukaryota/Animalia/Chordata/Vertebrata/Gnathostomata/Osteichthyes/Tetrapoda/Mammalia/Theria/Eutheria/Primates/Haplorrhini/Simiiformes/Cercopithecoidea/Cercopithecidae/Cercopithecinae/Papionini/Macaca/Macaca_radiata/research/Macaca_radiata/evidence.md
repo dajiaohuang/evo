@@ -14,6 +14,8 @@ records:
       - Mysore-connected roadside transects, Karnataka, India (comparative counts, 2003 and 2015; study site)
       - Parambikulam landscape, Kerala, India (one forest occupancy survey)
       - Southern Indian temple/tourist locations (historical site-status comparison)
+      - markdown: evidence.md
+        field: /records/atlas-profile/geography/3
     overview:
       markdown: page.en.md
       field: /records/atlas-profile/overview
@@ -41,9 +43,7 @@ records:
       en: draft-ready
       zh: draft-ready
     readerSections:
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/0/id
+      - id: study-scope
         title:
           en:
             markdown: page.en.md
@@ -61,15 +61,10 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/2
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/1/id
+          - col
+          - erinjery2017
+          - grunstra2018
+      - id: forest-occupancy
         title:
           en:
             markdown: page.en.md
@@ -87,11 +82,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/2/id
+          - erinjery2017
+      - id: road-counts
         title:
           en:
             markdown: page.en.md
@@ -109,11 +101,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/2/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/3/id
+          - erinjery2017
+      - id: human-use-sites
         title:
           en:
             markdown: page.en.md
@@ -131,11 +120,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/3/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/4/id
+          - erinjery2017
+      - id: craniodental-comparison
         title:
           en:
             markdown: page.en.md
@@ -153,11 +139,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/4/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/4/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/5/id
+          - grunstra2018
+      - id: remaining-questions
         title:
           en:
             markdown: page.en.md
@@ -175,8 +158,7 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/5/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/0
+          - erinjery2017
     readerSources:
       referenceBindings:
         - referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
@@ -253,6 +235,7 @@ records:
     referenceIds:
       - col-2026-checklistbank-316115
       - erinjery-kumar-kumara-2017-bonnet-macaque-roadside
+      - dixit-zachariah-2018-bonnet-macaque-phylogeography
     traitsAssessmentStatus: not-assessed
   claims:
     - subject:
@@ -267,9 +250,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-26
-      reviewedAgainstReferenceVersion: Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-26
       referenceLinks:
         - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
           relation: supports
@@ -286,9 +266,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27
       referenceLinks:
         - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
           relation: supports
@@ -305,9 +282,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27
       referenceLinks:
         - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
           relation: supports
@@ -324,9 +298,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27
       referenceLinks:
         - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
           relation: supports
@@ -343,9 +314,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: COL26.8 ChecklistBank dataset 316115; accepted usage 3WWP2 and parent chain checked 2026-09-26
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -362,13 +330,28 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Erinjery et al. 2017 DOI 10.1371/journal.pone.0182140; PLOS full text inspected 2026-09-27
       referenceLinks:
         - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
           relation: supports
           quoteLocator: Methods §§2.3, 2.5–2.6; Results §§3.2, 3.4–3.5.
+    - subject:
+        kind: taxon
+        path: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Macaca/Macaca_radiata/research/Macaca_radiata
+      claimKind: scientific
+      claimType: evolution
+      statement:
+        markdown: evidence.md
+        field: /records/claims/6/statement
+      confidence: medium
+      confidenceRationale:
+        markdown: evidence.md
+        field: /records/claims/6/confidenceRationale
+      referenceLinks:
+        - referenceId: dixit-zachariah-2018-bonnet-macaque-phylogeography
+          relation: supports
+          quoteLocator:
+            markdown: evidence.md
+            field: /records/claims/6/referenceLinks/0/quoteLocator
   claim-rationales.zh:
     - markdown: evidence.md
       field: /records/claim-rationales.zh/0
@@ -382,6 +365,8 @@ records:
       field: /records/claim-rationales.zh/4
     - markdown: evidence.md
       field: /records/claim-rationales.zh/5
+    - markdown: evidence.md
+      field: /records/claim-rationales.zh/6
   claim-statements.zh:
     - markdown: evidence.md
       field: /records/claim-statements.zh/0
@@ -395,6 +380,8 @@ records:
       field: /records/claim-statements.zh/4
     - markdown: evidence.md
       field: /records/claim-statements.zh/5
+    - markdown: evidence.md
+      field: /records/claim-statements.zh/6
   ranges:
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Papionini/Macaca/Macaca_radiata/research/Macaca_radiata
       rangeKind: global-composite
@@ -418,7 +405,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 dataset 316115; accepted usage 3WWP2 and parent classification (identity/classification only)
-      reviewStatus: automated-audit-passed
   field-claim-overrides:
     - firstAppearance:
         status: not-assessed
@@ -445,6 +431,12 @@ records:
 ---
 
 # Macaca radiata
+
+## atlas-profile / geography
+
+<!-- evo:text /records/atlas-profile/geography/3 -->
+Southern India (82 fecal-derived host mtDNA D-loop sequences from 16 sampled locations; collected 2014–15; study sampling frame, not a range boundary)
+<!-- /evo:text -->
 
 ## referenceBindings / usage / scope
 
@@ -554,6 +546,30 @@ The selected 2017 study sampled roads connected to Mysore, Karnataka, forest gri
 The article names these local sampling contexts. It does not inventory the present or historical full species range.
 <!-- /evo:text -->
 
+## claims / statement
+
+<!-- evo:text /records/claims/6/statement -->
+In a 2018 phylogeographic analysis of 82 fecal-derived Macaca radiata mitochondrial D-loop sequences sampled across 16 southern Indian locations, sampled wet-zone and dry-zone individuals did not form separate mtDNA clades, haplotypes showed no geographic clustering, and isolation by distance was weak and not significant (r = 0.298, p = 0.09). This single mitochondrial-marker result does not represent nuclear or genome-wide variation; the authors' proposed human-mediated translocation explanation is a hypothesis, not a demonstrated cause.
+<!-- /evo:text -->
+
+## claims / confidenceRationale
+
+<!-- evo:text /records/claims/6/confidenceRationale -->
+The peer-reviewed paper reports the host D-loop sampling frame and these population-structure results. Confidence is bounded to that mitochondrial marker and sample: it does not establish nuclear or genome-wide structure, a full range-wide pattern, or the authors' proposed human-mediated cause.
+<!-- /evo:text -->
+
+## claims / reviewedAgainstReferenceVersion
+
+<!-- evo:text /records/claims/6/reviewedAgainstReferenceVersion -->
+Dixit et al. 2018 DOI 10.1371/journal.pntd.0006801; PLOS full text inspected 2026-09-28; COL26.8 usage 3WWP2 checked against pinned dataset 316115.
+<!-- /evo:text -->
+
+## claims / referenceLinks / quoteLocator
+
+<!-- evo:text /records/claims/6/referenceLinks/0/quoteLocator -->
+Methods—Host molecular data using fecal samples; Results—Phylogenetic analysis of host and Host haplotype network and IBD model; Discussion—Phylogeography of M. radiata.
+<!-- /evo:text -->
+
 ## claim-rationales.zh
 
 <!-- evo:text /records/claim-rationales.zh/0 -->
@@ -590,6 +606,12 @@ The article names these local sampling contexts. It does not inventory the prese
 所选 2017 年研究在印度卡纳塔克邦迈索尔相连道路、喀拉拉邦 Parambikulam 景观的森林网格，以及南印度寺庙/旅游点取样。这些是有界调查样区，不是当前物种完整分布边界。
 <!-- /evo:text -->
 
+## claim-rationales.zh
+
+<!-- evo:text /records/claim-rationales.zh/6 -->
+同行评审论文报告了宿主 D-loop 的取样范围及相应种群结构结果。结论仅限于该线粒体标记和样本，不能证明核基因组或全基因组结构、全分布区格局，也不能证明作者提出的人为转移因果解释。
+<!-- /evo:text -->
+
 ## claim-statements.zh
 
 <!-- evo:text /records/claim-statements.zh/0 -->
@@ -624,6 +646,12 @@ The article names these local sampling contexts. It does not inventory the prese
 
 <!-- evo:text /records/claim-statements.zh/5 -->
 所选 2017 年研究在印度卡纳塔克邦迈索尔相连道路、喀拉拉邦 Parambikulam 景观的森林网格，以及南印度寺庙/旅游点取样。这些是有界调查样区，不是当前物种完整分布边界。
+<!-- /evo:text -->
+
+## claim-statements.zh
+
+<!-- evo:text /records/claim-statements.zh/6 -->
+在一项 2018 年的系统地理研究中，研究者分析了来自印度南部 16 个地点的 82 份冠猕猴粪便样本衍生线粒体 D-loop 序列；样本中的湿区和旱区个体没有形成分开的 mtDNA 支系，单倍型未见地理聚集，隔离随距离关系较弱且不显著（r = 0.298，p = 0.09）。这项单一线粒体标记研究不能代表核基因组或全基因组变异；作者提出的人为转移解释仍是假说，研究并未证明其因果。
 <!-- /evo:text -->
 
 ## ranges / uncertainty / note

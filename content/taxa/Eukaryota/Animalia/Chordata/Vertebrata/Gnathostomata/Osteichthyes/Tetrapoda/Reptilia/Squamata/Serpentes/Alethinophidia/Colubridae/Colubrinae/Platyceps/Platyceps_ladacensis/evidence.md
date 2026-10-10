@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyceps ladacensis
       en: Platyceps ladacensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

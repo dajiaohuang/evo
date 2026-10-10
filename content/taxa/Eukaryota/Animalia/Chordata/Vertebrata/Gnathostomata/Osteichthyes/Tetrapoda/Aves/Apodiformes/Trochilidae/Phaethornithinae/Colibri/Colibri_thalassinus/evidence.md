@@ -9,7 +9,6 @@ records:
     name:
       zh: Colibri thalassinus
       en: Colibri thalassinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

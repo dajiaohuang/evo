@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoincamys valverdei
       en: Eoincamys valverdei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

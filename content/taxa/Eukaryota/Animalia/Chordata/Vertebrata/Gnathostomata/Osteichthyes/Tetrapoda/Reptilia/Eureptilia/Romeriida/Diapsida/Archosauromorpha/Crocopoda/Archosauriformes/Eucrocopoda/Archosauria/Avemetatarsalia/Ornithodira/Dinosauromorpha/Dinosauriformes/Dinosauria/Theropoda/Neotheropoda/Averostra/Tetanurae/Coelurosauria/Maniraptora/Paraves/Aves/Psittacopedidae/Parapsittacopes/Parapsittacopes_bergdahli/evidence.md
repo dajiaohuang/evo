@@ -9,7 +9,6 @@ records:
     name:
       zh: Parapsittacopes bergdahli
       en: Parapsittacopes bergdahli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

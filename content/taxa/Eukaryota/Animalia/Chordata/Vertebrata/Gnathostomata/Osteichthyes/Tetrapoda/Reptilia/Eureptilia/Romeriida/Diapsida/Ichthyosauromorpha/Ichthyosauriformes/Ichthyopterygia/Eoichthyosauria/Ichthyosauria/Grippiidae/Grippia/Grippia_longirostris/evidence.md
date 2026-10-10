@@ -9,7 +9,6 @@ records:
     name:
       zh: Grippia longirostris
       en: Grippia longirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

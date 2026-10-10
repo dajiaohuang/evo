@@ -9,7 +9,6 @@ records:
     name:
       zh: Palenochtha minor
       en: Palenochtha minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cardiolophus semihians
       en: Cardiolophus semihians
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Margarornis stellatus
       en: Margarornis stellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

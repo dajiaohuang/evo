@@ -10,7 +10,7 @@ status: source-linked
 ## Read seven historical rows through older Puffinus combinations
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-This entry organizes seven historical guides under COL26.8 Ardenna (D5KD6) and Procellariidae (627CQ). BirdLife/eBird names and respective Avibase IDs match in one-to-one links; BirdTree uses older Puffinus combinations, each with an exact catalogue synonym. grisea/pacifica have older endings griseus/pacificus; correspondence does not establish identical species boundaries across versions. The genus record has seven immediate children. Equal counts alone do not turn seven limited historical guides into complete natural history or expert review.
+This entry organizes seven historical guides under COL26.8 Ardenna (D5KD6) and Procellariidae (627CQ). BirdLife/eBird names and respective Avibase IDs match in one-to-one links; BirdTree uses older Puffinus combinations, each with an exact catalogue synonym. grisea/pacifica have older endings griseus/pacificus; correspondence does not establish identical species boundaries across versions. The genus record has seven immediate children. Equal counts alone do not turn seven limited historical guides into complete natural history.
 <!-- /evo:text -->
 
 ## Separate four complete sets from independently compiled mass
@@ -38,5 +38,5 @@ Group 2: [Ardenna bulleri](Ardenna_bulleri/page.en.md), [Ardenna pacifica](Arden
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Seven historical rows and exact Puffinus synonyms support limited guides; seven catalogue children and seven pages do not prove complete natural history. Morphology birds, four complete sets and independently compiled mass remain separate. Marine food, three lifestyles, open environment and migration 3 supply no measured diet, dive depth, flight performance, routes, breeding, current maps or expert review.
+Seven historical rows and exact Puffinus synonyms support limited guides; seven catalogue children and seven pages do not prove complete natural history. Morphology birds, four complete sets and independently compiled mass remain separate. Marine food, three lifestyles, open environment and migration 3 supply no measured diet, dive depth, flight performance, routes, breeding, current maps.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Micropithecus leakeyorum
       en: Micropithecus leakeyorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

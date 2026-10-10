@@ -9,7 +9,6 @@ records:
     name:
       zh: Tohoraata raekohao
       en: Tohoraata raekohao
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

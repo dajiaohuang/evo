@@ -9,7 +9,6 @@ records:
     name:
       zh: Vespadelus regulus
       en: Vespadelus regulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

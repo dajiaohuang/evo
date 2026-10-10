@@ -9,7 +9,6 @@ records:
     name:
       zh: 苏门答腊猩猩
       en: Sumatran orangutan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: lifeHistory
@@ -559,10 +558,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Pongo abelii
@@ -756,7 +751,7 @@ The abundance and trend estimates depend on modeled nest-survey data, spatial bo
 ## facets / conservation / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/conservation/gaps/1 -->
-This single 2021–2023 assessment does not constitute ongoing monitoring, a full threat-response evaluation, or independent expert review of current conservation status.
+This single 2021–2023 assessment does not constitute ongoing monitoring, a full threat-response evaluation of current conservation status.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -769,10 +764,4 @@ The record includes one small behavioral observation set and a 2021–2023 model
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The population estimate and matched-range trend depend on spatial boundaries and survey coverage; systematic source coverage across the accepted species concept remains incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->

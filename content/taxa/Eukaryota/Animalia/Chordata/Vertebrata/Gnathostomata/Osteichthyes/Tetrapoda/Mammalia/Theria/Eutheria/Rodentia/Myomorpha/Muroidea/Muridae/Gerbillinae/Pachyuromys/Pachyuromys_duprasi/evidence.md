@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachyuromys duprasi
       en: Pachyuromys duprasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

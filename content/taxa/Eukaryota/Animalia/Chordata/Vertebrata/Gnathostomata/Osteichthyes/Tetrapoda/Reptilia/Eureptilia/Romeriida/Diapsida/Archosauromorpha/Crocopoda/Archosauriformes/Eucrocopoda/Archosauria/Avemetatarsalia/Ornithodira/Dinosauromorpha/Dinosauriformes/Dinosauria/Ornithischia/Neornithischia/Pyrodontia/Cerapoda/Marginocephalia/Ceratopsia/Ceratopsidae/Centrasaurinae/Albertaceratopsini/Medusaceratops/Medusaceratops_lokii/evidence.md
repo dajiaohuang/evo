@@ -9,7 +9,6 @@ records:
     name:
       zh: Medusaceratops lokii
       en: Medusaceratops lokii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Turnix varius
       en: Turnix varius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Valenopsalis joyneri
       en: Valenopsalis joyneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

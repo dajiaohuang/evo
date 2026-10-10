@@ -9,7 +9,6 @@ records:
     name:
       zh: Neonatrix nova
       en: Neonatrix nova
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

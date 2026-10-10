@@ -9,7 +9,6 @@ records:
     name:
       zh: Mogharemys blanckenhorni
       en: Mogharemys blanckenhorni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

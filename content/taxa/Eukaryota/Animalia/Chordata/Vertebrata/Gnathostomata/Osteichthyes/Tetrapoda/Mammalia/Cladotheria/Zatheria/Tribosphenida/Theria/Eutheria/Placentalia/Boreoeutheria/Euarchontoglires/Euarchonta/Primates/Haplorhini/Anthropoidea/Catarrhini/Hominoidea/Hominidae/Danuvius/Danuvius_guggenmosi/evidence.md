@@ -9,7 +9,6 @@ records:
     name:
       zh: Danuvius guggenmosi
       en: Danuvius guggenmosi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

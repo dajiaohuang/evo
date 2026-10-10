@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger boulengeri
       zh: Scutiger boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

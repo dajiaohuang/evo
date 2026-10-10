@@ -87,5 +87,5 @@ Database collection reference ref:64073 attributes the record to Cau et al. (201
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a guide to two named reassessments and a later comparison, not a complete monograph or adjudication of ecology. The complete 2017 description, all supplementary matrices and later literature are not assembled. No direct holotype examination, CT reconstruction or independent replication of the reported analyses occurred here. Anatomy, state optimization and ecological analogy retain distinct limits, without establishing diet, strokes, diving ability or full tail length. Database ages and depositional setting remain separate, without reclassification or external expert review.
+This is a guide to two named reassessments and a later comparison, not a complete monograph or adjudication of ecology. The complete 2017 description, all supplementary matrices and later literature are not assembled. No direct holotype examination, CT reconstruction or independent replication of the reported analyses occurred here. Anatomy, state optimization and ecological analogy retain distinct limits, without establishing diet, strokes, diving ability or full tail length. Database ages and depositional setting remain separate, without reclassification.
 <!-- /evo:text -->

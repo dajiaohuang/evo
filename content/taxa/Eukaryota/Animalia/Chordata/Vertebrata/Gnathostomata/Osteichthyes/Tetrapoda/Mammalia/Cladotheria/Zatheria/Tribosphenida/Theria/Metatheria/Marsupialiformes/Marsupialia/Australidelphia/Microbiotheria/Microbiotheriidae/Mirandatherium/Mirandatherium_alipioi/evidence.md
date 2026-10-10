@@ -9,7 +9,6 @@ records:
     name:
       zh: Mirandatherium alipioi
       en: Mirandatherium alipioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

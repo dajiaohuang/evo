@@ -9,7 +9,6 @@ records:
     name:
       zh: Eriocnemis godini
       en: Eriocnemis godini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

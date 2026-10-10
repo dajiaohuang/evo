@@ -9,7 +9,6 @@ records:
     name:
       en: Ulindi River Red Colobus
       zh: 乌林迪河红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: nameBearingMaterial

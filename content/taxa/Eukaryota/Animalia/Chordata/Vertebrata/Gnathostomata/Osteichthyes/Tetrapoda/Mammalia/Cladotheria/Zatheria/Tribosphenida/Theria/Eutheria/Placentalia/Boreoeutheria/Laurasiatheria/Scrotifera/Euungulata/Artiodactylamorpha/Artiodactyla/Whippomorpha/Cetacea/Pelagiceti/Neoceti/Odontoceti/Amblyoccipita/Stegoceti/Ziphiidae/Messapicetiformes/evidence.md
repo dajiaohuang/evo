@@ -9,7 +9,6 @@ records:
     name:
       zh: Messapicetiformes
       en: Messapicetiformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

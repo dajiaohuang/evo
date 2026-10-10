@@ -9,7 +9,6 @@ records:
     name:
       zh: Tacuarembemys kusterae
       en: Tacuarembemys kusterae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

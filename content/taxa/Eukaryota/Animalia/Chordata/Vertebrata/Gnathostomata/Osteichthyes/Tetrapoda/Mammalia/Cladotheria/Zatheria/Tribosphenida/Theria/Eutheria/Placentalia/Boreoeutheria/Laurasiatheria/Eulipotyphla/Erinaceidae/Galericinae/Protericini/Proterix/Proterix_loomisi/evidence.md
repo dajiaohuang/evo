@@ -9,7 +9,6 @@ records:
     name:
       zh: Proterix loomisi
       en: Proterix loomisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

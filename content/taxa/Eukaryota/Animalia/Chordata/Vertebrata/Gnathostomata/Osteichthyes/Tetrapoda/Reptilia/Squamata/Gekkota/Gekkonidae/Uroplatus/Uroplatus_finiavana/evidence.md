@@ -9,7 +9,6 @@ records:
     name:
       zh: Uroplatus finiavana
       en: Uroplatus finiavana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

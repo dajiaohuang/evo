@@ -9,7 +9,6 @@ records:
     name:
       zh: Cordimus raton
       en: Cordimus raton
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

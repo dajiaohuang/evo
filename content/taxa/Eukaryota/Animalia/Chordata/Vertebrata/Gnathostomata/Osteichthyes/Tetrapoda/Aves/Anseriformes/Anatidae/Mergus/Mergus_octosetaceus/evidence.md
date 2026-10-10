@@ -9,7 +9,6 @@ records:
     name:
       zh: Mergus octosetaceus
       en: Mergus octosetaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

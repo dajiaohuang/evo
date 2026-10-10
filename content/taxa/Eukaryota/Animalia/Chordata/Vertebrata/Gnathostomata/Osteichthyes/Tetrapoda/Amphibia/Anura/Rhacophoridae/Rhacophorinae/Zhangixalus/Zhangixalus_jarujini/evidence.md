@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus jarujini
       zh: Zhangixalus jarujini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

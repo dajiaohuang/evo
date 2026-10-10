@@ -9,7 +9,6 @@ records:
     name:
       en: Wijayarana melasma
       zh: Wijayarana melasma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

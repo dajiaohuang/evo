@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptophis riveti
       en: Leptophis riveti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

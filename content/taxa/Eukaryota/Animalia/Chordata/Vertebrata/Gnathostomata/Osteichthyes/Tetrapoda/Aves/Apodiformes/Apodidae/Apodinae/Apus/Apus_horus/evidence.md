@@ -9,7 +9,6 @@ records:
     name:
       zh: Apus horus
       en: Apus horus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

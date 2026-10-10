@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer aculeodactylus
       zh: Cornufer aculeodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

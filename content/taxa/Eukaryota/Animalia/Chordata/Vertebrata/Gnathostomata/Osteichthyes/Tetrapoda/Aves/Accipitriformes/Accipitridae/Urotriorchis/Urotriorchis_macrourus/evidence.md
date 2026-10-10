@@ -9,7 +9,6 @@ records:
     name:
       zh: Urotriorchis macrourus
       en: Urotriorchis macrourus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

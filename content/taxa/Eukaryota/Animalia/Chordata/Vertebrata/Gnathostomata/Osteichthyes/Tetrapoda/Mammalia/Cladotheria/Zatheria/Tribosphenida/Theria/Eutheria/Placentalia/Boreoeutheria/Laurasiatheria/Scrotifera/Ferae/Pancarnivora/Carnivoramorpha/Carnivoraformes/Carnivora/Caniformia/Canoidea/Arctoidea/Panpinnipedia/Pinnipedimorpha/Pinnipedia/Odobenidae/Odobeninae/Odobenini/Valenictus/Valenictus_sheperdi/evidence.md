@@ -9,7 +9,6 @@ records:
     name:
       zh: Valenictus sheperdi
       en: Valenictus sheperdi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon peixotoi
       zh: Ololygon peixotoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

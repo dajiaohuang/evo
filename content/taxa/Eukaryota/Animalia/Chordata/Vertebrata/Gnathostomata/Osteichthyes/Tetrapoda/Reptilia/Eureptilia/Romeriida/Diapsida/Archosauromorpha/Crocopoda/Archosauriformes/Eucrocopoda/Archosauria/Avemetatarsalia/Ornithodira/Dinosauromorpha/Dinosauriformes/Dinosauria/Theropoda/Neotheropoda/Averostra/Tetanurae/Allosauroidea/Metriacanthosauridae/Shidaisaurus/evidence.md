@@ -9,7 +9,6 @@ records:
     name:
       zh: Shidaisaurus
       en: Shidaisaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

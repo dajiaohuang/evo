@@ -74,7 +74,7 @@ The 2022 paper recommended treating the nominal Hyla coerulea as a valid species
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Partial historical morphology and taxonomy reader. Current species limits, living-population observations and remaining biological facets require further evidence. Not externally expert-reviewed.
+Partial historical morphology and taxonomy reader. Current species limits, living-population observations and remaining biological facets require further evidence..
 <!-- /evo:text -->
 
 ## Research text pending

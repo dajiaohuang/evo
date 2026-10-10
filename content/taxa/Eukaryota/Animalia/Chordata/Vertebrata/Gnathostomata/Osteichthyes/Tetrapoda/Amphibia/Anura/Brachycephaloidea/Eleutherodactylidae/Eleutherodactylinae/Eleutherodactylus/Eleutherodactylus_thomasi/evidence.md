@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus thomasi
       zh: Eleutherodactylus thomasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lithoptila
       en: Lithoptila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Democricetodon haltmari
       en: Democricetodon haltmari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Proeuphractus limpidus
       en: Proeuphractus limpidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

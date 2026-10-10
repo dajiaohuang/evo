@@ -9,7 +9,6 @@ records:
     name:
       zh: Psammophis subtaeniatus
       en: Psammophis subtaeniatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

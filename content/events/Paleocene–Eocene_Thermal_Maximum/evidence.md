@@ -125,9 +125,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-19
-      reviewedAgainstReferenceVersion: mcinerney-2011-petm @ DOI 10.1146/annurev-earth-040610-133431
       referenceLinks:
         - relation: supports
           referenceId: mcinerney-2011-petm

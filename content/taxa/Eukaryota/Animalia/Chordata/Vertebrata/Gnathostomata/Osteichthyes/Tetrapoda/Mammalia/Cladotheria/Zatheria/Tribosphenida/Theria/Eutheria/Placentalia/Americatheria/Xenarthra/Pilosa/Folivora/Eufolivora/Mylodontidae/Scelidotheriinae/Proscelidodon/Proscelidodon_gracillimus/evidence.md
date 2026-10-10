@@ -9,7 +9,6 @@ records:
     name:
       zh: Proscelidodon gracillimus
       en: Proscelidodon gracillimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

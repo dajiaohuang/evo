@@ -9,7 +9,6 @@ records:
     name:
       zh: Apostolepis nigroterminata
       en: Apostolepis nigroterminata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

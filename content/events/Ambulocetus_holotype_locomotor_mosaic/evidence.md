@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Thewissen et al. 1994 DOI 10.1126/science.263.5144.210
       referenceLinks:
         - referenceId: thewissen-1994-ambulocetus
           relation: supports

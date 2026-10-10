@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiprotosuchus leali
       en: Hemiprotosuchus leali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

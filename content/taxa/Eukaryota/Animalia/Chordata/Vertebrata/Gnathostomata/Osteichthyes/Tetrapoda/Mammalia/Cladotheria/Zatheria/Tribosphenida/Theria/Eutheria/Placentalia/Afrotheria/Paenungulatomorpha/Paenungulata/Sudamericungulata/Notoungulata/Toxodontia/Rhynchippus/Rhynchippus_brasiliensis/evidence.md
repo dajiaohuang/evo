@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchippus brasiliensis
       en: Rhynchippus brasiliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

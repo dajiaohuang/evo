@@ -9,7 +9,6 @@ records:
     name:
       zh: Steatomys caurinus
       en: Steatomys caurinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

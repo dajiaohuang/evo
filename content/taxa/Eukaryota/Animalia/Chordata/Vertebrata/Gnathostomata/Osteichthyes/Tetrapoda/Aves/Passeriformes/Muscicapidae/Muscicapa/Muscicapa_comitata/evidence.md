@@ -9,7 +9,6 @@ records:
     name:
       zh: Muscicapa comitata
       en: Muscicapa comitata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

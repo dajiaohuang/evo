@@ -9,7 +9,6 @@ records:
     name:
       zh: Muhtarophis barani
       en: Muhtarophis barani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

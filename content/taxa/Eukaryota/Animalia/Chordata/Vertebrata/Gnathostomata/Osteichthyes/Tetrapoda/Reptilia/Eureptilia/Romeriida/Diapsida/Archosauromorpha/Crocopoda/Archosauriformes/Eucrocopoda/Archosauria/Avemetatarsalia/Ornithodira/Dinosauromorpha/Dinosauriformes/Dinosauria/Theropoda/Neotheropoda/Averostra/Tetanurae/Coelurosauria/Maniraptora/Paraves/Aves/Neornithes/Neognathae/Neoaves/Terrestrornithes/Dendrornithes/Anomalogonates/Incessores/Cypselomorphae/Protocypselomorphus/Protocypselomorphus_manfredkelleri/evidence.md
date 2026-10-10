@@ -9,7 +9,6 @@ records:
     name:
       zh: Protocypselomorphus manfredkelleri
       en: Protocypselomorphus manfredkelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

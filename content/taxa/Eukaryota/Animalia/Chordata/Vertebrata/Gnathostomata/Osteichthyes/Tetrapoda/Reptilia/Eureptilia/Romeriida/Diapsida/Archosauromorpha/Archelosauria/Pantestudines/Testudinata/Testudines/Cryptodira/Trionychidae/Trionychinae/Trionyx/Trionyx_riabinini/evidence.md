@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx riabinini
       en: Trionyx riabinini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

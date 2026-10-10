@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia corpulenta
       zh: Caecilia corpulenta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

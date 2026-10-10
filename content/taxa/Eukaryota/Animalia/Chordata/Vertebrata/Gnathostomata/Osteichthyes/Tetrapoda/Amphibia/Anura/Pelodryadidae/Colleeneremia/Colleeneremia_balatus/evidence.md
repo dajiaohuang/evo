@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia balatus
       zh: Colleeneremia balatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

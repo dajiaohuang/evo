@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-有来源的入门导读；未经过外部领域专家评审。行为证据来自两个旱季中的一群习惯化个体，不能估计种群层面的影响。
+有来源的入门导读。行为证据来自两个旱季中的一群习惯化个体，不能估计种群层面的影响。
 <!-- /evo:text -->

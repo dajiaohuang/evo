@@ -9,7 +9,6 @@ records:
     name:
       zh: Kleskunsaurus grandeprairiensis
       en: Kleskunsaurus grandeprairiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

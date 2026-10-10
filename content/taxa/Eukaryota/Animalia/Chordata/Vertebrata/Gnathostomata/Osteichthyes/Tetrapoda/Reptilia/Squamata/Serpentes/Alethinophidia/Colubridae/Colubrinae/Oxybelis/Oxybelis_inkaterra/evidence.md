@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxybelis inkaterra
       en: Oxybelis inkaterra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

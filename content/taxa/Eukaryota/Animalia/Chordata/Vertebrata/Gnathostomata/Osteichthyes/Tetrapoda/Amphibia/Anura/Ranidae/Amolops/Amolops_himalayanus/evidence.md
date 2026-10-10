@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops himalayanus
       zh: Amolops himalayanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Boffius splendidus
       en: Boffius splendidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

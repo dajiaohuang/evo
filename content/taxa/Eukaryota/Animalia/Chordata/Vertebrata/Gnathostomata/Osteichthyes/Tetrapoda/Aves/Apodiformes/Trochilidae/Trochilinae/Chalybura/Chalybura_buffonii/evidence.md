@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalybura buffonii
       en: Chalybura buffonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Biarmosuchus tener
       en: Biarmosuchus tener
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neocricetodon skofleki
       en: Neocricetodon skofleki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

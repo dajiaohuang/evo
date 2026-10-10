@@ -9,7 +9,6 @@ records:
     name:
       zh: Talegalla fuscirostris
       en: Talegalla fuscirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

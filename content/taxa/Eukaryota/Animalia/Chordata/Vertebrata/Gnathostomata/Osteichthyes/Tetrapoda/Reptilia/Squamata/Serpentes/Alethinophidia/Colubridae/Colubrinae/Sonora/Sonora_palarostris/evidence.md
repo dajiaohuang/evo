@@ -9,7 +9,6 @@ records:
     name:
       zh: Sonora palarostris
       en: Sonora palarostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

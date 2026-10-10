@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates amissibilis
       zh: Allobates amissibilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

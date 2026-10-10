@@ -9,7 +9,6 @@ records:
     name:
       zh: Promimomys mimus
       en: Promimomys mimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

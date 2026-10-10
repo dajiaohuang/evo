@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus forbesi
       en: Sphenomorphus forbesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

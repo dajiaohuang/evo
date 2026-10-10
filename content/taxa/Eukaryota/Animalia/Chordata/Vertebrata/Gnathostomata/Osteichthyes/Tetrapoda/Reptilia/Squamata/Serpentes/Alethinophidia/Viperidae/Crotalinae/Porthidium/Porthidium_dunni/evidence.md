@@ -9,7 +9,6 @@ records:
     name:
       zh: Porthidium dunni
       en: Porthidium dunni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

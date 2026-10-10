@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenicus gilviventris
       en: Xenicus gilviventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

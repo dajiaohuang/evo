@@ -9,7 +9,6 @@ records:
     name:
       zh: Melaniparus thruppi
       en: Melaniparus thruppi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

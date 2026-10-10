@@ -9,7 +9,6 @@ records:
     name:
       zh: Morethia adelaidensis
       en: Morethia adelaidensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

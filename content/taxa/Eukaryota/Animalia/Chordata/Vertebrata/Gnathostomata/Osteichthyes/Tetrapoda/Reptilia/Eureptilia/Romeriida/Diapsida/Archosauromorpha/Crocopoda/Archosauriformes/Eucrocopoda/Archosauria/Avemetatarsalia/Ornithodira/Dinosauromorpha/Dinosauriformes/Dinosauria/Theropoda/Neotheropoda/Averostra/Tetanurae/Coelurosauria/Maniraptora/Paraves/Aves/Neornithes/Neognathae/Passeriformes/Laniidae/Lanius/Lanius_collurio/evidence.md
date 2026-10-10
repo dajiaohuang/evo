@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanius collurio
       en: Lanius collurio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ragechelus sahelica
       en: Ragechelus sahelica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

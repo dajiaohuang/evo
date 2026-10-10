@@ -9,7 +9,6 @@ records:
     name:
       zh: Pezopetes capitalis
       en: Pezopetes capitalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoxophrys tuberculata
       en: Phoxophrys tuberculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

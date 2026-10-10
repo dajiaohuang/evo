@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: maiolino-2012-notharctus @ DOI 10.1371/journal.pone.0029135
       referenceLinks:
         - referenceId: maiolino-2012-notharctus
           relation: supports

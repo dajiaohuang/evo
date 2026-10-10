@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonyosoma hainanense
       en: Gonyosoma hainanense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

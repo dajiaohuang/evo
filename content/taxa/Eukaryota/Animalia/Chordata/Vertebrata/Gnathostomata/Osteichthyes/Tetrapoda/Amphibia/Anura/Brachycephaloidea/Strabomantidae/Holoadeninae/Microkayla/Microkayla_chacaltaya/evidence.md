@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla chacaltaya
       zh: Microkayla chacaltaya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

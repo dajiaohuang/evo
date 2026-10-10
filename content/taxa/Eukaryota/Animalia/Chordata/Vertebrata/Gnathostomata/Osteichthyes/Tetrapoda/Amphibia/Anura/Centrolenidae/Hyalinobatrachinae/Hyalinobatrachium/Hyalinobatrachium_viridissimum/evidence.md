@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium viridissimum
       zh: Hyalinobatrachium viridissimum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

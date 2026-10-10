@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiocathartes insolitipes
       en: Plesiocathartes insolitipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

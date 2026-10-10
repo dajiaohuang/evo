@@ -9,7 +9,6 @@ records:
     name:
       zh: Geomys breviceps
       en: Geomys breviceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

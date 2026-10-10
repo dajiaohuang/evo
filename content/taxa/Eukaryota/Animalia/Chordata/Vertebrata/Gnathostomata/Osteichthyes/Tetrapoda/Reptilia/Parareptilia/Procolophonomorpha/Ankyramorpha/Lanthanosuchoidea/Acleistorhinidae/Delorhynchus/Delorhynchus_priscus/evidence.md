@@ -9,7 +9,6 @@ records:
     name:
       zh: Delorhynchus priscus
       en: Delorhynchus priscus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

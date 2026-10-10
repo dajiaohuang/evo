@@ -16,5 +16,5 @@ Field expeditions in southern Amazonia, Brazil, recorded Collins' squirrel monke
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Surveys covered selected sites in southern Amazonia; the estimate concerns a regional range change, not the complete species range, abundance, or conservation status. This guide is not externally expert-reviewed.
+Surveys covered selected sites in southern Amazonia; the estimate concerns a regional range change, not the complete species range, abundance, or conservation status. This guide is.
 <!-- /evo:text -->

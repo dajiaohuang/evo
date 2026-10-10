@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: pyron-2013-squamate-phylogeny concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: pyron-2013-squamate-phylogeny
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: simoes-2018-megachirella; concrete range-boundary locator audit at rc48
       referenceLinks:
         - relation: supports
           referenceId: simoes-2018-megachirella
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: simoes-2018-megachirella
           locator: 706–709; Figures 1–2; Extended Data Figures 1–8; Middle Triassic specimen and combined-evidence stem-squamate placement
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

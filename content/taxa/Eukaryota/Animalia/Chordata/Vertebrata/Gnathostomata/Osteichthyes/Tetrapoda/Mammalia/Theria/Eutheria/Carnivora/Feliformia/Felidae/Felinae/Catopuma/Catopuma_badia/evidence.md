@@ -9,7 +9,6 @@ records:
     name:
       zh: Catopuma badia
       en: Catopuma badia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

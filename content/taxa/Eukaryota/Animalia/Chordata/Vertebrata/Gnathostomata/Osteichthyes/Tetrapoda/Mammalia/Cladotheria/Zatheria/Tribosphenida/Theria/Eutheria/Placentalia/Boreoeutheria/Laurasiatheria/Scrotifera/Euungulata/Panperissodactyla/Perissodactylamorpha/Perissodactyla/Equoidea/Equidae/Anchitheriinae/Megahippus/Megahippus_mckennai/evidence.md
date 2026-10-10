@@ -9,7 +9,6 @@ records:
     name:
       zh: Megahippus mckennai
       en: Megahippus mckennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

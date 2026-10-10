@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana adiscifera
       zh: Hylarana adiscifera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

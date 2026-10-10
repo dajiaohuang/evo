@@ -9,7 +9,6 @@ records:
     name:
       zh: Araripesuchus rattoides
       en: Araripesuchus rattoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

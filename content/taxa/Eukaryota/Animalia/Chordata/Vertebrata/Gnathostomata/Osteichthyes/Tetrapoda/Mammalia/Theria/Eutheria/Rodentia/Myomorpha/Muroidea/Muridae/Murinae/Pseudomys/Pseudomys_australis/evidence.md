@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudomys australis
       en: Pseudomys australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

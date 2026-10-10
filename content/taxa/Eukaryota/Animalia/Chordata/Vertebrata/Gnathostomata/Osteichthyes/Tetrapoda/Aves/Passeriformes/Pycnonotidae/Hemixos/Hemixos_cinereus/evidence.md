@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemixos cinereus
       en: Hemixos cinereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

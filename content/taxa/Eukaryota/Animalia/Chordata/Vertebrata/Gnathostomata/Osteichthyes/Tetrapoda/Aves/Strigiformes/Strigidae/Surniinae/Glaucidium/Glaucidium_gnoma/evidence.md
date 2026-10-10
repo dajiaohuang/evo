@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium gnoma
       en: Glaucidium gnoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

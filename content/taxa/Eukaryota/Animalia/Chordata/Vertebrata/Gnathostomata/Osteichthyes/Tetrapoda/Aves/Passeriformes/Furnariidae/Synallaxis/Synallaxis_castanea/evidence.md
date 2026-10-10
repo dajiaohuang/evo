@@ -9,7 +9,6 @@ records:
     name:
       zh: Synallaxis castanea
       en: Synallaxis castanea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

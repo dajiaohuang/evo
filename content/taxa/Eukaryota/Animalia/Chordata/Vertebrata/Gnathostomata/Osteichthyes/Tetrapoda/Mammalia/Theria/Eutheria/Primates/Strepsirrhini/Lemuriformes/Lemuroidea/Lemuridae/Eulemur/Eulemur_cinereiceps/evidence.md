@@ -9,7 +9,6 @@ records:
     name:
       en: White-collared Brown Lemur
       zh: 白领褐狐猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphidon superstes
       en: Amphidon superstes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pengilleyia darlingtoni
       zh: Pengilleyia darlingtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

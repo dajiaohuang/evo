@@ -28,7 +28,7 @@ status: source-linked
 ## 从旧名称与测量范围进入各页
 
 <!-- evo:text /records/catalogue-profile/sections/3/text/zh -->
-先查旧 Garrulax 名称及两个未确认目录异名，再查完整测量分母、文献体重和生态类别。以下十四个入口不替代羽色、鸣声、繁殖、当前地图或专家审评：
+先查旧 Garrulax 名称及两个未确认目录异名，再查完整测量分母、文献体重和生态类别。以下十四个入口不替代羽色、鸣声、繁殖、当前地图：
 
 - 1：[Trochalopteron variegatum](Trochalopteron_variegatum/page.zh.md)、[Trochalopteron erythrocephalum](Trochalopteron_erythrocephalum/page.zh.md)、[Trochalopteron chrysopterum](Trochalopteron_chrysopterum/page.zh.md)、[Trochalopteron melanostigma](Trochalopteron_melanostigma/page.zh.md)、[Trochalopteron peninsulae](Trochalopteron_peninsulae/page.zh.md)
 - 2：[Trochalopteron lineatum](Trochalopteron_lineatum/page.zh.md)、[Trochalopteron squamatum](Trochalopteron_squamatum/page.zh.md)、[Trochalopteron elliotii](Trochalopteron_elliotii/page.zh.md)、[Trochalopteron austeni](Trochalopteron_austeni/page.zh.md)、[Trochalopteron imbricatum](Trochalopteron_imbricatum/page.zh.md)
@@ -38,5 +38,5 @@ status: source-linked
 ## 证据边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页使用十四条中相关的 AVONET v7 历史行、名称表、相关 Metadata 定义与本地 COL tro／ga 名称分片。来源科名 Leiotrichidae 与本页目录科名 Leiothrichidae 拼写分别保留，不宣称逐字科名一致。形态鸟数、完整测量数与文献体重分母分开；一对一表名或异名链接不保证跨年代物种边界相同。未查个体标本、Dunning 原书、完整工作簿或新完整方法论文；当前分布、保护、羽色鸣声、繁殖、实测食谱和移动路径不在本页证据范围。没有专家审评，不计完整自然史专论。
+本页使用十四条中相关的 AVONET v7 历史行、名称表、相关 Metadata 定义与本地 COL tro／ga 名称分片。来源科名 Leiotrichidae 与本页目录科名 Leiothrichidae 拼写分别保留，不宣称逐字科名一致。形态鸟数、完整测量数与文献体重分母分开；一对一表名或异名链接不保证跨年代物种边界相同。未查个体标本、Dunning 原书、完整工作簿或新完整方法论文；当前分布、保护、羽色鸣声、繁殖、实测食谱和移动路径不在本页证据范围。不计完整自然史专论。
 <!-- /evo:text -->

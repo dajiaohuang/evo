@@ -9,7 +9,6 @@ records:
     name:
       zh: Rieppeleon kerstenii
       en: Rieppeleon kerstenii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

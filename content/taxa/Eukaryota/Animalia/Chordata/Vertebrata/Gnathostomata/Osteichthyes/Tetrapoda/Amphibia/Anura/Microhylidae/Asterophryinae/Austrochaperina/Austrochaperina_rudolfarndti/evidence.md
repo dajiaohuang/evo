@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina rudolfarndti
       zh: Austrochaperina rudolfarndti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

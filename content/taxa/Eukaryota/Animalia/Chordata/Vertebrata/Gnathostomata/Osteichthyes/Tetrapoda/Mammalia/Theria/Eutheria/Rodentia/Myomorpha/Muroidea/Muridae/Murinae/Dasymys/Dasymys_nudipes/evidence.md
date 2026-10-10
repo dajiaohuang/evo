@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasymys nudipes
       en: Dasymys nudipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

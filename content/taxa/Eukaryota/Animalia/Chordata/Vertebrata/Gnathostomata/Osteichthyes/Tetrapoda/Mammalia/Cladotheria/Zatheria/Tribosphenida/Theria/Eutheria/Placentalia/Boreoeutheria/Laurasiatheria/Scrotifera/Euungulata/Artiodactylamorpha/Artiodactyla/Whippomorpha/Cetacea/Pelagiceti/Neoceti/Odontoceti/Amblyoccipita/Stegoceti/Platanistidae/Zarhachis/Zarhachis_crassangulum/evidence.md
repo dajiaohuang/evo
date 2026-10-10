@@ -9,7 +9,6 @@ records:
     name:
       zh: Zarhachis crassangulum
       en: Zarhachis crassangulum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

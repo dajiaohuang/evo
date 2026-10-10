@@ -9,7 +9,6 @@ records:
     name:
       en: Theloderma gordoni
       zh: Theloderma gordoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

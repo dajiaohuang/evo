@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterocetus guiscardii
       en: Heterocetus guiscardii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eristicophis macmahoni
       en: Eristicophis macmahoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

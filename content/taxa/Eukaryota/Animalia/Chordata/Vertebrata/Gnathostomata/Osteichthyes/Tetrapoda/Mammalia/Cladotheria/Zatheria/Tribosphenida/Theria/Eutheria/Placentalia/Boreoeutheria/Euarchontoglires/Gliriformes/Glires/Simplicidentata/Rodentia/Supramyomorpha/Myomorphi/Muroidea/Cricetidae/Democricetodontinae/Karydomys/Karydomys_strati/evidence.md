@@ -9,7 +9,6 @@ records:
     name:
       zh: Karydomys strati
       en: Karydomys strati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

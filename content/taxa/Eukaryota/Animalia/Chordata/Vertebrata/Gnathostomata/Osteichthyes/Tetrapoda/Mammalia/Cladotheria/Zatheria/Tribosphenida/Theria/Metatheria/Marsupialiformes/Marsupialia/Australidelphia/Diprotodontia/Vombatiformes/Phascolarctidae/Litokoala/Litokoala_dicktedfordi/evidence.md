@@ -9,7 +9,6 @@ records:
     name:
       zh: Litokoala dicktedfordi
       en: Litokoala dicktedfordi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

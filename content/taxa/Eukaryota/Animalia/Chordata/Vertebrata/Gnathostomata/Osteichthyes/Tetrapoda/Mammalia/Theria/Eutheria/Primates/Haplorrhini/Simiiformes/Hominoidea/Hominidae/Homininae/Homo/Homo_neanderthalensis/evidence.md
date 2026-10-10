@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: prufer-2017-vindija concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: prufer-2017-vindija
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: prufer-2017-vindija @ DOI 10.1126/science.aao1887
       referenceLinks:
         - relation: supports
           referenceId: prufer-2017-vindija
@@ -96,7 +90,6 @@ records:
           locator: 655–658; Specimen dating; genome coverage; demographic analyses
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Hominidae/Homininae/Homo/Homo_neanderthalensis
       rangeKind: global-composite
@@ -121,7 +114,6 @@ records:
       referenceLocators:
         - referenceId: prufer-2017-vindija
           locator: 655–658; Figures 1–4; Supplementary Materials
-      reviewStatus: automated-audit-passed
 ---
 
 # Homo neanderthalensis

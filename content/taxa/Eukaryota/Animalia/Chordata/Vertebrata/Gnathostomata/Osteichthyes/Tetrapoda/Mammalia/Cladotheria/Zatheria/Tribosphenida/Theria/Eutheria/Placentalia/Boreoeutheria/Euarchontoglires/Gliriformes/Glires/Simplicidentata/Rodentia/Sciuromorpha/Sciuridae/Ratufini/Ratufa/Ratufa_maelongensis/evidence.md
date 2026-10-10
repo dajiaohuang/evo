@@ -9,7 +9,6 @@ records:
     name:
       zh: Ratufa maelongensis
       en: Ratufa maelongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

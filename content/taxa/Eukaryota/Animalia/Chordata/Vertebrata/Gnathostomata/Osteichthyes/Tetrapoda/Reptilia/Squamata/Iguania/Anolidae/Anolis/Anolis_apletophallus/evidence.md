@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis apletophallus
       en: Anolis apletophallus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

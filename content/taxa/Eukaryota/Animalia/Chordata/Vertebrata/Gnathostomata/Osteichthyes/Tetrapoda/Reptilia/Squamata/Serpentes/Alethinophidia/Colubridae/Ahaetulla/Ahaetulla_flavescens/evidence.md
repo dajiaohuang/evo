@@ -9,7 +9,6 @@ records:
     name:
       zh: Ahaetulla flavescens
       en: Ahaetulla flavescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

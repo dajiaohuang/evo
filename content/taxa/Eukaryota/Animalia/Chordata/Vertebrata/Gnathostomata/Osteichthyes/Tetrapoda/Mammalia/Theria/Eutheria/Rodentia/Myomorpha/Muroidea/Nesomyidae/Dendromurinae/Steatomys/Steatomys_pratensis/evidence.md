@@ -9,7 +9,6 @@ records:
     name:
       zh: Steatomys pratensis
       en: Steatomys pratensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Badiostes patagonicus
       en: Badiostes patagonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

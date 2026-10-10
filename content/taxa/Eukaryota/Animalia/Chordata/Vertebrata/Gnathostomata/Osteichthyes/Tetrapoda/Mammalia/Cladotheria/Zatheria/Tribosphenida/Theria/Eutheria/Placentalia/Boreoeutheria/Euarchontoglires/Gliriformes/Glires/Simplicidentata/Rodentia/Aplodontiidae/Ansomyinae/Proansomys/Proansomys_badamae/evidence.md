@@ -9,7 +9,6 @@ records:
     name:
       zh: Proansomys badamae
       en: Proansomys badamae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

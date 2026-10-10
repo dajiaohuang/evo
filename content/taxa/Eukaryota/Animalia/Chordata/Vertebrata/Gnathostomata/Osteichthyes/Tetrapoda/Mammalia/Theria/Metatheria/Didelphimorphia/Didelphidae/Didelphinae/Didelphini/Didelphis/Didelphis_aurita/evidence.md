@@ -9,7 +9,6 @@ records:
     name:
       zh: Didelphis aurita
       en: Didelphis aurita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaps histrionica
       en: Phaps histrionica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurocephalus ruppelli
       en: Eurocephalus ruppelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sternotherus pugnatus
       en: Sternotherus pugnatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

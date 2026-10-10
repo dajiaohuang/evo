@@ -9,7 +9,6 @@ records:
     name:
       zh: Titanohierax
       en: Titanohierax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

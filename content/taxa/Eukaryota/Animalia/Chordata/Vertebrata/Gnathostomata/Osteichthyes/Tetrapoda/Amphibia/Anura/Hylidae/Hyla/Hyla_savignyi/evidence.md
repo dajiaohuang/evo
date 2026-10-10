@@ -9,7 +9,6 @@ records:
     name:
       en: Hyla savignyi
       zh: Hyla savignyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

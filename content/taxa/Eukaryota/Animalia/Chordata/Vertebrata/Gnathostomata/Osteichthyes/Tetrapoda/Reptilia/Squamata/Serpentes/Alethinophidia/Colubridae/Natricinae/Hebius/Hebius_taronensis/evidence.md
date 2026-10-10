@@ -9,7 +9,6 @@ records:
     name:
       zh: Hebius taronensis
       en: Hebius taronensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

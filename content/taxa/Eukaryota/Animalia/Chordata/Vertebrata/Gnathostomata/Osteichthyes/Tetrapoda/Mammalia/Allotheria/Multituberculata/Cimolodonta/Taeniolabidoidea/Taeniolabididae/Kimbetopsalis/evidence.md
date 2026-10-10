@@ -9,7 +9,6 @@ records:
     name:
       zh: Kimbetopsalis
       en: Kimbetopsalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

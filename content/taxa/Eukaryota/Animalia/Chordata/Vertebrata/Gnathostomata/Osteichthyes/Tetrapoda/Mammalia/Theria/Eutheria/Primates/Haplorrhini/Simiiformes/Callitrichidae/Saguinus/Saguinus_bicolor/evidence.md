@@ -9,7 +9,6 @@ records:
     name:
       zh: 双色狨
       en: Pied tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology
@@ -346,10 +345,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Saguinus bicolor
@@ -549,5 +544,5 @@ Six facets remain not assessed and ecology is supported by one small study with 
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No systematic multi-source species review or independent expert review has been completed.
+No systematic multi-source species search has been completed.
 <!-- /evo:text -->

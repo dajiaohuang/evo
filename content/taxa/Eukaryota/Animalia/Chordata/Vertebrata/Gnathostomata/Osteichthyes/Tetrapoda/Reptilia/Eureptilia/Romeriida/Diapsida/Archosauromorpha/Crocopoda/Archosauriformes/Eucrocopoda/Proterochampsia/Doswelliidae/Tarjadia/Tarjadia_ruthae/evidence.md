@@ -9,7 +9,6 @@ records:
     name:
       zh: Tarjadia ruthae
       en: Tarjadia ruthae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

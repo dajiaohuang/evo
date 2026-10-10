@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylophilus poicilotis
       en: Hylophilus poicilotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

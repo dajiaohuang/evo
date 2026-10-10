@@ -9,7 +9,6 @@ records:
     name:
       zh: Bunophorus pattersoni
       en: Bunophorus pattersoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

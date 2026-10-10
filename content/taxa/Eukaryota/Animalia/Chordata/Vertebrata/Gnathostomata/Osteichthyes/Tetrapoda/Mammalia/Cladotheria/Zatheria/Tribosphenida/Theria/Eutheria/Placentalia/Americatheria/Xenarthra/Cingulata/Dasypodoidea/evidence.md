@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasypodoidea
       en: Dasypodoidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

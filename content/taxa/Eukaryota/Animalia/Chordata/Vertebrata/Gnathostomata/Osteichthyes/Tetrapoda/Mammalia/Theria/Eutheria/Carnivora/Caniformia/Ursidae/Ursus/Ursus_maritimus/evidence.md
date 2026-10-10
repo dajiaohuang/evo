@@ -238,9 +238,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
   catalogue-profile:
     scientificName: Ursus maritimus
     rank: species
@@ -248,7 +245,6 @@ records:
     name:
       zh: Ursus maritimus
       en: Ursus maritimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
@@ -909,7 +905,7 @@ The model's older-age survival values beyond the observed age range are extrapol
 ## facets / lifeHistory / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/lifeHistory/gaps/2 -->
-Species-wide survival, broader ecology, evolution, distribution, fossils, and conservation status remain unassessed; systematic search and independent expert review are incomplete.
+Species-wide survival, broader ecology, evolution, distribution, fossils, and conservation status remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -927,5 +923,5 @@ The sample is limited to independent bears aged at least two years in western Hu
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-A reproducible systematic search and independent expert review have not been completed.
+A reproducible systematic search has not been completed.
 <!-- /evo:text -->

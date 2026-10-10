@@ -9,7 +9,6 @@ records:
     name:
       zh: Treron aromaticus
       en: Treron aromaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

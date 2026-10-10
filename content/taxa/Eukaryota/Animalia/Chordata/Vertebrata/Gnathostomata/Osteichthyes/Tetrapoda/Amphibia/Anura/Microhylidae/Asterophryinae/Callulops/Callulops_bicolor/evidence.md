@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops bicolor
       zh: Callulops bicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

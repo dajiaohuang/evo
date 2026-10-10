@@ -9,7 +9,6 @@ records:
     name:
       zh: 金棕鼠狐猴
       en: Golden-brown mouse lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -489,10 +488,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Microcebus ravelobensis
@@ -722,5 +717,5 @@ Life history, evolution, distribution, fossil evidence, and current conservation
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No comprehensive multi-source review or independent expert review has been completed.
+No comprehensive multi-source search has been completed.
 <!-- /evo:text -->

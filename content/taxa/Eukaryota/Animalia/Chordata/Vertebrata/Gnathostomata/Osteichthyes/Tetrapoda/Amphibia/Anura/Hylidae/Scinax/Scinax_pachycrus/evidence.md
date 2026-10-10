@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax pachycrus
       zh: Scinax pachycrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

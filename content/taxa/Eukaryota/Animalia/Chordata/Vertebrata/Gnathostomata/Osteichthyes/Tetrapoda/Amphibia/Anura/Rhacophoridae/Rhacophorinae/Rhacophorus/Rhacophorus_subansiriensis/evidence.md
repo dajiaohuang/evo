@@ -9,7 +9,6 @@ records:
     name:
       en: Rhacophorus subansiriensis
       zh: Rhacophorus subansiriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

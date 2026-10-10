@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyamodus hildegardis
       en: Cyamodus hildegardis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

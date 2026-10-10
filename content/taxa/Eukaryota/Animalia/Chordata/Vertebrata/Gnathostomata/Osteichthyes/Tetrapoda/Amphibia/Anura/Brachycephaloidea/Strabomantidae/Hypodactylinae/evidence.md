@@ -9,7 +9,6 @@ records:
     name:
       en: Hypodactylinae
       zh: Hypodactylinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

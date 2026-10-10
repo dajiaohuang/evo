@@ -9,7 +9,6 @@ records:
     name:
       zh: Philemon eichhorni
       en: Philemon eichhorni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutropis carinata
       en: Eutropis carinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

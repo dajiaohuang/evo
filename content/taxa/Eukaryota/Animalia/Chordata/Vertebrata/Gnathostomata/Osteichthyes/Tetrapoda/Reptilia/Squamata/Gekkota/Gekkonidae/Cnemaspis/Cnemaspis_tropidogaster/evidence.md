@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis tropidogaster
       en: Cnemaspis tropidogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

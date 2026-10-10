@@ -9,7 +9,6 @@ records:
     name:
       en: Notophthalmus
       zh: Notophthalmus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

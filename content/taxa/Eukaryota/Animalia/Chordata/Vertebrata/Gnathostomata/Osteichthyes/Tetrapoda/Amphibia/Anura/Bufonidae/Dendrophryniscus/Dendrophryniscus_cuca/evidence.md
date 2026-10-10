@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrophryniscus cuca
       zh: Dendrophryniscus cuca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

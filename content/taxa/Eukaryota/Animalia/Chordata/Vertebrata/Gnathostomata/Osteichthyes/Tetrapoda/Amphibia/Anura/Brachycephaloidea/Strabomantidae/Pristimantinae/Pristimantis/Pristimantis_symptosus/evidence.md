@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis symptosus
       zh: Pristimantis symptosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

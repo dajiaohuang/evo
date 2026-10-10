@@ -28,5 +28,5 @@ The local MDD v2.5 source row uses *Saguinus leucogenys* and places Leontocebus 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Panguana is a single-site ecological survey; its gap association is not a range-wide habitat-preference estimate. COL and MDD genus-level treatments and ID joins are recorded separately; this page does not resolve the taxonomic debate. Not externally reviewed. This page has not been externally expert-reviewed. This page is not externally expert-reviewed.
+Panguana is a single-site ecological survey; its gap association is not a range-wide habitat-preference estimate. COL and MDD genus-level treatments and ID joins are recorded separately; this page does not resolve the taxonomic debate. Not externally reviewed. This page has not been. This page is.
 <!-- /evo:text -->

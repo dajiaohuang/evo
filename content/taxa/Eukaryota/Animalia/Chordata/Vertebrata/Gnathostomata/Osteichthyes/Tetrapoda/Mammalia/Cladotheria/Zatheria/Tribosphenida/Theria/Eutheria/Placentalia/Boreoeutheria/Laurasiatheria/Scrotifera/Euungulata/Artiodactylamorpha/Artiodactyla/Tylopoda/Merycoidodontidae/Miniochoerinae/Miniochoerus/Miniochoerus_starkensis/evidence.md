@@ -9,7 +9,6 @@ records:
     name:
       zh: Miniochoerus starkensis
       en: Miniochoerus starkensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

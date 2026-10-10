@@ -9,7 +9,6 @@ records:
     name:
       zh: Scapanulus agrarius
       en: Scapanulus agrarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

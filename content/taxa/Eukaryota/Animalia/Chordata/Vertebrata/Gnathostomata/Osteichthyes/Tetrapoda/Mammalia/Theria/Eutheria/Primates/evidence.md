@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: dos-reis-2018-primate-clock concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: dos-reis-2018-primate-clock
@@ -66,7 +63,6 @@ records:
       referenceLocators:
         - referenceId: dos-reis-2018-primate-clock
           locator: pp. 604–608; Figures 1 and 5; Supplementary time-estimate spreadsheet
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Primates
     rank: order
@@ -74,7 +70,6 @@ records:
     name:
       zh: Primates
       en: Primates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

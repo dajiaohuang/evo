@@ -168,12 +168,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
 ---
 
 # Neurospora crassa
@@ -314,10 +308,4 @@ Only one bounded substrate-decay result from a controlled primary study has been
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 No systematic literature search or complete comparison with the COL26.8 species concept has been completed.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

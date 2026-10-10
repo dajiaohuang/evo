@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera ajurauna
       zh: Adenomera ajurauna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

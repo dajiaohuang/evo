@@ -9,7 +9,6 @@ records:
     name:
       zh: Qianosuchus mixtus
       en: Qianosuchus mixtus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

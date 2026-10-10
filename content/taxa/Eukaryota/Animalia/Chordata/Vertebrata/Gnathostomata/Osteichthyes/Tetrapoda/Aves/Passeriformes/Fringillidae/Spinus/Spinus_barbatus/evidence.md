@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinus barbatus
       en: Spinus barbatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

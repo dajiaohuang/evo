@@ -9,7 +9,6 @@ records:
     name:
       zh: Tomarctus brevirostris
       en: Tomarctus brevirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

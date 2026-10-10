@@ -9,7 +9,6 @@ records:
     name:
       zh: Bonapartherium hinakusijum
       en: Bonapartherium hinakusijum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

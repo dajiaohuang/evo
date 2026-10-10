@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegirosaurus leptospondylus
       en: Aegirosaurus leptospondylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

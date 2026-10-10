@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa helmrichi
       zh: Bolitoglossa helmrichi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

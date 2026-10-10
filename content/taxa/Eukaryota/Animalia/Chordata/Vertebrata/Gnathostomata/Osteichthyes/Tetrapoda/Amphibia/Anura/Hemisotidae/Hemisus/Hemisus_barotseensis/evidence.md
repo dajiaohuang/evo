@@ -9,7 +9,6 @@ records:
     name:
       en: Hemisus barotseensis
       zh: Hemisus barotseensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

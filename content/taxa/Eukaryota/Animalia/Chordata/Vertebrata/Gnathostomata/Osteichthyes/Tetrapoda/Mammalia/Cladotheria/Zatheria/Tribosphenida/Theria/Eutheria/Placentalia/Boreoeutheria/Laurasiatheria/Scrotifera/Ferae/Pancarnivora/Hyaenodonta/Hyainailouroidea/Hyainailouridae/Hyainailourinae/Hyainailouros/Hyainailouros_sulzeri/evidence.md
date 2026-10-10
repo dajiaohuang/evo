@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyainailouros sulzeri
       en: Hyainailouros sulzeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

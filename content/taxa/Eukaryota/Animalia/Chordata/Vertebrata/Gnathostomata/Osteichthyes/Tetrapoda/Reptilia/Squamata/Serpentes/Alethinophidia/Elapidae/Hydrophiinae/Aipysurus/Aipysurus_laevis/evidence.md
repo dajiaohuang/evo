@@ -9,7 +9,6 @@ records:
     name:
       zh: Aipysurus laevis
       en: Aipysurus laevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

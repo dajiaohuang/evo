@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaphyromorphus punctulatus
       en: Glaphyromorphus punctulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

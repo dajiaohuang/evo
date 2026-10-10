@@ -9,7 +9,6 @@ records:
     name:
       en: Copiula obsti
       zh: Copiula obsti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

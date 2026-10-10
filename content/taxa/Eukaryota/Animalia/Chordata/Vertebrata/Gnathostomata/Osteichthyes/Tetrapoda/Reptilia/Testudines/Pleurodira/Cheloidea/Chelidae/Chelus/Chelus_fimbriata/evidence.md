@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelus fimbriata
       en: Chelus fimbriata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - text:

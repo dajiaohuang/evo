@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Clark, J.M. et al. 2004 DOI 10.1038/nature02802
       referenceLinks:
         - referenceId: clark-2004-junggarsuchus
           relation: supports

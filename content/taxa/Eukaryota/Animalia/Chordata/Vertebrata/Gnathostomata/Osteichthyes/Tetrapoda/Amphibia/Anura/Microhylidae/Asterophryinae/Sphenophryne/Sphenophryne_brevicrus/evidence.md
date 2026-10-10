@@ -9,7 +9,6 @@ records:
     name:
       en: Sphenophryne brevicrus
       zh: Sphenophryne brevicrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarothrura pulchra
       en: Sarothrura pulchra
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

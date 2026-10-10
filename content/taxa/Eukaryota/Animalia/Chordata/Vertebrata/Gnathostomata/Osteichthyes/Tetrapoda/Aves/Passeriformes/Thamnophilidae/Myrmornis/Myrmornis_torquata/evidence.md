@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmornis torquata
       en: Myrmornis torquata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

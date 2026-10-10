@@ -9,7 +9,6 @@ records:
     name:
       zh: Caviocricetus
       en: Caviocricetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophryacus undulatus
       en: Ophryacus undulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

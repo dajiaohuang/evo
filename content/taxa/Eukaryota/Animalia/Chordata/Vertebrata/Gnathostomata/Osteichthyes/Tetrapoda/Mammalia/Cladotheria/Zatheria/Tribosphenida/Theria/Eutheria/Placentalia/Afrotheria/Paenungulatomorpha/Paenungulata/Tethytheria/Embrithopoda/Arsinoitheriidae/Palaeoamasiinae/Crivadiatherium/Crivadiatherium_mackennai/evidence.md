@@ -9,7 +9,6 @@ records:
     name:
       zh: Crivadiatherium mackennai
       en: Crivadiatherium mackennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

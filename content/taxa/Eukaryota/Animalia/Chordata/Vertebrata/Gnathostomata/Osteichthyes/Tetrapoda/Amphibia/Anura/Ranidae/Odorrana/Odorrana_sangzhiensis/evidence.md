@@ -9,7 +9,6 @@ records:
     name:
       en: Odorrana sangzhiensis
       zh: Odorrana sangzhiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

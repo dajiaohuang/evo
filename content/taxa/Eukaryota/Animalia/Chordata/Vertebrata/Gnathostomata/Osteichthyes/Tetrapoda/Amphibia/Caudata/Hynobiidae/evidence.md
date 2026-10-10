@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobiidae
       zh: Hynobiidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

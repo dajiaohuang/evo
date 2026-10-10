@@ -9,7 +9,6 @@ records:
     name:
       zh: Moros intrepidus
       en: Moros intrepidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

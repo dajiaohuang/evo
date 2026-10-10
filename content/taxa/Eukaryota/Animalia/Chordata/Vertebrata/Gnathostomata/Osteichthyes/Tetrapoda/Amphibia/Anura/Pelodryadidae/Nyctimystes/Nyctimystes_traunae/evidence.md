@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes traunae
       zh: Nyctimystes traunae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gnypetoscincus
       en: Gnypetoscincus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

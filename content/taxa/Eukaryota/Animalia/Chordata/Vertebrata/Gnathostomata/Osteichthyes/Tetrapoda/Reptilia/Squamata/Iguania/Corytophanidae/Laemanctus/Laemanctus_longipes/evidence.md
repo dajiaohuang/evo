@@ -9,7 +9,6 @@ records:
     name:
       zh: Laemanctus longipes
       en: Laemanctus longipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

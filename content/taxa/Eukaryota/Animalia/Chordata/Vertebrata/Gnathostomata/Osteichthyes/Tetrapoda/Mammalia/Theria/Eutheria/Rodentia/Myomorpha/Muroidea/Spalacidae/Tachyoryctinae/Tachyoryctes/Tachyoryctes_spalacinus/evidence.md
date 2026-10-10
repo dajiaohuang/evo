@@ -9,7 +9,6 @@ records:
     name:
       zh: Tachyoryctes spalacinus
       en: Tachyoryctes spalacinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolichotis minuscula
       en: Dolichotis minuscula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

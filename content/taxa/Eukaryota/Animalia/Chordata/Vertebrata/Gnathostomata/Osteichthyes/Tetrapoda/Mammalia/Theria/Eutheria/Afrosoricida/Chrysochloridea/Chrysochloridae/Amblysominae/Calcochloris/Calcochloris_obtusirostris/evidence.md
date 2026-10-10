@@ -9,7 +9,6 @@ records:
     name:
       zh: Calcochloris obtusirostris
       en: Calcochloris obtusirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryadosaura nordestina
       en: Dryadosaura nordestina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

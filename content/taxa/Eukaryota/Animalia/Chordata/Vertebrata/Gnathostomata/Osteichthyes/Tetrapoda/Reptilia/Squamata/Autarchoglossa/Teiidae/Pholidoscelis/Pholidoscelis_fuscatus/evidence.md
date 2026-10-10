@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis fuscatus
       en: Pholidoscelis fuscatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

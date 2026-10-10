@@ -32,7 +32,7 @@ for (const study of studies) {
   record.primaryStudyScopes=record.primaryStudyScopes.filter(s=>s.sourceKey!==key)
   record.primaryStudyScopes.push({doi:source.doi,referenceId,sourceKey:key,sourceFile:`${dir}/article.xml`,sourceConcept:study.sourceConcept,evidenceRead:study.readScope,contemporaryConceptEquivalence:'not-independently-certified',rightsBoundary:{license:source.license,licenseUrl:source.licenseUrl,attribution:source.attribution},sectionEvidence:study.sections.map(([topic,enTitle,zhTitle,en,zh],i)=>({sectionOrdinal:i,topic,heading:{en:enTitle,zh:zhTitle},referenceId,sourceKey:key,locator:study.sectionLocators[i],locatorPrecision:'manually-recorded-section-and-paragraph-label',evidenceSummary:{en,zh},scope}))})
   record.primaryBiologicalSynthesisComplete=false
-  record.limitations={en:'Partial database and primary-study fossil reader. Specimen identity, preservation, historical assignments and inferred life habits retain separate scopes. Remaining biological synthesis and external expert review are incomplete.',zh:'部分数据库及原研究化石读本。标本身份、保存状况、历史归属及推断生活习性各自限定范围，其余生物学综述及外部专家审评尚未完成。'}
+  record.limitations={en:'Partial database and primary-study fossil reader. Specimen identity, preservation, historical assignments and inferred life habits retain separate scopes. Remaining biological synthesis are incomplete.',zh:'部分数据库及原研究化石读本。标本身份、保存状况、历史归属及推断生活习性各自限定范围，其余生物学综述及。'}
   if (semanticJson(node.records)!==before) {
     writeNodeContent(target,node.index,node.records)
     fs.writeFileSync(`${target}/index.yaml`,index)

@@ -9,7 +9,6 @@ records:
     name:
       en: Breviceps macrops
       zh: Breviceps macrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

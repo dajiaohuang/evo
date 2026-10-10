@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopophaga ardesiaca
       en: Conopophaga ardesiaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

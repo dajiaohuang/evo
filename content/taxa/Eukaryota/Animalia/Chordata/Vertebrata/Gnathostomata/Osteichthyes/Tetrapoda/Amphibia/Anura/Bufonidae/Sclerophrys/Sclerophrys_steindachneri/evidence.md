@@ -9,7 +9,6 @@ records:
     name:
       en: Sclerophrys steindachneri
       zh: Sclerophrys steindachneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

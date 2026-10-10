@@ -9,7 +9,6 @@ records:
     name:
       zh: Ansomys nevadensis
       en: Ansomys nevadensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

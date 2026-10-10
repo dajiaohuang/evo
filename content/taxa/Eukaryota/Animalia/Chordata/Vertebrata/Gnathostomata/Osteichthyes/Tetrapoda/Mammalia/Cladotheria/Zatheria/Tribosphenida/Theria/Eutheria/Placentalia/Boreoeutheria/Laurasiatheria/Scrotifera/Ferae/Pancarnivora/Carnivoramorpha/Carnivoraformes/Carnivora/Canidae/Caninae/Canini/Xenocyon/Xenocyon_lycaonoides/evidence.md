@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenocyon lycaonoides
       en: Xenocyon lycaonoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

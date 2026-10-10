@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla pinguis
       zh: Microkayla pinguis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

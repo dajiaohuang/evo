@@ -9,7 +9,6 @@ records:
     name:
       zh: Osonachelus decorata
       en: Osonachelus decorata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

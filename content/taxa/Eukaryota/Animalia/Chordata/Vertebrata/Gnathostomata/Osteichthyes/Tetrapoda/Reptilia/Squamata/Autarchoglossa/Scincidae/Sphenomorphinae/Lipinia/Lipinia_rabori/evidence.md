@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia rabori
       en: Lipinia rabori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis melanogaster
       zh: Pristimantis melanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

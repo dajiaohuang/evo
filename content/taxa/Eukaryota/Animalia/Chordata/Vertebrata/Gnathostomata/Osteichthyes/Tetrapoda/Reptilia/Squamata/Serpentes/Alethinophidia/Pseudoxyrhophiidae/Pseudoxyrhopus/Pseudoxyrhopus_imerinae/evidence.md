@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoxyrhopus imerinae
       en: Pseudoxyrhopus imerinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

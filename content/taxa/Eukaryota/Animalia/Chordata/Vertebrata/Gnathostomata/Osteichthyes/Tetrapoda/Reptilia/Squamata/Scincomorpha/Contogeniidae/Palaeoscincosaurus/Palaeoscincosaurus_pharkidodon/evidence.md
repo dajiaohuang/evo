@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoscincosaurus pharkidodon
       en: Palaeoscincosaurus pharkidodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

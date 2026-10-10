@@ -9,7 +9,6 @@ records:
     name:
       zh: Ornithorhynchus anatinus
       en: Ornithorhynchus anatinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

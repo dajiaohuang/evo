@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopecognathus angusticeps
       en: Alopecognathus angusticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

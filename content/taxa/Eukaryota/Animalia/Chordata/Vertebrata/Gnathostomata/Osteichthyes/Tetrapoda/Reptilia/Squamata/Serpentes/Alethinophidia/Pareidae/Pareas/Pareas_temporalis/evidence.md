@@ -9,7 +9,6 @@ records:
     name:
       zh: Pareas temporalis
       en: Pareas temporalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

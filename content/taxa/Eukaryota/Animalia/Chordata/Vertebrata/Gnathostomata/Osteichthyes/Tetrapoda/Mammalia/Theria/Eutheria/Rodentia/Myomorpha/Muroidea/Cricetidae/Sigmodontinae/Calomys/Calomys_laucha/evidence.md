@@ -9,7 +9,6 @@ records:
     name:
       zh: Calomys laucha
       en: Calomys laucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Filikomys primaevus
       en: Filikomys primaevus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

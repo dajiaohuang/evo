@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus indosobrinus
       en: Hemiphyllodactylus indosobrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ MDD 当前页面使用 Javan Slow Loris，并记录爪哇为模式地点。Arism
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-空间使用证据来自 Mount Halimun-Salak 国家公园两只成年雌性个体；作者采用不同于连续追踪种群普查的观察方法。中文普通名为编辑译名；未经过外部领域专家评审。
+空间使用证据来自 Mount Halimun-Salak 国家公园两只成年雌性个体；作者采用不同于连续追踪种群普查的观察方法。中文普通名为编辑译名。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmelastes saturatus
       en: Myrmelastes saturatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

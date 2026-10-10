@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrogenys erythrogenys
       en: Erythrogenys erythrogenys
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

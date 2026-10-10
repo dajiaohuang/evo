@@ -9,7 +9,6 @@ records:
     name:
       zh: Sminthopsis granulipes
       en: Sminthopsis granulipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

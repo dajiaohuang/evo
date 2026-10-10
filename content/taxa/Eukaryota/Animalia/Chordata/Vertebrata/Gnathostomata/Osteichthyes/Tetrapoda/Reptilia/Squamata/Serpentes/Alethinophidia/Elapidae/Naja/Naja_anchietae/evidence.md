@@ -9,7 +9,6 @@ records:
     name:
       zh: Naja anchietae
       en: Naja anchietae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Caprimulgus pulchellus
       en: Caprimulgus pulchellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

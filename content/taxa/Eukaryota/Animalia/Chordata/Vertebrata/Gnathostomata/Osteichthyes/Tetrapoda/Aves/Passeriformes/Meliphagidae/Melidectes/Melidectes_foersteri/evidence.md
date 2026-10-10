@@ -9,7 +9,6 @@ records:
     name:
       zh: Melidectes foersteri
       en: Melidectes foersteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

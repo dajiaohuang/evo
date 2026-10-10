@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius epioticus
       zh: Incilius epioticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis mindo
       zh: Pristimantis mindo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastomys coucha
       en: Mastomys coucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

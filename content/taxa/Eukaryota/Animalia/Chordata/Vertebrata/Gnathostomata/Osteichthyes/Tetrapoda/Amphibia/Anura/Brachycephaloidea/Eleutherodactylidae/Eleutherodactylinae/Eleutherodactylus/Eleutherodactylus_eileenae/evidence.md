@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus eileenae
       zh: Eleutherodactylus eileenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Marisora falconensis
       en: Marisora falconensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhynchocalamus dayanae
       en: Rhynchocalamus dayanae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

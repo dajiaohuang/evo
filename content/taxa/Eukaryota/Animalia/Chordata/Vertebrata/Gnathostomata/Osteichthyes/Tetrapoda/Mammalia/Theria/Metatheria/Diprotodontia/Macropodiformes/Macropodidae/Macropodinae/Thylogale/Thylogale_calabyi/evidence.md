@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylogale calabyi
       en: Thylogale calabyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Proceratosaurus bradleyi
       en: Proceratosaurus bradleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Tomopterna ahli
       zh: Tomopterna ahli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

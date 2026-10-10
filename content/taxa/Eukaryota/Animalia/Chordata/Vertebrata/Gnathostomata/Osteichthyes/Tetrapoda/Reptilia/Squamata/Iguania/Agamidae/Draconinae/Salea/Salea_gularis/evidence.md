@@ -9,7 +9,6 @@ records:
     name:
       zh: Salea gularis
       en: Salea gularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

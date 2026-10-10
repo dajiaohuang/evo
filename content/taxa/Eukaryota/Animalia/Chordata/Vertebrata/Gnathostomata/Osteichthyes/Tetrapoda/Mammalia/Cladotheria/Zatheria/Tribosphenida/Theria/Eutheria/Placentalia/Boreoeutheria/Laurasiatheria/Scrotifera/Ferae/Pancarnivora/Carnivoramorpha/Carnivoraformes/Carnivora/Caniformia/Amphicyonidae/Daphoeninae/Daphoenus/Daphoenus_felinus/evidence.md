@@ -9,7 +9,6 @@ records:
     name:
       zh: Daphoenus felinus
       en: Daphoenus felinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

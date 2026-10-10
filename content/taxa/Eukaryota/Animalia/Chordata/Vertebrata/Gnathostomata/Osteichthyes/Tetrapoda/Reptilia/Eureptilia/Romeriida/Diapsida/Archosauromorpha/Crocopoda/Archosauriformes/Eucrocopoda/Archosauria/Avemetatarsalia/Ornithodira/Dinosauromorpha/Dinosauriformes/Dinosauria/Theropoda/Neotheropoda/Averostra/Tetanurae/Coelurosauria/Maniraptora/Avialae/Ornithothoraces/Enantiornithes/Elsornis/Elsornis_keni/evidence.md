@@ -9,7 +9,6 @@ records:
     name:
       zh: Elsornis keni
       en: Elsornis keni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

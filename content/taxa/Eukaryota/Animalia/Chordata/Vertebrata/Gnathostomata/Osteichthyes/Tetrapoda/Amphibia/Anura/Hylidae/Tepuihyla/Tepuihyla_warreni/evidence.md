@@ -9,7 +9,6 @@ records:
     name:
       en: Tepuihyla warreni
       zh: Tepuihyla warreni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

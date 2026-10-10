@@ -9,7 +9,6 @@ records:
     name:
       zh: Lopholistriodon moruoroti
       en: Lopholistriodon moruoroti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

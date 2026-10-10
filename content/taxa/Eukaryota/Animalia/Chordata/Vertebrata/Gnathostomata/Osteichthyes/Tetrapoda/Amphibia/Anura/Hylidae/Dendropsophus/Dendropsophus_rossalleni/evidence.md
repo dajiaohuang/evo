@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus rossalleni
       zh: Dendropsophus rossalleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

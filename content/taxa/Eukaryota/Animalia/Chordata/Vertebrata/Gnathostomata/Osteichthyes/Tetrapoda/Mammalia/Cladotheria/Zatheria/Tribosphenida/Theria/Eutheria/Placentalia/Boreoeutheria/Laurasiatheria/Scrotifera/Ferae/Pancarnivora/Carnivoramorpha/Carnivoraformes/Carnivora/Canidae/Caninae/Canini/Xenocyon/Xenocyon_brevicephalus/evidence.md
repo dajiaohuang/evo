@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenocyon brevicephalus
       en: Xenocyon brevicephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

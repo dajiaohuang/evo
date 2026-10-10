@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucyon monticinensis
       en: Eucyon monticinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

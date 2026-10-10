@@ -9,7 +9,6 @@ records:
     name:
       zh: Randia pseudozosterops
       en: Randia pseudozosterops
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

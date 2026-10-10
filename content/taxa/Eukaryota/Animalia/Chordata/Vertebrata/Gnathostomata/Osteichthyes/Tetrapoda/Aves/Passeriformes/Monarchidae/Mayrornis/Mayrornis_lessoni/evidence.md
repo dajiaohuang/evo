@@ -9,7 +9,6 @@ records:
     name:
       zh: Mayrornis lessoni
       en: Mayrornis lessoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

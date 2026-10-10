@@ -9,7 +9,6 @@ records:
     name:
       en: Phasmahyla jandaia
       zh: Phasmahyla jandaia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

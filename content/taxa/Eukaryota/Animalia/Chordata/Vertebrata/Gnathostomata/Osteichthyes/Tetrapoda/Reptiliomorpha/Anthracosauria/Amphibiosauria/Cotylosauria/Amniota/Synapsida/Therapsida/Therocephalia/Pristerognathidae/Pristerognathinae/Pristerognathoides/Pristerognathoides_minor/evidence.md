@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristerognathoides minor
       en: Pristerognathoides minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

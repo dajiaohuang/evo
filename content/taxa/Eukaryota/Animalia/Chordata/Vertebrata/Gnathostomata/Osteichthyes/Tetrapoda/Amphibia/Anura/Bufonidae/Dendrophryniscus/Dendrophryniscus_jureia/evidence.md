@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrophryniscus jureia
       zh: Dendrophryniscus jureia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

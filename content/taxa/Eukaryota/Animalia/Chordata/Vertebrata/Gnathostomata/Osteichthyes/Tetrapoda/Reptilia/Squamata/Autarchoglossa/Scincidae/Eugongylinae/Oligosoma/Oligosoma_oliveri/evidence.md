@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma oliveri
       en: Oligosoma oliveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

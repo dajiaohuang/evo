@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis vidua
       zh: Pristimantis vidua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Kaloula mediolineata
       zh: Kaloula mediolineata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

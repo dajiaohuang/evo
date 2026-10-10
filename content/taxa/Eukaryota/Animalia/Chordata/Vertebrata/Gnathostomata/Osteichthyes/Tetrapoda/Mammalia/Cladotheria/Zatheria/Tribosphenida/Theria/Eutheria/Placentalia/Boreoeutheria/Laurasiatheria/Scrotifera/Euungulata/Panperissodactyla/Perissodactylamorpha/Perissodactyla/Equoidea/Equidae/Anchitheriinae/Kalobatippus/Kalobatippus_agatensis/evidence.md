@@ -9,7 +9,6 @@ records:
     name:
       zh: Kalobatippus agatensis
       en: Kalobatippus agatensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

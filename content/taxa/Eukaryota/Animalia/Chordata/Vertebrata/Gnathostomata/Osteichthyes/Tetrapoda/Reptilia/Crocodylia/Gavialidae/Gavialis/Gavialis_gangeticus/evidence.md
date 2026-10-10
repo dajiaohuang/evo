@@ -9,7 +9,6 @@ records:
     name:
       zh: 恒河鳄
       en: Gharial
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

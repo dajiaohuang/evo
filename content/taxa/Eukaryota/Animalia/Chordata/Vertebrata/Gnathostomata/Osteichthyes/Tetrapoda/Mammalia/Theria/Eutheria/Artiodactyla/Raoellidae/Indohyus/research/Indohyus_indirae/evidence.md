@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thewissen-2007-indohyus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: thewissen-2007-indohyus
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thewissen-2007-indohyus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: thewissen-2007-indohyus
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thewissen-2007-indohyus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: thewissen-2007-indohyus
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thewissen-2007-indohyus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: thewissen-2007-indohyus
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: thewissen-2007-indohyus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: thewissen-2007-indohyus
           relation: supports
@@ -189,7 +174,6 @@ records:
       referenceLocators:
         - referenceId: thewissen-2007-indohyus
           locator: pp. 1190–1194; Figures 1–5
-      reviewStatus: automated-audit-passed
 ---
 
 # Indohyus indirae

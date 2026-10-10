@@ -158,5 +158,5 @@ pragatheesh2011
 ## atlas-profile / readerLimitations
 
 <!-- evo:text /records/atlas-profile/readerLimitations/en -->
-This bilingual reader draft combines selected studies, not a complete species review. It does not establish a current global range or conservation category, a wild species-wide diet and life-history synthesis, or population-wide mortality. The scientific dossier remains incomplete and has not received independent expert review.
+This bilingual reader draft combines selected studies, not a complete species review. It does not establish a current global range or conservation category, a wild species-wide diet and life-history synthesis, or population-wide mortality. The scientific dossier remains incomplete.
 <!-- /evo:text -->

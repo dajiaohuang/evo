@@ -9,7 +9,6 @@ records:
     name:
       zh: Campethera nubica
       en: Campethera nubica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

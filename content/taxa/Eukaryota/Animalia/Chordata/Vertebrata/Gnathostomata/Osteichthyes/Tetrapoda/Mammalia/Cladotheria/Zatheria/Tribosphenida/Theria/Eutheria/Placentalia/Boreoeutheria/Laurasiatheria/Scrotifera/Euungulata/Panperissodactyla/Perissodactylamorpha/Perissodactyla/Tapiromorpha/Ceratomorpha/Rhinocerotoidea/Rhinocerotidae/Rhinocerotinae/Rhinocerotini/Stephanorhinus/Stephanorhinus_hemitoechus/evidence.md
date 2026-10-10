@@ -9,7 +9,6 @@ records:
     name:
       zh: Stephanorhinus hemitoechus
       en: Stephanorhinus hemitoechus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

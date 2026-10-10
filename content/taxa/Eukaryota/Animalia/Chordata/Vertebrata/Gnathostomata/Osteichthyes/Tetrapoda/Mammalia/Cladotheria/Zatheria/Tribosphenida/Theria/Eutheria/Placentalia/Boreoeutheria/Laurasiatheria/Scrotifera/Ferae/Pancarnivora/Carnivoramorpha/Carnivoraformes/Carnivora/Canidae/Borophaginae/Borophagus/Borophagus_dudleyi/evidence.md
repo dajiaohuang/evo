@@ -9,7 +9,6 @@ records:
     name:
       zh: Borophagus dudleyi
       en: Borophagus dudleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

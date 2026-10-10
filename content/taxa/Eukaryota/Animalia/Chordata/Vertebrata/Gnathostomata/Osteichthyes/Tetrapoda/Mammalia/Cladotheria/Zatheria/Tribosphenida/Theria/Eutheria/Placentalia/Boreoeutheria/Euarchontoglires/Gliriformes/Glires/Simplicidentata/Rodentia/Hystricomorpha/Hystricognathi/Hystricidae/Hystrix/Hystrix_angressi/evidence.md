@@ -9,7 +9,6 @@ records:
     name:
       zh: Hystrix angressi
       en: Hystrix angressi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

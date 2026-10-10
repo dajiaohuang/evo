@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardeola grayii
       en: Ardeola grayii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

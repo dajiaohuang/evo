@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlantoxerus rhodius
       en: Atlantoxerus rhodius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

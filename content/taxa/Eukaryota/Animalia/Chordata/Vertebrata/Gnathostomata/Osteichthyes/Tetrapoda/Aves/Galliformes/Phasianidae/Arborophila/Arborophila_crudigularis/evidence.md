@@ -9,7 +9,6 @@ records:
     name:
       zh: Arborophila crudigularis
       en: Arborophila crudigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

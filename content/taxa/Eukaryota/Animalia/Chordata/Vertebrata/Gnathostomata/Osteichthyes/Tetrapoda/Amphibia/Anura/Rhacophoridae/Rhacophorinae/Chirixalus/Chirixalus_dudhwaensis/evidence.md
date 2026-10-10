@@ -9,7 +9,6 @@ records:
     name:
       en: Chirixalus dudhwaensis
       zh: Chirixalus dudhwaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

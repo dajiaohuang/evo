@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus paralius
       zh: Eleutherodactylus paralius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

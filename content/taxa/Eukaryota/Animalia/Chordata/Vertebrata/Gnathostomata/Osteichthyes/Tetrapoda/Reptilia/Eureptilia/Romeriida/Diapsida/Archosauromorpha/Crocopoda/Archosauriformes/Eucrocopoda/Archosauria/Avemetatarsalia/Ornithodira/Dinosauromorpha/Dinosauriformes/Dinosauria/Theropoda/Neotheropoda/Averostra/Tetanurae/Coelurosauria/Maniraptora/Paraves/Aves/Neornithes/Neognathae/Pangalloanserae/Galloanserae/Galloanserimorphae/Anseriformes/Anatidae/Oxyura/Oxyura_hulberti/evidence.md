@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyura hulberti
       en: Oxyura hulberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

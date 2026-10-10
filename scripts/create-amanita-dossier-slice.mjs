@@ -152,10 +152,10 @@ const records = species.map((item) => {
       reasons: [
         'One original taxonomic study supplies direct evidence for only the cited morphology, field habitat, sampled regional distribution, and study-specific multilocus placement; these facets remain partial.',
         'Life history, fossils, and conservation have not been assessed; no facet has a reproducible systematic search and screening log.',
-        'The species concept is linked by the source-owned Fungal Names / Index Fungorum identifier, but broader taxonomic concept reconciliation and external expert review have not been completed.',
+        'The species concept is linked by the source-owned Fungal Names / Index Fungorum identifier, but broader taxonomic concept reconciliation has not been completed.',
       ],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [] },
+
   }
 })
 

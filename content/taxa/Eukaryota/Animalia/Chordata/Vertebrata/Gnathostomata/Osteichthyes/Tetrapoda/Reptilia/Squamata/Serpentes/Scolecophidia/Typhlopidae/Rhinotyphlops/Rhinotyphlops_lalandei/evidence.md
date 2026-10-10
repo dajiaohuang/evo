@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinotyphlops lalandei
       en: Rhinotyphlops lalandei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

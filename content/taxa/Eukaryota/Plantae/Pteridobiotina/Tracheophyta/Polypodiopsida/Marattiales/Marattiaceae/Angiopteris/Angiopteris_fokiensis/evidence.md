@@ -204,9 +204,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Angiopteris fokiensis
@@ -310,7 +307,7 @@ The Mantel test did not detect a significant association in this sample; this is
 ## facets / evolution / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/evolution/gaps/2 -->
-Morphology, life history, ecology, distribution, fossils, conservation, systematic search, and independent review remain unassessed.
+Morphology, life history, ecology, distribution, fossils, conservation, systematic search, remain unassessed.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -328,5 +325,5 @@ Field sampling dates are not specified, and the Mantel test result does not prov
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets, systematic search, and external expert review remain unassessed.
+Most biological facets, systematic search, remain unassessed.
 <!-- /evo:text -->

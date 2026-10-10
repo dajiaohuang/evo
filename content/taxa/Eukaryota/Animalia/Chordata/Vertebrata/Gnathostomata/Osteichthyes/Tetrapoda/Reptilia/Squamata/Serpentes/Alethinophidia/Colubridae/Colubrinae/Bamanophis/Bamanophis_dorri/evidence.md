@@ -9,7 +9,6 @@ records:
     name:
       zh: Bamanophis dorri
       en: Bamanophis dorri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geococcyx velox
       en: Geococcyx velox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

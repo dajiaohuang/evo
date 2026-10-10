@@ -9,7 +9,6 @@ records:
     name:
       zh: Thelephon contritus
       en: Thelephon contritus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

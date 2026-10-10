@@ -9,7 +9,6 @@ records:
     name:
       zh: Saurodactylus fasciatus
       en: Saurodactylus fasciatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

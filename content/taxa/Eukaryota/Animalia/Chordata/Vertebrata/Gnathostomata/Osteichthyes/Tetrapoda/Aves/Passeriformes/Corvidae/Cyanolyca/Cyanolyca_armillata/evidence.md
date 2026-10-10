@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanolyca armillata
       en: Cyanolyca armillata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrophis klossi
       en: Hydrophis klossi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

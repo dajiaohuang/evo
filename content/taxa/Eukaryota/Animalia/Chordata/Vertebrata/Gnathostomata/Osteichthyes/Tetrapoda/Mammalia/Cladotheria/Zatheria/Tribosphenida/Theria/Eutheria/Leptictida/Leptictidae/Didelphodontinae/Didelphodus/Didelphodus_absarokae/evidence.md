@@ -9,7 +9,6 @@ records:
     name:
       zh: Didelphodus absarokae
       en: Didelphodus absarokae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallicolumba tristigmata
       en: Gallicolumba tristigmata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

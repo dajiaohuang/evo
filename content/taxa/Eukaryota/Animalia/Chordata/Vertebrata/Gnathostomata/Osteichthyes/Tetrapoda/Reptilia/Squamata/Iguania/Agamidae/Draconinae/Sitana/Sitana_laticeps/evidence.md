@@ -9,7 +9,6 @@ records:
     name:
       zh: Sitana laticeps
       en: Sitana laticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

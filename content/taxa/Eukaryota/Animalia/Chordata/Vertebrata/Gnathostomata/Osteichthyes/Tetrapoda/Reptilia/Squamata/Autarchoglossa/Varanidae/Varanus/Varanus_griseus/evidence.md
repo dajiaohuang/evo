@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus griseus
       en: Varanus griseus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

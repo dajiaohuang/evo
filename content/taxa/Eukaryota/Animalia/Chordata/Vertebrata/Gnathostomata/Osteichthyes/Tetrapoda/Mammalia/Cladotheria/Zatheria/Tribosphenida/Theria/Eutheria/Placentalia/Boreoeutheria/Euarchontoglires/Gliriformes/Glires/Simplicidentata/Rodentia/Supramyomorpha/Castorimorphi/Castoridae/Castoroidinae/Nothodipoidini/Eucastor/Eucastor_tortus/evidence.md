@@ -9,7 +9,6 @@ records:
     name:
       zh: Eucastor tortus
       en: Eucastor tortus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

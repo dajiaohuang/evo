@@ -9,7 +9,6 @@ records:
     name:
       zh: Cernaysia manueli
       en: Cernaysia manueli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

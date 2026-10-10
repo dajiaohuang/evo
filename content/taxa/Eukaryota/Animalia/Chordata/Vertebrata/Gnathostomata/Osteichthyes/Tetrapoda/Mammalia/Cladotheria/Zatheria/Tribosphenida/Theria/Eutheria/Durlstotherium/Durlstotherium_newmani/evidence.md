@@ -9,7 +9,6 @@ records:
     name:
       zh: Durlstotherium newmani
       en: Durlstotherium newmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

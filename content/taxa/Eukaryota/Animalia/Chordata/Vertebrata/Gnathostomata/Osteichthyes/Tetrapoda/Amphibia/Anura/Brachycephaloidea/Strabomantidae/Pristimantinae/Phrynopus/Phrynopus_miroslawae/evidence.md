@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus miroslawae
       zh: Phrynopus miroslawae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

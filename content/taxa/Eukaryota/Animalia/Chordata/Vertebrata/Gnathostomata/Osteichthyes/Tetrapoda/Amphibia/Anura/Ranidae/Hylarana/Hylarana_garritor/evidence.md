@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana garritor
       zh: Hylarana garritor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

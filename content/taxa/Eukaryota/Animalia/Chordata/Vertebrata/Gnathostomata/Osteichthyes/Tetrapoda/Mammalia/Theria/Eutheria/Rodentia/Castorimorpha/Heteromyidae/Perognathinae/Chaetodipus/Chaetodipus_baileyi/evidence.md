@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetodipus baileyi
       en: Chaetodipus baileyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylocharis sapphirina
       en: Hylocharis sapphirina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

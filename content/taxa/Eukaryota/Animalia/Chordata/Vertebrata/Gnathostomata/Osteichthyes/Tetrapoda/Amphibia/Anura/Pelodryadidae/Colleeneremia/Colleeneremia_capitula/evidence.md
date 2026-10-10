@@ -9,7 +9,6 @@ records:
     name:
       en: Colleeneremia capitula
       zh: Colleeneremia capitula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

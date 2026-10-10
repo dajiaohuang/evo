@@ -9,7 +9,6 @@ records:
     name:
       zh: Tringa ochropus
       en: Tringa ochropus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pericrocotus igneus
       en: Pericrocotus igneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

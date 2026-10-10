@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemiphyllodactylus hongkongensis
       en: Hemiphyllodactylus hongkongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

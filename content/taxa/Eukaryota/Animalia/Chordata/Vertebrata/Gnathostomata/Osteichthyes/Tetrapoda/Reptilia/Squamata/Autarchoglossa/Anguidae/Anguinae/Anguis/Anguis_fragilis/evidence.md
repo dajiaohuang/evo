@@ -9,7 +9,6 @@ records:
     name:
       zh: Anguis fragilis
       en: Anguis fragilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

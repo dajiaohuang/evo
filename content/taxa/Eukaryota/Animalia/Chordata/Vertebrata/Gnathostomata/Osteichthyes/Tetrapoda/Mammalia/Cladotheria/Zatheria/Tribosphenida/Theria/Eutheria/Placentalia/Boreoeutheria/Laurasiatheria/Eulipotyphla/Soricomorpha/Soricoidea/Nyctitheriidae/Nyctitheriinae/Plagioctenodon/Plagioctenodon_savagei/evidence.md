@@ -9,7 +9,6 @@ records:
     name:
       zh: Plagioctenodon savagei
       en: Plagioctenodon savagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Afroedura wulfhaackei
       en: Afroedura wulfhaackei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

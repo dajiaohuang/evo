@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus rhodesi
       zh: Eleutherodactylus rhodesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Geothlypis nelsoni
       en: Geothlypis nelsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tonganosaurus hei
       en: Tonganosaurus hei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

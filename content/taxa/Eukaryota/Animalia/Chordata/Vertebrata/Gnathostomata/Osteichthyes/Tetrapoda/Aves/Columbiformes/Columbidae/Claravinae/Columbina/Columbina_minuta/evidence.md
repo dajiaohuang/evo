@@ -9,7 +9,6 @@ records:
     name:
       zh: Columbina minuta
       en: Columbina minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

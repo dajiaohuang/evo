@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus juimirim
       zh: Cycloramphus juimirim
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

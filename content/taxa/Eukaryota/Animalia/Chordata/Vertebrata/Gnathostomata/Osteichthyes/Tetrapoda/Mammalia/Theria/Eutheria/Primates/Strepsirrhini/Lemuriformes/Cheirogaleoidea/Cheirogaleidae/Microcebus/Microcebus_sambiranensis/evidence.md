@@ -9,7 +9,6 @@ records:
     name:
       zh: 桑比拉诺鼠狐猴
       en: Sambirano Mouse Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene marcoreyesi
       zh: Centrolene marcoreyesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

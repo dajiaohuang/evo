@@ -9,7 +9,6 @@ records:
     name:
       zh: Watongia meieri
       en: Watongia meieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

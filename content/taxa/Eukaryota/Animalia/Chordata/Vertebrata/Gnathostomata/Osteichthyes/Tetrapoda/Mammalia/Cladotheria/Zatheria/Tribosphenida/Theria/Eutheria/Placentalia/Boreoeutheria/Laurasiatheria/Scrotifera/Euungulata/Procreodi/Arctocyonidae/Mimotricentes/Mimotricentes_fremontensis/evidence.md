@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimotricentes fremontensis
       en: Mimotricentes fremontensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

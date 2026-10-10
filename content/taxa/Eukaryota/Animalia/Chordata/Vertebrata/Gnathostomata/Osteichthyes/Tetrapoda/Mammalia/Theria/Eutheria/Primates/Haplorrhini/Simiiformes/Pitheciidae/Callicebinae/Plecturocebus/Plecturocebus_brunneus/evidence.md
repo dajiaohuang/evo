@@ -9,7 +9,6 @@ records:
     name:
       zh: 棕僧面猴
       en: Brown Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

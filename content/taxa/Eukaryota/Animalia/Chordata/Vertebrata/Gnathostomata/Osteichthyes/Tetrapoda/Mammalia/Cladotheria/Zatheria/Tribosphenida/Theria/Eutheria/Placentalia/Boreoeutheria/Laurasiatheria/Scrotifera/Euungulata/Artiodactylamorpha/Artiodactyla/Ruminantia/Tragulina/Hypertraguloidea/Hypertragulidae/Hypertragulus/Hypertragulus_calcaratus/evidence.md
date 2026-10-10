@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypertragulus calcaratus
       en: Hypertragulus calcaratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

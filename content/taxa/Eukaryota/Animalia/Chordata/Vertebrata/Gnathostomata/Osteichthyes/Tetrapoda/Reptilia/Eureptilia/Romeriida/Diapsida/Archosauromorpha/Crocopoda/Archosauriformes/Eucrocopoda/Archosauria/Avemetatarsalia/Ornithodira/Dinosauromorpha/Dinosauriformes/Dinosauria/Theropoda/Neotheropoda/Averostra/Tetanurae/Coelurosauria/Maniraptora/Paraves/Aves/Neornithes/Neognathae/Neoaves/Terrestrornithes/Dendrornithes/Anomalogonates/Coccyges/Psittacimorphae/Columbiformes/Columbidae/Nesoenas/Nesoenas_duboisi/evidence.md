@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesoenas duboisi
       en: Nesoenas duboisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

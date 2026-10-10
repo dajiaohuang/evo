@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvisorex pluvialis
       en: Sylvisorex pluvialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Petroica macrocephala
       en: Petroica macrocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nerterogeomys paenebursarius
       en: Nerterogeomys paenebursarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

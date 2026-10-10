@@ -9,7 +9,6 @@ records:
     name:
       zh: Miacis edax
       en: Miacis edax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

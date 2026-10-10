@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanius bucephalus
       en: Lanius bucephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

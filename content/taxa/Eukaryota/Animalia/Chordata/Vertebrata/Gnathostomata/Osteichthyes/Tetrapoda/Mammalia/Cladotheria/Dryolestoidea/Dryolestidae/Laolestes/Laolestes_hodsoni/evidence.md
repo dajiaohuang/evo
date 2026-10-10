@@ -9,7 +9,6 @@ records:
     name:
       zh: Laolestes hodsoni
       en: Laolestes hodsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

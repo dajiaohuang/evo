@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates insularis
       zh: Polypedates insularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

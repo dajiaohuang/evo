@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylodon ventrimarmoratus
       zh: Leptodactylodon ventrimarmoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

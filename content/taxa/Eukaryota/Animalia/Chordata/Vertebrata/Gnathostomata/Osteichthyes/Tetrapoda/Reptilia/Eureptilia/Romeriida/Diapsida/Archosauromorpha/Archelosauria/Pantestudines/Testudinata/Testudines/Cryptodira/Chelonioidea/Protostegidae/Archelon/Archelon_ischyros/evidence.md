@@ -9,7 +9,6 @@ records:
     name:
       zh: Archelon ischyros
       en: Archelon ischyros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

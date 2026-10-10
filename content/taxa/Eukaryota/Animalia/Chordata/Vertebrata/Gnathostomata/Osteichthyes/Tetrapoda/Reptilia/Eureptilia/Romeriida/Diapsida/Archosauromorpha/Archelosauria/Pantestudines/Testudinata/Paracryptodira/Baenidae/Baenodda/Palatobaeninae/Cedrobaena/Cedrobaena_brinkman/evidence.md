@@ -9,7 +9,6 @@ records:
     name:
       zh: Cedrobaena brinkman
       en: Cedrobaena brinkman
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

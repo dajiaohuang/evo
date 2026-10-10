@@ -16,5 +16,5 @@ In Veun Sai–Siem Pang National Park in northeastern Cambodia, researchers foll
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introduction; not externally expert-reviewed. Behavioural evidence comes from one habituated group during two dry seasons and does not estimate population-level effects.
+Source-linked introduction;. Behavioural evidence comes from one habituated group during two dry seasons and does not estimate population-level effects.
 <!-- /evo:text -->

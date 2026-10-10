@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachylepis punctatissima
       en: Trachylepis punctatissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

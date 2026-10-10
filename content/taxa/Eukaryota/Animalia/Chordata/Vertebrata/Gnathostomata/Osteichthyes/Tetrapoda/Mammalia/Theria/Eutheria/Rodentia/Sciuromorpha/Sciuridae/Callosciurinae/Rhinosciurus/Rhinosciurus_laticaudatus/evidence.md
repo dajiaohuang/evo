@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinosciurus laticaudatus
       en: Rhinosciurus laticaudatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

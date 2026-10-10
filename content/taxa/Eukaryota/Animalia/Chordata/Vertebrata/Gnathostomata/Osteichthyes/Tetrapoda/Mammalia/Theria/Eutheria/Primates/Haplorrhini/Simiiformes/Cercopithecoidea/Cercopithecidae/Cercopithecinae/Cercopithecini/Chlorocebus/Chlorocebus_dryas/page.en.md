@@ -22,5 +22,5 @@ The paper treats the Dryas monkey as Chlorocebus dryas and accepts Cercopithecus
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-A local camera-trap and taxonomy-history introduction; not externally expert-reviewed. Two survey forests do not establish a complete range or current population estimate.
+A local camera-trap and taxonomy-history introduction;. Two survey forests do not establish a complete range or current population estimate.
 <!-- /evo:text -->

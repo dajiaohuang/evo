@@ -9,7 +9,6 @@ records:
     name:
       zh: Paradelomys crusafonti
       en: Paradelomys crusafonti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Micryletta immaculata
       zh: Micryletta immaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

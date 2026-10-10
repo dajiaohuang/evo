@@ -9,7 +9,6 @@ records:
     name:
       zh: Navajovius kohlhaasae
       en: Navajovius kohlhaasae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

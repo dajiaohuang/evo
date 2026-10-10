@@ -9,7 +9,6 @@ records:
     name:
       zh: Priscagama gobiensis
       en: Priscagama gobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

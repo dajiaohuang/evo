@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydaspitherium megacephalum
       en: Hydaspitherium megacephalum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

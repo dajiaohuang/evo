@@ -9,7 +9,6 @@ records:
     name:
       zh: Traukutitan eocaudata
       en: Traukutitan eocaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

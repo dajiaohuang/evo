@@ -9,7 +9,6 @@ records:
     name:
       zh: Plastomenus vegetus
       en: Plastomenus vegetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

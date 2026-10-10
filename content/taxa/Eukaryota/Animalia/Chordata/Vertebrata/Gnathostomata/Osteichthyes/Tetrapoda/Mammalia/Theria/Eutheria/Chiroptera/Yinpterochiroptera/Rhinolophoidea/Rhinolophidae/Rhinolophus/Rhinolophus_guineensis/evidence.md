@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus guineensis
       en: Rhinolophus guineensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Diabolocornis simonsi
       en: Diabolocornis simonsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

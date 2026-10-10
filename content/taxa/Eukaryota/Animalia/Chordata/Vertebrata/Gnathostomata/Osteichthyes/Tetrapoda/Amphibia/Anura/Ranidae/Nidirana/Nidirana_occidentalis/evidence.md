@@ -9,7 +9,6 @@ records:
     name:
       en: Nidirana occidentalis
       zh: Nidirana occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

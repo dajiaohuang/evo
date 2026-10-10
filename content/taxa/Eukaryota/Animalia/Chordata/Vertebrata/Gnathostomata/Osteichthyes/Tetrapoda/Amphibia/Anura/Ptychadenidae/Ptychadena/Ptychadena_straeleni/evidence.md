@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena straeleni
       zh: Ptychadena straeleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla celata
       zh: Sarcohyla celata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

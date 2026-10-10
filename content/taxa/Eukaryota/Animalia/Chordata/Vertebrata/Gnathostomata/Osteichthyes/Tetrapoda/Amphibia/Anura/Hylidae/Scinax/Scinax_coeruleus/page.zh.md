@@ -42,7 +42,7 @@ Suárez-Mayorga 检查了历史 Hyla coerulea 标本 ZSM 2710/0/1 与 2710/0/2�
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-部分历史形态与分类读本。当代物种范围、活体种群观察及其余生物学主题仍需更多证据。未经过外部领域专家评审。
+部分历史形态与分类读本。当代物种范围、活体种群观察及其余生物学主题仍需更多证据。。
 <!-- /evo:text -->
 
 ## 研究正文待整理

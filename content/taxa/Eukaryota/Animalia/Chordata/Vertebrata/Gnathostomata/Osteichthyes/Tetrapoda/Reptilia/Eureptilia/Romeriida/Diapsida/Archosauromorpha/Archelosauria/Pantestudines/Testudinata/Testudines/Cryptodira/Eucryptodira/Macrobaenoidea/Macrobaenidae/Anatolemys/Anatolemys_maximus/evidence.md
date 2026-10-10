@@ -9,7 +9,6 @@ records:
     name:
       zh: Anatolemys maximus
       en: Anatolemys maximus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

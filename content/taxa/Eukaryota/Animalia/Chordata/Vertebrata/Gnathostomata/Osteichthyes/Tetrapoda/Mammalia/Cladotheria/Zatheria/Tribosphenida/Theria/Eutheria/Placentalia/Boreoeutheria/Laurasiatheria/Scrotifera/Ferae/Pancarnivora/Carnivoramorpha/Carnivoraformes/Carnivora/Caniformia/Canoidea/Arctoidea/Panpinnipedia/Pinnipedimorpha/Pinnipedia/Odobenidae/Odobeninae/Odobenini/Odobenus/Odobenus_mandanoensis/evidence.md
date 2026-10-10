@@ -9,7 +9,6 @@ records:
     name:
       zh: Odobenus mandanoensis
       en: Odobenus mandanoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

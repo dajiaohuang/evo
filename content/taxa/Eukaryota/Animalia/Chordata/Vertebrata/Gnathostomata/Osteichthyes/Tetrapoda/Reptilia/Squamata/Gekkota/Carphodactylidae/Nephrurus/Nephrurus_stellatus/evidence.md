@@ -9,7 +9,6 @@ records:
     name:
       zh: Nephrurus stellatus
       en: Nephrurus stellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammodillus
       en: Ammodillus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

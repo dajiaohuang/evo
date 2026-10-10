@@ -9,7 +9,6 @@ records:
     name:
       zh: Asio flammeus
       en: Asio flammeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoloris reguanti
       en: Pseudoloris reguanti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

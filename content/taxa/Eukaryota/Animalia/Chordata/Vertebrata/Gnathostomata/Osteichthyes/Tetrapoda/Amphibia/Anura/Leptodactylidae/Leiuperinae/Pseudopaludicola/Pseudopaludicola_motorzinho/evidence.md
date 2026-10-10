@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudopaludicola motorzinho
       zh: Pseudopaludicola motorzinho
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

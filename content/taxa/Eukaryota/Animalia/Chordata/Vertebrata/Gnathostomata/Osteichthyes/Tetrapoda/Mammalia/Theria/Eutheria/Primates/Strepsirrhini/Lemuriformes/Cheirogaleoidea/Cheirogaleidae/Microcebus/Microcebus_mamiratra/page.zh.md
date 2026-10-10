@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。岛内总量为基于有限样线的外推估算，不能当作全分布区种群普查。
+。岛内总量为基于有限样线的外推估算，不能当作全分布区种群普查。
 <!-- /evo:text -->

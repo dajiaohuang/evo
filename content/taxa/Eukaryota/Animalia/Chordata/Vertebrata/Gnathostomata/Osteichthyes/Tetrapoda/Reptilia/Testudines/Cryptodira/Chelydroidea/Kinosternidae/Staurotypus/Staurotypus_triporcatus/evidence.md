@@ -9,7 +9,6 @@ records:
     name:
       zh: Staurotypus triporcatus
       en: Staurotypus triporcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

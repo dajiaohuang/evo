@@ -9,7 +9,6 @@ records:
     name:
       zh: Jaywilsonomys ojinagaensis
       en: Jaywilsonomys ojinagaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

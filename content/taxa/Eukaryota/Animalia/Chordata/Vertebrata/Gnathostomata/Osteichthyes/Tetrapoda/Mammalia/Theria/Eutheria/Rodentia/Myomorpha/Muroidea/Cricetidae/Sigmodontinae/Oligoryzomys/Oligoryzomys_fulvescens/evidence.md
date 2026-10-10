@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligoryzomys fulvescens
       en: Oligoryzomys fulvescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

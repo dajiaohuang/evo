@@ -9,7 +9,6 @@ records:
     name:
       zh: Andalgalomys roigi
       en: Andalgalomys roigi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

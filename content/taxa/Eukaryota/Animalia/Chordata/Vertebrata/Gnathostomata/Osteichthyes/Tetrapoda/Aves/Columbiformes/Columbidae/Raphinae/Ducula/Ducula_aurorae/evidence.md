@@ -9,7 +9,6 @@ records:
     name:
       zh: Ducula aurorae
       en: Ducula aurorae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

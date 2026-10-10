@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiapternodus mackennai
       en: Asiapternodus mackennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

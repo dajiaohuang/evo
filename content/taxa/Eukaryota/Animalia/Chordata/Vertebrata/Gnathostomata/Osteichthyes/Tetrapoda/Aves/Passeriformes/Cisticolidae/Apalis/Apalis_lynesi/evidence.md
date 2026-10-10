@@ -9,7 +9,6 @@ records:
     name:
       zh: Apalis lynesi
       en: Apalis lynesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

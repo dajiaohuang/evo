@@ -9,7 +9,6 @@ records:
     name:
       en: Heterixalus carbonei
       zh: Heterixalus carbonei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

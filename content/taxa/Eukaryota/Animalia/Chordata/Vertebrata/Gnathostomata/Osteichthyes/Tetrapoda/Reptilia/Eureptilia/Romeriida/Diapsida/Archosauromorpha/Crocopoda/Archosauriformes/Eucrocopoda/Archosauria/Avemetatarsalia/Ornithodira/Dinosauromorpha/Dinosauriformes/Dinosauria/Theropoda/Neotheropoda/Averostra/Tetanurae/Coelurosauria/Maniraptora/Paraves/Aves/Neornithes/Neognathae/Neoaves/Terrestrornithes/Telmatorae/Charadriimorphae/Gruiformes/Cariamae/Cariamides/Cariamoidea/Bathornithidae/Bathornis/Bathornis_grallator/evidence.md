@@ -9,7 +9,6 @@ records:
     name:
       zh: Bathornis grallator
       en: Bathornis grallator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Microcaecilia supernumeraria
       zh: Microcaecilia supernumeraria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

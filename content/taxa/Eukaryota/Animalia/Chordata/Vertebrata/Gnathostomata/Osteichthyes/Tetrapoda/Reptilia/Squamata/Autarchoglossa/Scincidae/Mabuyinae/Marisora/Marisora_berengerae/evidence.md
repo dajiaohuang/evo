@@ -9,7 +9,6 @@ records:
     name:
       zh: Marisora berengerae
       en: Marisora berengerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

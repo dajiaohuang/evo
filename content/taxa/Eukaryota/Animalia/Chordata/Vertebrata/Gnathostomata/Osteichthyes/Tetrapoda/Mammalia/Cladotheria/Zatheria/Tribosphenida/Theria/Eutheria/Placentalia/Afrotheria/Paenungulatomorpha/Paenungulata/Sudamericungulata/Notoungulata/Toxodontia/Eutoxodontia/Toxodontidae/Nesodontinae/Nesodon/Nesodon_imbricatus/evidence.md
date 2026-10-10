@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesodon imbricatus
       en: Nesodon imbricatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

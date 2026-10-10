@@ -9,7 +9,6 @@ records:
     name:
       en: Ansonia latiffi
       zh: Ansonia latiffi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

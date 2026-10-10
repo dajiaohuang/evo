@@ -9,7 +9,6 @@ records:
     name:
       zh: Riolama uzzelli
       en: Riolama uzzelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Columba bollii
       en: Columba bollii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gonatodes antillensis
       en: Gonatodes antillensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

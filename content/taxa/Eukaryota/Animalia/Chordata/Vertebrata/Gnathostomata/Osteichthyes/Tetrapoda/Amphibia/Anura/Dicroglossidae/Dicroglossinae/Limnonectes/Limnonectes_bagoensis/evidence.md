@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes bagoensis
       zh: Limnonectes bagoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

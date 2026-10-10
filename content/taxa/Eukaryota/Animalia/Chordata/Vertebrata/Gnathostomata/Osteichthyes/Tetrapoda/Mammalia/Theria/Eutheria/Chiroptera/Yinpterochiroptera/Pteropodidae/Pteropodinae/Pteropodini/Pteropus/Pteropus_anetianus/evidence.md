@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus anetianus
       en: Pteropus anetianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

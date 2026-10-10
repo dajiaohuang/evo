@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrelaphis hollinrakei
       en: Dendrelaphis hollinrakei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

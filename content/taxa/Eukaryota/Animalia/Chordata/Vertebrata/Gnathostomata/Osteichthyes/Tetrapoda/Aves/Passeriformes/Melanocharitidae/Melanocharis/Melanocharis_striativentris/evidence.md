@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanocharis striativentris
       en: Melanocharis striativentris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

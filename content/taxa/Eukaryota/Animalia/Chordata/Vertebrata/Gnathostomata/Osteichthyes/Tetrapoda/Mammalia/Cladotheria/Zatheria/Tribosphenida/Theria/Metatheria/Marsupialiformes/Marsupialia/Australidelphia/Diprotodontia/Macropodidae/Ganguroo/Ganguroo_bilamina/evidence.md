@@ -9,7 +9,6 @@ records:
     name:
       zh: Ganguroo bilamina
       en: Ganguroo bilamina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

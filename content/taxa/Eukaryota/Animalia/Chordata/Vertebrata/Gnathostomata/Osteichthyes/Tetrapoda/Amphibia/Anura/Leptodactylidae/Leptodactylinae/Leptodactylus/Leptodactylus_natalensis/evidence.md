@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus natalensis
       zh: Leptodactylus natalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

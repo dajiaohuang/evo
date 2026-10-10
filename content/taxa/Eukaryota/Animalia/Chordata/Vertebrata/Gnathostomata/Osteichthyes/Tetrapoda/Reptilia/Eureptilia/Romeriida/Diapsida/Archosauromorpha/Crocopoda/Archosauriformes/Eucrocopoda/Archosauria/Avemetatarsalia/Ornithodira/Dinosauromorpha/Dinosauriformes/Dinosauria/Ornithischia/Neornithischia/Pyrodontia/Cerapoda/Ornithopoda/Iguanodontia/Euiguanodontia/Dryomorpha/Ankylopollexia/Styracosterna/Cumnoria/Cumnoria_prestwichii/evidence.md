@@ -9,7 +9,6 @@ records:
     name:
       zh: Cumnoria prestwichii
       en: Cumnoria prestwichii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

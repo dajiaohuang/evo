@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalacrocorax sulcirostris
       en: Phalacrocorax sulcirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

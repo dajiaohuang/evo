@@ -9,7 +9,6 @@ records:
     name:
       zh: Peraspalax talpoides
       en: Peraspalax talpoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

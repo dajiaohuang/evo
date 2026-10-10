@@ -9,7 +9,6 @@ records:
     name:
       zh: Passer rutilans
       en: Passer rutilans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus pseudolemniscatus
       en: Liolaemus pseudolemniscatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

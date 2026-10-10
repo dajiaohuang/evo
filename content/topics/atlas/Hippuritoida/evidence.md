@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: rineau-2020-rudists
       referenceLinks:
         - referenceId: rineau-2020-rudists
           relation: supports
@@ -63,7 +60,6 @@ records:
       referenceLocators:
         - referenceId: rineau-2020-rudists
           locator: 1243–1297; Introduction; Figure 1; comparative anatomy and sampled cladistic matrix; Figures 2–20
-      reviewStatus: automated-audit-passed
 ---
 
 # Hippuritoida

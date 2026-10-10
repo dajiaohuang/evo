@@ -9,7 +9,6 @@ records:
     name:
       en: Kassina cassinoides
       zh: Kassina cassinoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

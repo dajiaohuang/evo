@@ -9,7 +9,6 @@ records:
     name:
       zh: Stuckyhyus siouxensis
       en: Stuckyhyus siouxensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

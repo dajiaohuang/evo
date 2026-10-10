@@ -9,7 +9,6 @@ records:
     name:
       zh: Carcharodontosaurus iguidensis
       en: Carcharodontosaurus iguidensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

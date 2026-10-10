@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophiodon eygalayense
       en: Lophiodon eygalayense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

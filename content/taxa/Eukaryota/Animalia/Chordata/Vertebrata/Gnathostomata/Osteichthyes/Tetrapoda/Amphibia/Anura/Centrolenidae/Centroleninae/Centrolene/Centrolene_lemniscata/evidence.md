@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene lemniscata
       zh: Centrolene lemniscata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

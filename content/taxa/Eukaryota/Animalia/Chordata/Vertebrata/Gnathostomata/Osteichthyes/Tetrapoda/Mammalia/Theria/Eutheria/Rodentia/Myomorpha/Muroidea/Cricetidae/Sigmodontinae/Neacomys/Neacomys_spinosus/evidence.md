@@ -9,7 +9,6 @@ records:
     name:
       zh: Neacomys spinosus
       en: Neacomys spinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Macrotarsomys ingens
       en: Macrotarsomys ingens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

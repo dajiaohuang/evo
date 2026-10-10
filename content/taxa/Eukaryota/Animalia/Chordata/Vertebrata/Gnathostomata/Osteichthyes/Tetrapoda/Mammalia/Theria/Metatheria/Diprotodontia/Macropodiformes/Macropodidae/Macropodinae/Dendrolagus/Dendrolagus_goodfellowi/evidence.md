@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrolagus goodfellowi
       en: Dendrolagus goodfellowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nephrurus levis
       en: Nephrurus levis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

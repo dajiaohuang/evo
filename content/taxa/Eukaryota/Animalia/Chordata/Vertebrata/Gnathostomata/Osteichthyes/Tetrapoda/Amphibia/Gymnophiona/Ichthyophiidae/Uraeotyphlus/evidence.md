@@ -9,7 +9,6 @@ records:
     name:
       en: Uraeotyphlus
       zh: Uraeotyphlus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

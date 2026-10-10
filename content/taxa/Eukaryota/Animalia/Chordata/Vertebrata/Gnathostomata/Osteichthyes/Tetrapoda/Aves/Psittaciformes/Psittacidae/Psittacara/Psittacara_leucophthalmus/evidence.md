@@ -9,7 +9,6 @@ records:
     name:
       zh: Psittacara leucophthalmus
       en: Psittacara leucophthalmus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -38,5 +38,5 @@ Group 2: [Sarothrura boehmi](Sarothrura_boehmi/page.en.md), [Sarothrura insulari
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Eight selected historical morphology, mass and ecology guides do not complete accepted descendants or natural history. Source Rallidae, niche, level, terrestrial lifestyle, total birds and complete sets remain separate; measured diet, swimming or diving, breeding, current maps and expert review are unsupported.
+Eight selected historical morphology, mass and ecology guides do not complete accepted descendants or natural history. Source Rallidae, niche, level, terrestrial lifestyle, total birds and complete sets remain separate; measured diet, swimming or diving, breeding, current maps are unsupported.
 <!-- /evo:text -->

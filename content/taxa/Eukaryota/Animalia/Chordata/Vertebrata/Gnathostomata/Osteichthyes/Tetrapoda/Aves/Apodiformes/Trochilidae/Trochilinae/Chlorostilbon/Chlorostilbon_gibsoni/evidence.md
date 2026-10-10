@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorostilbon gibsoni
       en: Chlorostilbon gibsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

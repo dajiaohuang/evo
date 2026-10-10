@@ -9,7 +9,6 @@ records:
     name:
       en: Vitreorana castroviejoi
       zh: Vitreorana castroviejoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

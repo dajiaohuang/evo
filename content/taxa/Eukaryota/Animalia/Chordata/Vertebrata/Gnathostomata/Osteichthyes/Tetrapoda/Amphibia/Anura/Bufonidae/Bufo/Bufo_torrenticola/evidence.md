@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo torrenticola
       zh: Bufo torrenticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

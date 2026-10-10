@@ -9,7 +9,6 @@ records:
     name:
       zh: Lewinia muelleri
       en: Lewinia muelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

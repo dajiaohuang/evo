@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena goweri
       zh: Ptychadena goweri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

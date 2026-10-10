@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephala jacquinoti
       en: Pachycephala jacquinoti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvoscincus laterimaculatus
       en: Parvoscincus laterimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

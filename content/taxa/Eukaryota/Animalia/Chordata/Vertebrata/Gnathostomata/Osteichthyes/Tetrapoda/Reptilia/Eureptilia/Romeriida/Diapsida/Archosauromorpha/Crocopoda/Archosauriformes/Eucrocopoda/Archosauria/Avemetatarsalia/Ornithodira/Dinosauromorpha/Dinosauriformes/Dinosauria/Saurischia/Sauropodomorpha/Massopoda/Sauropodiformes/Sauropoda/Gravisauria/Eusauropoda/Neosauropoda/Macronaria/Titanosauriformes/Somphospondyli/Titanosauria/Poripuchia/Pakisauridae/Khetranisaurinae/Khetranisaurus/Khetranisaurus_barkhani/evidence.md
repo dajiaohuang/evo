@@ -9,7 +9,6 @@ records:
     name:
       zh: Khetranisaurus barkhani
       en: Khetranisaurus barkhani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

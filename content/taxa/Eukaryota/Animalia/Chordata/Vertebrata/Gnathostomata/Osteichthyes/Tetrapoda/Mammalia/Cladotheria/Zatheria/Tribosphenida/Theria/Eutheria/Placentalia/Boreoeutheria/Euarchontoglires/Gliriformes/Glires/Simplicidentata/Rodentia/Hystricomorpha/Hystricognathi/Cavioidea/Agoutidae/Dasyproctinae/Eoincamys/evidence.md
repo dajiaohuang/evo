@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoincamys
       en: Eoincamys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

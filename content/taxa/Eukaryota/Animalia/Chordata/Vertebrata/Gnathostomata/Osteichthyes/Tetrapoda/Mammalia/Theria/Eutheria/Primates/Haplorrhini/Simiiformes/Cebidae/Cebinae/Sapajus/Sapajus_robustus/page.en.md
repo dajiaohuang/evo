@@ -22,5 +22,5 @@ The group’s estimated home range was 120.5 ha across the year: 102 ha in the w
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked local group study; not externally expert-reviewed. Findings concern one group in a protected site where cultivated fruit was available, and should not be generalized to all groups or the full species range.
+Source-linked local group study;. Findings concern one group in a protected site where cultivated fruit was available, and should not be generalized to all groups or the full species range.
 <!-- /evo:text -->

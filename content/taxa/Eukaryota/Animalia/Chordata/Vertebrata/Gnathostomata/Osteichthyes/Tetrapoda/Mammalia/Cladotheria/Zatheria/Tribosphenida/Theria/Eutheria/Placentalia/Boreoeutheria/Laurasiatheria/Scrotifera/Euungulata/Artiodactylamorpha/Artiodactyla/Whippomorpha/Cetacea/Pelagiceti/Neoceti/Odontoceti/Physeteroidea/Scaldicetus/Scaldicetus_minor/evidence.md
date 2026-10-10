@@ -9,7 +9,6 @@ records:
     name:
       zh: Scaldicetus minor
       en: Scaldicetus minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

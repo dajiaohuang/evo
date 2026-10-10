@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella multiverrucosa
       zh: Rhinella multiverrucosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

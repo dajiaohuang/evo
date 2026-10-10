@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus gvnigeusgwotli
       zh: Desmognathus gvnigeusgwotli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

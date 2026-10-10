@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenelaphis ellipsifer
       en: Xenelaphis ellipsifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

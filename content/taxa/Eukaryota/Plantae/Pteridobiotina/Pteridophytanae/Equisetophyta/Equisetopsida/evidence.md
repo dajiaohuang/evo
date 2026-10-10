@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated primary-source review
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Elgorriaga et al. 2018 DOI 10.1002/ajb2.1125; full-text discussion inspected 2026-09-05
       referenceLinks:
         - referenceId: elgorriaga-2018-horsetails
           relation: supports
@@ -48,9 +45,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: elgorriaga-2018-horsetails
       referenceLinks:
         - referenceId: elgorriaga-2018-horsetails
           relation: supports
@@ -68,9 +62,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: elgorriaga-2018-horsetails locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: elgorriaga-2018-horsetails
@@ -121,7 +112,6 @@ records:
           locator: 1286–1303; premise; Table 1; Figure 3; Devonian Sphenopsida record and fossil-inclusive matrix
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; Famennian boundary
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

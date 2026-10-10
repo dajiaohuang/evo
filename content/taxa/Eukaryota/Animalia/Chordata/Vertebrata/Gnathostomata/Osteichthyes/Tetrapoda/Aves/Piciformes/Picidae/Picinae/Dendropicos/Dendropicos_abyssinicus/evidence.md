@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendropicos abyssinicus
       en: Dendropicos abyssinicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

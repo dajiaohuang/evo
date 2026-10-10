@@ -9,7 +9,6 @@ records:
     name:
       en: Xenorhina ventrimaculata
       zh: Xenorhina ventrimaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

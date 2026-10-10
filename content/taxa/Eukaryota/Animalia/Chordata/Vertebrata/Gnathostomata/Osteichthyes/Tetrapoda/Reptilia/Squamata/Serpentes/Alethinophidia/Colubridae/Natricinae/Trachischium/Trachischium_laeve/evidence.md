@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachischium laeve
       en: Trachischium laeve
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

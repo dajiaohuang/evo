@@ -9,7 +9,6 @@ records:
     name:
       en: Silverstoneia nubicola
       zh: Silverstoneia nubicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

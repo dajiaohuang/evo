@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon skaios
       zh: Ololygon skaios
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

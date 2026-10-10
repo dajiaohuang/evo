@@ -9,7 +9,6 @@ records:
     name:
       zh: Strigorhysis rugosus
       en: Strigorhysis rugosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

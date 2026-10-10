@@ -9,7 +9,6 @@ records:
     name:
       zh: Palasiodon siurenensis
       en: Palasiodon siurenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

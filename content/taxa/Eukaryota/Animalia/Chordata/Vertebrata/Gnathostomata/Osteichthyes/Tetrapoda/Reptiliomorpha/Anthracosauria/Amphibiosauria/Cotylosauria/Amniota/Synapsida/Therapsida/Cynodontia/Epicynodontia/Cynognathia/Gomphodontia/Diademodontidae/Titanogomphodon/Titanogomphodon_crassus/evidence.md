@@ -9,7 +9,6 @@ records:
     name:
       zh: Titanogomphodon crassus
       en: Titanogomphodon crassus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

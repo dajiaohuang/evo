@@ -9,7 +9,6 @@ records:
     name:
       zh: Huerzelerimys oreopitheci
       en: Huerzelerimys oreopitheci
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

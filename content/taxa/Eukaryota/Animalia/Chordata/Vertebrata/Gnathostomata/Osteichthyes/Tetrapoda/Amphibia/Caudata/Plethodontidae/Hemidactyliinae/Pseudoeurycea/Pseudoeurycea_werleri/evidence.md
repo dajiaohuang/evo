@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea werleri
       zh: Pseudoeurycea werleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

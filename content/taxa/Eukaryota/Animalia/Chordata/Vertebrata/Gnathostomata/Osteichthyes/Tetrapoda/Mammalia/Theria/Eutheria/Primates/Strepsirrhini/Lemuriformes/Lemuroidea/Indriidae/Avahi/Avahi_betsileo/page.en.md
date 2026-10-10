@@ -16,5 +16,5 @@ The 2007 revision described A. betsileo from Bemosary Classified Forest in the F
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The description is based on three adults from one forest; the authors’ proposed regional limits were explicitly tentative. This page has not received external expert review. This page is not externally expert-reviewed.
+The description is based on three adults from one forest; the authors’ proposed regional limits were explicitly tentative. This page. This page is.
 <!-- /evo:text -->

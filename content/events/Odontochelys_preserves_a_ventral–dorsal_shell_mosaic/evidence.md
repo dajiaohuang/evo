@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Li et al. 2008 DOI 10.1038/nature07533
       referenceLinks:
         - referenceId: li-2008-odontochelys
           relation: supports

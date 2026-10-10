@@ -9,7 +9,6 @@ records:
     name:
       en: Northern Muriqui
       zh: 北方绒毛蛛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

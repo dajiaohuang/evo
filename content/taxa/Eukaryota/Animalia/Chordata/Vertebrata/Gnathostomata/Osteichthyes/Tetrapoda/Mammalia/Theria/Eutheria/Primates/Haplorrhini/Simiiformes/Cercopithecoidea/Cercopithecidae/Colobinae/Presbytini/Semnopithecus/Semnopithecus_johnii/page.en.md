@@ -22,5 +22,5 @@ The Silent Valley paper used the combination Trachypithecus johnii in its title.
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The feeding account is based on observations in one rainforest park during 1993–1996; it is not a current range-wide dietary survey. The older paper's generic combination is retained as published. This page is not externally expert-reviewed.
+The feeding account is based on observations in one rainforest park during 1993–1996; it is not a current range-wide dietary survey. The older paper's generic combination is retained as published. This page is.
 <!-- /evo:text -->

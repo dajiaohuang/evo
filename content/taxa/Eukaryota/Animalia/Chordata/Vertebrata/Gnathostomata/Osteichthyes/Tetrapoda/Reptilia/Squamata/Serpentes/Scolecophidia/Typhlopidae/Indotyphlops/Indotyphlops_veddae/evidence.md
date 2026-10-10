@@ -9,7 +9,6 @@ records:
     name:
       zh: Indotyphlops veddae
       en: Indotyphlops veddae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

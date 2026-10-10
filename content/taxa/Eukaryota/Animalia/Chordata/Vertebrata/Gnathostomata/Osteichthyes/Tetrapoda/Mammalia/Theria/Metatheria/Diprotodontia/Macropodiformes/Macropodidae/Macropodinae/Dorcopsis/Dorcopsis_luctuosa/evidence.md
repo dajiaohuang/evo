@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorcopsis luctuosa
       en: Dorcopsis luctuosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

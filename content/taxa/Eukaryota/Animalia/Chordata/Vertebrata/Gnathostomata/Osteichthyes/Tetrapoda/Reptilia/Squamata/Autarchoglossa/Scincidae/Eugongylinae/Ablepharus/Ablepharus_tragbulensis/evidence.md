@@ -9,7 +9,6 @@ records:
     name:
       zh: Ablepharus tragbulensis
       en: Ablepharus tragbulensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

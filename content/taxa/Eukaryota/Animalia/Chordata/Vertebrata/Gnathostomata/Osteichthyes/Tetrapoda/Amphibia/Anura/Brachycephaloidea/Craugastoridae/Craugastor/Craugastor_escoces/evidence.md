@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor escoces
       zh: Craugastor escoces
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

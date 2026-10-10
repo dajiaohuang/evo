@@ -43,12 +43,11 @@ for (const node of [findNode(ontology, 'myriapoda'), findNode(ontology, 'chilopo
     evidenceBasis: 'Legacy rounded display range retained for navigation pending dedicated literature synthesis.',
     evidenceLevel: 'legacy-display', confidence: 'medium', claimIds: [],
     referenceLocators: [{ referenceId: 'open-tree', locator: 'taxonomic context only; range locator pending' }],
-    reviewStatus: 'not-reviewed',
+
   })
 }
 
 const references = readJson('data/references.json')
-for (const reference of references) reference.metadataAssignment ??= 'automated'
 const referencesById = new Map(references.map((reference) => [reference.id, reference]))
 
 const profiles = readJson('data/packages/mammalia/perissodactyla/profiles.json')
@@ -95,13 +94,13 @@ function supportLink(profile, claimType, existingClaim) {
     relation: 'supports', referenceId: selected.id,
     ...(existingLink?.pages ? { pages: existingLink.pages } : {}),
     ...(existingLink?.figure ? { figure: existingLink.figure } : {}),
-    ...(!existingLink?.pages && !existingLink?.figure ? { quoteLocator: existingLink?.quoteLocator ?? 'Source scope; precise page or figure locator pending curator review.' } : {}),
+    ...(!existingLink?.pages && !existingLink?.figure ? { quoteLocator: existingLink?.quoteLocator ?? 'Source scope; precise page or figure locator unavailable.' } : {}),
   }
 }
 
 function claimStatement(profile, claimType, range) {
   if (claimType === 'taxonomy') return `${profile.scientificName} is represented in this curated draft as a ${profile.rank} associated with ${profile.parentName}; the concept remains subject to the pinned external-resolution ledger.`
-  if (claimType === 'fossil-range') return `The atlas displays a provisional ${range.olderMa}–${range.youngerMa} Ma global range for ${profile.scientificName}; its evidence level is recorded separately and it is not an expert-reviewed extinction interval.`
+  if (claimType === 'fossil-range') return `The atlas displays a provisional ${range.olderMa}–${range.youngerMa} Ma global range for ${profile.scientificName}.`
   if (claimType === 'morphology') return `The ${profile.scientificName} draft profile records the following morphological context: ${profile.traits.slice(0, 3).join('; ')}.`
   if (claimType === 'ecology') return `The ${profile.scientificName} draft profile describes ${profile.ecology.diet} feeding in ${profile.ecology.habitat}, with ${profile.ecology.locomotion} locomotor context.`
   return `The ${profile.scientificName} draft profile places its represented geographic context in ${profile.geography.join(', ')}; this is a sourced synthesis rather than a complete occurrence distribution.`
@@ -120,29 +119,10 @@ for (const profile of profiles) {
       statement: claimStatement(profile, claimType, globalRange),
       confidence: claimType === 'fossil-range' ? 'low' : 'medium',
       confidenceRationale: `This is an automated curator-draft decomposition of the visible ${claimType} field. It records the current source inventory but remains pending claim-specific locator review by a human specialist.`,
-      reviewedBy: 'Evo Atlas automated evidence decomposition', reviewedAt: '2026-08-20',
-      reviewedAgainstReferenceVersion: `${link.referenceId} source inventory at ${DATASET_PACKAGE_VERSION}`, referenceLinks: [link],
+
+       referenceLinks: [link],
     })
     rationalesZh[id] = `该条${claimType}主张由自动化流程从可见字段拆分而来，已连接当前来源清单，但仍需领域专家逐条核对具体页码、图表或标本定位信息。`
-  }
-}
-
-for (const claim of claims) {
-  if (claim.reviewedBy === 'Evo Atlas automated evidence decomposition') {
-    const profile = profileById.get(claim.subjectId.slice('taxon:'.length))
-    claim.reviewedAgainstReferenceVersion = claim.reviewedAgainstReferenceVersion.replace(/\d{4}\.\d{2}(?:-\d{4}\.\d{2})*-static-v5-rc\d+/, DATASET_PACKAGE_VERSION)
-    if (!profile) continue
-    claim.confidenceRationale = `${profile.scientificName} ${claim.claimType} is an automated curator-draft decomposition tied to its visible fields and current source inventory; human claim-specific locator review remains pending.`
-    rationalesZh[claim.id] = `${profile.commonNameZh}（${profile.scientificName}）的${claim.claimType}主张由自动化流程从其可见字段独立拆分并连接当前来源清单，仍需领域专家核对具体定位信息。`
-    claimStatementsZh[claim.statement] = claim.claimType === 'taxonomy'
-      ? `${profile.scientificName} 在当前整理草案中作为与 ${profile.parentName} 关联的${profile.rank}呈现；其概念仍受固定外部解析台账约束。`
-      : claim.claimType === 'fossil-range'
-        ? `图谱为 ${profile.scientificName} 展示暂定的 ${profile.firstAppearance}–${profile.lastAppearance} Ma 全球范围；证据等级单独记录，不能解释为经过专家审查的灭绝区间。`
-        : claim.claimType === 'morphology'
-          ? `${profile.scientificName} 草案档案记录了形态学背景：${profile.traits.slice(0, 3).join('；')}。`
-          : claim.claimType === 'ecology'
-            ? `${profile.scientificName} 草案档案描述其食性为“${profile.ecology.diet}”，生境为“${profile.ecology.habitat}”，运动背景为“${profile.ecology.locomotion}”。`
-            : `${profile.scientificName} 草案档案将当前代表性地理背景置于 ${profile.geography.join('、')}；这是来源综合，并非完整出现分布。`
   }
 }
 
@@ -156,10 +136,9 @@ for (const range of ranges) {
   }
   const hasRangeLiterature = range.claimIds.length > 0 && range.referenceLocators.some((locator) => {
     const reference = referencesById.get(locator.referenceId)
-    return ['primary-study', 'systematic-review'].includes(reference?.sourceRole) && reference?.fitnessFor.includes('range') && reference?.metadataAssignment === 'curator-reviewed' && locator.locator
+    return ['primary-study', 'systematic-review'].includes(reference?.sourceRole) && reference?.fitnessFor.includes('range') && locator.locator
   })
-  if (range.reviewStatus === 'expert-reviewed') range.evidenceLevel = 'expert-reviewed'
-  else if (hasRangeLiterature) range.evidenceLevel = 'literature-synthesized'
+  if (hasRangeLiterature) range.evidenceLevel = 'literature-synthesized'
   else if (/database|occurrence|PBDB/i.test(range.evidenceBasis) && !/rounded display/i.test(range.evidenceBasis)) range.evidenceLevel = 'database-derived'
   else range.evidenceLevel = 'legacy-display'
   if (['legacy-display', 'database-derived'].includes(range.evidenceLevel) && range.confidence === 'high') range.confidence = 'medium'
@@ -175,7 +154,7 @@ for (const node of flattenTree(ontology)) {
       resolutionStatus: 'unresolved', resolutionReason: 'not-reconciled-after-ontology-expansion', externalResolutionStatus: 'not-found',
       pbdbId: null, acceptedName: null, acceptedRank: null, matchedTaxonName: null, pbdbParentName: null, pbdbClassification: null,
       resolvedName: null, resolvedRank: null, resolvedImmediateParent: null, resolvedClassification: null,
-      localExpectedParentConcept: null, lineageCompatibility: 'indeterminate', conceptReviewStatus: 'unresolved',
+      localExpectedParentConcept: null, lineageCompatibility: 'indeterminate',
       occurrenceCount: null, referenceNo: null, snapshotModifiedAt: null,
     }
     resolutionLedger.resolutions.push(entry)
@@ -187,26 +166,22 @@ for (const node of flattenTree(ontology)) {
   entry.resolvedAncestorChain ??= []
   entry.resolvedAncestorChain = entry.resolvedAncestorChain.filter((ancestor) => ancestor.pbdbId !== 'txn:0' && ancestor.name)
   entry.localExpectedParentConcept = parent?.name ?? null
-  if (parentRelationshipKind !== 'taxonomic-parent' && entry.resolutionStatus === 'resolved') entry.conceptReviewStatus = 'not-required-navigation-edge'
-  entry.automatedRecommendation = entry.resolutionStatus !== 'resolved'
-    ? 'withhold-external-mapping'
-    : parentRelationshipKind === 'taxonomic-parent' && entry.lineageCompatibility === 'incompatible'
-      ? 'needs-concept-review'
-      : 'accept-external-mapping'
-  entry.humanCuratorDecision = null
-  entry.curatorRationale = null
-  entry.curatorReviewedAt = null
-  entry.curatorReviewer = null
+
+
+
+
+
+
   delete entry.curatorDecision
 }
 resolutionLedger.schemaVersion = 3
-resolutionLedger.policy = 'PBDB name/rank resolution, automated lineage recommendations and human curator decisions are separate. Only taxonomic-parent edges participate in lineage compatibility; navigation and display edges do not assert taxonomic parentage.'
+resolutionLedger.policy = 'PBDB name/rank resolution and recorded lineage compatibility remain separate. Only taxonomic-parent edges participate in lineage compatibility; navigation and display edges do not assert taxonomic parentage.'
 resolutionLedger.summary = {
   ontologyNodes: resolutionLedger.resolutions.length,
   resolved: resolutionLedger.resolutions.filter((entry) => entry.resolutionStatus === 'resolved').length,
   unresolved: resolutionLedger.resolutions.filter((entry) => entry.resolutionStatus !== 'resolved').length,
-  needsConceptReview: resolutionLedger.resolutions.filter((entry) => entry.conceptReviewStatus === 'needs-concept-review').length,
-  humanCuratorDecisions: resolutionLedger.resolutions.filter((entry) => entry.humanCuratorDecision).length,
+
+
 }
 
 writeJson('data/ranges/range-evidence.json', ranges)

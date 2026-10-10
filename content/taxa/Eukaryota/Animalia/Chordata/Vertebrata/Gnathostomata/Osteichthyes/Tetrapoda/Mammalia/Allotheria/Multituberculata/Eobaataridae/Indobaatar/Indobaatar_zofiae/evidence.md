@@ -9,7 +9,6 @@ records:
     name:
       zh: Indobaatar zofiae
       en: Indobaatar zofiae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

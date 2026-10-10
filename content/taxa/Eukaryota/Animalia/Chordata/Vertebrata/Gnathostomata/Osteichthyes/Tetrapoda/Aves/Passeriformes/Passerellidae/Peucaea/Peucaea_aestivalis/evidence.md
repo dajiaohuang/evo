@@ -9,7 +9,6 @@ records:
     name:
       zh: Peucaea aestivalis
       en: Peucaea aestivalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

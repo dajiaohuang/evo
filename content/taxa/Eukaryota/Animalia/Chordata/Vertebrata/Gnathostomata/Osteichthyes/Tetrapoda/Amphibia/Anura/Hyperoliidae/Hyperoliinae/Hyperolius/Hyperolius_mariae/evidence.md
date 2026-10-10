@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius mariae
       zh: Hyperolius mariae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

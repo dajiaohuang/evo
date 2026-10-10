@@ -9,7 +9,6 @@ records:
     name:
       zh: Regulus ignicapilla
       en: Regulus ignicapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rallus natator
       en: Rallus natator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

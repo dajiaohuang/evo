@@ -9,7 +9,6 @@ records:
     name:
       zh: Allaeochelys delheidi
       en: Allaeochelys delheidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

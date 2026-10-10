@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllomys dasythrix
       en: Phyllomys dasythrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

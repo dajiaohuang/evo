@@ -9,7 +9,6 @@ records:
     name:
       zh: Mitu mitu
       en: Mitu mitu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pityriaseidae
       en: Pityriaseidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

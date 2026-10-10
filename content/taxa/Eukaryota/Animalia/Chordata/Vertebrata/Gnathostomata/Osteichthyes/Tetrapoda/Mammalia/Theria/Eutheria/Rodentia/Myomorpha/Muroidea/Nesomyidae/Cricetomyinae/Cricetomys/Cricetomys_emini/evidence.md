@@ -9,7 +9,6 @@ records:
     name:
       zh: Cricetomys emini
       en: Cricetomys emini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

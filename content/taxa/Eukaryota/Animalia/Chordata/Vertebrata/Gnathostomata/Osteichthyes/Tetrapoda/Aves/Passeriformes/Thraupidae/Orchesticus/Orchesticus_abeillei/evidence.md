@@ -9,7 +9,6 @@ records:
     name:
       zh: Orchesticus abeillei
       en: Orchesticus abeillei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

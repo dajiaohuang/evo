@@ -9,7 +9,6 @@ records:
     name:
       zh: Mustela itatsi
       en: Mustela itatsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

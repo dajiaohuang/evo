@@ -9,7 +9,6 @@ records:
     name:
       zh: Willidewu esteparius
       en: Willidewu esteparius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

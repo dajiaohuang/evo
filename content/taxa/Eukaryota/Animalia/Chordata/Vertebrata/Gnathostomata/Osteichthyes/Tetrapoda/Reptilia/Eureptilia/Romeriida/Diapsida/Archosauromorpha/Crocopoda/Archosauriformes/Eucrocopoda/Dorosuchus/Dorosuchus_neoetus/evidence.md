@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorosuchus neoetus
       en: Dorosuchus neoetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Aphantophryne pansa
       zh: Aphantophryne pansa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

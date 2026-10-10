@@ -9,7 +9,6 @@ records:
     name:
       zh: Grangeria canina
       en: Grangeria canina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

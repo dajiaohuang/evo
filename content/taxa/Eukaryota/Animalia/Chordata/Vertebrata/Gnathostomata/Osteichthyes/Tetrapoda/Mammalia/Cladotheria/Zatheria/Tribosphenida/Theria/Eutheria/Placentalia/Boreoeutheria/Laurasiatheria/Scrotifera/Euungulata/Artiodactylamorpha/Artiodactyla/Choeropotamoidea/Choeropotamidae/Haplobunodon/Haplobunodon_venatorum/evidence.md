@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplobunodon venatorum
       en: Haplobunodon venatorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

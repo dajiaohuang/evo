@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: farke-2014-aquilops-ceratopsia concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: farke-2014-aquilops-ceratopsia
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: farke-2014-aquilops-ceratopsia @ DOI 10.1371/journal.pone.0112055
       referenceLinks:
         - relation: supports
           referenceId: farke-2014-aquilops-ceratopsia
@@ -96,7 +90,6 @@ records:
           locator: 9(12):e112055; Holotype and locality; phylogenetic analysis; biogeographic discussion
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Ceratopsia
@@ -105,7 +98,6 @@ records:
     name:
       zh: Ceratopsia
       en: Ceratopsia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

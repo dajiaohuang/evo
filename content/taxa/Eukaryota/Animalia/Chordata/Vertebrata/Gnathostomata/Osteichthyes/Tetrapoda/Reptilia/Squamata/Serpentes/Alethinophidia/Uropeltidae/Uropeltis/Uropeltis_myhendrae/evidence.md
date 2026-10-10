@@ -9,7 +9,6 @@ records:
     name:
       zh: Uropeltis myhendrae
       en: Uropeltis myhendrae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

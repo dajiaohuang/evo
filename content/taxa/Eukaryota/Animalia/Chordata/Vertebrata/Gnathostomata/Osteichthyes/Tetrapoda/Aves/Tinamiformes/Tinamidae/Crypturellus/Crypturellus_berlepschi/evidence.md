@@ -9,7 +9,6 @@ records:
     name:
       zh: Crypturellus berlepschi
       en: Crypturellus berlepschi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

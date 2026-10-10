@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus schultzei
       en: Sphenomorphus schultzei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

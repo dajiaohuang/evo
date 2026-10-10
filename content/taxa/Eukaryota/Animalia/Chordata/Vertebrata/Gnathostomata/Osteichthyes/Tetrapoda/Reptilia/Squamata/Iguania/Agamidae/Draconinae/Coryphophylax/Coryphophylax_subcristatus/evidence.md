@@ -9,7 +9,6 @@ records:
     name:
       zh: Coryphophylax subcristatus
       en: Coryphophylax subcristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Altiphylax levitoni
       en: Altiphylax levitoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

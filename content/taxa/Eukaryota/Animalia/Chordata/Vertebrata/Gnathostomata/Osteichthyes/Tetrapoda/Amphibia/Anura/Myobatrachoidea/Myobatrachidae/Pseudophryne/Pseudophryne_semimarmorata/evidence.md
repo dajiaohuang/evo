@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophryne semimarmorata
       zh: Pseudophryne semimarmorata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

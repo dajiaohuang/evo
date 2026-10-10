@@ -9,7 +9,6 @@ records:
     name:
       zh: Acontias schmitzi
       en: Acontias schmitzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

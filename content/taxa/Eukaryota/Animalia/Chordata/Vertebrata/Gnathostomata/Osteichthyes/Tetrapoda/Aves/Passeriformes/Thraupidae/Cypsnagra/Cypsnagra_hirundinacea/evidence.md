@@ -9,7 +9,6 @@ records:
     name:
       zh: Cypsnagra hirundinacea
       en: Cypsnagra hirundinacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

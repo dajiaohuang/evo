@@ -9,7 +9,6 @@ records:
     name:
       zh: Goggia rupicola
       en: Goggia rupicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

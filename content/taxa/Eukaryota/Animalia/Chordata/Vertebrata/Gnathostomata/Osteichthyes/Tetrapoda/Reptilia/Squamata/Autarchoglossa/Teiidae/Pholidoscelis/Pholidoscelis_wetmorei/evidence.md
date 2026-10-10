@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidoscelis wetmorei
       en: Pholidoscelis wetmorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

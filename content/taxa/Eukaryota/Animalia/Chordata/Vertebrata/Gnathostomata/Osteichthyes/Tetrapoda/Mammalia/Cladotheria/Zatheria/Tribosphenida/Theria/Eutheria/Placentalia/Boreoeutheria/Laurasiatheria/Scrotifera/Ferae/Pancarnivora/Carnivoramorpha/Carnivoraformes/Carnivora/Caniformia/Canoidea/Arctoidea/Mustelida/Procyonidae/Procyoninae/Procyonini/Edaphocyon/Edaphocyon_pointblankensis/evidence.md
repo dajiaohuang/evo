@@ -9,7 +9,6 @@ records:
     name:
       zh: Edaphocyon pointblankensis
       en: Edaphocyon pointblankensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

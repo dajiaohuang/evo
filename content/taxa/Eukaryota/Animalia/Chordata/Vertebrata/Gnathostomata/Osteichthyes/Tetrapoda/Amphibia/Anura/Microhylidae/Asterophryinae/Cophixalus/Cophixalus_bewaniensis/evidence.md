@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus bewaniensis
       zh: Cophixalus bewaniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

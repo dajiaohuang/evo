@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelocetus mirabilis
       en: Pelocetus mirabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

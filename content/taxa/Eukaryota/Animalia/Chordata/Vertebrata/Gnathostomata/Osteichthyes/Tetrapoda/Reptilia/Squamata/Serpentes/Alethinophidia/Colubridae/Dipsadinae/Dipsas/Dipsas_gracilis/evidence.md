@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas gracilis
       en: Dipsas gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

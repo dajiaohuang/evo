@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyarrpecinus rothi
       en: Tyarrpecinus rothi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

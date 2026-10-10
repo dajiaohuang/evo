@@ -9,7 +9,6 @@ records:
     name:
       zh: Epicrates cenchria
       en: Epicrates cenchria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

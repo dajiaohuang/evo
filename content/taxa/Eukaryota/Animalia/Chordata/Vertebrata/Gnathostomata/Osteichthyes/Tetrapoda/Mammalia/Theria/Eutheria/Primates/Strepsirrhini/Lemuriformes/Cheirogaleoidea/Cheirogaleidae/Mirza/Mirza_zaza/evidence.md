@@ -10,7 +10,6 @@ records:
     name:
       en: Northern Giant Mouse Lemur
       zh: 北部巨鼠狐猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

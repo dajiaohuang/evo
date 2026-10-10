@@ -28,5 +28,5 @@ Bobadilla 与 Ferrari（1998）报告了 1996 年在 Xingu–Tocantins 间河区
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-1998 年样线调查使用历史三名法 C. satanas utahicki，且两地点的调查努力和季节覆盖不同。食性资料来自一座岛上的单个群体及有限时段，不代表全种食谱或行为。MDD 的国家级记录仅列巴西。COL26.8 ID 84HTH 固定页面身份；中文显示名为编辑用名。本批未新增 dossier，也未经过外部领域专家评审。
+1998 年样线调查使用历史三名法 C. satanas utahicki，且两地点的调查努力和季节覆盖不同。食性资料来自一座岛上的单个群体及有限时段，不代表全种食谱或行为。MDD 的国家级记录仅列巴西。COL26.8 ID 84HTH 固定页面身份；中文显示名为编辑用名。本批未新增 dossier。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parapalaeophis jeffshawi
       en: Parapalaeophis jeffshawi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

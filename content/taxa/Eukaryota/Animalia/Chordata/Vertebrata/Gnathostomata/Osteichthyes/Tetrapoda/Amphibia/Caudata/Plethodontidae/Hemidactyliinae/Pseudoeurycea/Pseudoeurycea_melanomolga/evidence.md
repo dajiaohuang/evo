@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea melanomolga
       zh: Pseudoeurycea melanomolga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

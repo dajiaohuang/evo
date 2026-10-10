@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus hippocrepis
       en: Micrurus hippocrepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

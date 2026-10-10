@@ -9,7 +9,6 @@ records:
     name:
       en: Meristogenys penrissenensis
       zh: Meristogenys penrissenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

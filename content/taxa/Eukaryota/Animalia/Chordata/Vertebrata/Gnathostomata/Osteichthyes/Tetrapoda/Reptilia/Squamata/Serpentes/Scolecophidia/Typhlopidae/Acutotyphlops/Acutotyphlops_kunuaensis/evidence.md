@@ -9,7 +9,6 @@ records:
     name:
       zh: Acutotyphlops kunuaensis
       en: Acutotyphlops kunuaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

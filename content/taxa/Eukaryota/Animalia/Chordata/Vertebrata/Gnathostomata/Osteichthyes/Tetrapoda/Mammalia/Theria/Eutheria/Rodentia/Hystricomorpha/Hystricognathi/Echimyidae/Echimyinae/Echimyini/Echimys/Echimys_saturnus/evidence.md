@@ -9,7 +9,6 @@ records:
     name:
       zh: Echimys saturnus
       en: Echimys saturnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

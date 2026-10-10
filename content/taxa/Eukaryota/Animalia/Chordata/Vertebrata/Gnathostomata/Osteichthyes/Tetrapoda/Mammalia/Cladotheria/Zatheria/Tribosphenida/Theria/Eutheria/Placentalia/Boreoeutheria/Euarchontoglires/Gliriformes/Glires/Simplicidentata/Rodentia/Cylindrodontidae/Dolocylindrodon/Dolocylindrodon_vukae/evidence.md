@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolocylindrodon vukae
       en: Dolocylindrodon vukae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Abronia fuscolabialis
       en: Abronia fuscolabialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

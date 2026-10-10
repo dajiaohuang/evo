@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis paucisulcus
       zh: Ichthyophis paucisulcus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

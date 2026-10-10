@@ -9,7 +9,6 @@ records:
     name:
       zh: Staffia aenigmatica
       en: Staffia aenigmatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

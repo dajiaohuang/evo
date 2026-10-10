@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinosternon vogti
       en: Kinosternon vogti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

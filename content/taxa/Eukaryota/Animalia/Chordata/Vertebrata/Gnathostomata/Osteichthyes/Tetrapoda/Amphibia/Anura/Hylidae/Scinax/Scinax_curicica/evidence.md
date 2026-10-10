@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax curicica
       zh: Scinax curicica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

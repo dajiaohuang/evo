@@ -9,7 +9,6 @@ records:
     name:
       zh: Bouromeryx submilleri
       en: Bouromeryx submilleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

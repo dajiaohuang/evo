@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllastrephus baumanni
       en: Phyllastrephus baumanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

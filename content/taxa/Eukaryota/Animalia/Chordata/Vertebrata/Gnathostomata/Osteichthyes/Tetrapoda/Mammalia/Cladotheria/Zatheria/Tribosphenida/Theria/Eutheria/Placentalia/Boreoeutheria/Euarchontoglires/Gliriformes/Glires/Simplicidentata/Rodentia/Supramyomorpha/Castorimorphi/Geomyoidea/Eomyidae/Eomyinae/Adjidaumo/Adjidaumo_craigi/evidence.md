@@ -9,7 +9,6 @@ records:
     name:
       zh: Adjidaumo craigi
       en: Adjidaumo craigi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

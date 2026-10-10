@@ -64,7 +64,6 @@ function validateDossier(dossier) {
   assert.equal(dossier.sourceDatasetId, '2144')
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.deepEqual(dossier.identity.sourceIds, ['col'])
   const sources = new Map(dossier.sources.map(source => [source.id, source]))

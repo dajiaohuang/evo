@@ -9,7 +9,6 @@ records:
     name:
       zh: Euthecodon arambourgii
       en: Euthecodon arambourgii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

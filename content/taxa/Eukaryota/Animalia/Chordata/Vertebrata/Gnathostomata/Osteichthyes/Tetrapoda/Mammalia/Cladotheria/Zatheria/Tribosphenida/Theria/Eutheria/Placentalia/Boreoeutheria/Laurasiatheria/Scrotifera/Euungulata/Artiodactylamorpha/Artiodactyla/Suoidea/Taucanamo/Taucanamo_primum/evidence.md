@@ -9,7 +9,6 @@ records:
     name:
       zh: Taucanamo primum
       en: Taucanamo primum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lialis jicari
       en: Lialis jicari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

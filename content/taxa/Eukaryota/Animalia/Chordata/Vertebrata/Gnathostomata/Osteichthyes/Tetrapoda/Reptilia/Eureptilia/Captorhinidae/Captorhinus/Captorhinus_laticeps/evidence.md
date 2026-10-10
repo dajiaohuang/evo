@@ -9,7 +9,6 @@ records:
     name:
       zh: Captorhinus laticeps
       en: Captorhinus laticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

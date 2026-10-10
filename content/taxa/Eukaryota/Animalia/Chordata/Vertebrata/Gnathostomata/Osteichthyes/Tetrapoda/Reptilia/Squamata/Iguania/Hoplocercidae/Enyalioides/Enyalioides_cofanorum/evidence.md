@@ -9,7 +9,6 @@ records:
     name:
       zh: Enyalioides cofanorum
       en: Enyalioides cofanorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

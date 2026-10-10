@@ -9,7 +9,6 @@ records:
     name:
       zh: Urumchia lii
       en: Urumchia lii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

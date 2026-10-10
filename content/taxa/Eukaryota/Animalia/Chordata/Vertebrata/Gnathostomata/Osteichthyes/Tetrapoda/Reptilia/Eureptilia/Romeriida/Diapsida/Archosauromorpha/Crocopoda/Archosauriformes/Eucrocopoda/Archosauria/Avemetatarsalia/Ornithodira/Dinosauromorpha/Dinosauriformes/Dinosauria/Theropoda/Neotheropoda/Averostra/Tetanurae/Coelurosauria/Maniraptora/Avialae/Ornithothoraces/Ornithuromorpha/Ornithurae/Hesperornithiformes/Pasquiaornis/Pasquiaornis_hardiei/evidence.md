@@ -9,7 +9,6 @@ records:
     name:
       zh: Pasquiaornis hardiei
       en: Pasquiaornis hardiei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

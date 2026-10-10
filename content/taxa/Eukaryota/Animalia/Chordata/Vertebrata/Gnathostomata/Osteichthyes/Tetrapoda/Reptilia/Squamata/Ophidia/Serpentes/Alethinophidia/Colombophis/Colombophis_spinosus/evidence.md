@@ -9,7 +9,6 @@ records:
     name:
       zh: Colombophis spinosus
       en: Colombophis spinosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

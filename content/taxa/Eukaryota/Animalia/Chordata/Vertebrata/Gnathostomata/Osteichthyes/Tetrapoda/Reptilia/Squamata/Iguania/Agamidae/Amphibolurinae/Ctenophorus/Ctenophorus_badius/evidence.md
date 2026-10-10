@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenophorus badius
       en: Ctenophorus badius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

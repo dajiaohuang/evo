@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis leucopus
       zh: Pristimantis leucopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

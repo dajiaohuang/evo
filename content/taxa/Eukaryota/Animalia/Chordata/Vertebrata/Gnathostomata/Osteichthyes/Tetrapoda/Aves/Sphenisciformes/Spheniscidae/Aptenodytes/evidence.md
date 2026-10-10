@@ -9,7 +9,6 @@ records:
     name:
       zh: Aptenodytes
       en: Aptenodytes
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: huddleCase

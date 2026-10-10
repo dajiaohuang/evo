@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco formosus
       en: Draco formosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

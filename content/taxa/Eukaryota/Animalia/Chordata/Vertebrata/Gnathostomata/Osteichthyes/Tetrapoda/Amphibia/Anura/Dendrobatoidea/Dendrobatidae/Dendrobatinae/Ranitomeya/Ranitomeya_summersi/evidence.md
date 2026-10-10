@@ -9,7 +9,6 @@ records:
     name:
       en: Ranitomeya summersi
       zh: Ranitomeya summersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon berthae
       zh: Ololygon berthae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

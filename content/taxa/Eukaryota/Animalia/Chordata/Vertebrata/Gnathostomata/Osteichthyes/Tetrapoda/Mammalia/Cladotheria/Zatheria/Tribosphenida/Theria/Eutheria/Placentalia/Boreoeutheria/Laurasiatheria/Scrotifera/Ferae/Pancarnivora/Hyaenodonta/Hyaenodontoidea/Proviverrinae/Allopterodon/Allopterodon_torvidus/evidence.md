@@ -9,7 +9,6 @@ records:
     name:
       zh: Allopterodon torvidus
       en: Allopterodon torvidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

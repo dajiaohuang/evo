@@ -9,7 +9,6 @@ records:
     name:
       zh: Miosicista angulus
       en: Miosicista angulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

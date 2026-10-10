@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus lugubris
       zh: Mantidactylus lugubris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

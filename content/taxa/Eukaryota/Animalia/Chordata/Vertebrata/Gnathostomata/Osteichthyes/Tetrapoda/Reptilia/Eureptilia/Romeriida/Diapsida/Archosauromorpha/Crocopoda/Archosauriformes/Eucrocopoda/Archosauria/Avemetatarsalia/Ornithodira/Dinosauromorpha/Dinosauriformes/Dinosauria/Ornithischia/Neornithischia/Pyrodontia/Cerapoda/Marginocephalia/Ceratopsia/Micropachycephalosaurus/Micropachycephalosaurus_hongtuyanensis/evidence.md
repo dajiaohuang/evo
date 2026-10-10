@@ -9,7 +9,6 @@ records:
     name:
       zh: Micropachycephalosaurus hongtuyanensis
       en: Micropachycephalosaurus hongtuyanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

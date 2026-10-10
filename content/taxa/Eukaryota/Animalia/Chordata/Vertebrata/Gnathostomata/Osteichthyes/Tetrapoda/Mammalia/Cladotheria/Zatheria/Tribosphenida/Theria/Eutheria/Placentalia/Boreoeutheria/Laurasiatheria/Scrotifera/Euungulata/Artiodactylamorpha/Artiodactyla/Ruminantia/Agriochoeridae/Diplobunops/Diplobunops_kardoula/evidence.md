@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplobunops kardoula
       en: Diplobunops kardoula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

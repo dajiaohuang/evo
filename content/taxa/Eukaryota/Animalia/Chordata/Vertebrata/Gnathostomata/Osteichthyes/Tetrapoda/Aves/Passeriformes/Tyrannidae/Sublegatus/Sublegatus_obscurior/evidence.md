@@ -9,7 +9,6 @@ records:
     name:
       zh: Sublegatus obscurior
       en: Sublegatus obscurior
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

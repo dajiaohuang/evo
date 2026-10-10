@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis grandiceps
       zh: Pristimantis grandiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lagomeryx parvulus
       en: Lagomeryx parvulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

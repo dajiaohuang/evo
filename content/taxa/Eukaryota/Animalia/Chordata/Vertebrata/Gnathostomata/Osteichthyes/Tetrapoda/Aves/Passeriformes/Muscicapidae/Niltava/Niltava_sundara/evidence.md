@@ -9,7 +9,6 @@ records:
     name:
       zh: Niltava sundara
       en: Niltava sundara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

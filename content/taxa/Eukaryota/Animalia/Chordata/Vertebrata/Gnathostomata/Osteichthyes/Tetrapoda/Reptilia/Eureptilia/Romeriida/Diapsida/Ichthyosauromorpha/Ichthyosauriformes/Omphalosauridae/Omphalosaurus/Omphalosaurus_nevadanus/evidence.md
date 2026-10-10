@@ -9,7 +9,6 @@ records:
     name:
       zh: Omphalosaurus nevadanus
       en: Omphalosaurus nevadanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

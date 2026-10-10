@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenacodon ferox
       en: Sphenacodon ferox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

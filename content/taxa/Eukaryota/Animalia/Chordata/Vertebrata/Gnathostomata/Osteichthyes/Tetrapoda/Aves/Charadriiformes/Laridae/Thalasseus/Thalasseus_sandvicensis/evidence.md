@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalasseus sandvicensis
       en: Thalasseus sandvicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

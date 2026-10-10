@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus faciopunctulatus
       zh: Hyloxalus faciopunctulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

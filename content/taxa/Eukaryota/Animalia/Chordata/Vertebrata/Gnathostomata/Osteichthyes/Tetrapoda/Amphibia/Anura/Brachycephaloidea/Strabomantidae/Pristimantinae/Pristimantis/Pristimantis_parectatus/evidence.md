@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis parectatus
       zh: Pristimantis parectatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

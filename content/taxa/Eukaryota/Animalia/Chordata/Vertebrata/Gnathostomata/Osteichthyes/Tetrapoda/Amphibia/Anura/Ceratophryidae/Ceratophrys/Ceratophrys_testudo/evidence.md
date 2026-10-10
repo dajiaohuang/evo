@@ -9,7 +9,6 @@ records:
     name:
       en: Ceratophrys testudo
       zh: Ceratophrys testudo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

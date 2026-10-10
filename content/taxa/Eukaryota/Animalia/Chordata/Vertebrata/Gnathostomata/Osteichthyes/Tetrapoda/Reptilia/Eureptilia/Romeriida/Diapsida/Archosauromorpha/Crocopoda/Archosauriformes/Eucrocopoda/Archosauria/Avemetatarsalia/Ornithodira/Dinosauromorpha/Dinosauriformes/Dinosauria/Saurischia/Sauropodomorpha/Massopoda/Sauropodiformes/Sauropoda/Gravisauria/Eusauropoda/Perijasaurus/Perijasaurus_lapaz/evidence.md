@@ -9,7 +9,6 @@ records:
     name:
       zh: Perijasaurus lapaz
       en: Perijasaurus lapaz
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

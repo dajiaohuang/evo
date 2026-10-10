@@ -36,5 +36,5 @@ Start with Halszkaraptor escuilliei and compare each page’s named collections 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route connects named comparative studies with fixed occurrences, separating anatomy, relationships and ecological arguments. It does not cover all later literature or uniform subfamily habits. The full original description and supplements remain partly unassembled, without independent phylogenetic reanalysis or specimen inspection. Counts, broad ages and depositional labels do not establish abundance, exact death dates or living habitat. No external expert review occurred.
+This route connects named comparative studies with fixed occurrences, separating anatomy, relationships and ecological arguments. It does not cover all later literature or uniform subfamily habits. The full original description and supplements remain partly unassembled, without independent phylogenetic reanalysis or specimen inspection. Counts, broad ages and depositional labels do not establish abundance, exact death dates or living habitat.
 <!-- /evo:text -->

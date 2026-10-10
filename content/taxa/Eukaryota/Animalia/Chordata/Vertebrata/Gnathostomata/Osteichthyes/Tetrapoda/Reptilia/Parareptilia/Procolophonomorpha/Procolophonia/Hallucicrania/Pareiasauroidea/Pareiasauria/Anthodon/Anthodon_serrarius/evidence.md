@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthodon serrarius
       en: Anthodon serrarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

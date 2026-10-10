@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrocephalus gracilirostris
       en: Acrocephalus gracilirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

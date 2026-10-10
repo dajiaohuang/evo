@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus mehelyi
       en: Rhinolophus mehelyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ingerophrynus wangyingyongi
       zh: Ingerophrynus wangyingyongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

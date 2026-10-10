@@ -9,7 +9,6 @@ records:
     name:
       en: Vandijkophrynus amatolicus
       zh: Vandijkophrynus amatolicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

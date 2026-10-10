@@ -9,7 +9,6 @@ records:
     name:
       zh: Bashkyroleter mesensis
       en: Bashkyroleter mesensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

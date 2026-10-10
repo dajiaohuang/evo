@@ -9,7 +9,6 @@ records:
     name:
       zh: Spalacotheridium noblei
       en: Spalacotheridium noblei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

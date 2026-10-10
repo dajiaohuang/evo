@@ -9,7 +9,6 @@ records:
     name:
       zh: Gallicolumba longitarsus
       en: Gallicolumba longitarsus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

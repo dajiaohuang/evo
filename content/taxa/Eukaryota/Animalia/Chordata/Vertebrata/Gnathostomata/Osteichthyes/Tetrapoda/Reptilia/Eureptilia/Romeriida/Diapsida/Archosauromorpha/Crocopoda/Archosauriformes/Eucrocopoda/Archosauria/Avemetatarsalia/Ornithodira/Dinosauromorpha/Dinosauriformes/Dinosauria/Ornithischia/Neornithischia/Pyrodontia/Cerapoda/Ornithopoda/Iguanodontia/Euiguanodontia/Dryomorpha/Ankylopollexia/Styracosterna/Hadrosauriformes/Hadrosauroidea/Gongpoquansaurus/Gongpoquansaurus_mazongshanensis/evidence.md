@@ -9,7 +9,6 @@ records:
     name:
       zh: Gongpoquansaurus mazongshanensis
       en: Gongpoquansaurus mazongshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

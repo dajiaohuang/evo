@@ -9,7 +9,6 @@ records:
     name:
       en: Neurergus crocatus
       zh: Neurergus crocatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

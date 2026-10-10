@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumegamysops praependens
       en: Eumegamysops praependens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

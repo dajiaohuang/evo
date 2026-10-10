@@ -9,7 +9,6 @@ records:
     name:
       zh: Berylmys manipulus
       en: Berylmys manipulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

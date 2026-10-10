@@ -9,7 +9,6 @@ records:
     name:
       zh: Varanus lirungensis
       en: Varanus lirungensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

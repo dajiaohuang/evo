@@ -9,7 +9,6 @@ records:
     name:
       zh: Parmeosaurus scutatus
       en: Parmeosaurus scutatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

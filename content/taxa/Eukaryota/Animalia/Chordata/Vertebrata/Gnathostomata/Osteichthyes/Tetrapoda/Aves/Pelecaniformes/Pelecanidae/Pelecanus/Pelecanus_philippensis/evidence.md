@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelecanus philippensis
       en: Pelecanus philippensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

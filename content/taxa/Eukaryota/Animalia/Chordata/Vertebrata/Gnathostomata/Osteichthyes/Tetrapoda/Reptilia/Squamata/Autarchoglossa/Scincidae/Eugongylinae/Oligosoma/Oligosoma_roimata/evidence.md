@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma roimata
       en: Oligosoma roimata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

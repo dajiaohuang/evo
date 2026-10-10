@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus lorenzmuelleri
       en: Liolaemus lorenzmuelleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

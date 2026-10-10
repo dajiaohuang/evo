@@ -9,7 +9,6 @@ records:
     name:
       zh: Sauropareion anoplus
       en: Sauropareion anoplus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

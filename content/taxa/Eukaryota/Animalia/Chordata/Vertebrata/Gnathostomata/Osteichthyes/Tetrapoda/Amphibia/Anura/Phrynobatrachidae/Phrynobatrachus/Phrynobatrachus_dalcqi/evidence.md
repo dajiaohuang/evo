@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus dalcqi
       zh: Phrynobatrachus dalcqi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

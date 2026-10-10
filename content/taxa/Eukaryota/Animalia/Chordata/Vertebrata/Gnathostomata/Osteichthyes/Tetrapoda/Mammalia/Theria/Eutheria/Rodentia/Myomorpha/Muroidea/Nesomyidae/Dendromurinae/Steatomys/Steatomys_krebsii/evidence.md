@@ -9,7 +9,6 @@ records:
     name:
       zh: Steatomys krebsii
       en: Steatomys krebsii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

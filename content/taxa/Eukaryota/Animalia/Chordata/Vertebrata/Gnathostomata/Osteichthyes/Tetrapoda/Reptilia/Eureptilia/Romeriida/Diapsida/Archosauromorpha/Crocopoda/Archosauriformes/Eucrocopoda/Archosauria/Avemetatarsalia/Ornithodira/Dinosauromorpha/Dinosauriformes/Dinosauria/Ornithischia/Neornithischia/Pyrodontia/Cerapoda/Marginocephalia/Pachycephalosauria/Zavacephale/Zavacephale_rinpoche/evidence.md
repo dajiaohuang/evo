@@ -9,7 +9,6 @@ records:
     name:
       zh: Zavacephale rinpoche
       en: Zavacephale rinpoche
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

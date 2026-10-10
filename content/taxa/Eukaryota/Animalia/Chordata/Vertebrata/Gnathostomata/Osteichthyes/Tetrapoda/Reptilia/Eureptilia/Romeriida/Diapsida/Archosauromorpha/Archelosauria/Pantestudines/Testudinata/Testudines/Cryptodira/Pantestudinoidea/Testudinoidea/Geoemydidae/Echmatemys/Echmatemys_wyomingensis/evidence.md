@@ -9,7 +9,6 @@ records:
     name:
       zh: Echmatemys wyomingensis
       en: Echmatemys wyomingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

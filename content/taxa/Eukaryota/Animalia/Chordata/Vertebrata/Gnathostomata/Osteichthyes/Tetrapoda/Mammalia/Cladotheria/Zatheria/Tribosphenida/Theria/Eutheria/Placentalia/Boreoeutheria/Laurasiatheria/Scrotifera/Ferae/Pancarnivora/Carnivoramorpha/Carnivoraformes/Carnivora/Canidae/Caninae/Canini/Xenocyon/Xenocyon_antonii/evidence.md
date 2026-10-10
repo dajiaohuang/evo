@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenocyon antonii
       en: Xenocyon antonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

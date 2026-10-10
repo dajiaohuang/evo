@@ -9,7 +9,6 @@ records:
     name:
       zh: Notharchus tectus
       en: Notharchus tectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

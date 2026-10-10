@@ -9,7 +9,6 @@ records:
     name:
       en: Nymphargus buenaventura
       zh: Nymphargus buenaventura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

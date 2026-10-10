@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca ernestoi
       zh: Gastrotheca ernestoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

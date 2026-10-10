@@ -9,7 +9,6 @@ records:
     name:
       en: Adenomera juikitam
       zh: Adenomera juikitam
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

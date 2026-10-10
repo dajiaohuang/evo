@@ -16,5 +16,5 @@ The study recorded a Lake Baptista titi within an area then attributed to Hoffma
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-A local overlap record and a proposed clinal pelage explanation do not resolve range-wide distribution or species boundaries. This guide is not externally expert-reviewed.
+A local overlap record and a proposed clinal pelage explanation do not resolve range-wide distribution or species boundaries. This guide is.
 <!-- /evo:text -->

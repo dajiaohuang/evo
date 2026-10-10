@@ -9,7 +9,6 @@ records:
     name:
       zh: Astrochelys radiata
       en: Astrochelys radiata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

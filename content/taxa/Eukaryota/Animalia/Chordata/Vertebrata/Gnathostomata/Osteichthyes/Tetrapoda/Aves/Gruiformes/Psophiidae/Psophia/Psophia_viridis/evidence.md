@@ -9,7 +9,6 @@ records:
     name:
       zh: Psophia viridis
       en: Psophia viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

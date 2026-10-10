@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachianodon westorum
       en: Brachianodon westorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

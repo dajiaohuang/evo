@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardynia altidentata
       en: Ardynia altidentata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

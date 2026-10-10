@@ -9,7 +9,6 @@ records:
     name:
       zh: Protobothrops himalayanus
       en: Protobothrops himalayanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas schneideri
       en: Anas schneideri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

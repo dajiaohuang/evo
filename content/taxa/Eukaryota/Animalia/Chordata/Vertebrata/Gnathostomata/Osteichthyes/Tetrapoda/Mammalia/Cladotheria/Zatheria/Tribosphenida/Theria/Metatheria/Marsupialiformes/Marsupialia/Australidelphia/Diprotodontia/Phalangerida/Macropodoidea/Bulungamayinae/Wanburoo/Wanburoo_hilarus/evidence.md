@@ -9,7 +9,6 @@ records:
     name:
       zh: Wanburoo hilarus
       en: Wanburoo hilarus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

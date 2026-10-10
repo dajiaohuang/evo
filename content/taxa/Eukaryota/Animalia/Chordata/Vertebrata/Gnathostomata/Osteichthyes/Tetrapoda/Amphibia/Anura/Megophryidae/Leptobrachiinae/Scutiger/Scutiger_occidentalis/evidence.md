@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger occidentalis
       zh: Scutiger occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

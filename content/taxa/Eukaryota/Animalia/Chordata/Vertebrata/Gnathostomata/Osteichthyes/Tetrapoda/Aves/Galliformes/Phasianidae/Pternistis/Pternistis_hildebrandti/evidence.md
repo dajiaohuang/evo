@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis hildebrandti
       en: Pternistis hildebrandti
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

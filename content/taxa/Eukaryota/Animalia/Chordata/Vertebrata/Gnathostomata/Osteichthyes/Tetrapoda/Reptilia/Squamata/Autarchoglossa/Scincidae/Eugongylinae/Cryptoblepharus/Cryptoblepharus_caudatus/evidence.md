@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoblepharus caudatus
       en: Cryptoblepharus caudatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

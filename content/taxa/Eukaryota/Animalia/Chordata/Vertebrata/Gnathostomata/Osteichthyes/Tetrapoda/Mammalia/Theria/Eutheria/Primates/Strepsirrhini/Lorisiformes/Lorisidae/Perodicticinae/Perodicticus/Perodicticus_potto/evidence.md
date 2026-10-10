@@ -9,7 +9,6 @@ records:
     name:
       zh: 西非树熊猴
       en: West African Potto
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

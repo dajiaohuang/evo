@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus awa
       zh: Hyloxalus awa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

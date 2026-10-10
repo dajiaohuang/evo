@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegithina
       en: Aegithina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rastodon procurvidens
       en: Rastodon procurvidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

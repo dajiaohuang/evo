@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus fantasticus
       en: Sphaerodactylus fantasticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

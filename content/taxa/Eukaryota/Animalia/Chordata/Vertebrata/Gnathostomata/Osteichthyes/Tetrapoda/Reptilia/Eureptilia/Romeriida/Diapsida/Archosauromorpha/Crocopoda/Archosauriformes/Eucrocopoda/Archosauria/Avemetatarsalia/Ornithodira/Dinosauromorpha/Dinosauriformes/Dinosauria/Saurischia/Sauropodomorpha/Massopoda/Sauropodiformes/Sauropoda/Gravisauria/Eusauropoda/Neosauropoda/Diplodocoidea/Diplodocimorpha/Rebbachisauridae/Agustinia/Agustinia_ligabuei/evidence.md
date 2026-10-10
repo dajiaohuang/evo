@@ -9,7 +9,6 @@ records:
     name:
       zh: Agustinia ligabuei
       en: Agustinia ligabuei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

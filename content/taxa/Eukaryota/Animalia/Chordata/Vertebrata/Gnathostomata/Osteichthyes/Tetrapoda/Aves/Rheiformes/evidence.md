@@ -9,7 +9,6 @@ records:
     name:
       zh: Rheiformes
       en: Rheiformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: palaeognathGenomics

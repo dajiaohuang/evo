@@ -9,7 +9,6 @@ records:
     name:
       zh: Guchengosuchus shiguaiensis
       en: Guchengosuchus shiguaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

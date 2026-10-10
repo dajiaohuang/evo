@@ -9,7 +9,6 @@ records:
     name:
       zh: Floridaceras
       en: Floridaceras
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

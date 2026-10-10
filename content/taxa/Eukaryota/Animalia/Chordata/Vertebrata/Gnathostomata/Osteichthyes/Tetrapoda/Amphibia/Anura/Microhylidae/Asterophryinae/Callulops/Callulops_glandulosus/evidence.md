@@ -9,7 +9,6 @@ records:
     name:
       en: Callulops glandulosus
       zh: Callulops glandulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

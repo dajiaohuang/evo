@@ -28,5 +28,5 @@ COL26.8 接受 Tarsius fuscus Fischer, 1804，隶属 Tarsius 属。本页遵循�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本页概述有限地点、时期和方法下的引述观察，不构成全分布区自然史综述。本页尚未经过外部领域专家评审。
+本页概述有限地点、时期和方法下的引述观察，不构成全分布区自然史综述。。
 <!-- /evo:text -->

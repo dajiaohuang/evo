@@ -9,7 +9,6 @@ records:
     name:
       zh: Awamokoa tokarahi
       en: Awamokoa tokarahi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

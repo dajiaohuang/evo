@@ -9,7 +9,6 @@ records:
     name:
       en: Rhombophryne mangabensis
       zh: Rhombophryne mangabensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

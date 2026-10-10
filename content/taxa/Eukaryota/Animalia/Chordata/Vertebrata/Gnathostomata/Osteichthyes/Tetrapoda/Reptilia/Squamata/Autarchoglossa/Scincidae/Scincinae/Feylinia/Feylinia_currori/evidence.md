@@ -9,7 +9,6 @@ records:
     name:
       zh: Feylinia currori
       en: Feylinia currori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Rana sangzhiensis
       zh: Rana sangzhiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

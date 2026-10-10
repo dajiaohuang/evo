@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella alpina
       zh: Leptobrachella alpina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

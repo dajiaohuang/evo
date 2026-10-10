@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo antiqua
       en: Testudo antiqua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

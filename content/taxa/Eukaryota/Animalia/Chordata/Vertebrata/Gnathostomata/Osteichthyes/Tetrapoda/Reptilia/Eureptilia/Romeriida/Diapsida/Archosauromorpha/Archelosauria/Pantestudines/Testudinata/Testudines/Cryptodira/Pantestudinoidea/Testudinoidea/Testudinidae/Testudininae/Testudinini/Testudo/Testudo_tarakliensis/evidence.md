@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo tarakliensis
       en: Testudo tarakliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

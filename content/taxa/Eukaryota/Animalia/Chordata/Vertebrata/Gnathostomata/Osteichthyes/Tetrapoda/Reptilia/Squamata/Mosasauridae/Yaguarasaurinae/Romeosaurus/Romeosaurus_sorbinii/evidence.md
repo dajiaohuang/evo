@@ -9,7 +9,6 @@ records:
     name:
       zh: Romeosaurus sorbinii
       en: Romeosaurus sorbinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

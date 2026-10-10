@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimerodytes balteatus
       en: Trimerodytes balteatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

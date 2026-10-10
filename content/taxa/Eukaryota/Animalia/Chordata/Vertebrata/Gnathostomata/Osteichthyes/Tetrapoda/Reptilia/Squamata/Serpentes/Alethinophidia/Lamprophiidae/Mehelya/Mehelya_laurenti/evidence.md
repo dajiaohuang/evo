@@ -9,7 +9,6 @@ records:
     name:
       zh: Mehelya laurenti
       en: Mehelya laurenti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

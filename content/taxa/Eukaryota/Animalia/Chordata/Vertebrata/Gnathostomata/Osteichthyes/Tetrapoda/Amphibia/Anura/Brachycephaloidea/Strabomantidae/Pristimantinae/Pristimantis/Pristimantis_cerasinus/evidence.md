@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis cerasinus
       zh: Pristimantis cerasinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

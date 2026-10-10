@@ -9,7 +9,6 @@ records:
     name:
       zh: Protadelomys alsaticus
       en: Protadelomys alsaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

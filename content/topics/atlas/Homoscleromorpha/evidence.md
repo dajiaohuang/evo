@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated primary-source review
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Gazave et al. 2010 DOI 10.1371/journal.pone.0014290; publisher full text inspected 2026-09-05
       referenceLinks:
         - referenceId: gazave-2010-homoscleromorph-subdivision
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: gazave-2012-homoscleromorpha
       referenceLinks:
         - referenceId: gazave-2012-homoscleromorpha
           relation: supports
@@ -67,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: gazave-2012-homoscleromorpha locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: gazave-2012-homoscleromorpha
@@ -113,7 +104,6 @@ records:
       referenceLocators:
         - referenceId: gazave-2012-homoscleromorpha
           locator: 3–10; evidence synthesis, formal class nomination and diagnosis
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

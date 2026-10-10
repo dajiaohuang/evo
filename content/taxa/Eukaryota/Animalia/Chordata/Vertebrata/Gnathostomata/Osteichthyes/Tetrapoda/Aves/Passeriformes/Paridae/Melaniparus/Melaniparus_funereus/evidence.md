@@ -9,7 +9,6 @@ records:
     name:
       zh: Melaniparus funereus
       en: Melaniparus funereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

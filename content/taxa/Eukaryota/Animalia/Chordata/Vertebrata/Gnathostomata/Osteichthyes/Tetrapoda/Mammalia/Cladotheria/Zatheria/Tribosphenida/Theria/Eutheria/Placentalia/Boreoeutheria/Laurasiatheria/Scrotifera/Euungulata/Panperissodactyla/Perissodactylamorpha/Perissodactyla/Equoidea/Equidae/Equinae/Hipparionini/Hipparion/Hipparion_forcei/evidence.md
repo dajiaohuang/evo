@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipparion forcei
       en: Hipparion forcei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

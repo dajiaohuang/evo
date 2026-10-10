@@ -9,7 +9,6 @@ records:
     name:
       zh: Glirudinus eggingensis
       en: Glirudinus eggingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

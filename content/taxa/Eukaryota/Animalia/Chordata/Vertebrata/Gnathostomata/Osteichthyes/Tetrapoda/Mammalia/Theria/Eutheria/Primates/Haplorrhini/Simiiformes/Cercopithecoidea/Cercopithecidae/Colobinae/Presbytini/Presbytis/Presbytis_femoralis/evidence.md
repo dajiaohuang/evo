@@ -9,7 +9,6 @@ records:
     name:
       zh: 拉弗尔斯带叶猴
       en: Raffles' Banded Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology

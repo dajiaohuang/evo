@@ -9,7 +9,6 @@ records:
     name:
       zh: Bradypodion melanocephalum
       en: Bradypodion melanocephalum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

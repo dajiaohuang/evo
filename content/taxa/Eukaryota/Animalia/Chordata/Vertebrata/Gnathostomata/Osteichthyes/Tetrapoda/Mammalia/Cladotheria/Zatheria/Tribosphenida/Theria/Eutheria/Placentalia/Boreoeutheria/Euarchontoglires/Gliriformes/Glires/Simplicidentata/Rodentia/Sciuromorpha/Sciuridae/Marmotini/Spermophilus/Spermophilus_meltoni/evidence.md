@@ -9,7 +9,6 @@ records:
     name:
       zh: Spermophilus meltoni
       en: Spermophilus meltoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

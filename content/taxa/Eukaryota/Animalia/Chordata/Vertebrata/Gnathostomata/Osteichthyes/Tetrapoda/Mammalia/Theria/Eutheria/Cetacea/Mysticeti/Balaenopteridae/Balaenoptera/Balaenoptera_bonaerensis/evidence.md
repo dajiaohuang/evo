@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaenoptera bonaerensis
       en: Balaenoptera bonaerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

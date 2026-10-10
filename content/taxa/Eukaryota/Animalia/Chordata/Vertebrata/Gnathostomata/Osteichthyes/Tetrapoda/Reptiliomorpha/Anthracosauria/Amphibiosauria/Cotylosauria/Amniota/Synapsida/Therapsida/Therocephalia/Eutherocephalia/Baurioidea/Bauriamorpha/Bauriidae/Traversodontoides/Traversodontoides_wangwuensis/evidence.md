@@ -9,7 +9,6 @@ records:
     name:
       zh: Traversodontoides wangwuensis
       en: Traversodontoides wangwuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

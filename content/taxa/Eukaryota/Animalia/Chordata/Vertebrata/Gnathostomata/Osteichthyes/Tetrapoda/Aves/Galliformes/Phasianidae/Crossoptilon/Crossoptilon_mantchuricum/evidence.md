@@ -9,7 +9,6 @@ records:
     name:
       zh: Crossoptilon mantchuricum
       en: Crossoptilon mantchuricum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

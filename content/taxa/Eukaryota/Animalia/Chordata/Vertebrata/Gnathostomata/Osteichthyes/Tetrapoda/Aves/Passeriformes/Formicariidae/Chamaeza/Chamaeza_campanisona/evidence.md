@@ -9,7 +9,6 @@ records:
     name:
       zh: Chamaeza campanisona
       en: Chamaeza campanisona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

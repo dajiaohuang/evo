@@ -9,7 +9,6 @@ records:
     name:
       en: Niemitz's Tarsier
       zh: 尼米茨眼镜猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: description_sample

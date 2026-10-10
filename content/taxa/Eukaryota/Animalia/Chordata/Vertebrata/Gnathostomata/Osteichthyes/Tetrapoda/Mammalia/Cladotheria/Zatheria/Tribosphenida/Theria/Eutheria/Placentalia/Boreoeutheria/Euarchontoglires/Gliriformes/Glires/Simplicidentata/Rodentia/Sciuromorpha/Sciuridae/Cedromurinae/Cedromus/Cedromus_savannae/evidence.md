@@ -9,7 +9,6 @@ records:
     name:
       zh: Cedromus savannae
       en: Cedromus savannae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachyla fitzroya
       zh: Batrachyla fitzroya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

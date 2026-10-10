@@ -9,7 +9,6 @@ records:
     name:
       zh: Zhyraornis logunovi
       en: Zhyraornis logunovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

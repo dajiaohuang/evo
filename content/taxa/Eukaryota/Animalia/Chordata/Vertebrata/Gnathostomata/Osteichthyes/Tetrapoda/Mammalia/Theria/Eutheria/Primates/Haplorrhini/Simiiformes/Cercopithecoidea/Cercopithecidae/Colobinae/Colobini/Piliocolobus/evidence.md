@@ -9,7 +9,6 @@ records:
     name:
       en: Red colobus reading path
       zh: 红疣猴属阅读路径
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: typeMaterialComparison

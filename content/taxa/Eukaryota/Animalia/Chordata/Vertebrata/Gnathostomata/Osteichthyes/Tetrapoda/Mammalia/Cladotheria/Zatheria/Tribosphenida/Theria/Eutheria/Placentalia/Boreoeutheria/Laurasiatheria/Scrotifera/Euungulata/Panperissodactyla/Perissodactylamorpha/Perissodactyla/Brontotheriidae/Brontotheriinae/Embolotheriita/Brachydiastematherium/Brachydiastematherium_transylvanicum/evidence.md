@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachydiastematherium transylvanicum
       en: Brachydiastematherium transylvanicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

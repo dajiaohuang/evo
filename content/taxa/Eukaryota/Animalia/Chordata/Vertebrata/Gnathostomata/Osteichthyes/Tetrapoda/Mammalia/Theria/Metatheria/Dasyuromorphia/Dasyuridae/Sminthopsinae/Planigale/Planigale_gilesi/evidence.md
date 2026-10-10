@@ -9,7 +9,6 @@ records:
     name:
       zh: Planigale gilesi
       en: Planigale gilesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

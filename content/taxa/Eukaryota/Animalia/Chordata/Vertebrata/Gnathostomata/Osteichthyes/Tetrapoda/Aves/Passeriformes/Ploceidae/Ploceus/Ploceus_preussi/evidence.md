@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus preussi
       en: Ploceus preussi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

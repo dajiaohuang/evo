@@ -9,7 +9,6 @@ records:
     name:
       zh: Batis pririt
       en: Batis pririt
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

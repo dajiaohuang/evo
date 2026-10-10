@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanhsiungchelys wuchingensis
       en: Nanhsiungchelys wuchingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

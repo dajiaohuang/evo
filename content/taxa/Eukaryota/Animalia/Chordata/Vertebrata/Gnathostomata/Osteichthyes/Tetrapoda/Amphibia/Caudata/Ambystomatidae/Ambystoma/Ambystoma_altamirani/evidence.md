@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma altamirani
       zh: Ambystoma altamirani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

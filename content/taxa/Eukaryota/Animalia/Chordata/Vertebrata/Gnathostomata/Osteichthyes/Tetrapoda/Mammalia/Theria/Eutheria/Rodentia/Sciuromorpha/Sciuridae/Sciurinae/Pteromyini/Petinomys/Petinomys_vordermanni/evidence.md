@@ -9,7 +9,6 @@ records:
     name:
       zh: Petinomys vordermanni
       en: Petinomys vordermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

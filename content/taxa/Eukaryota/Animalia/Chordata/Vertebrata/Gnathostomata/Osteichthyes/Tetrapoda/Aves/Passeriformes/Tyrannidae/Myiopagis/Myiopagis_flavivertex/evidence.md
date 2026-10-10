@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiopagis flavivertex
       en: Myiopagis flavivertex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

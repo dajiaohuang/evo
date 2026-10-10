@@ -9,7 +9,6 @@ records:
     name:
       zh: Prohyracodon meridionale
       en: Prohyracodon meridionale
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

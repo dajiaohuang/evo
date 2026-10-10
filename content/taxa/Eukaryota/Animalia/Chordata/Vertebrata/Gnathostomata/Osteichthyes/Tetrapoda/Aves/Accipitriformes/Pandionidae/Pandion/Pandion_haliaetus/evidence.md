@@ -9,7 +9,6 @@ records:
     name:
       zh: Pandion haliaetus
       en: Pandion haliaetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

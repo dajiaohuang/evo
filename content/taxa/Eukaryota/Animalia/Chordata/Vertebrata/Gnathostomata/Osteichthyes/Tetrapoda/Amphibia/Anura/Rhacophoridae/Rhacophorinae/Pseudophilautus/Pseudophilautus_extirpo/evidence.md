@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus extirpo
       zh: Pseudophilautus extirpo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

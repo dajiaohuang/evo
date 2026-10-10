@@ -9,7 +9,6 @@ records:
     name:
       zh: Athene veta
       en: Athene veta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

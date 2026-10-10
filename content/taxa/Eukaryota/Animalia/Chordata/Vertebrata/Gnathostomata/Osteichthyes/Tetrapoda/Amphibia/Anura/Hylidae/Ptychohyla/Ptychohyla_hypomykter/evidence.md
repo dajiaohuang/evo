@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychohyla hypomykter
       zh: Ptychohyla hypomykter
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

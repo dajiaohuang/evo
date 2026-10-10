@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiaceratops salsopaludalis
       en: Asiaceratops salsopaludalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

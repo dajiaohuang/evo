@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea jaguar
       zh: Pseudoeurycea jaguar
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

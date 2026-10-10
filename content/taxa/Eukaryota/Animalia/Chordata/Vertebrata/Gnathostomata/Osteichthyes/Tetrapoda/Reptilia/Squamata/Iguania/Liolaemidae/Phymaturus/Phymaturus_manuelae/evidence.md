@@ -9,7 +9,6 @@ records:
     name:
       zh: Phymaturus manuelae
       en: Phymaturus manuelae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

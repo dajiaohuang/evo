@@ -9,7 +9,6 @@ records:
     name:
       zh: Eleothreptus
       en: Eleothreptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

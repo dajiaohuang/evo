@@ -9,7 +9,6 @@ records:
     name:
       zh: Meniscotherium tapiacitum
       en: Meniscotherium tapiacitum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

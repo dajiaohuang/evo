@@ -9,7 +9,6 @@ records:
     name:
       zh: Dakotaraptor steini
       en: Dakotaraptor steini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Trachycephalus resinifictrix
       zh: Trachycephalus resinifictrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

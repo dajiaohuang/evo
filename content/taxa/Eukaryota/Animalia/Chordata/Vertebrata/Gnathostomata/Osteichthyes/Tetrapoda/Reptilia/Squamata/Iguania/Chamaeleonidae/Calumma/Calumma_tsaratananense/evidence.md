@@ -9,7 +9,6 @@ records:
     name:
       zh: Calumma tsaratananense
       en: Calumma tsaratananense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

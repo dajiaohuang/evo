@@ -9,7 +9,6 @@ records:
     name:
       zh: Rallina canningi
       en: Rallina canningi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

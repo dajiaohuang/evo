@@ -9,7 +9,6 @@ records:
     name:
       en: Sarcohyla sabrina
       zh: Sarcohyla sabrina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

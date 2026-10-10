@@ -9,7 +9,6 @@ records:
     name:
       zh: Redondasaurus bermani
       en: Redondasaurus bermani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

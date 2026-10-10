@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius lateralis
       zh: Hyperolius lateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

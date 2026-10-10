@@ -9,7 +9,6 @@ records:
     name:
       zh: Turnix ocellatus
       en: Turnix ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

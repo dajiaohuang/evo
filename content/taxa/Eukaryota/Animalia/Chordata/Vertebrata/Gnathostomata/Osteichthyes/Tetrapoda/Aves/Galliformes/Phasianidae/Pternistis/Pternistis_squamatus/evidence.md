@@ -9,7 +9,6 @@ records:
     name:
       zh: Pternistis squamatus
       en: Pternistis squamatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

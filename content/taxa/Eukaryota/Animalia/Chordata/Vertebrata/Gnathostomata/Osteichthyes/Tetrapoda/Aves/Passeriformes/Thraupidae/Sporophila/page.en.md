@@ -11,7 +11,7 @@ status: source-linked
 ## Five species and two subspecies targets for older names
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/en -->
-Seven historical guides follow COL26.8 Sporophila (7LMG) and Thraupidae (H87); all eBird names and respective Avibase IDs match. BirdTree gives Dolospingus at fringilloides and Oryzoborus at six others, with older funereus at funerea. Five exact synonyms point to this batch’s accepted species. Oryzoborus atrirostris synonym 74ZGK points to nominate subspecies B77X3, parentId=9GBHK; Oryzoborus funereus synonym 74ZGL to nominate subspecies B7N4X, parentId=9GBHM. These two are not direct species-level synonyms; historical whole-species coverage remains unresolved. Additional Oryzoborus fringilloides is not the actual BirdTree name. Forty-one immediate catalogue children and seven guides do not complete genus content or expert review.
+Seven historical guides follow COL26.8 Sporophila (7LMG) and Thraupidae (H87); all eBird names and respective Avibase IDs match. BirdTree gives Dolospingus at fringilloides and Oryzoborus at six others, with older funereus at funerea. Five exact synonyms point to this batch’s accepted species. Oryzoborus atrirostris synonym 74ZGK points to nominate subspecies B77X3, parentId=9GBHK; Oryzoborus funereus synonym 74ZGL to nominate subspecies B7N4X, parentId=9GBHM. These two are not direct species-level synonyms; historical whole-species coverage remains unresolved. Additional Oryzoborus fringilloides is not the actual BirdTree name. Forty-one immediate catalogue children and seven guides do not complete genus content.
 <!-- /evo:text -->
 
 ## Read one male separately from thirty-three total birds
@@ -59,8 +59,8 @@ This batch’s Sporophila route includes 5 historical life-history accounts; sta
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
-Seven added guides separate five direct species targets from two nominate-subspecies targets; historical whole-species scope at atrirostris/funerea remains unresolved. One male, larger totals, complete sets, independent mass and trophic levels remain distinct. Complete content for 41 catalogue children, current maps and expert review remain unfinished.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+Seven added guides separate five direct species targets from two nominate-subspecies targets; historical whole-species scope at atrirostris/funerea remains unresolved. One male, larger totals, complete sets, independent mass and trophic levels remain distinct. Complete content for 41 catalogue children, current maps remain unfinished.
 <!-- /evo:text -->
 
 ## Start with the limited ecology records
@@ -78,5 +78,5 @@ Recorded category counts are 4 for habitat, 4 for feeding niche, 4 for primary l
 ## Limits of these historical data
 
 <!-- evo:text /records/catalogue-profile/sections/9/text/en -->
-This entry covers this batch’s limited historical ecology records, not every accepted descendant or expert review. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
+This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 <!-- /evo:text -->

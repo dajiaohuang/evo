@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus leonardovaldesi
       en: Sphaerodactylus leonardovaldesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

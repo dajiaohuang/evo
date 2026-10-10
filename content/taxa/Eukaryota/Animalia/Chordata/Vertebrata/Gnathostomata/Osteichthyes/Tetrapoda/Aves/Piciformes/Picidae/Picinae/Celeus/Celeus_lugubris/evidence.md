@@ -9,7 +9,6 @@ records:
     name:
       zh: Celeus lugubris
       en: Celeus lugubris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

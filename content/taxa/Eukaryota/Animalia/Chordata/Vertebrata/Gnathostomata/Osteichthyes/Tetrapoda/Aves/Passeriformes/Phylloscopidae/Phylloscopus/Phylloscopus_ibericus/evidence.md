@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus ibericus
       en: Phylloscopus ibericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dollosuchoides densmorei
       en: Dollosuchoides densmorei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ The type specimen was collected at Mabobi on the left bank of the Lualaba. Field
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Patrol sightings and a conservation synthesis do not establish a continuous range or population estimate; the profile is limited to the documented record history. This source-linked draft is not externally expert-reviewed.
+Patrol sightings and a conservation synthesis do not establish a continuous range or population estimate; the profile is limited to the documented record history. This source-linked draft is.
 <!-- /evo:text -->

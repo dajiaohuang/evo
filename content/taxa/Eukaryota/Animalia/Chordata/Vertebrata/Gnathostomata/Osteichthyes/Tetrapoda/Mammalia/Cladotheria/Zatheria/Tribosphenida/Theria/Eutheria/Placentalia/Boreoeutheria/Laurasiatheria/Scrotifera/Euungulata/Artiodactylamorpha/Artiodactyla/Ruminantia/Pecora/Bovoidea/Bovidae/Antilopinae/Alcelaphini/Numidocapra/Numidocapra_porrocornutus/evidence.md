@@ -9,7 +9,6 @@ records:
     name:
       zh: Numidocapra porrocornutus
       en: Numidocapra porrocornutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

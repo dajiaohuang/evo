@@ -2,8 +2,7 @@
 
 The collection contains 8,021 original morphology and habitat passages for
 4,156 uniquely linked accepted COL26.8 species. It is regional historical
-source text, not a global species dossier, current distribution assessment,
-or expert review of Evo's taxonomy.
+source text, not a global species dossier, current distribution assessment of Evo's taxonomy.
 
 Source: Meise Botanic Garden's WFO archive, retrieved 2026-09-05, under CC BY 4.0.
 The import ledger records archive, candidate and output SHA-256 digests.

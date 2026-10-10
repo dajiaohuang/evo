@@ -9,7 +9,6 @@ records:
     name:
       zh: Paragalago 属
       en: Paragalago
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Apathya cappadocica
       en: Apathya cappadocica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

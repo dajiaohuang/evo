@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyopsodus lysitensis
       en: Hyopsodus lysitensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

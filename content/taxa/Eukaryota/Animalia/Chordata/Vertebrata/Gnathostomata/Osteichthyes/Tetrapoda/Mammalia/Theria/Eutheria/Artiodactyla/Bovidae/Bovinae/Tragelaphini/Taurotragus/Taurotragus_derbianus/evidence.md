@@ -9,7 +9,6 @@ records:
     name:
       zh: Taurotragus derbianus
       en: Taurotragus derbianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

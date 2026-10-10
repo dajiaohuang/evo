@@ -9,7 +9,6 @@ records:
     name:
       en: Bufoides bhupathyi
       zh: Bufoides bhupathyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

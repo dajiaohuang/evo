@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus biroi
       zh: Cophixalus biroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

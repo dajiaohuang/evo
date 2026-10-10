@@ -9,7 +9,6 @@ records:
     name:
       zh: 乞力马扎罗疣猴
       en: Mount Kilimanjaro Guereza
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

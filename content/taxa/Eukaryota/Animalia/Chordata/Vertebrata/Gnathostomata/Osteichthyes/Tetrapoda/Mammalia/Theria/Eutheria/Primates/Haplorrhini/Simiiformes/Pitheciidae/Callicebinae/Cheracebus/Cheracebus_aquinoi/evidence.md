@@ -9,7 +9,6 @@ records:
     name:
       zh: 阿基诺跳猴
       en: Aquino's Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: descriptionAndTypeLocality

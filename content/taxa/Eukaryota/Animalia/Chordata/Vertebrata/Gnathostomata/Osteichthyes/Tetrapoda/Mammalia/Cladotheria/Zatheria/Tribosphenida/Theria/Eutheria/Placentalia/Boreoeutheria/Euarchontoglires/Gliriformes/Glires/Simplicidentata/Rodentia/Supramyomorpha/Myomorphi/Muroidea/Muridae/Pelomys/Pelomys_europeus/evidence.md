@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelomys europeus
       en: Pelomys europeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

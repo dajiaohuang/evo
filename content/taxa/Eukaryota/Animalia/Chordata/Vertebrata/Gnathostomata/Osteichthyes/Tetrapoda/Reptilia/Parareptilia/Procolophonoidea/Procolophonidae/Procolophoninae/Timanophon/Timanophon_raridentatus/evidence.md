@@ -9,7 +9,6 @@ records:
     name:
       zh: Timanophon raridentatus
       en: Timanophon raridentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

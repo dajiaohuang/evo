@@ -9,7 +9,6 @@ records:
     name:
       zh: Scotophilus heathii
       en: Scotophilus heathii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

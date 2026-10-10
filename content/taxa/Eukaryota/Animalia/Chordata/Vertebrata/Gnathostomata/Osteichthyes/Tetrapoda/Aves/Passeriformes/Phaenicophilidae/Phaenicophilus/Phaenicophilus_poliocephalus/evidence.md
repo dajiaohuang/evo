@@ -9,7 +9,6 @@ records:
     name:
       zh: Phaenicophilus poliocephalus
       en: Phaenicophilus poliocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

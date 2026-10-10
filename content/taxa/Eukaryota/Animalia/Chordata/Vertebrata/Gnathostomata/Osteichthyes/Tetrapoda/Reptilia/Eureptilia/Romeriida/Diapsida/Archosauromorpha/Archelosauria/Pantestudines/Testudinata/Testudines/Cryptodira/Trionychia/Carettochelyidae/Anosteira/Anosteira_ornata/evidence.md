@@ -9,7 +9,6 @@ records:
     name:
       zh: Anosteira ornata
       en: Anosteira ornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

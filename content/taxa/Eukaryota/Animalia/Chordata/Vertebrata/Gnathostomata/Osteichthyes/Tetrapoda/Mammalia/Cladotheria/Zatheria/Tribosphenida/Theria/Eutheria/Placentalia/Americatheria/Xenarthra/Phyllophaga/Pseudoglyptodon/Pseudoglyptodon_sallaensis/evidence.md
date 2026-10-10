@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoglyptodon sallaensis
       en: Pseudoglyptodon sallaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

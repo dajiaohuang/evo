@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis omarrhynchus
       zh: Pristimantis omarrhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Krebsotherium lusitanicum
       en: Krebsotherium lusitanicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiolopisma ceciliae
       en: Leiolopisma ceciliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

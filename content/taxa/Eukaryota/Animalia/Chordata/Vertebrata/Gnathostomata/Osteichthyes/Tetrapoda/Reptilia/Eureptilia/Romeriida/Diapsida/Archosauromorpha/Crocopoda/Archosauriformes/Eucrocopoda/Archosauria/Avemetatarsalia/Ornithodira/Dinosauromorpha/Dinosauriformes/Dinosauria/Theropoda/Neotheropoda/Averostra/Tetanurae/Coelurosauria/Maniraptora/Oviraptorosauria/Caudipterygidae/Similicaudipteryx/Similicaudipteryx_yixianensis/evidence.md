@@ -9,7 +9,6 @@ records:
     name:
       zh: Similicaudipteryx yixianensis
       en: Similicaudipteryx yixianensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

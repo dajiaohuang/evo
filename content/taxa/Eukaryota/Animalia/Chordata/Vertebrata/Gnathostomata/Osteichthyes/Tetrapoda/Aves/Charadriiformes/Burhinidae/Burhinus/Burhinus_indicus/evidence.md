@@ -9,7 +9,6 @@ records:
     name:
       zh: Burhinus indicus
       en: Burhinus indicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

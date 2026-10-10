@@ -30,5 +30,5 @@ Start with Balaur bondoc and compare each page’s named collections and origina
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route connects occurrence records with a specimen and reassessment guide. It is not a complete descendant catalogue or unified ecology. Occurrence/collection counts do not measure individuals, populations or sampling intensity; broad ages do not date origin or extinction. PBDB navigation and the proposed avialan placement are presented separately, without reclassification or external expert review.
+This route connects occurrence records with a specimen and reassessment guide. It is not a complete descendant catalogue or unified ecology. Occurrence/collection counts do not measure individuals, populations or sampling intensity; broad ages do not date origin or extinction. PBDB navigation and the proposed avialan placement are presented separately, without reclassification.
 <!-- /evo:text -->

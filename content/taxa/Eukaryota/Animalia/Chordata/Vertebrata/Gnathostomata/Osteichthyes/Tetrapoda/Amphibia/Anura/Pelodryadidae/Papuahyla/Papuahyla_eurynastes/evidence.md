@@ -9,7 +9,6 @@ records:
     name:
       en: Papuahyla eurynastes
       zh: Papuahyla eurynastes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

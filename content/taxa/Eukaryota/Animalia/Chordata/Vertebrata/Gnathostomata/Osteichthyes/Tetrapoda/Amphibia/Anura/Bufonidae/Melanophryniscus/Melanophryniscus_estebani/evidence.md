@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus estebani
       zh: Melanophryniscus estebani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

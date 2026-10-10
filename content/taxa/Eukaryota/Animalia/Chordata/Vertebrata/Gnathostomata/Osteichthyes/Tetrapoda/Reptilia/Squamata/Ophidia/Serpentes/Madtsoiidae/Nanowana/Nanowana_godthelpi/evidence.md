@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanowana godthelpi
       en: Nanowana godthelpi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Zaglossus attenboroughi
       en: Zaglossus attenboroughi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

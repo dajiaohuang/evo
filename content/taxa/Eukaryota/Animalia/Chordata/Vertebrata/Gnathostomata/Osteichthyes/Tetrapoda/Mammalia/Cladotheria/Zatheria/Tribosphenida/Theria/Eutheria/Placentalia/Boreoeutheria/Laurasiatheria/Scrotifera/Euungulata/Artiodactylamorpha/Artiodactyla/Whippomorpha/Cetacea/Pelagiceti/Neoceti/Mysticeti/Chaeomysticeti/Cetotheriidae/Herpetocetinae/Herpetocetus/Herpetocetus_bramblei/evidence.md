@@ -9,7 +9,6 @@ records:
     name:
       zh: Herpetocetus bramblei
       en: Herpetocetus bramblei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

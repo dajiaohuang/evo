@@ -9,7 +9,6 @@ records:
     name:
       zh: Insulasaurus victoria
       en: Insulasaurus victoria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

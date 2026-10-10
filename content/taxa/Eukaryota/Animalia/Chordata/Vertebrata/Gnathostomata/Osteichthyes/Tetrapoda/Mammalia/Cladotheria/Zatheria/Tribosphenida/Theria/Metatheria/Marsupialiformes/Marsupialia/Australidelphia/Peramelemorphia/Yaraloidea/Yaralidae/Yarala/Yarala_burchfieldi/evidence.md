@@ -9,7 +9,6 @@ records:
     name:
       zh: Yarala burchfieldi
       en: Yarala burchfieldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Selenohyrax chatrathi
       en: Selenohyrax chatrathi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

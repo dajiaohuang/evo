@@ -9,7 +9,6 @@ records:
     name:
       zh: Bubalus depressicornis
       en: Bubalus depressicornis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana verrucosa
       zh: Cyclorana verrucosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

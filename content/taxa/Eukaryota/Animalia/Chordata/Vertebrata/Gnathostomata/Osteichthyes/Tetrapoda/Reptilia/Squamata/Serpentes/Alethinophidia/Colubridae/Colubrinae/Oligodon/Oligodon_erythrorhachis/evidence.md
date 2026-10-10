@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon erythrorhachis
       en: Oligodon erythrorhachis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

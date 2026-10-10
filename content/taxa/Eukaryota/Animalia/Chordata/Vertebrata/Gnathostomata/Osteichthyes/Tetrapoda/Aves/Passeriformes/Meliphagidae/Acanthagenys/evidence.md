@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthagenys
       en: Acanthagenys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

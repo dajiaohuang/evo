@@ -9,7 +9,6 @@ records:
     name:
       zh: Ocreatus underwoodii
       en: Ocreatus underwoodii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Gastornis laurenti
       en: Gastornis laurenti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

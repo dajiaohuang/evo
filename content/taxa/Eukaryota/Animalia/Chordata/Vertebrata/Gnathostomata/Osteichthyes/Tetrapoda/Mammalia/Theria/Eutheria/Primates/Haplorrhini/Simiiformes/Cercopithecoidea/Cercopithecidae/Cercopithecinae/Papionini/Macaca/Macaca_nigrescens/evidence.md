@@ -9,7 +9,6 @@ records:
     name:
       zh: 哥伦打洛猕猴
       en: Gorontalo Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypertragulus dakotensis
       en: Hypertragulus dakotensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

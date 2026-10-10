@@ -9,7 +9,6 @@ records:
     name:
       zh: Platysmurus
       en: Platysmurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

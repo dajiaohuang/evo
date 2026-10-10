@@ -9,7 +9,6 @@ records:
     name:
       en: Conraua alleni
       zh: Conraua alleni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

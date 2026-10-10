@@ -9,7 +9,6 @@ records:
     name:
       en: Bokermannohyla saxicola
       zh: Bokermannohyla saxicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

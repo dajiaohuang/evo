@@ -9,7 +9,6 @@ records:
     name:
       en: Southern Patas Monkey
       zh: 南方赤猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

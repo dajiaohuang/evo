@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvoscincus abstrusus
       en: Parvoscincus abstrusus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

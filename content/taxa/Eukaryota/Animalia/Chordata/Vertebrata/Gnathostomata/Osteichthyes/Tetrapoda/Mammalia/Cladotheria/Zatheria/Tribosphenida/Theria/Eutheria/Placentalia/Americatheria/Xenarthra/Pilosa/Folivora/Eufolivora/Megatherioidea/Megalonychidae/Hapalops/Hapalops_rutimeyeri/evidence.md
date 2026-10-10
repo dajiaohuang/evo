@@ -9,7 +9,6 @@ records:
     name:
       zh: Hapalops rutimeyeri
       en: Hapalops rutimeyeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

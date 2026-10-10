@@ -9,7 +9,6 @@ records:
     name:
       en: Peltophryne lemur
       zh: Peltophryne lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

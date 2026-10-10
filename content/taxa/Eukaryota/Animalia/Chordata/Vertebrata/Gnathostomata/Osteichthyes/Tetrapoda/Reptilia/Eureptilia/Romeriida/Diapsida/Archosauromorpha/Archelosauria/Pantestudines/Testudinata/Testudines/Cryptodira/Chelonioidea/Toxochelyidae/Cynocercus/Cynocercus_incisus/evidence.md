@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynocercus incisus
       en: Cynocercus incisus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cercomacra manu
       en: Cercomacra manu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

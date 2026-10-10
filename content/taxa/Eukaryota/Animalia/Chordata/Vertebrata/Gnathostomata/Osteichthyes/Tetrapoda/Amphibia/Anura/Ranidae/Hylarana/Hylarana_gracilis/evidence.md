@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana gracilis
       zh: Hylarana gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

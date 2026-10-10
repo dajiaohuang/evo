@@ -9,7 +9,6 @@ records:
     name:
       zh: Saltator fuliginosus
       en: Saltator fuliginosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

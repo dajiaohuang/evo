@@ -9,7 +9,6 @@ records:
     name:
       zh: Thryptacodon pseudarctos
       en: Thryptacodon pseudarctos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

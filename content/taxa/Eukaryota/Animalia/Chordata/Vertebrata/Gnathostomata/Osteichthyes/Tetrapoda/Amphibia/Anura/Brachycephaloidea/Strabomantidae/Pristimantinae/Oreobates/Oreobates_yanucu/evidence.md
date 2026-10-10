@@ -9,7 +9,6 @@ records:
     name:
       en: Oreobates yanucu
       zh: Oreobates yanucu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

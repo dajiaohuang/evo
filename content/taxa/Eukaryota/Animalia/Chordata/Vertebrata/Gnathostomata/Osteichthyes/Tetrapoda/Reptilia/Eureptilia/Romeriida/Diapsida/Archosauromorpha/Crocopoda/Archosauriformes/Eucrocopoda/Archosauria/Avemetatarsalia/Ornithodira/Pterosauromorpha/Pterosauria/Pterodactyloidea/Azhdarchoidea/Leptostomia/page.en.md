@@ -36,5 +36,5 @@ Start with Leptostomia begaaensis and compare each page’s named collections an
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page adds the original-description author manuscript and the 2023 Leptostomia account. Figures 2 and 7 and table 1 were inspected; other images, supplemental matrices, raw XCT and specimens remain incomplete. Upper/lower-jaw species referral, maturity, relationships, probing and sensory ability retain their separate inference limits; missing lengths are not measurements of complete jaws. Database counts, ages, parent chains and review states remain, without remeasurement, independent reruns or external expert review. Complete biology and reader delivery remain pending.
+This page adds the original-description author manuscript and the 2023 Leptostomia account. Figures 2 and 7 and table 1 were inspected; other images, supplemental matrices, raw XCT and specimens remain incomplete. Upper/lower-jaw species referral, maturity, relationships, probing and sensory ability retain their separate inference limits; missing lengths are not measurements of complete jaws. Database counts, ages, parent chains and review states remain, without remeasurement, independent reruns. Complete biology and reader delivery remain pending.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eryx somalicus
       en: Eryx somalicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dyacopterus spadiceus
       en: Dyacopterus spadiceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

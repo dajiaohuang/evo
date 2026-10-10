@@ -9,7 +9,6 @@ records:
     name:
       zh: Blarinoides mariae
       en: Blarinoides mariae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

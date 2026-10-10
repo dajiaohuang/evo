@@ -9,7 +9,6 @@ records:
     name:
       zh: Matuku otagoense
       en: Matuku otagoense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

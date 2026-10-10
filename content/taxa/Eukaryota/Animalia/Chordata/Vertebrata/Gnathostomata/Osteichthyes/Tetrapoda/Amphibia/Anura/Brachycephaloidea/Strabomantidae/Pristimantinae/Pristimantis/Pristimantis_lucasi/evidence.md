@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis lucasi
       zh: Pristimantis lucasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

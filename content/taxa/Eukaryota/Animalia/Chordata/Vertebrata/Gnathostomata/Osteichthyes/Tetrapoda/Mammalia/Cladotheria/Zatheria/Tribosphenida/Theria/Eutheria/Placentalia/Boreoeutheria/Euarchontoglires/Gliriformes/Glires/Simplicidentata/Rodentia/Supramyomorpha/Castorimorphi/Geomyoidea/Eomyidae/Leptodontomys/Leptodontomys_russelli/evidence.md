@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptodontomys russelli
       en: Leptodontomys russelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

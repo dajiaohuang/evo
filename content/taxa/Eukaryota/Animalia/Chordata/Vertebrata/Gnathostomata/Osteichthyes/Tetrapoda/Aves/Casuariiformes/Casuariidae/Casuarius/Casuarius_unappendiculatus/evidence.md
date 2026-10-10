@@ -9,7 +9,6 @@ records:
     name:
       zh: Casuarius unappendiculatus
       en: Casuarius unappendiculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

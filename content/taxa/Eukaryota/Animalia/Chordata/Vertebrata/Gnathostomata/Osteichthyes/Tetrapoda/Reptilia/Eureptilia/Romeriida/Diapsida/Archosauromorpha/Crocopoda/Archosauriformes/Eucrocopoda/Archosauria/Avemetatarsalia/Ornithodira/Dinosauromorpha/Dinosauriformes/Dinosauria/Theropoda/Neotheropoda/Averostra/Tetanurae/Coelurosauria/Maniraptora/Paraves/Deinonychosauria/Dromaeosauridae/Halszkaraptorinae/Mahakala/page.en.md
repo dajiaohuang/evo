@@ -36,5 +36,5 @@ Start with Mahakala omnogovae and compare each page’s named collections and or
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This genus route connects selected holotype anatomical descriptions, later comparison and fixed occurrences. Estimated lengths, disputed measurements, maturity and relationship hypotheses from different dates remain distinct. More preserved material does not establish ecology. The complete 2011 monograph and all later studies are not assembled section by section; there is no independent remeasurement, reanalysis or external expert review.
+This genus route connects selected holotype anatomical descriptions, later comparison and fixed occurrences. Estimated lengths, disputed measurements, maturity and relationship hypotheses from different dates remain distinct. More preserved material does not establish ecology. The complete 2011 monograph and all later studies are not assembled section by section; there is no independent remeasurement, reanalysis.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus callocricus
       en: Sphaerodactylus callocricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

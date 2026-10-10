@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura virgata
       en: Crocidura virgata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

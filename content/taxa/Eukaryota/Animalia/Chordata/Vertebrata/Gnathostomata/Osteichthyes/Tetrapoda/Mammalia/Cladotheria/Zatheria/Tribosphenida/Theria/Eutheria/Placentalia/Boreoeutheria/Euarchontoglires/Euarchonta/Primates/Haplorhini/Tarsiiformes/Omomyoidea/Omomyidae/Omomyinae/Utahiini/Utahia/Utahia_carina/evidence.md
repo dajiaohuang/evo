@@ -9,7 +9,6 @@ records:
     name:
       zh: Utahia carina
       en: Utahia carina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

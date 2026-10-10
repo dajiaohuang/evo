@@ -9,7 +9,6 @@ records:
     name:
       zh: Parasminthus debruijni
       en: Parasminthus debruijni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

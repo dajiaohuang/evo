@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门概述，尚未经过外部领域专家评审。资料范围是澳大利亚漏斗网蛛科；页面提及的属、种数量随分类修订而变，本条不将其作为当前清单。
+这是有来源的入门概述。资料范围是澳大利亚漏斗网蛛科；页面提及的属、种数量随分类修订而变，本条不将其作为当前清单。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodenteia ministra
       en: Prodenteia ministra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

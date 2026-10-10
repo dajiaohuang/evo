@@ -9,7 +9,6 @@ records:
     name:
       en: Pelodytes punctatus
       zh: Pelodytes punctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

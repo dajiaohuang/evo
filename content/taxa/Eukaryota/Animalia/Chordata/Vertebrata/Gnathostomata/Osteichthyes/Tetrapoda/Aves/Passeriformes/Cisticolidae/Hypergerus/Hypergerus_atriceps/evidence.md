@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypergerus atriceps
       en: Hypergerus atriceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus vrijeuni
       zh: Nyctibatrachus vrijeuni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Sigalegalephrynus gayoluesensis
       zh: Sigalegalephrynus gayoluesensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -3,6 +3,7 @@ import { dirname, join } from 'node:path'
 import { flattenTree, readJson, rootDir } from './data-lib.mjs'
 import { packageDefinitions } from './package-definitions.mjs'
 import { descendantTaxonScope, normalizeTaxonName, occurrenceMatchMethod } from './taxon-linkage.mjs'
+import { queryEligibility } from './targeted-pbdb-lib.mjs'
 
 const ontology = readJson('data/navigation/atlas-ontology.json')
 const resolutions = new Map(readJson('data/sources/pbdb-taxon-resolution.json').resolutions.map((entry) => [entry.entityId, entry]))
@@ -17,7 +18,7 @@ const allRecords = [...recordsByPeriod.values()].flat()
 const ontologyNodes = flattenTree(ontology)
 const mappingCanDriveQuery = (entityId) => {
   const resolution = resolutions.get(entityId)
-  return resolution?.resolutionStatus === 'resolved' && (resolution.conceptReviewStatus !== 'needs-concept-review' || resolution.humanCuratorDecision === 'accept-external-mapping')
+  return queryEligibility(resolution).eligible
 }
 const canonicalTaxonIds = new Set(ontologyNodes.filter((node) => mappingCanDriveQuery(node.id)).map((node) => node.taxonId).filter(Boolean))
 const canonicalNames = new Set(ontologyNodes.filter((node) => mappingCanDriveQuery(node.id)).map((node) => normalizeTaxonName(node.name)))
@@ -73,8 +74,10 @@ for (const node of ontologyNodes) {
     ? 'navigation-only'
     : node.entityKind === 'historical-grade'
       ? 'historical-grade'
-        : resolution?.conceptReviewStatus === 'needs-concept-review' && resolution?.humanCuratorDecision !== 'accept-external-mapping'
-          ? 'concept-review-required'
+        : resolution?.lineageCompatibility === 'incompatible'
+          ? 'incompatible-lineage'
+          : resolution?.resolutionStatus === 'resolved' && !mappingCanDriveQuery(node.id)
+            ? 'lineage-not-verified'
           : resolution?.resolutionStatus === 'resolved'
         ? matchedTotal ? 'resolved-and-observed' : 'resolved-zero-in-bounded-sample'
         : 'external-id-unresolved'
@@ -120,7 +123,7 @@ const profileTotals = Object.fromEntries(profiles.map((profile) => {
   return [profile.id, completeQuery ? (completeQuery.queryEligible ? completeQuery.rowsFetched ?? 0 : 0) : nodes[profile.treeNodeId]?.matchedTotal ?? 0]
 }))
 const profileQueryStatus = Object.fromEntries(profiles.map((profile) => {
-  if (!mappingCanDriveQuery(profile.treeNodeId)) return [profile.id, 'concept-review-required']
+  if (!mappingCanDriveQuery(profile.treeNodeId)) return [profile.id, nodes[profile.treeNodeId]?.queryStatus ?? 'external-id-unresolved']
   const completeQuery = completeQueryByEntityId.get(profile.treeNodeId)
   if (completeQuery?.queryEligible) return [profile.id, completeQuery.rowsFetched ? 'complete-query-observed' : 'complete-query-zero']
   return [profile.id, nodes[profile.treeNodeId]?.queryStatus ?? 'outside-snapshot-scope']
@@ -153,9 +156,9 @@ const coverage = {
   resolutionSummary: {
     resolved: [...resolutions.values()].filter((entry) => entry.resolutionStatus === 'resolved').length,
     unresolved: [...resolutions.values()].filter((entry) => entry.resolutionStatus !== 'resolved').length,
-    needsConceptReview: [...resolutions.values()].filter((entry) => entry.conceptReviewStatus === 'needs-concept-review').length,
-    conceptResolved: [...resolutions.values()].filter((entry) => ['compatible', 'not-required-navigation-edge'].includes(entry.conceptReviewStatus) || entry.humanCuratorDecision === 'accept-external-mapping').length,
-    humanCuratorDecisions: [...resolutions.values()].filter((entry) => entry.humanCuratorDecision).length,
+
+
+
   },
   packageCoverage,
   profileTotals,
@@ -180,17 +183,6 @@ function writeJson(relativePath, value) {
 
 writeJson('data/indexes/entity-occurrence-index.json', output)
 writeJson('data/indexes/entity-linkage-coverage.json', coverage)
-if (process.argv.includes('--write-baseline')) writeJson('data/indexes/entity-linkage-baseline.json', {
-  schemaVersion: 2,
-  frozenAt: new Date().toISOString().slice(0, 10),
-  sourceTotal,
-  minimumLinkedOccurrenceRate: Number(Math.max(0, coverage.linkedOccurrenceRate - 0.005).toFixed(6)),
-  minimumLinkageMethods: Object.fromEntries(Object.entries(coverage.linkageMethods).map(([method, count]) => [method, Math.floor(count * 0.98)])),
-  packageMinimumRates: Object.fromEntries(Object.entries(packageCoverage).filter(([, value]) => value.coverageStatus === 'sampled').map(([packageId, value]) => [packageId, Number(Math.max(0, value.linkedRate - 0.01).toFixed(6))])),
-  noSamplePackageIds: Object.entries(packageCoverage).filter(([, value]) => value.coverageStatus === 'no-sampled-rows').map(([packageId]) => packageId),
-  unresolvedEntityIds: [...resolutions.values()].filter((entry) => entry.resolutionStatus !== 'resolved').map((entry) => entry.entityId).sort(),
-  ambiguousNameCollisions,
-})
 
 console.log(`Built entity occurrence index for ${Object.keys(nodes).length} stable entity IDs.`)
 console.log(`Linked ${linkedOccurrenceTotal.toLocaleString()} of ${sourceTotal.toLocaleString()} bundled occurrences; ${coverage.zeroMatchProfiles.length} flagship profiles have zero matches.`)

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crateromys schadenbergi
       en: Crateromys schadenbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

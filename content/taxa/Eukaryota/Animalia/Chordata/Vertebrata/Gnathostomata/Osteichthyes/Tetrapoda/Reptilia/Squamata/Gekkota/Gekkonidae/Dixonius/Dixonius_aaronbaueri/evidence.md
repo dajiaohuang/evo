@@ -9,7 +9,6 @@ records:
     name:
       zh: Dixonius aaronbaueri
       en: Dixonius aaronbaueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

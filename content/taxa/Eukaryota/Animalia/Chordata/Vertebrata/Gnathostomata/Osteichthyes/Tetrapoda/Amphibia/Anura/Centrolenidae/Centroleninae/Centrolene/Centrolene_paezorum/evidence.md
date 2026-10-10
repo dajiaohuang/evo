@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene paezorum
       zh: Centrolene paezorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

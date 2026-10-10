@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes parvulus
       zh: Raorchestes parvulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

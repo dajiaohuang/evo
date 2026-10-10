@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus atkinsi
       zh: Eleutherodactylus atkinsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: 米尔顿僧面猴
       en: Milton's Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

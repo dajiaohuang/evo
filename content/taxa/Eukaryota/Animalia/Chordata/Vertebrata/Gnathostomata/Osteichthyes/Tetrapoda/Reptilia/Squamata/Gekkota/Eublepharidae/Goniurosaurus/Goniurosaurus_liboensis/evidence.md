@@ -9,7 +9,6 @@ records:
     name:
       zh: Goniurosaurus liboensis
       en: Goniurosaurus liboensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

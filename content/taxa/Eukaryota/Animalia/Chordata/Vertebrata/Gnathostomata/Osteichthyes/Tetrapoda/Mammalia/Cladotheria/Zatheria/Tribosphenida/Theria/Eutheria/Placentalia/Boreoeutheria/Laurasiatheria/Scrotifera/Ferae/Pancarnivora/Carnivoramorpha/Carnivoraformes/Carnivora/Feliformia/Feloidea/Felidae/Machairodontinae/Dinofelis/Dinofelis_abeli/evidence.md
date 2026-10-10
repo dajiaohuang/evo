@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinofelis abeli
       en: Dinofelis abeli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus palmatus
       zh: Atelopus palmatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

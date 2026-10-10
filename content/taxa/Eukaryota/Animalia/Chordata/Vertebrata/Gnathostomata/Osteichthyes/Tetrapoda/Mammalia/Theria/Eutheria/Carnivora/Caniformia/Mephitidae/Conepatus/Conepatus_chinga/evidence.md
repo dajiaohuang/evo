@@ -9,7 +9,6 @@ records:
     name:
       zh: Conepatus chinga
       en: Conepatus chinga
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

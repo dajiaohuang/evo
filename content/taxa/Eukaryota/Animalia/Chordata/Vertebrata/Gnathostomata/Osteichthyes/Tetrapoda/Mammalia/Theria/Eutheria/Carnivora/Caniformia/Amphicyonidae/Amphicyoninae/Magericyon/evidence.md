@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: diaz-de-leon-2026-magericyon-fea concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: diaz-de-leon-2026-magericyon-fea
@@ -67,7 +64,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Magericyon

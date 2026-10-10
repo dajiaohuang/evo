@@ -9,7 +9,6 @@ records:
     name:
       zh: Barguru kula
       en: Barguru kula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

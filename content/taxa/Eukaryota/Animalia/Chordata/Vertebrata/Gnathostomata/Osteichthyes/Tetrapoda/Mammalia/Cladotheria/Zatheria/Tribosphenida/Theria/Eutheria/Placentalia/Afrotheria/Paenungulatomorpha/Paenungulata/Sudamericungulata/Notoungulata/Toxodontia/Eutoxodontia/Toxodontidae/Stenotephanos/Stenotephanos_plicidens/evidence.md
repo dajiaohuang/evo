@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenotephanos plicidens
       en: Stenotephanos plicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

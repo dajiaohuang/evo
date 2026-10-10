@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton caudopunctatus
       zh: Paramesotriton caudopunctatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

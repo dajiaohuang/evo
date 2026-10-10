@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: turner-2007-velociraptor-quill-knobs concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: turner-2007-velociraptor-quill-knobs
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: turner-2007-velociraptor-quill-knobs @ DOI 10.1126/science.1145076
       referenceLinks:
         - relation: supports
           referenceId: turner-2007-velociraptor-quill-knobs
@@ -96,7 +90,6 @@ records:
           locator: 1721; Specimen IGM 100/981; ulnar papillae description; comparative interpretation
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Velociraptor
@@ -105,7 +98,6 @@ records:
     name:
       zh: Velociraptor
       en: Velociraptor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Fregata aquila
       en: Fregata aquila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

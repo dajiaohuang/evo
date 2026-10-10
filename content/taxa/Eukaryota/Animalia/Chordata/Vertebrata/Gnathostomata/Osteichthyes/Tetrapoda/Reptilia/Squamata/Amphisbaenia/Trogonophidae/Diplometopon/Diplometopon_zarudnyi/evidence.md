@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplometopon zarudnyi
       en: Diplometopon zarudnyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

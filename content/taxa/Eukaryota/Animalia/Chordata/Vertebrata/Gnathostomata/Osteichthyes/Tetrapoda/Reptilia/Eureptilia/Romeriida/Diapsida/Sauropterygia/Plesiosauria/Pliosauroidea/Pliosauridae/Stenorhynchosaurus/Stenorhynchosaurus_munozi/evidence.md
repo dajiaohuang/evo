@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenorhynchosaurus munozi
       en: Stenorhynchosaurus munozi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

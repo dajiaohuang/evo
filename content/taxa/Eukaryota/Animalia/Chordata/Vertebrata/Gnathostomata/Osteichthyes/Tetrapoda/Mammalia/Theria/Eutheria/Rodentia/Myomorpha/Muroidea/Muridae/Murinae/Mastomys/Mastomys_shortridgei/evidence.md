@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastomys shortridgei
       en: Mastomys shortridgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

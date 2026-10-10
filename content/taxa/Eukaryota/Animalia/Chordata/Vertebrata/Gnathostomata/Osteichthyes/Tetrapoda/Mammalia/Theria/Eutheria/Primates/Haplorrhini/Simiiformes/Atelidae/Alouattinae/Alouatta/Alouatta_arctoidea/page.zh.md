@@ -16,5 +16,5 @@ Aponte-Fernandes 与 Bosque 回访了委内瑞拉 Llanos 地区 Hato Masaguaral 
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-有来源的局地种群历史导读，尚未经过外部领域专家评审。证据来自 Hato Masaguaral 一个种群，并比较 1999 年与 2011—2012 年计数；不能据此判定该种当前状态或全分布区趋势。
+有来源的局地种群历史导读。证据来自 Hato Masaguaral 一个种群，并比较 1999 年与 2011—2012 年计数；不能据此判定该种当前状态或全分布区趋势。
 <!-- /evo:text -->

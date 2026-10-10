@@ -9,7 +9,6 @@ records:
     name:
       zh: Caenagnathus collinsi
       en: Caenagnathus collinsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

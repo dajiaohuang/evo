@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrotriton bromeliacius
       zh: Dendrotriton bromeliacius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

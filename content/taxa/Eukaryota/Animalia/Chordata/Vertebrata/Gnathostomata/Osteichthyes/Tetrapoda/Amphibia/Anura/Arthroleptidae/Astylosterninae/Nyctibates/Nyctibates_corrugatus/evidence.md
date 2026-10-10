@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibates corrugatus
       zh: Nyctibates corrugatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

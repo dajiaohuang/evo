@@ -9,7 +9,6 @@ records:
     name:
       en: Xenophrys flavipunctata
       zh: Xenophrys flavipunctata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

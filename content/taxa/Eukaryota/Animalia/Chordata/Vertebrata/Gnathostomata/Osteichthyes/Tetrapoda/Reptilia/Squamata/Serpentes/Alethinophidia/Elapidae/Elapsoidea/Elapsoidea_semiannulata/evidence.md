@@ -9,7 +9,6 @@ records:
     name:
       zh: Elapsoidea semiannulata
       en: Elapsoidea semiannulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

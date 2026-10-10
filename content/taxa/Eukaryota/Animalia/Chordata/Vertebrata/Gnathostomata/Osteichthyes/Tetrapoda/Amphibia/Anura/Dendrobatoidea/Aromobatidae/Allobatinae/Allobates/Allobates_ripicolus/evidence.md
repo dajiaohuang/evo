@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates ripicolus
       zh: Allobates ripicolus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

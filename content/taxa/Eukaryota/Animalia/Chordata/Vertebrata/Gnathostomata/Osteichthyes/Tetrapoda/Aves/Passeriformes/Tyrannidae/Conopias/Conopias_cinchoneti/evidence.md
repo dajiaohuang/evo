@@ -9,7 +9,6 @@ records:
     name:
       zh: Conopias cinchoneti
       en: Conopias cinchoneti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

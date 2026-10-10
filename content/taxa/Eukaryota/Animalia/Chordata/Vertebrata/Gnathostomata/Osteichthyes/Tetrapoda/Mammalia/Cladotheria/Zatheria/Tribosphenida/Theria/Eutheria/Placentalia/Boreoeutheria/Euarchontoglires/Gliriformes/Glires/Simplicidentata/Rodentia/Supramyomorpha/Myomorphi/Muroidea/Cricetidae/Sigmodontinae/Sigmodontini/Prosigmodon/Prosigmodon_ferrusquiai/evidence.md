@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosigmodon ferrusquiai
       en: Prosigmodon ferrusquiai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Marisora pergravis
       en: Marisora pergravis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

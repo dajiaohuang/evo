@@ -9,7 +9,6 @@ records:
     name:
       zh: Litocherus lacunatus
       en: Litocherus lacunatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

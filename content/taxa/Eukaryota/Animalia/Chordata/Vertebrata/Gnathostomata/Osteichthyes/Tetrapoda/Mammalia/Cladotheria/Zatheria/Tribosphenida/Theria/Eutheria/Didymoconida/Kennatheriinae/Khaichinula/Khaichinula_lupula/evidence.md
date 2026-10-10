@@ -9,7 +9,6 @@ records:
     name:
       zh: Khaichinula lupula
       en: Khaichinula lupula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

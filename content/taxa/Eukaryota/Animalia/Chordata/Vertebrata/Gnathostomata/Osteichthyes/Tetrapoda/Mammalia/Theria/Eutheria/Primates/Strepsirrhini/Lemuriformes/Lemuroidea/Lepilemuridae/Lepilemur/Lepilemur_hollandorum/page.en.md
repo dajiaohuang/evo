@@ -22,5 +22,5 @@ The paper then knew the species only from the Ivontaka-Sud and Verezanantsoro lo
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Mass, morphology, and forest records reflect the 2009 sample; uncertainty about both limits is retained. The Chinese name is editorial, and this guide is not externally expert-reviewed.
+Mass, morphology, and forest records reflect the 2009 sample; uncertainty about both limits is retained. The Chinese name is editorial, and this guide is.
 <!-- /evo:text -->

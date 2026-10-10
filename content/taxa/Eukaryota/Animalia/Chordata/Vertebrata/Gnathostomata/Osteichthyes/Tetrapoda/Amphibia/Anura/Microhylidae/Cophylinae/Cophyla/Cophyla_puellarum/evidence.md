@@ -9,7 +9,6 @@ records:
     name:
       en: Cophyla puellarum
       zh: Cophyla puellarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

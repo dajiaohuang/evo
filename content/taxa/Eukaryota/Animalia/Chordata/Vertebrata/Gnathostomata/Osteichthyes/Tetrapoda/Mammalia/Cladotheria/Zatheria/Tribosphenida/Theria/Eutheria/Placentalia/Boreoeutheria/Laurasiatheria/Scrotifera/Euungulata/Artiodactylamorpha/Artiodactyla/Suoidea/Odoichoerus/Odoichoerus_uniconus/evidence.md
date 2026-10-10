@@ -9,7 +9,6 @@ records:
     name:
       zh: Odoichoerus uniconus
       en: Odoichoerus uniconus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Diplolaemus darwinii
       en: Diplolaemus darwinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

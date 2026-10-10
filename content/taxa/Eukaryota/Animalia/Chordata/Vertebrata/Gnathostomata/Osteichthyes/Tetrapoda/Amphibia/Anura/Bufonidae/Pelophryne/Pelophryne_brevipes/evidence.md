@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophryne brevipes
       zh: Pelophryne brevipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton soimalai
       zh: Tylototriton soimalai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

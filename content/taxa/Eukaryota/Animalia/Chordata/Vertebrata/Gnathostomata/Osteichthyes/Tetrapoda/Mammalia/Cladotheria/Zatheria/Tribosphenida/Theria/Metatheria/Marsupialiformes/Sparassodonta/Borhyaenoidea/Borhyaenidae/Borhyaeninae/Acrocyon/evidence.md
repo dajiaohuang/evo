@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrocyon
       en: Acrocyon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tonnicinctus mirus
       en: Tonnicinctus mirus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

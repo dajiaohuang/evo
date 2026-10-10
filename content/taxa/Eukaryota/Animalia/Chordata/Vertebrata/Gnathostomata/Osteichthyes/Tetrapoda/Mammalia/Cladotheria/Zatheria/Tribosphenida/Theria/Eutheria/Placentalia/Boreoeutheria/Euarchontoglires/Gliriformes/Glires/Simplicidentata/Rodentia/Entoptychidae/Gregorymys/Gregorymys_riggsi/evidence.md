@@ -9,7 +9,6 @@ records:
     name:
       zh: Gregorymys riggsi
       en: Gregorymys riggsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

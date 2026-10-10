@@ -9,7 +9,6 @@ records:
     name:
       zh: Actiosaurus gaudryi
       en: Actiosaurus gaudryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。资料限于一个保护区的三组放归群体和短期观察，不代表野生出生群体或种群普遍食谱。
+。资料限于一个保护区的三组放归群体和短期观察，不代表野生出生群体或种群普遍食谱。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Veniliornis dignus
       en: Veniliornis dignus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

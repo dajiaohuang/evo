@@ -9,7 +9,6 @@ records:
     name:
       zh: Leipsanolestes siegfriedti
       en: Leipsanolestes siegfriedti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

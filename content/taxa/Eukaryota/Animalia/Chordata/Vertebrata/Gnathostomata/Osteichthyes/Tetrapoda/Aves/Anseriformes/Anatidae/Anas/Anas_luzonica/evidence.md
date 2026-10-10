@@ -9,7 +9,6 @@ records:
     name:
       zh: Anas luzonica
       en: Anas luzonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

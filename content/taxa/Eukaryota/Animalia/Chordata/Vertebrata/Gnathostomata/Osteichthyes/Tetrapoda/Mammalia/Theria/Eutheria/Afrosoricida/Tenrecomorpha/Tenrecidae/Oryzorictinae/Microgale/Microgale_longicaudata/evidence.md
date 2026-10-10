@@ -9,7 +9,6 @@ records:
     name:
       zh: Microgale longicaudata
       en: Microgale longicaudata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

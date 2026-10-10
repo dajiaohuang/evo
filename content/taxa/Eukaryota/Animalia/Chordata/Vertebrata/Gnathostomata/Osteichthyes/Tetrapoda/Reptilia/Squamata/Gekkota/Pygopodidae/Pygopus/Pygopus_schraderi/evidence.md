@@ -9,7 +9,6 @@ records:
     name:
       zh: Pygopus schraderi
       en: Pygopus schraderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

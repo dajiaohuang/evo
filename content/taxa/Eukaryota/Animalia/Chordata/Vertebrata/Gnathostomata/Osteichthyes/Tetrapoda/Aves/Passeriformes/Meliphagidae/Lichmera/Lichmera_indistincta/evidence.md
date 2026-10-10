@@ -9,7 +9,6 @@ records:
     name:
       zh: Lichmera indistincta
       en: Lichmera indistincta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiorycteropus germainepetterae
       en: Plesiorycteropus germainepetterae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

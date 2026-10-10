@@ -9,7 +9,6 @@ records:
     name:
       zh: Cephalophus adersi
       en: Cephalophus adersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

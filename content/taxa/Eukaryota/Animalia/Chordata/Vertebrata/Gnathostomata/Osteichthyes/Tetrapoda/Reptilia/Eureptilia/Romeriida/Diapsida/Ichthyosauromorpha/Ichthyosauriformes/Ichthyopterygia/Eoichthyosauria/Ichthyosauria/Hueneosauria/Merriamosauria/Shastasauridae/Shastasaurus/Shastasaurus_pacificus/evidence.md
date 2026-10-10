@@ -9,7 +9,6 @@ records:
     name:
       zh: Shastasaurus pacificus
       en: Shastasaurus pacificus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

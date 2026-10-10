@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia iharana
       zh: Stumpffia iharana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

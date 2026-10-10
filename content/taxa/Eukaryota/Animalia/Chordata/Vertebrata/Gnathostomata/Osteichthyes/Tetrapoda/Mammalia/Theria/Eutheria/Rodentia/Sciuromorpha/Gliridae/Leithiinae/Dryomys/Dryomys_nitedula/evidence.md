@@ -9,7 +9,6 @@ records:
     name:
       zh: Dryomys nitedula
       en: Dryomys nitedula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

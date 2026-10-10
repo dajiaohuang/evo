@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea leprosa
       zh: Pseudoeurycea leprosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

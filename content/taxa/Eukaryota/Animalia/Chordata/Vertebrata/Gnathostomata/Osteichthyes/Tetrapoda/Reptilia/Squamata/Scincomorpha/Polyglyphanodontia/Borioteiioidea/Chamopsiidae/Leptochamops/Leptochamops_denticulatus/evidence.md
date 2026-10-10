@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptochamops denticulatus
       en: Leptochamops denticulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Callaeas cinereus
       en: Callaeas cinereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

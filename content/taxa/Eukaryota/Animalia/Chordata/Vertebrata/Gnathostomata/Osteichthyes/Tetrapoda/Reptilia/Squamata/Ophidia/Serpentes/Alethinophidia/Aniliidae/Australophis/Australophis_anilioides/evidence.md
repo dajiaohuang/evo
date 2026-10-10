@@ -9,7 +9,6 @@ records:
     name:
       zh: Australophis anilioides
       en: Australophis anilioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

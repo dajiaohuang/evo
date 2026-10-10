@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoxyrhopus ankafinaensis
       en: Pseudoxyrhopus ankafinaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

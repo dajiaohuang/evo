@@ -9,7 +9,6 @@ records:
     name:
       zh: Petrophassa albipennis
       en: Petrophassa albipennis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperotestudo ducateli
       en: Hesperotestudo ducateli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

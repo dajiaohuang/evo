@@ -9,7 +9,6 @@ records:
     name:
       zh: Lufengosaurus magnus
       en: Lufengosaurus magnus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Molossus coibensis
       en: Molossus coibensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

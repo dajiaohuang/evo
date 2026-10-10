@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhadinella lachrymans
       en: Rhadinella lachrymans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

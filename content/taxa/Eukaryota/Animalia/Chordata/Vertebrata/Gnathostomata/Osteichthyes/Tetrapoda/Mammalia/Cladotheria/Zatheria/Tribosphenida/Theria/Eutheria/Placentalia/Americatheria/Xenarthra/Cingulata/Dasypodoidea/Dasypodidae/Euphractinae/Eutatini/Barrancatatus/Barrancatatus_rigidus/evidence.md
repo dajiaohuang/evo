@@ -9,7 +9,6 @@ records:
     name:
       zh: Barrancatatus rigidus
       en: Barrancatatus rigidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

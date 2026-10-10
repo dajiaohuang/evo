@@ -9,7 +9,6 @@ records:
     name:
       zh: Leinkupal laticauda
       en: Leinkupal laticauda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Asiatherium reshetovi
       en: Asiatherium reshetovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

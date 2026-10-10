@@ -9,7 +9,6 @@ records:
     name:
       zh: Simoliophis rochebrunei
       en: Simoliophis rochebrunei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoreodon parvus
       en: Protoreodon parvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

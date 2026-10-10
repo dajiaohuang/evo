@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella suiyangensis
       zh: Leptobrachella suiyangensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

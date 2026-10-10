@@ -9,7 +9,6 @@ records:
     name:
       zh: Spheniscus mendiculus
       en: Spheniscus mendiculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: researchScope

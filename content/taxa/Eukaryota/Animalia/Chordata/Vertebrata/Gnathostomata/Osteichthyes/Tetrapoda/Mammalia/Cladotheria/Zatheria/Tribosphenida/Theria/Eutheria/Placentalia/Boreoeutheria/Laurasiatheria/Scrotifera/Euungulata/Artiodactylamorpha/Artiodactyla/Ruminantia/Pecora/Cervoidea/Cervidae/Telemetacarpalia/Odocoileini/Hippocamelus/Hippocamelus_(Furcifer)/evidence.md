@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippocamelus (Furcifer)
       en: Hippocamelus (Furcifer)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

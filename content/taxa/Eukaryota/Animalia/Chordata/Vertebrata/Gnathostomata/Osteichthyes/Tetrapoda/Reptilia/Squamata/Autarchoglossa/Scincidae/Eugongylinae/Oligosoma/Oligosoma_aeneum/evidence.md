@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma aeneum
       en: Oligosoma aeneum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

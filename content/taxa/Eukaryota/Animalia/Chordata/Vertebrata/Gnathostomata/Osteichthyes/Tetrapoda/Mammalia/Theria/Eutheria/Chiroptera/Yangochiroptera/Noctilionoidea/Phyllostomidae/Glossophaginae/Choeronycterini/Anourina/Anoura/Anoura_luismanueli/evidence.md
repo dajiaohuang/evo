@@ -9,7 +9,6 @@ records:
     name:
       zh: Anoura luismanueli
       en: Anoura luismanueli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

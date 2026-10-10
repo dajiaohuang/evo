@@ -9,7 +9,6 @@ records:
     name:
       zh: Peridyromys turbatus
       en: Peridyromys turbatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

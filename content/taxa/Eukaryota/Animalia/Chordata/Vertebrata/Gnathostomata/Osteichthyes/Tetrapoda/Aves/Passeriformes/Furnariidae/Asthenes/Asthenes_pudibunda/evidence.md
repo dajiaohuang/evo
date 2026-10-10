@@ -9,7 +9,6 @@ records:
     name:
       zh: Asthenes pudibunda
       en: Asthenes pudibunda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

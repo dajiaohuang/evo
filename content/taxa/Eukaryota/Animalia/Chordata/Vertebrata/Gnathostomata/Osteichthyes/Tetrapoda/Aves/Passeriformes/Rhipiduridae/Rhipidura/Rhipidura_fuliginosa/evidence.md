@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura fuliginosa
       en: Rhipidura fuliginosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

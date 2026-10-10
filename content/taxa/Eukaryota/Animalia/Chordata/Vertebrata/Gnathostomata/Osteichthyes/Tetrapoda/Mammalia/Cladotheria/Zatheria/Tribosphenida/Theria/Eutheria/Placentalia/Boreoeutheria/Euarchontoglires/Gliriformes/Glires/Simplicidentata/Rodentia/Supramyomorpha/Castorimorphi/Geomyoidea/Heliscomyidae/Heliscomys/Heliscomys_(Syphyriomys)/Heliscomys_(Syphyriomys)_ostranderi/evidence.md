@@ -9,7 +9,6 @@ records:
     name:
       zh: Heliscomys (Syphyriomys) ostranderi
       en: Heliscomys (Syphyriomys) ostranderi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

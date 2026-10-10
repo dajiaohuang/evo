@@ -9,7 +9,6 @@ records:
     name:
       zh: Gavialosuchus eggenburgensis
       en: Gavialosuchus eggenburgensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

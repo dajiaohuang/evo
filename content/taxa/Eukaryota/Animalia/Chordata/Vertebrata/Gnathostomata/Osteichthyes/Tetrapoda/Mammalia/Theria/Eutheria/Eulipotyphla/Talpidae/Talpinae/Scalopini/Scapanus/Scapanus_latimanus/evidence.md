@@ -9,7 +9,6 @@ records:
     name:
       zh: Scapanus latimanus
       en: Scapanus latimanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Otus rufescens
       en: Otus rufescens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

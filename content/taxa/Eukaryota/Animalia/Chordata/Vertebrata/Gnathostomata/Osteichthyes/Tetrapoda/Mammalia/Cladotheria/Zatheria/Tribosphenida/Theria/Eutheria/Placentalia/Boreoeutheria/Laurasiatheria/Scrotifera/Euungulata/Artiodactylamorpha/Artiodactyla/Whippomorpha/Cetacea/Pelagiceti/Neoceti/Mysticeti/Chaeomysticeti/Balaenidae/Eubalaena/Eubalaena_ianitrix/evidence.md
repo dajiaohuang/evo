@@ -9,7 +9,6 @@ records:
     name:
       zh: Eubalaena ianitrix
       en: Eubalaena ianitrix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

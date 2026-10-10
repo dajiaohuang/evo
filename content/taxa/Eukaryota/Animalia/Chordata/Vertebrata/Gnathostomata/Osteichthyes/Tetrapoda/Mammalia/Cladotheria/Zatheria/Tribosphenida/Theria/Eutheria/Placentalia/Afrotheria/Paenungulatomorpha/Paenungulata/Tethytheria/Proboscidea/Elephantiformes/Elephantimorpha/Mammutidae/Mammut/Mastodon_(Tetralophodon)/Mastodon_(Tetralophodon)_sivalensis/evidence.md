@@ -9,7 +9,6 @@ records:
     name:
       zh: Mastodon (Tetralophodon) sivalensis
       en: Mastodon (Tetralophodon) sivalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

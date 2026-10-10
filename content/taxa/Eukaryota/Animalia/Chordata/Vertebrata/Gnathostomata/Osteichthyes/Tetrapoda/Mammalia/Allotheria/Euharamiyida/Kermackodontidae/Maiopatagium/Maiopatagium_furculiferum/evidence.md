@@ -9,7 +9,6 @@ records:
     name:
       zh: Maiopatagium furculiferum
       en: Maiopatagium furculiferum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rugarhynchos sixmilensis
       en: Rugarhynchos sixmilensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

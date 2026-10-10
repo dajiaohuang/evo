@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnophis atratus
       en: Thamnophis atratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

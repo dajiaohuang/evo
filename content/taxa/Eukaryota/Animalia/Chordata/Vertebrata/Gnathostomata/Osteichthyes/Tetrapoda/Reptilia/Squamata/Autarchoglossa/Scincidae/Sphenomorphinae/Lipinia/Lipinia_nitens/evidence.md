@@ -9,7 +9,6 @@ records:
     name:
       zh: Lipinia nitens
       en: Lipinia nitens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

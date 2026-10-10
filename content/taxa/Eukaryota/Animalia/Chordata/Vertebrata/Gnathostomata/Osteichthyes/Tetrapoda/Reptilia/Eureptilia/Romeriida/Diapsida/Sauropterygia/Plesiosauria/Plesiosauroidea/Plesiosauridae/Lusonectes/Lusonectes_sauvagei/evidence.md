@@ -9,7 +9,6 @@ records:
     name:
       zh: Lusonectes sauvagei
       en: Lusonectes sauvagei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

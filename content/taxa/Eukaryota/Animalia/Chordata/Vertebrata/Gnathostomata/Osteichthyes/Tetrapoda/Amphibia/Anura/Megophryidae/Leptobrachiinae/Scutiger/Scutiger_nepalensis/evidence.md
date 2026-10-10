@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger nepalensis
       zh: Scutiger nepalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

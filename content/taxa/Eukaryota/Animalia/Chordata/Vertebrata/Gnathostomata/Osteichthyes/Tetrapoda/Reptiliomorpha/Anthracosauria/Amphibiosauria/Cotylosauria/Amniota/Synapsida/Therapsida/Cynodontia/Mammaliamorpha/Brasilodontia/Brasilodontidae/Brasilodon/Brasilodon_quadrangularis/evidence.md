@@ -9,7 +9,6 @@ records:
     name:
       zh: Brasilodon quadrangularis
       en: Brasilodon quadrangularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bransatoglis bosniensis
       en: Bransatoglis bosniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

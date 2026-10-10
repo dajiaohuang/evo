@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrophryniscus leucomystax
       zh: Dendrophryniscus leucomystax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

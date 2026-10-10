@@ -9,7 +9,6 @@ records:
     name:
       en: Black Lemur
       zh: 黑狐猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: behaviour

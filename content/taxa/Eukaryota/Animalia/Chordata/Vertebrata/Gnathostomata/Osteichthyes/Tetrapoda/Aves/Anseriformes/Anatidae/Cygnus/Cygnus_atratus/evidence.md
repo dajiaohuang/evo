@@ -9,7 +9,6 @@ records:
     name:
       zh: Cygnus atratus
       en: Cygnus atratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

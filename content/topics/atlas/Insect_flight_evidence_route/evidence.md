@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: prokop-2005-paskov-wing; inherited concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - referenceId: prokop-2005-paskov-wing
           relation: supports
@@ -74,7 +71,6 @@ records:
           locator: 383–387
         - referenceId: bruce-patel-2020-wing-homology
           locator: 1703–1712
-      reviewStatus: automated-audit-passed
 ---
 
 # Insect flight evidence route

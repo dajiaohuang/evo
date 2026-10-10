@@ -9,7 +9,6 @@ records:
     name:
       zh: Miopetaurista diescalidus
       en: Miopetaurista diescalidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

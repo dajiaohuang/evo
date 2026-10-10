@@ -9,7 +9,6 @@ records:
     name:
       zh: Urotheca decipiens
       en: Urotheca decipiens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

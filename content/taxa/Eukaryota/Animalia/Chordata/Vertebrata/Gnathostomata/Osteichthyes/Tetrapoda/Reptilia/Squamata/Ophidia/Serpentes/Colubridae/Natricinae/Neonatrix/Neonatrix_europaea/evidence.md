@@ -9,7 +9,6 @@ records:
     name:
       zh: Neonatrix europaea
       en: Neonatrix europaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

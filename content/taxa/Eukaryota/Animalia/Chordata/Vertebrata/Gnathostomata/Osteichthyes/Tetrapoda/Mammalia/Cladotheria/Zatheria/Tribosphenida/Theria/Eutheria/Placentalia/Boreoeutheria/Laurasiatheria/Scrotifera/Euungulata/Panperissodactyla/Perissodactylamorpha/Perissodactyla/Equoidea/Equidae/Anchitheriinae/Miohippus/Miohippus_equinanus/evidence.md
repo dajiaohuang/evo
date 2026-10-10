@@ -9,7 +9,6 @@ records:
     name:
       zh: Miohippus equinanus
       en: Miohippus equinanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

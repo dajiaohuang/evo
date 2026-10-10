@@ -9,7 +9,6 @@ records:
     name:
       zh: Cnemaspis ingerorum
       en: Cnemaspis ingerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus paraensis
       en: Micrurus paraensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phocoena dioptrica
       en: Phocoena dioptrica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

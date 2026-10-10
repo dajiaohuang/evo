@@ -9,7 +9,6 @@ records:
     name:
       en: Batrachoseps bramei
       zh: Batrachoseps bramei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

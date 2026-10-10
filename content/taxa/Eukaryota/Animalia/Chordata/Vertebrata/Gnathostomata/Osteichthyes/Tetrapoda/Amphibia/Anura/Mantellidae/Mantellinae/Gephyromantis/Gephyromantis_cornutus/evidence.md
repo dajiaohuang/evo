@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis cornutus
       zh: Gephyromantis cornutus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

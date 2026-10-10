@@ -9,7 +9,6 @@ records:
     name:
       zh: Ufudocyclops mukanelai
       en: Ufudocyclops mukanelai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

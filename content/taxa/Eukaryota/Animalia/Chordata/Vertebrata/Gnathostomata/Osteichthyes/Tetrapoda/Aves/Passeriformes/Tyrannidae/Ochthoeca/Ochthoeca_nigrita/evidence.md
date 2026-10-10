@@ -9,7 +9,6 @@ records:
     name:
       zh: Ochthoeca nigrita
       en: Ochthoeca nigrita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphanocrex podarces
       en: Aphanocrex podarces
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

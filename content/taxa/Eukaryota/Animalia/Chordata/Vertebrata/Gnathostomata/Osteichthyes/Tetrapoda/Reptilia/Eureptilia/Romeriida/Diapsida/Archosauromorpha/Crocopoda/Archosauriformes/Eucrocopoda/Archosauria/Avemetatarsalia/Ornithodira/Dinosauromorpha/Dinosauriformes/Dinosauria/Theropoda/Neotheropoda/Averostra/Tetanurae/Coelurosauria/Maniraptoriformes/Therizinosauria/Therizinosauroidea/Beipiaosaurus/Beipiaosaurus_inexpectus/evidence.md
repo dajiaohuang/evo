@@ -9,7 +9,6 @@ records:
     name:
       zh: Beipiaosaurus inexpectus
       en: Beipiaosaurus inexpectus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

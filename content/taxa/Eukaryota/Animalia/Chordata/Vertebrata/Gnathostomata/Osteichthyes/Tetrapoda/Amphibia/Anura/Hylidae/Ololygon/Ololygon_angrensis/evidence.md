@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon angrensis
       zh: Ololygon angrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

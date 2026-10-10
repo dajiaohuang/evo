@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma striatum
       en: Oligosoma striatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

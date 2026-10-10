@@ -9,7 +9,6 @@ records:
     name:
       zh: Peltephilus nanus
       en: Peltephilus nanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

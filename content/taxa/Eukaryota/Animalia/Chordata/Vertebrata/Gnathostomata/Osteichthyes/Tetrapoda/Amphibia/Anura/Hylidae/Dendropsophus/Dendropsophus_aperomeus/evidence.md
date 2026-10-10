@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus aperomeus
       zh: Dendropsophus aperomeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

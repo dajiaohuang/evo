@@ -9,7 +9,6 @@ records:
     name:
       zh: Australotadorna alecwilsoni
       en: Australotadorna alecwilsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

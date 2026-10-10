@@ -9,7 +9,6 @@ records:
     name:
       zh: Lyrurus mlokosiewiczi
       en: Lyrurus mlokosiewiczi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

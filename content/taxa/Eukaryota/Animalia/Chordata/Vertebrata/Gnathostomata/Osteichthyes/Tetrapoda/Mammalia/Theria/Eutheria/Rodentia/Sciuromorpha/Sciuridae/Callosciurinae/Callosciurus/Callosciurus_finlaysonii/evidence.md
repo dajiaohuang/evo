@@ -9,7 +9,6 @@ records:
     name:
       zh: Callosciurus finlaysonii
       en: Callosciurus finlaysonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

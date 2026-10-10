@@ -78,7 +78,7 @@ these projections. Import scripts are one-time migration tools, not normal
 authoring commands.
 
 `data/registry/content-source-manifest.json` and its hash shards record every
-canonical Markdown/YAML source. Package provenance and review packets include
+canonical Markdown/YAML source. Package provenance includes
 the corresponding canonical files. Runtime delivery keeps its compressed
 JSON format; the full Markdown corpus is not bundled into the application.
 

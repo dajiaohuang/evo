@@ -9,7 +9,6 @@ records:
     name:
       en: Mantella baroni
       zh: Mantella baroni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

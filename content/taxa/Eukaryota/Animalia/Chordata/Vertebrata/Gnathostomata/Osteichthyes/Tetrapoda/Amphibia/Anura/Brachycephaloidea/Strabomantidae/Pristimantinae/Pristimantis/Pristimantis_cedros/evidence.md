@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis cedros
       zh: Pristimantis cedros
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

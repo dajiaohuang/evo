@@ -9,7 +9,6 @@ records:
     name:
       zh: Milvus migrans
       en: Milvus migrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

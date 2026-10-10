@@ -9,7 +9,6 @@ records:
     name:
       zh: Igua minuta
       en: Igua minuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

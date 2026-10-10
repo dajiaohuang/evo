@@ -9,7 +9,6 @@ records:
     name:
       zh: Promeniscomys sinensis
       en: Promeniscomys sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Osteopygis russelli
       en: Osteopygis russelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

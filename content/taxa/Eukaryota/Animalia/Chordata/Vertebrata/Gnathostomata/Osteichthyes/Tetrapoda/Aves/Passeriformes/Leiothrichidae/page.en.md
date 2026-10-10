@@ -41,7 +41,7 @@ Fourteen Trochalopteron guides follow catalogue Leiothrichidae ancestry. AVONET 
 ## Read names and samples before ecology
 
 <!-- evo:text /records/catalogue-profile/sections/5/text/en -->
-Enter fourteen species through four sections at [Trochalopteron](Trochalopteron/page.en.md). Most morphology rows have five birds but only four complete sets; compiled mass has a separate denominator. Sedentary codes retain food, lifestyle and vegetation differences. Fourteen additions do not supply the family’s accepted-species denominator or complete family natural histories and expert review.
+Enter fourteen species through four sections at [Trochalopteron](Trochalopteron/page.en.md). Most morphology rows have five birds but only four complete sets; compiled mass has a separate denominator. Sedentary codes retain food, lifestyle and vegetation differences. Fourteen additions do not supply the family’s accepted-species denominator or complete family natural histories.
 <!-- /evo:text -->
 
 ## Choose comparison pages by life-history fields
@@ -53,8 +53,8 @@ This batch’s Leiothrichidae route includes 5 historical life-history accounts;
 ## Life-history evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 Fourteen additional Trochalopteron historical rows retain source family spelling, twelve confirmed older combinations and two unconfirmed catalogue synonyms, separate mass sources and ecological category differences; complete family natural histories are not counted.
-Twelve additional Turdoides historical guides retain unconfirmed exact catalogue correspondence for reinwardii and separate niche, trophic level, lifestyle and habitat. Complete accepted-descendant coverage, cooperative behavior and expert review are not supplied.
-Eight added Argya historical guides retain older Turdoides names, family spellings, complete sets versus total birds and lifestyle versus trophic level. Complete accepted-descendant coverage, cooperative behavior and expert review are not supplied.
+Twelve additional Turdoides historical guides retain unconfirmed exact catalogue correspondence for reinwardii and separate niche, trophic level, lifestyle and habitat. Complete accepted-descendant coverage, cooperative behavior are not supplied.
+Eight added Argya historical guides retain older Turdoides names, family spellings, complete sets versus total birds and lifestyle versus trophic level. Complete accepted-descendant coverage, cooperative behavior are not supplied.
 <!-- /evo:text -->

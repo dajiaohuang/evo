@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycaenops sollasi
       en: Lycaenops sollasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

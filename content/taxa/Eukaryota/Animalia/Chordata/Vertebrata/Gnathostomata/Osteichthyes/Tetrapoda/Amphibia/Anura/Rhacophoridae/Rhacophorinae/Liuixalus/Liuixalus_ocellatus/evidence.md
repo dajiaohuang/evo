@@ -9,7 +9,6 @@ records:
     name:
       en: Liuixalus ocellatus
       zh: Liuixalus ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

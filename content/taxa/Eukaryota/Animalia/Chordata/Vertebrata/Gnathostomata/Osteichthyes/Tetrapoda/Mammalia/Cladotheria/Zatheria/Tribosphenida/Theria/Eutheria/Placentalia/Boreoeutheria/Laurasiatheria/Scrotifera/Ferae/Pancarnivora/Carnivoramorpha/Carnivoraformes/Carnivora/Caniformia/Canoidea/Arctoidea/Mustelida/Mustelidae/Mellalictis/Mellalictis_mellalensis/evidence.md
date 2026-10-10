@@ -9,7 +9,6 @@ records:
     name:
       zh: Mellalictis mellalensis
       en: Mellalictis mellalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

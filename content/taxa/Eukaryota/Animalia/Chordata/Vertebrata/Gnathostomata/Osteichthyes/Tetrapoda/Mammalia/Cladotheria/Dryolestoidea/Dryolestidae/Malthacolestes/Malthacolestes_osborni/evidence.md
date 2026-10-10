@@ -9,7 +9,6 @@ records:
     name:
       zh: Malthacolestes osborni
       en: Malthacolestes osborni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

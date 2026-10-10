@@ -9,7 +9,6 @@ records:
     name:
       en: Incilius alvarius
       zh: Incilius alvarius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Eudyptes chrysocome
       en: Eudyptes chrysocome
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: researchScope

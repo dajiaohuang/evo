@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteropus alecto
       en: Pteropus alecto
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

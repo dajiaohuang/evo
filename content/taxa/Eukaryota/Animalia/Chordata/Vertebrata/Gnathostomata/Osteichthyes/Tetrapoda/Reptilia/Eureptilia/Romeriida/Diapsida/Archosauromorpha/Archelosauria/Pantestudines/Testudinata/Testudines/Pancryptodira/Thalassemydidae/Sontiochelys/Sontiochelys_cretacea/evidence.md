@@ -9,7 +9,6 @@ records:
     name:
       zh: Sontiochelys cretacea
       en: Sontiochelys cretacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

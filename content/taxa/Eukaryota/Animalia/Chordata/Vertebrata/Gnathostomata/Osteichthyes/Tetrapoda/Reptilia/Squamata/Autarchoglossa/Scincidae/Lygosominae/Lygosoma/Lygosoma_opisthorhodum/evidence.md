@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygosoma opisthorhodum
       en: Lygosoma opisthorhodum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

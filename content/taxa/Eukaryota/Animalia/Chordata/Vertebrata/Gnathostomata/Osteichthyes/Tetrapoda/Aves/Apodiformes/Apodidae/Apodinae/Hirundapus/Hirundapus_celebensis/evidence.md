@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundapus celebensis
       en: Hirundapus celebensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

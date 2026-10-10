@@ -9,7 +9,6 @@ records:
     name:
       en: Red-capped Mangabey
       zh: 红冠白眼丛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: social_ecology

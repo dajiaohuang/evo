@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops marmoratus
       zh: Amolops marmoratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

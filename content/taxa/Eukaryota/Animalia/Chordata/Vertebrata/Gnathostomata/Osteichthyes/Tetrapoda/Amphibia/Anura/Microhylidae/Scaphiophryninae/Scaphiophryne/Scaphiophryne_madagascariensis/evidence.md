@@ -9,7 +9,6 @@ records:
     name:
       en: Scaphiophryne madagascariensis
       zh: Scaphiophryne madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

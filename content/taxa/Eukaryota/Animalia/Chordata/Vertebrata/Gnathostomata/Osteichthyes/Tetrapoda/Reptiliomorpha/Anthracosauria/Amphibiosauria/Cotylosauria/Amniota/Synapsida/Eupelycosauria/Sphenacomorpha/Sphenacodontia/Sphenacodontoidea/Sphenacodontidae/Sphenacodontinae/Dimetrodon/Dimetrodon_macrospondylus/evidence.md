@@ -9,7 +9,6 @@ records:
     name:
       zh: Dimetrodon macrospondylus
       en: Dimetrodon macrospondylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

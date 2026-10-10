@@ -9,7 +9,6 @@ records:
     name:
       zh: Correlophus ciliatus
       en: Correlophus ciliatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

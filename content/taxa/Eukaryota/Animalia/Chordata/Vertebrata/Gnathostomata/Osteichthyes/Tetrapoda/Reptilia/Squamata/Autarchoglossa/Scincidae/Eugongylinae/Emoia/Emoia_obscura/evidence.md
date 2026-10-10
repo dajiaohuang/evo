@@ -9,7 +9,6 @@ records:
     name:
       zh: Emoia obscura
       en: Emoia obscura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

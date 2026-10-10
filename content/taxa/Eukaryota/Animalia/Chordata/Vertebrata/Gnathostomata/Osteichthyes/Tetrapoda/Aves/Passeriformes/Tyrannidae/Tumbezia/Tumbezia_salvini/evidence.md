@@ -9,7 +9,6 @@ records:
     name:
       zh: Tumbezia salvini
       en: Tumbezia salvini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

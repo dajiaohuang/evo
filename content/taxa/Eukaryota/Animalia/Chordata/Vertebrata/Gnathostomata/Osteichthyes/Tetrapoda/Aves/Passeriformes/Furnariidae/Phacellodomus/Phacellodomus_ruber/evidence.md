@@ -9,7 +9,6 @@ records:
     name:
       zh: Phacellodomus ruber
       en: Phacellodomus ruber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

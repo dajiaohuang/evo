@@ -16,5 +16,5 @@ Li, Zhao and Fan (2015) described Macaca leucogenys from 738 photographs and dis
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-One species description is not a range-wide survey, population estimate or trend analysis; extension to nearby areas is tentative. The Chinese label is an editorial translation; this guide is not externally expert-reviewed.
+One species description is not a range-wide survey, population estimate or trend analysis; extension to nearby areas is tentative. The Chinese label is an editorial translation; this guide is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Niebla antiqua
       en: Niebla antiqua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

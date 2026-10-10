@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis chamaeleonides
       en: Anolis chamaeleonides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

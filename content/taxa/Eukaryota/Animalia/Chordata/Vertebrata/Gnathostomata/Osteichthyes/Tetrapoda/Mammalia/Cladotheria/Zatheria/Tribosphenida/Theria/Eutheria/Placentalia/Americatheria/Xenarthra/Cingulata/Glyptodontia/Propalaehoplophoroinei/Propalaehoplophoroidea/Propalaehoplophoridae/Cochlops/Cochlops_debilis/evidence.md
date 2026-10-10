@@ -9,7 +9,6 @@ records:
     name:
       zh: Cochlops debilis
       en: Cochlops debilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

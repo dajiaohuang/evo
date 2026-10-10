@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis stictogrammus
       en: Aspidoscelis stictogrammus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

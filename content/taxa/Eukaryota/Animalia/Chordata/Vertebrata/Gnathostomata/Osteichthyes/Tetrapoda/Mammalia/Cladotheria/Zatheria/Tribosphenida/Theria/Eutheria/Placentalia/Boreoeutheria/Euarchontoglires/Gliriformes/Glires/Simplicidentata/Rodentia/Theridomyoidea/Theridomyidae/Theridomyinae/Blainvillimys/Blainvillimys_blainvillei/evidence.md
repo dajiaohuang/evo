@@ -9,7 +9,6 @@ records:
     name:
       zh: Blainvillimys blainvillei
       en: Blainvillimys blainvillei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

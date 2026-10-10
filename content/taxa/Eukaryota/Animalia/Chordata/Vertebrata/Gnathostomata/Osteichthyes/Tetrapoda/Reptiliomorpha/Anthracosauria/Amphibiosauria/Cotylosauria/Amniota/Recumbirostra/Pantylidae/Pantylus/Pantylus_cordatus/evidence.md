@@ -9,7 +9,6 @@ records:
     name:
       zh: Pantylus cordatus
       en: Pantylus cordatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

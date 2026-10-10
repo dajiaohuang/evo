@@ -9,7 +9,6 @@ records:
     name:
       zh: Anairetes reguloides
       en: Anairetes reguloides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

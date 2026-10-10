@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius hidamontanus
       zh: Hynobius hidamontanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

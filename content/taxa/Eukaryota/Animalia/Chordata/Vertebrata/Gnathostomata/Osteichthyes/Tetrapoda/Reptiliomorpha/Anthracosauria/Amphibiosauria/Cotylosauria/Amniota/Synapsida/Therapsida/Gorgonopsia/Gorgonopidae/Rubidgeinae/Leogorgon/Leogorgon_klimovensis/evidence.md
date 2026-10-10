@@ -9,7 +9,6 @@ records:
     name:
       zh: Leogorgon klimovensis
       en: Leogorgon klimovensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

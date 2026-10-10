@@ -9,7 +9,6 @@ records:
     name:
       zh: Planigale novaeguineae
       en: Planigale novaeguineae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

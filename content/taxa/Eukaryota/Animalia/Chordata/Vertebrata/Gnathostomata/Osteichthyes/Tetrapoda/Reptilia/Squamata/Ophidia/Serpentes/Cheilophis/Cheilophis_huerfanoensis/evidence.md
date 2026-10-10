@@ -9,7 +9,6 @@ records:
     name:
       zh: Cheilophis huerfanoensis
       en: Cheilophis huerfanoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

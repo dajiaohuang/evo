@@ -9,7 +9,6 @@ records:
     name:
       zh: Apus nipalensis
       en: Apus nipalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

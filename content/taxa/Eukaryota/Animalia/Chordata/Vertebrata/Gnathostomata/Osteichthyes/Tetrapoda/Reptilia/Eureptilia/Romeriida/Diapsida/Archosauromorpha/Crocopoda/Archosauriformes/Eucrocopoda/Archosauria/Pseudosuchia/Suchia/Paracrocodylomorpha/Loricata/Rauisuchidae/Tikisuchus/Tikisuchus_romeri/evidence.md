@@ -9,7 +9,6 @@ records:
     name:
       zh: Tikisuchus romeri
       en: Tikisuchus romeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

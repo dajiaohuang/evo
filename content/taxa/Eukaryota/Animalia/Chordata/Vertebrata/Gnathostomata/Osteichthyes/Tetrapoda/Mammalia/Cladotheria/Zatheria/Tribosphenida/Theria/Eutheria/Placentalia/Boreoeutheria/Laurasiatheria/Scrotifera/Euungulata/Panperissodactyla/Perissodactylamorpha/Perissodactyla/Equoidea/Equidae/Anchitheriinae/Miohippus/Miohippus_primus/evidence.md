@@ -9,7 +9,6 @@ records:
     name:
       zh: Miohippus primus
       en: Miohippus primus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

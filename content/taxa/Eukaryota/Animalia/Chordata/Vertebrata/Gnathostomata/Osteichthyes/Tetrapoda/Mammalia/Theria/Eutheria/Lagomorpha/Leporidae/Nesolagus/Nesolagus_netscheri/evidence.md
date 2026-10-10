@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesolagus netscheri
       en: Nesolagus netscheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

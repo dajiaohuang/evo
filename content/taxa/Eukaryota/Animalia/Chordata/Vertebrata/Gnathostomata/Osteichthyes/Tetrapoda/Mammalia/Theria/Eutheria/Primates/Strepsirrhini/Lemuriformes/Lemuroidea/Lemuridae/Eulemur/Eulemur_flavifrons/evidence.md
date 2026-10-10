@@ -9,7 +9,6 @@ records:
     name:
       en: Blue-eyed Black Lemur
       zh: 蓝眼黑狐猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: survey

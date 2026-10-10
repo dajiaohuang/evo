@@ -9,7 +9,6 @@ records:
     name:
       zh: Kadarsanomys sodyi
       en: Kadarsanomys sodyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

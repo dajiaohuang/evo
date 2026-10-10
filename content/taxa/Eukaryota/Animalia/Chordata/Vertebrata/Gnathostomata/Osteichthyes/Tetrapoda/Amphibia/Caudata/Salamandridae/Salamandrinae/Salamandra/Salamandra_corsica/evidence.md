@@ -9,7 +9,6 @@ records:
     name:
       en: Salamandra corsica
       zh: Salamandra corsica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

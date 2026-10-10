@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella huynhi
       zh: Leptobrachella huynhi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

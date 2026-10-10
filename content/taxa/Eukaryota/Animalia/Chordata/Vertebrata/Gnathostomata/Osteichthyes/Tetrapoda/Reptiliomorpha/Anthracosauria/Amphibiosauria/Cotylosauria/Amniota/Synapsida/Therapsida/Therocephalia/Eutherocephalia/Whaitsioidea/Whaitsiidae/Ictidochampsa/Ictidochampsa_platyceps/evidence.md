@@ -9,7 +9,6 @@ records:
     name:
       zh: Ictidochampsa platyceps
       en: Ictidochampsa platyceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

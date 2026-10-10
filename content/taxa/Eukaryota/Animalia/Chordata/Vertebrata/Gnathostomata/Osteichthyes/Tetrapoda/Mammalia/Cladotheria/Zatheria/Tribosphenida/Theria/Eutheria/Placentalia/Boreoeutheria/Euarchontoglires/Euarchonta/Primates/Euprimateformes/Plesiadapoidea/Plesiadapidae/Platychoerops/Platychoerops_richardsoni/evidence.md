@@ -9,7 +9,6 @@ records:
     name:
       zh: Platychoerops richardsoni
       en: Platychoerops richardsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

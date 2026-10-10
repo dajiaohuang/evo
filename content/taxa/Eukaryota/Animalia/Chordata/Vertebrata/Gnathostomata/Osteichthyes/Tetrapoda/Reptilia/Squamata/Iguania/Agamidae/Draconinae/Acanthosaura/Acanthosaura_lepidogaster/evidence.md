@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthosaura lepidogaster
       en: Acanthosaura lepidogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

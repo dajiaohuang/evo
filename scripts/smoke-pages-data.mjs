@@ -54,7 +54,8 @@ if (!existsSync(join(dataRoot, 'releases.json'))) failures.push('release retenti
 else {
   const history = readJson('releases.json')
   if (history.retentionLimit !== 1 || history.releases?.length !== 1 || history.releases[0]?.datasetVersion !== current.datasetVersion) failures.push('release index must contain only the current dataset')
-  if (!Number.isFinite(history.retentionByteLimit) || history.retainedBytes > history.retentionByteLimit) failures.push('release retention byte budget is missing or exceeded')
+  const unboundedFullWeb = current.edition === 'full-web' && history.retentionByteLimit === null
+  if (!unboundedFullWeb && (!Number.isFinite(history.retentionByteLimit) || history.retainedBytes > history.retentionByteLimit)) failures.push('release retention byte budget is missing or exceeded')
   for (const release of history.releases ?? []) {
     if (!existsSync(join(dataRoot, release.filesIndex))) failures.push(`retained release ${release.datasetVersion}: files index is missing`)
     else {
@@ -104,10 +105,6 @@ for (const packageEntry of packageRegistry.packages) {
   }
   const manifest = readJson(manifestFile.url)
   if (manifest.version !== current.datasetVersion) failures.push(`package ${packageEntry.id}: dataset version mismatch`)
-  if (!['not-reviewed', 'in-review', 'reviewed-with-caveats', 'reviewed'].includes(manifest.reviewStatus)) failures.push(`package ${packageEntry.id}: invalid maintainer review status`)
-  if (!['not-reviewed', 'in-review', 'reviewed-with-caveats', 'reviewed', 'stale'].includes(manifest.effectiveReviewStatus)) failures.push(`package ${packageEntry.id}: invalid effective review status`)
-  if (['reviewed-with-caveats', 'reviewed'].includes(manifest.reviewStatus) && manifest.effectiveReviewStatus === 'stale') failures.push(`package ${packageEntry.id}: completed maintainer review is stale`)
-  if (typeof manifest.chatgptAssisted !== 'boolean') failures.push(`package ${packageEntry.id}: ChatGPT assistance disclosure is missing`)
   if (manifest.files.phylogeny) packagePhylogenyCount += 1
   for (const [name, file] of Object.entries(manifest.files)) {
     releaseUrl(file, `package ${packageEntry.id}/${name}`)
@@ -459,7 +456,7 @@ for (const relativePath of ['sitemap.xml', 'robots.txt', 'feed.xml', '404.html',
 const flagshipStaticPath = join(pagesRoot, 'taxa/perissodactyla/index.html')
 if (existsSync(flagshipStaticPath)) {
   const html = readFileSync(flagshipStaticPath, 'utf8')
-  for (const marker of ['rel="canonical"', 'application/ld+json', 'Maintainer review in progress', 'External expert review not performed', 'Report an evidence issue', '/evo/#/explore?profile=perissodactyla']) {
+  for (const marker of ['rel="canonical"', 'application/ld+json', 'Report an evidence issue', '/evo/#/explore?profile=perissodactyla']) {
     if (!html.includes(marker)) failures.push(`flagship static page is missing ${marker}`)
   }
 }

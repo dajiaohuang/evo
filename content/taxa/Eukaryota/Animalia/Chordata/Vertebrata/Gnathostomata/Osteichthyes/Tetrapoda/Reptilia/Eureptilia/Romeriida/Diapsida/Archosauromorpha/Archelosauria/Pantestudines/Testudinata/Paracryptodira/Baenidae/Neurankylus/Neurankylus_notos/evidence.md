@@ -9,7 +9,6 @@ records:
     name:
       zh: Neurankylus notos
       en: Neurankylus notos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

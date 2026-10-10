@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus phantasma
       zh: Afrixalus phantasma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

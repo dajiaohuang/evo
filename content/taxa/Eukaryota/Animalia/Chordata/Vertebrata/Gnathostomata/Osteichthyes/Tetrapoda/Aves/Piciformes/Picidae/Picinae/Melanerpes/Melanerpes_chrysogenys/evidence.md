@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanerpes chrysogenys
       en: Melanerpes chrysogenys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

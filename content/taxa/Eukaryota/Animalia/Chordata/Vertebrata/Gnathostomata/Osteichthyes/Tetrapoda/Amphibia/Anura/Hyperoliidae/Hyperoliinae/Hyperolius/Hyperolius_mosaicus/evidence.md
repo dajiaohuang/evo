@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius mosaicus
       zh: Hyperolius mosaicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

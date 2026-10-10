@@ -9,7 +9,6 @@ records:
     name:
       zh: Schlosseria hetaoyuanensis
       en: Schlosseria hetaoyuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophis parkeri
       en: Tropidophis parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

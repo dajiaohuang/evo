@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑卷尾猴
       en: Black capuchin
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: ecology

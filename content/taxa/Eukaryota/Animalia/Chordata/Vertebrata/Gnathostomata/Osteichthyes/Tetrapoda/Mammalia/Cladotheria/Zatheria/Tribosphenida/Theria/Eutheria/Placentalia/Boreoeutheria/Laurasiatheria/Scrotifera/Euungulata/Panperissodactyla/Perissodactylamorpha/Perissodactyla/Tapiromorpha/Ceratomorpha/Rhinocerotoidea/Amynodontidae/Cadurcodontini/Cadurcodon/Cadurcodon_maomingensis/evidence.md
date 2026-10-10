@@ -9,7 +9,6 @@ records:
     name:
       zh: Cadurcodon maomingensis
       en: Cadurcodon maomingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

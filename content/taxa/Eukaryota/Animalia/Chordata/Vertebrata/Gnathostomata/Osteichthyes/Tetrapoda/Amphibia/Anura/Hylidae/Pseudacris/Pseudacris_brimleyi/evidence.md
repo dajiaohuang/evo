@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudacris brimleyi
       zh: Pseudacris brimleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

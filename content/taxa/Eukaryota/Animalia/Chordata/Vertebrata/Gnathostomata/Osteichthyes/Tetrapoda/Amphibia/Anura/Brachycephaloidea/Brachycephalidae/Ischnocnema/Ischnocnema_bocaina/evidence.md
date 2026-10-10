@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema bocaina
       zh: Ischnocnema bocaina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

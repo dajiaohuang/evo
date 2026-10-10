@@ -9,7 +9,6 @@ records:
     name:
       zh: Lasiurus ebenus
       en: Lasiurus ebenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Cycloramphus faustoi
       zh: Cycloramphus faustoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

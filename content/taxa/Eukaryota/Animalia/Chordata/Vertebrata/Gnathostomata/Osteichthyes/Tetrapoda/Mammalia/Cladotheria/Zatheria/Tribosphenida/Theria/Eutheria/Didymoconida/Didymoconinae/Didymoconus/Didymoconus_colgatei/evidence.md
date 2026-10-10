@@ -9,7 +9,6 @@ records:
     name:
       zh: Didymoconus colgatei
       en: Didymoconus colgatei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaerephon jobensis
       en: Chaerephon jobensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

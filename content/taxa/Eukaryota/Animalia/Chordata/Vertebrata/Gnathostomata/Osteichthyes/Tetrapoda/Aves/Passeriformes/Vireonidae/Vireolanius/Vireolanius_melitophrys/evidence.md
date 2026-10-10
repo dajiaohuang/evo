@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireolanius melitophrys
       en: Vireolanius melitophrys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

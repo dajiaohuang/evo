@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena porosissima
       zh: Ptychadena porosissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

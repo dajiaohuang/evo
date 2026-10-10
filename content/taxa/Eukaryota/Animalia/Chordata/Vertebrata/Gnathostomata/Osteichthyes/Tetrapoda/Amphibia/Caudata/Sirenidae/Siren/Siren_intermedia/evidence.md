@@ -9,7 +9,6 @@ records:
     name:
       en: Siren intermedia
       zh: Siren intermedia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

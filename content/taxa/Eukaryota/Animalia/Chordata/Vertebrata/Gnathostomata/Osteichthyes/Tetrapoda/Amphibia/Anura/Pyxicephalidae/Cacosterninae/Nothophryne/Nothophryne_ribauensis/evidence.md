@@ -9,7 +9,6 @@ records:
     name:
       en: Nothophryne ribauensis
       zh: Nothophryne ribauensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

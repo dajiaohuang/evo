@@ -9,7 +9,6 @@ records:
     name:
       en: Tshuapa Red Colobus
       zh: 楚阿帕红疣猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

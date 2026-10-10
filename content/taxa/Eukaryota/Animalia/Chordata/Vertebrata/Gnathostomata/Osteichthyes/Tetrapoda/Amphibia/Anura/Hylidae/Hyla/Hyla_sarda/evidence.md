@@ -9,7 +9,6 @@ records:
     name:
       en: Hyla sarda
       zh: Hyla sarda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

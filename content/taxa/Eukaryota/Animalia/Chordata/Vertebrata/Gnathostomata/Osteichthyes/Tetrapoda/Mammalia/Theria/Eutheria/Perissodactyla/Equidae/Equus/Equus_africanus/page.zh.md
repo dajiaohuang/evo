@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-这是有来源的入门概述，尚未经过外部领域专家评审。未提供的定量性状、完整分布、分歧年代与当期保育评价仍待独立证据；分类计数不等于野生现生物种数。
+这是有来源的入门概述。未提供的定量性状、完整分布、分歧年代与当期保育评价仍待独立证据；分类计数不等于野生现生物种数。
 <!-- /evo:text -->

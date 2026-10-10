@@ -9,7 +9,6 @@ records:
     name:
       zh: Seiurus aurocapilla
       en: Seiurus aurocapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

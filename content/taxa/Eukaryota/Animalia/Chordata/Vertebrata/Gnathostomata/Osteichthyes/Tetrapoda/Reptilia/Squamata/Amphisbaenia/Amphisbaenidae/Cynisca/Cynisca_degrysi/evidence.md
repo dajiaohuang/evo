@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynisca degrysi
       en: Cynisca degrysi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

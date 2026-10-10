@@ -9,7 +9,6 @@ records:
     name:
       en: Ichthyophis paucidentulus
       zh: Ichthyophis paucidentulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Graptemys kerneri
       en: Graptemys kerneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

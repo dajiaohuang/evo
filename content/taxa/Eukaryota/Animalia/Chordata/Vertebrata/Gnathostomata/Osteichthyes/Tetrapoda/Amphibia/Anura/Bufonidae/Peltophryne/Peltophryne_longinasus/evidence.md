@@ -9,7 +9,6 @@ records:
     name:
       en: Peltophryne longinasus
       zh: Peltophryne longinasus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

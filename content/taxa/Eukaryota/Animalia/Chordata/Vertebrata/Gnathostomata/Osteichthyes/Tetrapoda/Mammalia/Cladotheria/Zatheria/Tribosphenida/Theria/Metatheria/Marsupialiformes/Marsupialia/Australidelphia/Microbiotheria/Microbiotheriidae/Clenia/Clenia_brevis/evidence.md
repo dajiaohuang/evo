@@ -9,7 +9,6 @@ records:
     name:
       zh: Clenia brevis
       en: Clenia brevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -28,5 +28,5 @@ At Cerro Blanco, the researchers estimated home ranges of 507 and 561 ha for two
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-A source-linked regional study guide, not externally expert-reviewed. Locality, count and group data come from 2002–2007 surveys in western Ecuador and do not provide a current complete range, range-wide abundance or conservation assessment.
+A source-linked regional study guide. Locality, count and group data come from 2002–2007 surveys in western Ecuador and do not provide a current complete range, range-wide abundance or conservation assessment.
 <!-- /evo:text -->

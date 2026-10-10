@@ -9,7 +9,6 @@ records:
     name:
       zh: Potamarchus murinus
       en: Potamarchus murinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

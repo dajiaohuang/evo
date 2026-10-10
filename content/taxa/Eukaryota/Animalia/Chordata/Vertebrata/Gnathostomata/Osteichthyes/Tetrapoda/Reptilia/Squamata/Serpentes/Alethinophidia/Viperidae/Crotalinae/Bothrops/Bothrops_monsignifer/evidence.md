@@ -9,7 +9,6 @@ records:
     name:
       zh: Bothrops monsignifer
       en: Bothrops monsignifer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium taylori
       zh: Hyalinobatrachium taylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Neodolodus colombianus
       en: Neodolodus colombianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

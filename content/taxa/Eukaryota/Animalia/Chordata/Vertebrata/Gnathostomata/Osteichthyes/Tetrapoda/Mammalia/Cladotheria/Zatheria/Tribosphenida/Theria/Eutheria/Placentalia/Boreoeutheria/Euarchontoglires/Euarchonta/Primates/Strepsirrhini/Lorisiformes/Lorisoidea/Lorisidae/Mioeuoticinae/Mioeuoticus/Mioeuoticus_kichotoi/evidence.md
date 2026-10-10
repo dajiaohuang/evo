@@ -9,7 +9,6 @@ records:
     name:
       zh: Mioeuoticus kichotoi
       en: Mioeuoticus kichotoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

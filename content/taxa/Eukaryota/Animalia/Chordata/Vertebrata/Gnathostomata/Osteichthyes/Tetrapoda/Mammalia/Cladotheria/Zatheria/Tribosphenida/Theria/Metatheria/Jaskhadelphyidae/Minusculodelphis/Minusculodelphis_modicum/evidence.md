@@ -9,7 +9,6 @@ records:
     name:
       zh: Minusculodelphis modicum
       en: Minusculodelphis modicum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

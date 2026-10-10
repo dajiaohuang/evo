@@ -9,7 +9,6 @@ records:
     name:
       zh: Pyrrhura pfrimeri
       en: Pyrrhura pfrimeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

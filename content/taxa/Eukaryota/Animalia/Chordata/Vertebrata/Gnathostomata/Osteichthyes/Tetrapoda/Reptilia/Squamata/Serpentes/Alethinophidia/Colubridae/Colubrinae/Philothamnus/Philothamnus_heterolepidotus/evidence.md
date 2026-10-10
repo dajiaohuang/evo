@@ -9,7 +9,6 @@ records:
     name:
       zh: Philothamnus heterolepidotus
       en: Philothamnus heterolepidotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

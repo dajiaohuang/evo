@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorostilbon stenurus
       en: Chlorostilbon stenurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

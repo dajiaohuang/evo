@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudodryomys simplicidens
       en: Pseudodryomys simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

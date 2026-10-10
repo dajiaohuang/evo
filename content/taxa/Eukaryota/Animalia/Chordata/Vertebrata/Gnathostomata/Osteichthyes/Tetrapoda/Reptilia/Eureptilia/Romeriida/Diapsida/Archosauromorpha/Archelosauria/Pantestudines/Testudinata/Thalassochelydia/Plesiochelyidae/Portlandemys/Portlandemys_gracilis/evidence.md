@@ -9,7 +9,6 @@ records:
     name:
       zh: Portlandemys gracilis
       en: Portlandemys gracilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

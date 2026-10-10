@@ -9,7 +9,6 @@ records:
     name:
       zh: Monopeltis vanderysti
       en: Monopeltis vanderysti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

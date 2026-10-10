@@ -9,7 +9,6 @@ records:
     name:
       zh: 白腿疣猴
       en: White-thighed colobus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -649,9 +648,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Colobus vellerosus
@@ -779,7 +775,7 @@ Visibility, animal detection, and transect access constrained survey methods; th
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/2 -->
-Morphology, life history, broader ecology, evolution, range-wide distribution, fossils, conservation status, systematic search, and independent review remain unassessed.
+Morphology, life history, broader ecology, evolution, range-wide distribution, fossils, conservation status, systematic search, remain unassessed.
 <!-- /evo:text -->
 
 ## distribution / claims / text
@@ -857,5 +853,5 @@ It does not establish range-wide distribution or abundance, nor a comparable tre
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Most biological facets, systematic search, and external expert review remain unassessed.
+Most biological facets, systematic search, remain unassessed.
 <!-- /evo:text -->

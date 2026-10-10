@@ -9,7 +9,6 @@ records:
     name:
       zh: Chlorothraupis olivacea
       en: Chlorothraupis olivacea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Haddadus aramunha
       zh: Haddadus aramunha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

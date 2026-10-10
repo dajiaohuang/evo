@@ -9,7 +9,6 @@ records:
     name:
       zh: Gymnorhinus cyanocephalus
       en: Gymnorhinus cyanocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

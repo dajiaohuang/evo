@@ -9,7 +9,6 @@ records:
     name:
       zh: Linnania progressus
       en: Linnania progressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

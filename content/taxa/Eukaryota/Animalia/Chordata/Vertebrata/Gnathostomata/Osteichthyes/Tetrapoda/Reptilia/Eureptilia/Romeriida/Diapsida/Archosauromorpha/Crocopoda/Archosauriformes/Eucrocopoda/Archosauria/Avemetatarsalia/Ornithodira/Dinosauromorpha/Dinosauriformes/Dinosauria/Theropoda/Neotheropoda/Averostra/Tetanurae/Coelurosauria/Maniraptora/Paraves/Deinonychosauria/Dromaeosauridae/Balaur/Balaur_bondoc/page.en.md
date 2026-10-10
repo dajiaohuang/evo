@@ -81,5 +81,5 @@ Both PBDB collections cite Csiki et al. (2010), reference ref:33802. This page s
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This specimen and taxonomic-dispute guide combines selected original-description sections, the 2015 re-scoring study and fixed PBDB occurrences. The holotype lacks a skull; diet and flightlessness remain interpretations, and this batch does not adjudicate competing affinities. The entire original paper, supplements and later research are not assembled. Record intervals do not precisely date individuals. No physical-specimen inspection, external expert review or complete monograph is claimed.
+This specimen and taxonomic-dispute guide combines selected original-description sections, the 2015 re-scoring study and fixed PBDB occurrences. The holotype lacks a skull; diet and flightlessness remain interpretations, and this batch does not adjudicate competing affinities. The entire original paper, supplements and later research are not assembled. Record intervals do not precisely date individuals.
 <!-- /evo:text -->

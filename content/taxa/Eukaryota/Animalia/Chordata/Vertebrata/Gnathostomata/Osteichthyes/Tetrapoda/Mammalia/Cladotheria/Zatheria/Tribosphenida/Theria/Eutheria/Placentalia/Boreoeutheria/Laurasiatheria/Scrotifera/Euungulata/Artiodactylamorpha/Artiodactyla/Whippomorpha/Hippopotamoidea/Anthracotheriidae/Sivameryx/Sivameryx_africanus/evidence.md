@@ -9,7 +9,6 @@ records:
     name:
       zh: Sivameryx africanus
       en: Sivameryx africanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

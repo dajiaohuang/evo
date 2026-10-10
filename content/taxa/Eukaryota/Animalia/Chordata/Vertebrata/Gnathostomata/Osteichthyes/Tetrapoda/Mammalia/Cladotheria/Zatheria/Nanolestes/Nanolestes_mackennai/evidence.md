@@ -9,7 +9,6 @@ records:
     name:
       zh: Nanolestes mackennai
       en: Nanolestes mackennai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

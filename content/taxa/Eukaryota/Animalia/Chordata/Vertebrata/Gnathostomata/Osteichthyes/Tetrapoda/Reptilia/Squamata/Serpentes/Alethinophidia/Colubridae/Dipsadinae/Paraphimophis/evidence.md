@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraphimophis
       en: Paraphimophis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

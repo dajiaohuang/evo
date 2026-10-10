@@ -9,7 +9,6 @@ records:
     name:
       zh: Comahuesuchus bonapartei
       en: Comahuesuchus bonapartei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

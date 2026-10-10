@@ -9,7 +9,6 @@ records:
     name:
       zh: Ostodolepis brevispinatus
       en: Ostodolepis brevispinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

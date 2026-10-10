@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis chocolatebari
       zh: Pristimantis chocolatebari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

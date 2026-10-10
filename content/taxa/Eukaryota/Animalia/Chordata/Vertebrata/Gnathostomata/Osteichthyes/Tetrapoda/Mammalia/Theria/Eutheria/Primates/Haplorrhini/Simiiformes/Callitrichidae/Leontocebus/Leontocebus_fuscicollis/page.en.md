@@ -16,5 +16,5 @@ Mourthé et al. (2022) overlaid IUCN range maps on ten major Brazilian Amazon in
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page reports only the regional range-map intersections in Mourthé et al. (2022) Supplementary Table S1; it is not a comprehensive species account. Main-text Table 2 has internal differences in its total and single-interfluve percentage; map overlap is not a field occurrence, abundance or complete range. No exact-match MDD common-name label is asserted; the COL accepted scientific name is used as the display label in both languages. This guide is not externally expert-reviewed.
+This page reports only the regional range-map intersections in Mourthé et al. (2022) Supplementary Table S1; it is not a comprehensive species account. Main-text Table 2 has internal differences in its total and single-interfluve percentage; map overlap is not a field occurrence, abundance or complete range. No exact-match MDD common-name label is asserted; the COL accepted scientific name is used as the display label in both languages. This guide is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Apatornis celer
       en: Apatornis celer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

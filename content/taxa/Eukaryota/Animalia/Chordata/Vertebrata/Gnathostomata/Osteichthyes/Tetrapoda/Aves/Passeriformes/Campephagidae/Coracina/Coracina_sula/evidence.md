@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina sula
       en: Coracina sula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

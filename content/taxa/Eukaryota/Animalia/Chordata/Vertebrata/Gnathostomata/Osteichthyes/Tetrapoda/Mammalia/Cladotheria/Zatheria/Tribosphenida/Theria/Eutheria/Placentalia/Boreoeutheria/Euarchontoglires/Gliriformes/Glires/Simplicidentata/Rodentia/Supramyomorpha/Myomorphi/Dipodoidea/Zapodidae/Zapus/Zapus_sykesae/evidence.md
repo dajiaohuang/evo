@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapus sykesae
       en: Zapus sykesae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

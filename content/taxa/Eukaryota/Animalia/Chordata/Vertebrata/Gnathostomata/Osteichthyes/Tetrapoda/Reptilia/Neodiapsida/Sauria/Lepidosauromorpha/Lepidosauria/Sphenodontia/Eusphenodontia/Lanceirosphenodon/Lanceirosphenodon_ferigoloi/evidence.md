@@ -9,7 +9,6 @@ records:
     name:
       zh: Lanceirosphenodon ferigoloi
       en: Lanceirosphenodon ferigoloi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

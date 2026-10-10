@@ -9,7 +9,6 @@ records:
     name:
       zh: Acynodon iberoccitanus
       en: Acynodon iberoccitanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

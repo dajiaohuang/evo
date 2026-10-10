@@ -9,7 +9,6 @@ records:
     name:
       zh: Trogosus gazini
       en: Trogosus gazini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

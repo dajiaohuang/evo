@@ -9,7 +9,6 @@ records:
     name:
       zh: Notharctus robinsoni
       en: Notharctus robinsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

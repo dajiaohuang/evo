@@ -9,7 +9,6 @@ records:
     name:
       zh: Hanomys malcolmi
       en: Hanomys malcolmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

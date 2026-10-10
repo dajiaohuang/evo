@@ -9,7 +9,6 @@ records:
     name:
       zh: Athenar bermani
       en: Athenar bermani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Washakius woodringi
       en: Washakius woodringi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

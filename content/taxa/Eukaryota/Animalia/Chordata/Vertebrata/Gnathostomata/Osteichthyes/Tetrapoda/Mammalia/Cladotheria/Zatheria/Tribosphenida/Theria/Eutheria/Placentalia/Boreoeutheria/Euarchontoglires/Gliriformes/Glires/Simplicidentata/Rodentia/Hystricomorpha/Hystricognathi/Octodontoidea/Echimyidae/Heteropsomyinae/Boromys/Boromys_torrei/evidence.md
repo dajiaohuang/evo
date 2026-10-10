@@ -9,7 +9,6 @@ records:
     name:
       zh: Boromys torrei
       en: Boromys torrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

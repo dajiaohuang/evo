@@ -22,5 +22,5 @@ Use the L. lagothricha page for its Brazil occurrence-record set, then the L. fl
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This is a path between the two cited reader pages, not a full review of every accepted species in Lagothrix. It does not produce a genus-wide distribution, abundance or ecology account. No dossier or external expert review was added. This page is not externally expert-reviewed.
+This is a path between the two cited reader pages, not a full review of every accepted species in Lagothrix. It does not produce a genus-wide distribution, abundance or ecology account. This page is.
 <!-- /evo:text -->

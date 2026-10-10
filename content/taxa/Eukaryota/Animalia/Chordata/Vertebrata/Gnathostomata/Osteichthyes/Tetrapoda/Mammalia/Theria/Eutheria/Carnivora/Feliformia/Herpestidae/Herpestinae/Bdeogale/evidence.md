@@ -9,7 +9,6 @@ records:
     name:
       zh: Bdeogale
       en: Bdeogale
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

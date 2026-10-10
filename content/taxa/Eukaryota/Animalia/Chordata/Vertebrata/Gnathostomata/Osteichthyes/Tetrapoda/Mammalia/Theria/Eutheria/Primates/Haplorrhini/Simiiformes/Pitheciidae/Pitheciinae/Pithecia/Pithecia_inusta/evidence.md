@@ -9,7 +9,6 @@ records:
     name:
       zh: 烧褐僧面猴
       en: Burnished Saki
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

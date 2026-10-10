@@ -9,7 +9,6 @@ records:
     name:
       zh: Aethopyga primigenia
       en: Aethopyga primigenia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

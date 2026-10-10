@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: gpwg-ii-2012-grass-phylogeny
       referenceLinks:
         - referenceId: gpwg-ii-2012-grass-phylogeny
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Grass Phylogeny Working Group II 2012 DOI 10.1111/j.1469-8137.2011.03972.x
       referenceLinks:
         - referenceId: gpwg-ii-2012-grass-phylogeny
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Prasad et al. 2005 DOI 10.1126/science.1118806
       referenceLinks:
         - referenceId: prasad-2005-grass-phytoliths
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Strömberg and McInerney 2011 DOI 10.1666/09067.1
       referenceLinks:
         - referenceId: stromberg-2011-great-plains-phytoliths
           relation: supports
@@ -142,9 +130,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Prasad et al. 2005 DOI 10.1126/science.1118806
       referenceLinks:
         - referenceId: prasad-2005-grass-phytoliths
           relation: supports
@@ -163,9 +148,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: prasad-2005-grass-phytoliths locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: prasad-2005-grass-phytoliths
@@ -221,7 +203,6 @@ records:
       referenceLocators:
         - referenceId: prasad-2005-grass-phytoliths
           locator: 1177–1180; Figure 1 stratigraphy; Figures 2–3 phytolith morphotypes; Supporting Online Text
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

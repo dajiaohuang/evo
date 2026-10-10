@@ -37,11 +37,11 @@ This batch’s Crocodylia route includes 21 historical life-history accounts; st
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked group introduction, not externally expert-reviewed. Measurements reflect a limited adult institutional sample and the taxonomy used in 2012; the pinned COL26.8 branch has 27 accepted species, and later splits are not inferred from older pooled samples.
-This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
+Source-linked group introduction. Measurements reflect a limited adult institutional sample and the taxonomy used in 2012; the pinned COL26.8 branch has 27 accepted species, and later splits are not inferred from older pooled samples.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
-New sensory accounts use material descriptions, selected methods/results/discussion and captions actually read in two published HTML articles, without claiming whole-paper review. The 2012 study examined American alligators and Nile crocodiles; the 2013 study examined Nile crocodiles and spectacled caimans. Experimental subsets, developmental stages and sites remain separate. Images, supplementary videos, all tables and raw neural data were not independently examined, nor experiments rerun. Results are not generalized to every crocodylian, fossil species or wild population; no external expert review is claimed.
+New sensory accounts use material descriptions, selected methods/results/discussion and captions actually read in two published HTML articles, without claiming whole-paper review. The 2012 study examined American alligators and Nile crocodiles; the 2013 study examined Nile crocodiles and spectacled caimans. Experimental subsets, developmental stages and sites remain separate. Images, supplementary videos, all tables and raw neural data were not independently examined, nor experiments rerun. Results are not generalized to every crocodylian, fossil species or wild population;
 <!-- /evo:text -->
 
 ## Reading routes
@@ -89,7 +89,7 @@ Use the three family lists below to find the remaining accepted-species guides. 
 
 
 <!-- evo:text /records/catalogue-profile/sections/4/text/en -->
-The pinned Alligatoridae branch contains 8 accepted species: Alligator mississippiensis (COL BTRB); Alligator sinensis (COL BTRF); Caiman crocodilus (COL PBBP); Caiman latirostris (COL PBBS); Caiman yacare (COL PBBW); Melanosuchus niger (COL 3ZBL4); Paleosuchus palpebrosus (COL 4C47J); Paleosuchus trigonatus (COL 4C47K). Each has a focused bilingual study guide in this branch; the list does not establish complete species accounts or expert review.
+The pinned Alligatoridae branch contains 8 accepted species: Alligator mississippiensis (COL BTRB); Alligator sinensis (COL BTRF); Caiman crocodilus (COL PBBP); Caiman latirostris (COL PBBS); Caiman yacare (COL PBBW); Melanosuchus niger (COL 3ZBL4); Paleosuchus palpebrosus (COL 4C47J); Paleosuchus trigonatus (COL 4C47K). Each has a focused bilingual study guide in this branch; the list does not establish complete species accounts.
 <!-- /evo:text -->
 
 
@@ -99,7 +99,7 @@ The pinned Alligatoridae branch contains 8 accepted species: Alligator mississip
 
 
 <!-- evo:text /records/catalogue-profile/sections/5/text/en -->
-The pinned Crocodylidae branch contains 17 accepted species: Crocodylus acutus (COL ZKNB); Crocodylus halli (COL 8GRXJ); Crocodylus intermedius (COL ZKND); Crocodylus johnstoni (COL C6Q4M); Crocodylus mindorensis (COL ZKNG); Crocodylus moreletii (COL ZKNH); Crocodylus niloticus (COL ZKNK); Crocodylus novaeguineae (COL ZKNM); Crocodylus palustris (COL ZKNN); Crocodylus porosus (COL ZKNP); Crocodylus rhombifer (COL ZKNR); Crocodylus siamensis (COL ZKNS); Crocodylus suchus (COL ZKNT); Mecistops cataphractus (COL 3YKJB); Mecistops leptorhynchus (COL 8GPZP); Osteolaemus osborni (COL 8SBC9); Osteolaemus tetraspis (COL 6TBCB). Each has a focused bilingual study guide in this branch; the list does not establish complete species accounts or expert review.
+The pinned Crocodylidae branch contains 17 accepted species: Crocodylus acutus (COL ZKNB); Crocodylus halli (COL 8GRXJ); Crocodylus intermedius (COL ZKND); Crocodylus johnstoni (COL C6Q4M); Crocodylus mindorensis (COL ZKNG); Crocodylus moreletii (COL ZKNH); Crocodylus niloticus (COL ZKNK); Crocodylus novaeguineae (COL ZKNM); Crocodylus palustris (COL ZKNN); Crocodylus porosus (COL ZKNP); Crocodylus rhombifer (COL ZKNR); Crocodylus siamensis (COL ZKNS); Crocodylus suchus (COL ZKNT); Mecistops cataphractus (COL 3YKJB); Mecistops leptorhynchus (COL 8GPZP); Osteolaemus osborni (COL 8SBC9); Osteolaemus tetraspis (COL 6TBCB). Each has a focused bilingual study guide in this branch; the list does not establish complete species accounts.
 <!-- /evo:text -->
 
 
@@ -109,7 +109,7 @@ The pinned Crocodylidae branch contains 17 accepted species: Crocodylus acutus (
 
 
 <!-- evo:text /records/catalogue-profile/sections/6/text/en -->
-The pinned Gavialidae branch contains 2 accepted species: Gavialis gangeticus (COL 3FFQ3); Tomistoma schlegelii (COL 57D4X). Each has a focused bilingual study guide in this branch; the list does not establish complete species accounts or expert review.
+The pinned Gavialidae branch contains 2 accepted species: Gavialis gangeticus (COL 3FFQ3); Tomistoma schlegelii (COL 57D4X). Each has a focused bilingual study guide in this branch; the list does not establish complete species accounts.
 <!-- /evo:text -->
 
 
@@ -135,7 +135,7 @@ This guide covers only this batch’s entries with at least four sourced focal t
 ## Citation gaps in some descendant accounts
 
 <!-- evo:text /records/catalogue-profile/sections/10/text/en -->
-In this ReptTraits route, some fields in 3 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage or expert review.
+In this ReptTraits route, some fields in 3 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 <!-- /evo:text -->
 
 ## Start with sourced trait records

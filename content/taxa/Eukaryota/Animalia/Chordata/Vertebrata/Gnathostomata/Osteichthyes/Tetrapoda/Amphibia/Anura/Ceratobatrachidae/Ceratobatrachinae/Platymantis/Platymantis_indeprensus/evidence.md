@@ -9,7 +9,6 @@ records:
     name:
       en: Platymantis indeprensus
       zh: Platymantis indeprensus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

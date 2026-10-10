@@ -9,7 +9,6 @@ records:
     name:
       zh: Toremys cassiopeia
       en: Toremys cassiopeia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

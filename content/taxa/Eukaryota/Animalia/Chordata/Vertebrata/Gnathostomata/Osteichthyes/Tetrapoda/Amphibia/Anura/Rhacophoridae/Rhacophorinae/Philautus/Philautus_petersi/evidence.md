@@ -9,7 +9,6 @@ records:
     name:
       en: Philautus petersi
       zh: Philautus petersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

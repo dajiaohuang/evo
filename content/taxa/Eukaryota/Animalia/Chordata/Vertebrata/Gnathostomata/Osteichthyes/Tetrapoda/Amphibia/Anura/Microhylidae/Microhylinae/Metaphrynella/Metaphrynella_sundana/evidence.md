@@ -9,7 +9,6 @@ records:
     name:
       en: Metaphrynella sundana
       zh: Metaphrynella sundana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

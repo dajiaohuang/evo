@@ -41,8 +41,11 @@ export class ContentReferenceCatalogue {
     this.variants = new Map()
     for (const reference of this.records) {
       const doi = doiOf(reference)
-      const key = orderedJson({ identifier: doi ? `doi:${doi.toLowerCase()}` : reference.url, version: reference.version ?? null, publishedAt: reference.publishedAt ?? null })
-      if (!this.byKey.has(key)) this.byKey.set(key, reference)
+      const identifier = doi ? `doi:${doi.toLowerCase()}` : reference.url
+      if (identifier) {
+        const key = orderedJson({ identifier, version: reference.version ?? null, publishedAt: reference.url === 'https://www.checklistbank.org/dataset/316115' ? '2026-08-20' : reference.publishedAt ?? null })
+        if (!this.byKey.has(key)) this.byKey.set(key, reference)
+      }
       this.variants.set(reference.id, new Map((reference.importedSourceMetadata ?? []).map((variant, index) => [orderedJson(variant), index])))
     }
   }
@@ -72,11 +75,11 @@ export class ContentReferenceCatalogue {
         url: isColUsage ? identifier : wfoUsage && doi ? `https://doi.org/${doi}` : source.url,
         sourceRole: isColUsage || wfoUsage ? 'taxonomic-database' : 'unclassified',
         fitnessFor: isColUsage || wfoUsage ? ['taxonomy'] : [],
-        metadataAssignment: 'automated',
+
         metadataStatus: 'imported-without-bibliographic-enrichment',
         ...(doi ? { doi } : {}),
         ...(version ? { version } : {}),
-        ...(typeof source.publishedAt === 'string' && /^\d{4}-\d{2}-\d{2}/.test(source.publishedAt) ? { publishedAt: source.publishedAt } : {}),
+        ...(isColUsage ? { publishedAt: '2026-08-20' } : typeof source.publishedAt === 'string' && /^\d{4}-\d{2}-\d{2}/.test(source.publishedAt) ? { publishedAt: source.publishedAt } : {}),
         ...(source.publishedYear ? { publishedYear: source.publishedYear } : {}),
         ...(artifactSha256 ? { artifactSha256 } : {}),
       }
@@ -101,7 +104,7 @@ export class ContentReferenceCatalogue {
       reference.importedSourceMetadata.push(metadata)
       variants.set(variantKey, variant)
     }
-    if (!reference.publishedYear && !reference.publishedAt && !reference.accessedAt && !reference.version && reference.metadataStatus === 'imported-without-bibliographic-enrichment' && reference.metadataAssignment === 'automated' && reference.sourceRole === 'unclassified' && reference.fitnessFor.length === 0 && ['publication', 'web-resource'].includes(reference.type)) reference.dateStatus = 'unresolved-in-source-metadata'
+    if (!reference.publishedYear && !reference.publishedAt && !reference.accessedAt && !reference.version && reference.metadataStatus === 'imported-without-bibliographic-enrichment' && reference.sourceRole === 'unclassified' && reference.fitnessFor.length === 0 && ['publication', 'web-resource'].includes(reference.type)) reference.dateStatus = 'unresolved-in-source-metadata'
     return { referenceId: reference.id, metadataVariant: variant, sourceKey: source.id, usage, originalFields: Object.keys(source) }
   }
 
@@ -119,7 +122,7 @@ export class ContentReferenceCatalogue {
         type: 'bibliographic-record',
         sourceRole: 'unclassified',
         fitnessFor: [],
-        metadataAssignment: 'automated',
+
         metadataStatus: 'verbatim-archive-citation-unparsed',
         dateStatus: 'unresolved-in-source-metadata',
         importedCitationMetadata: [bibliography],

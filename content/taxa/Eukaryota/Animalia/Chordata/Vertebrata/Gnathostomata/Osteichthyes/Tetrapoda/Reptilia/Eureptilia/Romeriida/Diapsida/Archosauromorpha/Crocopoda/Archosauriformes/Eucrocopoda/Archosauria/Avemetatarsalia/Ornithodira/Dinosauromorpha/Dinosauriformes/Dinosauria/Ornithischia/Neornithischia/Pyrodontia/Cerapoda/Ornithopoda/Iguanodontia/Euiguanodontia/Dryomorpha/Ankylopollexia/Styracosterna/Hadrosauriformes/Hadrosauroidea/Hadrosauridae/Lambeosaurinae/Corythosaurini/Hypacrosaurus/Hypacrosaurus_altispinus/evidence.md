@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypacrosaurus altispinus
       en: Hypacrosaurus altispinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

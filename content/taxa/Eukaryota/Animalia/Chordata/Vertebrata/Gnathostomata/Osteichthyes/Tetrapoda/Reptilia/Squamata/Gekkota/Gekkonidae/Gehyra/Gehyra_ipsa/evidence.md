@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra ipsa
       en: Gehyra ipsa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

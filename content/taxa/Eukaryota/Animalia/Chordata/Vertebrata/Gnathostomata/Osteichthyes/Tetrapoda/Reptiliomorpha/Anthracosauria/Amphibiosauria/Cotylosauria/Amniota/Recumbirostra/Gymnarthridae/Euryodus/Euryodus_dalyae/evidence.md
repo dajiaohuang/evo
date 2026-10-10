@@ -9,7 +9,6 @@ records:
     name:
       zh: Euryodus dalyae
       en: Euryodus dalyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: sharma-2014-arachnida-phylogenomics DOI 10.1093/molbev/msu235; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: sharma-2014-arachnida-phylogenomics
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: ballesteros-2022-arachnida-paraphyly
           locator: msac021; Figures 1–6; Supplementary analyses; Dense taxon sampling; Heterogeneous models; Total-evidence topology
-      reviewStatus: automated-audit-passed
 ---
 
 # Arachnida

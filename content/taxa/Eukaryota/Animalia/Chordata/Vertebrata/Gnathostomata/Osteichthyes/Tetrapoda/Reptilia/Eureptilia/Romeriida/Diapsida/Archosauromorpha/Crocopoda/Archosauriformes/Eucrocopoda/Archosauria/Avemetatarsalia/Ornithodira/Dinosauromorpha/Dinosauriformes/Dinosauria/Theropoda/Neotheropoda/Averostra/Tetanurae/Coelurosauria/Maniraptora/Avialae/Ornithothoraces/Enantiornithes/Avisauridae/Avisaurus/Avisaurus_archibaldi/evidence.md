@@ -9,7 +9,6 @@ records:
     name:
       zh: Avisaurus archibaldi
       en: Avisaurus archibaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

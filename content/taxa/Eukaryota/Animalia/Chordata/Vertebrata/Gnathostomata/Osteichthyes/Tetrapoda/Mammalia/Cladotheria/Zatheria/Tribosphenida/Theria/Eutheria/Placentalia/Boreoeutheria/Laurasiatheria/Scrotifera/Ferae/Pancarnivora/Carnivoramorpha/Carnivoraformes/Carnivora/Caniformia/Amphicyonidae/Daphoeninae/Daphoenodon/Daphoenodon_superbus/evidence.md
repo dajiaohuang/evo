@@ -9,7 +9,6 @@ records:
     name:
       zh: Daphoenodon superbus
       en: Daphoenodon superbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

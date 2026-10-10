@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanoseps uzungwensis
       en: Melanoseps uzungwensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

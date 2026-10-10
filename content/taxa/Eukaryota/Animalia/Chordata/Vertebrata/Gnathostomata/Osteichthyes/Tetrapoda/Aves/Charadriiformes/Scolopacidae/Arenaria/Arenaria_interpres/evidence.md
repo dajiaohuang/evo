@@ -9,7 +9,6 @@ records:
     name:
       zh: Arenaria interpres
       en: Arenaria interpres
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

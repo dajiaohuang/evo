@@ -9,7 +9,6 @@ records:
     name:
       zh: 红披风鞍背狨
       en: Red-mantled Saddle-back Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

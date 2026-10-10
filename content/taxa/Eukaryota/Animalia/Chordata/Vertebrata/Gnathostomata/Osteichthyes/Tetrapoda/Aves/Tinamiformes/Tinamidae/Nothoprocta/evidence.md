@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothoprocta
       en: Nothoprocta
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: palaeognathGenomics

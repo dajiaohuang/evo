@@ -9,7 +9,6 @@ records:
     name:
       zh: Pistosaurus longaevus
       en: Pistosaurus longaevus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

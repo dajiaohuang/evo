@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: shu-1999-chengjiang-vertebrates primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: shu-1999-chengjiang-vertebrates
           relation: supports
@@ -65,7 +62,6 @@ records:
       referenceLocators:
         - referenceId: shu-1999-chengjiang-vertebrates
           locator: pp. 42–46; Figures 1–5; descriptions, phylogenetic analysis and Supplementary Information
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

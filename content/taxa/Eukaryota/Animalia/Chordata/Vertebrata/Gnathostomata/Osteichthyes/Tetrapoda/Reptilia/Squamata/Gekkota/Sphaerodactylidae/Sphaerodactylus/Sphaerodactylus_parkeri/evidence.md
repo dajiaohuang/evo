@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus parkeri
       en: Sphaerodactylus parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hesperotestudo harrisi
       en: Hesperotestudo harrisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

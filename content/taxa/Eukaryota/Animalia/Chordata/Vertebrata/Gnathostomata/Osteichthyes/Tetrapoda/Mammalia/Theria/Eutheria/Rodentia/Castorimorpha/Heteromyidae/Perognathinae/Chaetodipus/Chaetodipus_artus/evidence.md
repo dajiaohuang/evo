@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetodipus artus
       en: Chaetodipus artus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

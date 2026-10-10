@@ -9,7 +9,6 @@ records:
     name:
       zh: Edmontosaurus regalis
       en: Edmontosaurus regalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

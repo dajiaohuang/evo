@@ -9,7 +9,6 @@ records:
     name:
       zh: Mookomys altifluminis
       en: Mookomys altifluminis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

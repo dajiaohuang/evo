@@ -9,7 +9,6 @@ records:
     name:
       en: Allobates fuscellus
       zh: Allobates fuscellus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

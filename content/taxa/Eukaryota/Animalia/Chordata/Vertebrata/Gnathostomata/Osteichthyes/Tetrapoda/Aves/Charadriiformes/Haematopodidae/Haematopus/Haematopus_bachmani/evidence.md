@@ -9,7 +9,6 @@ records:
     name:
       zh: Haematopus bachmani
       en: Haematopus bachmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

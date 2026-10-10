@@ -9,7 +9,6 @@ records:
     name:
       zh: Sacisaurus agudoensis
       en: Sacisaurus agudoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

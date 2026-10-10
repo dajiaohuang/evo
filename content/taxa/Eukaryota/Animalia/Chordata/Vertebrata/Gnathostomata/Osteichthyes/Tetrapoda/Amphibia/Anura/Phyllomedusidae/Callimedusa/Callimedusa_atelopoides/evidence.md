@@ -9,7 +9,6 @@ records:
     name:
       en: Callimedusa atelopoides
       zh: Callimedusa atelopoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

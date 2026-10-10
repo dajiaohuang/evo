@@ -9,7 +9,6 @@ records:
     name:
       zh: Geringophis vetus
       en: Geringophis vetus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

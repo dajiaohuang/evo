@@ -9,7 +9,6 @@ records:
     name:
       zh: Psilopogon virens
       en: Psilopogon virens
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

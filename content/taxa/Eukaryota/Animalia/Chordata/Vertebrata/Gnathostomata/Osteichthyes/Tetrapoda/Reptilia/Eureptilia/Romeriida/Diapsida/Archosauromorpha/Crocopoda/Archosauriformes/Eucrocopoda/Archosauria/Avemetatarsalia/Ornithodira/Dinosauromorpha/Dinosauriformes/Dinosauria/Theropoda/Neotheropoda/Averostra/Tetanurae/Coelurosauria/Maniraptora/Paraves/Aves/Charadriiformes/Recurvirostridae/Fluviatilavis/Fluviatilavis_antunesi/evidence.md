@@ -9,7 +9,6 @@ records:
     name:
       zh: Fluviatilavis antunesi
       en: Fluviatilavis antunesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

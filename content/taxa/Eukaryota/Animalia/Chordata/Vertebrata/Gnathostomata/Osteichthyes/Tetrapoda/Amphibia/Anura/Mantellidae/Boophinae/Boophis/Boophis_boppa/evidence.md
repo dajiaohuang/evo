@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis boppa
       zh: Boophis boppa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

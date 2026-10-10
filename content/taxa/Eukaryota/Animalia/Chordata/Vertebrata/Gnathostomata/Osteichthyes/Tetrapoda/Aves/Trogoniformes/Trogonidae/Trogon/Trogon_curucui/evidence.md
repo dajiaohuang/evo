@@ -9,7 +9,6 @@ records:
     name:
       zh: Trogon curucui
       en: Trogon curucui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

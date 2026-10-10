@@ -9,7 +9,6 @@ records:
     name:
       zh: Episoriculus leucops
       en: Episoriculus leucops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Procoptodon pusio
       en: Procoptodon pusio
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

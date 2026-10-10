@@ -9,7 +9,6 @@ records:
     name:
       zh: Wudingloong wui
       en: Wudingloong wui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

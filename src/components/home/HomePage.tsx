@@ -97,7 +97,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
           <button onClick={() => onNavigate('catalog')}>
             <span>02</span><small>{t('I want to look up a group')}</small>
             <h3>{t('Taxa and events catalog')}</h3>
-            <p>{t('Inspect ranges, ecology, uncertainty, maturity and source fit without hiding provisional content.')}</p><i>→</i>
+            <p>{t('Inspect ranges, ecology, uncertainty and source fit without hiding provisional content.')}</p><i>→</i>
           </button>
           <button onClick={() => onNavigate('research')}>
             <span>03</span><small>{t('I want to inspect data or analyze')}</small>
@@ -105,7 +105,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
             <p>{t('Compare views, run local queries and export a reproducible evidence bundle.')}</p><i>→</i>
           </button>
         </div>
-        <p className="home-maturity-note"><strong>{t('Current evidence boundary')}:</strong> {t('Each package discloses scientific maturity separately. Platform publication and automated checks do not imply maintainer or domain-expert review.')}</p>
+        <p className="home-evidence-note"><strong>{t('Current evidence boundary')}:</strong> {t('Entries retain their sources, sampling limits and scientific uncertainty.')}</p>
       </section>
 
       <section className="home-section period-section">

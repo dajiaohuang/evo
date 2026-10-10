@@ -9,7 +9,6 @@ records:
     name:
       en: Ingerophrynus quadriporcatus
       zh: Ingerophrynus quadriporcatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

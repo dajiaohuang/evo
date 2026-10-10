@@ -9,7 +9,6 @@ records:
     name:
       zh: Xotodon foricurvatus
       en: Xotodon foricurvatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

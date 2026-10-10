@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: long-2025-amniote-tracks primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: long-2025-amniote-tracks
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: long-2025-amniote-tracks
           locator: pp. 1193–1200; Figures 1–4; trackmaker assessment and revised timescale
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

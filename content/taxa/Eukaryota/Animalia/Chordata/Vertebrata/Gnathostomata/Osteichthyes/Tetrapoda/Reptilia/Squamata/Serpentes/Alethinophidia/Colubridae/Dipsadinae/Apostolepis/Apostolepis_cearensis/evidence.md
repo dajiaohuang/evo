@@ -9,7 +9,6 @@ records:
     name:
       zh: Apostolepis cearensis
       en: Apostolepis cearensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

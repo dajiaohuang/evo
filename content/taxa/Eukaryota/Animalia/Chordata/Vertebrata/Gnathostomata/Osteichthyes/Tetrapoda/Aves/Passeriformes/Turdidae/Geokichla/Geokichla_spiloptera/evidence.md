@@ -9,7 +9,6 @@ records:
     name:
       zh: Geokichla spiloptera
       en: Geokichla spiloptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

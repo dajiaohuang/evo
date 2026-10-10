@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrolagus dorianus
       en: Dendrolagus dorianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

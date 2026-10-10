@@ -9,7 +9,6 @@ records:
     name:
       zh: Abronia aurita
       en: Abronia aurita
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

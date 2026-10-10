@@ -9,7 +9,6 @@ records:
     name:
       zh: Calamaria palavanensis
       en: Calamaria palavanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

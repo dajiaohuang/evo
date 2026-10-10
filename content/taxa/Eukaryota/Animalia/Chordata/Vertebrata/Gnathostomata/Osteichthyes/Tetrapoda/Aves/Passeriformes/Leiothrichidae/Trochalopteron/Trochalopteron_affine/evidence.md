@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochalopteron affine
       en: Trochalopteron affine
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

@@ -29,6 +29,6 @@ This batch’s Cettiidae route includes 1 historical life-history account; start
 ## Life-history evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished; no external expert review has occurred.
-Seven added Horornis historical guides retain source family, six exact older-combination synonyms and one unconfirmed exact combination. Sex sampling, independent mass and migration codes remain separate without complete coverage, natural history or expert review.
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+Seven added Horornis historical guides retain source family, six exact older-combination synonyms and one unconfirmed exact combination. Sex sampling, independent mass and migration codes remain separate without complete coverage, natural history.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Crypturellus bartletti
       en: Crypturellus bartletti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

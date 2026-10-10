@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeoparadoxia weltoni
       en: Archaeoparadoxia weltoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

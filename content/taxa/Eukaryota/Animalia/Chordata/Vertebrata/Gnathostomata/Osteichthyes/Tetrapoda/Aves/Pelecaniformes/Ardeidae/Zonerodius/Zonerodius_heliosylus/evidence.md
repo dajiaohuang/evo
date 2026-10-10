@@ -9,7 +9,6 @@ records:
     name:
       zh: Zonerodius heliosylus
       en: Zonerodius heliosylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

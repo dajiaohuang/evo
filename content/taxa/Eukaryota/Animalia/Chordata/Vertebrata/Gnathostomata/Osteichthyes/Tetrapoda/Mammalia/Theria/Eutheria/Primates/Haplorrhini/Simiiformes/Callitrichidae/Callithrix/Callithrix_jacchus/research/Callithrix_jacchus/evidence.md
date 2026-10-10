@@ -289,9 +289,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-25
-      reviewedAgainstReferenceVersion: Ziegler, Sosa and Colman 2017 DOI 10.1371/journal.pone.0185695; PLOS full text inspected 2026-09-25
       referenceLinks:
         - referenceId: ziegler-sosa-colman-2017-common-marmoset-fathering
           relation: supports
@@ -309,9 +306,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: COL26.8 dataset 316115; accepted usage 697NS, source dataset 2144 checked 2026-09-27
       referenceLinks:
         - referenceId: col-2026-checklistbank-316115
           relation: supports
@@ -328,9 +322,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Benavides et al. 2022 DOI 10.1371/journal.pntd.0010254; occurrence results checked 2026-09-27
       referenceLinks:
         - referenceId: benavides-2022-common-marmoset-rabies-brazil
           relation: supports
@@ -349,9 +340,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Benavides et al. 2022 DOI 10.1371/journal.pntd.0010254; abstract and results checked 2026-09-27
       referenceLinks:
         - referenceId: benavides-2022-common-marmoset-rabies-brazil
           relation: supports
@@ -368,9 +356,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas primary-source audit
-      reviewedAt: 2026-09-27
-      reviewedAgainstReferenceVersion: Malukiewicz et al. 2021 DOI 10.1186/s12864-021-07533-1; abstract and results checked 2026-09-27
       referenceLinks:
         - referenceId: malukiewicz-2021-callithrix-mitogenomic-phylogeny
           relation: supports
@@ -420,7 +405,6 @@ records:
       referenceLocators:
         - referenceId: col-2026-checklistbank-316115
           locator: COL26.8 release dataset 316115; accepted usage 697NS and parent classification (identity/classification only)
-      reviewStatus: automated-audit-passed
   field-claim-overrides:
     - firstAppearance:
         status: not-assessed

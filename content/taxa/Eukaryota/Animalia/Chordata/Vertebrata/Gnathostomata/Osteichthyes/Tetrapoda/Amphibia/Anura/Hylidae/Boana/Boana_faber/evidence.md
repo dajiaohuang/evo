@@ -9,7 +9,6 @@ records:
     name:
       en: Boana faber
       zh: Boana faber
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

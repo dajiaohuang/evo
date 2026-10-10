@@ -9,7 +9,6 @@ records:
     name:
       zh: Tataouinea hannibalis
       en: Tataouinea hannibalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

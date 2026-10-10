@@ -9,7 +9,6 @@ records:
     name:
       zh: Encinepeltus petesatus
       en: Encinepeltus petesatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

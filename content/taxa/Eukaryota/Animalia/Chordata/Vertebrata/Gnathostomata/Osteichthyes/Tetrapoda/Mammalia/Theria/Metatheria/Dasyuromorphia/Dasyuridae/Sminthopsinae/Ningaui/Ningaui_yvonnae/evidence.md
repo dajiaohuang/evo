@@ -9,7 +9,6 @@ records:
     name:
       zh: Ningaui yvonnae
       en: Ningaui yvonnae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

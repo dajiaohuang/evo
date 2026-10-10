@@ -197,10 +197,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
   catalogue-profile:
     scientificName: Ambystoma mexicanum (Shaw & Nodder, 1798)
     rank: species
@@ -208,7 +204,6 @@ records:
     name:
       en: Ambystoma mexicanum
       zh: Ambystoma mexicanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:
@@ -1372,12 +1367,6 @@ The record combines a single-individual laboratory-genomics study and short-term
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Systematic literature coverage, wild-born ecology, long-term population outcomes and variation across the accepted species concept remain incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->
 
 ## referenceBindings / usage / title

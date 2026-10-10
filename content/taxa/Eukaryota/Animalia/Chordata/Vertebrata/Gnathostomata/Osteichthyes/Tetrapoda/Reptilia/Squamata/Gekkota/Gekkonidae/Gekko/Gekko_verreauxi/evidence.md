@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko verreauxi
       en: Gekko verreauxi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

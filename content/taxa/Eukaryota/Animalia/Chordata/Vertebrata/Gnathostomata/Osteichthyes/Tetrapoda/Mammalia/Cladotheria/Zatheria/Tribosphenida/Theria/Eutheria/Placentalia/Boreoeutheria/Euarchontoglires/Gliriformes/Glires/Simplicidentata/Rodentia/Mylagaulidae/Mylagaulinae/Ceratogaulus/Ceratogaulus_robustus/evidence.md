@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceratogaulus robustus
       en: Ceratogaulus robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

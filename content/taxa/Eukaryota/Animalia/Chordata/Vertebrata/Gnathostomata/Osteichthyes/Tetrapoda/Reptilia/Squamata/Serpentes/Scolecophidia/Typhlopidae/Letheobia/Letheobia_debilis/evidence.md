@@ -9,7 +9,6 @@ records:
     name:
       zh: Letheobia debilis
       en: Letheobia debilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

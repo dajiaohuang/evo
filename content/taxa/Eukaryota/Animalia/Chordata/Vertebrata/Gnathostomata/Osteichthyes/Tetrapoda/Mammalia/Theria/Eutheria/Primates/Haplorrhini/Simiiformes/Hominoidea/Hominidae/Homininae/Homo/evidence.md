@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lordkipanidze-2013-dmanisi concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: lordkipanidze-2013-dmanisi
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lordkipanidze-2013-dmanisi @ DOI 10.1126/science.1238484
       referenceLinks:
         - relation: supports
           referenceId: lordkipanidze-2013-dmanisi
@@ -96,7 +90,6 @@ records:
           locator: 326–331; Skull association; layer and age; variation analysis
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Mammalia/Theria/Eutheria/Primates/Haplorrhini/Simiiformes/Hominoidea/Hominidae/Homininae/Homo
       rangeKind: global-composite
@@ -121,7 +114,6 @@ records:
       referenceLocators:
         - referenceId: lordkipanidze-2013-dmanisi
           locator: 326–331; Figures 1–4; Figure S1; Tables S1–S7
-      reviewStatus: automated-audit-passed
   catalogue-profile:
     scientificName: Homo
     rank: genus
@@ -129,7 +121,6 @@ records:
     name:
       zh: Homo
       en: Homo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

@@ -9,7 +9,6 @@ records:
     name:
       en: Bufo cryptotympanicus
       zh: Bufo cryptotympanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

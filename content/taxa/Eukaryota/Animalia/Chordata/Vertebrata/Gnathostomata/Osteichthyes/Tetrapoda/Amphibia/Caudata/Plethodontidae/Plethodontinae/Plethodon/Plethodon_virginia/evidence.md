@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon virginia
       zh: Plethodon virginia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

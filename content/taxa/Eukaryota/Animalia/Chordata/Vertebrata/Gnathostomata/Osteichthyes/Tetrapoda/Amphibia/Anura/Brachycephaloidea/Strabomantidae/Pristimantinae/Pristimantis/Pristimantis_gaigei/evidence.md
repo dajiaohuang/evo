@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis gaigei
       zh: Pristimantis gaigei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

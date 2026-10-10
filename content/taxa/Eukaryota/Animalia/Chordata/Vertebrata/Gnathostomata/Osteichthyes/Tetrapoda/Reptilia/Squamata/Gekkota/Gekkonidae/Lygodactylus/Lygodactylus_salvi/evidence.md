@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus salvi
       en: Lygodactylus salvi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

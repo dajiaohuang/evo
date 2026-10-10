@@ -9,7 +9,6 @@ records:
     name:
       zh: Alexandronectes zealandiensis
       en: Alexandronectes zealandiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

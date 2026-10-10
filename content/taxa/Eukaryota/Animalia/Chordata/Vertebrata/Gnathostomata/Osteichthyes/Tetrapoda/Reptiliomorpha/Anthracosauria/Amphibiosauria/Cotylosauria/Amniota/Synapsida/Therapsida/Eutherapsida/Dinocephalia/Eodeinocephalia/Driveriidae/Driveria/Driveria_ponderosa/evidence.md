@@ -9,7 +9,6 @@ records:
     name:
       zh: Driveria ponderosa
       en: Driveria ponderosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

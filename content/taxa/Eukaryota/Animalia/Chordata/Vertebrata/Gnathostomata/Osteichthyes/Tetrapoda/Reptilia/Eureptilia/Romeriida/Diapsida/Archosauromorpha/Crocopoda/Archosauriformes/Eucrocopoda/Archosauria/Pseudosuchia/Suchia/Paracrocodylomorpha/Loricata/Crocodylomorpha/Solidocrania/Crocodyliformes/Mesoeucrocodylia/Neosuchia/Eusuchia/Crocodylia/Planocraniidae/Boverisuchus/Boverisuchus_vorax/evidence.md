@@ -9,7 +9,6 @@ records:
     name:
       zh: Boverisuchus vorax
       en: Boverisuchus vorax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

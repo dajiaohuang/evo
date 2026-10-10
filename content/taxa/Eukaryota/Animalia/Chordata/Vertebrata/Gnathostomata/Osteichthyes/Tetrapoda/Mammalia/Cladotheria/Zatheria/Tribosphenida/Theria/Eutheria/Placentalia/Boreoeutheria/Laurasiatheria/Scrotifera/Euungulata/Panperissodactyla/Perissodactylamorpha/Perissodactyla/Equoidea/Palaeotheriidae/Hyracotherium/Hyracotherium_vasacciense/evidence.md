@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyracotherium vasacciense
       en: Hyracotherium vasacciense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Sachatamia albomaculata
       zh: Sachatamia albomaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

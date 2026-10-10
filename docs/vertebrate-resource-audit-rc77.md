@@ -26,4 +26,4 @@ Primary sources:
 
 The generated profile, claim, range and locale projections are part of the same canonical data graph used by all clients. The existing `web-light` build therefore publishes only the existing summary descriptors and hashes, while the existing `native-full` build carries the complete new profile and claim records for both Android and iOS. No content-validation subsystem was introduced.
 
-The new dossiers remain `source-linked` and are not expert-reviewed or `published` scientific conclusions. Regional envelopes are study-sample context, not global FAD/LAD, direct ancestry, complete ecology, or a universal tetrapod transition sequence. Diet and behaviour remain unavailable where the cited primary paper does not directly establish them.
+The new dossiers remain `source-linked` and are not complete scientific conclusions. Regional envelopes are study-sample context, not global FAD/LAD, direct ancestry, complete ecology, or a universal tetrapod transition sequence. Diet and behaviour remain unavailable where the cited primary paper does not directly establish them.

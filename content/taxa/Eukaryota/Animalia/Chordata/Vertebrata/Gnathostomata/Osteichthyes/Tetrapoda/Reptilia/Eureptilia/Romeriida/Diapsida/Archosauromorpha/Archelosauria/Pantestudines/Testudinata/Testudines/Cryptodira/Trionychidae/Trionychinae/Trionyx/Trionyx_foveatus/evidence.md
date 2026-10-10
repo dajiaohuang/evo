@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx foveatus
       en: Trionyx foveatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

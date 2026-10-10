@@ -9,7 +9,6 @@ records:
     name:
       zh: 利夸利疣猴
       en: Likweli
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

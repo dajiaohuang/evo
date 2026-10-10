@@ -9,7 +9,6 @@ records:
     name:
       zh: Tracheloptychus madagascariensis
       en: Tracheloptychus madagascariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena mossambica
       zh: Ptychadena mossambica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

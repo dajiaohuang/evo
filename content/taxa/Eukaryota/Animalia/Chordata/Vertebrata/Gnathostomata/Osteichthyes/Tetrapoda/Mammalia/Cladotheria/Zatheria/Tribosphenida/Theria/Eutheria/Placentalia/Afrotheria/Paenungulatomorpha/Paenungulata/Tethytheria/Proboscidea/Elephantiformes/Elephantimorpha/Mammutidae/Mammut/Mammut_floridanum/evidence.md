@@ -9,7 +9,6 @@ records:
     name:
       zh: Mammut floridanum
       en: Mammut floridanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

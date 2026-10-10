@@ -9,7 +9,6 @@ records:
     name:
       zh: Scelidotherium reyesi
       en: Scelidotherium reyesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

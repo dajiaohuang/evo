@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zanno-2015-carnufex concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: zanno-2015-carnufex
           relation: supports
@@ -68,7 +65,6 @@ records:
           locator: https://opentreeoflife.github.io/use
         - referenceId: pbdb-api-2016
           locator: doi:10.1017/pab.2015.39
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

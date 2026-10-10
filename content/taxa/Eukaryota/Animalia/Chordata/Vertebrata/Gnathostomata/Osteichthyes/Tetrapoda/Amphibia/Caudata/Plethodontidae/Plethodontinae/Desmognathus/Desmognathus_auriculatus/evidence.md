@@ -9,7 +9,6 @@ records:
     name:
       en: Desmognathus auriculatus
       zh: Desmognathus auriculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

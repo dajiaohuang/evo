@@ -9,7 +9,6 @@ records:
     name:
       zh: Locustella luscinioides
       en: Locustella luscinioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Huanghetitan liujiaxiaensis
       en: Huanghetitan liujiaxiaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

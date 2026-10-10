@@ -9,7 +9,6 @@ records:
     name:
       zh: Viatkosuchus sumini
       en: Viatkosuchus sumini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

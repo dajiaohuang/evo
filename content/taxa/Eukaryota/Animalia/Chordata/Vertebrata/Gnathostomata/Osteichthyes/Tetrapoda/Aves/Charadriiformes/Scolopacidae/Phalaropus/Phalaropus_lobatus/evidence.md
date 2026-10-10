@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalaropus lobatus
       en: Phalaropus lobatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

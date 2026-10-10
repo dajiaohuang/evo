@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyacodon apiculatus
       en: Oxyacodon apiculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

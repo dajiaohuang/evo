@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus delormei
       zh: Mantidactylus delormei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

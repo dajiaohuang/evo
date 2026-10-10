@@ -9,7 +9,6 @@ records:
     name:
       zh: Hibernophis breithaupti
       en: Hibernophis breithaupti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

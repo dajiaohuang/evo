@@ -9,7 +9,6 @@ records:
     name:
       zh: Suevosciurus
       en: Suevosciurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

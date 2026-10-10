@@ -9,7 +9,6 @@ records:
     name:
       zh: Cormohipparion sphenodus
       en: Cormohipparion sphenodus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

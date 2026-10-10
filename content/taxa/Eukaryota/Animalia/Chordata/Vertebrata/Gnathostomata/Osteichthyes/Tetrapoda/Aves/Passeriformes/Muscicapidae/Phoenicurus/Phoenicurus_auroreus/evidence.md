@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoenicurus auroreus
       en: Phoenicurus auroreus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

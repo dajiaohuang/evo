@@ -9,7 +9,6 @@ records:
     name:
       zh: 格罗夫斯僧面猴
       en: Groves' Titi
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

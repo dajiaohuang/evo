@@ -232,9 +232,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
 ---
 
 # Doryteuthis pealeii
@@ -338,7 +335,7 @@ Statolith observations were made in laboratory-reared paralarvae; later developm
 ## facets / morphology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/morphology/gaps/2 -->
-Life-history outcomes beyond hatching, ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete.
+Life-history outcomes beyond hatching, ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->
 
 ## lifeHistory / claims / text
@@ -374,7 +371,7 @@ The paralarvae were not followed beyond the yolk-sac stage, so subsequent surviv
 ## facets / lifeHistory / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/lifeHistory/gaps/2 -->
-Other life-history stages and morphology, ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search and independent expert review are incomplete.
+Other life-history stages and morphology, ecology, evolution, distribution, fossils, and conservation remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->
 
 ## catalogue-dossier / completeness / reasons
@@ -392,5 +389,5 @@ The trials do not follow paralarvae beyond their yolk-sac stage or establish pop
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search and external review are incomplete.
+Other biological facets and complete geographic, fossil, and conservation coverage remain unassessed; systematic search are incomplete.
 <!-- /evo:text -->

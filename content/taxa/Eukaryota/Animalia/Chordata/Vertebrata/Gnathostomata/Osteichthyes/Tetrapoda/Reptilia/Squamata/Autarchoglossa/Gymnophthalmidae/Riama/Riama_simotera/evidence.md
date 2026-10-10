@@ -9,7 +9,6 @@ records:
     name:
       zh: Riama simotera
       en: Riama simotera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

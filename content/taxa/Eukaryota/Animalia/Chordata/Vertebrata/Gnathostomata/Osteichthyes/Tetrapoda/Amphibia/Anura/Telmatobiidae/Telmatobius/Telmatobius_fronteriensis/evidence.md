@@ -9,7 +9,6 @@ records:
     name:
       en: Telmatobius fronteriensis
       zh: Telmatobius fronteriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

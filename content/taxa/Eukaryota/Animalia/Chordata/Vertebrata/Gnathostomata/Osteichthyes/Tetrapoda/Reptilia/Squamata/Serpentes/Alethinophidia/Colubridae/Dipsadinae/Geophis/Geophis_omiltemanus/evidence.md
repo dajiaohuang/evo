@@ -9,7 +9,6 @@ records:
     name:
       zh: Geophis omiltemanus
       en: Geophis omiltemanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Heterohyrax brucei
       en: Heterohyrax brucei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

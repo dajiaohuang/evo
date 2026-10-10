@@ -9,7 +9,6 @@ records:
     name:
       en: Ptychadena bunoderma
       zh: Ptychadena bunoderma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

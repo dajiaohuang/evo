@@ -9,7 +9,6 @@ records:
     name:
       zh: Pediomeryx hemphillensis
       en: Pediomeryx hemphillensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

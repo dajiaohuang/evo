@@ -9,7 +9,6 @@ records:
     name:
       zh: Dzavui landeri
       en: Dzavui landeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

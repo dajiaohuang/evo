@@ -9,7 +9,6 @@ records:
     name:
       zh: Thamnosophis mavotenda
       en: Thamnosophis mavotenda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

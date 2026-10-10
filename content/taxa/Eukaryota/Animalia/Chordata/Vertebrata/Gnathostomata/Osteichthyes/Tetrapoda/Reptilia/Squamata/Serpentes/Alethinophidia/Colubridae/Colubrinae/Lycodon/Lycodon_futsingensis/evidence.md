@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon futsingensis
       en: Lycodon futsingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

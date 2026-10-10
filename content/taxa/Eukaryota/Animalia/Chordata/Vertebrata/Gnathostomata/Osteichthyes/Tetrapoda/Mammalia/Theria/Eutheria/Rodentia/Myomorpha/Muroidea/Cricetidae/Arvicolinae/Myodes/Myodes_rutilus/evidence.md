@@ -9,7 +9,6 @@ records:
     name:
       zh: Myodes rutilus
       en: Myodes rutilus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

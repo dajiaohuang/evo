@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: tomiya-tseng-2016-beardogs + spaulding-flynn-2012-carnivoramorpha concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: tomiya-tseng-2016-beardogs
@@ -51,9 +48,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: tomiya-tseng-2016-beardogs @ DOI 10.1098/rsos.160518
       referenceLinks:
         - relation: supports
           referenceId: tomiya-tseng-2016-beardogs
@@ -101,7 +95,6 @@ records:
           locator: Article 160518; Phylogenetic analysis; origin of Amphicyonidae discussion
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
 ---
 
 # Amphicyonidae

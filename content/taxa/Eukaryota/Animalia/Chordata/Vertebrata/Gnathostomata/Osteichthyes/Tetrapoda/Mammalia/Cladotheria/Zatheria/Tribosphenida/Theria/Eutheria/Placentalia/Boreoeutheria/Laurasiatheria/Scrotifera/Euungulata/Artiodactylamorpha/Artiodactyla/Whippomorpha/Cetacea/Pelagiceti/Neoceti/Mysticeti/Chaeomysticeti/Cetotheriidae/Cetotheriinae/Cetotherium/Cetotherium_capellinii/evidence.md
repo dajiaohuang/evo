@@ -9,7 +9,6 @@ records:
     name:
       zh: Cetotherium capellinii
       en: Cetotherium capellinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

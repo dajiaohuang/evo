@@ -16,5 +16,5 @@ Surveys in 2009–2010 checked 70 forest fragments and 12 corridors around 19 si
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The observations and estimates describe surveys conducted in 2009–2010 at selected northwestern sites; they are not current totals or a complete range-wide estimate. This profile is not externally expert-reviewed.
+The observations and estimates describe surveys conducted in 2009–2010 at selected northwestern sites; they are not current totals or a complete range-wide estimate. This profile is.
 <!-- /evo:text -->

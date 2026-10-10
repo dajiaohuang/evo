@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphidolops intermedius
       en: Amphidolops intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

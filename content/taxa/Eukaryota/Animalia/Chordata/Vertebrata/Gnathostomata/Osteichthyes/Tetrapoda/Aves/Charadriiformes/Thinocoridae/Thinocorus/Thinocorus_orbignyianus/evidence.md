@@ -9,7 +9,6 @@ records:
     name:
       zh: Thinocorus orbignyianus
       en: Thinocorus orbignyianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

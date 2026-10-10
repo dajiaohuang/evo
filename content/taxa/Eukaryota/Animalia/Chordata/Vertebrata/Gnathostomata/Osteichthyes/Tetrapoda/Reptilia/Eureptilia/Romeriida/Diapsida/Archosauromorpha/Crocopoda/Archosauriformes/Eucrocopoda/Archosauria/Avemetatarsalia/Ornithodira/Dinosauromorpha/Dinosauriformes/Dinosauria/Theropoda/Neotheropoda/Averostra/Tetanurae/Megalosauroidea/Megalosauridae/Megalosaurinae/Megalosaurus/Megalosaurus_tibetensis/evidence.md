@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalosaurus tibetensis
       en: Megalosaurus tibetensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

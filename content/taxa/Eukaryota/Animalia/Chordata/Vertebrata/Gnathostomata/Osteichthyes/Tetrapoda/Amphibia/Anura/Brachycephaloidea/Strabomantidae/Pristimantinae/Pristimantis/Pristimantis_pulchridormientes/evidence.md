@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pulchridormientes
       zh: Pristimantis pulchridormientes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

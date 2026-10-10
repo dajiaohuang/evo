@@ -9,7 +9,6 @@ records:
     name:
       zh: Perimys scalabrinianus
       en: Perimys scalabrinianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

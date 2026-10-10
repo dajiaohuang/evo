@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus cyanogaster
       en: Liolaemus cyanogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

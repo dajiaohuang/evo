@@ -9,7 +9,6 @@ records:
     name:
       zh: Hamadasuchus rebouli
       en: Hamadasuchus rebouli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

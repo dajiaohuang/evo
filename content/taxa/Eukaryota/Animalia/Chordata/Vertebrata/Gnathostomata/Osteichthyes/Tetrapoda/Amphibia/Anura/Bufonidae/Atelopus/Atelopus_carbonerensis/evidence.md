@@ -9,7 +9,6 @@ records:
     name:
       en: Atelopus carbonerensis
       zh: Atelopus carbonerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

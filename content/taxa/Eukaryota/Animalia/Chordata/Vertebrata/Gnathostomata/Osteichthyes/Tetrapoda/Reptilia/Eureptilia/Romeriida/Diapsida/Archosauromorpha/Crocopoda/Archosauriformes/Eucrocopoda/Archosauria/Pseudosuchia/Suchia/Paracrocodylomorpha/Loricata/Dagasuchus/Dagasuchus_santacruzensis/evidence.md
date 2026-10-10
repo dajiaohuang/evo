@@ -9,7 +9,6 @@ records:
     name:
       zh: Dagasuchus santacruzensis
       en: Dagasuchus santacruzensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Actinemys
       en: Actinemys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

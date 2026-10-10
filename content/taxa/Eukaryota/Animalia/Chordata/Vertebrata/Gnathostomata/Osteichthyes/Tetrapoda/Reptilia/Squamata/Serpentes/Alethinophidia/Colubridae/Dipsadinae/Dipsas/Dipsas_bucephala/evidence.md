@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas bucephala
       en: Dipsas bucephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

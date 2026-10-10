@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis simonbolivari
       zh: Pristimantis simonbolivari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

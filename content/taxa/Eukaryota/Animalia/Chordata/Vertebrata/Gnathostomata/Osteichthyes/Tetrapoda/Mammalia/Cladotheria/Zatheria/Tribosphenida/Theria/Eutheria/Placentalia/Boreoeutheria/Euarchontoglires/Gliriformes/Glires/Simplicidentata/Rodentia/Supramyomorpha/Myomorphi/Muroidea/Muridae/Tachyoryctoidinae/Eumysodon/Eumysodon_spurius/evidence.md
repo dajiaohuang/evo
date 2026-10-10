@@ -9,7 +9,6 @@ records:
     name:
       zh: Eumysodon spurius
       en: Eumysodon spurius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

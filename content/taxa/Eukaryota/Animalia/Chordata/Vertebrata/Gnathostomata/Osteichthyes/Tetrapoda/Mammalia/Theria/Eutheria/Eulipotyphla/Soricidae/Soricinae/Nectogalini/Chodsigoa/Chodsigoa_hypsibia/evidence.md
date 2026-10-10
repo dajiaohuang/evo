@@ -9,7 +9,6 @@ records:
     name:
       zh: Chodsigoa hypsibia
       en: Chodsigoa hypsibia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

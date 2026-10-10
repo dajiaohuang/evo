@@ -9,7 +9,6 @@ records:
     name:
       zh: Eoespina
       en: Eoespina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

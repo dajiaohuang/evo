@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina fryi
       zh: Austrochaperina fryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeortyx brevipes
       en: Palaeortyx brevipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

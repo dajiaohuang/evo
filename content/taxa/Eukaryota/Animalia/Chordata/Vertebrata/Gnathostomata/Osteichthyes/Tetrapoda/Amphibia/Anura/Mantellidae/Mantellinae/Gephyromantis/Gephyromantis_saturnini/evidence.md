@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis saturnini
       zh: Gephyromantis saturnini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

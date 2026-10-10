@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura cinderella
       en: Crocidura cinderella
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

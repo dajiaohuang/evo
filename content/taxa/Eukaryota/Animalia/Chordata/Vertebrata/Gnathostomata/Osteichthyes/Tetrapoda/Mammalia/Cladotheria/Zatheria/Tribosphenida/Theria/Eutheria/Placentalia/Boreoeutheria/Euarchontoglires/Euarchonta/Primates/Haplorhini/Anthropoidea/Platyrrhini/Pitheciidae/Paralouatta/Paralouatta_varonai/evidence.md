@@ -9,7 +9,6 @@ records:
     name:
       zh: Paralouatta varonai
       en: Paralouatta varonai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

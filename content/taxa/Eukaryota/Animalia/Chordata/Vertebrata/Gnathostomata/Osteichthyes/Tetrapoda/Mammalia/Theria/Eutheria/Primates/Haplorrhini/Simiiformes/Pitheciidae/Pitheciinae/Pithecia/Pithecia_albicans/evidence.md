@@ -9,7 +9,6 @@ records:
     name:
       zh: 浅黄僧面猴
       en: Buffy Saki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

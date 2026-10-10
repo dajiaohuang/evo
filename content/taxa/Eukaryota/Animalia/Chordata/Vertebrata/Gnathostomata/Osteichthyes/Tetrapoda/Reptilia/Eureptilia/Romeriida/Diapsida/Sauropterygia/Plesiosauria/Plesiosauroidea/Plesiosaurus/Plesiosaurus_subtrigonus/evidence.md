@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiosaurus subtrigonus
       en: Plesiosaurus subtrigonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Peromyscus mekisturus
       en: Peromyscus mekisturus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

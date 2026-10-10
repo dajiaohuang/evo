@@ -9,7 +9,6 @@ records:
     name:
       zh: 西非细吻鳄
       en: West African slender-snouted crocodile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

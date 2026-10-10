@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca splendens
       zh: Gastrotheca splendens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscopus sindianus
       en: Phylloscopus sindianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

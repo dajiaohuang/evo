@@ -9,7 +9,6 @@ records:
     name:
       en: Chimerella mira
       zh: Chimerella mira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

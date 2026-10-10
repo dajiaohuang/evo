@@ -9,7 +9,6 @@ records:
     name:
       zh: Pisanodon nazari
       en: Pisanodon nazari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

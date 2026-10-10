@@ -9,7 +9,6 @@ records:
     name:
       zh: Myophonus insularis
       en: Myophonus insularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

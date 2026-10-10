@@ -9,7 +9,6 @@ records:
     name:
       zh: Meles iberica
       en: Meles iberica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

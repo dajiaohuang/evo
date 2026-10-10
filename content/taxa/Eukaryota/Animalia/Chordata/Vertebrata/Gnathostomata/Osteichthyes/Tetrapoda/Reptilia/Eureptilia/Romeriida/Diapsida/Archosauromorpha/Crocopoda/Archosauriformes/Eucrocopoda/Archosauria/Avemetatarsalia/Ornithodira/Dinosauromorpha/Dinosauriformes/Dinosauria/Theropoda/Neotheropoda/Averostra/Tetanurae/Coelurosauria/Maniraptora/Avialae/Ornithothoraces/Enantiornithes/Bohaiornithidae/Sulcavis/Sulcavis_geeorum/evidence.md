@@ -9,7 +9,6 @@ records:
     name:
       zh: Sulcavis geeorum
       en: Sulcavis geeorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tritylodon longaevus
       en: Tritylodon longaevus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

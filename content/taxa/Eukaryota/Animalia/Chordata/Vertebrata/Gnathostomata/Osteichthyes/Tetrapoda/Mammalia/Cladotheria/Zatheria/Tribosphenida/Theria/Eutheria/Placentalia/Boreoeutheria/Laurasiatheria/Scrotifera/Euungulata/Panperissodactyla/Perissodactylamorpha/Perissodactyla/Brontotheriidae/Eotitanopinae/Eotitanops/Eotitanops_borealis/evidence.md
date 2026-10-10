@@ -9,7 +9,6 @@ records:
     name:
       zh: Eotitanops borealis
       en: Eotitanops borealis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

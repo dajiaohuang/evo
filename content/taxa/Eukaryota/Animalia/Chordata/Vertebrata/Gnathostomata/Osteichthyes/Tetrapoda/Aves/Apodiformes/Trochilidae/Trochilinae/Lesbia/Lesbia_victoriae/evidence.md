@@ -9,7 +9,6 @@ records:
     name:
       zh: Lesbia victoriae
       en: Lesbia victoriae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

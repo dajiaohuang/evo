@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus nexipus
       zh: Cophixalus nexipus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

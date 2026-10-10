@@ -9,7 +9,6 @@ records:
     name:
       en: Austrochaperina gracilipes
       zh: Austrochaperina gracilipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

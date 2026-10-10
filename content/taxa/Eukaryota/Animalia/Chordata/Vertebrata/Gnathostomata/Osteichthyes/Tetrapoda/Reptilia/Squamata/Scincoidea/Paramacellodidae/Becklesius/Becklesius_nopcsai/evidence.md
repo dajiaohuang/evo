@@ -9,7 +9,6 @@ records:
     name:
       zh: Becklesius nopcsai
       en: Becklesius nopcsai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

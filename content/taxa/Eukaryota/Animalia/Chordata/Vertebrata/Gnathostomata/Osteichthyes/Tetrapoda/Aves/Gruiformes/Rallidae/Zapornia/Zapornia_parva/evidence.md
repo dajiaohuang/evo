@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapornia parva
       en: Zapornia parva
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

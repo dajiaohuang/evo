@@ -9,7 +9,6 @@ records:
     name:
       zh: Gripholagomys lavocati
       en: Gripholagomys lavocati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

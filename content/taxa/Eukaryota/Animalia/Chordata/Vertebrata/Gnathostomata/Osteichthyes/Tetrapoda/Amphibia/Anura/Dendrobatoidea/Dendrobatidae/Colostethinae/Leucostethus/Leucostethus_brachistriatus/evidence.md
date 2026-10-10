@@ -9,7 +9,6 @@ records:
     name:
       en: Leucostethus brachistriatus
       zh: Leucostethus brachistriatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Spinus tristis
       en: Spinus tristis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

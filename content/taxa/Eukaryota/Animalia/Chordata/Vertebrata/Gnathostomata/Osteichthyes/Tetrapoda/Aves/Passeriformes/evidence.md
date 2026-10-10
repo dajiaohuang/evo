@@ -9,7 +9,6 @@ records:
     name:
       zh: 雀形目
       en: Passeriformes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

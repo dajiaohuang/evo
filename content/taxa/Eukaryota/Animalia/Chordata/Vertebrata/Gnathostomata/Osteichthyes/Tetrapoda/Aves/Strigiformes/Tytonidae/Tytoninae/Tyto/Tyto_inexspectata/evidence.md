@@ -9,7 +9,6 @@ records:
     name:
       zh: Tyto inexspectata
       en: Tyto inexspectata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

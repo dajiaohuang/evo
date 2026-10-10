@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bayha-2010-scyphozoa
       referenceLinks:
         - referenceId: bayha-2010-scyphozoa
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bayha-2010-scyphozoa locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: bayha-2010-scyphozoa
@@ -89,7 +83,6 @@ records:
       referenceLocators:
         - referenceId: bayha-2010-scyphozoa
           locator: 436–455; Figures 1–4; family sampling and phylogenetic results
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

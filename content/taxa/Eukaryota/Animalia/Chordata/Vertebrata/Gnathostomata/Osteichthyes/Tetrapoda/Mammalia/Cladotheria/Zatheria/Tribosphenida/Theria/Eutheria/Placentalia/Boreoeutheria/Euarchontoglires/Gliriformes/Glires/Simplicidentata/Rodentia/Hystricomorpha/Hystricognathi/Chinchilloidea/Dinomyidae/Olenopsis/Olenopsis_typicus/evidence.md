@@ -9,7 +9,6 @@ records:
     name:
       zh: Olenopsis typicus
       en: Olenopsis typicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

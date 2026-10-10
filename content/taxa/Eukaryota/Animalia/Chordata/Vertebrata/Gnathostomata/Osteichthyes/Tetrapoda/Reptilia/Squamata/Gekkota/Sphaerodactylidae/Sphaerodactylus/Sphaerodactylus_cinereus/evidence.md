@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus cinereus
       en: Sphaerodactylus cinereus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

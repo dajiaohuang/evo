@@ -9,7 +9,6 @@ records:
     name:
       zh: Emberiza poliopleura
       en: Emberiza poliopleura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Yuhina brunneiceps
       en: Yuhina brunneiceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

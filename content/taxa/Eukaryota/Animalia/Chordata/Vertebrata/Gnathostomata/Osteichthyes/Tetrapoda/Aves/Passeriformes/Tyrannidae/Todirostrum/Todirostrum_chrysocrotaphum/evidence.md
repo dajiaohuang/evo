@@ -9,7 +9,6 @@ records:
     name:
       zh: Todirostrum chrysocrotaphum
       en: Todirostrum chrysocrotaphum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

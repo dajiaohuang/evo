@@ -9,7 +9,6 @@ records:
     name:
       zh: Tolmomyias traylori
       en: Tolmomyias traylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

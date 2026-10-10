@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosciurinae
       en: Prosciurinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

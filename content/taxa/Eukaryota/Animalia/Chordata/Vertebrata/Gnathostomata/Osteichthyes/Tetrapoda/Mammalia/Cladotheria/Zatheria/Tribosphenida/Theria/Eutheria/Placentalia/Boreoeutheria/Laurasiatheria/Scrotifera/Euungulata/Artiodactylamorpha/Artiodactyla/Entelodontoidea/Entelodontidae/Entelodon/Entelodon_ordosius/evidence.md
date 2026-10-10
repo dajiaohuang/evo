@@ -9,7 +9,6 @@ records:
     name:
       zh: Entelodon ordosius
       en: Entelodon ordosius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

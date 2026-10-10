@@ -9,7 +9,6 @@ records:
     name:
       zh: Ambulocetus natans
       en: Ambulocetus natans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

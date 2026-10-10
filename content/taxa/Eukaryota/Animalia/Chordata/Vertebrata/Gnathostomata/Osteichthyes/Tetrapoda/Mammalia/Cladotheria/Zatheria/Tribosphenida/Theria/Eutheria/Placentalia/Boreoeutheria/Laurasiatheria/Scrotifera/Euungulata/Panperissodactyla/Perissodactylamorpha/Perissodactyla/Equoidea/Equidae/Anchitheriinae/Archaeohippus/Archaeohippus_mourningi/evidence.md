@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeohippus mourningi
       en: Archaeohippus mourningi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

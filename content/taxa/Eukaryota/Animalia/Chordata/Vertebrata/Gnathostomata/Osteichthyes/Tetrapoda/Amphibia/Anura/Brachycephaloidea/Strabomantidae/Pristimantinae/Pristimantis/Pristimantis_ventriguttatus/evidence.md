@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ventriguttatus
       zh: Pristimantis ventriguttatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

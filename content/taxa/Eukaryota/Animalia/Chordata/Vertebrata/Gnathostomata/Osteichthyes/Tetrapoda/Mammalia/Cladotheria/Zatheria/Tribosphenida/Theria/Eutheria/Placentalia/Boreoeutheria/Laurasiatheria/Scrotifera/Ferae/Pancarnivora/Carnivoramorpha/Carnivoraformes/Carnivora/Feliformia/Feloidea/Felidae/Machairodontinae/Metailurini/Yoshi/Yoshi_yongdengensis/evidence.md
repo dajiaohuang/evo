@@ -9,7 +9,6 @@ records:
     name:
       zh: Yoshi yongdengensis
       en: Yoshi yongdengensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

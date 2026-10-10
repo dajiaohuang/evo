@@ -9,7 +9,6 @@ records:
     name:
       en: Microkayla condoriri
       zh: Microkayla condoriri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

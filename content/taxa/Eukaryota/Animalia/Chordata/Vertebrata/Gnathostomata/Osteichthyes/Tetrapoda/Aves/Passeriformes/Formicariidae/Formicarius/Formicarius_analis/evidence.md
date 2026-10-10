@@ -9,7 +9,6 @@ records:
     name:
       zh: Formicarius analis
       en: Formicarius analis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

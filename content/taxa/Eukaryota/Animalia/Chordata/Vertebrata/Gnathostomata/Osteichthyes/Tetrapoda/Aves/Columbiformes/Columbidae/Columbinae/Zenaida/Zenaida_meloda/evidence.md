@@ -9,7 +9,6 @@ records:
     name:
       zh: Zenaida meloda
       en: Zenaida meloda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

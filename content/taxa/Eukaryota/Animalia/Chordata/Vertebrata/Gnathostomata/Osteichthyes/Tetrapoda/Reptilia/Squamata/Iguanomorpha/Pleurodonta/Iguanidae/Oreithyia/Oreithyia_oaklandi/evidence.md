@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreithyia oaklandi
       en: Oreithyia oaklandi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

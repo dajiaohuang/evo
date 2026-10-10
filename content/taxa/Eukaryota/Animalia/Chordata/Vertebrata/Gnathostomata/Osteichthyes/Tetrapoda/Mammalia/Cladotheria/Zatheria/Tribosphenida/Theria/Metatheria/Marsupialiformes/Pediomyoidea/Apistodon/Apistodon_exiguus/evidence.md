@@ -9,7 +9,6 @@ records:
     name:
       zh: Apistodon exiguus
       en: Apistodon exiguus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coniopternium andinum
       en: Coniopternium andinum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

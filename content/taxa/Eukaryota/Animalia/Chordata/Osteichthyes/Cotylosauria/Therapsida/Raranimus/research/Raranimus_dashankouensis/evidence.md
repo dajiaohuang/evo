@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: liu-2009-raranimus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: liu-2009-raranimus
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: liu-2009-raranimus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: liu-2009-raranimus
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: liu-2009-raranimus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: liu-2009-raranimus
           relation: supports
@@ -116,9 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: liu-2009-raranimus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: liu-2009-raranimus
           relation: supports
@@ -135,9 +123,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: liu-2009-raranimus primary-study locator checked for 2026.08-static-v5-rc37
       referenceLinks:
         - referenceId: liu-2009-raranimus
           relation: supports
@@ -188,7 +173,6 @@ records:
       referenceLocators:
         - referenceId: liu-2009-raranimus
           locator: 393–399, especially 394–398; Figures 1–3
-      reviewStatus: automated-audit-passed
 ---
 
 # Raranimus dashankouensis

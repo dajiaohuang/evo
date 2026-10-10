@@ -9,7 +9,6 @@ records:
     name:
       zh: Proechimys kulinae
       en: Proechimys kulinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

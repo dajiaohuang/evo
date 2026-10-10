@@ -9,7 +9,6 @@ records:
     name:
       en: Exochohyla chrisdahli
       zh: Exochohyla chrisdahli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

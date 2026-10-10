@@ -9,7 +9,6 @@ records:
     name:
       zh: Ficimia streckeri
       en: Ficimia streckeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

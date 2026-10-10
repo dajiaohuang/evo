@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphiesmoides ornaticeps
       en: Amphiesmoides ornaticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

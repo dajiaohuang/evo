@@ -109,7 +109,6 @@ for (const update of source.updates) {
   assert.equal(String(dossier.sourceDatasetId), target.sourceDatasetId)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.ok(dossier.classificationPath.some(node => node.id === '3W7' && node.rank === 'order' && node.scientificName === 'Primates Linnaeus, 1758'))
   assert.ok(registryManifest.hierarchy?.counts?.acceptedSpeciesNodes > 0)

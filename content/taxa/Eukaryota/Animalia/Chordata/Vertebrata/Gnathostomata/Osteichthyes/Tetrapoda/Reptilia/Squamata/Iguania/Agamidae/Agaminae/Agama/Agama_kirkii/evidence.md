@@ -9,7 +9,6 @@ records:
     name:
       zh: Agama kirkii
       en: Agama kirkii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

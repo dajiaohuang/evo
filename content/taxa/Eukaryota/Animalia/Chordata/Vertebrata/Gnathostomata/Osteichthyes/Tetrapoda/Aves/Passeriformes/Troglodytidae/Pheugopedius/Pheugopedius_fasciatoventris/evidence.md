@@ -9,7 +9,6 @@ records:
     name:
       zh: Pheugopedius fasciatoventris
       en: Pheugopedius fasciatoventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

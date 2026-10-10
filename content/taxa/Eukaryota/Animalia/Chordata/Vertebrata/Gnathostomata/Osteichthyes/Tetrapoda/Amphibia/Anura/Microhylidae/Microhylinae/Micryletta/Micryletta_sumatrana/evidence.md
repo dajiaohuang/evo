@@ -9,7 +9,6 @@ records:
     name:
       en: Micryletta sumatrana
       zh: Micryletta sumatrana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

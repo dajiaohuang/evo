@@ -9,7 +9,6 @@ records:
     name:
       zh: Trishulotherium kotaensis
       en: Trishulotherium kotaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

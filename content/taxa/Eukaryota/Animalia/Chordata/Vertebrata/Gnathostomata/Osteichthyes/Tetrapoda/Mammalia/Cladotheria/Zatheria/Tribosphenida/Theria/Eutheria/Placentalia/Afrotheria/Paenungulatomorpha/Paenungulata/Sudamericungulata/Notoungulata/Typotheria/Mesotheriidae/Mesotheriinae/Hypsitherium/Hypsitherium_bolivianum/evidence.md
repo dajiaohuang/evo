@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsitherium bolivianum
       en: Hypsitherium bolivianum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

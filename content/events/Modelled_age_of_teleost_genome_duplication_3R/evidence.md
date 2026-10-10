@@ -96,9 +96,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Qi et al. 2024 DOI 10.1093/gbe/evae128; Raw_data_for_Ts3R_research repository
       referenceLinks:
         - relation: supports
           referenceId: qi-2024-teleost-3r-dating

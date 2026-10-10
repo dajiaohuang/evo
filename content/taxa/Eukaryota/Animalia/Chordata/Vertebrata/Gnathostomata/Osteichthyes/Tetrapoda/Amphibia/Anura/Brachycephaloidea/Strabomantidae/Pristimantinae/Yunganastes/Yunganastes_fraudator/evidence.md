@@ -9,7 +9,6 @@ records:
     name:
       en: Yunganastes fraudator
       zh: Yunganastes fraudator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

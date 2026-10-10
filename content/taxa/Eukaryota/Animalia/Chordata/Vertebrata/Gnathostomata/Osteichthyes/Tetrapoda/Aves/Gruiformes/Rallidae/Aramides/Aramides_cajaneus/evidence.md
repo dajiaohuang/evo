@@ -9,7 +9,6 @@ records:
     name:
       zh: Aramides cajaneus
       en: Aramides cajaneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

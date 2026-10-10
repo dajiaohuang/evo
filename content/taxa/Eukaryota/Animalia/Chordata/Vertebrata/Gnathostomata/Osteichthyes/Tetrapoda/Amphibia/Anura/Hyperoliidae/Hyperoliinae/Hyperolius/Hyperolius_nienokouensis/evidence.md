@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius nienokouensis
       zh: Hyperolius nienokouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

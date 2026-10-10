@@ -9,7 +9,6 @@ records:
     name:
       zh: Adiastaltus procerus
       en: Adiastaltus procerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus auratus
       zh: Pseudophilautus auratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

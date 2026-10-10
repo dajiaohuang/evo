@@ -9,7 +9,6 @@ records:
     name:
       zh: Ficedula speculigera
       en: Ficedula speculigera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

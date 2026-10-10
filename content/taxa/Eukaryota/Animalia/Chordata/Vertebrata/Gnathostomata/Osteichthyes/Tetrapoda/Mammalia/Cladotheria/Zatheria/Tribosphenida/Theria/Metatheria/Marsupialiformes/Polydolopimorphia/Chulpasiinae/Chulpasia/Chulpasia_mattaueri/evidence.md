@@ -9,7 +9,6 @@ records:
     name:
       zh: Chulpasia mattaueri
       en: Chulpasia mattaueri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

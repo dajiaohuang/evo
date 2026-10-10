@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapornia pusilla
       en: Zapornia pusilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

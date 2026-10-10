@@ -9,7 +9,6 @@ records:
     name:
       zh: Mariliasuchus robustus
       en: Mariliasuchus robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleocrater rhadinus
       en: Teleocrater rhadinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

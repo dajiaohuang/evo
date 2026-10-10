@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus potyguara
       en: Micrurus potyguara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

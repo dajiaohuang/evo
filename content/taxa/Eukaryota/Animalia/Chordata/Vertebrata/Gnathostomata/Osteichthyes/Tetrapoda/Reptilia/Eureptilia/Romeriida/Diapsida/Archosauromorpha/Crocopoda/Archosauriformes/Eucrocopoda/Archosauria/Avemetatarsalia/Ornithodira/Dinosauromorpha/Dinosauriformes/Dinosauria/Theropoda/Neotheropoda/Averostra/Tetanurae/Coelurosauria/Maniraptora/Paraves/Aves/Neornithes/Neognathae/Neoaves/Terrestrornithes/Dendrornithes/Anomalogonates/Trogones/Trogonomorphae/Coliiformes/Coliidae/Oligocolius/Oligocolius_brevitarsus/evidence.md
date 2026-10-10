@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligocolius brevitarsus
       en: Oligocolius brevitarsus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

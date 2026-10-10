@@ -9,7 +9,6 @@ records:
     name:
       zh: Tokudaia muenninki
       en: Tokudaia muenninki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

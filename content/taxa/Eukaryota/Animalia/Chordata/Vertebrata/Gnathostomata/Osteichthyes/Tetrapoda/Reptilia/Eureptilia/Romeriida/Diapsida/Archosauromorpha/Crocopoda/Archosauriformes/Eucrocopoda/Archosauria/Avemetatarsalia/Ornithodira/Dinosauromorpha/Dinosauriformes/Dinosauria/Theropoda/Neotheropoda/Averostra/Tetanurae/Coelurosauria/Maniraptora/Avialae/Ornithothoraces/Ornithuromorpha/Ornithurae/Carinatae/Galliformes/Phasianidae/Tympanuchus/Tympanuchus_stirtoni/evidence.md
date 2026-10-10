@@ -9,7 +9,6 @@ records:
     name:
       zh: Tympanuchus stirtoni
       en: Tympanuchus stirtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

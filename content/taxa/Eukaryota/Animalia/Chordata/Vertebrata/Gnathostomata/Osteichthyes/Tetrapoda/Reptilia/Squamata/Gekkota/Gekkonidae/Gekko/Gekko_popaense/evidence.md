@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko popaense
       en: Gekko popaense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

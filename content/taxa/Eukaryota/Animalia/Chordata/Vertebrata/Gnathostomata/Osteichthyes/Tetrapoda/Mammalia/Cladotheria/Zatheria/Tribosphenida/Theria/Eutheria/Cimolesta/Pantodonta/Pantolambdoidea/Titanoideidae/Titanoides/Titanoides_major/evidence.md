@@ -9,7 +9,6 @@ records:
     name:
       zh: Titanoides major
       en: Titanoides major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

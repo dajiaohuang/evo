@@ -9,7 +9,6 @@ records:
     name:
       zh: Tantilla supracincta
       en: Tantilla supracincta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

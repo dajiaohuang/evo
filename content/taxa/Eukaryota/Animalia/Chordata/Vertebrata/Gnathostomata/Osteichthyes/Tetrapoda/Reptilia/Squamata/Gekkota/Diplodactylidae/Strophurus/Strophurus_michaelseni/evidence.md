@@ -9,7 +9,6 @@ records:
     name:
       zh: Strophurus michaelseni
       en: Strophurus michaelseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

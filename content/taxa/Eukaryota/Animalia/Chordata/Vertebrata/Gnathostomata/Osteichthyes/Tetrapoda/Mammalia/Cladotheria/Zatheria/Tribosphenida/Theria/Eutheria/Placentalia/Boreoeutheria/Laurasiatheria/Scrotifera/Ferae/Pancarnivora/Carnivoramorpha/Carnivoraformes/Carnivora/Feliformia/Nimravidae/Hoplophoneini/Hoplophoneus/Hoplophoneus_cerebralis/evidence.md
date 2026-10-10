@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoplophoneus cerebralis
       en: Hoplophoneus cerebralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

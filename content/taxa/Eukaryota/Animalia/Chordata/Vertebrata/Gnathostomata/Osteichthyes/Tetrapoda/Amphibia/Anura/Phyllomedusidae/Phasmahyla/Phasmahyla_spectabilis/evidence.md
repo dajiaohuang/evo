@@ -9,7 +9,6 @@ records:
     name:
       en: Phasmahyla spectabilis
       zh: Phasmahyla spectabilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

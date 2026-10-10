@@ -9,7 +9,6 @@ records:
     name:
       zh: Bucanetes githagineus
       en: Bucanetes githagineus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

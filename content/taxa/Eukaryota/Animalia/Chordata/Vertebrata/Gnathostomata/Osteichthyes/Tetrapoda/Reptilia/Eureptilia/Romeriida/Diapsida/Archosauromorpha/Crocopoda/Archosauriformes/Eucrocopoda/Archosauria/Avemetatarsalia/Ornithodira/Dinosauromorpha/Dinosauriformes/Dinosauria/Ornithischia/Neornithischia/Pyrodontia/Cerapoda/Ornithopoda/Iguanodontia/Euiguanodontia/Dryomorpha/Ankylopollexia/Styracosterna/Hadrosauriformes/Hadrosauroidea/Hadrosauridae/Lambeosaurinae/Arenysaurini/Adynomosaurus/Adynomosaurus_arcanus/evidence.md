@@ -9,7 +9,6 @@ records:
     name:
       zh: Adynomosaurus arcanus
       en: Adynomosaurus arcanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

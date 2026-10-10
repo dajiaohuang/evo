@@ -9,7 +9,6 @@ records:
     name:
       en: Minervarya nepalensis
       zh: Minervarya nepalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

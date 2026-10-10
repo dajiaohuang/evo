@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus stellatus
       zh: Pseudophilautus stellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Meliphaga lewinii
       en: Meliphaga lewinii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

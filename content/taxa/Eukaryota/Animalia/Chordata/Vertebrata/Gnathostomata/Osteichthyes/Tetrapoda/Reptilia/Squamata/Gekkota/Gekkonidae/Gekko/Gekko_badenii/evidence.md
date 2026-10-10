@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko badenii
       en: Gekko badenii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

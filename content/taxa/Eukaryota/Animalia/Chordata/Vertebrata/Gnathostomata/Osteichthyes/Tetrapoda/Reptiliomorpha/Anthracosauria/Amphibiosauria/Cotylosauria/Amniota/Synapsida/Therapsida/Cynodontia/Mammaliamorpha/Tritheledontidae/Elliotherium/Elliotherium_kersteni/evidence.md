@@ -9,7 +9,6 @@ records:
     name:
       zh: Elliotherium kersteni
       en: Elliotherium kersteni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

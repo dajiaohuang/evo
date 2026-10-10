@@ -9,7 +9,6 @@ records:
     name:
       zh: Elorhynchus carrolli
       en: Elorhynchus carrolli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

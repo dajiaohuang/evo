@@ -9,7 +9,6 @@ records:
     name:
       en: Nasikabatrachus sahyadrensis
       zh: Nasikabatrachus sahyadrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

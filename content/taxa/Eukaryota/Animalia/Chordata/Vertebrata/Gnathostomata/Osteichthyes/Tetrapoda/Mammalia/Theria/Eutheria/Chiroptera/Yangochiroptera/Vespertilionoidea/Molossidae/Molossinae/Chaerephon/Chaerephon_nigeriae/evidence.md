@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaerephon nigeriae
       en: Chaerephon nigeriae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chendytes lawi
       en: Chendytes lawi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

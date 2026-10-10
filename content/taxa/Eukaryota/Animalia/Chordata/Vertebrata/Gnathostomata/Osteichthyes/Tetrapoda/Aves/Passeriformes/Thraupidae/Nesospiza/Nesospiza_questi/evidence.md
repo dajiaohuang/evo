@@ -9,7 +9,6 @@ records:
     name:
       zh: Nesospiza questi
       en: Nesospiza questi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

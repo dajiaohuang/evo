@@ -9,7 +9,6 @@ records:
     name:
       zh: Millardia kondana
       en: Millardia kondana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

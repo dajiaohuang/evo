@@ -9,7 +9,6 @@ records:
     name:
       zh: Epibator nigrofasciolatus
       en: Epibator nigrofasciolatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

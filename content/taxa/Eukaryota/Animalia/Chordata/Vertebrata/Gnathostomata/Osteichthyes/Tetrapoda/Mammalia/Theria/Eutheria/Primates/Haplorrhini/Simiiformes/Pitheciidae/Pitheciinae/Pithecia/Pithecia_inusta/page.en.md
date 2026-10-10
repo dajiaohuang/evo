@@ -16,5 +16,5 @@ Marsh's 2014 revision applied Spix's illustrated name to a set of saki populatio
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page records conflicting name and population treatments; it does not infer a modern range or resolve the classification. The Chinese name is editorial; this page has not received external expert review. This page is not externally expert-reviewed.
+This page records conflicting name and population treatments; it does not infer a modern range or resolve the classification. The Chinese name is editorial. This page is.
 <!-- /evo:text -->

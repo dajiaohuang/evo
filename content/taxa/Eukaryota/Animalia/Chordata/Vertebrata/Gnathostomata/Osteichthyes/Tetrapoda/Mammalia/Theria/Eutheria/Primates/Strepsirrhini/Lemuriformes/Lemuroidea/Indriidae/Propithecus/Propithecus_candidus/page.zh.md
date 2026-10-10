@@ -16,5 +16,5 @@ Mills 等人在 Marojejy 国家公园追踪一个野生群体十个月，记录�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-观察只涉及 Marojejy 一个群体的十个月；睡眠地点的功能是该研究所检验的解释。 本页未经过外部领域专家评审。
+观察只涉及 Marojejy 一个群体的十个月；睡眠地点的功能是该研究所检验的解释。 。
 <!-- /evo:text -->

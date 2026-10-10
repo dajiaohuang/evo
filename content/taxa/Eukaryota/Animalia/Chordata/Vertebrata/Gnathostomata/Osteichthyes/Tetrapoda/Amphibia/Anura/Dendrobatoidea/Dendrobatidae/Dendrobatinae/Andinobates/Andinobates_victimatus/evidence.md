@@ -9,7 +9,6 @@ records:
     name:
       en: Andinobates victimatus
       zh: Andinobates victimatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

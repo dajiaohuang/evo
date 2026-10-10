@@ -9,7 +9,6 @@ records:
     name:
       en: Nanorana sichuanensis
       zh: Nanorana sichuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

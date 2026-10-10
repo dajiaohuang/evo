@@ -9,7 +9,6 @@ records:
     name:
       en: Oedipina poelzi
       zh: Oedipina poelzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

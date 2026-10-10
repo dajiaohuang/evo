@@ -9,7 +9,6 @@ records:
     name:
       zh: Angelosaurus dolani
       en: Angelosaurus dolani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

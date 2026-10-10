@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachemys venusta
       en: Trachemys venusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

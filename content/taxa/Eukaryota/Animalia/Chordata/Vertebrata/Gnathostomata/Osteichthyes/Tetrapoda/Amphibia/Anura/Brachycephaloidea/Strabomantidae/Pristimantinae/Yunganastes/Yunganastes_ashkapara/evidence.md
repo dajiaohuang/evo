@@ -9,7 +9,6 @@ records:
     name:
       en: Yunganastes ashkapara
       zh: Yunganastes ashkapara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

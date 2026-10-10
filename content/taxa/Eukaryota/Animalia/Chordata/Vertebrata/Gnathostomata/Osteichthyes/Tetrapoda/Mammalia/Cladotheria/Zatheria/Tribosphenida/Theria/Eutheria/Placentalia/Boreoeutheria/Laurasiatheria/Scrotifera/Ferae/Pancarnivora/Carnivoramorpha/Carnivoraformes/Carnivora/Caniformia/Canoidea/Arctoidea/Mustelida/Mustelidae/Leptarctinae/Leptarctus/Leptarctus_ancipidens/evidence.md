@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptarctus ancipidens
       en: Leptarctus ancipidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

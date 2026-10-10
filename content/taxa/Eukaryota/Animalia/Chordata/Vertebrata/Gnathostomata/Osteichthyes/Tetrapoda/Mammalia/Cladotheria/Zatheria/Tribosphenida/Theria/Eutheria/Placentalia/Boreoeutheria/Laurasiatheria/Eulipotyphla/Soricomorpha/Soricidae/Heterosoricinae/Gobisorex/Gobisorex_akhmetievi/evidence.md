@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobisorex akhmetievi
       en: Gobisorex akhmetievi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

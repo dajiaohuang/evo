@@ -17,7 +17,7 @@ status: source-linked
 ## 沿 Peucaea 入口比较食性和部分迁移
 
 <!-- evo:text /records/catalogue-profile/sections/1/text/zh -->
-进入 [Peucaea](Peucaea/page.zh.md) 两组阅读路径，先看相同生态位的不同营养级，再看 aestivalis／cassinii／botterii 的迁移2与其余迁移1。相同部分迁移代码不确定哪种移动发生；Generalist 不等于 Omnivore。回查五只总鸟数、四只完整与旧名，保留原来源范围，不补全科行为、当前地图或专家审评。
+进入 [Peucaea](Peucaea/page.zh.md) 两组阅读路径，先看相同生态位的不同营养级，再看 aestivalis／cassinii／botterii 的迁移2与其余迁移1。相同部分迁移代码不确定哪种移动发生；Generalist 不等于 Omnivore。回查五只总鸟数、四只完整与旧名，保留原来源范围，不补全科行为、当前地图。
 <!-- /evo:text -->
 
 ## Ammospiza 的开放环境比较
@@ -49,7 +49,7 @@ Passerellidae 的本批阅读路径包含 73 条有测量来源的物种记录�
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
 另增四条 Ammospiza 历史记录导读，旧属名及未解决的 nelsoni 异名对应单独保留；不改变此前批次的条目数或范围。
-另增八条 Peucaea 历史导读，Aimophila 旧名、食物生态位与营养级及部分迁移分别读；不计全科覆盖、完整自然史或专家审评。
+另增八条 Peucaea 历史导读，Aimophila 旧名、食物生态位与营养级及部分迁移分别读；不计全科覆盖、完整自然史。
 <!-- /evo:text -->
 
 ## 从有限生态资料开始
@@ -67,5 +67,5 @@ Passerellidae 本批有 5 个有限生态资料页，可从 [Arremonops tocuyens
 ## 这组历史数据的边界
 
 <!-- evo:text /records/catalogue-profile/sections/8/text/zh -->
-该入口只覆盖本批已写的有限历史生态资料，不代表完整接受后代或专家审查。按 COL26.8 路径导航、历史同名同科及两张同名一对一表关联，并未消除后来的概念差异。粗生态类别不是独立行为观察，历史地图摘要不是当前占域或保护评估；原始形态推算与体重来源完整保留，但本批不解释为本物种直接测量。
+该入口只覆盖本批已写的有限历史生态资料。按 COL26.8 路径导航、历史同名同科及两张同名一对一表关联，并未消除后来的概念差异。粗生态类别不是独立行为观察，历史地图摘要不是当前占域或保护评估；原始形态推算与体重来源完整保留，但本批不解释为本物种直接测量。
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Uracentron azureum
       en: Uracentron azureum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

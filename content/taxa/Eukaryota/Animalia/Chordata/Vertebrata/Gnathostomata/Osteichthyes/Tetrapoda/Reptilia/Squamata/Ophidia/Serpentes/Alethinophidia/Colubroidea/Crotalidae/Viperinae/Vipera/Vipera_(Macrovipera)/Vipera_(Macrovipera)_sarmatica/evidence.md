@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera (Macrovipera) sarmatica
       en: Vipera (Macrovipera) sarmatica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myocricetodon tomidai
       en: Myocricetodon tomidai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

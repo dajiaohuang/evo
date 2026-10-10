@@ -9,7 +9,6 @@ records:
     name:
       zh: 杰氏蜘蛛猴
       en: Geoffroy's spider monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: ecology
@@ -771,10 +770,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
 ---
 
 # Ateles geoffroyi
@@ -1071,10 +1066,4 @@ Three source-linked studies support limited morphology and field ecology; life h
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 The evidence concerns one CT sample, selected Costa Rican study sites and one tracked female in Panama; it is not a systematic review or complete species account.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No independent expert review has been completed.
 <!-- /evo:text -->

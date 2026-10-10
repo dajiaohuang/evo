@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryoharamiya tarda
       en: Cryoharamiya tarda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

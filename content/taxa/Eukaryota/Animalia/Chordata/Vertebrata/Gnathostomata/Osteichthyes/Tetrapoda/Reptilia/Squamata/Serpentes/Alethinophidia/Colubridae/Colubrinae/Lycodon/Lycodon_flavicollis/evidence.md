@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon flavicollis
       en: Lycodon flavicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

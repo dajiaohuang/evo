@@ -154,10 +154,9 @@ const dossier = {
     status: 'incomplete',
     reasons: [
       `${selectedFacets.length} facets have partial claims from one regional flora account; all other facets remain not assessed.`,
-      'No independent external expert review has been completed.',
     ],
   },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
 }
 acceptedClassification(registry, dossier)
 assert.equal(dossier.classificationPath.at(-1).id, item.colId)

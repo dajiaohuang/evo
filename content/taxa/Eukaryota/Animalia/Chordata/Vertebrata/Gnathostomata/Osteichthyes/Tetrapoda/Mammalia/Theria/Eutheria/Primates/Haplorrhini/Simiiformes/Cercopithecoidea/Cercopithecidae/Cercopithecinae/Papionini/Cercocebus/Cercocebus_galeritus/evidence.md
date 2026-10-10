@@ -9,7 +9,6 @@ records:
     name:
       en: Tana River Mangabey
       zh: 塔纳河白眼丛猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: population

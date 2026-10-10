@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor gabbi
       zh: Craugastor gabbi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

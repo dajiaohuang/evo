@@ -9,7 +9,6 @@ records:
     name:
       zh: Nettapus coromandelianus
       en: Nettapus coromandelianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

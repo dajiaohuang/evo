@@ -9,7 +9,6 @@ records:
     name:
       zh: Heosminthus chimidae
       en: Heosminthus chimidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

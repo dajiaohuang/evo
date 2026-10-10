@@ -10,7 +10,6 @@ records:
     name:
       en: Guianan Bearded Saki
       zh: 圭亚那胡须僧面猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

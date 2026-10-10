@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynopus tribulosus
       zh: Phrynopus tribulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

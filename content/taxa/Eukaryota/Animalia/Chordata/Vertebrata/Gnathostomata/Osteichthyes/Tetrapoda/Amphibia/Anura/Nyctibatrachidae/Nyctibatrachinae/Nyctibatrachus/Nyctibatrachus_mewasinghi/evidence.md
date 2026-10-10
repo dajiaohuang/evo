@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus mewasinghi
       zh: Nyctibatrachus mewasinghi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

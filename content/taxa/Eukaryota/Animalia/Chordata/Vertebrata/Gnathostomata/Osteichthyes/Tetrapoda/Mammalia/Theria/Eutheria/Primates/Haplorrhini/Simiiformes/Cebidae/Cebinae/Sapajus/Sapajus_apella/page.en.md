@@ -16,5 +16,5 @@ Under the source name Sapajus apella apella, the supplement lists survey occurre
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This guide summarizes records from selected sites; it is not a complete species account, range survey, population estimate, or conservation assessment. The Chinese common name is an editorial translation. This guide is not externally expert-reviewed.
+This guide summarizes records from selected sites; it is not a complete species account, range survey, population estimate, or conservation assessment. The Chinese common name is an editorial translation. This guide is.
 <!-- /evo:text -->

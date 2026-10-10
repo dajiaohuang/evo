@@ -9,7 +9,6 @@ records:
     name:
       zh: Pituophis insulanus
       en: Pituophis insulanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

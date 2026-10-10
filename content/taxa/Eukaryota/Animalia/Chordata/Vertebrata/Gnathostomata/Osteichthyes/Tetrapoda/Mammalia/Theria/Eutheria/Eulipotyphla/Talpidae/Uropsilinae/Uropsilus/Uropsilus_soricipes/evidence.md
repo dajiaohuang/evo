@@ -9,7 +9,6 @@ records:
     name:
       zh: Uropsilus soricipes
       en: Uropsilus soricipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

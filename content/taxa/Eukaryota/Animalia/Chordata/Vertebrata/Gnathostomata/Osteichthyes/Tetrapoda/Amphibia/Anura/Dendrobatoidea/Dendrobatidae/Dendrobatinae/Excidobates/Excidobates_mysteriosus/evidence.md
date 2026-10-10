@@ -9,7 +9,6 @@ records:
     name:
       en: Excidobates mysteriosus
       zh: Excidobates mysteriosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

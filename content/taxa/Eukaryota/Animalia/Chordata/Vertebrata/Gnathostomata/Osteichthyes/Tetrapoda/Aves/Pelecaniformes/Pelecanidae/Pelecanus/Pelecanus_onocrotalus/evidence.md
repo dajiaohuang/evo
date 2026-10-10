@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelecanus onocrotalus
       en: Pelecanus onocrotalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

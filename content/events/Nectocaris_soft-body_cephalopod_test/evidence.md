@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: smith-caron-2010-nectocaris DOI-linked primary source
       referenceLinks:
         - referenceId: smith-caron-2010-nectocaris
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pedioplanis serodioi
       en: Pedioplanis serodioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

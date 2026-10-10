@@ -9,7 +9,6 @@ records:
     name:
       zh: Tungurictis
       en: Tungurictis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

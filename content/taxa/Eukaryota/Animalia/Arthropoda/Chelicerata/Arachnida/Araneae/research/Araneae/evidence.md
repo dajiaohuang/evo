@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-09-05
-      reviewedAgainstReferenceVersion: Garwood et al. 2016 DOI 10.1098/rspb.2016.0125; Europe PMC PMC4822468 full text
       referenceLinks:
         - referenceId: garwood-2016-idmonarachne
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: wheeler-2017-spider-tree DOI 10.1111/cla.12182; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: wheeler-2017-spider-tree
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: selden-penney-2010 + garwood-2016 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: selden-penney-2010-spider-fossil-record
           relation: supports
@@ -127,11 +118,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: wheeler-2017-spider-tree
           relation: supports
@@ -155,9 +141,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion: Selden and Penney 2010; Wheeler et al. 2017 DOI 10.1111/cla.12182; concrete locators audited 2026-09-11
       referenceLinks:
         - referenceId: selden-penney-2010-spider-fossil-record
           relation: supports
@@ -181,11 +164,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/5/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: wheeler-2017-spider-tree
           relation: supports
@@ -245,7 +223,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/1/locator
-      reviewStatus: automated-audit-passed
 ---
 
 # Araneae

@@ -9,7 +9,6 @@ records:
     name:
       zh: 红吼猴
       en: Red howler monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

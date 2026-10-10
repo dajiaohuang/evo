@@ -9,7 +9,6 @@ records:
     name:
       zh: Antifer ultra
       en: Antifer ultra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

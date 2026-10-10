@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax nasicus
       zh: Scinax nasicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

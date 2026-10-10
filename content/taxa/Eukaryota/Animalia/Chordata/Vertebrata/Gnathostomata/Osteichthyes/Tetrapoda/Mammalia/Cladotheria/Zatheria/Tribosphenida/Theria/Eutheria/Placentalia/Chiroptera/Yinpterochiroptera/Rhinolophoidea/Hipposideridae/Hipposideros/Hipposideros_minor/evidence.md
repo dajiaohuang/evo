@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipposideros minor
       en: Hipposideros minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

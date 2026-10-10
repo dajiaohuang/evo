@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliolagostomus friasensis
       en: Pliolagostomus friasensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

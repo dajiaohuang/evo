@@ -9,7 +9,6 @@ records:
     name:
       en: Amietia chapini
       zh: Amietia chapini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

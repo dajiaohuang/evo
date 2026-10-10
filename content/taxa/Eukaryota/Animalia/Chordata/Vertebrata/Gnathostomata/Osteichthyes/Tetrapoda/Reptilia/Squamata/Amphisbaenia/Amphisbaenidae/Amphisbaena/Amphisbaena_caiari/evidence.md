@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphisbaena caiari
       en: Amphisbaena caiari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

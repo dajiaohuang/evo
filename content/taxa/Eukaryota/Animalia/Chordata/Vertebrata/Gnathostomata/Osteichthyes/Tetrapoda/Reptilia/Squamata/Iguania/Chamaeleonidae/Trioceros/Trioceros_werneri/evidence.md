@@ -9,7 +9,6 @@ records:
     name:
       zh: Trioceros werneri
       en: Trioceros werneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

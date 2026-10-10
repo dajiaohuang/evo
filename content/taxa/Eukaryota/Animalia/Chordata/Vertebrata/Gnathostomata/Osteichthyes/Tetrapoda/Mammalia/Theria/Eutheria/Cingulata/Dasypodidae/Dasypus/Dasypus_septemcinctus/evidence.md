@@ -9,7 +9,6 @@ records:
     name:
       zh: Dasypus septemcinctus
       en: Dasypus septemcinctus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

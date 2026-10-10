@@ -9,7 +9,6 @@ records:
     name:
       zh: Vorona
       en: Vorona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dornosaurus gobiensis
       en: Dornosaurus gobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ololygon catharinae
       zh: Ololygon catharinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

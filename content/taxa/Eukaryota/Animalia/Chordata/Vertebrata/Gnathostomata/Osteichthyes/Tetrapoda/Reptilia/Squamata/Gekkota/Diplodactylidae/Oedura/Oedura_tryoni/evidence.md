@@ -9,7 +9,6 @@ records:
     name:
       zh: Oedura tryoni
       en: Oedura tryoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

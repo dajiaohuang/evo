@@ -9,7 +9,6 @@ records:
     name:
       zh: Synaptomys morgani
       en: Synaptomys morgani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

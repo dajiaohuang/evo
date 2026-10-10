@@ -9,7 +9,6 @@ records:
     name:
       en: Carichyla
       zh: Carichyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepus tolai
       en: Lepus tolai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

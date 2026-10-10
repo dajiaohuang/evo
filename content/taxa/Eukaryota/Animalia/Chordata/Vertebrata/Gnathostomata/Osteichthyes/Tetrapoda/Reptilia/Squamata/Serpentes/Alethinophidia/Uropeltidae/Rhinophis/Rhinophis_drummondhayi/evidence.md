@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinophis drummondhayi
       en: Rhinophis drummondhayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

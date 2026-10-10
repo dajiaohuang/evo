@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodon syrtos
       en: Pterodon syrtos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

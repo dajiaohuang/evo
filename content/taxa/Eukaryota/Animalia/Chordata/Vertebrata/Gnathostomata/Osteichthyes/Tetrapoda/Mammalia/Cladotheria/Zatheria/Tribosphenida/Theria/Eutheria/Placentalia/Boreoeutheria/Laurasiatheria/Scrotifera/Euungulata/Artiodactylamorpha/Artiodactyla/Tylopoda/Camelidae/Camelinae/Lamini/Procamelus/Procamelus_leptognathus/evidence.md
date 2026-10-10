@@ -9,7 +9,6 @@ records:
     name:
       zh: Procamelus leptognathus
       en: Procamelus leptognathus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

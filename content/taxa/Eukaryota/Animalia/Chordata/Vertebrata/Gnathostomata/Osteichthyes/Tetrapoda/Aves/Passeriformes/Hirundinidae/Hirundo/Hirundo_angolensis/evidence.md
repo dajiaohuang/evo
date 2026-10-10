@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundo angolensis
       en: Hirundo angolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

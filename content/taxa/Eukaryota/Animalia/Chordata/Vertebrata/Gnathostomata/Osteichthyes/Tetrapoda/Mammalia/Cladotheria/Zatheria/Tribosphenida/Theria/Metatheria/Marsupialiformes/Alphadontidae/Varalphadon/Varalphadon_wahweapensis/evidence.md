@@ -9,7 +9,6 @@ records:
     name:
       zh: Varalphadon wahweapensis
       en: Varalphadon wahweapensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

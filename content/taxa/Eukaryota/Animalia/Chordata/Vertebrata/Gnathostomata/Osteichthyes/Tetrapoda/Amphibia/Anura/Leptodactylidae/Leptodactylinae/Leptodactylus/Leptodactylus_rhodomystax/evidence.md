@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus rhodomystax
       zh: Leptodactylus rhodomystax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

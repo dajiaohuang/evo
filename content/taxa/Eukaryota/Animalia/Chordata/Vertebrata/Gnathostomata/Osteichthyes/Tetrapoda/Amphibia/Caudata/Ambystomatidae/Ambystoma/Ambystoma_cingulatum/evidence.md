@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma cingulatum
       zh: Ambystoma cingulatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

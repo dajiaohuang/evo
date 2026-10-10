@@ -9,7 +9,6 @@ records:
     name:
       zh: Batrachostomus poliolophus
       en: Batrachostomus poliolophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

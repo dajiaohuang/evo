@@ -9,7 +9,6 @@ records:
     name:
       zh: Trinisaura santamartaensis
       en: Trinisaura santamartaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

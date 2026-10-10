@@ -9,7 +9,6 @@ records:
     name:
       zh: Xantusia arizonae
       en: Xantusia arizonae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

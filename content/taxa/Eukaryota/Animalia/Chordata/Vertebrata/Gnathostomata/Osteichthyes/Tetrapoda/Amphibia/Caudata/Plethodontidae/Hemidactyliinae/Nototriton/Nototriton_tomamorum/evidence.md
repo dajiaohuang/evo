@@ -9,7 +9,6 @@ records:
     name:
       en: Nototriton tomamorum
       zh: Nototriton tomamorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

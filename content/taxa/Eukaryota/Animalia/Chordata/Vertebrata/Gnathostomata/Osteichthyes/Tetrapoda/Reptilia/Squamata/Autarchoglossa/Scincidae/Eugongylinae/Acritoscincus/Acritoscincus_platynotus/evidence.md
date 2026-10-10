@@ -9,7 +9,6 @@ records:
     name:
       zh: Acritoscincus platynotus
       en: Acritoscincus platynotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 肖氏戴帽叶猴
       en: Shortridge's Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_and_survey

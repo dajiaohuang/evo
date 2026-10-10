@@ -9,7 +9,6 @@ records:
     name:
       en: Mixophyes coggeri
       zh: Mixophyes coggeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

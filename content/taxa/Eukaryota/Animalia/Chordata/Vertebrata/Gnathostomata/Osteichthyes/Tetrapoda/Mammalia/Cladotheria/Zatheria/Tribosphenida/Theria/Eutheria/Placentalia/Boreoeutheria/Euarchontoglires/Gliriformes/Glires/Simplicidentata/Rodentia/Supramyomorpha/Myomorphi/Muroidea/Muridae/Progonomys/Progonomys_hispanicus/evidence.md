@@ -9,7 +9,6 @@ records:
     name:
       zh: Progonomys hispanicus
       en: Progonomys hispanicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

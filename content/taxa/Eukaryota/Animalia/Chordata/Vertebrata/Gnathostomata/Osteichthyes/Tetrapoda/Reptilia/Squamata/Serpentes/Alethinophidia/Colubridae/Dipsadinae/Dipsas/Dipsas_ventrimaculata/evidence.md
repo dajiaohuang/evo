@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas ventrimaculata
       en: Dipsas ventrimaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

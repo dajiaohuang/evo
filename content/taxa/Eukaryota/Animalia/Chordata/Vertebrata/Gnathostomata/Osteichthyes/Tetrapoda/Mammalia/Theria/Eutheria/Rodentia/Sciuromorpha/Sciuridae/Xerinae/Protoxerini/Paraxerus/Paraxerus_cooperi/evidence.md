@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraxerus cooperi
       en: Paraxerus cooperi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

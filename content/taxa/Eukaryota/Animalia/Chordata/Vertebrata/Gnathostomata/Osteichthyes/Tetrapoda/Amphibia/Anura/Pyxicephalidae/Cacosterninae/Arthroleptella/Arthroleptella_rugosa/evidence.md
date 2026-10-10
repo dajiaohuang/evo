@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptella rugosa
       zh: Arthroleptella rugosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

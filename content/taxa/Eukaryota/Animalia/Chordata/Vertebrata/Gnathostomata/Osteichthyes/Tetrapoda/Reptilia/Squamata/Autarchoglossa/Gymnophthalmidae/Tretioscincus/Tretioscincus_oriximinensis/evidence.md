@@ -9,7 +9,6 @@ records:
     name:
       zh: Tretioscincus oriximinensis
       en: Tretioscincus oriximinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

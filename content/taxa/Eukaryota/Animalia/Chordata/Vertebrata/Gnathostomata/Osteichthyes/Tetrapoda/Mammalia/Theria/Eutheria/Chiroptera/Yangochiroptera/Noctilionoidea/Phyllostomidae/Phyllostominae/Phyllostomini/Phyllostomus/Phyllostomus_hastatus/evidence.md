@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllostomus hastatus
       en: Phyllostomus hastatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

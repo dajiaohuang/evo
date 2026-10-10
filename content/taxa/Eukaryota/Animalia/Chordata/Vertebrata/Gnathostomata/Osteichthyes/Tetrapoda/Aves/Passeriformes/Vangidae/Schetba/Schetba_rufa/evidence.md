@@ -9,7 +9,6 @@ records:
     name:
       zh: Schetba rufa
       en: Schetba rufa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

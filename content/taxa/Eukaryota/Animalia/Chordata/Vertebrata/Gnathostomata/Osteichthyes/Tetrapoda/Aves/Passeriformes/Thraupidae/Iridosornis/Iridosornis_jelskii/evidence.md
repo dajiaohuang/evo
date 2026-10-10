@@ -9,7 +9,6 @@ records:
     name:
       zh: Iridosornis jelskii
       en: Iridosornis jelskii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

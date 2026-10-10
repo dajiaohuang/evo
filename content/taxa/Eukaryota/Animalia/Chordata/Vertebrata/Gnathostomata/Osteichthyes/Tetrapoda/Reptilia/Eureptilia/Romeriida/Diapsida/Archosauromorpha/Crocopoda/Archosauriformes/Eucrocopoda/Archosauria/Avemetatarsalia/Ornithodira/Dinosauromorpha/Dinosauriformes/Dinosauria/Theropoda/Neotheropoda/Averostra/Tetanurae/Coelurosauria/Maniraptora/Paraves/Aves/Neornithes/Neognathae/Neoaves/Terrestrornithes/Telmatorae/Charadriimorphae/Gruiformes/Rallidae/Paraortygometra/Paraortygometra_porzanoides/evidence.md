@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraortygometra porzanoides
       en: Paraortygometra porzanoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

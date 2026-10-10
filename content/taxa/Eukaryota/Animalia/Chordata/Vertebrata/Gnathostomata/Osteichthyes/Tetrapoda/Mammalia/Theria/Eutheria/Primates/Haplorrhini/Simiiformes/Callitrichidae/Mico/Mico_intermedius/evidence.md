@@ -9,7 +9,6 @@ records:
     name:
       en: Rio Aripuanã Marmoset
       zh: 阿里普阿南河绒猴
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: field_observations

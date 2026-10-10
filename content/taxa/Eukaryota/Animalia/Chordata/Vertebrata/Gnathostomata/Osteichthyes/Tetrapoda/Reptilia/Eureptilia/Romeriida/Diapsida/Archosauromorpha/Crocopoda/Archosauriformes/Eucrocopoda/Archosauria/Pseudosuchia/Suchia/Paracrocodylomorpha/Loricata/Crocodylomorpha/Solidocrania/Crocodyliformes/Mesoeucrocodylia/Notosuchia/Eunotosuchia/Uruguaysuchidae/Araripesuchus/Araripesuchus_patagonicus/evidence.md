@@ -9,7 +9,6 @@ records:
     name:
       zh: Araripesuchus patagonicus
       en: Araripesuchus patagonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

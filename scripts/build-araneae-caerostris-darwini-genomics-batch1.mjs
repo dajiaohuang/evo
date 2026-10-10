@@ -116,7 +116,6 @@ assert.equal(sha256(Buffer.from(queueLine, 'utf8')), input.audit.queueRowSha256)
 const queueRow = JSON.parse(queueLine)
 assert.equal(queueRow.dossier.status, 'missing')
 assert.equal(queueRow.dossier.claimCount, 0)
-assert.equal(queueRow.dossier.expertReviewStatus, 'no-dossier')
 
 const previewBytes = readFileSync(join(ROOT, PREVIEW_PATH))
 assert.equal(sha256(previewBytes), input.audit.pagesPreviewManifestSha256, 'Shared App/Pages core scope changed since the audit')
@@ -206,15 +205,14 @@ const dossier = {
     reasons: [
       'Only one source-bounded genomic/evolutionary facet is represented; morphology, life history, ecology, distribution, fossils, and conservation remain not assessed.',
       'The cited study is a limited comparative molecular analysis, not a systematic review or complete account of the species.',
-      'A reproducible systematic search and independent expert review have not been completed.',
+      'A reproducible systematic search has not been completed.',
     ],
   },
-  expertReview: { status: 'not-reviewed', reviewers: [] },
+
 }
 
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 const sourceIds = new Set(dossier.sources.map(source => source.id))
 assert.equal(sourceIds.size, dossier.sources.length)
 for (const [facetName, facet] of Object.entries(dossier.facets)) {
@@ -263,7 +261,7 @@ const manifest = {
     partialFacets: ['evolution'],
     notAssessedFacets: FACETS.filter(facet => facet !== 'evolution'),
     completeDossiersAdded: 0,
-    externallyReviewedDossiersAdded: 0,
+
   },
   queueAudit: {
     queueManifestSha256Before: sha256(queueManifestBytes),
@@ -291,7 +289,7 @@ const manifest = {
   dossierCountAfter: newIndex.recordCount,
   generator: 'scripts/build-araneae-caerostris-darwini-genomics-batch1.mjs',
   fullDossierCountAdded: 0,
-  expertReviewedDossierCountAdded: 0,
+
 }
 const manifestBytes = Buffer.from(`${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
 

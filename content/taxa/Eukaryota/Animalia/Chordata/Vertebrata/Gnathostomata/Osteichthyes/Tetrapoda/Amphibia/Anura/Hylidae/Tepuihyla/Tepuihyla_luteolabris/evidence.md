@@ -9,7 +9,6 @@ records:
     name:
       en: Tepuihyla luteolabris
       zh: Tepuihyla luteolabris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrophidion dendrophis
       en: Dendrophidion dendrophis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

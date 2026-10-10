@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibotherium ka
       en: Sibotherium ka
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

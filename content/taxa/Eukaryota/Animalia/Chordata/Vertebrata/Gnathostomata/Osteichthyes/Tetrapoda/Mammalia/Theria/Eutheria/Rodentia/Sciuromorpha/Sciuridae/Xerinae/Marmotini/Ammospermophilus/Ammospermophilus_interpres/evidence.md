@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammospermophilus interpres
       en: Ammospermophilus interpres
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

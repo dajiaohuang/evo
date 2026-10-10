@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑头绒猴
       en: Black-headed marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

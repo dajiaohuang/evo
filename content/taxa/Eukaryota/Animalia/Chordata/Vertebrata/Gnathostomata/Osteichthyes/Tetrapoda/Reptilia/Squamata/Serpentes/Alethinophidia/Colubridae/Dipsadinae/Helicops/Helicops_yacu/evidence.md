@@ -9,7 +9,6 @@ records:
     name:
       zh: Helicops yacu
       en: Helicops yacu
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boana latistriata
       zh: Boana latistriata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

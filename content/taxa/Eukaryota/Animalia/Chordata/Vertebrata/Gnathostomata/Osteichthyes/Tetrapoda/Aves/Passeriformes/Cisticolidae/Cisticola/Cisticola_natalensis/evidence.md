@@ -9,7 +9,6 @@ records:
     name:
       zh: Cisticola natalensis
       en: Cisticola natalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

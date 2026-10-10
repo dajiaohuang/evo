@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus michaelschmidi
       zh: Eleutherodactylus michaelschmidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

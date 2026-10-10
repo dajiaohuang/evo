@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanoperdix
       en: Melanoperdix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

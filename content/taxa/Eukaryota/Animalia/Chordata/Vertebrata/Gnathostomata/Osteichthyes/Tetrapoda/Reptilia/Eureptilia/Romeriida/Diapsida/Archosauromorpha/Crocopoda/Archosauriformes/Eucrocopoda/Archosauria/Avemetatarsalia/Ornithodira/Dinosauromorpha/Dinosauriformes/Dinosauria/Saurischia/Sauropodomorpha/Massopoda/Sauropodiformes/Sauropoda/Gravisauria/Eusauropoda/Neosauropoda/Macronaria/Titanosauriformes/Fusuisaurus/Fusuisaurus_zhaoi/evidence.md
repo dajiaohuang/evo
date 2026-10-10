@@ -9,7 +9,6 @@ records:
     name:
       zh: Fusuisaurus zhaoi
       en: Fusuisaurus zhaoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

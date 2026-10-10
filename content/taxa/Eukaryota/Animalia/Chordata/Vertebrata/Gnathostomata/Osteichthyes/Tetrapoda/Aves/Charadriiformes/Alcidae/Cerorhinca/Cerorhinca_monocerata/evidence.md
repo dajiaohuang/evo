@@ -9,7 +9,6 @@ records:
     name:
       zh: Cerorhinca monocerata
       en: Cerorhinca monocerata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

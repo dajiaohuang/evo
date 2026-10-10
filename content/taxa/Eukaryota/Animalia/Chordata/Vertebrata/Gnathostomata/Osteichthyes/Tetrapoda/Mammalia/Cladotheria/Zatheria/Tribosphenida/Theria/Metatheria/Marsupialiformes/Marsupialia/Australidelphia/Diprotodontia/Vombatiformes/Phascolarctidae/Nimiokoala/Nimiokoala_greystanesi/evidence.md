@@ -9,7 +9,6 @@ records:
     name:
       zh: Nimiokoala greystanesi
       en: Nimiokoala greystanesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

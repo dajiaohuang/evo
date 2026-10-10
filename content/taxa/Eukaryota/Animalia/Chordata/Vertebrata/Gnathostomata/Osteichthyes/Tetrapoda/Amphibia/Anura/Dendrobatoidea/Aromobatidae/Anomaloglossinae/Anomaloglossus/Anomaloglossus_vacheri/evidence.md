@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus vacheri
       zh: Anomaloglossus vacheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

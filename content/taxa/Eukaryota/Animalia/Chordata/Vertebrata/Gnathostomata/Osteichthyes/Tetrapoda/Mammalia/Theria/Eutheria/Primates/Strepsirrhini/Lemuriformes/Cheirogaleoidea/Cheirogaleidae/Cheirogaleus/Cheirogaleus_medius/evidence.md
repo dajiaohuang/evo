@@ -9,7 +9,6 @@ records:
     name:
       zh: 肥尾侏狐猴
       en: Fat-tailed Dwarf Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: taxonomy

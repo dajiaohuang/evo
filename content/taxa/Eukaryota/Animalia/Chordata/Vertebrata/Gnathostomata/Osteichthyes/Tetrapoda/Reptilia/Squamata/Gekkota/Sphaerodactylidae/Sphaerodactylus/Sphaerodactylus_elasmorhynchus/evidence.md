@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus elasmorhynchus
       en: Sphaerodactylus elasmorhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

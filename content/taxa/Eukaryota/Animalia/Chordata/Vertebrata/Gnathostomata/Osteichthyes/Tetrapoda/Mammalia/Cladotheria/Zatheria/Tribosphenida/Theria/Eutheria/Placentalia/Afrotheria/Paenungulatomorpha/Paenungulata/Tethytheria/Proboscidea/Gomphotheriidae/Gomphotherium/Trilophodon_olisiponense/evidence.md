@@ -9,7 +9,6 @@ records:
     name:
       zh: Trilophodon olisiponense
       en: Trilophodon olisiponense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

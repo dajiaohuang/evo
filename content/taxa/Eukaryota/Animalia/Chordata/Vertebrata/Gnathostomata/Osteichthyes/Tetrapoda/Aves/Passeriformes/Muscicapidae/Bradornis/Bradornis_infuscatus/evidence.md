@@ -9,7 +9,6 @@ records:
     name:
       zh: Bradornis infuscatus
       en: Bradornis infuscatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

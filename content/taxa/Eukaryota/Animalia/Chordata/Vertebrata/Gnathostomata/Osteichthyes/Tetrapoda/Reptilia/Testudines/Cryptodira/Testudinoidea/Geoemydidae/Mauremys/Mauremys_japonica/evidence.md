@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauremys japonica
       en: Mauremys japonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

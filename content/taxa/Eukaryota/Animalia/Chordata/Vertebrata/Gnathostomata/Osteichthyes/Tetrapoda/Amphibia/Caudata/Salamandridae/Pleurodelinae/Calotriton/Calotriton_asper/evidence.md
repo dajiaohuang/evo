@@ -9,7 +9,6 @@ records:
     name:
       en: Calotriton asper
       zh: Calotriton asper
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

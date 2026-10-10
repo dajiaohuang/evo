@@ -9,7 +9,6 @@ records:
     name:
       zh: Egretta garzetta
       en: Egretta garzetta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

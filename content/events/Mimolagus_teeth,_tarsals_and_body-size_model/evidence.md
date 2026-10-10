@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Fostowicz-Frelik et al. 2015 DOI 10.1038/srep09394
       referenceLinks:
         - referenceId: fostowicz-frelik-2015-mimolagus
           relation: supports

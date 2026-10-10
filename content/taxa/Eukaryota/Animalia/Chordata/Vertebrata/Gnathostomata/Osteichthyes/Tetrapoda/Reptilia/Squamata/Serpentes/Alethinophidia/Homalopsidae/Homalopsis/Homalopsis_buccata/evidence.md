@@ -9,7 +9,6 @@ records:
     name:
       zh: Homalopsis buccata
       en: Homalopsis buccata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

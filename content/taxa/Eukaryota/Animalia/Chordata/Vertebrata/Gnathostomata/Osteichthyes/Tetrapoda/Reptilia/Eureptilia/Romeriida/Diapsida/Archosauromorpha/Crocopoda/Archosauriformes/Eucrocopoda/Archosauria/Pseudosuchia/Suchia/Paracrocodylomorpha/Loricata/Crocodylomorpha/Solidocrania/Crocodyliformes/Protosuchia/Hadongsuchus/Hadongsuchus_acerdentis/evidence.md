@@ -9,7 +9,6 @@ records:
     name:
       zh: Hadongsuchus acerdentis
       en: Hadongsuchus acerdentis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

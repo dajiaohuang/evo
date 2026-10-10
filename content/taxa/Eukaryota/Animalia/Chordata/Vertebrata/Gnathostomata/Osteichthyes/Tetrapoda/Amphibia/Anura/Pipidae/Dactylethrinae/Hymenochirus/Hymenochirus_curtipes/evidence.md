@@ -9,7 +9,6 @@ records:
     name:
       en: Hymenochirus curtipes
       zh: Hymenochirus curtipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

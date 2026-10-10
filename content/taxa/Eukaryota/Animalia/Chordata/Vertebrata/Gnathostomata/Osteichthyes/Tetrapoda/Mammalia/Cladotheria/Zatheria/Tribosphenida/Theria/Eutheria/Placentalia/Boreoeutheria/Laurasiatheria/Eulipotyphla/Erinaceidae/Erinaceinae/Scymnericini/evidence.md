@@ -9,7 +9,6 @@ records:
     name:
       zh: Scymnericini
       en: Scymnericini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus biporus
       zh: Mantidactylus biporus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Espadarana durrellorum
       zh: Espadarana durrellorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Premontrelestes duchaussoisi
       en: Premontrelestes duchaussoisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

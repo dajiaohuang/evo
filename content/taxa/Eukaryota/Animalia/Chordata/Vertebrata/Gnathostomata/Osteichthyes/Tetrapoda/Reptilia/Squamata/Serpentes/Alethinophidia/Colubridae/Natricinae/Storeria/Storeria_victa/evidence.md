@@ -9,7 +9,6 @@ records:
     name:
       zh: Storeria victa
       en: Storeria victa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

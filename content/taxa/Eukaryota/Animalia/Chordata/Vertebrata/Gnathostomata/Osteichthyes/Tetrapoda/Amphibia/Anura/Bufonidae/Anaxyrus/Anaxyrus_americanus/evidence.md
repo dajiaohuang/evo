@@ -9,7 +9,6 @@ records:
     name:
       en: Anaxyrus americanus
       zh: Anaxyrus americanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

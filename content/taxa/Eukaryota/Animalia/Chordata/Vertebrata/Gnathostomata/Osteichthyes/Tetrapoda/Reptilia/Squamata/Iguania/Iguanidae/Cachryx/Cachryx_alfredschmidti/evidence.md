@@ -9,7 +9,6 @@ records:
     name:
       zh: Cachryx alfredschmidti
       en: Cachryx alfredschmidti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

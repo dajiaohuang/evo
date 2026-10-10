@@ -9,7 +9,6 @@ records:
     name:
       zh: Paroedura lohatsara
       en: Paroedura lohatsara
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

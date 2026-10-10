@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvocristes oligocollis
       en: Parvocristes oligocollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

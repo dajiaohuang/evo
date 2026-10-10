@@ -9,7 +9,6 @@ records:
     name:
       zh: Murina tenebrosa
       en: Murina tenebrosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

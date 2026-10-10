@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor rayo
       zh: Craugastor rayo
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

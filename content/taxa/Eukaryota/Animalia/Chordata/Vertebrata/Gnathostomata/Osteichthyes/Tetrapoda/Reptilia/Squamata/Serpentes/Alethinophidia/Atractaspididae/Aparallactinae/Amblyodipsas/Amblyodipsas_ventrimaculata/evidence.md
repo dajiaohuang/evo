@@ -9,7 +9,6 @@ records:
     name:
       zh: Amblyodipsas ventrimaculata
       en: Amblyodipsas ventrimaculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

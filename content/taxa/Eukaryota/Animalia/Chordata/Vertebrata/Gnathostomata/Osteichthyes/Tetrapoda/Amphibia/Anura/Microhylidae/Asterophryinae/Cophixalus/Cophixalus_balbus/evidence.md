@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus balbus
       zh: Cophixalus balbus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

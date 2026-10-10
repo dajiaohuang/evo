@@ -9,7 +9,6 @@ records:
     name:
       zh: Dilophodon minusculus
       en: Dilophodon minusculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

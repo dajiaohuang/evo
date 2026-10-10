@@ -9,7 +9,6 @@ records:
     name:
       zh: Xhosacetus hendeysi
       en: Xhosacetus hendeysi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

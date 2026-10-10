@@ -9,7 +9,6 @@ records:
     name:
       en: Thorius maxillabrochus
       zh: Thorius maxillabrochus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

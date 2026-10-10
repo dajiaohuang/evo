@@ -9,7 +9,6 @@ records:
     name:
       zh: 扬子鳄
       en: Chinese alligator
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

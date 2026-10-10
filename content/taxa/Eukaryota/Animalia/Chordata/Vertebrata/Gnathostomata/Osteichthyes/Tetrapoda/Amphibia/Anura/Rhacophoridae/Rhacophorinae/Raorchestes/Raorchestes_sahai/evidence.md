@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes sahai
       zh: Raorchestes sahai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

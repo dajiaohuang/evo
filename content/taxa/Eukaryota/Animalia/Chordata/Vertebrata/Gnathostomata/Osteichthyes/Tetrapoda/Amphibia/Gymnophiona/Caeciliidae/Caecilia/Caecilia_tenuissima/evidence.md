@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia tenuissima
       zh: Caecilia tenuissima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

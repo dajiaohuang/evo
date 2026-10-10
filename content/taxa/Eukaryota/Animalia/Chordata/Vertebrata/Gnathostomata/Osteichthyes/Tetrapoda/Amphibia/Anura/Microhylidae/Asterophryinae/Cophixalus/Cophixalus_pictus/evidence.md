@@ -9,7 +9,6 @@ records:
     name:
       en: Cophixalus pictus
       zh: Cophixalus pictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Melanophryniscus alipioi
       zh: Melanophryniscus alipioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

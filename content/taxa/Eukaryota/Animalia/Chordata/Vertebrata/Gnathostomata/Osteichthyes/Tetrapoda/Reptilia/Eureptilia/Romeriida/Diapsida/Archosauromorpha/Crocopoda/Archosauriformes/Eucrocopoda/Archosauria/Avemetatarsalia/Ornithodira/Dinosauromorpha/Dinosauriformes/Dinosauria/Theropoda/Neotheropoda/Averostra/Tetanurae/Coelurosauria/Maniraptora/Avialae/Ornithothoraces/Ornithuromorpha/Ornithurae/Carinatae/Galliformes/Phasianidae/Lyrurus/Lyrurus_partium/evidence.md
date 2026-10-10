@@ -9,7 +9,6 @@ records:
     name:
       zh: Lyrurus partium
       en: Lyrurus partium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

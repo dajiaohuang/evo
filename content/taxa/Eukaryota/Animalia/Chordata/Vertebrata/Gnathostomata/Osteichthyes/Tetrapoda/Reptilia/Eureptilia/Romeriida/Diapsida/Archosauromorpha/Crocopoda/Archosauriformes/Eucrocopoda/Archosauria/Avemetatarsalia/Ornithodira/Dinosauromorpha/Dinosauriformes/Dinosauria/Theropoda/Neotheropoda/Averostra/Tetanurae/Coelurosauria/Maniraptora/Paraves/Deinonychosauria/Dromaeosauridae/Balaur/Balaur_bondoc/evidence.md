@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaur bondoc
       en: Balaur bondoc
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: morphology

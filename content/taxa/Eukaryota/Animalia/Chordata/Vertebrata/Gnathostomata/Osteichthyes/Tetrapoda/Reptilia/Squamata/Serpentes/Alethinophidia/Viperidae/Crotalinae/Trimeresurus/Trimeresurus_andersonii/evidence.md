@@ -9,7 +9,6 @@ records:
     name:
       zh: Trimeresurus andersonii
       en: Trimeresurus andersonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

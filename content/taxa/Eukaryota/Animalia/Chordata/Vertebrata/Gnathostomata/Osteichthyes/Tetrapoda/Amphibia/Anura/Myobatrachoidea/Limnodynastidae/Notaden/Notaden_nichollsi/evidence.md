@@ -9,7 +9,6 @@ records:
     name:
       en: Notaden nichollsi
       zh: Notaden nichollsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

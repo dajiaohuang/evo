@@ -9,7 +9,6 @@ records:
     name:
       zh: Trilepida koppesi
       en: Trilepida koppesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

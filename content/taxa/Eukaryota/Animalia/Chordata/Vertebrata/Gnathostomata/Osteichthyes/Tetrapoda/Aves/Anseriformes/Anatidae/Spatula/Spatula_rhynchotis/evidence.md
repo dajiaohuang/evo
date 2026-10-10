@@ -9,7 +9,6 @@ records:
     name:
       zh: Spatula rhynchotis
       en: Spatula rhynchotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

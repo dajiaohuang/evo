@@ -9,7 +9,6 @@ records:
     name:
       en: Blommersia dupreezi
       zh: Blommersia dupreezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

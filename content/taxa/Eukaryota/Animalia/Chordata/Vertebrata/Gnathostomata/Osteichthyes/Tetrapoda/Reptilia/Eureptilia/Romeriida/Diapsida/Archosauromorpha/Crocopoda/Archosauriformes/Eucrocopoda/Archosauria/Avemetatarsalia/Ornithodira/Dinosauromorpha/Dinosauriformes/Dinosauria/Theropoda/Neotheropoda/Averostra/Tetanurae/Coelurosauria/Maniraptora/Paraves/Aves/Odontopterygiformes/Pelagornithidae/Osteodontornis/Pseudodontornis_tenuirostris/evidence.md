@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudodontornis tenuirostris
       en: Pseudodontornis tenuirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -86,9 +86,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: whalley-jarzembowski-1981-rhyniella DOI-linked primary source
       referenceLinks:
         - referenceId: whalley-jarzembowski-1981-rhyniella
           relation: supports

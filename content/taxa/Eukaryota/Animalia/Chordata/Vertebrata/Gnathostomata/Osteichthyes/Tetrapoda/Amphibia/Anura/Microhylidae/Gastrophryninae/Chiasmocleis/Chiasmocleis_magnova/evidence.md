@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis magnova
       zh: Chiasmocleis magnova
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kairuku grebneffi
       en: Kairuku grebneffi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

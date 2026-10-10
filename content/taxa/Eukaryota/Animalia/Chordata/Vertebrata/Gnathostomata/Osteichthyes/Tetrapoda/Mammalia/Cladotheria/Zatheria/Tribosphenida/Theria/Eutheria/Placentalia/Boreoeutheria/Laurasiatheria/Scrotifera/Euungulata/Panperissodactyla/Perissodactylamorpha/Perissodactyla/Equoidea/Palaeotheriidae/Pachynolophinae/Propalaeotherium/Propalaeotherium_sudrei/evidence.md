@@ -9,7 +9,6 @@ records:
     name:
       zh: Propalaeotherium sudrei
       en: Propalaeotherium sudrei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lissodelphis peronii
       en: Lissodelphis peronii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

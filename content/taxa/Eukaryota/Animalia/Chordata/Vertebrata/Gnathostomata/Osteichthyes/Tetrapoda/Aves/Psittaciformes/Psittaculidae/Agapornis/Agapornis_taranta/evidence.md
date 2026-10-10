@@ -9,7 +9,6 @@ records:
     name:
       zh: Agapornis taranta
       en: Agapornis taranta
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

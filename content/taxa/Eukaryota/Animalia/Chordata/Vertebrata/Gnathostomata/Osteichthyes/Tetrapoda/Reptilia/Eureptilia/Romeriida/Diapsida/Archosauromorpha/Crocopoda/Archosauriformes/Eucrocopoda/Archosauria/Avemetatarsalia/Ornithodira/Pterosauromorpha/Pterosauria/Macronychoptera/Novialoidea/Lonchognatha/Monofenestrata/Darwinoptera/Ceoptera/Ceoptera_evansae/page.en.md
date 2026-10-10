@@ -69,5 +69,5 @@ The fixed database row retains Martin-Silverstone et al. (2023) and ref:87734. T
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page combines a short guide to selected original-description passages with fixed PBDB records. Complete text, images and supplementary matrices were not read in full. Fossils were not independently inspected, scanned or measured. Full body reconstruction, diet, behavior, life history and all phylogenetic hypotheses still need evidence, without external expert review.
+This page combines a short guide to selected original-description passages with fixed PBDB records. Complete text, images and supplementary matrices were not read in full. Fossils were not independently inspected, scanned or measured. Full body reconstruction, diet, behavior, life history and all phylogenetic hypotheses still need evidence.
 <!-- /evo:text -->

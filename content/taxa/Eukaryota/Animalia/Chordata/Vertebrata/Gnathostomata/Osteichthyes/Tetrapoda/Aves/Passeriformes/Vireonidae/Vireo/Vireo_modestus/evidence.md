@@ -9,7 +9,6 @@ records:
     name:
       zh: Vireo modestus
       en: Vireo modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

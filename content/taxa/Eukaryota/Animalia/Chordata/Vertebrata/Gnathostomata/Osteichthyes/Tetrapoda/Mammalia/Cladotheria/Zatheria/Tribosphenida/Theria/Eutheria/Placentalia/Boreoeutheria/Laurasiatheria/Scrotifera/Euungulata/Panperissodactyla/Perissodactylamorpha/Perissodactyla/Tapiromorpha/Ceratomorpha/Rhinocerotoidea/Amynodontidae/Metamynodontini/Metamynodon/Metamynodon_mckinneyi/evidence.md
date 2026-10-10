@@ -9,7 +9,6 @@ records:
     name:
       zh: Metamynodon mckinneyi
       en: Metamynodon mckinneyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

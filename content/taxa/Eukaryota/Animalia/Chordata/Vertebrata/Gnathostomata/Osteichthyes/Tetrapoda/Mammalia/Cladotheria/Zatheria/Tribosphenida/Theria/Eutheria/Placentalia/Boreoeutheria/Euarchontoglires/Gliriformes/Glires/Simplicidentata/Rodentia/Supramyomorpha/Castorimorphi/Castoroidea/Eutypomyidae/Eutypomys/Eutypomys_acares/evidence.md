@@ -9,7 +9,6 @@ records:
     name:
       zh: Eutypomys acares
       en: Eutypomys acares
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

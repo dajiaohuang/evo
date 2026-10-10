@@ -9,7 +9,6 @@ records:
     name:
       zh: Dibamus bourreti
       en: Dibamus bourreti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

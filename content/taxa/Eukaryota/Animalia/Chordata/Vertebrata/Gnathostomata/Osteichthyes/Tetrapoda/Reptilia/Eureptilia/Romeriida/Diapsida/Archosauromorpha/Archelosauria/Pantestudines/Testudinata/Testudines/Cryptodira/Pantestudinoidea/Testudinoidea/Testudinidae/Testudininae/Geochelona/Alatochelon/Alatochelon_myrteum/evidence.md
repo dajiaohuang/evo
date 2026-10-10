@@ -9,7 +9,6 @@ records:
     name:
       zh: Alatochelon myrteum
       en: Alatochelon myrteum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tremarctos ornatus
       en: Tremarctos ornatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

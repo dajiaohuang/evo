@@ -9,7 +9,6 @@ records:
     name:
       zh: Jimusaria monanensis
       en: Jimusaria monanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

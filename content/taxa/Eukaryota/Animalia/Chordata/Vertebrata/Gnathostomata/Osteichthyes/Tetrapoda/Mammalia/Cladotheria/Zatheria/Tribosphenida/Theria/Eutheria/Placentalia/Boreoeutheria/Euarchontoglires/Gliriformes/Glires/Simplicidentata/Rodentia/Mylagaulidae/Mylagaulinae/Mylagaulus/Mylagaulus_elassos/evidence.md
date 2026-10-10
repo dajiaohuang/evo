@@ -9,7 +9,6 @@ records:
     name:
       zh: Mylagaulus elassos
       en: Mylagaulus elassos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

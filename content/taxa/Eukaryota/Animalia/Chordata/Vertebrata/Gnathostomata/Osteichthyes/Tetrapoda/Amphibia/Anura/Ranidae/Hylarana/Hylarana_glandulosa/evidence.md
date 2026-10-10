@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana glandulosa
       zh: Hylarana glandulosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

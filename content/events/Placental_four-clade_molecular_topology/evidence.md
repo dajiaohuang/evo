@@ -87,9 +87,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Murphy et al. 2001 DOI 10.1126/science.1067179
       referenceLinks:
         - referenceId: murphy-2001-placental-bayesian
           relation: supports

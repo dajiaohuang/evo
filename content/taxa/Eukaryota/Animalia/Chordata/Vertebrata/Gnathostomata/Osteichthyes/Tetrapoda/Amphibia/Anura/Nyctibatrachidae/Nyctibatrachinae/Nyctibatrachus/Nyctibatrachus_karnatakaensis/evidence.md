@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus karnatakaensis
       zh: Nyctibatrachus karnatakaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

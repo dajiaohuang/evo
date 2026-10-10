@@ -9,7 +9,6 @@ records:
     name:
       zh: Montanatylopus
       en: Montanatylopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

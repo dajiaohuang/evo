@@ -9,7 +9,6 @@ records:
     name:
       zh: Crithagra mozambica
       en: Crithagra mozambica
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

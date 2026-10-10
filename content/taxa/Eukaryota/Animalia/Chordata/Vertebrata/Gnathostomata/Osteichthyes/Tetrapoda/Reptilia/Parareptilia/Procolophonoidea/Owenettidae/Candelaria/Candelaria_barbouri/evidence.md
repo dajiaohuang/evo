@@ -9,7 +9,6 @@ records:
     name:
       zh: Candelaria barbouri
       en: Candelaria barbouri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

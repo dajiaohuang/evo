@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon kentucki
       zh: Plethodon kentucki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

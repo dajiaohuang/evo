@@ -9,7 +9,6 @@ records:
     name:
       en: Chiropterotriton chico
       zh: Chiropterotriton chico
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

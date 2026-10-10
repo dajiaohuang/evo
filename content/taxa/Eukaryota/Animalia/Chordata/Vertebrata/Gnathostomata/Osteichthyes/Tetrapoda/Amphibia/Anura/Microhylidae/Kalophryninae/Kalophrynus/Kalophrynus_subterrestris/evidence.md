@@ -9,7 +9,6 @@ records:
     name:
       en: Kalophrynus subterrestris
       zh: Kalophrynus subterrestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

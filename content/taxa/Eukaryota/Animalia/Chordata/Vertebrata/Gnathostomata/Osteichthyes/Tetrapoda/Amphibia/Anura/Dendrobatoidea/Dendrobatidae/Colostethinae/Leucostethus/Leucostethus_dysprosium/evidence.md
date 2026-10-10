@@ -9,7 +9,6 @@ records:
     name:
       en: Leucostethus dysprosium
       zh: Leucostethus dysprosium
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

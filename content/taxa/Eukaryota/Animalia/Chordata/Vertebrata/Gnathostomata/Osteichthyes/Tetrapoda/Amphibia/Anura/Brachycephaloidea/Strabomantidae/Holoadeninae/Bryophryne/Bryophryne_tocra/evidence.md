@@ -9,7 +9,6 @@ records:
     name:
       en: Bryophryne tocra
       zh: Bryophryne tocra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

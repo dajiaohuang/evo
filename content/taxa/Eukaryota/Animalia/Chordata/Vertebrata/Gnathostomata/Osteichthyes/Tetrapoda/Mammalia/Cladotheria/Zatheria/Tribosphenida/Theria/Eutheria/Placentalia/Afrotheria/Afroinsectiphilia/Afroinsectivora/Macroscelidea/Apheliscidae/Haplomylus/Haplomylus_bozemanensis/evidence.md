@@ -9,7 +9,6 @@ records:
     name:
       zh: Haplomylus bozemanensis
       en: Haplomylus bozemanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

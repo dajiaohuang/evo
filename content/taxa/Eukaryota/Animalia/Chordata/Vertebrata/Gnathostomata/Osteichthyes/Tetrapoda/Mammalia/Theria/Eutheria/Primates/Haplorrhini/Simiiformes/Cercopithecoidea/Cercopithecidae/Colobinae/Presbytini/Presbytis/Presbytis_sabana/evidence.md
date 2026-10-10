@@ -9,7 +9,6 @@ records:
     name:
       zh: 沙巴灰叶猴
       en: Sabah Grizzled Langur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

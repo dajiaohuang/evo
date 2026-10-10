@@ -9,7 +9,6 @@ records:
     name:
       zh: Leposoma nanodactylus
       en: Leposoma nanodactylus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

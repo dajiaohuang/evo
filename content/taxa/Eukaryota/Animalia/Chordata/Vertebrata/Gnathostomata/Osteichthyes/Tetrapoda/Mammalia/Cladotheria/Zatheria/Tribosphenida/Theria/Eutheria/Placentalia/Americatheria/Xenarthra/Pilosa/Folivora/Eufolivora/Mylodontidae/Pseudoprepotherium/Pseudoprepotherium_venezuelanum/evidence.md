@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoprepotherium venezuelanum
       en: Pseudoprepotherium venezuelanum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophiobunodon hookeri
       en: Lophiobunodon hookeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

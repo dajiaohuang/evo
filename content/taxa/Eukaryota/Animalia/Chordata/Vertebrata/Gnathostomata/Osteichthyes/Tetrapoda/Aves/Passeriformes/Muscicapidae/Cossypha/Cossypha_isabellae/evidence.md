@@ -9,7 +9,6 @@ records:
     name:
       zh: Cossypha isabellae
       en: Cossypha isabellae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

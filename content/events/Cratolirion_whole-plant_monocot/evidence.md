@@ -79,9 +79,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Coiffard et al. 2019 DOI 10.1038/s41477-019-0468-y
       referenceLinks:
         - relation: supports
           referenceId: coiffard-2019-cratolirion

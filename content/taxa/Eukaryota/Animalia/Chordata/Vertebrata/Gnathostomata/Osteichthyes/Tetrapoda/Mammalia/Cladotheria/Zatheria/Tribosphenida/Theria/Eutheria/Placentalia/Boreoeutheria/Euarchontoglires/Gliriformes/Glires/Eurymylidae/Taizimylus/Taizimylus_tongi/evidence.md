@@ -9,7 +9,6 @@ records:
     name:
       zh: Taizimylus tongi
       en: Taizimylus tongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis feomborona
       zh: Gephyromantis feomborona
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

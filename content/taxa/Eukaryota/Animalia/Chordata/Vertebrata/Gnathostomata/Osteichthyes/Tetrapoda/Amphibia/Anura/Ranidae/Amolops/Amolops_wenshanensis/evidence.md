@@ -9,7 +9,6 @@ records:
     name:
       en: Amolops wenshanensis
       zh: Amolops wenshanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Atlapetes fuscoolivaceus
       en: Atlapetes fuscoolivaceus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

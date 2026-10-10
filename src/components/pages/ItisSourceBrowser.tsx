@@ -71,7 +71,7 @@ function CollectionRows({ collection, zh }: { collection: ItisBrowseCollection; 
       <option value="col">{zh ? 'COL 对应记录' : 'COL mapping records'} ({collection.colCount.toLocaleString()})</option>
     </select></label>
     <p>{partition === 'source-only'
-      ? (zh ? '这些是本固定映射范围中未对应 COL 的来源记录，不是全球去重后的新增物种，也不代表现生或经过专家评审。它们不自动归入 COL 物种。' : 'These source records have no COL match within this pinned mapping scope. They are not globally deduplicated additional species, nor evidence of extant status or expert review. They are not assigned to a COL species.')
+      ? (zh ? '这些是本固定映射范围中未对应 COL 的来源记录，不是全球去重后的新增物种，也不代表现生。它们不自动归入 COL 物种。' : 'These source records have no COL match within this pinned mapping scope. They are not globally deduplicated additional species, nor evidence of extant status. They are not assigned to a COL species.')
       : (zh ? '保留接受名、明示重定向、多候选及无对应结果。精确命名对应不等于物种概念等同或独立科学验证。' : 'Accepted-name matches, explicit redirects, multiple candidates and unmatched outcomes remain distinct. Exact name matching does not establish species-concept equivalence or independent scientific verification.')}</p>
     {!count && <p>{zh ? '此固定分区没有记录；不会从相邻类群补入。' : 'This pinned partition has no records; none are borrowed from adjacent groups.'}</p>}
     {!collection.completeRows && <p>{zh ? '网页版只提供摘要；逐条记录已随 Android 和 iOS 完整数据内置。' : 'Web provides summaries only; individual records are bundled with the complete Android and iOS data.'}</p>}

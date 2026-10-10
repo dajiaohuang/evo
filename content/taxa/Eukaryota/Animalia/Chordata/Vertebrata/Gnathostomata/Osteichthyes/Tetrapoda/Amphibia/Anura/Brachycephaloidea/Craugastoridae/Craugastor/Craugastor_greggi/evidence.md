@@ -9,7 +9,6 @@ records:
     name:
       en: Craugastor greggi
       zh: Craugastor greggi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

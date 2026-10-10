@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys appendiculata
       zh: Proceratophrys appendiculata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

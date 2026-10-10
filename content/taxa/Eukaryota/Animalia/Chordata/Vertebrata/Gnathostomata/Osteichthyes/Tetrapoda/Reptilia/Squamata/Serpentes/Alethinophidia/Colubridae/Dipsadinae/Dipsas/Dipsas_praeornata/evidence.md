@@ -9,7 +9,6 @@ records:
     name:
       zh: Dipsas praeornata
       en: Dipsas praeornata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

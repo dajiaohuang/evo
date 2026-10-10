@@ -9,7 +9,6 @@ records:
     name:
       zh: Thalassochelys libyca
       en: Thalassochelys libyca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

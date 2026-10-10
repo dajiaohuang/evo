@@ -9,7 +9,6 @@ records:
     name:
       en: Ascaphus truei
       zh: Ascaphus truei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

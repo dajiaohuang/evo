@@ -9,7 +9,6 @@ records:
     name:
       zh: Setophaga pinus
       en: Setophaga pinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

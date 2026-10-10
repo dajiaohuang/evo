@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpactes diardii
       en: Harpactes diardii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

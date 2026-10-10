@@ -9,7 +9,6 @@ records:
     name:
       zh: Anthus nilghiriensis
       en: Anthus nilghiriensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑疣猴
       en: Black Colobus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

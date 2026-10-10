@@ -9,7 +9,6 @@ records:
     name:
       zh: Myotis baranensis
       en: Myotis baranensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

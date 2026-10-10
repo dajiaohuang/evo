@@ -9,7 +9,6 @@ records:
     name:
       en: Aromobates mayorgai
       zh: Aromobates mayorgai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

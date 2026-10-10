@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger biluoensis
       zh: Scutiger biluoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

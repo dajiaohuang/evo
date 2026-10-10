@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella sarawakensis
       zh: Leptobrachella sarawakensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

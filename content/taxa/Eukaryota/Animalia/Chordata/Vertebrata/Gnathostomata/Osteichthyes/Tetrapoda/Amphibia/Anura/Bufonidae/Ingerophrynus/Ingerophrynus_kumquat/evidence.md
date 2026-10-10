@@ -9,7 +9,6 @@ records:
     name:
       en: Ingerophrynus kumquat
       zh: Ingerophrynus kumquat
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiopagis viridicata
       en: Myiopagis viridicata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

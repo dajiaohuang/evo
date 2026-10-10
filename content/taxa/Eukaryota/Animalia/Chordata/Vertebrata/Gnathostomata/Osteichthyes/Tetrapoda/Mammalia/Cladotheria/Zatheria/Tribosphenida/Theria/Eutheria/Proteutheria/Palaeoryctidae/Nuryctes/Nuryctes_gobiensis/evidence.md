@@ -9,7 +9,6 @@ records:
     name:
       zh: Nuryctes gobiensis
       en: Nuryctes gobiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

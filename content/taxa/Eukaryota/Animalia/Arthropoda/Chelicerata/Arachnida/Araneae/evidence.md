@@ -9,7 +9,6 @@ records:
     name:
       zh: 蜘蛛目
       en: Spiders
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

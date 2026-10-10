@@ -9,7 +9,6 @@ records:
     name:
       zh: Grus paradisea
       en: Grus paradisea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

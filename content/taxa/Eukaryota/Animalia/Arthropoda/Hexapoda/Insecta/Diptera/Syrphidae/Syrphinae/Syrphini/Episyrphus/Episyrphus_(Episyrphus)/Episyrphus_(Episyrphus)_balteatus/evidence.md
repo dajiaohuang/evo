@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑带食蚜蝇
       en: Marmalade hoverfly
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

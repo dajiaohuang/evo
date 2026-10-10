@@ -9,7 +9,6 @@ records:
     name:
       zh: Macruromys
       en: Macruromys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

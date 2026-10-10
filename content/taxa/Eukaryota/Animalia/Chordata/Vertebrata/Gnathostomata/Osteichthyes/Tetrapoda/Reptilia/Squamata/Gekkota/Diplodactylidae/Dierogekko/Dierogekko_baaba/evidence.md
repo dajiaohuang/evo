@@ -9,7 +9,6 @@ records:
     name:
       zh: Dierogekko baaba
       en: Dierogekko baaba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninia teresitae
       en: Ninia teresitae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

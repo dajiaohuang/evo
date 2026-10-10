@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachybiotherium illuminatum
       en: Pachybiotherium illuminatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

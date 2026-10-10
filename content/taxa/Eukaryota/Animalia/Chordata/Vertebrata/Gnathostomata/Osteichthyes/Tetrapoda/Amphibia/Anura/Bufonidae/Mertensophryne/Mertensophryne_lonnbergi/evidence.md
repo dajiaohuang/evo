@@ -9,7 +9,6 @@ records:
     name:
       en: Mertensophryne lonnbergi
       zh: Mertensophryne lonnbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

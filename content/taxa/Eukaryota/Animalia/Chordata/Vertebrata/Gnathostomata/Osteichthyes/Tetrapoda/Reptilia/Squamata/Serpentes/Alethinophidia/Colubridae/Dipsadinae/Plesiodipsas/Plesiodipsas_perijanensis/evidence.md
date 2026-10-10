@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiodipsas perijanensis
       en: Plesiodipsas perijanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

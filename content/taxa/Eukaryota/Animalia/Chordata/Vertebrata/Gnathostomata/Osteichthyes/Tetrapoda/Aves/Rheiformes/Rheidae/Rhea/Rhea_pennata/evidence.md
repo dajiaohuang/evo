@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhea pennata
       en: Rhea pennata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctimystes myolae
       zh: Nyctimystes myolae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

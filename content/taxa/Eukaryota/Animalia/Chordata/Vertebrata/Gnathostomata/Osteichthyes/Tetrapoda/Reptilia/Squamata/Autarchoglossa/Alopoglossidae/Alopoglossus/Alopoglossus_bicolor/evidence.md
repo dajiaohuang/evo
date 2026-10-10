@@ -9,7 +9,6 @@ records:
     name:
       zh: Alopoglossus bicolor
       en: Alopoglossus bicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

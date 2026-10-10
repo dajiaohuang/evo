@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinopium benghalense
       en: Dinopium benghalense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

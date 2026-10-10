@@ -9,7 +9,6 @@ records:
     name:
       zh: 鞘翅目
       en: Beetles
-    reviewStatus: source-linked
     checkedAt: 2026-09-23
     sections:
       - topic:

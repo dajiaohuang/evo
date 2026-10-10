@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligodon meyerinkii
       en: Oligodon meyerinkii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

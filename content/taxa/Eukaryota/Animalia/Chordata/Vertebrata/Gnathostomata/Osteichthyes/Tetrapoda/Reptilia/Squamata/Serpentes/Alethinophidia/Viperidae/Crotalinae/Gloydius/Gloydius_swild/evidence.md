@@ -9,7 +9,6 @@ records:
     name:
       zh: Gloydius swild
       en: Gloydius swild
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

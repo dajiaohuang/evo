@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes menglaensis
       zh: Raorchestes menglaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

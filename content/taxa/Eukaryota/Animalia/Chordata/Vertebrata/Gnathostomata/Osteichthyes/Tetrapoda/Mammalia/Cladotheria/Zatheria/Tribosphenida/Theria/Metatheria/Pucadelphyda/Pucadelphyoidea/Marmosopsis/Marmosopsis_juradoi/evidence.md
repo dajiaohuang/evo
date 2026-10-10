@@ -9,7 +9,6 @@ records:
     name:
       zh: Marmosopsis juradoi
       en: Marmosopsis juradoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

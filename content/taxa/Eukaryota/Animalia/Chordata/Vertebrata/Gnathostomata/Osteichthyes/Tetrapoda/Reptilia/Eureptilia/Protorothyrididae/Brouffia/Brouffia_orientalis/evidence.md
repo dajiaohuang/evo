@@ -9,7 +9,6 @@ records:
     name:
       zh: Brouffia orientalis
       en: Brouffia orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

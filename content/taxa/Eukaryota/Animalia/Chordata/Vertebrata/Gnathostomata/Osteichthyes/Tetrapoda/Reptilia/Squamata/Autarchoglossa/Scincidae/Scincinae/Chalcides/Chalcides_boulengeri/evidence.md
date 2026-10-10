@@ -9,7 +9,6 @@ records:
     name:
       zh: Chalcides boulengeri
       en: Chalcides boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

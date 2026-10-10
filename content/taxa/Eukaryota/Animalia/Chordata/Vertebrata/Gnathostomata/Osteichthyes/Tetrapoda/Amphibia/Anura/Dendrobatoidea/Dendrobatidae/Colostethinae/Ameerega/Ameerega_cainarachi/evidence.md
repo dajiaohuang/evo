@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega cainarachi
       zh: Ameerega cainarachi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

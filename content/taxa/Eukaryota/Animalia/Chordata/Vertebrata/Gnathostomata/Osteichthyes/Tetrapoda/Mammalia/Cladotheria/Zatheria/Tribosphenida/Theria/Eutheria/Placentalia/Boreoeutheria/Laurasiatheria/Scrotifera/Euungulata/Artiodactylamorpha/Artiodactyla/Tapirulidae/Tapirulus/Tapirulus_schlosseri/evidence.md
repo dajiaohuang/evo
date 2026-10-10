@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirulus schlosseri
       en: Tapirulus schlosseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

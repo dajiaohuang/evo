@@ -10,7 +10,6 @@ records:
     name:
       en: Garnett's Greater Galago
       zh: 甘尼特大婴猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Floridaceras whitei
       en: Floridaceras whitei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhacodactylus trachycephalus
       en: Rhacodactylus trachycephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xanthotis flaviventer
       en: Xanthotis flaviventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

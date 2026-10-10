@@ -9,7 +9,6 @@ records:
     name:
       zh: Paenanthracotherium strategus
       en: Paenanthracotherium strategus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

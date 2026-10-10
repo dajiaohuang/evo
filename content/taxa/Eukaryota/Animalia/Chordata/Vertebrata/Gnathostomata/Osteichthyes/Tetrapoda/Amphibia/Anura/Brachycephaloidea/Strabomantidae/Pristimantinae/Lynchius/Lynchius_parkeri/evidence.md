@@ -9,7 +9,6 @@ records:
     name:
       en: Lynchius parkeri
       zh: Lynchius parkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

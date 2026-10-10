@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxia curvirostra
       en: Loxia curvirostra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

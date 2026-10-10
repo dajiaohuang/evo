@@ -9,7 +9,6 @@ records:
     name:
       zh: Carinodens belgicus
       en: Carinodens belgicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

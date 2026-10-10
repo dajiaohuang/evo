@@ -9,7 +9,6 @@ records:
     name:
       zh: Horornis diphone
       en: Horornis diphone
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

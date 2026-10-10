@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanolanius madagascarinus
       en: Cyanolanius madagascarinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

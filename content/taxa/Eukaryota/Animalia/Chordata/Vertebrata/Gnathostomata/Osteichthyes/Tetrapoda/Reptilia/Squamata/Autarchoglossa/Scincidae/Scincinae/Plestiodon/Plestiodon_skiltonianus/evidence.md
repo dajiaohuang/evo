@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon skiltonianus
       en: Plestiodon skiltonianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

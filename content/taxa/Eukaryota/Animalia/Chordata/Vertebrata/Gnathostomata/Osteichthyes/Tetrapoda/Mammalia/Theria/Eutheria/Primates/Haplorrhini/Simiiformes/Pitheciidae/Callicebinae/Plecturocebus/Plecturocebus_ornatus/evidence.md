@@ -9,7 +9,6 @@ records:
     name:
       zh: 华丽绢毛猴
       en: Ornate Titi
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

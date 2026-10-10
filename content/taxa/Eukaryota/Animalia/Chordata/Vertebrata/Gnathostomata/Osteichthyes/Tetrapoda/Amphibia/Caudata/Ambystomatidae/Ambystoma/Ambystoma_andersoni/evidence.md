@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma andersoni
       zh: Ambystoma andersoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

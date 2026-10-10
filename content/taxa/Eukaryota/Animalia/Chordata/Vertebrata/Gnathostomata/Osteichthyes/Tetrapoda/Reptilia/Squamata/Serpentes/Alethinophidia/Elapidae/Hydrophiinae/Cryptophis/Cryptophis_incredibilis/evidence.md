@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptophis incredibilis
       en: Cryptophis incredibilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

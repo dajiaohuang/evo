@@ -9,7 +9,6 @@ records:
     name:
       zh: Sauroctonus parringtoni
       en: Sauroctonus parringtoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Osteopygis emarginatus
       en: Osteopygis emarginatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

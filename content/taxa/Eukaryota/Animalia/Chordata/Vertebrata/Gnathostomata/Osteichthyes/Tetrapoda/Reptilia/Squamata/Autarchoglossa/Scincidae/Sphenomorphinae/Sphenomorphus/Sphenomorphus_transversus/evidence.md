@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus transversus
       en: Sphenomorphus transversus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

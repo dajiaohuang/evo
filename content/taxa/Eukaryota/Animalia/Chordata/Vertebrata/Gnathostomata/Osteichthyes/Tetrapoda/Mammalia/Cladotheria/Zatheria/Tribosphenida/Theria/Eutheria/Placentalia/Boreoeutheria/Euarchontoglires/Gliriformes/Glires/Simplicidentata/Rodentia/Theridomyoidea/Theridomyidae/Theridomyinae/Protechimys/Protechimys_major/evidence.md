@@ -9,7 +9,6 @@ records:
     name:
       zh: Protechimys major
       en: Protechimys major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

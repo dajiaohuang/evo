@@ -28,7 +28,7 @@ The type and referred specimens in the original description came from the Juruá
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The original description provides diagnostic pelage, river-bounded range and specimen localities, but no account of this species' diet, group behavior, field density or population trend. The current MDD links *Tamarinus kulina* as a name combination under *Saguinus kulina*, resolving the name link missing from the older local sidecar; the pinned COL26.8 authorship year is preserved. The page meets the first-round species-introduction standard, but is not a complete natural history or population assessment. It has not received external expert review.
+The original description provides diagnostic pelage, river-bounded range and specimen localities, but no account of this species' diet, group behavior, field density or population trend. The current MDD links *Tamarinus kulina* as a name combination under *Saguinus kulina*, resolving the name link missing from the older local sidecar; the pinned COL26.8 authorship year is preserved. The page meets the first-round species-introduction standard, but is not a complete natural history or population assessment. It.
 <!-- /evo:text -->
 
 ## Genomic and morphological samples have different scopes

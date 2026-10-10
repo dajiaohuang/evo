@@ -9,7 +9,6 @@ records:
     name:
       zh: Chilabothrus monensis
       en: Chilabothrus monensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemibungarus calligaster
       en: Hemibungarus calligaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

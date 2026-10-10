@@ -9,7 +9,6 @@ records:
     name:
       zh: Merycoidodon culbertsonii
       en: Merycoidodon culbertsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

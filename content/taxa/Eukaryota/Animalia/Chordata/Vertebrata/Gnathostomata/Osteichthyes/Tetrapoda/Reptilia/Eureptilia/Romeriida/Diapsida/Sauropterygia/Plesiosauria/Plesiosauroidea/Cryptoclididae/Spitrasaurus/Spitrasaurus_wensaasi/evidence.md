@@ -9,7 +9,6 @@ records:
     name:
       zh: Spitrasaurus wensaasi
       en: Spitrasaurus wensaasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

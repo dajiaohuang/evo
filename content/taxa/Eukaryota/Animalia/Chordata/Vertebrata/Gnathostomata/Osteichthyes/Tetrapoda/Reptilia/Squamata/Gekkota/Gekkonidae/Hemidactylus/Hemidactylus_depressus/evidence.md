@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus depressus
       en: Hemidactylus depressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Acanthodactylus masirae
       en: Acanthodactylus masirae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

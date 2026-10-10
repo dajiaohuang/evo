@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllodytes tuberculosus
       zh: Phyllodytes tuberculosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

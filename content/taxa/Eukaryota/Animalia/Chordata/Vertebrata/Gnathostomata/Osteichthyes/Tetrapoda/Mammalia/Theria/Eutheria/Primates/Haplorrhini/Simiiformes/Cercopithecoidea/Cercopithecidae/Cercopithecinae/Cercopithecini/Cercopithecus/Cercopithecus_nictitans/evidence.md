@@ -9,7 +9,6 @@ records:
     name:
       en: Putty-nosed monkey
       zh: 膨鼻长尾猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: communication

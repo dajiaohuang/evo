@@ -9,7 +9,6 @@ records:
     name:
       zh: Idiurus zenkeri
       en: Idiurus zenkeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

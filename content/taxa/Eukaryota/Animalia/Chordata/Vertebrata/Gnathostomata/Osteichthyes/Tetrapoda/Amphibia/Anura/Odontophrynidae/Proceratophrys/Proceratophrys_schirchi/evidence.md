@@ -9,7 +9,6 @@ records:
     name:
       en: Proceratophrys schirchi
       zh: Proceratophrys schirchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

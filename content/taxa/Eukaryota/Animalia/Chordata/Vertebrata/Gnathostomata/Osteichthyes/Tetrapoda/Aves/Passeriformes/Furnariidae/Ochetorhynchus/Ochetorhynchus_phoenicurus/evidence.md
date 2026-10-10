@@ -9,7 +9,6 @@ records:
     name:
       zh: Ochetorhynchus phoenicurus
       en: Ochetorhynchus phoenicurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

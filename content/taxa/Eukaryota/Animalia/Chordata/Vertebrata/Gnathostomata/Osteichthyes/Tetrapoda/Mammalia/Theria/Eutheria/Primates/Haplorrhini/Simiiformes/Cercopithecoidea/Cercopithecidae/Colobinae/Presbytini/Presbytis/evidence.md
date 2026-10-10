@@ -9,7 +9,6 @@ records:
     name:
       zh: 叶猴属
       en: Surilis and Leaf Monkeys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Otosaurus cumingii
       en: Otosaurus cumingii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

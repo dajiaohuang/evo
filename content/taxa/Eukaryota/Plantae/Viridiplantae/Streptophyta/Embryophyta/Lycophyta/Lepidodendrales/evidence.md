@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bateman-1992-arborescent-lycopsids
       referenceLinks:
         - referenceId: bateman-1992-arborescent-lycopsids
           relation: supports
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bateman-1992-arborescent-lycopsids locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: bateman-1992-arborescent-lycopsids
@@ -88,7 +82,6 @@ records:
       referenceLocators:
         - referenceId: bateman-1992-arborescent-lycopsids
           locator: 500–559; cladistic matrix, sampled arborescent lycopsids and strict-consensus trees
-      reviewStatus: automated-audit-passed
       evidenceLevel: withheld-no-range-evidence
 ---
 

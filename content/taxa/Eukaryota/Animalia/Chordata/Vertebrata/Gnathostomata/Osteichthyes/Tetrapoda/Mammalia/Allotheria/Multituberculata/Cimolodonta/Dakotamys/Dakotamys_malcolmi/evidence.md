@@ -9,7 +9,6 @@ records:
     name:
       zh: Dakotamys malcolmi
       en: Dakotamys malcolmi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

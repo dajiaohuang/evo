@@ -9,7 +9,6 @@ records:
     name:
       zh: Eupodophis descouensi
       en: Eupodophis descouensi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

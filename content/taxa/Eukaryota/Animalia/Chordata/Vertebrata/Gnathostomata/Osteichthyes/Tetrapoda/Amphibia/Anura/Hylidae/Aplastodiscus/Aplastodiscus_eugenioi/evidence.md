@@ -9,7 +9,6 @@ records:
     name:
       en: Aplastodiscus eugenioi
       zh: Aplastodiscus eugenioi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

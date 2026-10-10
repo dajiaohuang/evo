@@ -9,7 +9,6 @@ records:
     name:
       zh: Anchitherium navasotae
       en: Anchitherium navasotae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

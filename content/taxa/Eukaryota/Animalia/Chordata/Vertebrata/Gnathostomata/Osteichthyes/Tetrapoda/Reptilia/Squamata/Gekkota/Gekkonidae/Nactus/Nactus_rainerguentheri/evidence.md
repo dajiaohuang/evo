@@ -9,7 +9,6 @@ records:
     name:
       zh: Nactus rainerguentheri
       en: Nactus rainerguentheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

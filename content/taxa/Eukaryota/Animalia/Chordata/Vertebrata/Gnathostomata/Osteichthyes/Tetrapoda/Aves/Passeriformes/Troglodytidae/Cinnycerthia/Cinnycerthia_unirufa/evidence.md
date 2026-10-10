@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnycerthia unirufa
       en: Cinnycerthia unirufa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

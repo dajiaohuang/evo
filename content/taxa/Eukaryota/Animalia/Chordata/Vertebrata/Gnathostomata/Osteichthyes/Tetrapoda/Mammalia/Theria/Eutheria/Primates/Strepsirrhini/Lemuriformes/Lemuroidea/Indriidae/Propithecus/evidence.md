@@ -9,7 +9,6 @@ records:
     name:
       en: Sifakas
       zh: 西法卡属
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

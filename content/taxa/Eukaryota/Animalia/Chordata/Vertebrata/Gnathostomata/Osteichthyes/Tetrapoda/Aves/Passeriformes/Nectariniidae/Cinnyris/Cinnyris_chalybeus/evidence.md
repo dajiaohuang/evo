@@ -9,7 +9,6 @@ records:
     name:
       zh: Cinnyris chalybeus
       en: Cinnyris chalybeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -28,5 +28,5 @@ A separate GPS trial monitored two adults from one free-ranging group for 66 and
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The 2016 ecological observations concern two groups in one fragmented cattle-ranch landscape in Remedios; the GPS results concern two adults from another single group in a methods trial. Different sites, samples and estimators are not pooled into a species-wide diet, seed-dispersal capacity or home range. Field sources use Saguinus leucopus, while page identity follows the pinned COL26.8 ID. Not externally expert-reviewed. This page is not externally expert-reviewed.
+The 2016 ecological observations concern two groups in one fragmented cattle-ranch landscape in Remedios; the GPS results concern two adults from another single group in a methods trial. Different sites, samples and estimators are not pooled into a species-wide diet, seed-dispersal capacity or home range. Field sources use Saguinus leucopus, while page identity follows the pinned COL26.8 ID.. This page is.
 <!-- /evo:text -->

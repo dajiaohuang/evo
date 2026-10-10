@@ -9,7 +9,6 @@ records:
     name:
       zh: Lophostoma evotis
       en: Lophostoma evotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

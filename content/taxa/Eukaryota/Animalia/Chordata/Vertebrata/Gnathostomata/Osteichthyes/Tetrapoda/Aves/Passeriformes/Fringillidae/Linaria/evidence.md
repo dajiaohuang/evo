@@ -9,7 +9,6 @@ records:
     name:
       zh: Linaria
       en: Linaria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

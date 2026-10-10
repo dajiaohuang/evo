@@ -9,7 +9,6 @@ records:
     name:
       en: Fejervarya cancrivora
       zh: Fejervarya cancrivora
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

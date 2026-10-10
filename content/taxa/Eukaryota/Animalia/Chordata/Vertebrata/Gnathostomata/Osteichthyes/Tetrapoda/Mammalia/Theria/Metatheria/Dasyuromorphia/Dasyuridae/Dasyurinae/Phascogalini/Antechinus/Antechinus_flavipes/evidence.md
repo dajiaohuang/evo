@@ -9,7 +9,6 @@ records:
     name:
       zh: Antechinus flavipes
       en: Antechinus flavipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Artamus monachus
       en: Artamus monachus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

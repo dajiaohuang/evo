@@ -9,7 +9,6 @@ records:
     name:
       zh: Amnesteophis melanauchen
       en: Amnesteophis melanauchen
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

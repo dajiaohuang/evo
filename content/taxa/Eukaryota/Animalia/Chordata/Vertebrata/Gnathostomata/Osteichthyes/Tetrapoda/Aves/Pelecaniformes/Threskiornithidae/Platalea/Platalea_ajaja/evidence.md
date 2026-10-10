@@ -9,7 +9,6 @@ records:
     name:
       zh: Platalea ajaja
       en: Platalea ajaja
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

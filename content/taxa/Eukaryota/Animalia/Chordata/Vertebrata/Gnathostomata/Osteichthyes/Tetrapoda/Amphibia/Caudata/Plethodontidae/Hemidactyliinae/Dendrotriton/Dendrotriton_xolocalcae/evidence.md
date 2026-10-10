@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrotriton xolocalcae
       zh: Dendrotriton xolocalcae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

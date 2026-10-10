@@ -9,7 +9,6 @@ records:
     name:
       zh: Uraeginthus granatinus
       en: Uraeginthus granatinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Alashania tengkoliensis
       en: Alashania tengkoliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hyopsodus lepidus
       en: Hyopsodus lepidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

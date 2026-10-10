@@ -17,5 +17,5 @@ This batch’s Rhagamys route includes one historical entry; start with Rhagamys
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs and external expert review remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 <!-- /evo:text -->

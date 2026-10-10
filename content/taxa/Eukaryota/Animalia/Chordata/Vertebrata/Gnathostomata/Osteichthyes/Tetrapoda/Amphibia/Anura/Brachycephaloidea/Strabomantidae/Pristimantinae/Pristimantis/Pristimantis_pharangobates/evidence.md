@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pharangobates
       zh: Pristimantis pharangobates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

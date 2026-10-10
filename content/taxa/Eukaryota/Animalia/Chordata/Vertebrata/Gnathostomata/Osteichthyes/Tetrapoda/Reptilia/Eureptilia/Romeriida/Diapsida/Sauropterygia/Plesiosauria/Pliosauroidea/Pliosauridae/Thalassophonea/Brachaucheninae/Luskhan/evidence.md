@@ -9,7 +9,6 @@ records:
     name:
       zh: Luskhan
       en: Luskhan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

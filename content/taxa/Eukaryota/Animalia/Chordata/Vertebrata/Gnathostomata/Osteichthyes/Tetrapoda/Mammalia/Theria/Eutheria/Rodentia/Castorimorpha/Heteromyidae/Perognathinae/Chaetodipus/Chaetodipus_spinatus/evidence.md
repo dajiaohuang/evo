@@ -9,7 +9,6 @@ records:
     name:
       zh: Chaetodipus spinatus
       en: Chaetodipus spinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

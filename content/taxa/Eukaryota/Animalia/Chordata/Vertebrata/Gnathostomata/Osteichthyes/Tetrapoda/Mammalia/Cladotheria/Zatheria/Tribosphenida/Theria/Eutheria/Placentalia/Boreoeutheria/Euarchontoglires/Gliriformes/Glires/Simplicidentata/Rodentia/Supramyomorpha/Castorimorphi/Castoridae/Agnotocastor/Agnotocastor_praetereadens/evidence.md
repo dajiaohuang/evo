@@ -9,7 +9,6 @@ records:
     name:
       zh: Agnotocastor praetereadens
       en: Agnotocastor praetereadens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

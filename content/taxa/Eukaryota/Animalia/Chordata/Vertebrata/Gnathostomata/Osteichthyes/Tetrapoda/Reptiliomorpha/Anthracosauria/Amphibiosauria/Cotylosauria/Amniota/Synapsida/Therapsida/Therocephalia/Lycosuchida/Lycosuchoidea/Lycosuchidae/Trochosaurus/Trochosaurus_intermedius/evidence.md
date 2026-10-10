@@ -9,7 +9,6 @@ records:
     name:
       zh: Trochosaurus intermedius
       en: Trochosaurus intermedius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

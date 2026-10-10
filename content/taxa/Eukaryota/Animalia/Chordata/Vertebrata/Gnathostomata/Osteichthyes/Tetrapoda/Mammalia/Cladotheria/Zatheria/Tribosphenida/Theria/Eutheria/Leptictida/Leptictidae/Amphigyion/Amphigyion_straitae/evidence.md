@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphigyion straitae
       en: Amphigyion straitae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

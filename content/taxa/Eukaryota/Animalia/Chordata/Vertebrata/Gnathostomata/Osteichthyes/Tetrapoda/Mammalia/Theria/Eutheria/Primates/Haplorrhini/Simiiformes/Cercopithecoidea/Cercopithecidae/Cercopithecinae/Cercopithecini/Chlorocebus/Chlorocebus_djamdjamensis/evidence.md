@@ -9,7 +9,6 @@ records:
     name:
       en: Bale Mountains Monkey
       zh: 贝尔山猴
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: feeding

@@ -9,7 +9,6 @@ records:
     name:
       zh: Helmitheros vermivorum
       en: Helmitheros vermivorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

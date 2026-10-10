@@ -9,7 +9,6 @@ records:
     name:
       zh: Balaenotus lawleyi
       en: Balaenotus lawleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

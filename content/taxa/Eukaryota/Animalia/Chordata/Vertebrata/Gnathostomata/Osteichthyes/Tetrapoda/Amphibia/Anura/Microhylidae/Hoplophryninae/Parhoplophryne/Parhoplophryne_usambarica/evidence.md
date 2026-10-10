@@ -9,7 +9,6 @@ records:
     name:
       en: Parhoplophryne usambarica
       zh: Parhoplophryne usambarica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Selvasaura brava
       en: Selvasaura brava
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

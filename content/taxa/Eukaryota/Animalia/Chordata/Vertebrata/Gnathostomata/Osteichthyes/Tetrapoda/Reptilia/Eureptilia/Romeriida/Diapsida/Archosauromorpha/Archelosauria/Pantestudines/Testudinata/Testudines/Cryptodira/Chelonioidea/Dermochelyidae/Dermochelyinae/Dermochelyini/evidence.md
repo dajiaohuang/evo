@@ -9,7 +9,6 @@ records:
     name:
       zh: Dermochelyini
       en: Dermochelyini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

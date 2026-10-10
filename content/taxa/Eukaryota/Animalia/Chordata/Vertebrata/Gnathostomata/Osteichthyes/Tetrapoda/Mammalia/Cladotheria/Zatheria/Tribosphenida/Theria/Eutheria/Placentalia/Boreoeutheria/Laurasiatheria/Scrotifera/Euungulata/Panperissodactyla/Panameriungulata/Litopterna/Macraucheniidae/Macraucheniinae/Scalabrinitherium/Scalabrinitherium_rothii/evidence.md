@@ -9,7 +9,6 @@ records:
     name:
       zh: Scalabrinitherium rothii
       en: Scalabrinitherium rothii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

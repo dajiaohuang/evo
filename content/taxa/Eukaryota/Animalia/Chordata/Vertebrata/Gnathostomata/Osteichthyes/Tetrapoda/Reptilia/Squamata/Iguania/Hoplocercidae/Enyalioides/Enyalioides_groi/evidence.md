@@ -9,7 +9,6 @@ records:
     name:
       zh: Enyalioides groi
       en: Enyalioides groi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

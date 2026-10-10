@@ -9,7 +9,6 @@ records:
     name:
       zh: Chionomys
       en: Chionomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

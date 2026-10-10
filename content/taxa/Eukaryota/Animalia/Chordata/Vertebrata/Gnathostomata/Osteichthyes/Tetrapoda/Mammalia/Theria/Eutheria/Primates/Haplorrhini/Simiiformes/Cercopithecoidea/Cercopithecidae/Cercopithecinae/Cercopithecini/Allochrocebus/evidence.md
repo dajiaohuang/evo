@@ -9,7 +9,6 @@ records:
     name:
       zh: Allochrocebus 属
       en: Allochrocebus Monkeys
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: overview

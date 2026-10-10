@@ -9,7 +9,6 @@ records:
     name:
       zh: Namibiana
       en: Namibiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

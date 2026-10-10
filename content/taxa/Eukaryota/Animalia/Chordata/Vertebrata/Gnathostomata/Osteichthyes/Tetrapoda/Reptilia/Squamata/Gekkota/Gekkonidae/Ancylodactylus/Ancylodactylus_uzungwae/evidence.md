@@ -9,7 +9,6 @@ records:
     name:
       zh: Ancylodactylus uzungwae
       en: Ancylodactylus uzungwae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

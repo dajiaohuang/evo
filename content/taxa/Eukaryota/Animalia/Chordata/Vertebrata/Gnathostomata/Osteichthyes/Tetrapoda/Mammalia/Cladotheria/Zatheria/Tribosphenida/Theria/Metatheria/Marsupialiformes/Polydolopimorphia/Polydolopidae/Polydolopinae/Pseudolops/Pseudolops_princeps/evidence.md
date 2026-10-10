@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudolops princeps
       en: Pseudolops princeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus dorsimaculatus
       zh: Afrixalus dorsimaculatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

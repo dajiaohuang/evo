@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudogekko brevipes
       en: Pseudogekko brevipes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

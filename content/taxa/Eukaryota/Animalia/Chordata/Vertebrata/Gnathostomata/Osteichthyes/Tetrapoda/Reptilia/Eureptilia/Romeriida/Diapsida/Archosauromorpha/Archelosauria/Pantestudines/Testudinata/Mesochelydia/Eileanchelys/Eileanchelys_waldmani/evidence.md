@@ -9,7 +9,6 @@ records:
     name:
       zh: Eileanchelys waldmani
       en: Eileanchelys waldmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

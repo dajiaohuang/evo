@@ -9,7 +9,6 @@ records:
     name:
       zh: Neophrontops
       en: Neophrontops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudophilautus asankai
       zh: Pseudophilautus asankai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

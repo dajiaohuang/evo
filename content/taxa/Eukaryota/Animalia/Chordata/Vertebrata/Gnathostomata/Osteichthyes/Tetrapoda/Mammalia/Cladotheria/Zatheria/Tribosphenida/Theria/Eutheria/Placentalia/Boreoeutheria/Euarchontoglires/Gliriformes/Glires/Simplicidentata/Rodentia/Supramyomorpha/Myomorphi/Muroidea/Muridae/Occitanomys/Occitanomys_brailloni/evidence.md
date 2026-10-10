@@ -9,7 +9,6 @@ records:
     name:
       zh: Occitanomys brailloni
       en: Occitanomys brailloni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

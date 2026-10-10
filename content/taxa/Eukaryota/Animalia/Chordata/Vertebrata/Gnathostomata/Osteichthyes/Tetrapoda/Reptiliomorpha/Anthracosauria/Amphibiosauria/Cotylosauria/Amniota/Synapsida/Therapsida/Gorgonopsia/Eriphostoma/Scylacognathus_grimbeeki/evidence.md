@@ -9,7 +9,6 @@ records:
     name:
       zh: Scylacognathus grimbeeki
       en: Scylacognathus grimbeeki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Phyllonastes arutam
       zh: Phyllonastes arutam
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

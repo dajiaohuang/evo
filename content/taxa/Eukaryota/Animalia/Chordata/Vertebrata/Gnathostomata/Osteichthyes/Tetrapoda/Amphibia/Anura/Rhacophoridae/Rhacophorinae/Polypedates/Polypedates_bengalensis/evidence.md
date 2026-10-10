@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates bengalensis
       zh: Polypedates bengalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

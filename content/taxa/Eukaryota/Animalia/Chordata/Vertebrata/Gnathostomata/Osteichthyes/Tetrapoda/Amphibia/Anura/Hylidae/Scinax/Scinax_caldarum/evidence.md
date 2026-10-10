@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax caldarum
       zh: Scinax caldarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

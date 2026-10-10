@@ -9,7 +9,6 @@ records:
     name:
       zh: Sericornis magnirostra
       en: Sericornis magnirostra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

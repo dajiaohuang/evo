@@ -9,7 +9,6 @@ records:
     name:
       zh: Lamprotornis splendidus
       en: Lamprotornis splendidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

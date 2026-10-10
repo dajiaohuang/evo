@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus clinatus
       en: Phyllodactylus clinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Kaganaias hakusanensis
       en: Kaganaias hakusanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

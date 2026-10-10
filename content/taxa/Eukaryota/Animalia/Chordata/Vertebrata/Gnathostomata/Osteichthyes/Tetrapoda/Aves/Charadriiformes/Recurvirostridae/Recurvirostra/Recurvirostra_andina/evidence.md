@@ -9,7 +9,6 @@ records:
     name:
       zh: Recurvirostra andina
       en: Recurvirostra andina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

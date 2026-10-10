@@ -9,7 +9,6 @@ records:
     name:
       en: Heterixalus rutenbergi
       zh: Heterixalus rutenbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

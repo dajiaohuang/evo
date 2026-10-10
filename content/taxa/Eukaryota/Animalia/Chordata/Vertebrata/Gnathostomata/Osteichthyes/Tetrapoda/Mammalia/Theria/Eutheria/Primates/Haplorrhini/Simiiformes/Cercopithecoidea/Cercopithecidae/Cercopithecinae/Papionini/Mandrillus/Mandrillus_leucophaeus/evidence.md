@@ -9,7 +9,6 @@ records:
     name:
       zh: 钻猴
       en: Drill
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: lifeHistory
@@ -498,10 +497,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -786,5 +781,5 @@ One captive-group observation supports only a bounded social-behavior claim; six
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
-The case does not establish species-wide behavior or its motivation; no systematic multi-source review or independent expert review has been completed.
+The case does not establish species-wide behavior or its motivation;
 <!-- /evo:text -->

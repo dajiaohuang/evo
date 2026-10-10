@@ -9,7 +9,6 @@ records:
     name:
       zh: Normanniasaurus genceyi
       en: Normanniasaurus genceyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

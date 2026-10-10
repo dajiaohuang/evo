@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus anomalus
       en: Liolaemus anomalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

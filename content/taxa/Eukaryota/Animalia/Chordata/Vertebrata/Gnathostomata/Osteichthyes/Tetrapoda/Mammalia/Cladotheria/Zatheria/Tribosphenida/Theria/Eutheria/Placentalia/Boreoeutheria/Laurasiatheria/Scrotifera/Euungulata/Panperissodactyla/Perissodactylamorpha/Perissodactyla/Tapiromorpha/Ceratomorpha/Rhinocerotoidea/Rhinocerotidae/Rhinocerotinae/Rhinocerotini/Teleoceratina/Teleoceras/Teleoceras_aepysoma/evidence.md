@@ -9,7 +9,6 @@ records:
     name:
       zh: Teleoceras aepysoma
       en: Teleoceras aepysoma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

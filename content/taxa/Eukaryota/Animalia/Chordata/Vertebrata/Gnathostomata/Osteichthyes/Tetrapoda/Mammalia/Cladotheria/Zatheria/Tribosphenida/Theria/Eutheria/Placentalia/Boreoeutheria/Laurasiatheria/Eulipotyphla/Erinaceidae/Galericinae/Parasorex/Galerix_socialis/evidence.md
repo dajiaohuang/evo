@@ -9,7 +9,6 @@ records:
     name:
       zh: Galerix socialis
       en: Galerix socialis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protosciurus condoni
       en: Protosciurus condoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

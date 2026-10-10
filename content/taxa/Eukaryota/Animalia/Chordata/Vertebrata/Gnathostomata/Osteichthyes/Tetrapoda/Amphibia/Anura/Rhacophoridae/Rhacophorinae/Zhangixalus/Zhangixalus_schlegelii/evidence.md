@@ -9,7 +9,6 @@ records:
     name:
       en: Zhangixalus schlegelii
       zh: Zhangixalus schlegelii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

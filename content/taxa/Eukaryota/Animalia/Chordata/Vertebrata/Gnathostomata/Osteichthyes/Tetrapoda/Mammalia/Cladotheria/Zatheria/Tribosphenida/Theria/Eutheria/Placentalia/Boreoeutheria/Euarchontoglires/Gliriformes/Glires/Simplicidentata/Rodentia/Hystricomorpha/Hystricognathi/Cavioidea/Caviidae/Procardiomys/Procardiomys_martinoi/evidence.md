@@ -9,7 +9,6 @@ records:
     name:
       zh: Procardiomys martinoi
       en: Procardiomys martinoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

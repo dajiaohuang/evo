@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiadapis rex
       en: Plesiadapis rex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

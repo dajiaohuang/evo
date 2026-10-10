@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmelastes leucostigma
       en: Myrmelastes leucostigma
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

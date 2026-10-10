@@ -9,7 +9,6 @@ records:
     name:
       en: Gegeneophis primus
       zh: Gegeneophis primus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

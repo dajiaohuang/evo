@@ -9,7 +9,6 @@ records:
     name:
       zh: Saproscincus oriarus
       en: Saproscincus oriarus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

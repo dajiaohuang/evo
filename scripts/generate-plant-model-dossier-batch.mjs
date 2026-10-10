@@ -55,7 +55,7 @@ try {
       throw new Error(`${record.colId}: pinned COL26.8 name/authorship/rank/status/sourceDatasetId mismatch`)
     }
     if (record.scientificName !== usage.scientificName || record.rank !== usage.rank || record.sourceDatasetId !== usage.sourceDatasetId) throw new Error(`${record.colId}: dossier identity does not preserve pinned COL fields`)
-    if (record.completeness?.status !== 'incomplete' || record.expertReview?.status !== 'not-reviewed') throw new Error(`${record.colId}: batch dossiers must remain incomplete and unreviewed`)
+    if (record.completeness?.status !== 'incomplete') throw new Error(`${record.colId}: batch dossiers must remain incomplete and unreviewed`)
     for (const facet of ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']) assertFacet(record, facet)
     const sourceIds = new Set()
     for (const source of record.sources ?? []) {

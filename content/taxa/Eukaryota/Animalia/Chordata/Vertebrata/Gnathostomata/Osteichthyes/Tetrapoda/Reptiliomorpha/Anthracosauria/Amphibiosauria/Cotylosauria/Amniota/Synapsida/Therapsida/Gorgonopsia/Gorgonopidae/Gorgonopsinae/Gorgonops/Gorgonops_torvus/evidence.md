@@ -9,7 +9,6 @@ records:
     name:
       zh: Gorgonops torvus
       en: Gorgonops torvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Anabacerthia striaticollis
       en: Anabacerthia striaticollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

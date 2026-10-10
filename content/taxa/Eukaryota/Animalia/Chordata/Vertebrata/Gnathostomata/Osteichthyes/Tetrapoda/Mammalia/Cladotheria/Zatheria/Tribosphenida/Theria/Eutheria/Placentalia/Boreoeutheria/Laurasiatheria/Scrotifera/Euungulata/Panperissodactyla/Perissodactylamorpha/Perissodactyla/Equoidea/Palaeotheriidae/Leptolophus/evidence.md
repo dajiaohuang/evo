@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptolophus
       en: Leptolophus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

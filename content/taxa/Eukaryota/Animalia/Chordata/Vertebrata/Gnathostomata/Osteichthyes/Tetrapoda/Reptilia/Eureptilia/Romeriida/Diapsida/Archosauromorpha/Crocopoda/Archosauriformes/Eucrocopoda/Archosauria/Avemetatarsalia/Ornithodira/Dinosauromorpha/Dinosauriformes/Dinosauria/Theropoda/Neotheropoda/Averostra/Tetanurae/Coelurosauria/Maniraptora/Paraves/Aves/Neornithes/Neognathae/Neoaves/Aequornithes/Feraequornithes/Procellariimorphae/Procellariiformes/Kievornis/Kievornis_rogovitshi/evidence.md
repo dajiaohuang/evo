@@ -9,7 +9,6 @@ records:
     name:
       zh: Kievornis rogovitshi
       en: Kievornis rogovitshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

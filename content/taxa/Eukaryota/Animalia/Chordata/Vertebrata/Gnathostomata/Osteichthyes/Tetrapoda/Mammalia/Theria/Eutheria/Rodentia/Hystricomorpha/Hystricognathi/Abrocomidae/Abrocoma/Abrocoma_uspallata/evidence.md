@@ -9,7 +9,6 @@ records:
     name:
       zh: Abrocoma uspallata
       en: Abrocoma uspallata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

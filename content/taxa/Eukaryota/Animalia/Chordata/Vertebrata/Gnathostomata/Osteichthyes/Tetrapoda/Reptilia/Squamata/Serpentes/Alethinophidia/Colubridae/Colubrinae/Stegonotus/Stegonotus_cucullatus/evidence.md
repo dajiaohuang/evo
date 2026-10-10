@@ -9,7 +9,6 @@ records:
     name:
       zh: Stegonotus cucullatus
       en: Stegonotus cucullatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

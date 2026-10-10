@@ -9,7 +9,6 @@ records:
     name:
       zh: Arenahippus aemulor
       en: Arenahippus aemulor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

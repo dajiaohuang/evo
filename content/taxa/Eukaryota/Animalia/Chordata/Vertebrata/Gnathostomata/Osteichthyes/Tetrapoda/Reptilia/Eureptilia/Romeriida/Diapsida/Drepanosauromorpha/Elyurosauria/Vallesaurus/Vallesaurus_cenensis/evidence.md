@@ -9,7 +9,6 @@ records:
     name:
       zh: Vallesaurus cenensis
       en: Vallesaurus cenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

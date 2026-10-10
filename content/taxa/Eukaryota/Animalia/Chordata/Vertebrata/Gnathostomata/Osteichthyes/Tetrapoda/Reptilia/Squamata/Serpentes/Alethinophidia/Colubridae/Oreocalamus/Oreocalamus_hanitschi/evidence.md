@@ -9,7 +9,6 @@ records:
     name:
       zh: Oreocalamus hanitschi
       en: Oreocalamus hanitschi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

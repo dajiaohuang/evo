@@ -9,7 +9,6 @@ records:
     name:
       zh: Plesiotylosaurus
       en: Plesiotylosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

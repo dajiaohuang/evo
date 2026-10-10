@@ -9,7 +9,6 @@ records:
     name:
       zh: 西比鲁猕猴
       en: Siberut Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: population estimate

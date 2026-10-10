@@ -9,7 +9,6 @@ records:
     name:
       zh: Psarocolius atrovirens
       en: Psarocolius atrovirens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

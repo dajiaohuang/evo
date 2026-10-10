@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa hypacra
       zh: Bolitoglossa hypacra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

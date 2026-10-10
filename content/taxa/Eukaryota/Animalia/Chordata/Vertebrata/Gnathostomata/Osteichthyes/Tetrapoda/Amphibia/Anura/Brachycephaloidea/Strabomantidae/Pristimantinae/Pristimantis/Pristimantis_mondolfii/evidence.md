@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis mondolfii
       zh: Pristimantis mondolfii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

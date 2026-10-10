@@ -9,7 +9,6 @@ records:
     name:
       en: Poyntonophrynus vertebralis
       zh: Poyntonophrynus vertebralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

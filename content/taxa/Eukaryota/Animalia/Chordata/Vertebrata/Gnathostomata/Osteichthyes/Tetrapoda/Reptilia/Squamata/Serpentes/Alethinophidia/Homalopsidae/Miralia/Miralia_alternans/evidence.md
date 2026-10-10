@@ -9,7 +9,6 @@ records:
     name:
       zh: Miralia alternans
       en: Miralia alternans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

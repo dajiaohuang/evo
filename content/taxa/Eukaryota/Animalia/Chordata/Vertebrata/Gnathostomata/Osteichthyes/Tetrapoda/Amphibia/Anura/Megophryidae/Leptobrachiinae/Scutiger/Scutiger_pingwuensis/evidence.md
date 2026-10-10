@@ -9,7 +9,6 @@ records:
     name:
       en: Scutiger pingwuensis
       zh: Scutiger pingwuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

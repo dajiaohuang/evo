@@ -9,7 +9,6 @@ records:
     name:
       zh: Onychognathus frater
       en: Onychognathus frater
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

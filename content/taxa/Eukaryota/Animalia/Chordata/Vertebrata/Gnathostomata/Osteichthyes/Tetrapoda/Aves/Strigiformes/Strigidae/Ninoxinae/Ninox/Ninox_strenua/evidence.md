@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninox strenua
       en: Ninox strenua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

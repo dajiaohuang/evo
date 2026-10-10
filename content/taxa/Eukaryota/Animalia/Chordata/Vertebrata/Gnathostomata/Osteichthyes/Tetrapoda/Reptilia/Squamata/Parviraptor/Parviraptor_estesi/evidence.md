@@ -9,7 +9,6 @@ records:
     name:
       zh: Parviraptor estesi
       en: Parviraptor estesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

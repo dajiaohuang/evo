@@ -9,7 +9,6 @@ records:
     name:
       zh: Empidonax oberholseri
       en: Empidonax oberholseri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

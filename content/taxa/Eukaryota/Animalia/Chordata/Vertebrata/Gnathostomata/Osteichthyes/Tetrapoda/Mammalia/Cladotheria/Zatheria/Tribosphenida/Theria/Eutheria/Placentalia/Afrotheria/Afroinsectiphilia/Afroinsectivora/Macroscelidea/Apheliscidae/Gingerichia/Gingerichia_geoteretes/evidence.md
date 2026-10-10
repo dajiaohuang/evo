@@ -9,7 +9,6 @@ records:
     name:
       zh: Gingerichia geoteretes
       en: Gingerichia geoteretes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

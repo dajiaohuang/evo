@@ -9,7 +9,6 @@ records:
     name:
       en: Anomaloglossus dewynteri
       zh: Anomaloglossus dewynteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

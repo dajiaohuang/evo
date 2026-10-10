@@ -9,7 +9,6 @@ records:
     name:
       en: Afrixalus lacustris
       zh: Afrixalus lacustris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

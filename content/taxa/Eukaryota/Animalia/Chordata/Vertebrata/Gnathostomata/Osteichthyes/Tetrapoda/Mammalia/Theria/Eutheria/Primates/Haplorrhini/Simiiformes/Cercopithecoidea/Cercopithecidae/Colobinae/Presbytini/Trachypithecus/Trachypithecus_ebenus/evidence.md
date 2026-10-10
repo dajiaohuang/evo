@@ -9,7 +9,6 @@ records:
     name:
       zh: 黑叶猴
       en: Black Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: originalGenomeSample

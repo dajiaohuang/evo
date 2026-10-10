@@ -9,7 +9,6 @@ records:
     name:
       zh: 斯内斯拉格绒猴
       en: Snethlage's marmoset
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelus colombiana
       en: Chelus colombiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

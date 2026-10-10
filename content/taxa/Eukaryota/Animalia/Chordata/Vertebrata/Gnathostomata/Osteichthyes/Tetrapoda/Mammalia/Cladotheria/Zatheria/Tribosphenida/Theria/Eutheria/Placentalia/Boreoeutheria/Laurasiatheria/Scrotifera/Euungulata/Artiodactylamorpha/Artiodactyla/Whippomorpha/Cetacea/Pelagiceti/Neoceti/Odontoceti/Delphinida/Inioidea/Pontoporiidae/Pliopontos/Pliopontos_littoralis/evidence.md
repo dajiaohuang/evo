@@ -9,7 +9,6 @@ records:
     name:
       zh: Pliopontos littoralis
       en: Pliopontos littoralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

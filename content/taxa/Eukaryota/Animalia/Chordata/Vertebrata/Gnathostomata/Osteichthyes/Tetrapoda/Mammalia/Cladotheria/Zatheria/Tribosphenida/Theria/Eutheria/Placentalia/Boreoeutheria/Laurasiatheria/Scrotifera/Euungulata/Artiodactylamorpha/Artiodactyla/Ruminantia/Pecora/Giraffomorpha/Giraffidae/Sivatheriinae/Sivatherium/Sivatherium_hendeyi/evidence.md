@@ -9,7 +9,6 @@ records:
     name:
       zh: Sivatherium hendeyi
       en: Sivatherium hendeyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

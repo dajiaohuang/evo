@@ -57,9 +57,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: carpenter-2004-ankylosaurus-redescription concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: carpenter-2004-ankylosaurus-redescription @ DOI 10.1139/e04-043
       referenceLinks:
         - relation: supports
           referenceId: carpenter-2004-ankylosaurus-redescription
@@ -104,9 +98,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Carpenter 2004 DOI 10.1139/e04-043
       referenceLinks:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           relation: supports
@@ -125,9 +116,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Carpenter 2004 DOI 10.1139/e04-043
       referenceLinks:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           relation: supports
@@ -146,9 +134,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Carpenter 2004 DOI 10.1139/e04-043
       referenceLinks:
         - referenceId: carpenter-2004-ankylosaurus-redescription
           relation: supports
@@ -194,7 +179,6 @@ records:
           locator: 961–986; Holotype and referred material; revised diagnosis; stratigraphic and geographic occurrence
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

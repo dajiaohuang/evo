@@ -9,7 +9,6 @@ records:
     name:
       zh: Zosterops kuehni
       en: Zosterops kuehni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nullotitan glaciaris
       en: Nullotitan glaciaris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

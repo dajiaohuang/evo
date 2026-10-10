@@ -9,7 +9,6 @@ records:
     name:
       zh: Ardeotis australis
       en: Ardeotis australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

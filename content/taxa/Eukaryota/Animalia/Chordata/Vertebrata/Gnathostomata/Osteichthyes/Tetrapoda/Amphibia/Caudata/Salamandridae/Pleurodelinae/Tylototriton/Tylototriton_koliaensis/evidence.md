@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton koliaensis
       zh: Tylototriton koliaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

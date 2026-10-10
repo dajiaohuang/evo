@@ -9,7 +9,6 @@ records:
     name:
       zh: Gliravus majori
       en: Gliravus majori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

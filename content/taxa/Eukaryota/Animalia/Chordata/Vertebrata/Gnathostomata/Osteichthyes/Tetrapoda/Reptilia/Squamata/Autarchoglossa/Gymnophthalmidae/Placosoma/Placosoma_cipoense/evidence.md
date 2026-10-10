@@ -9,7 +9,6 @@ records:
     name:
       zh: Placosoma cipoense
       en: Placosoma cipoense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

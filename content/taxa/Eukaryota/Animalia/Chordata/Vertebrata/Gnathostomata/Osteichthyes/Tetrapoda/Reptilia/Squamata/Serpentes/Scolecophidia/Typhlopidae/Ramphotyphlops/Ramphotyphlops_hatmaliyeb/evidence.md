@@ -9,7 +9,6 @@ records:
     name:
       zh: Ramphotyphlops hatmaliyeb
       en: Ramphotyphlops hatmaliyeb
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

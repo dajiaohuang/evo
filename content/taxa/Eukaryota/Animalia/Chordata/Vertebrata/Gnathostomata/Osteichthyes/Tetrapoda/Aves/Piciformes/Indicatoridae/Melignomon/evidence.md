@@ -9,7 +9,6 @@ records:
     name:
       zh: Melignomon
       en: Melignomon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -304,8 +304,8 @@ def main():
                                    'prohibited': 'No fuzzy, case-folded, accent-folded, inferred or species-concept matching.'},
                       'counts': {'total': len(records), **counts, 'upstreamOnly': len(upstream)},
                       'files': files, 'upstreamOnlyFiles': upstream_files,
-                      'evidenceBoundary': {'en': 'A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence or expert review.',
-                                           'zh': '冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据或专家审查。'},
+                      'evidenceBoundary': {'en': 'A frozen exact nomenclatural crosswalk; not species-concept equivalence, a biological dossier, fossil evidence.',
+                                           'zh': '冻结的严格命名交叉映射；不是物种概念等同性、生物档案、化石证据。'},
                       'limitations': ['Source-only accepted concepts retain null COL ownership.',
                                       'Only name/status/identifier projections are redistributed, not raw archives or ancillary members.',
                                       'The parent-closure anomaly audit remains explicit; no completeness claim about all marine diversity.']}

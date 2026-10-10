@@ -9,7 +9,6 @@ records:
     name:
       en: Physalaemus rupestris
       zh: Physalaemus rupestris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

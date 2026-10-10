@@ -9,7 +9,6 @@ records:
     name:
       zh: Treron affinis
       en: Treron affinis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

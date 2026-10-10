@@ -9,7 +9,6 @@ records:
     name:
       zh: 贝马拉哈毛狐猴
       en: Bemaraha Woolly Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: taxonomy

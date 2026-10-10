@@ -9,7 +9,6 @@ records:
     name:
       zh: Mimophis mahfalensis
       en: Mimophis mahfalensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Desmanella sickenbergi
       en: Desmanella sickenbergi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Selenidera maculirostris
       en: Selenidera maculirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

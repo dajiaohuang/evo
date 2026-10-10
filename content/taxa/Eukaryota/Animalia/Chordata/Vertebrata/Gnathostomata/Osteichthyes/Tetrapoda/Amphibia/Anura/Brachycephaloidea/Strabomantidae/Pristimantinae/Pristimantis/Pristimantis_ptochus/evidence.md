@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ptochus
       zh: Pristimantis ptochus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

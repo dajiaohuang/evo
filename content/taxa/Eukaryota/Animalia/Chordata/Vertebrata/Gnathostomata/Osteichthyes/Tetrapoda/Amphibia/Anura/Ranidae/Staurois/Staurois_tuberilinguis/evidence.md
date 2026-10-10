@@ -9,7 +9,6 @@ records:
     name:
       en: Staurois tuberilinguis
       zh: Staurois tuberilinguis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

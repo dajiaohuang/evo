@@ -9,7 +9,6 @@ records:
     name:
       zh: Arctotherium (Pararctotherium) brasiliense
       en: Arctotherium (Pararctotherium) brasiliense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Megalocnus rodens
       en: Megalocnus rodens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

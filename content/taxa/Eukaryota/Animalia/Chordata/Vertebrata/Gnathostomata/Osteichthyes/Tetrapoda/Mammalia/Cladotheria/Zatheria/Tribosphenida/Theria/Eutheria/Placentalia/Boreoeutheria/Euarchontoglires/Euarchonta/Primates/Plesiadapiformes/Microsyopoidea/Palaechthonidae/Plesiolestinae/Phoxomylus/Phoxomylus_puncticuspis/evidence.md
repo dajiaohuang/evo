@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoxomylus puncticuspis
       en: Phoxomylus puncticuspis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

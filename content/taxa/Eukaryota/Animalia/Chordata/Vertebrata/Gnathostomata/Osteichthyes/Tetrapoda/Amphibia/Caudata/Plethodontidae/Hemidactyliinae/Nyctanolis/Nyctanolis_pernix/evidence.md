@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctanolis pernix
       zh: Nyctanolis pernix
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

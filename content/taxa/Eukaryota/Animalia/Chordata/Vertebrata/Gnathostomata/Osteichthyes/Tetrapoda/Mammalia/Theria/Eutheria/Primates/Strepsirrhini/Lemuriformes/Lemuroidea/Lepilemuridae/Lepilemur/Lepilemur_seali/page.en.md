@@ -22,5 +22,5 @@ The type locality is Anjanaharibe-Sud Special Reserve. The paper then placed kno
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The distribution and assignment of the Mananara-Nord population were hypotheses in the 2006 paper. This guide does not present a possible split as current taxonomy. The COL26.8 accepted name is retained. The Chinese common name is editorial, and the page is not externally expert-reviewed.
+The distribution and assignment of the Mananara-Nord population were hypotheses in the 2006 paper. This guide does not present a possible split as current taxonomy. The COL26.8 accepted name is retained. The Chinese common name is editorial.
 <!-- /evo:text -->

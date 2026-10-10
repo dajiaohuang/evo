@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: giribet-edgecombe-2006-centipede-phylogeny DOI 10.1098/rspb.2005.3365; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: giribet-edgecombe-2006-centipede-phylogeny
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: cadenas-amaya-2025 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: cadenas-amaya-2025-centipede-fossil-record
           relation: supports
@@ -90,7 +84,6 @@ records:
       referenceLocators:
         - referenceId: cadenas-amaya-2025-centipede-fossil-record
           locator: Article 1; Introduction and Paleozoic section; Table 1; Figure 3; Upper Silurian Crussolum at approximately 418 Ma
-      reviewStatus: automated-audit-passed
 ---
 
 # Chilopoda

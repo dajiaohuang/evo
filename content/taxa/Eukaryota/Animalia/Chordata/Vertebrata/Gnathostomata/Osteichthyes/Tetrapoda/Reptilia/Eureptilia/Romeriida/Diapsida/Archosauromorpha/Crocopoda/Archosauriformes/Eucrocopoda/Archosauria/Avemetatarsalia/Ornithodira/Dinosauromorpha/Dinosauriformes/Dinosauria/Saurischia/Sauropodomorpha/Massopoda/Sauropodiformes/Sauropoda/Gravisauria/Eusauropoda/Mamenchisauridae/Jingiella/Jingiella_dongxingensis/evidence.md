@@ -9,7 +9,6 @@ records:
     name:
       zh: Jingiella dongxingensis
       en: Jingiella dongxingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Parkesia noveboracensis
       en: Parkesia noveboracensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium muiraquitan
       zh: Hyalinobatrachium muiraquitan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

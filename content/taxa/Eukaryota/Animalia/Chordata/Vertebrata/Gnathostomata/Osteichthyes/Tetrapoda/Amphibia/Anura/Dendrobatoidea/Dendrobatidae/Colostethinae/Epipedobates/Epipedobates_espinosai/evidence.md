@@ -9,7 +9,6 @@ records:
     name:
       en: Epipedobates espinosai
       zh: Epipedobates espinosai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

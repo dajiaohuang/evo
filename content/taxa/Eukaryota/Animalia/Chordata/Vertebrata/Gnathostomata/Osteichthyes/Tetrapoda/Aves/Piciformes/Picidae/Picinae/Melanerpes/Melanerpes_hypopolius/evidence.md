@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanerpes hypopolius
       en: Melanerpes hypopolius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

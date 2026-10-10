@@ -9,7 +9,6 @@ records:
     name:
       en: Philoria
       zh: Philoria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

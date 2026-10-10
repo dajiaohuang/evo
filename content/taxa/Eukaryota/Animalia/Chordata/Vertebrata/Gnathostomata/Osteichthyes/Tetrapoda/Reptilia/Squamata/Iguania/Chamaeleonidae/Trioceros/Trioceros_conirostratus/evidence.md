@@ -9,7 +9,6 @@ records:
     name:
       zh: Trioceros conirostratus
       en: Trioceros conirostratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

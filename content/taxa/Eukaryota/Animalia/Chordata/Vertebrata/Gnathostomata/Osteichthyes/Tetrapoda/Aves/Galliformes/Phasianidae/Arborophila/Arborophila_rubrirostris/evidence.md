@@ -9,7 +9,6 @@ records:
     name:
       zh: Arborophila rubrirostris
       en: Arborophila rubrirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

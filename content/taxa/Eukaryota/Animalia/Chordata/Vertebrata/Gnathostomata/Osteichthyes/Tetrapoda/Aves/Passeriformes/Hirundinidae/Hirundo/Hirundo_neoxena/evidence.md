@@ -9,7 +9,6 @@ records:
     name:
       zh: Hirundo neoxena
       en: Hirundo neoxena
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

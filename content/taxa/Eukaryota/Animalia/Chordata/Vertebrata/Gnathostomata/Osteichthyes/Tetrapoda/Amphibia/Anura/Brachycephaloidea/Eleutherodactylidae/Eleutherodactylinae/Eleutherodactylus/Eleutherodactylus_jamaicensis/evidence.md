@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus jamaicensis
       zh: Eleutherodactylus jamaicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

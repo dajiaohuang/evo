@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus adelus
       zh: Eleutherodactylus adelus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

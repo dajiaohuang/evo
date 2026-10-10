@@ -9,7 +9,6 @@ records:
     name:
       en: Pseudoeurycea kuautli
       zh: Pseudoeurycea kuautli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

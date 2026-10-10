@@ -9,7 +9,6 @@ records:
     name:
       en: Elachistocleis haroi
       zh: Elachistocleis haroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus uniformis
       en: Liolaemus uniformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

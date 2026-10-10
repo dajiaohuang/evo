@@ -142,9 +142,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Whiteside et al. 2022/2024; Brownstein et al. 2023; Caldwell et al. 2025 primary-paper set
       referenceLinks:
         - referenceId: whiteside-2022-cryptovaranoides
           relation: supports

@@ -9,7 +9,6 @@ records:
     name:
       zh: Mosasaurus beaugei
       en: Mosasaurus beaugei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

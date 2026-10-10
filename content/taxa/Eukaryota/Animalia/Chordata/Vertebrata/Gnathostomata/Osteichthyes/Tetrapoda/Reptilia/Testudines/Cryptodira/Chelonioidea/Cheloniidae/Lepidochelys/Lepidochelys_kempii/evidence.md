@@ -9,7 +9,6 @@ records:
     name:
       zh: 肯氏龟
       en: Kemp's ridley sea turtle
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

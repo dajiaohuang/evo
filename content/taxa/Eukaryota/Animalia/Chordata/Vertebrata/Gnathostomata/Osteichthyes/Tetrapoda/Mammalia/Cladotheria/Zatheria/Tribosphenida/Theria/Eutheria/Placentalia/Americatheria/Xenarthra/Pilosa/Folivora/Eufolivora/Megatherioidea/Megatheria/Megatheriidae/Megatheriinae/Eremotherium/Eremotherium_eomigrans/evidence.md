@@ -9,7 +9,6 @@ records:
     name:
       zh: Eremotherium eomigrans
       en: Eremotherium eomigrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

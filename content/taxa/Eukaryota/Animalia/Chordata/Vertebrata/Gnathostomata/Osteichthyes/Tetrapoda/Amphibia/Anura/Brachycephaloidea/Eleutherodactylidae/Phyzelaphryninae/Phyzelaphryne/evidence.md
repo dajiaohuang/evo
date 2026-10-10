@@ -9,7 +9,6 @@ records:
     name:
       en: Phyzelaphryne
       zh: Phyzelaphryne
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

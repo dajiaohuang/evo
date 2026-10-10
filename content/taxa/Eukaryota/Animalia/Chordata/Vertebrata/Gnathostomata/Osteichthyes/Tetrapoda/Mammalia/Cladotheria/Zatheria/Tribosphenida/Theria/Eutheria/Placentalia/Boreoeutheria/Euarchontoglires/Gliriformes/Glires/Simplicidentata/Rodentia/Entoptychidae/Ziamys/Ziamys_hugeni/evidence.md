@@ -9,7 +9,6 @@ records:
     name:
       zh: Ziamys hugeni
       en: Ziamys hugeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

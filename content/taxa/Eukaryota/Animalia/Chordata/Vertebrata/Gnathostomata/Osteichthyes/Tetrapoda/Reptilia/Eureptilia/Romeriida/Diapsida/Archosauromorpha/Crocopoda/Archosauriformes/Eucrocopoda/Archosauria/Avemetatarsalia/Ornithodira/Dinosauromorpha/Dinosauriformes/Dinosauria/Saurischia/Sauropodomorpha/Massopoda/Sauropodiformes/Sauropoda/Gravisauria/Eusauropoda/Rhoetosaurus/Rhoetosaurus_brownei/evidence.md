@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhoetosaurus brownei
       en: Rhoetosaurus brownei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

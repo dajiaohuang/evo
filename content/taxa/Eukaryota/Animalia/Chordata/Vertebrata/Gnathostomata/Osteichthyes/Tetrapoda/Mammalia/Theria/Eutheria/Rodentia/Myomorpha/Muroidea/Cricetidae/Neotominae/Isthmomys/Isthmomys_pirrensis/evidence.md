@@ -9,7 +9,6 @@ records:
     name:
       zh: Isthmomys pirrensis
       en: Isthmomys pirrensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

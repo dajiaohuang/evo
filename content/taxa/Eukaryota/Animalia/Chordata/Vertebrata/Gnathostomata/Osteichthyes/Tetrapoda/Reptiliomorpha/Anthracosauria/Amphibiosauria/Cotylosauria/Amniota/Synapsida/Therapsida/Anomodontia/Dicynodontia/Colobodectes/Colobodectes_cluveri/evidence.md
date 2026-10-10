@@ -9,7 +9,6 @@ records:
     name:
       zh: Colobodectes cluveri
       en: Colobodectes cluveri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

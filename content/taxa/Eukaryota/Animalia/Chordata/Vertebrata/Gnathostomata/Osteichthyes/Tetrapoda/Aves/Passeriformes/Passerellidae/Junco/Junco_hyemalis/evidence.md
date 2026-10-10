@@ -9,7 +9,6 @@ records:
     name:
       zh: Junco hyemalis
       en: Junco hyemalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

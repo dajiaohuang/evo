@@ -9,7 +9,6 @@ records:
     name:
       en: Arthroleptella atermina
       zh: Arthroleptella atermina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Protoxinjiangchelys salis
       en: Protoxinjiangchelys salis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

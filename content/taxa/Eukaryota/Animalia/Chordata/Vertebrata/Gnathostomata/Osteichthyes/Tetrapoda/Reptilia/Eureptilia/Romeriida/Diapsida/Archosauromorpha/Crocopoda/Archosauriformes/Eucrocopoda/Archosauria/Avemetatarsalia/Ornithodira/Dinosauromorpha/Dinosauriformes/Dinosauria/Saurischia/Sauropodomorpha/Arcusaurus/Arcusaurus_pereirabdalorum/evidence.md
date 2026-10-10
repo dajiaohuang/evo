@@ -9,7 +9,6 @@ records:
     name:
       zh: Arcusaurus pereirabdalorum
       en: Arcusaurus pereirabdalorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

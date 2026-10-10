@@ -9,7 +9,6 @@ records:
     name:
       zh: Equus (Plesippus) crenidens
       en: Equus (Plesippus) crenidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

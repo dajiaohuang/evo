@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycodon tristrigatus
       en: Lycodon tristrigatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

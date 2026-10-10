@@ -9,7 +9,6 @@ records:
     name:
       zh: Nedcolbertia justinhoffmanni
       en: Nedcolbertia justinhoffmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Draco boschmai
       en: Draco boschmai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

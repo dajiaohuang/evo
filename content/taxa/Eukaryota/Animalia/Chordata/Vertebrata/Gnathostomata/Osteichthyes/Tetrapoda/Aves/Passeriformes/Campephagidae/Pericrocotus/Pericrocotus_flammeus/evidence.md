@@ -9,7 +9,6 @@ records:
     name:
       zh: Pericrocotus flammeus
       en: Pericrocotus flammeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

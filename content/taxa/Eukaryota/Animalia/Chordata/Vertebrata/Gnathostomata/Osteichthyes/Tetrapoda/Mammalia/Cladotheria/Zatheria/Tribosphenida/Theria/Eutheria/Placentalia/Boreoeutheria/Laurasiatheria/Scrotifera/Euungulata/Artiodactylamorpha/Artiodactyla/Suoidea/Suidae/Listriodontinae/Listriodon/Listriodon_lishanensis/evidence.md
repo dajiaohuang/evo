@@ -9,7 +9,6 @@ records:
     name:
       zh: Listriodon lishanensis
       en: Listriodon lishanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

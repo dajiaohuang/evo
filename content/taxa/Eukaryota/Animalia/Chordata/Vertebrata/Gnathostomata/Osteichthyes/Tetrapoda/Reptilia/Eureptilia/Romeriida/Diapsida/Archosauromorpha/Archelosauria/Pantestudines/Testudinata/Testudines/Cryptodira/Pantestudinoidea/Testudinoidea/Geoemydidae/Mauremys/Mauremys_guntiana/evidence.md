@@ -9,7 +9,6 @@ records:
     name:
       zh: Mauremys guntiana
       en: Mauremys guntiana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

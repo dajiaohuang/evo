@@ -9,7 +9,6 @@ records:
     name:
       en: Lyciasalamandra billae
       zh: Lyciasalamandra billae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

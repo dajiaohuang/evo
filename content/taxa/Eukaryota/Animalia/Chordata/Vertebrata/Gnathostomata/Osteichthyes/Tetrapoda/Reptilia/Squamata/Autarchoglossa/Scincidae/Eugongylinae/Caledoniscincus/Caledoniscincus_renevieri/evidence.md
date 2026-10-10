@@ -9,7 +9,6 @@ records:
     name:
       zh: Caledoniscincus renevieri
       en: Caledoniscincus renevieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

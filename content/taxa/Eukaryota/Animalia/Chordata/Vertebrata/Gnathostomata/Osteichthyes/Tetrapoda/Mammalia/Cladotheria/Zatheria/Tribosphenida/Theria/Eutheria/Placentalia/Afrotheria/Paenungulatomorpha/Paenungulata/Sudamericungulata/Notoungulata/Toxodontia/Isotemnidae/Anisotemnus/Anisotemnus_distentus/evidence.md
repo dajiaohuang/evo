@@ -9,7 +9,6 @@ records:
     name:
       zh: Anisotemnus distentus
       en: Anisotemnus distentus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

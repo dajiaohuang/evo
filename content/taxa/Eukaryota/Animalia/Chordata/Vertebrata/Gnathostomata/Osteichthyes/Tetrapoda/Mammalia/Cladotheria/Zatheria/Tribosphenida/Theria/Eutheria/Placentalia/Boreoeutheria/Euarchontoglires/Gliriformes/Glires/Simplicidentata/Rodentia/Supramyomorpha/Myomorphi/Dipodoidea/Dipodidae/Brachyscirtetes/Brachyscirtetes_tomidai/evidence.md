@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyscirtetes tomidai
       en: Brachyscirtetes tomidai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

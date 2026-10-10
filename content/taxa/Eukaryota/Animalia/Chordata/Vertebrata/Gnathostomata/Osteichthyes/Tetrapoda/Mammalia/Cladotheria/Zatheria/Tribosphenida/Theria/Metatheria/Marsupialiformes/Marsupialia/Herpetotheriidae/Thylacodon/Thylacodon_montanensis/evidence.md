@@ -9,7 +9,6 @@ records:
     name:
       zh: Thylacodon montanensis
       en: Thylacodon montanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

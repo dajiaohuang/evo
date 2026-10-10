@@ -9,7 +9,6 @@ records:
     name:
       zh: Porphyrio paepae
       en: Porphyrio paepae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

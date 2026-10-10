@@ -9,7 +9,6 @@ records:
     name:
       zh: Zalambdalestes grangeri
       en: Zalambdalestes grangeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

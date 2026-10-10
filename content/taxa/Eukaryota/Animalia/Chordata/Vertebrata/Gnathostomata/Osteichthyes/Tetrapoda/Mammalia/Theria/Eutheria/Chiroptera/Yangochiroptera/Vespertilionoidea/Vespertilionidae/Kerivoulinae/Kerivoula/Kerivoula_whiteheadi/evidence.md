@@ -9,7 +9,6 @@ records:
     name:
       zh: Kerivoula whiteheadi
       en: Kerivoula whiteheadi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

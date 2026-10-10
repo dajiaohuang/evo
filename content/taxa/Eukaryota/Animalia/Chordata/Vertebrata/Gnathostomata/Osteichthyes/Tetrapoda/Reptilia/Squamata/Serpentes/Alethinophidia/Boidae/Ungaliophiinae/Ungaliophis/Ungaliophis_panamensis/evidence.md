@@ -9,7 +9,6 @@ records:
     name:
       zh: Ungaliophis panamensis
       en: Ungaliophis panamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

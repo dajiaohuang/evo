@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis carmenensis
       en: Aspidoscelis carmenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

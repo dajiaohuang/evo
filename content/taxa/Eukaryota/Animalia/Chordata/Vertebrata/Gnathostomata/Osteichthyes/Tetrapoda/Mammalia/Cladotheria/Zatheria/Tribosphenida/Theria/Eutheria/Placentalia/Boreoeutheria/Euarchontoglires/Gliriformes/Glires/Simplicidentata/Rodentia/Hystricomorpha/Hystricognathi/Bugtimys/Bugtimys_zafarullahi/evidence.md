@@ -9,7 +9,6 @@ records:
     name:
       zh: Bugtimys zafarullahi
       en: Bugtimys zafarullahi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

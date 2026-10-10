@@ -9,7 +9,6 @@ records:
     name:
       zh: Kutchicetus minimus
       en: Kutchicetus minimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

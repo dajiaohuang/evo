@@ -9,7 +9,6 @@ records:
     name:
       zh: 普氏野马
       en: Przewalski’s horse
-    reviewStatus: source-linked
     checkedAt: 2026-09-22
     sections:
       - topic:

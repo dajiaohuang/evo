@@ -9,7 +9,6 @@ records:
     name:
       zh: Eliurus ellermani
       en: Eliurus ellermani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

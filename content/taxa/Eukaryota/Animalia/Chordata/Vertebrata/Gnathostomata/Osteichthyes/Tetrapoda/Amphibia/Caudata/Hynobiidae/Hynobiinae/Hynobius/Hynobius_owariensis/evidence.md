@@ -9,7 +9,6 @@ records:
     name:
       en: Hynobius owariensis
       zh: Hynobius owariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

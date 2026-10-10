@@ -9,7 +9,6 @@ records:
     name:
       zh: Cimolestes incisus
       en: Cimolestes incisus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

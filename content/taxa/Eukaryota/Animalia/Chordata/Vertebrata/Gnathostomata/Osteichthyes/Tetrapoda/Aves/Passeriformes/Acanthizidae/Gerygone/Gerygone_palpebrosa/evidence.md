@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerygone palpebrosa
       en: Gerygone palpebrosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

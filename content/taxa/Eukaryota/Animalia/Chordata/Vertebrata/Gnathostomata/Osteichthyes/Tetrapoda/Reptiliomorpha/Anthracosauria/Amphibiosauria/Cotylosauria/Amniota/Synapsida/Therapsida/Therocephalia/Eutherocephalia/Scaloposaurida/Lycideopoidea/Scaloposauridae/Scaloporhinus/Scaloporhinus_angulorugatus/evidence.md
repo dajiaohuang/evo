@@ -9,7 +9,6 @@ records:
     name:
       zh: Scaloporhinus angulorugatus
       en: Scaloporhinus angulorugatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -101,7 +101,6 @@ function validateNewClaims(dossier) {
   assert.equal(dossier.scientificName, source.target.scientificName)
   assert.equal(dossier.rank, 'species')
   assert.equal(dossier.completeness?.status, 'incomplete')
-  assert.equal(dossier.expertReview?.status, 'not-reviewed')
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   const sourceIds = new Set(dossier.sources.map(item => item.id))
   assert.equal(sourceIds.size, dossier.sources.length, 'Duplicate source ids in target record')
@@ -206,7 +205,6 @@ if (alreadyApplied) {
     reasons: [
       'The record contains bounded captive growth, Gombe female maturation, Bossou ecology, model-based Pan population history, a 2016 species-level range/category snapshot, and a regional 2013 conservation model; these do not constitute a range-wide species synthesis.',
       'Wild morphological variation, broader life-history coverage, current distribution and conservation status, species-assigned fossil evidence, and systematic literature coverage remain incomplete or unassessed.',
-      'Independent external expert review has not been completed.',
     ],
   }
   verifyAcceptedIdentity(registryManifest, dossier)

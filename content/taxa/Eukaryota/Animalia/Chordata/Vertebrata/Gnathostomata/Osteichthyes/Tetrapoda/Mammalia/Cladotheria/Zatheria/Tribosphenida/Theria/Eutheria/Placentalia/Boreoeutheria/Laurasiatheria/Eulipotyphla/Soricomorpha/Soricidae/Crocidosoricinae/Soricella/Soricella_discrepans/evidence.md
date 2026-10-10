@@ -9,7 +9,6 @@ records:
     name:
       zh: Soricella discrepans
       en: Soricella discrepans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

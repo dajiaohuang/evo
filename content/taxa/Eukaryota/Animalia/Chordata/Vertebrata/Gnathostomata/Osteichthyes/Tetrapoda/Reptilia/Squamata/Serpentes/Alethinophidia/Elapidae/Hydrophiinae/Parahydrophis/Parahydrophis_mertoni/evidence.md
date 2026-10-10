@@ -9,7 +9,6 @@ records:
     name:
       zh: Parahydrophis mertoni
       en: Parahydrophis mertoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

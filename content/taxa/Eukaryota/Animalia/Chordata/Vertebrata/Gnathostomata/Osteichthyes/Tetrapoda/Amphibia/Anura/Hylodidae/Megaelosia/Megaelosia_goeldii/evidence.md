@@ -9,7 +9,6 @@ records:
     name:
       en: Megaelosia goeldii
       zh: Megaelosia goeldii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

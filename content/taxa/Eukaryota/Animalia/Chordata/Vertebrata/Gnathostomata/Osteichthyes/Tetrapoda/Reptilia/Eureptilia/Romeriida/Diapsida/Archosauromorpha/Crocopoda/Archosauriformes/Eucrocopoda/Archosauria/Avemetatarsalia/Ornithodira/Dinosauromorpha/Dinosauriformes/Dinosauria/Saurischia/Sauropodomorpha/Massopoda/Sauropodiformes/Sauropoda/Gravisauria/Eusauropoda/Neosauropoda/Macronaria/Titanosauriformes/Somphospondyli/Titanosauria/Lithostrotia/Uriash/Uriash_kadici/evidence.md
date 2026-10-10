@@ -9,7 +9,6 @@ records:
     name:
       zh: Uriash kadici
       en: Uriash kadici
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

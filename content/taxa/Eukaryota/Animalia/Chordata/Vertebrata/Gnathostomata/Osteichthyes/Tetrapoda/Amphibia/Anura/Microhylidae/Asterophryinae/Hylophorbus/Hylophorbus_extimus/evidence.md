@@ -9,7 +9,6 @@ records:
     name:
       en: Hylophorbus extimus
       zh: Hylophorbus extimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bunolagus monticularis
       en: Bunolagus monticularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

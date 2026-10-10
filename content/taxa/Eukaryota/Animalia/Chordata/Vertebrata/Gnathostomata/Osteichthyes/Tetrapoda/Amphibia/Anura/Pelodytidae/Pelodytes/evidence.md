@@ -9,7 +9,6 @@ records:
     name:
       en: Pelodytes
       zh: Pelodytes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

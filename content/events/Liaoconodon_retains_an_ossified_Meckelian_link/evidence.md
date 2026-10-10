@@ -106,9 +106,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Meng, Wang and Li 2011 DOI 10.1038/nature09921
       referenceLinks:
         - referenceId: meng-2011-liaoconodon-middle-ear
           relation: supports

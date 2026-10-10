@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemithraupis flavicollis
       en: Hemithraupis flavicollis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

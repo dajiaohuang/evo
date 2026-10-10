@@ -9,7 +9,6 @@ records:
     name:
       zh: Atractaspis aterrima
       en: Atractaspis aterrima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

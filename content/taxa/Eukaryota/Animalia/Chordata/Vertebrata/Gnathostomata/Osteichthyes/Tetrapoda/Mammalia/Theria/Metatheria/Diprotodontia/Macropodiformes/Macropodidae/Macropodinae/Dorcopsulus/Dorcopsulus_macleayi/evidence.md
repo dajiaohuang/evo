@@ -9,7 +9,6 @@ records:
     name:
       zh: Dorcopsulus macleayi
       en: Dorcopsulus macleayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

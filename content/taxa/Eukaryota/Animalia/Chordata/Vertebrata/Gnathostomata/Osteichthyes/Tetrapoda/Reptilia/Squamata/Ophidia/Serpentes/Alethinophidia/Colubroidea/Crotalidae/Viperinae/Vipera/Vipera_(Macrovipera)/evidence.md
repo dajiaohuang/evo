@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera (Macrovipera)
       en: Vipera (Macrovipera)
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

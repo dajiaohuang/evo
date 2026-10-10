@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus haitianus
       zh: Eleutherodactylus haitianus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

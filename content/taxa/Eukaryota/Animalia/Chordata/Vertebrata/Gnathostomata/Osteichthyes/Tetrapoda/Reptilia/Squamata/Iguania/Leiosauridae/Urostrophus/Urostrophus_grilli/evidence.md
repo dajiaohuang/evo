@@ -9,7 +9,6 @@ records:
     name:
       zh: Urostrophus grilli
       en: Urostrophus grilli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

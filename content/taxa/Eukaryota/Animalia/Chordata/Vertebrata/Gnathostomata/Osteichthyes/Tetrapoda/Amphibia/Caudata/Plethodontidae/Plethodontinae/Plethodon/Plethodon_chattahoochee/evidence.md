@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon chattahoochee
       zh: Plethodon chattahoochee
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

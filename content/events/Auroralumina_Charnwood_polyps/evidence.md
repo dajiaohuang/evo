@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: dunn-2022-auroralumina @ DOI 10.1038/s41559-022-01807-x
       referenceLinks:
         - referenceId: dunn-2022-auroralumina
           relation: supports

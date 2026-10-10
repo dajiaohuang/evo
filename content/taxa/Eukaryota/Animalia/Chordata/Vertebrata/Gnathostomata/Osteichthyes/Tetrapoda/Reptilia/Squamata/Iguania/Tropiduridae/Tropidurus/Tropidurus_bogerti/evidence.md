@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidurus bogerti
       en: Tropidurus bogerti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Malimbus ibadanensis
       en: Malimbus ibadanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

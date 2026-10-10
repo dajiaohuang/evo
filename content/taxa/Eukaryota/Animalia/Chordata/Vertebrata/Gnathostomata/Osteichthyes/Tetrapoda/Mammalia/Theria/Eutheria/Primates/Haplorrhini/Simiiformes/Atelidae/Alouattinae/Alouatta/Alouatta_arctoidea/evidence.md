@@ -9,7 +9,6 @@ records:
     name:
       zh: 乌尔辛红吼猴
       en: Ursine Red Howler
-    reviewStatus: source-linked
     checkedAt: 2026-10-01
     sections:
       - topic: population

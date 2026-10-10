@@ -9,7 +9,6 @@ records:
     name:
       en: Rawlinsonia corbeni
       zh: Rawlinsonia corbeni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

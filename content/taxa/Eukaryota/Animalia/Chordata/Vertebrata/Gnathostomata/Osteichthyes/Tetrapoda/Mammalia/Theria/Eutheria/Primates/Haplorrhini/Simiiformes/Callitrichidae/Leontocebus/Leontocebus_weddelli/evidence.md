@@ -9,7 +9,6 @@ records:
     name:
       zh: 韦德尔鞍背狨
       en: Weddell's Saddle-back Tamarin
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution

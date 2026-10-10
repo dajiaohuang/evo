@@ -9,7 +9,6 @@ records:
     name:
       zh: Pteroglossus viridis
       en: Pteroglossus viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

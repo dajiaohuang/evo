@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephala sulfuriventer
       en: Pachycephala sulfuriventer
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

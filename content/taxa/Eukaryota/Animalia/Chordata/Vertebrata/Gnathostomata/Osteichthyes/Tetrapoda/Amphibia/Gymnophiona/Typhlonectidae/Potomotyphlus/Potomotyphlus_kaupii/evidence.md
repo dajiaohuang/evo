@@ -9,7 +9,6 @@ records:
     name:
       en: Potomotyphlus kaupii
       zh: Potomotyphlus kaupii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

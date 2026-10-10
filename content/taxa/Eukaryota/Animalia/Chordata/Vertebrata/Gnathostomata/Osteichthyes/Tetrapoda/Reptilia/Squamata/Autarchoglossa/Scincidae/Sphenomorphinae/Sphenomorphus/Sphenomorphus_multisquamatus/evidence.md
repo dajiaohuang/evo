@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus multisquamatus
       en: Sphenomorphus multisquamatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

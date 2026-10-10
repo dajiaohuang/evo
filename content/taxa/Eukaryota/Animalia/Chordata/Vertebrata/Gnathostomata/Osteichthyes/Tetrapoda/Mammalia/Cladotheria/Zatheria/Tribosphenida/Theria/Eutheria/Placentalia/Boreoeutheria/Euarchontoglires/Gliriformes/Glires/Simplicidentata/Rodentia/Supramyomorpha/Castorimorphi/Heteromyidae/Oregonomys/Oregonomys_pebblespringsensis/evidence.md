@@ -9,7 +9,6 @@ records:
     name:
       zh: Oregonomys pebblespringsensis
       en: Oregonomys pebblespringsensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

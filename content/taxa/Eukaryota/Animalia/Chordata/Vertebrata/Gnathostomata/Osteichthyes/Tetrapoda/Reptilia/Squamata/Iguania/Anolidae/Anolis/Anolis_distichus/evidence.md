@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis distichus
       en: Anolis distichus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

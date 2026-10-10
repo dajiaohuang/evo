@@ -9,7 +9,6 @@ records:
     name:
       zh: Incolornis silvae
       en: Incolornis silvae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

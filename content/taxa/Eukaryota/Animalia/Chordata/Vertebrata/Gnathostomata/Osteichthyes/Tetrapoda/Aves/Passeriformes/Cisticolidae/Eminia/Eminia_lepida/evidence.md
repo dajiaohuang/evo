@@ -9,7 +9,6 @@ records:
     name:
       zh: Eminia lepida
       en: Eminia lepida
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

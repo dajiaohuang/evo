@@ -9,7 +9,6 @@ records:
     name:
       zh: Simpsonlemur citatus
       en: Simpsonlemur citatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

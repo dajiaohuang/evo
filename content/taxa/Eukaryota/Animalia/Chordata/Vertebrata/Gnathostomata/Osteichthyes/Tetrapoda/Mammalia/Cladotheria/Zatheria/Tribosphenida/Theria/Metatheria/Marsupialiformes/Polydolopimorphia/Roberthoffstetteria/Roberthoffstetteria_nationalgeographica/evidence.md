@@ -9,7 +9,6 @@ records:
     name:
       zh: Roberthoffstetteria nationalgeographica
       en: Roberthoffstetteria nationalgeographica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

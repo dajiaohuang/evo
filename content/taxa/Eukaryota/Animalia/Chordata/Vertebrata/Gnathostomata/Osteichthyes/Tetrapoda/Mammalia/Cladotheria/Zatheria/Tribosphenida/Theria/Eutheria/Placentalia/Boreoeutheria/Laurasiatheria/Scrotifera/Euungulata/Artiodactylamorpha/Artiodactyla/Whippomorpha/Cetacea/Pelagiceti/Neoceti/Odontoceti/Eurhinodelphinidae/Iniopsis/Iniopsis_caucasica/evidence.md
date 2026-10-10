@@ -9,7 +9,6 @@ records:
     name:
       zh: Iniopsis caucasica
       en: Iniopsis caucasica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

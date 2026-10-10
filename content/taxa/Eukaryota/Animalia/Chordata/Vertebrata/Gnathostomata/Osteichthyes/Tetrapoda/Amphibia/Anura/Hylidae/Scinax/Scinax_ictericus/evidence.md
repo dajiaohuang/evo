@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax ictericus
       zh: Scinax ictericus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

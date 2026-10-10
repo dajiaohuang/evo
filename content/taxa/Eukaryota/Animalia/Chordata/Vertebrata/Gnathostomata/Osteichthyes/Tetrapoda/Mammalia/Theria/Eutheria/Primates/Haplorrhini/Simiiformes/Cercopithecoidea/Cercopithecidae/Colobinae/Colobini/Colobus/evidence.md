@@ -9,7 +9,6 @@ records:
     name:
       zh: 疣猴属
       en: Colobus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

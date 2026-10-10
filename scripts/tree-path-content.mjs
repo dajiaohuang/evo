@@ -58,7 +58,7 @@ const readerRoots = new Set(['sections', 'readerSections', 'overview', 'overview
 
 function proseLocation(parts, key, text) {
   const names = parts.filter(part => !/^\d+$/.test(part))
-  const structural = /(?:Id|Ids|Path|Paths)$/.test(key) || ['field', 'route', 'url', 'scientificName'].includes(key) || text.startsWith('content/') || text.startsWith('data/')
+  const structural = names.some(name => /(?:Id|Ids|Path|Paths)$/.test(name)) || ['id', 'topic', 'field', 'route', 'url', 'scientificName'].includes(key) || text.startsWith('content/') || text.startsWith('data/')
   if (structural) return null
   const profileCopy = ['catalogue-profile', 'atlas-profile'].includes(parts[1]) && names.some(part => ['sections', 'readerSections', 'overview', 'overviewZh', 'ecology', 'traits', 'evidenceSummary', 'limitations', 'readerLimitations'].includes(part))
   const sourceUsage = names.some(part => ['sources', 'readerSources', 'referenceBindings', 'citationBindings', 'usage'].includes(part))

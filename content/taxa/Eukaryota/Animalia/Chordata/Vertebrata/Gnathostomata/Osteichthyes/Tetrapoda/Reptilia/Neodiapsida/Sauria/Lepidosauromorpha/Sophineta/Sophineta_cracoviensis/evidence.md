@@ -9,7 +9,6 @@ records:
     name:
       zh: Sophineta cracoviensis
       en: Sophineta cracoviensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

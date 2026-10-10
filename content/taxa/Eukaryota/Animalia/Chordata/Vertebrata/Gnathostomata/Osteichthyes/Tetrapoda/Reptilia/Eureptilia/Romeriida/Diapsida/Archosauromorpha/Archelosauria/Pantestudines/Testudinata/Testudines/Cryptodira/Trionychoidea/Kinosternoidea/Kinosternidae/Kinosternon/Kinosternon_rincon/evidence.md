@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinosternon rincon
       en: Kinosternon rincon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

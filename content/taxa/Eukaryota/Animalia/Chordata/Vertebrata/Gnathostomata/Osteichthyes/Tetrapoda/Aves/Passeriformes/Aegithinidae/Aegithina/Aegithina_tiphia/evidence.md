@@ -9,7 +9,6 @@ records:
     name:
       zh: Aegithina tiphia
       en: Aegithina tiphia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

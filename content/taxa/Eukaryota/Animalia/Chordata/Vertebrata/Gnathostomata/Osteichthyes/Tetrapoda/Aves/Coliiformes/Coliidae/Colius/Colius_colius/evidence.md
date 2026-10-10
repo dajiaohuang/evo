@@ -9,7 +9,6 @@ records:
     name:
       zh: Colius colius
       en: Colius colius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

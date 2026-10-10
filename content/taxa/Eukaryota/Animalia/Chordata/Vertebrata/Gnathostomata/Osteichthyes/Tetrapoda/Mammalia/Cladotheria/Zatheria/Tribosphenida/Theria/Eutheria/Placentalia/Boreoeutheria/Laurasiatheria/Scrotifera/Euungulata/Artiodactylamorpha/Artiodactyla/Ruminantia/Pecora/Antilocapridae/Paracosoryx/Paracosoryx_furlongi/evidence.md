@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracosoryx furlongi
       en: Paracosoryx furlongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

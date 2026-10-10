@@ -9,7 +9,6 @@ records:
     name:
       zh: Aspidoscelis tesselatus
       en: Aspidoscelis tesselatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

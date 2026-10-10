@@ -9,7 +9,6 @@ records:
     name:
       zh: Metridiochoerus shawi
       en: Metridiochoerus shawi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

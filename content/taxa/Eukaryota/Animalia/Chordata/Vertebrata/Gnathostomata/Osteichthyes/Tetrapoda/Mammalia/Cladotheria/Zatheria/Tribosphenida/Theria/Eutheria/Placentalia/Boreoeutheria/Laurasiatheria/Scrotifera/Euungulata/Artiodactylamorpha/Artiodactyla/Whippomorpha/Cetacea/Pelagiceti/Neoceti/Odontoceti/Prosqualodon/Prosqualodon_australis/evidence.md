@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosqualodon australis
       en: Prosqualodon australis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

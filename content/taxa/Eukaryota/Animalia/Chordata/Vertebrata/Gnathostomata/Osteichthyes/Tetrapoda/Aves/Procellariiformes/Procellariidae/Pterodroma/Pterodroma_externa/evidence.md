@@ -9,7 +9,6 @@ records:
     name:
       zh: Pterodroma externa
       en: Pterodroma externa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

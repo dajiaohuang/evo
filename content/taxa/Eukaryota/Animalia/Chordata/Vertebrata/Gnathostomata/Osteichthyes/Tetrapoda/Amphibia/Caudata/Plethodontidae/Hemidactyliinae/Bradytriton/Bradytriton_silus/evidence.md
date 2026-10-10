@@ -9,7 +9,6 @@ records:
     name:
       en: Bradytriton silus
       zh: Bradytriton silus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

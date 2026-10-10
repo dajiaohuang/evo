@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa tapajonica
       zh: Bolitoglossa tapajonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

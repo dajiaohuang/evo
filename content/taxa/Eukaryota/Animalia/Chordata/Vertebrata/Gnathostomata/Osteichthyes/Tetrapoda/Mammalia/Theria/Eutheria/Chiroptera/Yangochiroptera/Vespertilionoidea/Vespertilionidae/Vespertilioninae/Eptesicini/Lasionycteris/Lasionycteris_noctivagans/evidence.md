@@ -9,7 +9,6 @@ records:
     name:
       zh: Lasionycteris noctivagans
       en: Lasionycteris noctivagans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

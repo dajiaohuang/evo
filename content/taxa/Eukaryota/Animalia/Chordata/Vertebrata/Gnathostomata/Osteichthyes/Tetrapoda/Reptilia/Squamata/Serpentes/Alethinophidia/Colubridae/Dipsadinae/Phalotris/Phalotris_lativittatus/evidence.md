@@ -9,7 +9,6 @@ records:
     name:
       zh: Phalotris lativittatus
       en: Phalotris lativittatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Suchogorgon golubevi
       en: Suchogorgon golubevi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

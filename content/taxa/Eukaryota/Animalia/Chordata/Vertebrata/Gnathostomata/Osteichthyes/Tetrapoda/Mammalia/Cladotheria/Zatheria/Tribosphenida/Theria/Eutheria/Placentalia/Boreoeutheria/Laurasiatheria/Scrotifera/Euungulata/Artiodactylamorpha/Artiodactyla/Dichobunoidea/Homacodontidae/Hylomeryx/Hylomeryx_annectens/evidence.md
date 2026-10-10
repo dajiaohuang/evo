@@ -9,7 +9,6 @@ records:
     name:
       zh: Hylomeryx annectens
       en: Hylomeryx annectens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

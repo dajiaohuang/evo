@@ -96,9 +96,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Mann and Reisz 2020 DOI 10.3389/feart.2020.00083
       referenceLinks:
         - referenceId: mann-reisz-2020-echinerpeton-spine
           relation: supports

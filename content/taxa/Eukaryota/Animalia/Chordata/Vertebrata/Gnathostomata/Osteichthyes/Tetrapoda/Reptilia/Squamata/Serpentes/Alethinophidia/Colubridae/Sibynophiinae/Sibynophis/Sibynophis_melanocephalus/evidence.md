@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibynophis melanocephalus
       en: Sibynophis melanocephalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

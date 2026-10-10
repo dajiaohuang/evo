@@ -9,7 +9,6 @@ records:
     name:
       zh: Gastornis russelli
       en: Gastornis russelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

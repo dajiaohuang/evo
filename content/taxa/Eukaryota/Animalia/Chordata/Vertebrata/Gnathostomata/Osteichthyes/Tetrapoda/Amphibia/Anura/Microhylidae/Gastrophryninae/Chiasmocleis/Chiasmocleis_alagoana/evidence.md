@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis alagoana
       zh: Chiasmocleis alagoana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

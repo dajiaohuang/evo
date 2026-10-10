@@ -9,7 +9,6 @@ records:
     name:
       zh: Leiocephalus melanochlorus
       en: Leiocephalus melanochlorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

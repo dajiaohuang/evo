@@ -9,7 +9,6 @@ records:
     name:
       zh: Achalinus juliani
       en: Achalinus juliani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

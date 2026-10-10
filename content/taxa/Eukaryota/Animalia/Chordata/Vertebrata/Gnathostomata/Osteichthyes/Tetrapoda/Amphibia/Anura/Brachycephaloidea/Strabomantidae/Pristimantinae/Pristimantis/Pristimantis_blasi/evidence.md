@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis blasi
       zh: Pristimantis blasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

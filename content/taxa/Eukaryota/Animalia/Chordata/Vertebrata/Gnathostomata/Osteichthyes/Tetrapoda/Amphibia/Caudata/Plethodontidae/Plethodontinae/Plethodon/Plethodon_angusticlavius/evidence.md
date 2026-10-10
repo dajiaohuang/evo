@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodon angusticlavius
       zh: Plethodon angusticlavius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

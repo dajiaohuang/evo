@@ -9,7 +9,6 @@ records:
     name:
       zh: Requisia vidmari
       en: Requisia vidmari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Achalinus emilyae
       en: Achalinus emilyae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

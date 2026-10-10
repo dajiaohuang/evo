@@ -9,7 +9,6 @@ records:
     name:
       zh: Proheteromys sulculus
       en: Proheteromys sulculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

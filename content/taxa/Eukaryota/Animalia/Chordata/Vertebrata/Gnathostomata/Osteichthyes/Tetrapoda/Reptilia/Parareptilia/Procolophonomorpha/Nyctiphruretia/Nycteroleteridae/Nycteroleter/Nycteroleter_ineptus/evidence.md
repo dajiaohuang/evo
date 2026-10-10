@@ -9,7 +9,6 @@ records:
     name:
       zh: Nycteroleter ineptus
       en: Nycteroleter ineptus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

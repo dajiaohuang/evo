@@ -9,7 +9,6 @@ records:
     name:
       zh: Tscherskia
       en: Tscherskia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

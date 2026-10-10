@@ -9,7 +9,6 @@ records:
     name:
       zh: Piveteausaurus divesensis
       en: Piveteausaurus divesensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

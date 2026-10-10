@@ -9,7 +9,6 @@ records:
     name:
       zh: Leopoldamys siporanus
       en: Leopoldamys siporanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

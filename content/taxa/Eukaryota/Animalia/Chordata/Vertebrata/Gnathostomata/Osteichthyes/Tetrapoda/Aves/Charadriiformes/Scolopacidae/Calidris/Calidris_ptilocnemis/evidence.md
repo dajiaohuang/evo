@@ -9,7 +9,6 @@ records:
     name:
       zh: Calidris ptilocnemis
       en: Calidris ptilocnemis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

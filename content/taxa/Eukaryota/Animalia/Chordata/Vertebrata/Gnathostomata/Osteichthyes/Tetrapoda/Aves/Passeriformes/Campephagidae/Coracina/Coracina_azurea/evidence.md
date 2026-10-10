@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina azurea
       en: Coracina azurea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

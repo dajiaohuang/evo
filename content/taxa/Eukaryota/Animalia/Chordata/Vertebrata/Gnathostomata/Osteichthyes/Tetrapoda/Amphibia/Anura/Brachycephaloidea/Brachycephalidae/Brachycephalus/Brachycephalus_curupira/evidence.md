@@ -9,7 +9,6 @@ records:
     name:
       en: Brachycephalus curupira
       zh: Brachycephalus curupira
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

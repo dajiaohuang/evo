@@ -9,7 +9,6 @@ records:
     name:
       zh: Hauffiopteryx typicus
       en: Hauffiopteryx typicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

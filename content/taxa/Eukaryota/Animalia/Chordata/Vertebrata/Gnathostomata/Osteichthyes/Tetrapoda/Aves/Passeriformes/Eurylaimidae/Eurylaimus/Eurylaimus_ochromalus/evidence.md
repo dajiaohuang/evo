@@ -9,7 +9,6 @@ records:
     name:
       zh: Eurylaimus ochromalus
       en: Eurylaimus ochromalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

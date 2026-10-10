@@ -257,14 +257,12 @@ function makeDossier(item) {
         'One 2013 taxonomic treatment supports only bounded comparative morphology and locality-specific ecology statements.',
         'Life history, evolution, distribution, fossil, and conservation facets remain not assessed; partial facets retain explicit source and sample boundaries.',
         'The article-level text reuse license is unknown; the archive-level CC0 declaration applies only to extracted Plazi rows, and the original ZIP EML was not rechecked in this checkout.',
-        'No independent external expert review has been completed.',
       ],
     },
-    expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
   }
   assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
   assert.equal(dossier.completeness.status, 'incomplete')
-  assert.equal(dossier.expertReview.status, 'not-reviewed')
   assert.equal(dossier.sources.find(source => source.id === 'plazi_hyphessobrycon_archive')?.licenseAssessment, 'aggregate-declaration-only')
   assert.equal(dossier.sources.find(source => source.id === 'ingenito_lima_buckup_2013')?.licenseAssessment, 'unknown')
   if (isSynonymSourced) assert.ok(dossier.identity.method.includes('not counted as a second species'))
@@ -342,7 +340,7 @@ const manifest = {
     notAssessedFacets: Object.entries(facets).filter(([, facet]) => facet.status === 'not-assessed').map(([name]) => name),
   })),
   sourceMappingNotes: input.records.filter(record => record.sourceMappingNote).map(record => ({ colId: record.colId, note: record.sourceMappingNote })),
-  rights: { claimSourceRightsUnresolved: 2, completeDossiersAdded: 0, externallyReviewedDossiersAdded: 0 },
+  rights: { claimSourceRightsUnresolved: 2, completeDossiersAdded: 0},
   newShard: {
     path: SHARD,
     rawPath: RAW,
@@ -384,7 +382,7 @@ sourceLedger.auditedDossierBatches.push({
   })),
   claimPolicy: 'Two incomplete accepted-species dossiers with comparative morphology and locality-bounded ecology only; source spelling/usage redirect retained; article-level rights unknown; CC0 applies only to extracted Plazi archive rows; source ZIP EML not rechecked.',
   completeDossiersAdded: 0,
-  externallyReviewedDossiersAdded: 0,
+
 })
 writeFileSync(join(ROOT, LEDGER), `${JSON.stringify(sourceLedger, null, 2)}\n`, 'utf8')
 
@@ -402,7 +400,7 @@ console.log(JSON.stringify({
   notAssessedFacetsPerDossier: 5,
   claimSourceRightsUnresolved: 2,
   completeDossiersAdded: 0,
-  externallyReviewedDossiersAdded: 0,
+
   inputSha256: sha256(inputBytes),
   rawSha256: sha256(storedRaw),
   compressedSha256: sha256(storedCompressed),

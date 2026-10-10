@@ -9,7 +9,6 @@ records:
     name:
       zh: Coelurus fragilis
       en: Coelurus fragilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

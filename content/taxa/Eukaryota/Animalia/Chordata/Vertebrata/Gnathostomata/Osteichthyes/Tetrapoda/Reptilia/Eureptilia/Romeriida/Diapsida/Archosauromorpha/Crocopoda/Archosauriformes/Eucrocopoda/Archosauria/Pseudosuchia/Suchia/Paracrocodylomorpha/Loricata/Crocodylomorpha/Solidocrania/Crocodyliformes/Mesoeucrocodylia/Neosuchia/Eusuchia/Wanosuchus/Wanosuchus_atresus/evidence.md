@@ -9,7 +9,6 @@ records:
     name:
       zh: Wanosuchus atresus
       en: Wanosuchus atresus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypohippus chico
       en: Hypohippus chico
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

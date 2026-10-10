@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: brocklehurst-2013-early-synapsids concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: brocklehurst-2013-early-synapsids
@@ -46,9 +43,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: brocklehurst-2013-early-synapsids @ DOI 10.1666/12049
       referenceLinks:
         - relation: supports
           referenceId: brocklehurst-2013-early-synapsids
@@ -94,7 +88,6 @@ records:
           locator: "470–490; Abstract; Results and Discussion: therapsid diversity through the Kungurian–Capitanian"
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

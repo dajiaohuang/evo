@@ -9,7 +9,6 @@ records:
     name:
       zh: Peloneustes
       en: Peloneustes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

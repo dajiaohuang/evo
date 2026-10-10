@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdus migratorius
       en: Turdus migratorius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

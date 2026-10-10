@@ -9,7 +9,6 @@ records:
     name:
       zh: Empheresula arvernensis
       en: Empheresula arvernensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

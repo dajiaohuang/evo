@@ -9,7 +9,6 @@ records:
     name:
       zh: Atoposaurus oberndorferi
       en: Atoposaurus oberndorferi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

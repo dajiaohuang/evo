@@ -9,7 +9,6 @@ records:
     name:
       zh: Sturnella neglecta
       en: Sturnella neglecta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

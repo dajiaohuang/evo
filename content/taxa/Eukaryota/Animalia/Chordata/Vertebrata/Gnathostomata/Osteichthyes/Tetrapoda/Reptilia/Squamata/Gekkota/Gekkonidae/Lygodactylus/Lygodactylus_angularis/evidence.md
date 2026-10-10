@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus angularis
       en: Lygodactylus angularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

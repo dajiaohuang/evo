@@ -3,7 +3,7 @@
 This release retains the complete ChecklistBank dataset `2144` archive as a
 neutral global source collection. It is not owned by `other-animals`, and it is
 not a classification, species-concept equivalence, biological dossier, fossil
-record, or expert-review claim.
+record.
 
 The archive's own `metadata.yaml` identifies the source as ITIS attempt 118,
 with the source version label `2026-07-28` and version DOI

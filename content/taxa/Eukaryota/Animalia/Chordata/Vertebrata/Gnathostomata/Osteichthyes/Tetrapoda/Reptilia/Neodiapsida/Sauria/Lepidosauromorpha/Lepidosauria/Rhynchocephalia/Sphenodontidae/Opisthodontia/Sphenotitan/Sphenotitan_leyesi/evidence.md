@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenotitan leyesi
       en: Sphenotitan leyesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

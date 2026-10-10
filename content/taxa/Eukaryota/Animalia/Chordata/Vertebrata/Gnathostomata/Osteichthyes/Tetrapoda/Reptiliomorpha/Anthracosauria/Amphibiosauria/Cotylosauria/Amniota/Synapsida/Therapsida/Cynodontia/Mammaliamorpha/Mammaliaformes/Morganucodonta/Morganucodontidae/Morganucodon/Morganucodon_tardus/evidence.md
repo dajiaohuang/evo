@@ -9,7 +9,6 @@ records:
     name:
       zh: Morganucodon tardus
       en: Morganucodon tardus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

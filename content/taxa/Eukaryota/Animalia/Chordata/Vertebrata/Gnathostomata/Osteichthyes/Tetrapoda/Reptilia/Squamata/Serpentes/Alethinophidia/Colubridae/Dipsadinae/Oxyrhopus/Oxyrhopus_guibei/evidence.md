@@ -9,7 +9,6 @@ records:
     name:
       zh: Oxyrhopus guibei
       en: Oxyrhopus guibei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

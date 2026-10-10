@@ -9,7 +9,6 @@ records:
     name:
       zh: Colbertia falui
       en: Colbertia falui
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

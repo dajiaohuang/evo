@@ -9,7 +9,6 @@ records:
     name:
       en: Lissotriton kosswigi
       zh: Lissotriton kosswigi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

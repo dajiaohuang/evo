@@ -9,7 +9,6 @@ records:
     name:
       zh: Diaceratherium lamilloquense
       en: Diaceratherium lamilloquense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

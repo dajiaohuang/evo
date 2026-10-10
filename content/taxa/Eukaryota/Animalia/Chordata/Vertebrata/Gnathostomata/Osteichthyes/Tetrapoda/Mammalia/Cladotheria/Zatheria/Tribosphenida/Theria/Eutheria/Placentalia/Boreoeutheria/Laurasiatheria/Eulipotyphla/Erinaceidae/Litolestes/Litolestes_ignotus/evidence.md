@@ -9,7 +9,6 @@ records:
     name:
       zh: Litolestes ignotus
       en: Litolestes ignotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

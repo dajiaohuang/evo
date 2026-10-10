@@ -9,7 +9,6 @@ records:
     name:
       zh: Schoenicola platyurus
       en: Schoenicola platyurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

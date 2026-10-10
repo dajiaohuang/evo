@@ -9,7 +9,6 @@ records:
     name:
       en: Choerophryne bryonopsis
       zh: Choerophryne bryonopsis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

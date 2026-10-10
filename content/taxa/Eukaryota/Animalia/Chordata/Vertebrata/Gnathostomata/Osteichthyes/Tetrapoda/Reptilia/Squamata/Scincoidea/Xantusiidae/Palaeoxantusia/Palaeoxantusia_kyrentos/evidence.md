@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeoxantusia kyrentos
       en: Palaeoxantusia kyrentos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

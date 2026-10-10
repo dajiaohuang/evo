@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyornis hoevelli
       en: Cyornis hoevelli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

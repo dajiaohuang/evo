@@ -9,7 +9,6 @@ records:
     name:
       zh: Telescopus tripolitanus
       en: Telescopus tripolitanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Melogale personata
       en: Melogale personata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

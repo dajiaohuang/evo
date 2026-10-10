@@ -9,7 +9,6 @@ records:
     name:
       zh: Siamoadapis
       en: Siamoadapis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

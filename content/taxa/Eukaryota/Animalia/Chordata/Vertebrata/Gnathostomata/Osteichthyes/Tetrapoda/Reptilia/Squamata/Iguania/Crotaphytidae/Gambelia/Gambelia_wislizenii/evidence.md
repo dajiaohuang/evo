@@ -9,7 +9,6 @@ records:
     name:
       zh: Gambelia wislizenii
       en: Gambelia wislizenii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

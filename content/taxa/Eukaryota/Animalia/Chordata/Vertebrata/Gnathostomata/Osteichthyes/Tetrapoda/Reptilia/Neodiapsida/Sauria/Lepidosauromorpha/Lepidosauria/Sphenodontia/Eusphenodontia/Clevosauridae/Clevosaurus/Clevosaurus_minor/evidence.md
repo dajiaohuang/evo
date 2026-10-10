@@ -9,7 +9,6 @@ records:
     name:
       zh: Clevosaurus minor
       en: Clevosaurus minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pricemys caiera
       en: Pricemys caiera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

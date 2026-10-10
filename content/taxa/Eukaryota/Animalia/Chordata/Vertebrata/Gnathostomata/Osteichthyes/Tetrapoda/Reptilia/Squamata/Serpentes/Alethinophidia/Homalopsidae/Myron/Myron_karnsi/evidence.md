@@ -9,7 +9,6 @@ records:
     name:
       zh: Myron karnsi
       en: Myron karnsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

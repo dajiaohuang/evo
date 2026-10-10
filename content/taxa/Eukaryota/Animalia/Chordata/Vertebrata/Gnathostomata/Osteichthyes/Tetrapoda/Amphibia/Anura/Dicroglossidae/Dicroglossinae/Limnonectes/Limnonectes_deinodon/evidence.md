@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes deinodon
       zh: Limnonectes deinodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

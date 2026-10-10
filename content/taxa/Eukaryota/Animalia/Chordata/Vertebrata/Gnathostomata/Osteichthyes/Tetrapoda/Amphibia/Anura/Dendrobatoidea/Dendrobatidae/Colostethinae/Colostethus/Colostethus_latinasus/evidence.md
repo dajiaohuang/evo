@@ -9,7 +9,6 @@ records:
     name:
       en: Colostethus latinasus
       zh: Colostethus latinasus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

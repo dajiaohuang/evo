@@ -13,14 +13,15 @@ import {
   taxonProfiles,
 } from '../../services/catalog'
 import { evidenceClaims, getClaimsForSubject } from '../../services/evidence'
-import { buildEvidenceIssueUrl, getEntityPublication, reviewStatusLabel, scientificMaturityLabel } from '../../services/publication'
+import { buildEvidenceIssueUrl, getEntityPublication } from '../../services/publication'
 import { loadMediaForEntity, runtimeDataUrl } from '../../data-client/staticDataClient'
-import { EvidenceStatus } from '../common/EvidenceStatus'
+import { EvidenceIssueLink } from '../common/EvidenceIssueLink'
 import { useAppStore } from '../../store'
 import type { AppRoute } from '../../utils/routing'
 import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
 import type { MediaAsset } from '../../types/catalog'
 import { useI18n } from '../../i18n'
+import { localizedProfileText } from '../../i18n/profileText'
 import { StoryBuilder, StoryLearningPanel } from './StoryStudio'
 import './CatalogPages.css'
 
@@ -79,8 +80,7 @@ function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
           <p><strong>{t(claim.claimType.replace('-', ' '))}</strong><br />{language === 'zh' ? generatedClaimStatementsZh[claim.statement] ?? t(claim.statement) : claim.statement}</p>
           <small>{t(claim.confidence)} · {claim.referenceLinks.map((link) => `${link.relation}: ${link.referenceId}`).join(' · ')}</small>
           <small>{language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale}</small>
-          <small>{t('Reviewed {date} by {reviewer} against {version}', { date: claim.reviewedAt, reviewer: claim.reviewedBy, version: claim.reviewedAgainstReferenceVersion })}</small>
-          <a className="claim-report-link" href={buildEvidenceIssueUrl({ entityId: claim.subjectId.split(':')[1], claimId: claim.id })} target="_blank" rel="noreferrer">{t('Report this claim')} ↗</a>
+          <a className="claim-report-link" href={buildEvidenceIssueUrl({ entityId: claim.subjectId.replace(/^[^:]+:/, ''), claimId: claim.id })} target="_blank" rel="noreferrer">{t('Report this claim')} ↗</a>
         </article>
       ))}
     </div>
@@ -191,7 +191,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             {rangeAvailable ? <><strong>{formatAge(profile.firstAppearance, t('Present'))}</strong><span>{t('to')}</span><strong>{formatAge(profile.lastAppearance, t('Present'))}</strong></> : <strong>{t('Unavailable')}</strong>}
           </div>
         </div>
-        <p className="catalog-dek">{t(profile.overview)}</p>
+        <p className="catalog-dek">{localizedProfileText(profile, profile.overview, language, t)}</p>
         <div className="catalog-actions">
           <button className="button button--primary" onClick={() => onNavigate('explore', {
             ...(rangeAvailable ? { age: midpoint.toFixed(1) } : {}),
@@ -232,7 +232,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
         </details>
       </section>}
 
-      {publication && <EvidenceStatus publication={publication} entityId={profile.id} />}
+      {publication && <EvidenceIssueLink entityId={profile.id} />}
 
       <section className="catalog-facts">
         <div><span>{t('Status')}</span><strong className={profile.extinct ? 'is-extinct' : 'is-extant'}>{t(profile.extinct ? 'Extinct †' : 'Extant')}</strong></div>
@@ -301,7 +301,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
           <section id="evidence" className="catalog-section evidence-callout">
             <span className="section-label">{t('04 / Evidence quality')}</span>
             <h2>{t('What supports this reconstruction?')}</h2>
-            <p>{t(profile.evidenceSummary)}</p>
+            <p>{localizedProfileText(profile, profile.evidenceSummary, language, t)}</p>
             <ClaimLedger claims={claims} />
             <div className="evidence-note">
               <strong>{t('Interpretive boundary')}</strong>
@@ -349,14 +349,12 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
       </header>
       <div className="directory-grid">
         {[...taxonProfiles].sort((left, right) => Number(Boolean(right.readerSections?.length)) - Number(Boolean(left.readerSections?.length))).map((profile) => {
-          const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
           return (
             <button key={profile.id} onClick={() => onNavigate('taxa', { id: profile.id })}>
               <span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span>
               <h2><em>{profile.scientificName}</em></h2>
-              <p>{t(profile.overview)}</p>
+              <p>{localizedProfileText(profile, profile.overview, language, t)}</p>
               <small>{t(profile.rank)} · {hasPublishedRange(profile) ? `${formatAge(profile.firstAppearance, t('Present'))}—${formatAge(profile.lastAppearance, t('Present'))}` : t('Unavailable')}</small>
-              {publication && <small className={`directory-maturity directory-maturity--${publication.scientificMaturity}`}>{t(scientificMaturityLabel(publication.scientificMaturity))} · {t(reviewStatusLabel(publication.reviewStatus))}</small>}
             </button>
           )
         })}

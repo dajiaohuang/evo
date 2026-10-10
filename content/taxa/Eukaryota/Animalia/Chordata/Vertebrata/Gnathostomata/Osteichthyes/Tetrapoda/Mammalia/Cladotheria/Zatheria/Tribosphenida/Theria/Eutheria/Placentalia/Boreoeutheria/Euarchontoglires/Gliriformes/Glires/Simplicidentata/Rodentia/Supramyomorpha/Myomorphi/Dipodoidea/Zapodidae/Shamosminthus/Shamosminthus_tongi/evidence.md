@@ -9,7 +9,6 @@ records:
     name:
       zh: Shamosminthus tongi
       en: Shamosminthus tongi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cartierodon egerkingensis
       en: Cartierodon egerkingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

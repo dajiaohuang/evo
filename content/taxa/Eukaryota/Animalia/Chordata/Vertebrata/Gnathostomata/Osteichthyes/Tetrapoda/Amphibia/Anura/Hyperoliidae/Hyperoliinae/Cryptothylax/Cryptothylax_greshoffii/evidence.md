@@ -9,7 +9,6 @@ records:
     name:
       en: Cryptothylax greshoffii
       zh: Cryptothylax greshoffii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

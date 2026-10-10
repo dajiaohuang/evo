@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphenomorphus fuscolineatus
       en: Sphenomorphus fuscolineatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

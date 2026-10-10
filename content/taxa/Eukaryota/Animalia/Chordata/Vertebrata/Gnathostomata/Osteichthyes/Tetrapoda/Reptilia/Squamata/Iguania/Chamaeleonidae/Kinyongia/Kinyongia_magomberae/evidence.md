@@ -9,7 +9,6 @@ records:
     name:
       zh: Kinyongia magomberae
       en: Kinyongia magomberae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

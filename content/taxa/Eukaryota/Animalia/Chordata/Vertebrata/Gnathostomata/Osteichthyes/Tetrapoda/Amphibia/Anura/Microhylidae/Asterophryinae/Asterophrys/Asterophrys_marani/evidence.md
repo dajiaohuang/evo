@@ -9,7 +9,6 @@ records:
     name:
       en: Asterophrys marani
       zh: Asterophrys marani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

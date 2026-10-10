@@ -9,7 +9,6 @@ records:
     name:
       en: Ambystoma gracile
       zh: Ambystoma gracile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

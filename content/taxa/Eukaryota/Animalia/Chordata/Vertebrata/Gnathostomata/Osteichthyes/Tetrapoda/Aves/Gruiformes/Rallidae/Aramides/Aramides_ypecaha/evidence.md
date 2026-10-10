@@ -9,7 +9,6 @@ records:
     name:
       zh: Aramides ypecaha
       en: Aramides ypecaha
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

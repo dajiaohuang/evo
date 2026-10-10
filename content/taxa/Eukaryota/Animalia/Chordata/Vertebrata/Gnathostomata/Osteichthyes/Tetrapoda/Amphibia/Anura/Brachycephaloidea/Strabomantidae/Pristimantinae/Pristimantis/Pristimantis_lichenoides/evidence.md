@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis lichenoides
       zh: Pristimantis lichenoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -16,5 +16,5 @@ Monthly transect work at the Sainte Luce littoral forest covered four fragments 
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Trends apply only to the monitored Sainte Luce fragments and study period; local stability cannot be generalized to the whole species or a current population estimate. This page has not received external expert review. This page is not externally expert-reviewed.
+Trends apply only to the monitored Sainte Luce fragments and study period; local stability cannot be generalized to the whole species or a current population estimate. This page. This page is.
 <!-- /evo:text -->

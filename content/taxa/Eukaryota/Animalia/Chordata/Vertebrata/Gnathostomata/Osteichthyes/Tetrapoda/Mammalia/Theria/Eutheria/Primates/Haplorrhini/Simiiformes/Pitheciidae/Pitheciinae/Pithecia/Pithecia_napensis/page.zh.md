@@ -16,5 +16,5 @@ Aquino 等人在 2012 年 11—12 月沿秘鲁 Río Curaray 两岸的四个地�
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-样线资料仅来自 2012 年 Río Curaray 的四处样点，目击和群体计数不等于丰度估计；中文名为编辑译名，尚未经过外部领域专家评审。
+样线资料仅来自 2012 年 Río Curaray 的四处样点，目击和群体计数不等于丰度估计；中文名为编辑译名。
 <!-- /evo:text -->

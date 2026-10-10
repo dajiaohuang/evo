@@ -28,5 +28,5 @@ The 2025 study found lower encounter rates for medium and small primates alongsi
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-A local transect-study guide, not externally expert-reviewed. The two relative encounter-rate estimates come from one site in Peru; differences in detectability, group size and taxonomic usage limit trend interpretation. They are not a complete natural-history or current range account.
+A local transect-study guide. The two relative encounter-rate estimates come from one site in Peru; differences in detectability, group size and taxonomic usage limit trend interpretation. They are not a complete natural-history or current range account.
 <!-- /evo:text -->

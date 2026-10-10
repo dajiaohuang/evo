@@ -9,7 +9,6 @@ records:
     name:
       zh: Gspsaurus pakistani
       en: Gspsaurus pakistani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

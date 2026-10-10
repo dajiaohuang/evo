@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: love-2009-sponge-steranes; nettersheim-2019-rhizaria-steranes
       referenceLinks:
         - referenceId: love-2009-sponge-steranes
           relation: supports
@@ -52,9 +49,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: love-2009-sponge-steranes locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: love-2009-sponge-steranes
@@ -103,7 +97,6 @@ records:
           locator: 718–721; Figures 1–3; Supplementary Tables 1–4; South Oman steranes and stratigraphy
         - referenceId: nettersheim-2019-rhizaria-steranes
           locator: 577–581; Figures 1–3; Supplementary Tables; rhizarian sterol biosynthesis and specificity limit
-      reviewStatus: automated-audit-passed
 ---
 
 # Demospongiae

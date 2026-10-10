@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagoniophis
       en: Patagoniophis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

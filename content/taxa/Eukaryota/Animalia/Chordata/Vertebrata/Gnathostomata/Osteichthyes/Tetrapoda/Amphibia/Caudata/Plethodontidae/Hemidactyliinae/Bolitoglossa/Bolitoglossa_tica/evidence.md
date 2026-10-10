@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa tica
       zh: Bolitoglossa tica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

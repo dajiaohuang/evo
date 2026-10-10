@@ -9,7 +9,6 @@ records:
     name:
       zh: Euscolosuchus olseni
       en: Euscolosuchus olseni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

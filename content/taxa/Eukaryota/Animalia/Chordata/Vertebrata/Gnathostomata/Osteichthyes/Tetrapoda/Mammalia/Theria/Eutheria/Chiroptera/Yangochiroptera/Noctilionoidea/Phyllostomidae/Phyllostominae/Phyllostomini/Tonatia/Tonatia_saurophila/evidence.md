@@ -9,7 +9,6 @@ records:
     name:
       zh: Tonatia saurophila
       en: Tonatia saurophila
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

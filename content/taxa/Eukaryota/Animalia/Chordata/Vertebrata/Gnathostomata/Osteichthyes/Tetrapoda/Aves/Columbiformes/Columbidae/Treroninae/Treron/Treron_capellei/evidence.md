@@ -9,7 +9,6 @@ records:
     name:
       zh: Treron capellei
       en: Treron capellei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

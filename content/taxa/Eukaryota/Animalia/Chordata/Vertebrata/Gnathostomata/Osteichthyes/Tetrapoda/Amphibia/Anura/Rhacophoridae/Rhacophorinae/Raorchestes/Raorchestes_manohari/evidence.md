@@ -9,7 +9,6 @@ records:
     name:
       en: Raorchestes manohari
       zh: Raorchestes manohari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

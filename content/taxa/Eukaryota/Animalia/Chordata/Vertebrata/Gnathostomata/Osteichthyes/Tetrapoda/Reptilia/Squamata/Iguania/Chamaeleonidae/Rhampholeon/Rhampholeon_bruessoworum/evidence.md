@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhampholeon bruessoworum
       en: Rhampholeon bruessoworum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

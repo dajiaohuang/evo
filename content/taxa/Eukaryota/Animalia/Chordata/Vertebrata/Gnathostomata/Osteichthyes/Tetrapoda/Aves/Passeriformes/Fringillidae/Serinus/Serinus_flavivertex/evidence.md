@@ -9,7 +9,6 @@ records:
     name:
       zh: Serinus flavivertex
       en: Serinus flavivertex
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

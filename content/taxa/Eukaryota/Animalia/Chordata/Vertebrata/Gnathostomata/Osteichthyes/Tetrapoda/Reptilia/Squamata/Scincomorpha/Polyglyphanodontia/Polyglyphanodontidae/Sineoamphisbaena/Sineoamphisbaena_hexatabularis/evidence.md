@@ -9,7 +9,6 @@ records:
     name:
       zh: Sineoamphisbaena hexatabularis
       en: Sineoamphisbaena hexatabularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

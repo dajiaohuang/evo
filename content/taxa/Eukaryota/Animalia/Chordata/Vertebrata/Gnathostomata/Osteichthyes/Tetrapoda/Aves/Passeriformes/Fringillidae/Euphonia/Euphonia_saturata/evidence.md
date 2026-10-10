@@ -9,7 +9,6 @@ records:
     name:
       zh: Euphonia saturata
       en: Euphonia saturata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

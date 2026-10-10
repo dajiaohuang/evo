@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhoptropus diporus
       en: Rhoptropus diporus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

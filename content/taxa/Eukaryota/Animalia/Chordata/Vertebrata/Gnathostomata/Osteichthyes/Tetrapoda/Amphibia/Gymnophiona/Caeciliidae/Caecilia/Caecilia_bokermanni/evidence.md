@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia bokermanni
       zh: Caecilia bokermanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenelaphis hexagonotus
       en: Xenelaphis hexagonotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Funiusaurus luanchuanensis
       en: Funiusaurus luanchuanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

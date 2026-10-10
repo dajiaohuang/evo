@@ -9,7 +9,6 @@ records:
     name:
       zh: Calandrella cinerea
       en: Calandrella cinerea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Trigonias wellsi
       en: Trigonias wellsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

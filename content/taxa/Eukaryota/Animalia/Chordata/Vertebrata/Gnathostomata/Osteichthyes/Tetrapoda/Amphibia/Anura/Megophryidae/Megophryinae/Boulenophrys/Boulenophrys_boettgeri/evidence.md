@@ -9,7 +9,6 @@ records:
     name:
       en: Boulenophrys boettgeri
       zh: Boulenophrys boettgeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

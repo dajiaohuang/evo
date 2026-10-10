@@ -9,7 +9,6 @@ records:
     name:
       en: Limnonectes kiziriani
       zh: Limnonectes kiziriani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

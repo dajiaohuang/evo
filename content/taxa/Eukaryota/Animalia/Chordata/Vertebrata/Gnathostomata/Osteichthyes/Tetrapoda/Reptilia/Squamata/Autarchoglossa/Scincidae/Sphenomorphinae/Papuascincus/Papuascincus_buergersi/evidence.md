@@ -9,7 +9,6 @@ records:
     name:
       zh: Papuascincus buergersi
       en: Papuascincus buergersi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

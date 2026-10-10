@@ -9,7 +9,6 @@ records:
     name:
       zh: Dopasia wegneri
       en: Dopasia wegneri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

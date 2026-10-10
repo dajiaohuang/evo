@@ -9,7 +9,6 @@ records:
     name:
       en: Boana diabolica
       zh: Boana diabolica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

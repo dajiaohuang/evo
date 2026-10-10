@@ -36,5 +36,5 @@ Start with Dearc sgiathanach and compare each page’s named collections and ori
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This route adds selected osteology and function research on one holotype. A full genus synthesis, complete article anatomy and later phylogenetic material remain incompletely assembled. Occurrences, collections and specimens are distinct counts, broad ages do not measure lifespan, and functional interpretations retain attribution. No external expert review has occurred.
+This route adds selected osteology and function research on one holotype. A full genus synthesis, complete article anatomy and later phylogenetic material remain incompletely assembled. Occurrences, collections and specimens are distinct counts, broad ages do not measure lifespan, and functional interpretations retain attribution.
 <!-- /evo:text -->

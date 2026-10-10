@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoplectrurus canaricus
       en: Pseudoplectrurus canaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

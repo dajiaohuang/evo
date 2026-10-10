@@ -9,7 +9,6 @@ records:
     name:
       zh: Charadrius pallidus
       en: Charadrius pallidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

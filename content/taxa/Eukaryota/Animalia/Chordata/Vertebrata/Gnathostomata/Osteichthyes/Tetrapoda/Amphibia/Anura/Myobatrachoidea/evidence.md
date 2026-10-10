@@ -9,7 +9,6 @@ records:
     name:
       en: Myobatrachoidea
       zh: Myobatrachoidea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

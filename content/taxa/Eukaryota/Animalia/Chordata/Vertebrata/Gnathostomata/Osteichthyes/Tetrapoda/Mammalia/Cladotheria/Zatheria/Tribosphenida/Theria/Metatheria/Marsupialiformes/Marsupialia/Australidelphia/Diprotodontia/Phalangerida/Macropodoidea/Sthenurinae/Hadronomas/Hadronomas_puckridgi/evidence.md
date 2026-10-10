@@ -9,7 +9,6 @@ records:
     name:
       zh: Hadronomas puckridgi
       en: Hadronomas puckridgi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

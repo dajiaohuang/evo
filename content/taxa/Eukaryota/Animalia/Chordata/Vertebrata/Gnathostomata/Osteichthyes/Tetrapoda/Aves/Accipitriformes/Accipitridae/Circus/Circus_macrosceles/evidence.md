@@ -9,7 +9,6 @@ records:
     name:
       zh: Circus macrosceles
       en: Circus macrosceles
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

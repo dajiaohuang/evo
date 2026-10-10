@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer vertebralis
       zh: Cornufer vertebralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

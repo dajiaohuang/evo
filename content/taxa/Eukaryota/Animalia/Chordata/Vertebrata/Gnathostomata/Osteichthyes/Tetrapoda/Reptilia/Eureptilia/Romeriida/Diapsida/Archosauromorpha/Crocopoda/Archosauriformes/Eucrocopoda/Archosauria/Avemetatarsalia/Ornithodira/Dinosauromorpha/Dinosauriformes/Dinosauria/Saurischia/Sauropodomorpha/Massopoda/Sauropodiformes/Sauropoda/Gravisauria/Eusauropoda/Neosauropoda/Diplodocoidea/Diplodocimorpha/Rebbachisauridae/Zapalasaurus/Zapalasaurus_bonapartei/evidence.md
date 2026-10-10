@@ -9,7 +9,6 @@ records:
     name:
       zh: Zapalasaurus bonapartei
       en: Zapalasaurus bonapartei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

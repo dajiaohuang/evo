@@ -9,7 +9,6 @@ records:
     name:
       zh: Bohlinosminthus cubitalus
       en: Bohlinosminthus cubitalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

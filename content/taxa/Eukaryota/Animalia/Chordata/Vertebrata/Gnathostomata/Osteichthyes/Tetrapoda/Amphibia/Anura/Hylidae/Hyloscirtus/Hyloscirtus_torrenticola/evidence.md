@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus torrenticola
       zh: Hyloscirtus torrenticola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

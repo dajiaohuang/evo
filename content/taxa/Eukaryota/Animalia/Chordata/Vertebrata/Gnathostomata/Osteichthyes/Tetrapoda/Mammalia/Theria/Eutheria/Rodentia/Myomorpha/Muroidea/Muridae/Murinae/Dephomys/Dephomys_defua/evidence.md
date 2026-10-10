@@ -9,7 +9,6 @@ records:
     name:
       zh: Dephomys defua
       en: Dephomys defua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

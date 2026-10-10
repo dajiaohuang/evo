@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus candidus
       zh: Micrixalus candidus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

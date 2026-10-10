@@ -9,7 +9,6 @@ records:
     name:
       zh: 中美黑吼猴
       en: Central American Black Howler
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: diet

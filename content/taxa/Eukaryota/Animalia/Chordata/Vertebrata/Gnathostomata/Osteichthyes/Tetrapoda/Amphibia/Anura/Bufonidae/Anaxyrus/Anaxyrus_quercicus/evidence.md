@@ -9,7 +9,6 @@ records:
     name:
       en: Anaxyrus quercicus
       zh: Anaxyrus quercicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

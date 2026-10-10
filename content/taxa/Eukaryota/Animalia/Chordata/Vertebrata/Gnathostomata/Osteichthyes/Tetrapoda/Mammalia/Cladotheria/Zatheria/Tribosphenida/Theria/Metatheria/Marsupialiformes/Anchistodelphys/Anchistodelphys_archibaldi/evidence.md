@@ -9,7 +9,6 @@ records:
     name:
       zh: Anchistodelphys archibaldi
       en: Anchistodelphys archibaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nosella europaea
       en: Nosella europaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

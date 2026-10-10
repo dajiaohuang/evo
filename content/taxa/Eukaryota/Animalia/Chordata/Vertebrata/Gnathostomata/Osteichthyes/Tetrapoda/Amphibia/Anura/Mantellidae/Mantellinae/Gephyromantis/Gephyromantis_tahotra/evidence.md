@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis tahotra
       zh: Gephyromantis tahotra
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

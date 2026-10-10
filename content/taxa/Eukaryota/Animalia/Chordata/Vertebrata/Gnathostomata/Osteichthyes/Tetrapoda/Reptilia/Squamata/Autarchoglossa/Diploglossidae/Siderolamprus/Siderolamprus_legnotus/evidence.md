@@ -9,7 +9,6 @@ records:
     name:
       zh: Siderolamprus legnotus
       en: Siderolamprus legnotus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

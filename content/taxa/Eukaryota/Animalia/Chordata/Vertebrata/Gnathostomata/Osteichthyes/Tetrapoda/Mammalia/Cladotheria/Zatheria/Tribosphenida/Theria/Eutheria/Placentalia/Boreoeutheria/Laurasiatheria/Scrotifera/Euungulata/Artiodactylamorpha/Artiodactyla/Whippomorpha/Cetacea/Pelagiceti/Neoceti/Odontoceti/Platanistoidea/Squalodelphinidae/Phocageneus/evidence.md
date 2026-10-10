@@ -9,7 +9,6 @@ records:
     name:
       zh: Phocageneus
       en: Phocageneus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

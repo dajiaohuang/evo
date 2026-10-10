@@ -9,7 +9,6 @@ records:
     name:
       zh: Antilohyrax pectidens
       en: Antilohyrax pectidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

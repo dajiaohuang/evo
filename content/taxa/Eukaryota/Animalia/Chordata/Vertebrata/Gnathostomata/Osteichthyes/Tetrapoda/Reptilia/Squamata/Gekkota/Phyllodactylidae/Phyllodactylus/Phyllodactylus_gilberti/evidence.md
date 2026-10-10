@@ -9,7 +9,6 @@ records:
     name:
       zh: Phyllodactylus gilberti
       en: Phyllodactylus gilberti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

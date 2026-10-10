@@ -9,7 +9,6 @@ records:
     name:
       zh: 圣马丁绢毛猴
       en: San Martín Titi Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

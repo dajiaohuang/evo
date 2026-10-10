@@ -9,7 +9,6 @@ records:
     name:
       zh: Loxornis clivus
       en: Loxornis clivus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

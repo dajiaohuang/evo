@@ -9,7 +9,6 @@ records:
     name:
       zh: Hulsanpes perlei
       en: Hulsanpes perlei
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: morphology

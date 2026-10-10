@@ -9,7 +9,6 @@ records:
     name:
       zh: Geiseltaliellus lamandini
       en: Geiseltaliellus lamandini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

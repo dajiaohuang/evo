@@ -9,7 +9,6 @@ records:
     name:
       zh: Micrurus diastema
       en: Micrurus diastema
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Calomyscus hotsoni
       en: Calomyscus hotsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Miosurnia diurna
       en: Miosurnia diurna
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

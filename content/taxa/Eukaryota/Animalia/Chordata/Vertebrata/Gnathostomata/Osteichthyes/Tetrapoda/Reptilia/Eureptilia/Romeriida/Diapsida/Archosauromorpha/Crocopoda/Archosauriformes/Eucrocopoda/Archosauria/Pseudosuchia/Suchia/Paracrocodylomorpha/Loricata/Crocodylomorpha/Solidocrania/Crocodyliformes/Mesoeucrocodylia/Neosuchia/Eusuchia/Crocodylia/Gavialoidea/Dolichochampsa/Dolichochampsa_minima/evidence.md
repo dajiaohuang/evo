@@ -9,7 +9,6 @@ records:
     name:
       zh: Dolichochampsa minima
       en: Dolichochampsa minima
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

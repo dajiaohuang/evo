@@ -9,7 +9,6 @@ records:
     name:
       zh: Hypsilurus papuensis
       en: Hypsilurus papuensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

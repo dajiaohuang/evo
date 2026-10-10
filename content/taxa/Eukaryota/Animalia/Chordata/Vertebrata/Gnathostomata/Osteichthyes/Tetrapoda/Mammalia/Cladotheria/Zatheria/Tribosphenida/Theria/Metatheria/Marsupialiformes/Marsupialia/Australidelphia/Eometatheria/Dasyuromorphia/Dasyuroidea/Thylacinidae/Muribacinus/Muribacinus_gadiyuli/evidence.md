@@ -9,7 +9,6 @@ records:
     name:
       zh: Muribacinus gadiyuli
       en: Muribacinus gadiyuli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

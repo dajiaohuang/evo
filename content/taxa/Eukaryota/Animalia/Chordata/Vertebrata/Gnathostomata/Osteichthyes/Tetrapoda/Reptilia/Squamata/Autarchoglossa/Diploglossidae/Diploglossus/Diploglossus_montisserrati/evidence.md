@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploglossus montisserrati
       en: Diploglossus montisserrati
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

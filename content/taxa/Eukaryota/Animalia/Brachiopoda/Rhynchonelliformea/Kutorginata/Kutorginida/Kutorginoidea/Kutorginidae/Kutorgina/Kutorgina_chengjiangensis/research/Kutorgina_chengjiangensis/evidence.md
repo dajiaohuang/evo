@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: zhang-et-al-2007-kutorgina
       referenceLinks:
         - referenceId: zhang-et-al-2007-kutorgina
           relation: supports
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: zhang-et-al-2007-kutorgina DOI 10.1111/j.1475-4983.2007.00725.x
       referenceLinks:
         - referenceId: zhang-et-al-2007-kutorgina
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: zhang-et-al-2007-kutorgina DOI 10.1111/j.1475-4983.2007.00725.x
       referenceLinks:
         - referenceId: zhang-et-al-2007-kutorgina
           relation: supports
@@ -122,9 +113,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: zhang-et-al-2007-kutorgina DOI 10.1111/j.1475-4983.2007.00725.x
       referenceLinks:
         - referenceId: zhang-et-al-2007-kutorgina
           relation: supports
@@ -143,9 +131,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: zhang-et-al-2007-kutorgina DOI 10.1111/j.1475-4983.2007.00725.x
       referenceLinks:
         - referenceId: zhang-et-al-2007-kutorgina
           relation: supports
@@ -198,7 +183,6 @@ records:
       referenceLocators:
         - referenceId: zhang-et-al-2007-kutorgina
           locator: 1391–1402; Text-figures 1–8
-      reviewStatus: automated-audit-passed
 ---
 
 # Kutorgina chengjiangensis

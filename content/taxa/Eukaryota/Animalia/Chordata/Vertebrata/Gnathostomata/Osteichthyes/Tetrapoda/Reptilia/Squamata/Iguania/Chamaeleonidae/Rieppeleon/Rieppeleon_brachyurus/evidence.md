@@ -9,7 +9,6 @@ records:
     name:
       zh: Rieppeleon brachyurus
       en: Rieppeleon brachyurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosymna angolensis
       en: Prosymna angolensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

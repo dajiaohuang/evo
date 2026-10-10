@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctereutes barryi
       en: Nyctereutes barryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

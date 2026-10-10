@@ -9,7 +9,6 @@ records:
     name:
       zh: Talpa altaica
       en: Talpa altaica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

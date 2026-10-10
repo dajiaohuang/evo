@@ -9,7 +9,6 @@ records:
     name:
       zh: Charactosuchus kugleri
       en: Charactosuchus kugleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

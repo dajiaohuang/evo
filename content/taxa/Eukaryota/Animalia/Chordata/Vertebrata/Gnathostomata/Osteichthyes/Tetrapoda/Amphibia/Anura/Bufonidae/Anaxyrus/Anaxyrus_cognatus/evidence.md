@@ -9,7 +9,6 @@ records:
     name:
       en: Anaxyrus cognatus
       zh: Anaxyrus cognatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

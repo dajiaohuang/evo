@@ -9,7 +9,6 @@ records:
     name:
       zh: Cousteauvia kustovia
       en: Cousteauvia kustovia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

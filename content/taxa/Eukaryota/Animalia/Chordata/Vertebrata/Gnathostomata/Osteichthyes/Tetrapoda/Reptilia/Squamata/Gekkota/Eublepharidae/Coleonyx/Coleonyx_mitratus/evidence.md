@@ -9,7 +9,6 @@ records:
     name:
       zh: Coleonyx mitratus
       en: Coleonyx mitratus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

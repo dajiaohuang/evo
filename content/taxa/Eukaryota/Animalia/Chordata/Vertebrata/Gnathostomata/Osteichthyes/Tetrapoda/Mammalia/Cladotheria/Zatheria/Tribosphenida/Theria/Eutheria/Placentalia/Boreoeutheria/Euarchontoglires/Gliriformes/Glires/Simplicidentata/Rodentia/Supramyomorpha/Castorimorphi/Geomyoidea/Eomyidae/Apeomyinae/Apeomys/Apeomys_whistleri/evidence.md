@@ -9,7 +9,6 @@ records:
     name:
       zh: Apeomys whistleri
       en: Apeomys whistleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

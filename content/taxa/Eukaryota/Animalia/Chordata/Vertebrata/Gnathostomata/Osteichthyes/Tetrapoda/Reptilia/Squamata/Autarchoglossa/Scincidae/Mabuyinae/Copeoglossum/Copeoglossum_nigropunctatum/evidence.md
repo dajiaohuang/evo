@@ -9,7 +9,6 @@ records:
     name:
       zh: Copeoglossum nigropunctatum
       en: Copeoglossum nigropunctatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

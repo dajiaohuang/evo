@@ -9,7 +9,6 @@ records:
     name:
       zh: Gigantatypus salahi
       en: Gigantatypus salahi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

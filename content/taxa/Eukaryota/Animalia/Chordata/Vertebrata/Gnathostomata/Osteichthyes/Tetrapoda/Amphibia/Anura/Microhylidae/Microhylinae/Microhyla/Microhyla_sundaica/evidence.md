@@ -9,7 +9,6 @@ records:
     name:
       en: Microhyla sundaica
       zh: Microhyla sundaica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

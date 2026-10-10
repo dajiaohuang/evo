@@ -9,7 +9,6 @@ records:
     name:
       zh: Kuntinaru boliviensis
       en: Kuntinaru boliviensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

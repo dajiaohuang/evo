@@ -9,7 +9,6 @@ records:
     name:
       zh: Turdoides squamulata
       en: Turdoides squamulata
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

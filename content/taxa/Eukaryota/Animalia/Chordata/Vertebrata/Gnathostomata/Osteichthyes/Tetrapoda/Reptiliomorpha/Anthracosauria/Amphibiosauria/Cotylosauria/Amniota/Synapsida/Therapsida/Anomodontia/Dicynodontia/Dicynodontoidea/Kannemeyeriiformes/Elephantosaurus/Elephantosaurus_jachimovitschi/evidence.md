@@ -9,7 +9,6 @@ records:
     name:
       zh: Elephantosaurus jachimovitschi
       en: Elephantosaurus jachimovitschi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

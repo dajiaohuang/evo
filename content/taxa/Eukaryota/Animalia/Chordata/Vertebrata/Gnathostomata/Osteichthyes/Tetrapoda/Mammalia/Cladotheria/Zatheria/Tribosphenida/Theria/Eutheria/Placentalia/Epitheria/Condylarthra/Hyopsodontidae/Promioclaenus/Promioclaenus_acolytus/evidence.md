@@ -9,7 +9,6 @@ records:
     name:
       zh: Promioclaenus acolytus
       en: Promioclaenus acolytus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

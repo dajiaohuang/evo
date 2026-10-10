@@ -9,7 +9,6 @@ records:
     name:
       zh: Jiangxichelys ganzhouensis
       en: Jiangxichelys ganzhouensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

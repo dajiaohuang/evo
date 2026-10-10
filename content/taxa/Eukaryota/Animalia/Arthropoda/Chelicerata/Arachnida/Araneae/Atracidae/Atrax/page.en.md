@@ -34,5 +34,5 @@ museum
 ## catalogue-profile / limitations
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Source-linked introductory account; not externally expert-reviewed. Delimitations are bounded to the Sydney-region material and analysis in the 2025 study; the pinned checklist enables exact name lookup but does not resolve wider taxonomic debate.
+Source-linked introductory account;. Delimitations are bounded to the Sydney-region material and analysis in the 2025 study; the pinned checklist enables exact name lookup but does not resolve wider taxonomic debate.
 <!-- /evo:text -->

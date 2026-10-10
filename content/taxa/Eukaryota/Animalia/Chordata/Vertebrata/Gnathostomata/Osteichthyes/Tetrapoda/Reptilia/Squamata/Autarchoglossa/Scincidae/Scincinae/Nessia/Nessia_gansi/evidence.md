@@ -9,7 +9,6 @@ records:
     name:
       zh: Nessia gansi
       en: Nessia gansi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

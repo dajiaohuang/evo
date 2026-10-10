@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus modestus
       zh: Eleutherodactylus modestus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

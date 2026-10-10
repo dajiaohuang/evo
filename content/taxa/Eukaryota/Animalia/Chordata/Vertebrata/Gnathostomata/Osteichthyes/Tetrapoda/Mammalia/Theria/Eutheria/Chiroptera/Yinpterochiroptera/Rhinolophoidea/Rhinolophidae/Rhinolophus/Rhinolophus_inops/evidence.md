@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus inops
       en: Rhinolophus inops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

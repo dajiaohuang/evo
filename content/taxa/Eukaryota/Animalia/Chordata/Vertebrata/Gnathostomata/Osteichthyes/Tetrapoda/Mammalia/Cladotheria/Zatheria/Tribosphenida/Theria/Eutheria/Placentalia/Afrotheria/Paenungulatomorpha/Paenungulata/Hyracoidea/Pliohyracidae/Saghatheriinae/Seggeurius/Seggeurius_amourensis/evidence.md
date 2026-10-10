@@ -9,7 +9,6 @@ records:
     name:
       zh: Seggeurius amourensis
       en: Seggeurius amourensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

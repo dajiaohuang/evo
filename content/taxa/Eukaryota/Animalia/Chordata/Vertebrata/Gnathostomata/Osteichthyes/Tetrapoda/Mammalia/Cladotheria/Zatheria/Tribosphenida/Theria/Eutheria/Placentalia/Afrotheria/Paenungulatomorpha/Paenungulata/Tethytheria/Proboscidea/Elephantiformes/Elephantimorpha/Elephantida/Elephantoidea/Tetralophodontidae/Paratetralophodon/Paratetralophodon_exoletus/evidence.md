@@ -9,7 +9,6 @@ records:
     name:
       zh: Paratetralophodon exoletus
       en: Paratetralophodon exoletus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

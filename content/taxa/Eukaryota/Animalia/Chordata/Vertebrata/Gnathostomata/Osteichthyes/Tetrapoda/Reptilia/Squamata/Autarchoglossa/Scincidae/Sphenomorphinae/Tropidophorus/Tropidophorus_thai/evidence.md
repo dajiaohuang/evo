@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophorus thai
       en: Tropidophorus thai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

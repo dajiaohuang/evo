@@ -9,7 +9,6 @@ records:
     name:
       zh: Javazapus
       en: Javazapus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

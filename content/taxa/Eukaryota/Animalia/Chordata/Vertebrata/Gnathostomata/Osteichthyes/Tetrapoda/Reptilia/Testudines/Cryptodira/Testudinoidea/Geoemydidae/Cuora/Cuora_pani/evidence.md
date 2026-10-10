@@ -9,7 +9,6 @@ records:
     name:
       zh: Cuora pani
       en: Cuora pani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

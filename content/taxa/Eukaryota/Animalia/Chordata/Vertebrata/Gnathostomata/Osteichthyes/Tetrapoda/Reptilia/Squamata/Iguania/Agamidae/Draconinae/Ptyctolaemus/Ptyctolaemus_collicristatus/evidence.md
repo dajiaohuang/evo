@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptyctolaemus collicristatus
       en: Ptyctolaemus collicristatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

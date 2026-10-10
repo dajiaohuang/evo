@@ -9,7 +9,6 @@ records:
     name:
       zh: 橄榄狒狒
       en: Olive baboon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: populationGenetics
@@ -744,12 +743,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/0
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/1
-        - markdown: evidence.md
-          field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
   atlas-node:
     name: Papio anubis
     commonName: Olive Baboon
@@ -1121,10 +1114,4 @@ The dossier contains bounded evidence on captive-cohort morphometry and growth, 
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/1 -->
 Evolutionary evidence is partial: the panel-relative P. anubis marker count does not cover range-wide genomic variation or resolve all reticulate relationships. Distribution, fossil evidence, current formal conservation status, and full coverage of the accepted species concept remain incomplete.
-<!-- /evo:text -->
-
-## catalogue-dossier / completeness / reasons
-
-<!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-Independent external expert review has not been completed.
 <!-- /evo:text -->

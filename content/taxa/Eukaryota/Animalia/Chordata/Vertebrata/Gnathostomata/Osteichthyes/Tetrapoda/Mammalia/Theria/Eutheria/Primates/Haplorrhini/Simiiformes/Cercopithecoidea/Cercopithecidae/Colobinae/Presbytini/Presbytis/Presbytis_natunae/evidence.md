@@ -9,7 +9,6 @@ records:
     name:
       zh: 纳土纳叶猴
       en: Natuna Islands Langur
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution_habitat

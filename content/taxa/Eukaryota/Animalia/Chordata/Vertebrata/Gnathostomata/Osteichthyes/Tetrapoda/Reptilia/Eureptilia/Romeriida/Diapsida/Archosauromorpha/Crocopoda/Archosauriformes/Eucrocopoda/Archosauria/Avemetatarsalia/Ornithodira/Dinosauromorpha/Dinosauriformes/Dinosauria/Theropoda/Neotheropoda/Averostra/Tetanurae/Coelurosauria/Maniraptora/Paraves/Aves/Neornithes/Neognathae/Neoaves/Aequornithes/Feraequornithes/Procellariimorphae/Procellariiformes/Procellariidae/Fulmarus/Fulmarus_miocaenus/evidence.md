@@ -9,7 +9,6 @@ records:
     name:
       zh: Fulmarus miocaenus
       en: Fulmarus miocaenus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

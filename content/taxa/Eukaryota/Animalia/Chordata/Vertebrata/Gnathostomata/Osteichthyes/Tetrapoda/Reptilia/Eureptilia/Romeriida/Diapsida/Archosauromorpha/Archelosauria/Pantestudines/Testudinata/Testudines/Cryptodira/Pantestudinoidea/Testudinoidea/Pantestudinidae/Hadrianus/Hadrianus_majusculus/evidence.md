@@ -9,7 +9,6 @@ records:
     name:
       zh: Hadrianus majusculus
       en: Hadrianus majusculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

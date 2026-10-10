@@ -9,7 +9,6 @@ records:
     name:
       zh: Crocidura raineyi
       en: Crocidura raineyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

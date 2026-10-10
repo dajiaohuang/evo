@@ -9,7 +9,6 @@ records:
     name:
       zh: Rionegrochelys caldieroi
       en: Rionegrochelys caldieroi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

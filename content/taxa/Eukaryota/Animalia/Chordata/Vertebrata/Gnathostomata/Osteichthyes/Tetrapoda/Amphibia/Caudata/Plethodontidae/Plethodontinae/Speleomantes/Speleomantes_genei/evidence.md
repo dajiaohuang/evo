@@ -9,7 +9,6 @@ records:
     name:
       en: Speleomantes genei
       zh: Speleomantes genei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

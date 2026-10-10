@@ -9,7 +9,6 @@ records:
     name:
       zh: Presbytherium taurus
       en: Presbytherium taurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

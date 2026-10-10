@@ -9,7 +9,6 @@ records:
     name:
       zh: Brychotherium ephalmos
       en: Brychotherium ephalmos
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Helicops polylepis
       en: Helicops polylepis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

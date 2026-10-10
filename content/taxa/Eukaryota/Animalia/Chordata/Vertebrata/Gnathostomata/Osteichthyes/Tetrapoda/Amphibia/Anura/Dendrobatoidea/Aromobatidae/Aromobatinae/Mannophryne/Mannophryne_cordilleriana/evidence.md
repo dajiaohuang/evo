@@ -9,7 +9,6 @@ records:
     name:
       en: Mannophryne cordilleriana
       zh: Mannophryne cordilleriana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

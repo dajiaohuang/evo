@@ -9,7 +9,6 @@ records:
     name:
       zh: Teilhardimys brisswalteri
       en: Teilhardimys brisswalteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

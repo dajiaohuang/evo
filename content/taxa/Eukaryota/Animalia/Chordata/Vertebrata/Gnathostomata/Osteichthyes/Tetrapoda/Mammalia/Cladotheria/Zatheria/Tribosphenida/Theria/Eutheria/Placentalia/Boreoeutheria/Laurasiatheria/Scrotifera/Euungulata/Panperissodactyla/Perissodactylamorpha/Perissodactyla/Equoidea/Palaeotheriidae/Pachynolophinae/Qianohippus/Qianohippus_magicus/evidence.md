@@ -9,7 +9,6 @@ records:
     name:
       zh: Qianohippus magicus
       en: Qianohippus magicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptopsar ischyrhynchus
       en: Cryptopsar ischyrhynchus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

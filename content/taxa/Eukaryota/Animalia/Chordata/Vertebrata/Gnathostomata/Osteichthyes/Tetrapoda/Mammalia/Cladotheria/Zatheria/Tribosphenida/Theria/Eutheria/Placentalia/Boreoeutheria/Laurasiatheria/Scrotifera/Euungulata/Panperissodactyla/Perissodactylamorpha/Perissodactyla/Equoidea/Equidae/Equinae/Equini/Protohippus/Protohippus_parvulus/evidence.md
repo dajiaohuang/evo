@@ -9,7 +9,6 @@ records:
     name:
       zh: Protohippus parvulus
       en: Protohippus parvulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

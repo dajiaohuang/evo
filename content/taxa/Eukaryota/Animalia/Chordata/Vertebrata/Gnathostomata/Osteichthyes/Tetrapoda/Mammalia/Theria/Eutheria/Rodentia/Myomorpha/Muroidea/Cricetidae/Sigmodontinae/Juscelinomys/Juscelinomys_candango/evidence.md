@@ -9,7 +9,6 @@ records:
     name:
       zh: Juscelinomys candango
       en: Juscelinomys candango
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

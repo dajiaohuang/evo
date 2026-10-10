@@ -9,7 +9,6 @@ records:
     name:
       zh: Simpsonictis jaynanneae
       en: Simpsonictis jaynanneae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

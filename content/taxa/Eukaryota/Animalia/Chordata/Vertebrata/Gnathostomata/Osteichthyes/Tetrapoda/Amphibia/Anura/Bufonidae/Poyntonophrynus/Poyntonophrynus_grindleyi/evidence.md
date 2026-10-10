@@ -9,7 +9,6 @@ records:
     name:
       en: Poyntonophrynus grindleyi
       zh: Poyntonophrynus grindleyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

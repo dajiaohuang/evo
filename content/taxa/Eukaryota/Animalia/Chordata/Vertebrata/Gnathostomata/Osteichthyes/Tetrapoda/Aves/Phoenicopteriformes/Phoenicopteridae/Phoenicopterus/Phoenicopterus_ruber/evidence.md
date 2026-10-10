@@ -9,7 +9,6 @@ records:
     name:
       zh: Phoenicopterus ruber
       en: Phoenicopterus ruber
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: researchMaterial

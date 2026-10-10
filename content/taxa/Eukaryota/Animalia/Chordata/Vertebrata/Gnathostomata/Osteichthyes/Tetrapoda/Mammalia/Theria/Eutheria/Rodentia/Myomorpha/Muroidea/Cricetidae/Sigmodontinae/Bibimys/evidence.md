@@ -9,7 +9,6 @@ records:
     name:
       zh: Bibimys
       en: Bibimys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: readingPath

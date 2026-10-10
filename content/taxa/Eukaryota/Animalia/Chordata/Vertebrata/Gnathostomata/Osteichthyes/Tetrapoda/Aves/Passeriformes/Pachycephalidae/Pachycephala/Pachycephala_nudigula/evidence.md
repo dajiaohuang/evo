@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachycephala nudigula
       en: Pachycephala nudigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

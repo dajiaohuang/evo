@@ -9,7 +9,6 @@ records:
     name:
       en: Ischnocnema nasuta
       zh: Ischnocnema nasuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

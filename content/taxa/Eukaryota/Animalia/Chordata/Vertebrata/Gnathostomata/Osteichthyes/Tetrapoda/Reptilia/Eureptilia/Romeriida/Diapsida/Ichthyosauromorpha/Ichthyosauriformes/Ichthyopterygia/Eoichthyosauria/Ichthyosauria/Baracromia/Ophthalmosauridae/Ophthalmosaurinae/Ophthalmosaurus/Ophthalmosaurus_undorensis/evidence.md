@@ -9,7 +9,6 @@ records:
     name:
       zh: Ophthalmosaurus undorensis
       en: Ophthalmosaurus undorensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Douglassciurus bjorki
       en: Douglassciurus bjorki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

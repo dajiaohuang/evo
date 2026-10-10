@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloxalus marmoreoventris
       zh: Hyloxalus marmoreoventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

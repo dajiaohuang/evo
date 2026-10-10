@@ -9,7 +9,6 @@ records:
     name:
       zh: Paraglossotherium elmollarum
       en: Paraglossotherium elmollarum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

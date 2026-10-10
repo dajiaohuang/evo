@@ -9,7 +9,6 @@ records:
     name:
       zh: Bicuspidon hogreli
       en: Bicuspidon hogreli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

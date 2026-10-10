@@ -9,7 +9,6 @@ records:
     name:
       zh: Hsiuannania tabiensis
       en: Hsiuannania tabiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

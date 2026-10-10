@@ -9,7 +9,6 @@ records:
     name:
       zh: Sibirotitan astrosacralis
       en: Sibirotitan astrosacralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

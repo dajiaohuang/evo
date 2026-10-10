@@ -9,7 +9,6 @@ records:
     name:
       zh: Norisdelphis annakaensis
       en: Norisdelphis annakaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

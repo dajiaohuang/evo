@@ -9,7 +9,6 @@ records:
     name:
       en: Niceforonia nigrovittata
       zh: Niceforonia nigrovittata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

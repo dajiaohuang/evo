@@ -9,7 +9,6 @@ records:
     name:
       zh: 塞拉猕猴
       en: Sela Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: distribution

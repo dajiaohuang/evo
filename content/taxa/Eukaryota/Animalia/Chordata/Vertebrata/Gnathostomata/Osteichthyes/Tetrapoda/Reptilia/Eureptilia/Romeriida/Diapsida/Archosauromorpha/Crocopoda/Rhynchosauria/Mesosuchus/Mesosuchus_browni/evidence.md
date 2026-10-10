@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesosuchus browni
       en: Mesosuchus browni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

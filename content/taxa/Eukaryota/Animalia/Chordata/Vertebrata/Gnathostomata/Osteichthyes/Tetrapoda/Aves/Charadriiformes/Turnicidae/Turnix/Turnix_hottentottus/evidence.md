@@ -9,7 +9,6 @@ records:
     name:
       zh: Turnix hottentottus
       en: Turnix hottentottus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

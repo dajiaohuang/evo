@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyanopsitta spixii
       en: Cyanopsitta spixii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

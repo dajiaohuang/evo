@@ -9,7 +9,6 @@ records:
     name:
       zh: Andigena laminirostris
       en: Andigena laminirostris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Harpyodus decorus
       en: Harpyodus decorus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

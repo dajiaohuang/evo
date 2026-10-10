@@ -9,7 +9,6 @@ records:
     name:
       zh: Treron calvus
       en: Treron calvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

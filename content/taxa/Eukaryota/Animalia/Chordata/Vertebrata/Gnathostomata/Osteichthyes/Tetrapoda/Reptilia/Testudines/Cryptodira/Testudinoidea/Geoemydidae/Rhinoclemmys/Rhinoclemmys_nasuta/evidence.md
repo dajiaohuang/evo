@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinoclemmys nasuta
       en: Rhinoclemmys nasuta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

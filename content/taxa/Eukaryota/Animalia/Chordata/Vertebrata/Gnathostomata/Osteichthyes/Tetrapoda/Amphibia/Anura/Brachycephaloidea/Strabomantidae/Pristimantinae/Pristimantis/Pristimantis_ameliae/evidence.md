@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis ameliae
       zh: Pristimantis ameliae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

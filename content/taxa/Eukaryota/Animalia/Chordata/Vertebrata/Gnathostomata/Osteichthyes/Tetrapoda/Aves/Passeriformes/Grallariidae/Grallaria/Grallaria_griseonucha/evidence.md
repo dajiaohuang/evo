@@ -9,7 +9,6 @@ records:
     name:
       zh: Grallaria griseonucha
       en: Grallaria griseonucha
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

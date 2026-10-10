@@ -9,7 +9,6 @@ records:
     name:
       zh: Trogosus grangeri
       en: Trogosus grangeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Pelophylax demarchii
       zh: Pelophylax demarchii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

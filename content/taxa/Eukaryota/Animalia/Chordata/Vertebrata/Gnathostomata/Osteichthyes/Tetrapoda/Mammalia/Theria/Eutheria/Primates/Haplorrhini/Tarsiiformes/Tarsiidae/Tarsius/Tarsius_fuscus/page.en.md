@@ -28,5 +28,5 @@ The observations cover two nearby South Sulawesi sites and 13 nests, not the ful
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page summarizes cited observations from limited places, dates and methods; it is not a complete range-wide natural-history account. This page is not externally expert-reviewed.
+This page summarizes cited observations from limited places, dates and methods; it is not a complete range-wide natural-history account. This page is.
 <!-- /evo:text -->

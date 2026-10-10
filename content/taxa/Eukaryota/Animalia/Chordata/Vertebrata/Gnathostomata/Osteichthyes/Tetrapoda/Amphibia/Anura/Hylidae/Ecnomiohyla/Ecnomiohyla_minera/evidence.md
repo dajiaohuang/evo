@@ -9,7 +9,6 @@ records:
     name:
       en: Ecnomiohyla minera
       zh: Ecnomiohyla minera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

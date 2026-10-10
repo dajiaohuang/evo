@@ -9,7 +9,6 @@ records:
     name:
       zh: Lembonax propylaeus
       en: Lembonax propylaeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

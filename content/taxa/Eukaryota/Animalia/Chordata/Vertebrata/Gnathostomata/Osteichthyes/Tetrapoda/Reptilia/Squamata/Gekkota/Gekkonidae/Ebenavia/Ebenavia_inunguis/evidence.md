@@ -9,7 +9,6 @@ records:
     name:
       zh: Ebenavia inunguis
       en: Ebenavia inunguis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Metriotherium mirabile
       en: Metriotherium mirabile
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

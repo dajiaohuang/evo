@@ -9,7 +9,6 @@ records:
     name:
       zh: Proictinia effera
       en: Proictinia effera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

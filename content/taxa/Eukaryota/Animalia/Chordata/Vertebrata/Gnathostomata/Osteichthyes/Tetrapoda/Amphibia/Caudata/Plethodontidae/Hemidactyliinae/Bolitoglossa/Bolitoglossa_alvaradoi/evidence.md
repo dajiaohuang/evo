@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa alvaradoi
       zh: Bolitoglossa alvaradoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

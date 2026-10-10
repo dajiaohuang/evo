@@ -9,7 +9,6 @@ records:
     name:
       zh: Phenacolemur praecox
       en: Phenacolemur praecox
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

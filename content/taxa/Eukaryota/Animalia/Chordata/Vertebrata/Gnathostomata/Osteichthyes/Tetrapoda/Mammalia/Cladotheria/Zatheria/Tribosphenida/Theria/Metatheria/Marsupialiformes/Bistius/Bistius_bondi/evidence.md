@@ -9,7 +9,6 @@ records:
     name:
       zh: Bistius bondi
       en: Bistius bondi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

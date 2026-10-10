@@ -9,7 +9,6 @@ records:
     name:
       en: Pleurodeles nebulosus
       zh: Pleurodeles nebulosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

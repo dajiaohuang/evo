@@ -9,7 +9,6 @@ records:
     name:
       zh: Mediodactylus kotschyi
       en: Mediodactylus kotschyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

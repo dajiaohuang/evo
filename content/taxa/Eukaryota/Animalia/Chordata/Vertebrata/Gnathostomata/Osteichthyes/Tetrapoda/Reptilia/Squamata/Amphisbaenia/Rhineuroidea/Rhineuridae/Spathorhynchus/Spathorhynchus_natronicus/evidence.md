@@ -9,7 +9,6 @@ records:
     name:
       zh: Spathorhynchus natronicus
       en: Spathorhynchus natronicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

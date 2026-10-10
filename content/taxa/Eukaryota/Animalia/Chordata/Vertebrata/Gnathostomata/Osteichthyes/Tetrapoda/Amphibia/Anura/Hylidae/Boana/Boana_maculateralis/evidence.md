@@ -9,7 +9,6 @@ records:
     name:
       en: Boana maculateralis
       zh: Boana maculateralis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

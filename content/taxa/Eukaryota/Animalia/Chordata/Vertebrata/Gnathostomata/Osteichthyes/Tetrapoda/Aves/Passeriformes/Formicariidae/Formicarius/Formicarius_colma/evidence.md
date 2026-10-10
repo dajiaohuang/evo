@@ -9,7 +9,6 @@ records:
     name:
       zh: Formicarius colma
       en: Formicarius colma
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

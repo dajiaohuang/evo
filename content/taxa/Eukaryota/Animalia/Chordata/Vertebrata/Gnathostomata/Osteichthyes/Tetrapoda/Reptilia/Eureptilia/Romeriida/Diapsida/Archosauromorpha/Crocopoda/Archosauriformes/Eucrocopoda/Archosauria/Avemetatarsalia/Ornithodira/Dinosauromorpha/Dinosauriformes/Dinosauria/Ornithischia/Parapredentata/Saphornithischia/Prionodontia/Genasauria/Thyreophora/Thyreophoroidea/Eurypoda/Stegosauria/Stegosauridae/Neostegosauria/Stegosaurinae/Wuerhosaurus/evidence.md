@@ -9,7 +9,6 @@ records:
     name:
       zh: Wuerhosaurus
       en: Wuerhosaurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

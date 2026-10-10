@@ -9,7 +9,6 @@ records:
     name:
       zh: Karatausuchus sharovi
       en: Karatausuchus sharovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

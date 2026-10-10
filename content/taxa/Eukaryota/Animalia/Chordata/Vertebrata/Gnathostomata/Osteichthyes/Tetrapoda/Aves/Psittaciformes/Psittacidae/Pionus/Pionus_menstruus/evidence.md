@@ -9,7 +9,6 @@ records:
     name:
       zh: Pionus menstruus
       en: Pionus menstruus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

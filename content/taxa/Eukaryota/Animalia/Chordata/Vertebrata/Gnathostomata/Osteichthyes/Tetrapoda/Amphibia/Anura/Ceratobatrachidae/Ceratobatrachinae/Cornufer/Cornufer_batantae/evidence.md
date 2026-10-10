@@ -9,7 +9,6 @@ records:
     name:
       en: Cornufer batantae
       zh: Cornufer batantae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

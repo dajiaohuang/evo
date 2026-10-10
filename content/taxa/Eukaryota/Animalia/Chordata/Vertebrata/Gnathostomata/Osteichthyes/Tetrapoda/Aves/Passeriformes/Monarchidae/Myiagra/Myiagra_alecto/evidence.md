@@ -9,7 +9,6 @@ records:
     name:
       zh: Myiagra alecto
       en: Myiagra alecto
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Proticia venezuelensis
       en: Proticia venezuelensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

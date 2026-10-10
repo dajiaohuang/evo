@@ -9,7 +9,6 @@ records:
     name:
       zh: Glaucidium minutissimum
       en: Glaucidium minutissimum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

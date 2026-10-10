@@ -9,7 +9,6 @@ records:
     name:
       zh: Chiropodomys
       en: Chiropodomys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

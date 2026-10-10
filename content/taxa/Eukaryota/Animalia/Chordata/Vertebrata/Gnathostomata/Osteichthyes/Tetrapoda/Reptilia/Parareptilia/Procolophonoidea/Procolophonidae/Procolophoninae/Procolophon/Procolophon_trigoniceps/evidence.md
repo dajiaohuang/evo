@@ -9,7 +9,6 @@ records:
     name:
       zh: Procolophon trigoniceps
       en: Procolophon trigoniceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

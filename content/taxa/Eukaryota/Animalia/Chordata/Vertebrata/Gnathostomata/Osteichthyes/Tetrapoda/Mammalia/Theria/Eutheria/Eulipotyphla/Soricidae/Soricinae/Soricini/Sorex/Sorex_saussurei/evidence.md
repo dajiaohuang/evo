@@ -9,7 +9,6 @@ records:
     name:
       zh: Sorex saussurei
       en: Sorex saussurei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

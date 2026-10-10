@@ -9,7 +9,6 @@ records:
     name:
       zh: Mogilia miloshi
       en: Mogilia miloshi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

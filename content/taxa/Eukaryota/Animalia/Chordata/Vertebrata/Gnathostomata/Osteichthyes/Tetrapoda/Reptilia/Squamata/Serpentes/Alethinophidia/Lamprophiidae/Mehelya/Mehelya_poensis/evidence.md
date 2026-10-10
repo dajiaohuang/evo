@@ -9,7 +9,6 @@ records:
     name:
       zh: Mehelya poensis
       en: Mehelya poensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

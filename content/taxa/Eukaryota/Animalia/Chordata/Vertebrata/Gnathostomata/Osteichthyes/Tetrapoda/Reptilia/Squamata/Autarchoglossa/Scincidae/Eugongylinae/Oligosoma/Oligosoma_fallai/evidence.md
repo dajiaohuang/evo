@@ -9,7 +9,6 @@ records:
     name:
       zh: Oligosoma fallai
       en: Oligosoma fallai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

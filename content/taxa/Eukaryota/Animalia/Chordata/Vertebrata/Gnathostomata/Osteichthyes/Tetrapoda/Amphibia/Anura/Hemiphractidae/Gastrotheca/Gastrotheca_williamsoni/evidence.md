@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca williamsoni
       zh: Gastrotheca williamsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

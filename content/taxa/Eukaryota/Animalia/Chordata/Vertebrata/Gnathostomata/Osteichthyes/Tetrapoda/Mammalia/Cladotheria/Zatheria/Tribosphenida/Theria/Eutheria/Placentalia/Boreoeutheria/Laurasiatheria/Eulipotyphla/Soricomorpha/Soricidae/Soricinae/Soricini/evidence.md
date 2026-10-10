@@ -9,7 +9,6 @@ records:
     name:
       zh: Soricini
       en: Soricini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scaldicetus macgeei
       en: Scaldicetus macgeei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

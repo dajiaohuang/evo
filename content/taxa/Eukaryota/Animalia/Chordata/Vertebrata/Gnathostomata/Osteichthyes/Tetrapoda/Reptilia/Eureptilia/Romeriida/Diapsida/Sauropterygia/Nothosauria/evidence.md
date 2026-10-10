@@ -9,7 +9,6 @@ records:
     name:
       zh: Nothosauria
       en: Nothosauria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

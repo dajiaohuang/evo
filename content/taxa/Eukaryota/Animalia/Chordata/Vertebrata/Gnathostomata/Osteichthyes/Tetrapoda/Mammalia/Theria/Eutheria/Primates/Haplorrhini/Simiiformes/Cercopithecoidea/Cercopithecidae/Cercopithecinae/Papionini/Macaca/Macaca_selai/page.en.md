@@ -16,5 +16,5 @@ Using genetic differences among samples from Arunachal Pradesh, Ghosh et al. (20
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This page summarizes the 2022 genetic study abstract and the authors' taxonomic interpretation; it is not a complete distribution survey, population estimate or long-term trend analysis. The English common-name label follows MDD; the Chinese label is an editorial translation. This guide is not externally expert-reviewed.
+This page summarizes the 2022 genetic study abstract and the authors' taxonomic interpretation; it is not a complete distribution survey, population estimate or long-term trend analysis. The English common-name label follows MDD; the Chinese label is an editorial translation. This guide is.
 <!-- /evo:text -->

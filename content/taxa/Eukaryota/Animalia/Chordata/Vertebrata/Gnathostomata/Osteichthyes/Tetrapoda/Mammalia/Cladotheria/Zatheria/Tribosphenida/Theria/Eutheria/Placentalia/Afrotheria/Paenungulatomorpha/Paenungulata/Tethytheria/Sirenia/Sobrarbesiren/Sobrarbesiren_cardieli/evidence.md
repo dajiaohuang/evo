@@ -9,7 +9,6 @@ records:
     name:
       zh: Sobrarbesiren cardieli
       en: Sobrarbesiren cardieli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

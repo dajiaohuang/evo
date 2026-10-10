@@ -9,7 +9,6 @@ records:
     name:
       zh: Glis guerbuezi
       en: Glis guerbuezi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

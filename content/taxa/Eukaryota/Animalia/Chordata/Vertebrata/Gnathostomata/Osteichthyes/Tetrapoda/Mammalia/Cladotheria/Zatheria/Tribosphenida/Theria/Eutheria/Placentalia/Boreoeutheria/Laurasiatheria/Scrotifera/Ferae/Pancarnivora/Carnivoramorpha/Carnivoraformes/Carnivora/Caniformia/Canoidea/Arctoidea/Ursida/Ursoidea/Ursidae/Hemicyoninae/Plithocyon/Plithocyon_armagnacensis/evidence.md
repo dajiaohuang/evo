@@ -9,7 +9,6 @@ records:
     name:
       zh: Plithocyon armagnacensis
       en: Plithocyon armagnacensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

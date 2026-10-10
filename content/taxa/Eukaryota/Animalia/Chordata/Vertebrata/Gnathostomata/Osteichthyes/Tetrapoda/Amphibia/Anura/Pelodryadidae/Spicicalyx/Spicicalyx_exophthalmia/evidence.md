@@ -9,7 +9,6 @@ records:
     name:
       en: Spicicalyx exophthalmia
       zh: Spicicalyx exophthalmia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

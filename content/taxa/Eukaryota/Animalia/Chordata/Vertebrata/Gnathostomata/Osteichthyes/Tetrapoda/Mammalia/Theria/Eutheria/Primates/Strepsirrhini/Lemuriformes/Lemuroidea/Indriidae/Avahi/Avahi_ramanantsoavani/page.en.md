@@ -16,5 +16,5 @@ The 2006 eastern-Avahi paper described the Manombo population as A. meridionalis
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The source material is tied to the Manombo type series; this account does not infer a wider current range. This page has not received external expert review. This page is not externally expert-reviewed.
+The source material is tied to the Manombo type series; this account does not infer a wider current range. This page. This page is.
 <!-- /evo:text -->

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cimolodon electus
       en: Cimolodon electus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

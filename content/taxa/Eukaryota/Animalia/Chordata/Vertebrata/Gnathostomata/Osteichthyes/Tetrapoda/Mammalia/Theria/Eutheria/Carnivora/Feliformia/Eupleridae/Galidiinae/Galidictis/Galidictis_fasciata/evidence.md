@@ -9,7 +9,6 @@ records:
     name:
       zh: Galidictis fasciata
       en: Galidictis fasciata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhinolophus sinicus
       en: Rhinolophus sinicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

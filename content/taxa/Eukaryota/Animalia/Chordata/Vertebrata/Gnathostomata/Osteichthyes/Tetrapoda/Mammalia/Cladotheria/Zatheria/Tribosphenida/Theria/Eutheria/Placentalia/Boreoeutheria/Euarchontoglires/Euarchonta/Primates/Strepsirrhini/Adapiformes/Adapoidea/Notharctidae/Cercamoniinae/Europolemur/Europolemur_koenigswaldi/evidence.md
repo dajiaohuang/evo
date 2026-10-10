@@ -9,7 +9,6 @@ records:
     name:
       zh: Europolemur koenigswaldi
       en: Europolemur koenigswaldi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

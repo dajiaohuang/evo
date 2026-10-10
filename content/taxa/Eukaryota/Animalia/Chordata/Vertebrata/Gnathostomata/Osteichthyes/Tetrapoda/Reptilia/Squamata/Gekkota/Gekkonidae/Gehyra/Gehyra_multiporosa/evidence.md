@@ -9,7 +9,6 @@ records:
     name:
       zh: Gehyra multiporosa
       en: Gehyra multiporosa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

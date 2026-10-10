@@ -9,7 +9,6 @@ records:
     name:
       en: Atopophrynus syntomopus
       zh: Atopophrynus syntomopus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

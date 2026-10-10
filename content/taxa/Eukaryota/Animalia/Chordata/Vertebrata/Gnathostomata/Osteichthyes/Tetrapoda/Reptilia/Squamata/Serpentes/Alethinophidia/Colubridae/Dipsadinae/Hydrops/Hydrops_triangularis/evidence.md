@@ -9,7 +9,6 @@ records:
     name:
       zh: Hydrops triangularis
       en: Hydrops triangularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

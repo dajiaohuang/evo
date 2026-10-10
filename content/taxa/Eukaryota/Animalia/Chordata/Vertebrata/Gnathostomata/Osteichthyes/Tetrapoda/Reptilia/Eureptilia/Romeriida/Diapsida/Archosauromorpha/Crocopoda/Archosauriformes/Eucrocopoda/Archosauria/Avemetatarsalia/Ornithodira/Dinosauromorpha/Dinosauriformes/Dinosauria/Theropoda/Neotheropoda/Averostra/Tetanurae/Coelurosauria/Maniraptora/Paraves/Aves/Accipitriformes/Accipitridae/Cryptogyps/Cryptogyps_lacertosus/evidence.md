@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptogyps lacertosus
       en: Cryptogyps lacertosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Teyujagua
       en: Teyujagua
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

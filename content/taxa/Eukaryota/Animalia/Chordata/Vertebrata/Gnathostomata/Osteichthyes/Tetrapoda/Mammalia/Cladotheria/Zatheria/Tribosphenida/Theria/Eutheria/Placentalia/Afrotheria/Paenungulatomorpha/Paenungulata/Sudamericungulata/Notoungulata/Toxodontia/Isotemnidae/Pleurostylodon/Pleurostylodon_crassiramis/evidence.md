@@ -9,7 +9,6 @@ records:
     name:
       zh: Pleurostylodon crassiramis
       en: Pleurostylodon crassiramis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Scytalopus latrans
       en: Scytalopus latrans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

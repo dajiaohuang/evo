@@ -9,7 +9,6 @@ records:
     name:
       en: Spinomantis beckei
       zh: Spinomantis beckei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

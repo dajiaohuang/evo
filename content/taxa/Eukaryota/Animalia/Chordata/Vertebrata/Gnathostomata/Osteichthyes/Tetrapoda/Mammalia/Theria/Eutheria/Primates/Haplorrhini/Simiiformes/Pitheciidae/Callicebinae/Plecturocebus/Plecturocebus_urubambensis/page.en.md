@@ -28,5 +28,5 @@ The species was described as Callicebus urubambensis in 2015; COL26.8 accepts Pl
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-The original field survey was brief, and part of the range is a hypothesis based on sparse records; rivers are not treated as proven biogeographic barriers. The Chinese name is editorial; this guide is not externally expert-reviewed.
+The original field survey was brief, and part of the range is a hypothesis based on sparse records; rivers are not treated as proven biogeographic barriers. The Chinese name is editorial; this guide is.
 <!-- /evo:text -->

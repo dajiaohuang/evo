@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: blanke-wesener-2014-diplopoda DOI 10.1016/j.asd.2013.10.003; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: blanke-wesener-2014-diplopoda
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: brookfield-2025 + almond-lawson-1985 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: brookfield-2025-kampecaris-age
           relation: supports
@@ -97,7 +91,6 @@ records:
           locator: Abstract; section 1 and geological-age synthesis; Kampecaris obanensis dated to 425.5 ± 4.5 Ma
         - referenceId: almond-lawson-1985-paleozoic-millipedes
           locator: pp. 227–237; review of questionable pre-Pridoli records and reliable latest Silurian–Lower Devonian Diplopoda
-      reviewStatus: automated-audit-passed
 ---
 
 # Diplopoda

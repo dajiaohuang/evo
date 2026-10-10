@@ -9,7 +9,6 @@ records:
     name:
       zh: Taterillus petteri
       en: Taterillus petteri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

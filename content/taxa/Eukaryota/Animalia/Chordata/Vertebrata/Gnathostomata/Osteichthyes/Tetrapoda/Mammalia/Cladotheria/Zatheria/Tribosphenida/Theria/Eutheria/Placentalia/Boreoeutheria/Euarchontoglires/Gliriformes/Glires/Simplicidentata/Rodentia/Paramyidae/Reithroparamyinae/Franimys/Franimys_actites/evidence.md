@@ -9,7 +9,6 @@ records:
     name:
       zh: Franimys actites
       en: Franimys actites
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

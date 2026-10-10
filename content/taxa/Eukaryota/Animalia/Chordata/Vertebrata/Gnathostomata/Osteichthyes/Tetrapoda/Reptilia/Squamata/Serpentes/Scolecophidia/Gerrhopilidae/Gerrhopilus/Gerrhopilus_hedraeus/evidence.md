@@ -9,7 +9,6 @@ records:
     name:
       zh: Gerrhopilus hedraeus
       en: Gerrhopilus hedraeus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

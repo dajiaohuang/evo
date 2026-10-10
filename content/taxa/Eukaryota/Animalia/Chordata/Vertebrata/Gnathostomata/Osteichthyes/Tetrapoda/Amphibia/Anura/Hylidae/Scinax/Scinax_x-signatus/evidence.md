@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax x-signatus
       zh: Scinax x-signatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

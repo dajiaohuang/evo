@@ -9,7 +9,6 @@ records:
     name:
       zh: Coscoroba coscoroba
       en: Coscoroba coscoroba
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

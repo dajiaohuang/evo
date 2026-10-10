@@ -9,7 +9,6 @@ records:
     name:
       zh: Aptornis defossor
       en: Aptornis defossor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

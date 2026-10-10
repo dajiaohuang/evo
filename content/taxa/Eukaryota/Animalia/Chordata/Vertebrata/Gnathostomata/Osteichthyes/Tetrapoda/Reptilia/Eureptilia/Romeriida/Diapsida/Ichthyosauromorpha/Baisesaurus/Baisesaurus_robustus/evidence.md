@@ -9,7 +9,6 @@ records:
     name:
       zh: Baisesaurus robustus
       en: Baisesaurus robustus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

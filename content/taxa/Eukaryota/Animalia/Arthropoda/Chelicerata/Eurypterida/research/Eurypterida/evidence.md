@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: lamsdell-2015-pentecopterus-eurypterid DOI 10.1186/s12862-015-0443-9; concrete-locator audit at 2026.08-static-v5-rc44
       referenceLinks:
         - relation: supports
           referenceId: lamsdell-2015-pentecopterus-eurypterid
@@ -81,9 +78,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: van-roy-2025 + tetlie-2007 locator audit at 2026-08-31
       referenceLinks:
         - referenceId: van-roy-2025-fezouata-eurypterids
           relation: supports
@@ -109,11 +103,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/2/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: van-roy-2025-fezouata-eurypterids
           relation: supports
@@ -137,11 +126,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: van-roy-2025-fezouata-eurypterids
           relation: supports
@@ -165,11 +149,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/4/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: van-roy-2025-fezouata-eurypterids
           relation: supports
@@ -193,11 +172,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/5/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-11
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/5/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: van-roy-2025-fezouata-eurypterids
           relation: supports
@@ -254,7 +228,6 @@ records:
             field: /records/ranges/0/referenceLocators/0/locator
         - referenceId: tetlie-2007-eurypterid-history
           locator: pp. 557–574; Abstract and Introduction; Tables 1–7; reviewed latest Late Permian Russian record at approximately 250 Ma
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

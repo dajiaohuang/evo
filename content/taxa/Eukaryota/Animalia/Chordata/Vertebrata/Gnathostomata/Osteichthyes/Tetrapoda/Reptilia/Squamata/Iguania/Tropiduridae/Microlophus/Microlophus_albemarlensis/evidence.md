@@ -9,7 +9,6 @@ records:
     name:
       zh: Microlophus albemarlensis
       en: Microlophus albemarlensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

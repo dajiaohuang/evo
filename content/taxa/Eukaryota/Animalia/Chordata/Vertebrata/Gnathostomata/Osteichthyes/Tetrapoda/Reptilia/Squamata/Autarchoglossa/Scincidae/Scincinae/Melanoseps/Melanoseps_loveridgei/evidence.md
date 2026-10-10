@@ -9,7 +9,6 @@ records:
     name:
       zh: Melanoseps loveridgei
       en: Melanoseps loveridgei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

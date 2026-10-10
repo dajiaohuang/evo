@@ -61,9 +61,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Simões et al. 2018 DOI 10.1038/s41586-018-0093-3; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: simoes-2018-megachirella
           relation: supports
@@ -82,11 +79,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/1/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: simoes-2018-megachirella
           relation: supports
@@ -115,11 +107,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/2/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: simoes-2018-megachirella
           relation: supports
@@ -150,11 +137,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/3/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: simoes-2018-megachirella
           relation: supports
@@ -183,11 +165,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion:
-        markdown: evidence.md
-        field: /records/claims/4/reviewedAgainstReferenceVersion
       referenceLinks:
         - referenceId: simoes-2018-megachirella
           relation: supports
@@ -249,7 +226,6 @@ records:
       referenceLocators:
         - referenceId: simoes-2018-megachirella
           locator: pp. 706–709; Figures 1–2; Extended Data Figures 1–8; geological age, CT anatomy and combined-evidence analyses
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

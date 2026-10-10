@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus doisuthep
       en: Cyrtodactylus doisuthep
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

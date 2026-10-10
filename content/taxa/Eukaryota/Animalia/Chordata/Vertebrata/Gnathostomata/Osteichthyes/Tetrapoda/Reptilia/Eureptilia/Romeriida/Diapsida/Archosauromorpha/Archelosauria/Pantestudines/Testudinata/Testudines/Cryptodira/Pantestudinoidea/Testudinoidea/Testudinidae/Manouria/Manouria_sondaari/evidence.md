@@ -9,7 +9,6 @@ records:
     name:
       zh: Manouria sondaari
       en: Manouria sondaari
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

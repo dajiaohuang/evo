@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella pyrrhops
       zh: Leptobrachella pyrrhops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

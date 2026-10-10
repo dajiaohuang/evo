@@ -9,7 +9,6 @@ records:
     name:
       zh: Sazlestes
       en: Sazlestes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

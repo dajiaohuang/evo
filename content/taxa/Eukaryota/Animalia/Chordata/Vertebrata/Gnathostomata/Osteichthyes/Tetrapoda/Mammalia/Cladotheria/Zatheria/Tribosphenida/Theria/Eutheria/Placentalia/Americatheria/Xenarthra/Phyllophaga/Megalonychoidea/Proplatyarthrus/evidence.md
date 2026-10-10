@@ -9,7 +9,6 @@ records:
     name:
       zh: Proplatyarthrus
       en: Proplatyarthrus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

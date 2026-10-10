@@ -9,7 +9,6 @@ records:
     name:
       en: Hyperolius cinnamomeoventris
       zh: Hyperolius cinnamomeoventris
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

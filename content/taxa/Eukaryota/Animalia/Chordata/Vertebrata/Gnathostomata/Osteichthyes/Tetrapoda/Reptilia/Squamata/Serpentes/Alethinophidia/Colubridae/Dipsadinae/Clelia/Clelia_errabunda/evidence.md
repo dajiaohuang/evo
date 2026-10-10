@@ -9,7 +9,6 @@ records:
     name:
       zh: Clelia errabunda
       en: Clelia errabunda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

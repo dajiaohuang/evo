@@ -9,7 +9,6 @@ records:
     name:
       en: Sandyrana multicolor
       zh: Sandyrana multicolor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

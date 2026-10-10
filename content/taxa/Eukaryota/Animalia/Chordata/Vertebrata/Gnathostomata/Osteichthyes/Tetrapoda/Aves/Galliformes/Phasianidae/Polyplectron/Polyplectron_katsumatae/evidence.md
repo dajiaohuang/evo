@@ -9,7 +9,6 @@ records:
     name:
       zh: Polyplectron katsumatae
       en: Polyplectron katsumatae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

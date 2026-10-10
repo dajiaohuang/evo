@@ -28,7 +28,7 @@ Start with the single-group Caquetá observations and seasonal Amanã surveys fo
 ## Scope of the evidence
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This introduction is limited to the seven accepted species in pinned COL26.8. Exact-name joins to the local MDD v2.5 sidecar are unmatched for all seven; this is not used to infer biological taxonomy. Common names follow source usage or editorial display choices; Chinese renderings are editorial. Content has not received external expert review.
+This introduction is limited to the seven accepted species in pinned COL26.8. Exact-name joins to the local MDD v2.5 sidecar are unmatched for all seven; this is not used to infer biological taxonomy. Common names follow source usage or editorial display choices; Chinese renderings are editorial.
 <!-- /evo:text -->
 
 ## Check samples and captions in a species description

@@ -9,7 +9,6 @@ records:
     name:
       zh: Stilpnodon simplicidens
       en: Stilpnodon simplicidens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

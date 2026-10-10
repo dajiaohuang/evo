@@ -9,7 +9,6 @@ records:
     name:
       zh: Acratophorus argentinensis
       en: Acratophorus argentinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

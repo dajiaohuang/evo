@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidechis
       en: Tropidechis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

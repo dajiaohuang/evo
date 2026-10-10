@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus asterulus
       en: Sphaerodactylus asterulus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

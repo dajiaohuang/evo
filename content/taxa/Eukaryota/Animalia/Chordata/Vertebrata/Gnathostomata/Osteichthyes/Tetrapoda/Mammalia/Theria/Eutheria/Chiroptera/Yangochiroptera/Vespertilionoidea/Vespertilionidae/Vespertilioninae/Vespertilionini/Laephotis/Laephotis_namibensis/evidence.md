@@ -9,7 +9,6 @@ records:
     name:
       zh: Laephotis namibensis
       en: Laephotis namibensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

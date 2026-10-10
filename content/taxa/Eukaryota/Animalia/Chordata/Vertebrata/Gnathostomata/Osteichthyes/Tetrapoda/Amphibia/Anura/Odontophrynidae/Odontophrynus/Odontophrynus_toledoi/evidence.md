@@ -9,7 +9,6 @@ records:
     name:
       en: Odontophrynus toledoi
       zh: Odontophrynus toledoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

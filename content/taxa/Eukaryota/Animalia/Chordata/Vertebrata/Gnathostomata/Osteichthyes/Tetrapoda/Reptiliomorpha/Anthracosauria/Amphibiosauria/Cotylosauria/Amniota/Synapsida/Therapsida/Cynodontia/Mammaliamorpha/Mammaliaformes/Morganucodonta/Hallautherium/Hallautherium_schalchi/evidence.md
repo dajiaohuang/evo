@@ -9,7 +9,6 @@ records:
     name:
       zh: Hallautherium schalchi
       en: Hallautherium schalchi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Speleomantes italicus
       zh: Speleomantes italicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

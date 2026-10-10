@@ -9,7 +9,6 @@ records:
     name:
       zh: Patagoniaemys gasparinae
       en: Patagoniaemys gasparinae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

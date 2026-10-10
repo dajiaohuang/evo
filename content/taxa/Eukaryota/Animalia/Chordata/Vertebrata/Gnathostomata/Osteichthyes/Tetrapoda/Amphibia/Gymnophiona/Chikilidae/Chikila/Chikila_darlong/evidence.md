@@ -9,7 +9,6 @@ records:
     name:
       en: Chikila darlong
       zh: Chikila darlong
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

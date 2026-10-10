@@ -9,7 +9,6 @@ records:
     name:
       zh: Paracosoryx wilsoni
       en: Paracosoryx wilsoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

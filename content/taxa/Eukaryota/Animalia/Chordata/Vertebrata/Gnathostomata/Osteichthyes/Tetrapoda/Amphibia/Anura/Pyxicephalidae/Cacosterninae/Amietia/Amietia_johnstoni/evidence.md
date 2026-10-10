@@ -9,7 +9,6 @@ records:
     name:
       en: Amietia johnstoni
       zh: Amietia johnstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

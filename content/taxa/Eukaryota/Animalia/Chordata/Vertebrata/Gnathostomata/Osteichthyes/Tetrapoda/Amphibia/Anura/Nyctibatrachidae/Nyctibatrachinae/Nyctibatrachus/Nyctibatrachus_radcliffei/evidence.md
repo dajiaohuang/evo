@@ -9,7 +9,6 @@ records:
     name:
       en: Nyctibatrachus radcliffei
       zh: Nyctibatrachus radcliffei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

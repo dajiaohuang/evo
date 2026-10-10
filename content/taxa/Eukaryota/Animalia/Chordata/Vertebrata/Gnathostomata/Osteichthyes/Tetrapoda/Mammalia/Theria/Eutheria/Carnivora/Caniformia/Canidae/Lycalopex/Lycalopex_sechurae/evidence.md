@@ -9,7 +9,6 @@ records:
     name:
       zh: Lycalopex sechurae
       en: Lycalopex sechurae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

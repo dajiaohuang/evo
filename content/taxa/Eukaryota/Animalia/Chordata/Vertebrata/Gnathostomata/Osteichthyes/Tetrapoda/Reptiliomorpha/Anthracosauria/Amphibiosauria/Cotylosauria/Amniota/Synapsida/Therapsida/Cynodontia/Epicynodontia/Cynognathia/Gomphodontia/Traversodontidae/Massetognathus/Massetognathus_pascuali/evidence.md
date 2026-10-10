@@ -9,7 +9,6 @@ records:
     name:
       zh: Massetognathus pascuali
       en: Massetognathus pascuali
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

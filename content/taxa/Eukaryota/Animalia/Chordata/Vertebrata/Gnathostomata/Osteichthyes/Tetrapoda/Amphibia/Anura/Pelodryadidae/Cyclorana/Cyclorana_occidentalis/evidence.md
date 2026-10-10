@@ -9,7 +9,6 @@ records:
     name:
       en: Cyclorana occidentalis
       zh: Cyclorana occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

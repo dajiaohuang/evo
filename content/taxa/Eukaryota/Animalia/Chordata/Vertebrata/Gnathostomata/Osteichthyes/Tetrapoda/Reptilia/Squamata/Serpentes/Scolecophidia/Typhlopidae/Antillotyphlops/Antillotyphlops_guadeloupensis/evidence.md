@@ -9,7 +9,6 @@ records:
     name:
       zh: Antillotyphlops guadeloupensis
       en: Antillotyphlops guadeloupensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Choeronycterina
       en: Choeronycterina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

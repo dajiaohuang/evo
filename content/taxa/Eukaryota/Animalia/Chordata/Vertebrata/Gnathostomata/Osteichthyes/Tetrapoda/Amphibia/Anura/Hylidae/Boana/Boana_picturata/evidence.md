@@ -9,7 +9,6 @@ records:
     name:
       en: Boana picturata
       zh: Boana picturata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

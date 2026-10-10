@@ -9,7 +9,6 @@ records:
     name:
       en: Leptobrachella tengchongensis
       zh: Leptobrachella tengchongensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptovaranoides microlanius
       en: Cryptovaranoides microlanius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

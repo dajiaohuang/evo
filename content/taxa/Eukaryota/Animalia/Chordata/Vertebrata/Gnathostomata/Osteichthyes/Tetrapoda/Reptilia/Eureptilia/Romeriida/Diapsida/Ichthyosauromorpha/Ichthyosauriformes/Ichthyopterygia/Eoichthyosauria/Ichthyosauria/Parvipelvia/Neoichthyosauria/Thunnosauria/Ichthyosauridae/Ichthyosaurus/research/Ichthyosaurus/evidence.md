@@ -63,9 +63,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: lomax-massare-2017-ichthyosaurus
           relation: supports
@@ -84,9 +81,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: lomax-massare-2017-ichthyosaurus
           relation: supports
@@ -105,9 +99,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: lomax-massare-2017-ichthyosaurus
           relation: supports
@@ -126,9 +117,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: lomax-massare-2017-ichthyosaurus
           relation: supports
@@ -147,9 +135,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas automated evidence decomposition
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.09-static-v5-rc154
       referenceLinks:
         - referenceId: lomax-massare-2017-ichthyosaurus
           relation: contextualizes
@@ -210,7 +195,6 @@ records:
       referenceLocators:
         - referenceId: lomax-massare-2017-ichthyosaurus
           locator: pp. 1–20; Hettangian localities; Figures 1–10
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
     - entityPath: content/taxa/Eukaryota/Animalia/Chordata/Vertebrata/Gnathostomata/Osteichthyes/Tetrapoda/Reptilia/Eureptilia/Romeriida/Diapsida/Ichthyosauromorpha/Ichthyosauriformes/Ichthyopterygia/Eoichthyosauria/Ichthyosauria/Parvipelvia/Neoichthyosauria/Thunnosauria/Ichthyosauridae/Ichthyosaurus/research/Ichthyosaurus
       rangeKind: taxon-range
@@ -234,7 +218,6 @@ records:
       referenceLocators:
         - referenceId: lomax-massare-2017-ichthyosaurus
           locator: pp. 1–20; Hettangian localities; Figures 1–10
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

@@ -9,7 +9,6 @@ records:
     name:
       zh: Arborophila davidi
       en: Arborophila davidi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

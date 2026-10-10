@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis erythroinguinis
       zh: Pristimantis erythroinguinis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Paedophryne swiftorum
       zh: Paedophryne swiftorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

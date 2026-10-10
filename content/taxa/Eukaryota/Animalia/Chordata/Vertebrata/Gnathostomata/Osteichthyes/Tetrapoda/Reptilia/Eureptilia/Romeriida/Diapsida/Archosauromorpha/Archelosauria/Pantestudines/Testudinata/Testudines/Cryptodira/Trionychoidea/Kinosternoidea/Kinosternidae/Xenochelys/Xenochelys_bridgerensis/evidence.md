@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenochelys bridgerensis
       en: Xenochelys bridgerensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Aparallactus nigriceps
       en: Aparallactus nigriceps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

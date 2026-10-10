@@ -9,7 +9,6 @@ records:
     name:
       zh: Hoplocetus ritzi
       en: Hoplocetus ritzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

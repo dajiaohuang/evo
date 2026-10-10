@@ -9,7 +9,6 @@ records:
     name:
       zh: Messelirrisor grandis
       en: Messelirrisor grandis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

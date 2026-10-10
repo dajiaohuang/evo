@@ -9,7 +9,6 @@ records:
     name:
       zh: 金发蒂蒂猴
       en: Blond Titi Monkey
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

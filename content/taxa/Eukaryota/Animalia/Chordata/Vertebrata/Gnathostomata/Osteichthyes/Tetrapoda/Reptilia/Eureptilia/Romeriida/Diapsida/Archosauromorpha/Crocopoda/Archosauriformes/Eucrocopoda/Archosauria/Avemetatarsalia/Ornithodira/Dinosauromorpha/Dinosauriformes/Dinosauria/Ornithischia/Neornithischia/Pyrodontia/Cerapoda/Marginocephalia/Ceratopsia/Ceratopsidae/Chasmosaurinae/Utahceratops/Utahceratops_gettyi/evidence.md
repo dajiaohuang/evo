@@ -9,7 +9,6 @@ records:
     name:
       zh: Utahceratops gettyi
       en: Utahceratops gettyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

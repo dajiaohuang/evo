@@ -9,7 +9,6 @@ records:
     name:
       en: Uperoleia aspera
       zh: Uperoleia aspera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

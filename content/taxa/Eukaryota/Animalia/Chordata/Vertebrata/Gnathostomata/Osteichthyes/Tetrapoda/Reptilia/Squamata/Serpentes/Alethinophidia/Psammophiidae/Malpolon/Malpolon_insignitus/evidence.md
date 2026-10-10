@@ -9,7 +9,6 @@ records:
     name:
       zh: Malpolon insignitus
       en: Malpolon insignitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

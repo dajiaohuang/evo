@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemitragus jemlahicus
       en: Hemitragus jemlahicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

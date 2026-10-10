@@ -9,7 +9,6 @@ records:
     name:
       zh: Calumma fallax
       en: Calumma fallax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

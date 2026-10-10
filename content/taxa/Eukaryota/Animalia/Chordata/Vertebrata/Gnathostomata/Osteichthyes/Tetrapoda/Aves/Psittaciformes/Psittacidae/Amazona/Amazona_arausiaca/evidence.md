@@ -9,7 +9,6 @@ records:
     name:
       zh: Amazona arausiaca
       en: Amazona arausiaca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

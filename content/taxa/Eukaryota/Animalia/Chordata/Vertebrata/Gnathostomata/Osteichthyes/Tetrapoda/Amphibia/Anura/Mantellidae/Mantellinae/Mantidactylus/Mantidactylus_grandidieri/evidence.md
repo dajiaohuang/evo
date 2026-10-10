@@ -9,7 +9,6 @@ records:
     name:
       en: Mantidactylus grandidieri
       zh: Mantidactylus grandidieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

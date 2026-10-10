@@ -9,7 +9,6 @@ records:
     name:
       zh: Tetracynodon tenuis
       en: Tetracynodon tenuis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Ctenophryne minor
       zh: Ctenophryne minor
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

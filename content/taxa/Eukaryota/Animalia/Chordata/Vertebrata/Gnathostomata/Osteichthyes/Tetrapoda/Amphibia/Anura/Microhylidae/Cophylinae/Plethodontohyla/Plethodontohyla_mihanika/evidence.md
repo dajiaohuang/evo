@@ -9,7 +9,6 @@ records:
     name:
       en: Plethodontohyla mihanika
       zh: Plethodontohyla mihanika
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

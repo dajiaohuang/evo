@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudemoia entrecasteauxii
       en: Pseudemoia entrecasteauxii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

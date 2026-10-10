@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis schultei
       zh: Pristimantis schultei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

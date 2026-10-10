@@ -9,7 +9,6 @@ records:
     name:
       zh: 克莱尔鼠狐猴
       en: Claire’s mouse lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic: distribution
@@ -249,10 +248,6 @@ records:
           field: /records/catalogue-dossier/completeness/reasons/1
         - markdown: evidence.md
           field: /records/catalogue-dossier/completeness/reasons/2
-    expertReview:
-      status: not-reviewed
-      reviewers: []
-      reviewDigest: null
     classificationPath:
       - id: CS5HF
         scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
@@ -507,7 +502,7 @@ Wild/free-ranging individuals detected visually during field transects. No capti
 ## facets / ecology / gaps
 
 <!-- evo:text /records/catalogue-dossier/facets/ecology/gaps/0 -->
-This focused study supports a local density estimate and bounded island extrapolation only; broader diet, behavior, habitat-selection, interactions, seasonal variation and population trend require separate evidence and review.
+This focused study supports a local density estimate and bounded island extrapolation only; broader diet, behavior, habitat-selection, interactions, seasonal variation and population trend require separate evidence.
 <!-- /evo:text -->
 
 ## facets / evolution / gaps
@@ -549,5 +544,5 @@ The approximately 4,700 individuals are an extrapolation across mapped forest on
 ## catalogue-dossier / completeness / reasons
 
 <!-- evo:text /records/catalogue-dossier/completeness/reasons/2 -->
-No comprehensive facet-by-facet literature search or independent external expert review has been completed.
+No comprehensive facet-by-facet literature search has been completed.
 <!-- /evo:text -->

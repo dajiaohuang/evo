@@ -9,7 +9,6 @@ records:
     name:
       zh: Thrichomys pachyurus
       en: Thrichomys pachyurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-分子证据来自少量东苏门答腊粪样和线粒体标记；旧研究采用亚种名，页面身份遵循 COL26.8。本页尚未经过外部领域专家评审。
+分子证据来自少量东苏门答腊粪样和线粒体标记；旧研究采用亚种名，页面身份遵循 COL26.8。。
 <!-- /evo:text -->

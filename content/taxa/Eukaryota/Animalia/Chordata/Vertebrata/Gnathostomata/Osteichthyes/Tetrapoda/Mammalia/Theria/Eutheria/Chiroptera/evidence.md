@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: simmons-2008-onychonycteris primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: simmons-2008-onychonycteris
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: simmons-2008-onychonycteris
           locator: pp. 818–821; Figures 1–4; Supplementary Figures 1–10
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Chiroptera
@@ -73,7 +69,6 @@ records:
     name:
       zh: Chiroptera
       en: Chiroptera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

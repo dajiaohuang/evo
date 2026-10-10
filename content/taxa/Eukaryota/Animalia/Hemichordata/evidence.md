@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: yang-2025-yunotubus, halanych-1993-rhabdopleura-feeding primary-study locators checked for 2026.08-static-v5-rc41
       referenceLinks:
         - referenceId: yang-2025-yunotubus
           relation: supports
@@ -72,7 +69,6 @@ records:
           locator: Figures 1–5; Geological setting; Systematic palaeontology; phylogenetic analyses
         - referenceId: halanych-1993-rhabdopleura-feeding
           locator: pp. 417–427; living Rhabdopleura video and electron-microscopy observations
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

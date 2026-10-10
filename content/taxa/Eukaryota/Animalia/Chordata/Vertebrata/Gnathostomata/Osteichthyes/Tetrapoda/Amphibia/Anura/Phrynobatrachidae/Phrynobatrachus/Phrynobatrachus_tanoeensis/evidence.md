@@ -9,7 +9,6 @@ records:
     name:
       en: Phrynobatrachus tanoeensis
       zh: Phrynobatrachus tanoeensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

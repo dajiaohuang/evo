@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus quinkan
       en: Ctenotus quinkan
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

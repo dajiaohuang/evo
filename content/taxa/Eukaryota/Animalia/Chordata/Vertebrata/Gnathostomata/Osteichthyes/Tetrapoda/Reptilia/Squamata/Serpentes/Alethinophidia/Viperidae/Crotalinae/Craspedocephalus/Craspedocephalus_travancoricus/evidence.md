@@ -9,7 +9,6 @@ records:
     name:
       zh: Craspedocephalus travancoricus
       en: Craspedocephalus travancoricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

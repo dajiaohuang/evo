@@ -9,7 +9,6 @@ records:
     name:
       zh: Trachelosaurus fischeri
       en: Trachelosaurus fischeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

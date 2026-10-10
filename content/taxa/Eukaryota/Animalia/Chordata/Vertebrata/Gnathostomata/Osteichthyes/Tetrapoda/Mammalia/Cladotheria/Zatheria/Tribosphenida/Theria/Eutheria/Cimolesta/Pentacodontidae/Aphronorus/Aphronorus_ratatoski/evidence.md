@@ -9,7 +9,6 @@ records:
     name:
       zh: Aphronorus ratatoski
       en: Aphronorus ratatoski
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

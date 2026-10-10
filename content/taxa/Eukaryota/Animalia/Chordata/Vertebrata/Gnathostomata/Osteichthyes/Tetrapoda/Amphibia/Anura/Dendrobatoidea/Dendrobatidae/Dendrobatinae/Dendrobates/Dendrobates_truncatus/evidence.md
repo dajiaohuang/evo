@@ -9,7 +9,6 @@ records:
     name:
       en: Dendrobates truncatus
       zh: Dendrobates truncatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

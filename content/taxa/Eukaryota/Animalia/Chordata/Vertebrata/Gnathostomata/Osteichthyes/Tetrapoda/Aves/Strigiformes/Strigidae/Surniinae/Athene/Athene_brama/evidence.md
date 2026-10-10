@@ -9,7 +9,6 @@ records:
     name:
       zh: Athene brama
       en: Athene brama
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

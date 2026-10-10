@@ -9,7 +9,6 @@ records:
     name:
       zh: Laephotis wintoni
       en: Laephotis wintoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

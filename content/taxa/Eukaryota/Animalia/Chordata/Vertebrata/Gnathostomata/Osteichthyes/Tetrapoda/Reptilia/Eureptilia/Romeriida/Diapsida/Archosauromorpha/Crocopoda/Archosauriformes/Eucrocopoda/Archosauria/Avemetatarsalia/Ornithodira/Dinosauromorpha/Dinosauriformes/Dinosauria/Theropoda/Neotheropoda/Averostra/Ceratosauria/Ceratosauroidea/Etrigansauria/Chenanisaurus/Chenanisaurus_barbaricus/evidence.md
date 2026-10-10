@@ -9,7 +9,6 @@ records:
     name:
       zh: Chenanisaurus barbaricus
       en: Chenanisaurus barbaricus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

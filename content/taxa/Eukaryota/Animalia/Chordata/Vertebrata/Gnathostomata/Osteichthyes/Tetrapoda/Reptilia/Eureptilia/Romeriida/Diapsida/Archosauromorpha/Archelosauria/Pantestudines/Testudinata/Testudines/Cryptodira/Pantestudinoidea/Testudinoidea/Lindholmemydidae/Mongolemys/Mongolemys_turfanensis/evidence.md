@@ -9,7 +9,6 @@ records:
     name:
       zh: Mongolemys turfanensis
       en: Mongolemys turfanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

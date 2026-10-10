@@ -9,7 +9,6 @@ records:
     name:
       zh: Megaconus mammaliaformis
       en: Megaconus mammaliaformis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

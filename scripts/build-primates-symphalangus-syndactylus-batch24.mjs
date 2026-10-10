@@ -194,10 +194,10 @@ const record = {
     reasons: [
       'One regional mitochondrial-marker study supports only a bounded evolutionary claim.',
       'Six facets remain not assessed; the evolutionary claim is not genome-wide, range-wide, or independently reviewed.',
-      'A systematic multi-source search and expert review are incomplete.',
+      'A systematic multi-source search are incomplete.',
     ],
   },
-  expertReview: { status: 'not-reviewed', reviewers: [], reviewDigest: null },
+
 }
 assert.ok(record.facets.evolution.claims[0].sourceIds.every(sourceId => sources.find(item => item.id === sourceId)?.licenseAssessment === 'item-level-verified'))
 

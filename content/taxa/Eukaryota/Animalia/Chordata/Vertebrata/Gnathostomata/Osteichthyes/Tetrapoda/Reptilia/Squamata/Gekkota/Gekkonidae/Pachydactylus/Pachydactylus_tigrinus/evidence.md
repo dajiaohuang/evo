@@ -9,7 +9,6 @@ records:
     name:
       zh: Pachydactylus tigrinus
       en: Pachydactylus tigrinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

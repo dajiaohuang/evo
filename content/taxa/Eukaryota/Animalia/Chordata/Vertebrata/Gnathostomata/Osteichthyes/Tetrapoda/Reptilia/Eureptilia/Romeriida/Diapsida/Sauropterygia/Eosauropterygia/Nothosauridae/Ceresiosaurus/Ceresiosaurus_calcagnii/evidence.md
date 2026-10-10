@@ -9,7 +9,6 @@ records:
     name:
       zh: Ceresiosaurus calcagnii
       en: Ceresiosaurus calcagnii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

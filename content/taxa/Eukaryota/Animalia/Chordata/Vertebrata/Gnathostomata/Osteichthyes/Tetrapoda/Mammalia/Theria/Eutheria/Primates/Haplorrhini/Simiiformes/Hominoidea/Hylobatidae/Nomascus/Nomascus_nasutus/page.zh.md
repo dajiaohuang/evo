@@ -16,5 +16,5 @@ status: migrated-verbatim
 ## 资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-未经过外部领域专家评审。这是对一片跨境残存林区的种群估计，且未计入数量未知的独居扩散者；不能把它解读为所有历史或可能分布点的普查。
+。这是对一片跨境残存林区的种群估计，且未计入数量未知的独居扩散者；不能把它解读为所有历史或可能分布点的普查。
 <!-- /evo:text -->

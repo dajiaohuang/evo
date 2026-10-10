@@ -9,7 +9,6 @@ records:
     name:
       zh: Doliornis sclateri
       en: Doliornis sclateri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

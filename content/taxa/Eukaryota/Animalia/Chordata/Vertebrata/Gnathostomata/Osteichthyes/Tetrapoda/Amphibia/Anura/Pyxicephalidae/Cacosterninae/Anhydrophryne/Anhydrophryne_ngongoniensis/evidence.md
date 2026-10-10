@@ -9,7 +9,6 @@ records:
     name:
       en: Anhydrophryne ngongoniensis
       zh: Anhydrophryne ngongoniensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

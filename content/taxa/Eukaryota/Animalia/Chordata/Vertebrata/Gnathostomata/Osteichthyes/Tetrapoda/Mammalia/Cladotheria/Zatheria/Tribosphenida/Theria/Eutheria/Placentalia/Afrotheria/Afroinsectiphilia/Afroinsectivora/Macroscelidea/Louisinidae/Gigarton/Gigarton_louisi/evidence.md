@@ -9,7 +9,6 @@ records:
     name:
       zh: Gigarton louisi
       en: Gigarton louisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

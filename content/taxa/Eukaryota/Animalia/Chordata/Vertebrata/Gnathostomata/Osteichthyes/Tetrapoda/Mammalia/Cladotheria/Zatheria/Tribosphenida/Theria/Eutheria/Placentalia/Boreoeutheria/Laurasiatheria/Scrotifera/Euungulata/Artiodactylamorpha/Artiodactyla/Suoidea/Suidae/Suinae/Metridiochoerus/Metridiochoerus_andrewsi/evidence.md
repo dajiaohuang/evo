@@ -9,7 +9,6 @@ records:
     name:
       zh: Metridiochoerus andrewsi
       en: Metridiochoerus andrewsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

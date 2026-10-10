@@ -9,7 +9,6 @@ records:
     name:
       zh: Amblyolacerta dolnicensis
       en: Amblyolacerta dolnicensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

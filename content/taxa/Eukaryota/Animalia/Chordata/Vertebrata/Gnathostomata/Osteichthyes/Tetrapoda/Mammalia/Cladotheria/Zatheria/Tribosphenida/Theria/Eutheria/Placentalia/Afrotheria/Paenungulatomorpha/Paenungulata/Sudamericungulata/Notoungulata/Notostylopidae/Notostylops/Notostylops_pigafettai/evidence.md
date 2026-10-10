@@ -9,7 +9,6 @@ records:
     name:
       zh: Notostylops pigafettai
       en: Notostylops pigafettai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

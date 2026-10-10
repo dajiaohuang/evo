@@ -9,7 +9,6 @@ records:
     name:
       zh: Ninia franciscoi
       en: Ninia franciscoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

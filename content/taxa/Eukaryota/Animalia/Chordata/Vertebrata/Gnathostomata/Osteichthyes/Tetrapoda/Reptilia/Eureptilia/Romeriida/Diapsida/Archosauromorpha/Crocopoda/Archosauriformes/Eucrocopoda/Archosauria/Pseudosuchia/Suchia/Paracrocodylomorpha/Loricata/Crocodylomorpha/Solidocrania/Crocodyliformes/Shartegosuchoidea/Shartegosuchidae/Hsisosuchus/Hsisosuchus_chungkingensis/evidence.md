@@ -9,7 +9,6 @@ records:
     name:
       zh: Hsisosuchus chungkingensis
       en: Hsisosuchus chungkingensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

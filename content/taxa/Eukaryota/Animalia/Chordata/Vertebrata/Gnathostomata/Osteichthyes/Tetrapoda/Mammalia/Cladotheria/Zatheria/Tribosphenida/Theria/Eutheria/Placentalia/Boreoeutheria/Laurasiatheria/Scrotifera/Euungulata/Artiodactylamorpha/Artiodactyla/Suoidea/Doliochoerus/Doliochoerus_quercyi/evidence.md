@@ -9,7 +9,6 @@ records:
     name:
       zh: Doliochoerus quercyi
       en: Doliochoerus quercyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

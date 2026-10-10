@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana leptoglossa
       zh: Hylarana leptoglossa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

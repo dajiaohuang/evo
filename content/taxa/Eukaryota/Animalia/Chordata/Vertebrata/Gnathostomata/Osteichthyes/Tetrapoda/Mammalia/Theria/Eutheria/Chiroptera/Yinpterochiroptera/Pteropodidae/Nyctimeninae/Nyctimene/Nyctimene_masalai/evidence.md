@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctimene masalai
       en: Nyctimene masalai
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

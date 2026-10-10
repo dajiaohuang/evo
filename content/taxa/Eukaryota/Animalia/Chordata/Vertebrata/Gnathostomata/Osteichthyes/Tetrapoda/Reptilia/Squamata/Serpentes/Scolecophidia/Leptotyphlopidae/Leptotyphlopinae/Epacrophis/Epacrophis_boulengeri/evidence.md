@@ -9,7 +9,6 @@ records:
     name:
       zh: Epacrophis boulengeri
       en: Epacrophis boulengeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

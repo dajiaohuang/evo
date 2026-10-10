@@ -9,7 +9,6 @@ records:
     name:
       zh: Diadiaphorus majusculus
       en: Diadiaphorus majusculus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

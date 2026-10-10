@@ -9,7 +9,6 @@ records:
     name:
       en: Osornophryne cofanorum
       zh: Osornophryne cofanorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

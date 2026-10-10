@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pardalis
       zh: Pristimantis pardalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

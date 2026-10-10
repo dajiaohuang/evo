@@ -9,7 +9,6 @@ records:
     name:
       zh: Protamandua rothi
       en: Protamandua rothi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

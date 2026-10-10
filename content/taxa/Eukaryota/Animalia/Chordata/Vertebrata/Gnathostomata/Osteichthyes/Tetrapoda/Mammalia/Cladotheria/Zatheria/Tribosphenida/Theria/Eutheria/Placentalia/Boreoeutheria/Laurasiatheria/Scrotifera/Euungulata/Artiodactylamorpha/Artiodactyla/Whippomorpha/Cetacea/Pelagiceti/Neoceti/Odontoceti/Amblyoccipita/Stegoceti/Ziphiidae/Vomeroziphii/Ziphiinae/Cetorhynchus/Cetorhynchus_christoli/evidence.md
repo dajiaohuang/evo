@@ -9,7 +9,6 @@ records:
     name:
       zh: Cetorhynchus christoli
       en: Cetorhynchus christoli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

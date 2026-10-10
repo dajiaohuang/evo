@@ -9,7 +9,6 @@ records:
     name:
       zh: Vipera
       en: Vipera
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

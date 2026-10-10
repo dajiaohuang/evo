@@ -9,7 +9,6 @@ records:
     name:
       zh: Echis hughesi
       en: Echis hughesi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

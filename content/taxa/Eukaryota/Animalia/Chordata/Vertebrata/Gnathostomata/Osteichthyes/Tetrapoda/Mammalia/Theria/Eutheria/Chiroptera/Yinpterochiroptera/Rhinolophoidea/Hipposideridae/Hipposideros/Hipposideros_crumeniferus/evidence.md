@@ -9,7 +9,6 @@ records:
     name:
       zh: Hipposideros crumeniferus
       en: Hipposideros crumeniferus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

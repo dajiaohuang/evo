@@ -9,7 +9,6 @@ records:
     name:
       zh: Ursavus brevirhinus
       en: Ursavus brevirhinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

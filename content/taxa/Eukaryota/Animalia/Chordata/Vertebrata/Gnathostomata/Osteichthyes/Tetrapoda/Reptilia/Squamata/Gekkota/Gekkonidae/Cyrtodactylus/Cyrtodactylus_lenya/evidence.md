@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus lenya
       en: Cyrtodactylus lenya
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

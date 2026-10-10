@@ -9,7 +9,6 @@ records:
     name:
       zh: Spizixos canifrons
       en: Spizixos canifrons
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

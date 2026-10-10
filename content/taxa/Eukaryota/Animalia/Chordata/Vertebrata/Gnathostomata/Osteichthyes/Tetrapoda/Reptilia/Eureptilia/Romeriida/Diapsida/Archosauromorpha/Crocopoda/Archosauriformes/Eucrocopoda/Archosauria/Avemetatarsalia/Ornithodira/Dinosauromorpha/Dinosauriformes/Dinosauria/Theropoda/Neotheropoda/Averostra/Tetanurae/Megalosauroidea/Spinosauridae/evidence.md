@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: hone-holtz-2017-spinosauridae-review concrete-locator audit at 2026.08-static-v5-rc42
       referenceLinks:
         - referenceId: hone-holtz-2017-spinosauridae-review
           relation: supports
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: hone-holtz-2017-spinosauridae-review @ DOI 10.1111/1755-6724.13328
       referenceLinks:
         - relation: supports
           referenceId: hone-holtz-2017-spinosauridae-review
@@ -96,7 +90,6 @@ records:
           locator: 1120–1132; Systematic revision; material quality; ecological evidence; Conclusions
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
   catalogue-profile:
     scientificName: Spinosauridae
@@ -105,7 +98,6 @@ records:
     name:
       zh: Spinosauridae
       en: Spinosauridae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Dendropsophus studerae
       zh: Dendropsophus studerae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

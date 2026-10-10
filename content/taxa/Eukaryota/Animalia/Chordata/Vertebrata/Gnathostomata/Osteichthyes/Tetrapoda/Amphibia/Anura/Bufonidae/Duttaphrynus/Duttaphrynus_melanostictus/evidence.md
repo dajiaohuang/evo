@@ -9,7 +9,6 @@ records:
     name:
       en: Duttaphrynus melanostictus
       zh: Duttaphrynus melanostictus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

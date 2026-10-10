@@ -56,9 +56,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas automated literature audit
-      reviewedAt: 2026-08-29
-      reviewedAgainstReferenceVersion: Bauer 2019 DOI 10.1111/pala.12439 and Paul 2021 DOI 10.1016/j.palaeo.2021.110482
       referenceLinks:
         - relation: supports
           referenceId: bauer-2019-macurdablastus
@@ -80,9 +77,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bauer-2019-macurdablastus at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: bauer-2019-macurdablastus
           relation: supports
@@ -101,9 +95,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: bauer-2019-macurdablastus
           relation: supports
@@ -124,9 +115,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: bauer-2019-macurdablastus
           relation: supports
@@ -147,9 +135,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: bauer-2019-macurdablastus and paul-2021-blastoid-hydrospires at 2026.08-static-v5-rc76
       referenceLinks:
         - referenceId: bauer-2019-macurdablastus
           relation: supports
@@ -206,7 +191,6 @@ records:
           locator: "p. 1003; Figures 1E–F and 2; Systematic palaeontology: Class Blastoidea"
         - referenceId: paul-2021-blastoid-hydrospires
           locator: Introduction, first paragraph
-      reviewStatus: not-reviewed
       evidenceLevel: literature-synthesized
 ---
 

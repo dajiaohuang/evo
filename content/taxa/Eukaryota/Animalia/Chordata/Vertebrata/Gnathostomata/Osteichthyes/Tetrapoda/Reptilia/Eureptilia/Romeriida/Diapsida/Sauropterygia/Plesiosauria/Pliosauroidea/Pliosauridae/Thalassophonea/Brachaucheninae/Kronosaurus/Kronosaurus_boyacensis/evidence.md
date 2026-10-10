@@ -9,7 +9,6 @@ records:
     name:
       zh: Kronosaurus boyacensis
       en: Kronosaurus boyacensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

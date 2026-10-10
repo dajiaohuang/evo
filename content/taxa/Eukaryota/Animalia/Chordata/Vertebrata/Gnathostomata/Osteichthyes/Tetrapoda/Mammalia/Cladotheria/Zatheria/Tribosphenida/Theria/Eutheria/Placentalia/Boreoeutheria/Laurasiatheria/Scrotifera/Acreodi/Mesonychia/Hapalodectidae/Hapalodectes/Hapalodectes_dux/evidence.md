@@ -9,7 +9,6 @@ records:
     name:
       zh: Hapalodectes dux
       en: Hapalodectes dux
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Galileomys antelucanus
       en: Galileomys antelucanus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

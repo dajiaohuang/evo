@@ -9,7 +9,6 @@ records:
     name:
       zh: Circaetus cinerascens
       en: Circaetus cinerascens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

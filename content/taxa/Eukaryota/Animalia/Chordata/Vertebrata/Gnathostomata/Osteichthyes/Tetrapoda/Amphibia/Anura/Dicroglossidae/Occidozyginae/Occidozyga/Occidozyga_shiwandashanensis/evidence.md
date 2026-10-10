@@ -9,7 +9,6 @@ records:
     name:
       en: Occidozyga shiwandashanensis
       zh: Occidozyga shiwandashanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

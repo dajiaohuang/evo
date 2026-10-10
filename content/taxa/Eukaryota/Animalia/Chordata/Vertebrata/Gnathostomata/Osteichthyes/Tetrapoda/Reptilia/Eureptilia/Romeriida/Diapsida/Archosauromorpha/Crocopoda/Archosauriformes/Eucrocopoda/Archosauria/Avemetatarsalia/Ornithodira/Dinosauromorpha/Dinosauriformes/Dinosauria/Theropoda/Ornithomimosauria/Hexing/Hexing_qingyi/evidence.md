@@ -9,7 +9,6 @@ records:
     name:
       zh: Hexing qingyi
       en: Hexing qingyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Rhinella inca
       zh: Rhinella inca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

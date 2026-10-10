@@ -9,7 +9,6 @@ records:
     name:
       zh: Sarmatosuchus otschevi
       en: Sarmatosuchus otschevi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

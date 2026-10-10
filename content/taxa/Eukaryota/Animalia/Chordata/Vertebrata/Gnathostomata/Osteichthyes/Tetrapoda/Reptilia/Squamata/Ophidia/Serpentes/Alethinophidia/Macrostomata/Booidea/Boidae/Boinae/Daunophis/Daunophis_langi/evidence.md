@@ -9,7 +9,6 @@ records:
     name:
       zh: Daunophis langi
       en: Daunophis langi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brabovus nanincisus
       en: Brabovus nanincisus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

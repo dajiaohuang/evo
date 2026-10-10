@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus funaiolii
       en: Hemidactylus funaiolii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

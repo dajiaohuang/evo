@@ -9,7 +9,6 @@ records:
     name:
       zh: Thereuodon dahmani
       en: Thereuodon dahmani
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

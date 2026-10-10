@@ -9,7 +9,6 @@ records:
     name:
       zh: 霍兰德运动狐猴
       en: Holland's Sportive Lemur
-    reviewStatus: source-linked
     checkedAt: 2026-09-30
     sections:
       - topic: morphology and field description

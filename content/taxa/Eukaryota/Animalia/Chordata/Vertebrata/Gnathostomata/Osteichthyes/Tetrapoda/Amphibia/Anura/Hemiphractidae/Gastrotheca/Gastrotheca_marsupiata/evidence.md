@@ -9,7 +9,6 @@ records:
     name:
       en: Gastrotheca marsupiata
       zh: Gastrotheca marsupiata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

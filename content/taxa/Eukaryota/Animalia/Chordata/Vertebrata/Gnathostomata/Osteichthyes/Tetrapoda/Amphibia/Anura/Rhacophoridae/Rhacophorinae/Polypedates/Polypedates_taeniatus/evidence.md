@@ -9,7 +9,6 @@ records:
     name:
       en: Polypedates taeniatus
       zh: Polypedates taeniatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

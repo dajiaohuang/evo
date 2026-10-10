@@ -9,7 +9,6 @@ records:
     name:
       zh: Ornithopsis hulkei
       en: Ornithopsis hulkei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

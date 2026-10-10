@@ -9,7 +9,6 @@ records:
     name:
       zh: Termastherium flacoensis
       en: Termastherium flacoensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

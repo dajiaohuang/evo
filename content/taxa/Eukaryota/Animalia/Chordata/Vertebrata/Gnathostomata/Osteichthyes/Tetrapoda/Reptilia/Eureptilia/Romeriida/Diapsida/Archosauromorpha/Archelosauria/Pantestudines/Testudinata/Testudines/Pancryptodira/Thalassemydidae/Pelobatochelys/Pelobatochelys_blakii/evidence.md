@@ -9,7 +9,6 @@ records:
     name:
       zh: Pelobatochelys blakii
       en: Pelobatochelys blakii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

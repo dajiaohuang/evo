@@ -9,7 +9,6 @@ records:
     name:
       zh: Xantusia vigilis
       en: Xantusia vigilis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

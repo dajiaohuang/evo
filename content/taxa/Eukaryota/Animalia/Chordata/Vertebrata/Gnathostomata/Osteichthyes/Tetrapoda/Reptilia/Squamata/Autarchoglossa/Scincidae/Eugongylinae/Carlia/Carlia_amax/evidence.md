@@ -9,7 +9,6 @@ records:
     name:
       zh: Carlia amax
       en: Carlia amax
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

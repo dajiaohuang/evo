@@ -9,7 +9,6 @@ records:
     name:
       zh: Tomistoma kerunense
       en: Tomistoma kerunense
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

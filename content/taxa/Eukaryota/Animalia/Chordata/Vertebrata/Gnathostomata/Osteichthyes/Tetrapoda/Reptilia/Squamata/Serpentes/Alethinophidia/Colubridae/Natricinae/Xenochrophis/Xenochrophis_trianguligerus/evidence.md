@@ -9,7 +9,6 @@ records:
     name:
       zh: Xenochrophis trianguligerus
       en: Xenochrophis trianguligerus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

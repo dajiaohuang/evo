@@ -9,7 +9,6 @@ records:
     name:
       zh: Plestiodon chinensis
       en: Plestiodon chinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

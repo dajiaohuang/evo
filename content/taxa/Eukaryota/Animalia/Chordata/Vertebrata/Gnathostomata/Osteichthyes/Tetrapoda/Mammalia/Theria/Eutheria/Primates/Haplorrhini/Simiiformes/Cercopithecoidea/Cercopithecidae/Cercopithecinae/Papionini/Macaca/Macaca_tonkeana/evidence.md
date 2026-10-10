@@ -9,7 +9,6 @@ records:
     name:
       zh: 托恩凯猕猴
       en: Tonkean Macaque
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: distribution

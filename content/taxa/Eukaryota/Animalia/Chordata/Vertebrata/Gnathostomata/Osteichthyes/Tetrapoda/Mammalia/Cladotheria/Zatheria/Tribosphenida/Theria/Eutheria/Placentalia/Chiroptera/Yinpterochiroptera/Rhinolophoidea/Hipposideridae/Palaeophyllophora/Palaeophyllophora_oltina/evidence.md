@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeophyllophora oltina
       en: Palaeophyllophora oltina
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

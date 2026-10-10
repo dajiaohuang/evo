@@ -9,7 +9,6 @@ records:
     name:
       en: Gephyromantis thelenae
       zh: Gephyromantis thelenae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

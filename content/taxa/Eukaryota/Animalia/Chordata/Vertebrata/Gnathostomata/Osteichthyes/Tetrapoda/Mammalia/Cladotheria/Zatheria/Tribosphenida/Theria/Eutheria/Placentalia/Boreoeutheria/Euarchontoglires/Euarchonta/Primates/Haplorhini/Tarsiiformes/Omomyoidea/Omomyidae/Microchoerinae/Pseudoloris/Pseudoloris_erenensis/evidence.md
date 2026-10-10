@@ -9,7 +9,6 @@ records:
     name:
       zh: Pseudoloris erenensis
       en: Pseudoloris erenensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

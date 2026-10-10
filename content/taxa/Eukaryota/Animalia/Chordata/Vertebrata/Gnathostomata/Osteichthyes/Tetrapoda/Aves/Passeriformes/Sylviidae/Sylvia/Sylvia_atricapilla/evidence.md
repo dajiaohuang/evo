@@ -9,7 +9,6 @@ records:
     name:
       zh: Sylvia atricapilla
       en: Sylvia atricapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

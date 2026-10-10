@@ -9,7 +9,6 @@ records:
     name:
       zh: Nyctophilopython oenpelliensis
       en: Nyctophilopython oenpelliensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

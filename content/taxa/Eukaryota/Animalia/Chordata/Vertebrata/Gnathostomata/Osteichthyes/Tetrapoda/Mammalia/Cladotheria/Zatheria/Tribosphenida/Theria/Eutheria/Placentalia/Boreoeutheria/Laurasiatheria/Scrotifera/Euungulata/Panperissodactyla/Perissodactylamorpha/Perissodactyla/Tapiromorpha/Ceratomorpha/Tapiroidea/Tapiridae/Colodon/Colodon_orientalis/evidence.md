@@ -9,7 +9,6 @@ records:
     name:
       zh: Colodon orientalis
       en: Colodon orientalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

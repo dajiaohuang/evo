@@ -9,7 +9,6 @@ records:
     name:
       en: Paramesotriton maolanensis
       zh: Paramesotriton maolanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

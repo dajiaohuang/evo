@@ -9,7 +9,6 @@ records:
     name:
       zh: Saccolaimus saccolaimus
       en: Saccolaimus saccolaimus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

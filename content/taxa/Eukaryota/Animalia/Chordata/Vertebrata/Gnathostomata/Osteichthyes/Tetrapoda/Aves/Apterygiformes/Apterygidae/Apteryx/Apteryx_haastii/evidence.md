@@ -9,7 +9,6 @@ records:
     name:
       zh: Apteryx haastii
       en: Apteryx haastii
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: genomeMaterial

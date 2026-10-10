@@ -9,7 +9,6 @@ records:
     name:
       zh: Gekko canaensis
       en: Gekko canaensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

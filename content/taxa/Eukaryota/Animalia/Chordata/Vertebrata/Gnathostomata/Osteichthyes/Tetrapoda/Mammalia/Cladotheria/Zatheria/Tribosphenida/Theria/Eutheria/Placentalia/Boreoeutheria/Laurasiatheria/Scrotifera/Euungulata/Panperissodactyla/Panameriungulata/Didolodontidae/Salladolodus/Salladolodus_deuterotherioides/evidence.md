@@ -9,7 +9,6 @@ records:
     name:
       zh: Salladolodus deuterotherioides
       en: Salladolodus deuterotherioides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

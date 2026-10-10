@@ -9,7 +9,6 @@ records:
     name:
       zh: Asianeomys asiaticus
       en: Asianeomys asiaticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Amazilia luciae
       en: Amazilia luciae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

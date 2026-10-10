@@ -9,7 +9,6 @@ records:
     name:
       zh: Metriorhynchus blainvillei
       en: Metriorhynchus blainvillei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

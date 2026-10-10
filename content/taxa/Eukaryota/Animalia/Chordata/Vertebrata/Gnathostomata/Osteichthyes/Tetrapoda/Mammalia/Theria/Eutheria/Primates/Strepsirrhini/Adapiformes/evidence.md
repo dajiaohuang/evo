@@ -27,9 +27,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: "Evo Atlas issue #87 evidence audit"
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: silcox-lopez-torres-2017-primate-origins concrete locators audited 2026-08-31
       referenceLinks:
         - relation: supports
           referenceId: silcox-lopez-torres-2017-primate-origins
@@ -47,9 +44,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: silcox-lopez-torres-2017-primate-origins @ DOI 10.1146/annurev-earth-063016-015637
       referenceLinks:
         - relation: supports
           referenceId: silcox-lopez-torres-2017-primate-origins
@@ -95,7 +89,6 @@ records:
           locator: 113–137; Early euprimates; Adapoidea and competing crown-primate hypotheses
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

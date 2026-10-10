@@ -9,7 +9,6 @@ records:
     name:
       zh: Bunohyrax major
       en: Bunohyrax major
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

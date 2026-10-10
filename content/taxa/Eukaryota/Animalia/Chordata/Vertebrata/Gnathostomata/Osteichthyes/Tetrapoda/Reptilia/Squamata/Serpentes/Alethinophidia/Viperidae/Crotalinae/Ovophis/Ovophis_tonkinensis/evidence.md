@@ -9,7 +9,6 @@ records:
     name:
       zh: Ovophis tonkinensis
       en: Ovophis tonkinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Shinisaurus crocodilurus
       en: Shinisaurus crocodilurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

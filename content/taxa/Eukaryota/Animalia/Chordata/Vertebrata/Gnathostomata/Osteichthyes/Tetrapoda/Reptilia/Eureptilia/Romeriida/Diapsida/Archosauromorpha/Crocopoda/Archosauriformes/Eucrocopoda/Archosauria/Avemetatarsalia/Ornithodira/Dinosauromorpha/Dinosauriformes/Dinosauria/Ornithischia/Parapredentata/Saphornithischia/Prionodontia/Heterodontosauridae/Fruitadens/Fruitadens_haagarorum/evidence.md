@@ -9,7 +9,6 @@ records:
     name:
       zh: Fruitadens haagarorum
       en: Fruitadens haagarorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

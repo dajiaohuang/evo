@@ -9,7 +9,6 @@ records:
     name:
       zh: Hemidactylus sankariensis
       en: Hemidactylus sankariensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

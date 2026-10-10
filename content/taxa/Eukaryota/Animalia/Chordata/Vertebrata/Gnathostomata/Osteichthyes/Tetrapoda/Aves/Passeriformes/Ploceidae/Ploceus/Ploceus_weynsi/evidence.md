@@ -9,7 +9,6 @@ records:
     name:
       zh: Ploceus weynsi
       en: Ploceus weynsi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

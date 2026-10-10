@@ -9,7 +9,6 @@ records:
     name:
       zh: Bystrowisuchus flerovi
       en: Bystrowisuchus flerovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

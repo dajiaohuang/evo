@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptorhynchos gaddisi
       en: Leptorhynchos gaddisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

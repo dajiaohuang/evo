@@ -9,7 +9,6 @@ records:
     name:
       zh: Acrantophis dumerili
       en: Acrantophis dumerili
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

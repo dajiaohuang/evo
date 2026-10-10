@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus teretistes
       zh: Eleutherodactylus teretistes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

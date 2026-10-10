@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis laevis
       en: Anolis laevis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

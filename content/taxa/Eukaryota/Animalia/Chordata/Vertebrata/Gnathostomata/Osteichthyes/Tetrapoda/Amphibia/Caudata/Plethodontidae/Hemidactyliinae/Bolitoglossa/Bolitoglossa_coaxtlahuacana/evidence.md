@@ -9,7 +9,6 @@ records:
     name:
       en: Bolitoglossa coaxtlahuacana
       zh: Bolitoglossa coaxtlahuacana
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Nohochichak xibalbahkah
       en: Nohochichak xibalbahkah
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

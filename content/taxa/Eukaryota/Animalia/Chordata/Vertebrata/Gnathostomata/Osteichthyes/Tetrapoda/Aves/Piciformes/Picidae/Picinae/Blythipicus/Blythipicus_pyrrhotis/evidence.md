@@ -9,7 +9,6 @@ records:
     name:
       zh: Blythipicus pyrrhotis
       en: Blythipicus pyrrhotis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

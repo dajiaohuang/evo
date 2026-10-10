@@ -9,7 +9,6 @@ records:
     name:
       zh: Porzana keplerorum
       en: Porzana keplerorum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

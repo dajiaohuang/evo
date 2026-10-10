@@ -9,7 +9,6 @@ records:
     name:
       en: Leptodactylus cunicularius
       zh: Leptodactylus cunicularius
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

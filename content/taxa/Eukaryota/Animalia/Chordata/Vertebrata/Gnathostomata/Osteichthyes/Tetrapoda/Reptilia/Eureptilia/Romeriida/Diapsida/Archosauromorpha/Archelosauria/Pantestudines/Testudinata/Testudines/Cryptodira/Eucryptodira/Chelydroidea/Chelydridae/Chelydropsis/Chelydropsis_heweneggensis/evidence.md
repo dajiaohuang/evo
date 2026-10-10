@@ -9,7 +9,6 @@ records:
     name:
       zh: Chelydropsis heweneggensis
       en: Chelydropsis heweneggensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

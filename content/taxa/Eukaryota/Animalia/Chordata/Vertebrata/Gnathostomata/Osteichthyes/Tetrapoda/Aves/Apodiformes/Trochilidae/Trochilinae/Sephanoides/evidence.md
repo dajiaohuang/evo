@@ -9,7 +9,6 @@ records:
     name:
       zh: Sephanoides
       en: Sephanoides
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Borophagus orc
       en: Borophagus orc
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-09-01
-      reviewedAgainstReferenceVersion: Wang et al. 2014 DOI 10.1371/journal.pone.0091290
       referenceLinks:
         - referenceId: wang-2014-cretophasmomima
           relation: supports

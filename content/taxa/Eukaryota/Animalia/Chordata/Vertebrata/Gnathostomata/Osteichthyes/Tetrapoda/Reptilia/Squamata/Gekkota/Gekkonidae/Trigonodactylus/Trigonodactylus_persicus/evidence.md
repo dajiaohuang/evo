@@ -9,7 +9,6 @@ records:
     name:
       zh: Trigonodactylus persicus
       en: Trigonodactylus persicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

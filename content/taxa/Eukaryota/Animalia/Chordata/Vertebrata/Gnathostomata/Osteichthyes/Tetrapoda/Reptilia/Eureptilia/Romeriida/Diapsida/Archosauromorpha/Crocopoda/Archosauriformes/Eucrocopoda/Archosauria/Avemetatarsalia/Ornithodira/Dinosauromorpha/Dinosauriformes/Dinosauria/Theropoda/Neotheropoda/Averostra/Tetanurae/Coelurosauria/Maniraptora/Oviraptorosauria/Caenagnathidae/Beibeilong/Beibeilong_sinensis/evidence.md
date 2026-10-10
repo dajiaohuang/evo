@@ -9,7 +9,6 @@ records:
     name:
       zh: Beibeilong sinensis
       en: Beibeilong sinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

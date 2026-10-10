@@ -9,7 +9,6 @@ records:
     name:
       zh: Ficedula nigrorufa
       en: Ficedula nigrorufa
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

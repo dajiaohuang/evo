@@ -9,7 +9,6 @@ records:
     name:
       zh: Riopa vosmaerii
       en: Riopa vosmaerii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

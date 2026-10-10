@@ -9,7 +9,6 @@ records:
     name:
       zh: Prodremotherium elongatum
       en: Prodremotherium elongatum
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

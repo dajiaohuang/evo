@@ -9,7 +9,6 @@ records:
     name:
       zh: Diacocherus dockeryi
       en: Diacocherus dockeryi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Elgaria multicarinata
       en: Elgaria multicarinata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

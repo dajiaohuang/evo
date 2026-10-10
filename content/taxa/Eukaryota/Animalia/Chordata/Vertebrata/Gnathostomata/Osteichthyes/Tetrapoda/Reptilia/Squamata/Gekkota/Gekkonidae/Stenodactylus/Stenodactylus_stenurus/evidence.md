@@ -9,7 +9,6 @@ records:
     name:
       zh: Stenodactylus stenurus
       en: Stenodactylus stenurus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Dissopsalis pyroclasticus
       en: Dissopsalis pyroclasticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

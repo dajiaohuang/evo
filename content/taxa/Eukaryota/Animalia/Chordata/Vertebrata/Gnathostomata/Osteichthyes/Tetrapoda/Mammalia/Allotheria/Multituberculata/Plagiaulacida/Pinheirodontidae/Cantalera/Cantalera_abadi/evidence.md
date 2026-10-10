@@ -9,7 +9,6 @@ records:
     name:
       zh: Cantalera abadi
       en: Cantalera abadi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pedetes surdaster
       en: Pedetes surdaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

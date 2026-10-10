@@ -9,7 +9,6 @@ records:
     name:
       zh: Mesokentriodon protohumboldti
       en: Mesokentriodon protohumboldti
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Boana beckeri
       zh: Boana beckeri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Orthotomus frontalis
       en: Orthotomus frontalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

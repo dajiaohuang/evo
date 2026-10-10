@@ -9,7 +9,6 @@ records:
     name:
       zh: Thescelus insiliens
       en: Thescelus insiliens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

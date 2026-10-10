@@ -9,7 +9,6 @@ records:
     name:
       zh: Otarocyon cooki
       en: Otarocyon cooki
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

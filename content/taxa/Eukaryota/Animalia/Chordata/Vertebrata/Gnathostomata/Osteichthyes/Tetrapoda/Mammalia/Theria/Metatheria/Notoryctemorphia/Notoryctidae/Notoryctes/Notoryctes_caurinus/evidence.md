@@ -9,7 +9,6 @@ records:
     name:
       zh: Notoryctes caurinus
       en: Notoryctes caurinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Hyalinobatrachium cappellei
       zh: Hyalinobatrachium cappellei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayopython reticulatus
       en: Malayopython reticulatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

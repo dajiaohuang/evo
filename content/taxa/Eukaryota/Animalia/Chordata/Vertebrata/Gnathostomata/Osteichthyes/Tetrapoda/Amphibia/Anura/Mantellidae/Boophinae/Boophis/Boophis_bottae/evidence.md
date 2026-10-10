@@ -9,7 +9,6 @@ records:
     name:
       en: Boophis bottae
       zh: Boophis bottae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Bathornis celeripes
       en: Bathornis celeripes
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

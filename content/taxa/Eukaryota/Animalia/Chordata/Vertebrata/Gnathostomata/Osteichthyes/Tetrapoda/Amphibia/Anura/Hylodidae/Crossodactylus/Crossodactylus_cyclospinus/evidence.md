@@ -9,7 +9,6 @@ records:
     name:
       en: Crossodactylus cyclospinus
       zh: Crossodactylus cyclospinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

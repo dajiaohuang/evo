@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendropicos poecilolaemus
       en: Dendropicos poecilolaemus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus adleri
       en: Cyrtodactylus adleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

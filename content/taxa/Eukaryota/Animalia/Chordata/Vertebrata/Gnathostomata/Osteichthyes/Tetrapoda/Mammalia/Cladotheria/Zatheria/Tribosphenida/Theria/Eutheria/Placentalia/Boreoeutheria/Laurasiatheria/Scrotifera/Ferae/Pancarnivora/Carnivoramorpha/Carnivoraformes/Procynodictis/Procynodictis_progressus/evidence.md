@@ -9,7 +9,6 @@ records:
     name:
       zh: Procynodictis progressus
       en: Procynodictis progressus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

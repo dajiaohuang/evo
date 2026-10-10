@@ -12,7 +12,6 @@ export interface ReferenceRecord {
   type: 'paper' | 'database' | 'dataset' | 'standard' | 'museum' | 'documentation' | 'publication' | 'web-resource' | 'bibliographic-record'
   sourceRole: 'primary-study' | 'systematic-review' | 'taxonomic-database' | 'occurrence-database' | 'museum-overview' | 'documentation' | 'standard' | 'unclassified'
   fitnessFor: Array<'taxonomy' | 'evolution' | 'topology' | 'range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism' | 'occurrence' | 'paleogeography' | 'geochronology' | 'methods'>
-  metadataAssignment: 'automated' | 'curator-reviewed'
   url?: string
   doi?: string
   accessedAt?: string
@@ -55,8 +54,7 @@ export interface TaxonProfile {
   extinct: boolean
   firstAppearance: number
   lastAppearance: number
-  rangeEvidenceLevel: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'withheld-no-range-evidence' | 'expert-reviewed'
-  rangeReviewStatus: 'not-reviewed' | 'automated-audit-passed' | 'expert-reviewed'
+  rangeEvidenceLevel: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'withheld-no-range-evidence'
   rangeProvisional: boolean
   geography: string[]
   regionalRanges?: Array<{
@@ -67,7 +65,7 @@ export interface TaxonProfile {
     youngerMa: number
     basis: string
     confidence: ConfidenceLevel
-    evidenceLevel: 'legacy-display' | 'database-derived' | 'literature-synthesized' | 'expert-reviewed'
+    evidenceLevel: 'legacy-display' | 'database-derived' | 'literature-synthesized'
     provisional: boolean
     referenceIds: string[]
   }>
@@ -163,7 +161,6 @@ export interface SearchResult {
   subtitleZh?: string
   keywords: string
   route: string
-  scientificMaturity?: 'generated-scaffold' | 'structured' | 'source-linked' | 'curated-draft' | 'published'
 }
 
 export interface PlaceRecord {
@@ -202,9 +199,6 @@ export interface EvidenceClaim {
   confidence: ConfidenceLevel
   confidenceRationale: string
   confidenceRationaleZh: string
-  reviewedBy: string
-  reviewedAt: string
-  reviewedAgainstReferenceVersion: string
   referenceLinks: Array<{
     referenceId: string
     relation: 'supports' | 'contradicts' | 'contextualizes'
@@ -231,7 +225,6 @@ export interface MediaAsset {
   altText: string
   altTextZh: string
   subjectScope: string
-  reviewedAt: string
   licenseNote: string
   contentOrigin?: 'external-source' | 'ai-assisted-interpretive-reconstruction'
   interpretiveNotice?: string

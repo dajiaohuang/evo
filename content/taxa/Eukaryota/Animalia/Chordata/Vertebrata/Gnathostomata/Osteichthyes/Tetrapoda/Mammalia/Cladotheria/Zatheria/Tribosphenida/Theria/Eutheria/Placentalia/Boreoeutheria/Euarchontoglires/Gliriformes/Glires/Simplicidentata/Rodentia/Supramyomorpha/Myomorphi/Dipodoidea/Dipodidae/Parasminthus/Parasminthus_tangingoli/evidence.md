@@ -9,7 +9,6 @@ records:
     name:
       zh: Parasminthus tangingoli
       en: Parasminthus tangingoli
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

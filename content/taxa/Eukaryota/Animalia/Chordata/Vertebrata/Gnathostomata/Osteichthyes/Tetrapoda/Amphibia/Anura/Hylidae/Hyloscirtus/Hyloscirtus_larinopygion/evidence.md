@@ -9,7 +9,6 @@ records:
     name:
       en: Hyloscirtus larinopygion
       zh: Hyloscirtus larinopygion
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

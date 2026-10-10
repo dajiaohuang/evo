@@ -9,7 +9,6 @@ records:
     name:
       en: Boana stenocephala
       zh: Boana stenocephala
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Ophryophryne synoria
       zh: Ophryophryne synoria
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

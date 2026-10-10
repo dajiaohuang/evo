@@ -9,7 +9,6 @@ records:
     name:
       zh: Rhipidura malaitae
       en: Rhipidura malaitae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

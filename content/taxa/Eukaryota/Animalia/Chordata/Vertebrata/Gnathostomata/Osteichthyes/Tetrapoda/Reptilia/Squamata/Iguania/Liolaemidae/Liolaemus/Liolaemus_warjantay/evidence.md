@@ -9,7 +9,6 @@ records:
     name:
       zh: Liolaemus warjantay
       en: Liolaemus warjantay
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Abrawayaomys ruschii
       en: Abrawayaomys ruschii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

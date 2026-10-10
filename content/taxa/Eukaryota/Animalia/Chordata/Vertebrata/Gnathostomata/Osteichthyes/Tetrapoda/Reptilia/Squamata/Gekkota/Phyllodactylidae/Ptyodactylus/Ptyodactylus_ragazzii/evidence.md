@@ -9,7 +9,6 @@ records:
     name:
       zh: Ptyodactylus ragazzii
       en: Ptyodactylus ragazzii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

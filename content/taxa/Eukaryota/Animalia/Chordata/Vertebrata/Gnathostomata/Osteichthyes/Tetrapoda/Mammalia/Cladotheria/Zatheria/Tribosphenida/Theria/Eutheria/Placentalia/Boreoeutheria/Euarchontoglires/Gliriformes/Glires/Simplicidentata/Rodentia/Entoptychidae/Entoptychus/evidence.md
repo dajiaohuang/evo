@@ -9,7 +9,6 @@ records:
     name:
       zh: Entoptychus
       en: Entoptychus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

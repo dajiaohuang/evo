@@ -9,7 +9,6 @@ records:
     name:
       zh: Platyspondylia lepta
       en: Platyspondylia lepta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

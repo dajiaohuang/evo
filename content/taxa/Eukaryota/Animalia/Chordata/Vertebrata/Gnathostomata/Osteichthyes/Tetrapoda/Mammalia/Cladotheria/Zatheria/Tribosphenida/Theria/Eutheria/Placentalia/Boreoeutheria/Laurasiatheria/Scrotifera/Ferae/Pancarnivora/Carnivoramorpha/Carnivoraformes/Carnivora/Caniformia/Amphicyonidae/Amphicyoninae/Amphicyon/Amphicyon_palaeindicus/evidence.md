@@ -9,7 +9,6 @@ records:
     name:
       zh: Amphicyon palaeindicus
       en: Amphicyon palaeindicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

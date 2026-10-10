@@ -9,7 +9,6 @@ records:
     name:
       zh: Coracina mindanensis
       en: Coracina mindanensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

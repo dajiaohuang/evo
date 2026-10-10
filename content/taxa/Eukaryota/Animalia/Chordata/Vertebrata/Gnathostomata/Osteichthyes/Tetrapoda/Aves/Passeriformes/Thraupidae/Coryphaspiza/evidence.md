@@ -9,7 +9,6 @@ records:
     name:
       zh: Coryphaspiza
       en: Coryphaspiza
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

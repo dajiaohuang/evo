@@ -9,7 +9,6 @@ records:
     name:
       en: Pithecopus rusticus
       zh: Pithecopus rusticus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

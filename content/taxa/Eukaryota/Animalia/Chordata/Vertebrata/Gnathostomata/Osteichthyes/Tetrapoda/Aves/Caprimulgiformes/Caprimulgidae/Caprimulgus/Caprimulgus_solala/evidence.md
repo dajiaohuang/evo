@@ -9,7 +9,6 @@ records:
     name:
       zh: Caprimulgus solala
       en: Caprimulgus solala
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

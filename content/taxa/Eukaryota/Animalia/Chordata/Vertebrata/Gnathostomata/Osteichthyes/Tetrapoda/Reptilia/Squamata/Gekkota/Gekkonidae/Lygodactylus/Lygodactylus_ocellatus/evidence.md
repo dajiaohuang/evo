@@ -9,7 +9,6 @@ records:
     name:
       zh: Lygodactylus ocellatus
       en: Lygodactylus ocellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

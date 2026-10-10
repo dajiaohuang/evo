@@ -26,9 +26,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Motani et al. 2014 DOI 10.1371/journal.pone.0088640; audited for 2026.08-static-v5-rc40
       referenceLinks:
         - referenceId: motani-2014-chaohusaurus-viviparity
           relation: supports
@@ -64,7 +61,6 @@ records:
       referenceLocators:
         - referenceId: motani-2014-chaohusaurus-viviparity
           locator: PLOS ONE 9(2):e88640; Figure 1; geological setting, specimen description and Results
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

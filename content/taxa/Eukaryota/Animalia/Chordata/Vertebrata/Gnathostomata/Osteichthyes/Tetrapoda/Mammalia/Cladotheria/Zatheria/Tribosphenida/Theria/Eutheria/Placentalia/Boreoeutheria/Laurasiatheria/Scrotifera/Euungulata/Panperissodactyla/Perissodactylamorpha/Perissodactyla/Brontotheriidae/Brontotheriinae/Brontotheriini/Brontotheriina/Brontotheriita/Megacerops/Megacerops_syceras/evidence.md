@@ -9,7 +9,6 @@ records:
     name:
       zh: Megacerops syceras
       en: Megacerops syceras
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

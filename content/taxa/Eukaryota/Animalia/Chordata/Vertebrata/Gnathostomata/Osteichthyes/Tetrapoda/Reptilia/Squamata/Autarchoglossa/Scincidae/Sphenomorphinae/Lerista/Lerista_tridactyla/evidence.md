@@ -9,7 +9,6 @@ records:
     name:
       zh: Lerista tridactyla
       en: Lerista tridactyla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

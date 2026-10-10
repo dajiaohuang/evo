@@ -9,7 +9,6 @@ records:
     name:
       zh: Anolis heterodermus
       en: Anolis heterodermus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

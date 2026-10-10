@@ -9,7 +9,6 @@ records:
     name:
       zh: Cemeterius monstrosus
       en: Cemeterius monstrosus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

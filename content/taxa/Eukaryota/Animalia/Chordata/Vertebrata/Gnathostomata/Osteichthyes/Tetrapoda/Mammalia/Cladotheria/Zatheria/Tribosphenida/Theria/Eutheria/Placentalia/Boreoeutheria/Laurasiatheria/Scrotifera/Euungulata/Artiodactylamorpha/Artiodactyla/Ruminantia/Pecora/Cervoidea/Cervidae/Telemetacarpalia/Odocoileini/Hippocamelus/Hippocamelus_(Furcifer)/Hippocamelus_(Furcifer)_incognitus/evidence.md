@@ -9,7 +9,6 @@ records:
     name:
       zh: Hippocamelus (Furcifer) incognitus
       en: Hippocamelus (Furcifer) incognitus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

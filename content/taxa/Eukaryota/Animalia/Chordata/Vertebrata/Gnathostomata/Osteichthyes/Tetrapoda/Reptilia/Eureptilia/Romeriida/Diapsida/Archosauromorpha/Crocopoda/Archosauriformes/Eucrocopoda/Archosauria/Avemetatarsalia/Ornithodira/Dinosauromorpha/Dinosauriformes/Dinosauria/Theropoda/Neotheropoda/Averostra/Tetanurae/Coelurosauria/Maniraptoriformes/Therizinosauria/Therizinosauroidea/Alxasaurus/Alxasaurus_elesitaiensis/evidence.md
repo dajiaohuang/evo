@@ -9,7 +9,6 @@ records:
     name:
       zh: Alxasaurus elesitaiensis
       en: Alxasaurus elesitaiensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Brachyorrhos raffrayi
       en: Brachyorrhos raffrayi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

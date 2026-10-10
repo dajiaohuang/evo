@@ -112,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Luo et al. 2011 DOI 10.1038/nature10291; Celik & Phillips 2020 DOI 10.1098/rspb.2020.0943
       referenceLinks:
         - referenceId: luo-2011-juramaia
           relation: supports

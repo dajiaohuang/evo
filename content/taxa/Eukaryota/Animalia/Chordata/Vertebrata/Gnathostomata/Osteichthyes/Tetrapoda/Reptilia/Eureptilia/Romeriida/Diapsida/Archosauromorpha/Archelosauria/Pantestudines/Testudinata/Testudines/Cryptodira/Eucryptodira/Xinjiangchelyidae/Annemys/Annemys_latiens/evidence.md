@@ -9,7 +9,6 @@ records:
     name:
       zh: Annemys latiens
       en: Annemys latiens
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

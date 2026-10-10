@@ -9,7 +9,6 @@ records:
     name:
       zh: Archaeopotamus lothagamensis
       en: Archaeopotamus lothagamensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

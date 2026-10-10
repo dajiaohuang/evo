@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyrtodactylus bobrovi
       en: Cyrtodactylus bobrovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

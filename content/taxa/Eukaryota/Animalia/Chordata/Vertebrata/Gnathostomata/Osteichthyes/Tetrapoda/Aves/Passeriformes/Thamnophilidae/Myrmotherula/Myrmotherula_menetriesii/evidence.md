@@ -9,7 +9,6 @@ records:
     name:
       zh: Myrmotherula menetriesii
       en: Myrmotherula menetriesii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

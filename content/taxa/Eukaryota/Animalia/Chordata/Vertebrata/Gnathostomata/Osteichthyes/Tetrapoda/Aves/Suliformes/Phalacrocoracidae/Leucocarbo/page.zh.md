@@ -11,7 +11,7 @@ status: source-linked
 ## 从七个 Phalacrocorax 旧组合查资料
 
 <!-- evo:text /records/catalogue-profile/sections/0/text/zh -->
-七条导读沿 COL26.8 Leucocarbo（638ZH）、Phalacrocoracidae（62694）路径组织。eBird七条同名、各Avibase ID与BirdLife相同，类型均一对一；BirdTree七条记Phalacrocorax，各逐字异名指向本批接受ID。chalconotus另有Leucocarbo stewarti和Phalacrocorax stewarti异名，均不当作实际表名。目录属15个直接子项，原四条生活史路线保留，七页不计完整属内容或专家审评。
+七条导读沿 COL26.8 Leucocarbo（638ZH）、Phalacrocoracidae（62694）路径组织。eBird七条同名、各Avibase ID与BirdLife相同，类型均一对一；BirdTree七条记Phalacrocorax，各逐字异名指向本批接受ID。chalconotus另有Leucocarbo stewarti和Phalacrocorax stewarti异名，均不当作实际表名。目录属15个直接子项，原四条生活史路线保留，七页不计完整属内容。
 <!-- /evo:text -->
 
 ## 从一只未定性别鸟读完整分母
@@ -45,6 +45,6 @@ Leucocarbo 的本批路线包含 4 条历史生活史导读，可从 Leucocarbo 
 ## 生活史资料边界
 
 <!-- evo:text /records/catalogue-profile/limitations/zh -->
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成，未经过外部专家评审。
-另增七条旧名导读，单只未定样本、无已定雄鸟、完整分母与独立体重分别保留；水生类别不提供实测潜水表现。目录15子项完整内容、当前地图与专家审评仍未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+另增七条旧名导读，单只未定样本、无已定雄鸟、完整分母与独立体重分别保留；水生类别不提供实测潜水表现。目录15子项完整内容、当前地图仍未完成。
 <!-- /evo:text -->

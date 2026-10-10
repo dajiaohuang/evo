@@ -9,7 +9,6 @@ records:
     name:
       zh: Talpa caeca
       en: Talpa caeca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Carpodacus thura
       en: Carpodacus thura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

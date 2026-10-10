@@ -9,7 +9,6 @@ records:
     name:
       zh: Tapirus merriami
       en: Tapirus merriami
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

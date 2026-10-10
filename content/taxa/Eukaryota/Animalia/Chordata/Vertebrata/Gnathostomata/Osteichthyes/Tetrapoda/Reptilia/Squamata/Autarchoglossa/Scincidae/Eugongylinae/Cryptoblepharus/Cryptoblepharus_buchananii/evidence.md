@@ -9,7 +9,6 @@ records:
     name:
       zh: Cryptoblepharus buchananii
       en: Cryptoblepharus buchananii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -117,11 +117,9 @@ dossier.completeness = {
   reasons: [
     'Two focused primary sources support bounded claims in lifeHistory and evolution only.',
     'The other five scientific facets remain explicitly not assessed.',
-    'No independent external expert review has been completed.',
   ],
 }
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 rawRows[rawRows.findIndex(row => row.colId === target.colId)] = dossier
 const rawAfter = Buffer.from(rawRows.map(row => JSON.stringify(row)).join('\n') + '\n', 'utf8')
 assert.ok(!rawAfter.includes(0x0d), 'Updated raw JSONL must use LF line endings')

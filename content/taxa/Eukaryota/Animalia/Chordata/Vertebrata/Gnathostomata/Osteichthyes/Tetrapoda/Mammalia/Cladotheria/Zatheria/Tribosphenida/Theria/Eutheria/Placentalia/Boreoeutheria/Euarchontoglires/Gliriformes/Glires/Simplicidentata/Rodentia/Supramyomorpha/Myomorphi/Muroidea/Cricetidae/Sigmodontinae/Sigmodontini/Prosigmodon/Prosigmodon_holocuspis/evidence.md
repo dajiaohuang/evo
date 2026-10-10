@@ -9,7 +9,6 @@ records:
     name:
       zh: Prosigmodon holocuspis
       en: Prosigmodon holocuspis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

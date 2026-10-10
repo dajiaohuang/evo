@@ -9,7 +9,6 @@ records:
     name:
       en: Sachatamia electrops
       zh: Sachatamia electrops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Ancylodactylus alantika
       en: Ancylodactylus alantika
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

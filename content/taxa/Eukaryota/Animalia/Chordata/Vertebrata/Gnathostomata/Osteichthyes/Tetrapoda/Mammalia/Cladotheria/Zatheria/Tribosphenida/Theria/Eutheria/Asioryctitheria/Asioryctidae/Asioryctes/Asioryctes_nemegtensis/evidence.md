@@ -9,7 +9,6 @@ records:
     name:
       zh: Asioryctes nemegtensis
       en: Asioryctes nemegtensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

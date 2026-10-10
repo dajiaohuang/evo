@@ -9,7 +9,6 @@ records:
     name:
       en: Amnihyla leucova
       zh: Amnihyla leucova
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

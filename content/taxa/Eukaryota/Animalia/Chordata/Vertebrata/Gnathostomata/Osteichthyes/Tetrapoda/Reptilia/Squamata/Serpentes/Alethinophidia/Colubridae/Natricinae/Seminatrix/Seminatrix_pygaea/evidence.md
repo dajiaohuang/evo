@@ -9,7 +9,6 @@ records:
     name:
       zh: Seminatrix pygaea
       en: Seminatrix pygaea
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

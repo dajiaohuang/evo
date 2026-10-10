@@ -9,7 +9,6 @@ records:
     name:
       zh: Hardella thurjii
       en: Hardella thurjii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

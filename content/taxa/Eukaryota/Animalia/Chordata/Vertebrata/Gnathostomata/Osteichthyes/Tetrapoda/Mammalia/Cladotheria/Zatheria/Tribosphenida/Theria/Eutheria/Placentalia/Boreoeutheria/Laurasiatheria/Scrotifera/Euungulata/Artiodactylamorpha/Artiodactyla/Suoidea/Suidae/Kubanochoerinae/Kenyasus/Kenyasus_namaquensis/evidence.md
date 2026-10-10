@@ -9,7 +9,6 @@ records:
     name:
       zh: Kenyasus namaquensis
       en: Kenyasus namaquensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

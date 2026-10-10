@@ -9,7 +9,6 @@ records:
     name:
       zh: Cynogale bennettii
       en: Cynogale bennettii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

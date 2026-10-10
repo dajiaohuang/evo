@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidonophis multiscutellatus
       en: Tropidonophis multiscutellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

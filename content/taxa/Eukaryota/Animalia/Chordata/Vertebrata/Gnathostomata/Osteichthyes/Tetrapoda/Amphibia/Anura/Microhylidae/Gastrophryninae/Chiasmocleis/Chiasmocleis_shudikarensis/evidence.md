@@ -9,7 +9,6 @@ records:
     name:
       en: Chiasmocleis shudikarensis
       zh: Chiasmocleis shudikarensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

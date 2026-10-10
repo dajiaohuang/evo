@@ -9,7 +9,6 @@ records:
     name:
       zh: Dinotoxodon paranensis
       en: Dinotoxodon paranensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

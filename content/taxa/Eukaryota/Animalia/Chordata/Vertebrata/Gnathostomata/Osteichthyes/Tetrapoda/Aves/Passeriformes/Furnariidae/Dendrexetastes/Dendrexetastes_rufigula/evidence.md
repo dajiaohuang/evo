@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrexetastes rufigula
       en: Dendrexetastes rufigula
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

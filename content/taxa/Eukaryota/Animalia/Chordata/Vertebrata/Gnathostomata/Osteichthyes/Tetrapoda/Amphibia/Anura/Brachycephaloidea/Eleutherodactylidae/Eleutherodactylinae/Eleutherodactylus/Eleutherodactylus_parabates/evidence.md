@@ -9,7 +9,6 @@ records:
     name:
       en: Eleutherodactylus parabates
       zh: Eleutherodactylus parabates
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

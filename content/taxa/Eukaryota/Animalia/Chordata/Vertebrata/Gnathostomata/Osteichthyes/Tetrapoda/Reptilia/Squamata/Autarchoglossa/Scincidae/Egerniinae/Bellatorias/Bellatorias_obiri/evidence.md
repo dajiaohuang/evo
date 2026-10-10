@@ -9,7 +9,6 @@ records:
     name:
       zh: Bellatorias obiri
       en: Bellatorias obiri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

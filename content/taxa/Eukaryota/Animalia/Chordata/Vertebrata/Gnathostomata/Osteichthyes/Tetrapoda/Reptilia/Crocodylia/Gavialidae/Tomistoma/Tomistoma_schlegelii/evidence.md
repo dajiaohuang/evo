@@ -9,7 +9,6 @@ records:
     name:
       zh: 马来鳄
       en: False gharial
-    reviewStatus: source-linked
     checkedAt: 2026-09-29
     sections:
       - topic:

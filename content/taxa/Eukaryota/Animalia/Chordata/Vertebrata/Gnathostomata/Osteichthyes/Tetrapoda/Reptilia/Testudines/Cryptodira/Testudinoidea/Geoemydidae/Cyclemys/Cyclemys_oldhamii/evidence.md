@@ -9,7 +9,6 @@ records:
     name:
       zh: Cyclemys oldhamii
       en: Cyclemys oldhamii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

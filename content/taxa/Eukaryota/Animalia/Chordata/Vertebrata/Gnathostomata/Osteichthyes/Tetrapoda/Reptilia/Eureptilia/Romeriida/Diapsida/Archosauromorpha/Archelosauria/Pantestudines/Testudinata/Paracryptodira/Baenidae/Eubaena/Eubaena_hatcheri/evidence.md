@@ -9,7 +9,6 @@ records:
     name:
       zh: Eubaena hatcheri
       en: Eubaena hatcheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -10,7 +10,6 @@ records:
     name:
       en: Hairy-eared Dwarf Lemur
       zh: 毛耳鼠狐猴
-    reviewStatus: source-linked
     sections:
       - topic: overview
         text:

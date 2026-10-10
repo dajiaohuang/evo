@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis roni
       zh: Pristimantis roni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

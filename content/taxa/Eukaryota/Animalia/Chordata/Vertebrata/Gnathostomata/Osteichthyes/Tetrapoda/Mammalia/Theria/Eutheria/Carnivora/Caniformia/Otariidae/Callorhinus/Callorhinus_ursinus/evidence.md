@@ -9,7 +9,6 @@ records:
     name:
       zh: Callorhinus ursinus
       en: Callorhinus ursinus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

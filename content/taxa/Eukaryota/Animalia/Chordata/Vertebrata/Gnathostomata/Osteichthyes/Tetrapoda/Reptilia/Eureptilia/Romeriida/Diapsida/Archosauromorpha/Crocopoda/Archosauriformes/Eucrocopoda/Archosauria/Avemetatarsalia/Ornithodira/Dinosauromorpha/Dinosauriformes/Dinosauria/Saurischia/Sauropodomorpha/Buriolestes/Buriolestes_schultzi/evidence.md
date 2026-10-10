@@ -22,7 +22,6 @@ records:
     name:
       zh: Buriolestes schultzi
       en: Buriolestes schultzi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

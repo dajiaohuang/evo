@@ -9,7 +9,6 @@ records:
     name:
       zh: Lepidocolaptes lacrymiger
       en: Lepidocolaptes lacrymiger
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

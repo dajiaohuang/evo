@@ -9,7 +9,6 @@ records:
     name:
       zh: Thraupis abbas
       en: Thraupis abbas
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

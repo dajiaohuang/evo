@@ -9,7 +9,6 @@ records:
     name:
       zh: Malayodracon robinsonii
       en: Malayodracon robinsonii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

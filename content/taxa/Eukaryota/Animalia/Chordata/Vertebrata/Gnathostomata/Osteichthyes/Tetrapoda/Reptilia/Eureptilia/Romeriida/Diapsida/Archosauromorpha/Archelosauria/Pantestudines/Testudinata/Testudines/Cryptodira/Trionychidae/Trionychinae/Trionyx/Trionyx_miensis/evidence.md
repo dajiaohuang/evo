@@ -9,7 +9,6 @@ records:
     name:
       zh: Trionyx miensis
       en: Trionyx miensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

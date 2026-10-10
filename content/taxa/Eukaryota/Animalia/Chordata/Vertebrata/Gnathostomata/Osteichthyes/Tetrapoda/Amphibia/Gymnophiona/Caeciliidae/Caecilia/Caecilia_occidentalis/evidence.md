@@ -9,7 +9,6 @@ records:
     name:
       en: Caecilia occidentalis
       zh: Caecilia occidentalis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -59,9 +59,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ortega-hernandez-2022-mollisonia-neuroanatomy primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
           relation: supports
@@ -78,9 +75,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ortega-hernandez-2022-mollisonia-neuroanatomy primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
           relation: supports
@@ -97,9 +91,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: Primary-study locators audited at 2026.08-static-v5-rc43
       referenceLinks:
         - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
           relation: supports
@@ -121,9 +112,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ortega-hernandez-2022-mollisonia-neuroanatomy primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
           relation: supports
@@ -140,9 +128,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: ortega-hernandez-2022-mollisonia-neuroanatomy primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
           relation: supports
@@ -194,7 +179,6 @@ records:
       referenceLocators:
         - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
           locator: 410; Figures 1–5; Supplementary Figures; MCZ 1811 and USNM 305093; Elemental mapping; Alternative topologies
-      reviewStatus: automated-audit-passed
 ---
 
 # Mollisonia symmetrica

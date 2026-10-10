@@ -9,7 +9,6 @@ records:
     name:
       en: Philoria sphagnicola
       zh: Philoria sphagnicola
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

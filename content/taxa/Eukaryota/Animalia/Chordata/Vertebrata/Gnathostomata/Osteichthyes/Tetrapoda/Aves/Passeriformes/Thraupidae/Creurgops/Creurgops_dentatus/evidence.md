@@ -9,7 +9,6 @@ records:
     name:
       zh: Creurgops dentatus
       en: Creurgops dentatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

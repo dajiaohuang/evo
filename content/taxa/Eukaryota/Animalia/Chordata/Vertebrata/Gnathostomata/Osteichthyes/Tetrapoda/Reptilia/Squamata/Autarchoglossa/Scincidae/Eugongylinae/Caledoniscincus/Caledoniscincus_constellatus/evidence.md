@@ -9,7 +9,6 @@ records:
     name:
       zh: Caledoniscincus constellatus
       en: Caledoniscincus constellatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

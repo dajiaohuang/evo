@@ -9,7 +9,6 @@ records:
     name:
       en: Micrixalus elegans
       zh: Micrixalus elegans
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

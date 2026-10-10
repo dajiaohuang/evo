@@ -9,7 +9,6 @@ records:
     name:
       zh: Sphaerodactylus armasi
       en: Sphaerodactylus armasi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

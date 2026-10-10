@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis pruinatus
       zh: Pristimantis pruinatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

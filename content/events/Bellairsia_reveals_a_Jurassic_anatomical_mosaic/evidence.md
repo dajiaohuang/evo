@@ -85,9 +85,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas maintainer primary-source audit
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: Tałanda et al. 2022 DOI 10.1038/s41586-022-05332-6
       referenceLinks:
         - referenceId: talanda-2022-bellairsia
           relation: supports

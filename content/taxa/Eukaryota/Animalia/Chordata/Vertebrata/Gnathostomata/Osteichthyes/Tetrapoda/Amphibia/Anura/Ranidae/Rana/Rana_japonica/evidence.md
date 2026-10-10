@@ -9,7 +9,6 @@ records:
     name:
       en: Rana japonica
       zh: Rana japonica
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

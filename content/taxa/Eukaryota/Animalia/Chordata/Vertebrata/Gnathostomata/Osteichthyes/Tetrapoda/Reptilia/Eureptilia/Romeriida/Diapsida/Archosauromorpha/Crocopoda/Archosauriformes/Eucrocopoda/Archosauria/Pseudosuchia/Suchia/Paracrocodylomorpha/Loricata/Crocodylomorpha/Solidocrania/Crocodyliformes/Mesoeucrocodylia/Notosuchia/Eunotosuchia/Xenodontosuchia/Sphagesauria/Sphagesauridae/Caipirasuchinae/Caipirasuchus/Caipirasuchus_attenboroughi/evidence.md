@@ -9,7 +9,6 @@ records:
     name:
       zh: Caipirasuchus attenboroughi
       en: Caipirasuchus attenboroughi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

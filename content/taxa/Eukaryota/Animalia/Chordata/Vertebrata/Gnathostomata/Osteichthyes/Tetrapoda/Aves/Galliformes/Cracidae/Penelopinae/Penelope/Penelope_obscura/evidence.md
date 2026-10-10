@@ -9,7 +9,6 @@ records:
     name:
       zh: Penelope obscura
       en: Penelope obscura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

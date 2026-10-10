@@ -9,7 +9,6 @@ records:
     name:
       zh: Columba argentina
       en: Columba argentina
-    reviewStatus: source-linked
     checkedAt: 2026-10-03
     sections:
       - topic: overview

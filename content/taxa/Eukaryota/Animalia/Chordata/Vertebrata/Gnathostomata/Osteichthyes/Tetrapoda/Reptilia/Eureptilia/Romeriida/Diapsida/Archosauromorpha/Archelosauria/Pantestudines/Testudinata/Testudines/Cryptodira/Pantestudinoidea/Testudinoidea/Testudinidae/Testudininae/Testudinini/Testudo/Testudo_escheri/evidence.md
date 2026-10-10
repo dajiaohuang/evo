@@ -9,7 +9,6 @@ records:
     name:
       zh: Testudo escheri
       en: Testudo escheri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Tropidophis morenoi
       en: Tropidophis morenoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

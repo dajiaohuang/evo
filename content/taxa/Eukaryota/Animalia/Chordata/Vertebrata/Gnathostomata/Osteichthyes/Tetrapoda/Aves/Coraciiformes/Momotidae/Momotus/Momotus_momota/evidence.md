@@ -9,7 +9,6 @@ records:
     name:
       zh: Momotus momota
       en: Momotus momota
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Argyrocetus patagonicus
       en: Argyrocetus patagonicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

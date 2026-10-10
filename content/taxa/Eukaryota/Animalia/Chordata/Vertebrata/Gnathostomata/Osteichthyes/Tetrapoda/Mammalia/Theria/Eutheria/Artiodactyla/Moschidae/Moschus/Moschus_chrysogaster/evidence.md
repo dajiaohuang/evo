@@ -9,7 +9,6 @@ records:
     name:
       zh: Moschus chrysogaster
       en: Moschus chrysogaster
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

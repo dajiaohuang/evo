@@ -9,7 +9,6 @@ records:
     name:
       zh: Gobiohyus reshetovi
       en: Gobiohyus reshetovi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

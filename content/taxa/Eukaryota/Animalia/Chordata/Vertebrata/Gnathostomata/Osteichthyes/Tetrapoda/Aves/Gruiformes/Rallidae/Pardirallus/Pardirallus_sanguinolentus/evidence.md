@@ -9,7 +9,6 @@ records:
     name:
       zh: Pardirallus sanguinolentus
       en: Pardirallus sanguinolentus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

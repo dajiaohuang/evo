@@ -9,7 +9,6 @@ records:
     name:
       en: Tylototriton ziegleri
       zh: Tylototriton ziegleri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       en: Centrolene peristicta
       zh: Centrolene peristicta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

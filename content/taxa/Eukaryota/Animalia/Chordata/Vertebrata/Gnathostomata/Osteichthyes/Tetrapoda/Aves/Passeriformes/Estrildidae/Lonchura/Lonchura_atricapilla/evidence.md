@@ -9,7 +9,6 @@ records:
     name:
       zh: Lonchura atricapilla
       en: Lonchura atricapilla
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

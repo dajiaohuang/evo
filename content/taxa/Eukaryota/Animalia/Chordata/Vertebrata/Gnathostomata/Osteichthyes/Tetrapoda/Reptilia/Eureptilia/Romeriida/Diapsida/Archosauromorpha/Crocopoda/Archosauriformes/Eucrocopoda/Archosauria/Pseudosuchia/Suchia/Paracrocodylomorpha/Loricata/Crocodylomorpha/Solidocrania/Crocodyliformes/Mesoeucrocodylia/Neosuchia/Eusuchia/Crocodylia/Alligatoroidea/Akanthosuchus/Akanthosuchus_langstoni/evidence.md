@@ -9,7 +9,6 @@ records:
     name:
       zh: Akanthosuchus langstoni
       en: Akanthosuchus langstoni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Stumpffia maledicta
       zh: Stumpffia maledicta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

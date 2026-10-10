@@ -9,7 +9,6 @@ records:
     name:
       zh: Parvagula palulae
       en: Parvagula palulae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       zh: Pholidobolus hillisi
       en: Pholidobolus hillisi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

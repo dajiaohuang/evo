@@ -9,7 +9,6 @@ records:
     name:
       zh: Dendrochen robusta
       en: Dendrochen robusta
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Nectocaecilia petersii
       zh: Nectocaecilia petersii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

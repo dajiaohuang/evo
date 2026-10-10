@@ -9,7 +9,6 @@ records:
     name:
       zh: Empidonax albigularis
       en: Empidonax albigularis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

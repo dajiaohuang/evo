@@ -9,7 +9,6 @@ records:
     name:
       zh: Ammorhynchus navajoi
       en: Ammorhynchus navajoi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

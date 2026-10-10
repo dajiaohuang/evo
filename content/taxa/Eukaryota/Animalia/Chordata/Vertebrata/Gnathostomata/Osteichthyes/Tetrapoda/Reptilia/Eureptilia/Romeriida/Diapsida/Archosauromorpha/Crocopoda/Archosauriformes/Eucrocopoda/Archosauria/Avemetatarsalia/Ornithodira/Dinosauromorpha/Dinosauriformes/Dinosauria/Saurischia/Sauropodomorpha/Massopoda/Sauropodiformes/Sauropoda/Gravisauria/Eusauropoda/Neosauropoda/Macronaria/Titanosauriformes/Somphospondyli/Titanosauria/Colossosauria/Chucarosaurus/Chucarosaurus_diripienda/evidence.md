@@ -9,7 +9,6 @@ records:
     name:
       zh: Chucarosaurus diripienda
       en: Chucarosaurus diripienda
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

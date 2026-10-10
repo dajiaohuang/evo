@@ -9,7 +9,6 @@ records:
     name:
       zh: Palaeostylops macrodon
       en: Palaeostylops macrodon
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

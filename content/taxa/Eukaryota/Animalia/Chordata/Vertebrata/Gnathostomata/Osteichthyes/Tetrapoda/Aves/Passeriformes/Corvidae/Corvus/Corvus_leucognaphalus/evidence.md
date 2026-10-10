@@ -9,7 +9,6 @@ records:
     name:
       zh: Corvus leucognaphalus
       en: Corvus leucognaphalus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Engystomops guayaco
       zh: Engystomops guayaco
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Erythrobaatar ganensis
       en: Erythrobaatar ganensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

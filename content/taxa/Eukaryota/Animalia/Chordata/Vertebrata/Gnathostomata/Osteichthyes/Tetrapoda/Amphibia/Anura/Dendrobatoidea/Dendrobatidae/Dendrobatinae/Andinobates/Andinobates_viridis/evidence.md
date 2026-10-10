@@ -9,7 +9,6 @@ records:
     name:
       en: Andinobates viridis
       zh: Andinobates viridis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

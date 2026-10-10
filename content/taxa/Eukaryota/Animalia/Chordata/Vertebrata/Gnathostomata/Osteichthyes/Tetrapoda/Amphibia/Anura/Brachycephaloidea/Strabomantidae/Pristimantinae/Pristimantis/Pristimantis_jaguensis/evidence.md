@@ -9,7 +9,6 @@ records:
     name:
       en: Pristimantis jaguensis
       zh: Pristimantis jaguensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

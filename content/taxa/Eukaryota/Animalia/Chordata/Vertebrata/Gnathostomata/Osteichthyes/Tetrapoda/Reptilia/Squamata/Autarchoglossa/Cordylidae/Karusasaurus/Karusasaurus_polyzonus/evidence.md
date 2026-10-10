@@ -9,7 +9,6 @@ records:
     name:
       zh: Karusasaurus polyzonus
       en: Karusasaurus polyzonus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

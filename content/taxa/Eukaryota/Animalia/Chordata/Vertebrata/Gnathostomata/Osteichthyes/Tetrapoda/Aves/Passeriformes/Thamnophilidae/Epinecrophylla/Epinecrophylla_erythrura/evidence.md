@@ -9,7 +9,6 @@ records:
     name:
       zh: Epinecrophylla erythrura
       en: Epinecrophylla erythrura
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -9,7 +9,6 @@ records:
     name:
       en: Microcaecilia taylori
       zh: Microcaecilia taylori
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

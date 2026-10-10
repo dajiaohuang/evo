@@ -9,7 +9,6 @@ records:
     name:
       zh: Dermatemys mawii
       en: Dermatemys mawii
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

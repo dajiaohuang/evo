@@ -9,7 +9,6 @@ records:
     name:
       en: Boana polytaenia
       zh: Boana polytaenia
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

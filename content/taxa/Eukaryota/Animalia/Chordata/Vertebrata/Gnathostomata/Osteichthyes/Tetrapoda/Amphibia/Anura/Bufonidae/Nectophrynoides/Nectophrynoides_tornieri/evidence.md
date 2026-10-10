@@ -9,7 +9,6 @@ records:
     name:
       en: Nectophrynoides tornieri
       zh: Nectophrynoides tornieri
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

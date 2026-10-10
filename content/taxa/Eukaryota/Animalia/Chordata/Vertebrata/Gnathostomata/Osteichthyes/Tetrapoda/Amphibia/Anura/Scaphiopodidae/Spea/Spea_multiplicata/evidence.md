@@ -9,7 +9,6 @@ records:
     name:
       en: Spea multiplicata
       zh: Spea multiplicata
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Diploderma swild
       en: Diploderma swild
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

@@ -22,5 +22,5 @@ The type locality is the Manangotry rainforest parcel of Andohahela National Par
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-This summarizes the 2006 description and its local range hypothesis; genetic comparisons used limited mitochondrial fragments and do not replace a current distribution or population survey. The COL26.8 accepted name is retained. The Chinese common name is editorial, and the guide is not externally expert-reviewed.
+This summarizes the 2006 description and its local range hypothesis; genetic comparisons used limited mitochondrial fragments and do not replace a current distribution or population survey. The COL26.8 accepted name is retained. The Chinese common name is editorial, and the guide is.
 <!-- /evo:text -->

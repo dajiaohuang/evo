@@ -9,7 +9,6 @@ records:
     name:
       en: Ameerega bilinguis
       zh: Ameerega bilinguis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

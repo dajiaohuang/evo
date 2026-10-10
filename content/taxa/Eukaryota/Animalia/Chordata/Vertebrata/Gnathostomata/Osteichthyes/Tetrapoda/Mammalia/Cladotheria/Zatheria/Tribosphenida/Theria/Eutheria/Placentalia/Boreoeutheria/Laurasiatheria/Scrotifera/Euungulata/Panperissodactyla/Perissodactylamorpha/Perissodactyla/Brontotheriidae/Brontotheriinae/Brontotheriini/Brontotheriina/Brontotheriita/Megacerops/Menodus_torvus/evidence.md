@@ -9,7 +9,6 @@ records:
     name:
       zh: Menodus torvus
       en: Menodus torvus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

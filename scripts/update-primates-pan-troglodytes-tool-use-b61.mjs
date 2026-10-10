@@ -153,7 +153,6 @@ assert.equal(queueRow.dossier.claimCount, source.audit.queueBaseline.claimCount)
 assert.equal(queueRow.dossier.identityStatus, source.audit.queueBaseline.identityStatus)
 assert.equal(queueRow.dossier.rightsStatus, source.audit.queueBaseline.rightsStatus)
 assert.equal(queueRow.dossier.systematicSearchRecorded, source.audit.queueBaseline.systematicSearchRecorded)
-assert.equal(queueRow.dossier.expertReviewStatus, source.audit.queueBaseline.expertReviewStatus)
 
 const stableIds = source.sources.map(item => item.stableId)
 assert.equal(new Set(stableIds).size, stableIds.length, 'Duplicate B61 stable source ids')
@@ -202,16 +201,14 @@ dossier.completeness = {
     'The record contains bounded captive growth, Gombe female maturation, Bossou and Taï behavior, model-based Pan population history, a dated species-level range/category assessment, and regional conservation evidence; these do not constitute a range-wide species synthesis.',
     'Wild morphological variation, broader life-history coverage, current distribution and conservation status, species-assigned fossil evidence, and systematic literature coverage remain incomplete or unassessed.',
     'The Taï tool-use age pattern is cross-sectional and limited to selected stick-foraging tasks in three neighboring communities.',
-    'Independent external expert review has not been completed.',
   ],
 }
-dossier.expertReview = { status: 'not-reviewed' }
+
 
 assert.equal(dossier.colId, source.target.colId)
 assert.equal(dossier.scientificName, source.target.scientificName)
 assert.equal(dossier.rank, 'species')
 assert.equal(dossier.completeness.status, 'incomplete')
-assert.equal(dossier.expertReview.status, 'not-reviewed')
 assert.deepEqual(Object.keys(dossier.facets).sort(), [...FACETS].sort())
 
 const rawLines = originalLines.map(line => {

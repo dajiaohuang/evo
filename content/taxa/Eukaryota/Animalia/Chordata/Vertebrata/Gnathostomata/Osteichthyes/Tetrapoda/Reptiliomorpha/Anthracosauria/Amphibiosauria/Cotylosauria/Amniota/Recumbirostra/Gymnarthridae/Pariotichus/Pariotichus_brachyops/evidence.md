@@ -9,7 +9,6 @@ records:
     name:
       zh: Pariotichus brachyops
       en: Pariotichus brachyops
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

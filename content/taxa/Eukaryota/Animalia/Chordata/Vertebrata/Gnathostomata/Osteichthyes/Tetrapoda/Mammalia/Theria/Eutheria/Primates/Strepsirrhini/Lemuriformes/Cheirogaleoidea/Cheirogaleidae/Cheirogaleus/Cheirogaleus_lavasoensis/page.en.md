@@ -16,5 +16,5 @@ Dwarf lemurs from the Lavasoa Mountains were initially assigned provisionally to
 ## Evidence limits
 
 <!-- evo:text /records/catalogue-profile/limitations/en -->
-Genetic comparisons cover only the localities and samples collected by the study; no unverified present-day range or abundance is inferred. This page has not received external expert review. This page is not externally expert-reviewed.
+Genetic comparisons cover only the localities and samples collected by the study; no unverified present-day range or abundance is inferred. This page. This page is.
 <!-- /evo:text -->

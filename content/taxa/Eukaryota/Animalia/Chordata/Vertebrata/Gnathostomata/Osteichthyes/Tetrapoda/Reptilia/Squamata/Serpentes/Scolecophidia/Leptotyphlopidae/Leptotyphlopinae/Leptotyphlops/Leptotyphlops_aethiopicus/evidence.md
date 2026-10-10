@@ -9,7 +9,6 @@ records:
     name:
       zh: Leptotyphlops aethiopicus
       en: Leptotyphlops aethiopicus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

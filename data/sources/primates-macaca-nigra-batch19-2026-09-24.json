@@ -6,7 +6,7 @@
   "releaseDate": "2026-08-20",
   "checkedAt": "2026-09-24",
   "batchId": "primates-macaca-nigra-batch19-2026-09-24",
-  "scope": "One incomplete, source-audited dossier for the exact accepted COL26.8 Macaca nigra usage 732V5. Two primary studies support bounded ecological and North Maluku occurrence claims; this is not a systematic literature review, complete range assessment, or expert review.",
+  "scope": "One incomplete, source-audited dossier for the exact accepted COL26.8 Macaca nigra usage 732V5. Two primary studies support bounded ecological and North Maluku occurrence claims; this is not a systematic literature review, complete range assessment.",
   "duplicateAudit": {
     "baseHead": "8474c33d2dd5d9a1d7795c9382ba17b88891b3d8",
     "checkedIndexRecords": 6930,
@@ -30,7 +30,9 @@
       "identity": {
         "method": "Exact accepted COL26.8 usage 732V5 was checked in the pinned release search registry and followed through the accepted hierarchy registry; name, authorship, species rank, accepted status, parent and sourceDatasetId match.",
         "scope": "Nominal accepted species usage 732V5. The biological claims concern particular field studies and do not establish a complete species range or species-wide ecology.",
-        "sourceIds": ["col"]
+        "sourceIds": [
+          "col"
+        ]
       },
       "classificationPath": [],
       "lifeStatusScope": {
@@ -99,40 +101,85 @@
         }
       ],
       "facets": {
-        "morphology": {"status":"not-assessed","gaps":["The cited studies do not assess diagnostic morphology or anatomical variation."]},
-        "lifeHistory": {"status":"not-assessed","gaps":["Reproduction, development, survival, and longevity were not assessed in this dossier."]},
+        "morphology": {
+          "status": "not-assessed",
+          "gaps": [
+            "The cited studies do not assess diagnostic morphology or anatomical variation."
+          ]
+        },
+        "lifeHistory": {
+          "status": "not-assessed",
+          "gaps": [
+            "Reproduction, development, survival, and longevity were not assessed in this dossier."
+          ]
+        },
         "ecology": {
-          "status":"partially-supported",
-          "claims":[{
-            "text":"At Tangkoko Reserve in North Sulawesi, monthly phenology monitoring covered 498 trees from 41 species between January 2012 and July 2020. Home-range estimates from four habituated groups averaged 2.32 km² per month (SD 1.12); monthly temperature was the best-supported predictor in the study model, with larger ranges associated with higher temperatures. These are local estimates from the sampled groups and period, not a species-wide home-range value or causal climate effect.",
-            "sourceIds":["joly2023"],
-            "locator":"Abstract ¶3 reports 2,877 ranging days; Methods > Crested Macaque Home Ranges reports 2,577 days and group subtotals (PB 213 + PB1 561 + R1 1,147 + R2 656 = 2,577); the article's two totals conflict and remain unresolved. Also Methods > Field Site and phenology paragraphs; Results > Estimated Home Range and its Drivers ¶1 and Fig. 8; Discussion ¶¶1–2.",
-            "placeTimeScope":"Tangkoko Reserve, North Sulawesi, Indonesia; monthly tree monitoring January 2012–July 2020. The Methods and listed group subtotals (PB/PB1/R1/R2) total 2,577 ranging-data days, while Abstract ¶3 separately reports 2,877; the source discrepancy is unresolved. The claim retains the Methods subtotal and is limited to four habituated groups, not a species-wide estimate.",
-            "lifeStatus":"Habituated free-ranging wild groups; captive or pet animals were not part of this study.",
-            "translationStatus":"untranslated",
-            "originalLanguage":"en"
-          }],
-          "gaps":["The Tangkoko estimates do not establish ecological values for other native or introduced populations.","Diet, interactions, demography, habitat-wide responses, and season/population variation remain unreviewed."]
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "At Tangkoko Reserve in North Sulawesi, monthly phenology monitoring covered 498 trees from 41 species between January 2012 and July 2020. Home-range estimates from four habituated groups averaged 2.32 km² per month (SD 1.12); monthly temperature was the best-supported predictor in the study model, with larger ranges associated with higher temperatures. These are local estimates from the sampled groups and period, not a species-wide home-range value or causal climate effect.",
+              "sourceIds": [
+                "joly2023"
+              ],
+              "locator": "Abstract ¶3 reports 2,877 ranging days; Methods > Crested Macaque Home Ranges reports 2,577 days and group subtotals (PB 213 + PB1 561 + R1 1,147 + R2 656 = 2,577); the article's two totals conflict and remain unresolved. Also Methods > Field Site and phenology paragraphs; Results > Estimated Home Range and its Drivers ¶1 and Fig. 8; Discussion ¶¶1–2.",
+              "placeTimeScope": "Tangkoko Reserve, North Sulawesi, Indonesia; monthly tree monitoring January 2012–July 2020. The Methods and listed group subtotals (PB/PB1/R1/R2) total 2,577 ranging-data days, while Abstract ¶3 separately reports 2,877; the source discrepancy is unresolved. The claim retains the Methods subtotal and is limited to four habituated groups, not a species-wide estimate.",
+              "lifeStatus": "Habituated free-ranging wild groups; captive or pet animals were not part of this study.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "The Tangkoko estimates do not establish ecological values for other native or introduced populations.",
+            "Diet, interactions, demography, habitat-wide responses, and season/population variation remain unreviewed."
+          ]
         },
-        "evolution": {"status":"not-assessed","gaps":["Phylogeny, divergence time, and comparative evolutionary evidence were not assessed."]},
+        "evolution": {
+          "status": "not-assessed",
+          "gaps": [
+            "Phylogeny, divergence time, and comparative evolutionary evidence were not assessed."
+          ]
+        },
         "distribution": {
-          "status":"partially-supported",
-          "claims":[{
-            "text":"During a July–August 2023 survey, the authors recorded wild crested macaques or their feces at 18 locations on Bacan, four on Kasiruta, and one on southern Halmahera. They separately recorded ten pet macaques at six Bacan locations. The survey did not visit Mandioli; its report of no evidence there came from interviews, so it is not a direct absence survey. These observations document sampled North Maluku occurrences and do not define the species’ complete range.",
-            "sourceIds":["neugebauer2025"],
-            "locator":"Abstract ¶¶2–3; Methods > Study Area ¶1 and Recording the Presence of Macaques, Their Feces, and Behavior; Results > Presence of Crested Macaques ¶1 and Table I; Discussion > Accounts of Local People.",
-            "placeTimeScope":"Bacan, Kasiruta, and southern Halmahera, South Halmahera Regency, North Maluku, Indonesia; field survey 2023-07-06 to 2023-08-03. Mandioli was not visited; interview evidence only.",
-            "lifeStatus":"Wild occurrences comprise observed groups/individuals or fecal evidence. The ten reported pets on Bacan are explicitly excluded from the wild occurrence counts.",
-            "translationStatus":"untranslated",
-            "originalLanguage":"en"
-          }],
-          "gaps":["No complete contemporary range inventory across Sulawesi or satellite/introduced islands has been compiled.","The North Maluku survey was opportunistic and does not establish population size, persistence, or all-island presence/absence."]
+          "status": "partially-supported",
+          "claims": [
+            {
+              "text": "During a July–August 2023 survey, the authors recorded wild crested macaques or their feces at 18 locations on Bacan, four on Kasiruta, and one on southern Halmahera. They separately recorded ten pet macaques at six Bacan locations. The survey did not visit Mandioli; its report of no evidence there came from interviews, so it is not a direct absence survey. These observations document sampled North Maluku occurrences and do not define the species’ complete range.",
+              "sourceIds": [
+                "neugebauer2025"
+              ],
+              "locator": "Abstract ¶¶2–3; Methods > Study Area ¶1 and Recording the Presence of Macaques, Their Feces, and Behavior; Results > Presence of Crested Macaques ¶1 and Table I; Discussion > Accounts of Local People.",
+              "placeTimeScope": "Bacan, Kasiruta, and southern Halmahera, South Halmahera Regency, North Maluku, Indonesia; field survey 2023-07-06 to 2023-08-03. Mandioli was not visited; interview evidence only.",
+              "lifeStatus": "Wild occurrences comprise observed groups/individuals or fecal evidence. The ten reported pets on Bacan are explicitly excluded from the wild occurrence counts.",
+              "translationStatus": "untranslated",
+              "originalLanguage": "en"
+            }
+          ],
+          "gaps": [
+            "No complete contemporary range inventory across Sulawesi or satellite/introduced islands has been compiled.",
+            "The North Maluku survey was opportunistic and does not establish population size, persistence, or all-island presence/absence."
+          ]
         },
-        "fossil": {"status":"not-assessed","gaps":["No fossil occurrence or geological-age evidence was assessed."]},
-        "conservation": {"status":"not-assessed","gaps":["No current formal conservation assessment, population trend, or status category was reviewed."]}
+        "fossil": {
+          "status": "not-assessed",
+          "gaps": [
+            "No fossil occurrence or geological-age evidence was assessed."
+          ]
+        },
+        "conservation": {
+          "status": "not-assessed",
+          "gaps": [
+            "No current formal conservation assessment, population trend, or status category was reviewed."
+          ]
+        }
       },
-      "completeness": {"status":"incomplete","reasons":["Only one local ecological study and one opportunistic North Maluku occurrence survey were assessed.","The cited evidence does not provide a complete range, population assessment, or species-wide ecological synthesis.","Morphology, life history, evolution, fossils, and formal conservation assessment remain unassessed; no systematic literature search or independent expert review was completed."]},
-      "expertReview": {"status":"not-reviewed","reviewers":[],"reviewDigest":null}
+      "completeness": {
+        "status": "incomplete",
+        "reasons": [
+          "Only one local ecological study and one opportunistic North Maluku occurrence survey were assessed.",
+          "The cited evidence does not provide a complete range, population assessment, or species-wide ecological synthesis.",
+          "Morphology, life history, evolution, fossils, and formal conservation assessment remain unassessed; no systematic literature search was completed."
+        ]
+      }
     }
   ]
 }

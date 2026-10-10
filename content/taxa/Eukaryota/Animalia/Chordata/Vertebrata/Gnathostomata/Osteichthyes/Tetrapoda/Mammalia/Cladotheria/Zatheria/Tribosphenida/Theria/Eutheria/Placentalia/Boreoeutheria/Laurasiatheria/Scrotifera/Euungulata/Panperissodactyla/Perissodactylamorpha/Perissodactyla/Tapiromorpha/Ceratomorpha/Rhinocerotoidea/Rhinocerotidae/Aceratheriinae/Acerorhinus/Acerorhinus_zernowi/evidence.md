@@ -9,7 +9,6 @@ records:
     name:
       zh: Acerorhinus zernowi
       en: Acerorhinus zernowi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

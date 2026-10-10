@@ -9,7 +9,6 @@ records:
     name:
       zh: Remiz
       en: Remiz
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

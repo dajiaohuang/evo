@@ -9,7 +9,6 @@ records:
     name:
       zh: Helicops hagmanni
       en: Helicops hagmanni
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

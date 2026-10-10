@@ -9,7 +9,6 @@ records:
     name:
       zh: Ctenotus striaticeps
       en: Ctenotus striaticeps
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

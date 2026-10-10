@@ -60,9 +60,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/0/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: coiro-2023-cycad-biogeography primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: coiro-2023-cycad-biogeography
           relation: supports
@@ -79,9 +76,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/1/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: coiro-2023-cycad-biogeography primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: coiro-2023-cycad-biogeography
           relation: supports
@@ -98,9 +92,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/2/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: coiro-2023-cycad-biogeography primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: coiro-2023-cycad-biogeography
           relation: supports
@@ -117,9 +108,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/3/confidenceRationale
-      reviewedBy: Evo Atlas data maintenance
-      reviewedAt: 2026-08-30
-      reviewedAgainstReferenceVersion: coiro-2023-cycad-biogeography primary-study locator checked for 2026.08-static-v5-rc38
       referenceLinks:
         - referenceId: coiro-2023-cycad-biogeography
           relation: supports
@@ -136,9 +124,6 @@ records:
       confidenceRationale:
         markdown: evidence.md
         field: /records/claims/4/confidenceRationale
-      reviewedBy: Codex automated evidence audit
-      reviewedAt: 2026-08-31
-      reviewedAgainstReferenceVersion: coiro-2023-cycad-biogeography locator checked for rc50
       referenceLinks:
         - relation: supports
           referenceId: coiro-2023-cycad-biogeography
@@ -192,7 +177,6 @@ records:
           locator:
             markdown: evidence.md
             field: /records/ranges/0/referenceLocators/0/locator
-      reviewStatus: automated-audit-passed
       evidenceLevel: literature-synthesized
 ---
 

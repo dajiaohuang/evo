@@ -9,7 +9,6 @@ records:
     name:
       en: Hylodidae
       zh: Hylodidae
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

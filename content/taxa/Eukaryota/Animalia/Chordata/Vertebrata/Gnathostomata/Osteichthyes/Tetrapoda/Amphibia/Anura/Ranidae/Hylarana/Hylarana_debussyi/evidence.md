@@ -9,7 +9,6 @@ records:
     name:
       en: Hylarana debussyi
       zh: Hylarana debussyi
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

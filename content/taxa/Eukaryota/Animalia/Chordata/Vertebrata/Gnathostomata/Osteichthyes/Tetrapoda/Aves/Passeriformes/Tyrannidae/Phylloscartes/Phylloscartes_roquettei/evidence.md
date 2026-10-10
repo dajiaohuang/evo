@@ -9,7 +9,6 @@ records:
     name:
       zh: Phylloscartes roquettei
       en: Phylloscartes roquettei
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

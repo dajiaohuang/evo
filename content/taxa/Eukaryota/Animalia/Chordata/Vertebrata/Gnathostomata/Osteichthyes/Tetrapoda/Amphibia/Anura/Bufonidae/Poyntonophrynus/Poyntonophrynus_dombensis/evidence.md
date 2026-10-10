@@ -9,7 +9,6 @@ records:
     name:
       en: Poyntonophrynus dombensis
       zh: Poyntonophrynus dombensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

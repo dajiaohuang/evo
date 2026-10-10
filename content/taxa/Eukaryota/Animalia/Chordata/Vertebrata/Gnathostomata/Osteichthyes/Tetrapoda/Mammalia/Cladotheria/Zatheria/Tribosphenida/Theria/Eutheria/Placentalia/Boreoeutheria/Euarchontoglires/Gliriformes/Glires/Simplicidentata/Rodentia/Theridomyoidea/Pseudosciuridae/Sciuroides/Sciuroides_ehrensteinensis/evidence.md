@@ -9,7 +9,6 @@ records:
     name:
       zh: Sciuroides ehrensteinensis
       en: Sciuroides ehrensteinensis
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

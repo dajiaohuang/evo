@@ -9,7 +9,6 @@ records:
     name:
       en: Scinax perereca
       zh: Scinax perereca
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic:

@@ -9,7 +9,6 @@ records:
     name:
       zh: Coloradisuchus abelini
       en: Coloradisuchus abelini
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

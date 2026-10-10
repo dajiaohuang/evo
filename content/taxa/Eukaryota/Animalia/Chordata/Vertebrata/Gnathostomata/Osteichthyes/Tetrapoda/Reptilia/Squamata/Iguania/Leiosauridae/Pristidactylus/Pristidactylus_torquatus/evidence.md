@@ -9,7 +9,6 @@ records:
     name:
       zh: Pristidactylus torquatus
       en: Pristidactylus torquatus
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview

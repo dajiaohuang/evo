@@ -9,7 +9,6 @@ records:
     name:
       zh: Khunnuchelys
       en: Khunnuchelys
-    reviewStatus: source-linked
     checkedAt: 2026-10-02
     sections:
       - topic: overview
