@@ -18,6 +18,8 @@ import { GeoTimeline } from '../timeline/GeoTimeline'
 import { ErrorBoundary } from '../common/ErrorBoundary'
 import { EvidenceIssueLink } from '../common/EvidenceIssueLink'
 import './ExplorerWorkspace.css'
+import type { TreeFocusRequest } from '../tree/EvoTree'
+import type { OpenFullTree } from '../tree/LocalTreePanel'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
 type GuideMode = 'choice' | 'tour' | 'hidden'
@@ -97,6 +99,8 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
     younger: getFiniteRouteNumber(initialRoute.params, 'younger'),
   }), [initialRoute])
   const [view, setView] = useState<ExplorerView>(initialView)
+  const [treeFocus, setTreeFocus] = useState<TreeFocusRequest | null>(null)
+  const focusSequence = useRef(0)
   const [visitedViews, setVisitedViews] = useState(() => new Set<ExplorerView>([initialView]))
   if (!visitedViews.has(view)) setVisitedViews(new Set([...visitedViews, view]))
   const requestedDataset = initialRoute.params.get('dataset')
@@ -195,6 +199,8 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
     const requestedTreeMode = params.get('treeMode') as TreeDisplayMode | null
     if (requestedTreeMode && TREE_MODES.has(requestedTreeMode)) setTreeMode(requestedTreeMode)
     const taxon = params.get('taxon')
+    const focusedNodeId = params.get('focus') ?? (routeView === 'tree' ? taxon : null)
+    if (focusedNodeId) setTreeFocus({ nodeId: focusedNodeId, sequence: ++focusSequence.current })
     if (!taxon && params.has('dataset')) void selectSubject({ nodeId: null })
     if (taxon && (!isPagesPreview || isPreviewTaxonAllowed(taxon))) {
       const node = nodes.find((candidate) => candidate.id === taxon)
@@ -270,6 +276,24 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
     setMobilePanel('inspector')
   }
 
+  const openFullTree: OpenFullTree = (nodeId, mode) => {
+    const node = nodes.find(candidate => candidate.id === nodeId)
+    if (!node) return
+    setTreeMode(mode)
+    void selectSubject({ nodeId, taxonId: node.taxonId })
+    setTreeFocus({ nodeId, sequence: ++focusSequence.current })
+    setView('tree')
+    setMobilePanel(null)
+  }
+  const toggleMainView = () => {
+    if (view === 'tree') { setView('map'); return }
+    if (selectedNodeId) {
+      setTreeFocus({ nodeId: selectedNodeId, sequence: ++focusSequence.current })
+    }
+    setView('tree')
+  }
+  const mainViewLabel = language === 'zh' ? view === 'tree' ? '返回古地图' : '前往物种树' : view === 'tree' ? 'Return to the paleomap' : 'Go to the species tree'
+
   const shareState = async () => {
     const url = explorationShareUrl(window.location.href, import.meta.env.VITE_NATIVE_APP === 'true')
     setShareUrl(url)
@@ -324,12 +348,16 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
     && Number.isFinite(selectedNode.firstAppearance) && Number.isFinite(selectedNode.lastAppearance)
   const revealSelection = useEffectEvent(() => {
     if ((!selectedNodeId && !selectedOccurrence) || guideMode !== 'hidden') return
+    if (view === 'tree' && treeFocus?.nodeId === selectedNodeId) {
+      setMobilePanel(null)
+      return
+    }
     setDetailsOpen(true)
     setMobilePanel('inspector')
   })
   // Map and tree selections arrive through the external store, not local button handlers.
   // eslint-disable-next-line react-hooks/set-state-in-effect
-  useEffect(() => { revealSelection() }, [selectedNodeId, selectedOccurrence?.oid])
+  useEffect(() => { revealSelection() }, [selectedNodeId, selectedOccurrence?.oid, treeFocus])
 
   return (
     <main className={`explorer-workspace${dashboard ? ' explorer-workspace--dashboard' : ''}${detailsOpen ? ' is-details-open' : ''}`}>
@@ -494,9 +522,17 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
           <div className="stage-canvas">
             <Suspense fallback={<ModuleLoading />}>
               {visitedViews.has('map') && <Activity mode={view === 'map' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Map" />}><PaleoMap /></ErrorBoundary></Activity>}
-              {visitedViews.has('tree') && <Activity mode={view === 'tree' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree /></ErrorBoundary></Activity>}
+              {visitedViews.has('tree') && <Activity mode={view === 'tree' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree focusRequest={treeFocus} /></ErrorBoundary></Activity>}
               {visitedViews.has('diversity') && <Activity mode={view === 'diversity' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Diversity view" />}><DiversityView /></ErrorBoundary></Activity>}
             </Suspense>
+            <div className="main-view-corner">
+              <button type="button" className="main-view-corner__button" aria-label={mainViewLabel} aria-describedby="main-view-tooltip" onClick={toggleMainView}>
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.7">
+                  {view === 'tree' ? <><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2Z" /><path d="M9 3v16M15 5v16" /></> : <><path d="M12 4v6M5 15v-5h14v5M12 10v5" /><circle cx="12" cy="3" r="2" /><circle cx="5" cy="18" r="2" /><circle cx="12" cy="18" r="2" /><circle cx="19" cy="18" r="2" /></>}
+                </svg>
+              </button>
+              <span className="main-view-corner__tooltip" id="main-view-tooltip" role="tooltip">{mainViewLabel}</span>
+            </div>
           </div>
         </div>
 
@@ -537,7 +573,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
             </div>
           )}
           {selectedPublication && <EvidenceIssueLink entityId={profileContext?.id ?? selectedNodeId ?? undefined} compact />}
-          <Suspense fallback={<ModuleLoading />}><ErrorBoundary fallback={<ViewFallback label="Inspector" />}><SpeciesDetail /></ErrorBoundary></Suspense>
+          <Suspense fallback={<ModuleLoading />}><ErrorBoundary fallback={<ViewFallback label="Inspector" />}><SpeciesDetail onOpenFullTree={openFullTree} /></ErrorBoundary></Suspense>
         </div>
       </aside>}
 

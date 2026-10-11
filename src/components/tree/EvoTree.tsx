@@ -13,8 +13,23 @@ import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview
 import { isBackendConfigured } from '../../data-client/backendClient'
 import { BackendCatalogueTree } from './BackendCatalogueTree'
 import './EvoTree.css'
+import { canLocateTreeNode, treePath, treeScope } from './treeScope'
 
 export type TreeMode = TreeDisplayMode
+
+export interface TreeFocusRequest {
+  nodeId: string
+  sequence: number
+}
+
+interface EvoTreeProps {
+  scopeNodeId?: string
+  selectionId?: string | null
+  onSelectNode?: (nodeId: string) => void
+  displayMode?: TreeMode
+  onModeChange?: (mode: TreeMode) => void
+  focusRequest?: TreeFocusRequest | null
+}
 
 const mappedCalibrations = calibrationData.estimates.filter((estimate) => estimate.displayOnTree && estimate.mappingStatus === 'mapped' && estimate.nodeId)
 
@@ -62,10 +77,13 @@ function downloadTree(node: TreeNode, format: 'newick' | 'nexus') {
   URL.revokeObjectURL(url)
 }
 
-export function EvoTree() {
+export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, onModeChange, focusRequest }: EvoTreeProps = {}) {
   const { language, t } = useI18n()
   const svgRef = useRef<SVGSVGElement>(null)
   const cameras = useRef(new Map<TreeMode, d3.ZoomTransform>())
+  const scene = useRef<{ mode: TreeMode; rootId: string; zoom: d3.ZoomBehavior<SVGSVGElement, unknown>; points: Map<string, [number, number]>; width: number; height: number; fit: d3.ZoomTransform } | null>(null)
+  const pendingFocus = useRef<string | null>(null)
+  const appliedFocus = useRef<TreeFocusRequest | null>(null)
   const [collapsedIds, setCollapsedIds] = useState<Set<string>>(() => new Set())
   const [traceLineage, setTraceLineage] = useState(false)
   const [traitOverlay, setTraitOverlay] = useState('')
@@ -80,22 +98,23 @@ export function EvoTree() {
     }, () => { if (active) setEventError(true) })
     return () => { active = false }
   }, [eventOverlay])
-  const [backendTreeView, setBackendTreeView] = useState(() => isBackendConfigured())
-  const mode = useAppStore((state) => state.treeMode)
-  const setMode = useAppStore((state) => state.setTreeMode)
+  const [backendTreeView, setBackendTreeView] = useState(() => !scopeNodeId && !focusRequest && isBackendConfigured())
+  const storedMode = useAppStore((state) => state.treeMode)
+  const setStoredMode = useAppStore((state) => state.setTreeMode)
+  const { mode, root: sourceTree } = treeScope(scopeNodeId, displayMode ?? storedMode)
+  const setMode = onModeChange ?? setStoredMode
   const currentAge = useAppStore((state) => state.currentAge)
-  const selectedNodeId = useAppStore((state) => state.selectedNodeId)
+  const storedSelection = useAppStore((state) => state.selectedNodeId)
+  const selectedNodeId = selectionId === undefined ? storedSelection : selectionId
   const selectSubject = useAppStore((state) => state.selectSubject)
-  const alternativeNodes = useMemo(() => flattenNodes(mode === 'navigation' || mode === 'radial'
-    ? treeData as TreeNode
-    : perissodactylHypothesisData.root as TreeNode, []), [mode])
+  const alternativeNodes = useMemo(() => flattenNodes(sourceTree, []), [sourceTree])
   const traitOptions = useMemo(() => {
     const visibleNodeIds = new Set(alternativeNodes.map((node) => node.id))
     return [...new Set(taxonProfiles.filter((profile) => visibleNodeIds.has(profile.treeNodeId ?? profile.id)).flatMap((profile) => profile.traits))]
       .sort((left, right) => left.localeCompare(right, 'en'))
   }, [alternativeNodes])
   const activeNodeCount = alternativeNodes.filter((node) => activeAt(node, currentAge)).length
-  const exportTree = mode === 'navigation' || mode === 'radial' ? treeData as TreeNode : perissodactylHypothesisData.root as TreeNode
+  const exportTree = sourceTree
   const selectedSourceNode = selectedNodeId ? findNode([exportTree], selectedNodeId) : null
   const activeEventLabels = useMemo(() => new Set(eventOverlay
     ? evolutionEvents.filter((event) => currentAge <= event.startAge && currentAge >= event.endAge).flatMap((event) => event.clades).map(normalizedLabel)
@@ -119,32 +138,71 @@ export function EvoTree() {
   const presentLabel = t('present')
   const unavailableLabel = t('Unavailable')
 
-  const handleNodeClick = useCallback((nodeId: string) => {
+  const handleNodeClick = (nodeId: string) => {
     if (isPagesPreview && !isPreviewTaxonAllowed(nodeId)) return
+    if (onSelectNode) { onSelectNode(nodeId); return }
     const node = findNode([treeData as TreeNode], nodeId)
       ?? findNode([perissodactylHypothesisData.root as TreeNode], nodeId)
     void selectSubject({ nodeId, taxonId: node?.taxonId })
-  }, [selectSubject])
+  }
+
+  const focusNode = useCallback((nodeId: string) => {
+    const element = svgRef.current
+    if (!element) return false
+    if (mode === 'fossil-range') {
+      const row = d3.select(element).selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('.range-row').filter(node => node.data.id === nodeId).node()
+      if (!row) return false
+      element.parentElement?.scrollTo({ top: Math.max(0, row.getBBox().y + row.transform.baseVal.consolidate()!.matrix.f - 100) })
+      return true
+    }
+    const current = scene.current
+    const point = current?.points.get(nodeId)
+    if (!current || current.mode !== mode || current.rootId !== sourceTree.id || !point) return false
+    const scale = 1.6
+    d3.select(element).call(current.zoom.transform, d3.zoomIdentity.translate(current.width / 2 - point[0] * scale, current.height / 2 - point[1] * scale).scale(scale))
+    return true
+  }, [mode, sourceTree])
+
+  const locateNode = useCallback((nodeId: string) => {
+    const path = treePath(sourceTree, nodeId)
+    if (!path) return
+    pendingFocus.current = nodeId
+    const ancestors = new Set(path.slice(0, -1).map(node => node.id))
+    if ([...ancestors].some(id => collapsedIds.has(id))) {
+      setCollapsedIds(current => new Set([...current].filter(id => !ancestors.has(id))))
+    } else if (focusNode(nodeId)) pendingFocus.current = null
+  }, [collapsedIds, focusNode, sourceTree])
+
+  const applyFocusRequest = useEffectEvent(() => {
+    if (!focusRequest || appliedFocus.current === focusRequest) return
+    if (backendTreeView) { setBackendTreeView(false); return }
+    if (!canLocateTreeNode(mode, focusRequest.nodeId)) {
+      if (mode !== 'navigation') setMode('navigation')
+      return
+    }
+    appliedFocus.current = focusRequest
+    locateNode(focusRequest.nodeId)
+  })
+  // A locate request is an external navigation, distinct from ordinary selection.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => { applyFocusRequest() }, [focusRequest, mode, sourceTree, backendTreeView])
 
   const renderTree = useEffectEvent(() => {
     const svgElement = svgRef.current
     if (!svgElement) return
     const width = svgElement.parentElement?.clientWidth || 700
-    const viewportHeight = svgElement.parentElement?.clientHeight || 560
+    const viewportHeight = (scopeNodeId && mode !== 'fossil-range' ? svgElement.clientHeight : svgElement.parentElement?.clientHeight) || 560
     const svg = d3.select(svgElement)
     svg.selectAll('*').remove()
     svg.on('.zoom', null)
 
-    const sourceTree = mode === 'navigation' || mode === 'radial'
-      ? treeData as TreeNode
-      : perissodactylHypothesisData.root as TreeNode
     const root = d3.hierarchy<TreeNode>(sourceTree, (node) => collapsedIds.has(node.id) ? undefined : node.children)
     const descendants = root.descendants()
     const maxAge = Math.max(1, ...descendants.filter((node) => node.data.rangeEvidenceLevel !== 'withheld-no-range-evidence').map((node) => node.data.firstAppearance)) * 1.08
     const selectedHierarchyNode = selectedNodeId ? descendants.find((node) => node.data.id === selectedNodeId) : null
     const lineageIds = new Set(selectedHierarchyNode?.ancestors().map((node) => node.data.id) ?? [])
     const inLineage = (node: d3.HierarchyNode<TreeNode>) => !traceLineage || !selectedHierarchyNode || lineageIds.has(node.data.id)
-    const nodeOpacity = (node: d3.HierarchyNode<TreeNode>, inactiveOpacity = .22) => inLineage(node) ? (activeAt(node.data, currentAge) ? 1 : inactiveOpacity) : .05
+    const nodeOpacity = (node: d3.HierarchyNode<TreeNode>, inactiveOpacity = .22) => inLineage(node) ? (scopeNodeId || activeAt(node.data, currentAge) ? 1 : inactiveOpacity) : .05
     const linkOpacity = (link: d3.HierarchyLink<TreeNode>) => !traceLineage || !selectedHierarchyNode || (lineageIds.has(link.source.data.id) && lineageIds.has(link.target.data.id)) ? 1 : .05
 
     if (mode === 'fossil-range') {
@@ -192,10 +250,22 @@ export function EvoTree() {
 
     svg.attr('height', '100%').attr('viewBox', null)
     const g = svg.append('g')
+    const zoom = d3.zoom<SVGSVGElement, unknown>().extent([[0, 0], [width, viewportHeight]]).scaleExtent([0.02, 12]).on('zoom', (event) => {
+      cameras.current.set(mode, event.transform)
+      g.attr('transform', event.transform.toString())
+    })
+    const points = new Map<string, [number, number]>()
+    scene.current = { mode, rootId: sourceTree.id, zoom, points, width, height: viewportHeight, fit: d3.zoomIdentity }
+    svg.call(zoom)
+    if (mode === 'radial' || mode === 'first-appearance') svg.call(zoom.transform, cameras.current.get(mode) ?? d3.zoomIdentity)
 
     if (mode === 'radial') {
       const radius = Math.max(120, Math.min(width, viewportHeight) / 2 - 58)
       d3.cluster<TreeNode>().size([Math.PI * 2, radius])(root)
+      root.each(node => {
+        const point = node as d3.HierarchyPointNode<TreeNode>
+        points.set(node.data.id, [width / 2 + Math.sin(point.x) * point.y, viewportHeight / 2 - Math.cos(point.x) * point.y])
+      })
       const radial = g.append('g').attr('transform', `translate(${width / 2},${viewportHeight / 2})`)
       const radialLink = d3.linkRadial<d3.HierarchyPointLink<TreeNode>, d3.HierarchyPointNode<TreeNode>>()
         .angle((node) => node.x)
@@ -242,12 +312,13 @@ export function EvoTree() {
       const yOffset = Math.max(35, (viewportHeight - layoutHeight) / 2)
       const xFor = (node: d3.HierarchyPointNode<TreeNode>) => timeX(node.data.firstAppearance)
       const yFor = (node: d3.HierarchyPointNode<TreeNode>) => node.x + yOffset
+      for (const node of temporalNodes) points.set(node.data.id, [xFor(node as d3.HierarchyPointNode<TreeNode>), yFor(node as d3.HierarchyPointNode<TreeNode>)])
 
       const axis = d3.axisTop(timeX).ticks(Math.max(4, Math.floor(width / 130))).tickFormat((value) => `${value} Ma`)
-      svg.append('g').attr('class', 'tree-time-axis').attr('transform', 'translate(0,28)').call(axis)
-      svg.append('line').attr('class', 'tree-current-line').attr('data-max-age', maxAge).attr('data-start', 55).attr('data-end', width - 125).attr('x1', timeX(Math.min(currentAge, maxAge))).attr('x2', timeX(Math.min(currentAge, maxAge))).attr('y1', 28).attr('y2', viewportHeight)
+      g.append('g').attr('class', 'tree-time-axis').attr('transform', 'translate(0,28)').call(axis)
+      g.append('line').attr('class', 'tree-current-line').attr('data-max-age', maxAge).attr('data-start', 55).attr('data-end', width - 125).attr('x1', timeX(Math.min(currentAge, maxAge))).attr('x2', timeX(Math.min(currentAge, maxAge))).attr('y1', 28).attr('y2', viewportHeight)
 
-      g.selectAll('path').data(temporalLinks).join('path').attr('class', 'tree-link')
+      g.selectAll('path.tree-link').data(temporalLinks).join('path').attr('class', 'tree-link')
         .attr('d', (link) => {
           const source = link.source as d3.HierarchyPointNode<TreeNode>
           const target = link.target as d3.HierarchyPointNode<TreeNode>
@@ -274,15 +345,10 @@ export function EvoTree() {
       return
     }
 
-    const zoom = d3.zoom<SVGSVGElement, unknown>().extent([[0, 0], [width, viewportHeight]]).scaleExtent([0.2, 12]).on('zoom', (event) => {
-      cameras.current.set(mode, event.transform)
-      g.attr('transform', event.transform.toString())
-    })
-    svg.call(zoom)
-
     d3.tree<TreeNode>().nodeSize([76, 128])(root)
     const bounds = { x0: Infinity, y0: Infinity, x1: -Infinity, y1: -Infinity }
     root.each((node) => {
+      points.set(node.data.id, [node.x ?? 0, node.y ?? 0])
       bounds.x0 = Math.min(bounds.x0, node.x ?? 0)
       bounds.x1 = Math.max(bounds.x1, node.x ?? 0)
       bounds.y0 = Math.min(bounds.y0, node.y ?? 0)
@@ -294,6 +360,7 @@ export function EvoTree() {
     const initialTransform = d3.zoomIdentity
       .translate((width - treeWidth * scale) / 2 - bounds.x0 * scale, 18 - bounds.y0 * scale)
       .scale(scale)
+    scene.current.fit = initialTransform
     svg.call(zoom.transform, cameras.current.get(mode) ?? initialTransform)
     g.selectAll('path').data(root.links()).join('path').attr('class', 'tree-link')
       .attr('d', (link) => {
@@ -343,7 +410,7 @@ export function EvoTree() {
       .attr('aria-expanded', (node) => node.data.children?.length ? String(!collapsedIds.has(node.data.id)) : null)
       .attr('tabindex', function () { return this === tabTarget ? 0 : -1 })
       .classed('is-selected', (node) => node.data.id === selectedNodeId)
-      .style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : !inLineage(node) ? .05 : mode === 'fossil-range' || activeAt(node.data, currentAge) ? 1 : .22)
+      .style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : !inLineage(node) ? .05 : scopeNodeId || mode === 'fossil-range' || activeAt(node.data, currentAge) ? 1 : .22)
       .on('keydown', (event: KeyboardEvent, node) => {
         const elements = nodes.nodes()
         const index = elements.indexOf(event.currentTarget as SVGGElement)
@@ -395,6 +462,7 @@ export function EvoTree() {
         .filter(function () { return this === document.activeElement }).data()[0]?.data.id
       renderTree()
       updateAppearance()
+      if (pendingFocus.current && focusNode(pendingFocus.current)) pendingFocus.current = null
       if (focusedId) d3.select(svgRef.current).selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('[role="treeitem"]')
         .filter((node) => node.data.id === focusedId).each(function () { this.focus() })
     }
@@ -402,7 +470,7 @@ export function EvoTree() {
     const observer = new ResizeObserver(draw)
     observer.observe(parent)
     return () => observer.disconnect()
-  }, [collapsedIds, mode, language, presentLabel, unavailableLabel, backendTreeView])
+  }, [collapsedIds, mode, sourceTree, language, presentLabel, unavailableLabel, backendTreeView, focusNode])
   useEffect(() => { updateAppearance() }, [currentAge, selectedNodeId, traceLineage, traitOverlay, eventOverlay, evolutionEvents])
 
   if (backendTreeView && isBackendConfigured()) {
@@ -410,8 +478,8 @@ export function EvoTree() {
   }
 
   return (
-    <div className={`evo-tree evo-tree--${mode}`}>
-      {isBackendConfigured() && <button type="button" className="tree-backend-control" onClick={() => setBackendTreeView(true)}>{language === 'zh' ? '打开全量分类树' : 'Open full catalogue tree'}</button>}
+    <div className={`evo-tree evo-tree--${mode}${scopeNodeId ? ' evo-tree--local' : ''}`}>
+      {!scopeNodeId && isBackendConfigured() && <button type="button" className="tree-backend-control" onClick={() => setBackendTreeView(true)}>{language === 'zh' ? '打开全量分类树' : 'Open full catalogue tree'}</button>}
       <div className="tree-mode-control" role="group" aria-label={t('Tree time model')}>
         <span>{t('Tree model')}</span>
         {([
@@ -421,10 +489,16 @@ export function EvoTree() {
           ['fossil-range', 'Fossil ranges'],
           ['calibration', 'Calibration evidence'],
           ['radial', 'Radial'],
-        ] as Array<[TreeMode, string]>).map(([value, label]) => (
+        ] as Array<[TreeMode, string]>).filter(([value]) => !scopeNodeId || canLocateTreeNode(value, scopeNodeId)).map(([value, label]) => (
           <button key={value} className={mode === value ? 'is-active' : ''} onClick={() => setMode(value)}>{t(label)}</button>
         ))}
       </div>
+      {mode !== 'fossil-range' && <div className="tree-camera-control" role="group" aria-label={language === 'zh' ? '树视图操作' : 'Tree view controls'}>
+        <button aria-label={language === 'zh' ? '放大树' : 'Zoom in on tree'} onClick={() => { if (svgRef.current && scene.current) d3.select(svgRef.current).call(scene.current.zoom.scaleBy, 1.4) }}>+</button>
+        <button aria-label={language === 'zh' ? '缩小树' : 'Zoom out on tree'} onClick={() => { if (svgRef.current && scene.current) d3.select(svgRef.current).call(scene.current.zoom.scaleBy, 1 / 1.4) }}>−</button>
+        <button onClick={() => { if (svgRef.current && scene.current) d3.select(svgRef.current).call(scene.current.zoom.transform, scene.current.fit) }}>{language === 'zh' ? '看全局' : 'Fit tree'}</button>
+        <button disabled={!selectedSourceNode} onClick={() => { if (selectedNodeId) locateNode(selectedNodeId) }}>{language === 'zh' ? '定位所选' : 'Locate selected node'}</button>
+      </div>}
       {isPagesPreview && <p className="tree-preview-note" role="note">
         {language === 'zh'
           ? '预览版中的灰显节点仅用于上下文，精选资源包之外的完整档案请使用完整版 Web。'

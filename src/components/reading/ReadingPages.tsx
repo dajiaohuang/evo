@@ -5,6 +5,7 @@ import type { ReferenceRecord } from '../../types/catalog'
 import type { AppRoute } from '../../utils/routing'
 import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
 import './ReadingPages.css'
+import { LocalTreePanel } from '../tree/LocalTreePanel'
 
 interface ReadingProps {
   onNavigate: (route: AppRoute, params?: Record<string, string>) => void
@@ -77,6 +78,7 @@ export function ReadingArticle({ id, onNavigate }: ReadingProps & { id: string }
     <nav className="reading-contents" aria-label={zh ? '本文内容' : 'In this chapter'}>{guide.sections.map((section, index) => <a key={index} href={`#section-${index}`} onClick={event => { event.preventDefault(); document.getElementById(`section-${index}`)?.scrollIntoView({ behavior: 'smooth' }) }}>{section.title[language]}</a>)}</nav>
     <div className="reading-prose">{guide.sections.map((section, index) => <section id={`section-${index}`} key={index}><h2>{section.title[language]}</h2><p>{section.text[language]}</p></section>)}</div>
     <aside className="reading-term"><h2>{guide.term.name[language]}</h2><p>{guide.term.meaning[language]}</p></aside>
+    <LocalTreePanel nodeId={guide.taxonId} />
     <section className="reading-next"><h2>{zh ? '继续认识这个类群' : 'Continue with this group'}</h2><p>{zh ? '详情页保留更完整的形态、生态、演化关系和研究材料。未覆盖的部分会明确说明。' : 'The detail page retains morphology, ecology, evolutionary relationships and research material. Gaps are stated explicitly.'}</p><button type="button" onClick={() => onNavigate('taxa', { id: guide.taxonId })}>{zh ? '阅读类群或物种详情' : 'Read the group or species details'} →</button></section>
     <section className="reading-sources"><h2>{zh ? '本文依据的研究' : 'Studies behind this chapter'}</h2>{!sources.length && <p role="status">{sourceError ? zh ? '文献暂时无法加载，请刷新重试。' : 'Sources could not be loaded. Refresh to retry.' : zh ? '正在加载文献…' : 'Loading sources…'}</p>}<ol>{sources.map(source => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a><small>{source.publishedYear ?? ''}{source.doi ? ` · DOI ${source.doi}` : ''}</small></li>)}</ol></section>
   </main>

@@ -29,6 +29,16 @@
 .tree-hypothesis-status { position: absolute; right: 12px; bottom: 8px; z-index: 25; max-width: min(430px, calc(100% - 24px)); border: 1px solid var(--color-border-subtle); background: rgba(8, 17, 21, .96); color: var(--color-text-muted); }
 .tree-hypothesis-status summary { padding: 6px 9px; color: var(--color-text-faint); font: 7px var(--font-mono); text-transform: uppercase; cursor: pointer; }.tree-hypothesis-status p, .tree-hypothesis-status code { display: block; margin: 0; padding: 0 10px 8px; font-size: 8px; line-height: 1.45; }.tree-hypothesis-status code { color: var(--color-accent-soft); overflow-wrap: anywhere; }
 .tree-link { fill: none; stroke: #303b43; stroke-width: 1.2; }
+.tree-camera-control { position: absolute; right: 12px; bottom: 44px; z-index: 26; display: flex; flex-wrap: wrap; gap: 4px; }
+.tree-camera-control button { min-width: 32px; min-height: 32px; padding: 5px 8px; border: 1px solid var(--color-border); border-radius: 4px; background: var(--color-surface); color: var(--color-text); font-size: 12px; cursor: pointer; }
+.tree-camera-control button:disabled { opacity: .4; cursor: default; }
+.tree-camera-control button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.evo-tree:not(.evo-tree--local) .tree-model-note { bottom: 70px; }
+@media (max-width: 720px) {
+  .evo-tree:not(.evo-tree--local) .tree-hypothesis-status { max-width: calc(100% - 84px); }
+  .tree-camera-control { bottom: 112px; }
+  .tree-camera-control button { min-width: 44px; min-height: 44px; }
+}
 .tree-node-label { fill: var(--color-text-secondary); font: 8px var(--font-sans); }
 .tree-calibration-label { fill: #d8aa68; font: 7px var(--font-mono); }
 .tree-time-axis path, .tree-time-axis line { stroke: var(--color-border); }

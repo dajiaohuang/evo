@@ -39,6 +39,21 @@ This is the agreed design direction; the complete dashboard redesign is pending.
 - Sources and methods share one dashboard reading window with three sections:
   scientific explanations, sources and downloads, and about the atlas. Contextual
   source links open the relevant material without discarding the map or article.
+- A corner icon switches between the paleomap and the large species-tree view.
+  Hovering or focusing the icon shows “前往物种树”; the tree offers a matching
+  return-to-map control. Switching retains age, map camera and content context.
+- Content windows with a documented tree position contain a collapsed local-tree
+  section. Opening it reveals actual branches using the same renderer, drag,
+  zoom, selection and branch-folding controls as the large tree. Terminal taxa
+  include their parent and siblings; selecting locally does not replace the text.
+  “在完整树中定位” opens the same representation, expands the target's ancestors
+  and centres it. Unmapped objects do not receive an invented position. Source
+  classification, navigation grouping and scoped phylogenetic hypotheses keep
+  their separate meanings in both sizes.
+- Opening search content with a documented time and place synchronizes the map
+  to that scene, retaining a way to return to the previous map view. This is the
+  user's latest choice, replacing manual-only map location. Content without a
+  supported location retains the map; a name or a broad range is not a point.
 
 Page titles and subtitles introduce the science itself. Interactions reveal
 specimens, structures, comparisons and places; navigation instructions belong

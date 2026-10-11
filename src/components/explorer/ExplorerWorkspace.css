@@ -247,6 +247,12 @@
 
 .dashboard-stage-body { min-width: 0; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr); overflow: hidden; }
 .stage-canvas { min-width: 0; min-height: 0; overflow: hidden; position: relative; }
+.main-view-corner { position: absolute; left: 14px; bottom: 14px; z-index: 1050; }
+.main-view-corner__button { display: grid; place-items: center; width: 44px; height: 44px; padding: 10px; border: 1px solid var(--color-accent-dim); border-radius: 8px; background: var(--color-surface); color: var(--color-accent); cursor: pointer; box-shadow: var(--shadow-lg); }
+.main-view-corner__button svg { width: 24px; height: 24px; }
+.main-view-corner__button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.main-view-corner__tooltip { position: absolute; left: 0; bottom: 54px; width: max-content; max-width: 200px; padding: 9px 12px; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-surface); color: var(--color-text); font-size: 13px; opacity: 0; visibility: hidden; pointer-events: none; }
+.main-view-corner:hover .main-view-corner__tooltip, .main-view-corner:focus-within .main-view-corner__tooltip { opacity: 1; visibility: visible; }
 .stage-note { display: flex; align-items: center; gap: 7px; padding: 0 13px; color: var(--color-text-faint); background: var(--color-surface); border-top: 1px solid var(--color-border-subtle); font: 8px var(--font-mono); }
 
 .inspector-scroll { min-height: 0; overflow-y: auto; }

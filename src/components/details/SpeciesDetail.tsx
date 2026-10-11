@@ -13,6 +13,7 @@ import { getClaimsForSubject } from '../../services/evidence'
 import { getEntityPublication, getPackagePublication } from '../../services/publication'
 import { loadEntityIndex } from '../../data-client/staticDataClient'
 import type { RuntimeEntity } from '../../data-client/types'
+import { LocalTreePanel, type OpenFullTree } from '../tree/LocalTreePanel'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -25,7 +26,7 @@ function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   return null
 }
 
-export function SpeciesDetail() {
+export function SpeciesDetail({ onOpenFullTree }: { onOpenFullTree?: OpenFullTree } = {}) {
   const { language, number, t } = useI18n()
   const selectedNodeId = useAppStore((s) => s.selectedNodeId)
   const currentPeriod = useAppStore((s) => s.currentPeriod)
@@ -152,6 +153,7 @@ export function SpeciesDetail() {
             <span className={!selectedOccurrence.tna ? 'is-warning' : ''}>{t(selectedOccurrence.tna ? 'Accepted name present' : 'Accepted name unresolved; original retained')}</span>
             <a href={`https://paleobiodb.org/classic/displayCollResults?collection_no=${selectedOccurrence.cid.replace('col:', '')}`} target="_blank" rel="noreferrer">{t('Open PBDB collection ↗')}</a>
           </div>
+          {occurrenceNode && <LocalTreePanel nodeId={occurrenceNode.id} onOpenFullTree={onOpenFullTree} />}
           <EvidenceTrace entityId={occurrenceNode?.id ?? null} occurrence={selectedOccurrence} />
         </div>
       </div>
@@ -227,6 +229,7 @@ export function SpeciesDetail() {
               </div>
             )}
 
+            <LocalTreePanel nodeId={node.id} onOpenFullTree={onOpenFullTree} />
             <EvidenceTrace entityId={node.id} occurrence={null} />
 
             {node.taxonId && (

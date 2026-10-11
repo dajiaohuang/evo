@@ -25,6 +25,7 @@ import { localizedProfileText } from '../../i18n/profileText'
 import { StoryBuilder, StoryLearningPanel } from './StoryStudio'
 import readingGuides from '../../../data/reading-guides.json'
 import './CatalogPages.css'
+import { LocalTreePanel } from '../tree/LocalTreePanel'
 
 const generatedClaimStatementsZh = claimStatementsZh as Record<string, string>
 
@@ -209,6 +210,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
         <p>{readingGuide.dek[language]}</p>
       </aside>}
 
+      <LocalTreePanel nodeId={profile.treeNodeId ?? profile.id} />
       {!!profile.readerSections?.length && <section id="reader" className="taxon-reader">
         <span className="section-label">{locale === 'zh' ? '物种介绍' : 'Species introduction'}</span>
         <h2>{locale === 'zh' ? '身体、生活与研究中的发现' : 'Body, life and findings from studies'}</h2>
@@ -408,6 +410,7 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
         <article><span>{t('Regions')}</span><p>{event.regions.map((item) => t(item)).join(' · ')}</p></article>
         <article><span>{t('Affected branches')}</span><p>{event.clades.map((item) => t(item)).join(' · ')}</p></article>
       </section>
+      {event.clades.map(clade => <LocalTreePanel key={clade} nodeId={clade} />)}
 
       <div className="catalog-body catalog-body--wide">
         <div className="catalog-content">
@@ -501,6 +504,7 @@ export function StoriesPage({ id, params, onNavigate }: CatalogPageProps) {
               <h2>{t(step.title)}</h2>
               <p>{t(step.text)}</p>
               {step.annotation && <blockquote>{t(step.annotation)}</blockquote>}
+              {step.taxonIds.map(taxonId => <LocalTreePanel key={taxonId} nodeId={taxonId} />)}
               <button onClick={() => onNavigate('explore', {
                 age: step.age.toFixed(2),
                 older: step.timeRange[0].toFixed(2),
