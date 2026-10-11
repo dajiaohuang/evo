@@ -47,8 +47,10 @@ self.onmessage = async (event: MessageEvent<RequestMessage>) => {
   if (message.type === 'initialize') {
     gridPromise = initialize(message)
     try {
-      await gridPromise
-      self.postMessage({ type: 'ready' })
+      const grid = await gridPromise
+      // Clone the verified grid once for synchronous, current-camera previews.
+      // Retain the worker's copy for full-resolution refinement after dragging.
+      self.postMessage({ type: 'ready', grid })
     } catch (error) {
       self.postMessage({ type: 'error', error: error instanceof Error ? error.message : String(error) })
     }

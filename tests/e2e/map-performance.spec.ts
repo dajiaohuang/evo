@@ -13,13 +13,19 @@ test('continuous drag reprojects the current view without a render backlog', asy
   const canvas = page.locator('.projected-map__vectors')
   const bounds = (await canvas.boundingBox())!
   const x = bounds.x + bounds.width / 2; const y = bounds.y + bounds.height / 2
-  const samples: { render: number; latency: number; frame: number; terrain: string | null }[] = []
+  const samples: { render: number; latency: number; frame: number; terrain: string | null; aligned: boolean }[] = []
   await page.mouse.move(x, y)
   await page.mouse.down()
   for (let step = 1; step <= 45; step += 1) {
     await page.mouse.move(x + step * 3, y + Math.sin(step / 8) * 35)
-    samples.push(await canvas.evaluate((element) => ({ render: Number(element.dataset.renderMs), latency: Number(element.dataset.inputLatencyMs), frame: Number(element.dataset.renderCount), terrain: document.querySelector('.projected-map__terrain:not([hidden])')?.getAttribute('data-render-id') ?? null })))
+    samples.push(await canvas.evaluate((element) => {
+      const terrain = document.querySelector<HTMLCanvasElement>('.projected-map__terrain:not([hidden])')
+      return { render: Number(element.dataset.renderMs), latency: Number(element.dataset.inputLatencyMs), frame: Number(element.dataset.renderCount), terrain: terrain?.dataset.renderId ?? null, aligned: terrain?.dataset.center === element.dataset.center && terrain?.dataset.projection === element.dataset.projection }
+    }))
   }
+  // Check the held drag itself; waiting after mouseup masks disappearing terrain.
+  expect(samples.every((sample) => sample.terrain !== null)).toBe(true)
+  expect(samples.every((sample) => sample.aligned)).toBe(true)
   console.log('Render phases:', await canvas.getAttribute('data-phases'))
   await page.mouse.up()
   const percentile = (values: number[]) => [...values].sort((a, b) => a - b)[Math.floor(values.length * .95)]
@@ -28,5 +34,6 @@ test('continuous drag reprojects the current view without a render backlog', asy
   console.log('Map drag performance:', JSON.stringify(result))
   expect(result.renderedFrames).toBeGreaterThan(10)
   await expect(page.locator('.projected-map__terrain')).toBeVisible()
+  await expect(page.locator('.projected-map__terrain')).toHaveAttribute('data-render-quality', 'full')
   await expect.poll(async () => page.locator('.projected-map__terrain').getAttribute('data-center')).toBe(await canvas.getAttribute('data-center'))
 })

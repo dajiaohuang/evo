@@ -22,7 +22,7 @@ it('resolves the native PaleoDEM grid against the page before worker dispatch', 
   expect(terminate).toHaveBeenCalledOnce()
 })
 
-it('coalesces view changes without reloading the grid and rejects stale raster frames', () => {
+it('keeps terrain visible and aligned during drag while a worker frame is pending', () => {
   const postMessage = vi.fn()
   const terminate = vi.fn()
   let message: ((event: { data: unknown }) => void) | null = null
@@ -36,22 +36,55 @@ it('coalesces view changes without reloading the grid and rejects stale raster f
   vi.spyOn(HTMLCanvasElement.prototype, 'getContext').mockReturnValue({ putImageData } as unknown as CanvasRenderingContext2D)
   const collection = {} as RuntimePaleotopographyCollection
   const frame = { grid: { url: 'grid.gz' } } as RuntimePaleotopographyFrame
-  const props = { collection, frame, viewport: { width: 800, height: 500 }, interacting: true }
+  const props = { collection, frame, viewport: { width: 800, height: 500 }, interacting: false }
   const { container, rerender } = render(<PaleotopographyLayer {...props} projectionId="mercator" camera={{ center: [0, 0], zoom: 2 }} />)
-  act(() => { message!({ data: { type: 'ready' } }) })
+  const canvas = container.querySelector('canvas')!
+  const grid = { values: new Int16Array([0, 300, 1000, 2000]), width: 2, height: 2 }
+  act(() => { message!({ data: { type: 'ready', grid } }) })
+  const initial = postMessage.mock.calls.at(-1)![0]
+  act(() => { message!({ data: { type: 'frame', id: initial.id, width: 1, height: 1, rgba: new ArrayBuffer(4) } }) })
+  expect(canvas).not.toHaveAttribute('hidden')
+  rerender(<PaleotopographyLayer {...props} projectionId="mercator" camera={{ center: [1, 0], zoom: 2 }} />)
   const first = postMessage.mock.calls.at(-1)![0]
-  rerender(<PaleotopographyLayer {...props} projectionId="equal-earth" camera={{ center: [20, 170], zoom: 2 }} />)
-  rerender(<PaleotopographyLayer {...props} projectionId="equal-earth" camera={{ center: [30, -170], zoom: 2 }} />)
+  rerender(<PaleotopographyLayer {...props} interacting projectionId="equal-earth" camera={{ center: [20, 170], zoom: 2 }} />)
+  expect(canvas).not.toHaveAttribute('hidden')
+  expect(canvas).toHaveAttribute('data-center', '20,170')
+  rerender(<PaleotopographyLayer {...props} interacting projectionId="equal-earth" camera={{ center: [30, -170], zoom: 2 }} />)
+  expect(canvas).not.toHaveAttribute('hidden')
+  expect(canvas).toHaveAttribute('data-center', '30,-170')
+  expect(canvas).toHaveAttribute('data-projection', 'equal-earth')
+  expect(canvas.width).toBeLessThanOrEqual(192)
+  expect(canvas.height).toBeLessThanOrEqual(128)
+  const previews = putImageData.mock.calls.length
+  expect(previews).toBeGreaterThanOrEqual(3)
   expect(postMessage.mock.calls.filter(([value]) => value.type === 'initialize')).toHaveLength(1)
-  expect(postMessage.mock.calls.filter(([value]) => value.type === 'render')).toHaveLength(1)
+  expect(postMessage.mock.calls.filter(([value]) => value.type === 'render')).toHaveLength(2)
   act(() => { message!({ data: { type: 'frame', id: first.id, width: 1, height: 1, rgba: new ArrayBuffer(4) } }) })
-  expect(putImageData).not.toHaveBeenCalled()
-  expect(container.querySelector('canvas')).toHaveAttribute('hidden')
+  expect(putImageData).toHaveBeenCalledTimes(previews)
+  expect(canvas).not.toHaveAttribute('hidden')
+  expect(canvas).toHaveAttribute('data-center', '30,-170')
+  rerender(<PaleotopographyLayer {...props} projectionId="equal-earth" camera={{ center: [30, -170], zoom: 2 }} />)
   const latest = postMessage.mock.calls.at(-1)![0]
   expect(latest.camera.center).toEqual([30, -170])
   expect(latest.projectionId).toBe('equal-earth')
-  act(() => { message!({ data: { type: 'frame', id: latest.id, width: 1, height: 1, rgba: new ArrayBuffer(4) } }) })
-  expect(putImageData).toHaveBeenCalledOnce()
-  expect(container.querySelector('canvas')).not.toHaveAttribute('hidden')
-  expect(container.querySelector('canvas')).toHaveAttribute('data-center', '30,-170')
+  expect(latest.width).toBe(800)
+  expect(latest.height).toBe(500)
+  const beforeRefinement = putImageData.mock.calls.length
+  act(() => { message!({ data: { type: 'frame', id: latest.id, width: latest.width, height: latest.height, rgba: new ArrayBuffer(latest.width * latest.height * 4) } }) })
+  expect(putImageData).toHaveBeenCalledTimes(beforeRefinement + 1)
+  expect(canvas).not.toHaveAttribute('hidden')
+  expect(canvas).toHaveAttribute('data-center', '30,-170')
+  expect(canvas.width).toBe(800)
+  expect(canvas.height).toBe(500)
+  const previousWorkerMessage = message!
+  const nextFrame = { grid: { url: 'next-age.gz' } } as RuntimePaleotopographyFrame
+  rerender(<PaleotopographyLayer {...props} frame={nextFrame} projectionId="equal-earth" camera={{ center: [30, -170], zoom: 2 }} />)
+  expect(canvas).toHaveAttribute('hidden')
+  act(() => { previousWorkerMessage({ data: { type: 'ready', grid } }) })
+  expect(canvas).toHaveAttribute('hidden')
+  expect(terminate).toHaveBeenCalledOnce()
+  expect(postMessage.mock.calls.filter(([value]) => value.type === 'initialize')).toHaveLength(2)
+  act(() => { message!({ data: { type: 'ready', grid } }) })
+  expect(canvas).not.toHaveAttribute('hidden')
+  expect(canvas).toHaveAttribute('data-center', '30,-170')
 })

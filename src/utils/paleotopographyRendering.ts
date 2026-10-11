@@ -11,6 +11,12 @@ export interface ProjectedGridRequest {
   height: number
 }
 
+export interface PaleotopographyGrid {
+  values: Int16Array
+  width: number
+  height: number
+}
+
 const palette = [
   [-6000, [5, 20, 48]],
   [-4000, [13, 47, 83]],
@@ -57,7 +63,7 @@ function sample(values: Int16Array, width: number, height: number, latitude: num
   return top * (1 - rowRatio) + bottom * rowRatio
 }
 
-export function renderProjectedGrid(grid: { values: Int16Array; width: number; height: number }, request: ProjectedGridRequest): Uint8ClampedArray {
+export function renderProjectedGrid(grid: PaleotopographyGrid, request: ProjectedGridRequest): Uint8ClampedArray {
   const { width, height, viewport, camera, projectionId } = request
   const rgba = new Uint8ClampedArray(width * height * 4)
   const projection = createMapProjection(projectionId, camera, viewport)

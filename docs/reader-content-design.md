@@ -12,9 +12,30 @@ classification, morphology, ecology and distribution, evolutionary relationships
 and specific studies. Keep study location, sample and period beside the finding.
 Put identifiers, retrieval statistics and technical ledgers behind disclosures.
 
-The default application home is a reading entrance. Maps, trees, comparisons
-and query tools are further exploration. Existing home URLs carrying map state
-continue to restore that state.
+The redesign uses the large paleomap dashboard as the starting point for all
+content. Search, classification browsing, geological time, events, stories and
+tools open from this dashboard rather than as parallel top-level destinations.
+Existing direct links still resolve to their content and can restore map state.
+This is the agreed design direction; the complete dashboard redesign is pending.
+
+## Agreed page interactions
+
+- The dashboard defaults to selected place and organism stories, with a switch
+  to the complete fossil-record view. A short bubble opens into a reading window
+  while the map remains alongside or behind it.
+- Species reading proceeds through body structure, life habits, evolutionary
+  relationships and then detailed research cases.
+- Group pages emphasize branches and morphology comparison.
+- Events unfold along a selectable timeline of source-supported stages.
+- Stories use continuous scrolling with chapter-linked map scenes. Manual map
+  exploration pauses following; returning restores the chapter and reading position.
+- Place pages provide both fossil-discovery and stratigraphic-section views.
+  Switching preserves each view's selection; material and layer selections link
+  when their correspondence is documented.
+
+Page titles and subtitles introduce the science itself. Interactions reveal
+specimens, structures, comparisons and places; navigation instructions belong
+in controls rather than the narrative introduction.
 
 ## Chapters
 
