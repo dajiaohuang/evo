@@ -1,5 +1,11 @@
 # Reader content
 
+The [node production standard](node-presentation-standard.md) is the shared
+contract for every node's page, card, bubble and reading window. Its
+[drafting template](templates/node-presentation.md) turns the decisions below
+into a repeatable authoring and implementation process. Keep detailed node
+requirements there; this document records audiences and the overall design.
+
 ## Audiences and entry points
 
 Main chapters address readers who know basic biological classification. They

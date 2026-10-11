@@ -26,6 +26,8 @@ npm run verify
 
 ## Scientific integrity
 
+Node pages, cards, map bubbles and reading windows must follow the [node production standard](docs/node-presentation-standard.md). Use the [drafting template](docs/templates/node-presentation.md) for each node, then write the result into its existing canonical files according to [content storage](docs/content-storage.md). The standard defines shared content, type-specific reading sequences, source-backed map/tree actions and practical completion checks; it does not introduce a review-state system.
+
 Keep scientific claims linked to their sources and retain sampling limits, competing interpretations and uncertainty. Validation checks content structure, identifiers, translations and links.
 
 Prefer a small, well-sourced vertical slice over broad generated coverage. Do not add AI-written scientific summaries unless every visible scientific statement maps to an appropriate claim and reference.

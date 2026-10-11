@@ -30,6 +30,7 @@ Current release versions, counts, and checksums are authoritative in [data/manif
 - 默认首页是面向具备基本生物分类常识的读者的科普主线；首批五篇双语正文连接鱼鳍与四肢、开花植物年代、奇蹄目分支、黑猩猩栖地与普通狨育幼。
 - 物种详情面向已有一定知识基础的爱好者，先呈现身体、生活与研究发现，数据标识和逐条依据可展开查看。当前已有的物种正文保留；本轮没有重写全部名录条目。
 - 主线与静态阅读版共享正文和参考文献，移动核心版只展示已打包类群的章节。写作与读者定位见 [内容设计说明](docs/reader-content-design.md)。
+- 每个节点的页面、卡片、地图气泡与阅读窗统一采用 [节点制作标准](docs/node-presentation-standard.md) 和 [制作模板](docs/templates/node-presentation.md)；既有内容逐步按此迁移。
 - 地图与研究工具从“探索”和“工作区”进入；带地图状态参数的旧首页链接继续打开看板。
 
 ### 综合看板与古地理

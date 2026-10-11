@@ -12,6 +12,8 @@ Pin external taxon concepts in `data/sources/pbdb-taxon-resolution.json`. Unreso
 
 ## 3. Write claims before narrative
 
+For every node's reader prose and derived cards or bubbles, follow the [node production standard](docs/node-presentation-standard.md) and [drafting template](docs/templates/node-presentation.md). Keep package/query provenance in its scientific source fields; page introductions explain the actual science.
+
 Scientific statements need typed claims and at least one supporting reference relation. Source metadata must declare its role and fitness. Retain concrete page, table, figure or quote locators and the scope of each supporting source.
 
 ## 4. Record query coverage

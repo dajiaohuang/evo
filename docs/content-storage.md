@@ -1,5 +1,10 @@
 # Content storage and authoring
 
+Before writing reader prose or its derived cards and bubbles, use the
+[node production standard](node-presentation-standard.md) and its
+[drafting template](templates/node-presentation.md). These define presentation
+requirements; the existing storage and compiler contracts below still apply.
+
 ## Canonical inputs
 
 `content/` is the authoring source for the migrated catalogue pages, dossiers,
