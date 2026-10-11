@@ -32,10 +32,73 @@ This is the agreed design direction; the complete dashboard redesign is pending.
 - Place pages provide both fossil-discovery and stratigraphic-section views.
   Switching preserves each view's selection; material and layer selections link
   when their correspondence is documented.
+- Comparison, fossil filtering and result export open inside the dashboard.
+  SQL, local data import and query notes remain available in collapsed advanced
+  tools and retain the active query context. They are not separate top-level
+  destinations. Dataset release comparison belongs with source information.
+- Sources and methods share one dashboard reading window with three sections:
+  scientific explanations, sources and downloads, and about the atlas. Contextual
+  source links open the relevant material without discarding the map or article.
 
 Page titles and subtitles introduce the science itself. Interactions reveal
 specimens, structures, comparisons and places; navigation instructions belong
 in controls rather than the narrative introduction.
+
+## Reading window families
+
+The following structures apply to the existing page types. A directory opens
+inside the dashboard; choosing an entry opens its reading or material window.
+
+### Main reading
+
+| Page family | Narrative sequence | Main interaction |
+| --- | --- | --- |
+| Species | Body, life habits and habitats, evolutionary relationships, specific studies | Inspect structures and specimens; open a comparison from the current organism |
+| Groups | Recognizable members, distinguishing structures, branches, changes through time | Select branches and compare corresponding morphology |
+| Events | What changed, source-supported stages, organisms and places involved, unresolved explanations | Expand stages on a timeline and inspect the material for each stage |
+| Stories and reading chapters | A concrete question, connected observations or research cases, scientific explanation, related reading | Scroll through chapters with linked map scenes; manual exploration pauses following |
+| Places | What was found, the organisms or materials, local environmental context where supported, the relevant strata | Switch fossil-discovery and stratigraphic-section views without losing their selections |
+
+### Lookup and context
+
+| Page family | Content organization | Main interaction |
+| --- | --- | --- |
+| Geological time units | Time interval, supported environmental or biological context, associated places and reading | Choose intervals and open their material from the dashboard timeline |
+| Formations | Named rock unit, documented rock and fossil material, actual localities, source studies | Explore the documented section and materials; enter a linked locality |
+| Catalogue-only names | Name and synonyms, source classification position, available references, related complete articles | Browse the source hierarchy and follow available content; do not fabricate a species biography |
+| Traits | The particular structure or ecological feature, organisms with corresponding material, relevant studies | Compare the same feature across supported objects, keeping missing material explicit |
+
+### Source material and supporting information
+
+| Page family | Content organization | Main interaction |
+| --- | --- | --- |
+| References | Title, authors and year, source locator, the article passages or materials using it | Follow citation bindings back to reading; show a research summary only when authored from the study |
+| Media | Large image, represented object and caption, associated reading, creator and rights | Inspect the image and related material; distinguish specimen photographs from reconstructions |
+| Datasets and releases | Named source, represented objects and scope, actual download and offline options, version information | Open the relevant files or retained-release comparison from the source section |
+| Sources, methods and about | Scientific explanations; context-specific sources and downloads; a short account of the atlas and its content | Switch the three sections in one reading window and use the explanation's relevant demonstration |
+
+Scientific explanations begin with questions about reconstructed places, age
+intervals, tree representations and the unit represented by a fossil point.
+Demonstrations use a clearly scoped real record or label schematic material as
+such. They retain source fields and model identities rather than manufacturing
+exact ages, calibrated branches or a complete biological census.
+
+## Dashboard and reading state
+
+A bubble starts with a short scientific introduction and a relevant object or
+material. It expands into a reading window. Comparisons and source material
+open from that content; closing them returns to the same reading position.
+
+Preserve the map camera, projection, age, visible layers, active query, selected
+material, article chapter and scroll position across window switches. Local
+query notes are reader-authored notes, not an expert-review maintenance system.
+Load full articles, source inventories and advanced computation when opened.
+Keep normal reading free of release inventories and technical coverage walls.
+
+Existing identifiers and direct links continue to identify their content. The
+interactive application resolves them inside the dashboard. Static publication
+uses the same authored prose and source bindings, with a contextual route back
+to the map appropriate to the edition's available data.
 
 ## Chapters
 
