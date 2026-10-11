@@ -8,6 +8,7 @@ import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import { EvidenceIssueLink } from '../common/EvidenceIssueLink'
 import { isNativeCore, isPagesPreview, isPreviewPackageAllowed } from '../../config/pagesPreview'
+import { ReadingCards } from '../reading/ReadingPages'
 import './PortalPages.css'
 
 interface PortalPageProps {
@@ -21,6 +22,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
   const { language, t } = useI18n()
   const [researchPresets, setResearchPresets] = useState<CatalogResearchPreset[]>([])
   const [researchPresetError, setResearchPresetError] = useState(false)
+  const [researchExpanded, setResearchExpanded] = useState(false)
   const flagship = getPackagePublication('perissodactyla')
   const flagshipProfileCount = taxonProfiles.filter((profile) => getEntityPublication(profile.treeNodeId ?? profile.id)?.packageId === 'perissodactyla').length
   const staticCatalogBase = `${import.meta.env.BASE_URL}${language === 'zh' ? 'zh/' : ''}`
@@ -35,6 +37,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
   ] as const
 
   useEffect(() => {
+    if (!researchExpanded) return
     let cancelled = false
     loadPackageRegistry()
       .then((registry) => Promise.all(registry.packages.filter((entry) => !isPagesPreview || isPreviewPackageAllowed(entry.id)).map(async (entry) => {
@@ -48,14 +51,14 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         if (!cancelled) setResearchPresetError(true)
       })
     return () => { cancelled = true }
-  }, [])
+  }, [researchExpanded])
 
   return (
     <main className="portal-page">
       <header className="portal-hero portal-hero--catalog">
-        <span className="section-label">{t('Catalog / taxa and events')}</span>
-        <h1>{t('Find a branch. Inspect its evidence boundary.')}</h1>
-        <p>{t('Browse taxon names, sources and biological dossiers across the tree of life.')}</p>
+        <span className="section-label">{language === 'zh' ? '类群与物种' : 'Groups and species'}</span>
+        <h1>{language === 'zh' ? '沿着生命的分支继续阅读' : 'Read along the branches of life'}</h1>
+        <p>{language === 'zh' ? '从你熟悉的类群出发，了解它们的身体、生活方式和演化关系。物种详情保留具体研究；主线文章先把问题讲清楚。' : 'Start with a familiar group and explore bodies, ways of life and evolutionary relationships. Detail pages retain specific studies; the main chapters explain the questions first.'}</p>
         <div className="portal-actions">
           <button className="button button--primary" onClick={() => onNavigate('taxa', isPagesPreview ? { id: 'perissodactyla' } : undefined)}>{t(isPagesPreview ? 'Open selected taxon dossier' : 'Browse taxon dossiers')}</button>
           <button className="button button--ghost" onClick={() => onNavigate('events')}>{t('Browse evolutionary events')}</button>
@@ -63,7 +66,13 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         </div>
       </header>
 
-      <section className="portal-section portal-featured">
+      <section className="portal-section">
+        <h2>{language === 'zh' ? '先读一个问题' : 'Start with a question'}</h2>
+        <ReadingCards />
+      </section>
+
+      <details className="portal-section portal-featured">
+        <summary>{language === 'zh' ? '奇蹄目资料与来源概况' : 'Perissodactyl material and source overview'}</summary>
         <div className="portal-section__heading"><span>01</span><div><small>{t('Selected pathway')}</small><h2>{t('Perissodactyla reading pathway')}</h2></div></div>
         {flagship && <EvidenceIssueLink entityId="perissodactyla" />}
         <div className="portal-featured__grid">
@@ -73,9 +82,10 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         </div>
         <p>{t('The flagship has complete paginated occurrence retrieval and claim-level source links.')}</p>
         <button className="text-action" onClick={() => onNavigate('taxa', { id: 'perissodactyla' })}>{t('Open the flagship dossier')} →</button>
-      </section>
+      </details>
 
-      <section className="portal-section">
+      <details className="portal-section">
+        <summary>{language === 'zh' ? '按年代、地点和原始资料查阅' : 'Look up times, places and source material'}</summary>
         <div className="portal-section__heading"><span>02</span><div><small>{t('Ways in')}</small><h2>{t('Choose the object you need')}</h2></div></div>
         <div className="portal-card-grid portal-card-grid--catalog">
           {isPagesPreview ? <>
@@ -95,7 +105,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
           <a href={`${staticCatalogBase}datasets/`}><small>{t('Datasets')}</small><h3>{manifest.records.dataPackages} {t('static packages')}</h3><p>{t('Versions, checksums and offline downloads.')}</p><i>→</i></a>
           </>}
         </div>
-      </section>
+      </details>
 
       <section className="portal-section">
         <div className="portal-section__heading"><span>03</span><div><small>{language === 'zh' ? '精选物种页' : 'Featured species pages'}</small><h2>{language === 'zh' ? '阅读灵长类' : 'Read the primates'}</h2></div></div>
@@ -107,7 +117,8 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
 
 
 
-      <section className="portal-section">
+      <details className="portal-section" onToggle={event => { if (event.target === event.currentTarget) setResearchExpanded(event.currentTarget.open) }}>
+        <summary>{language === 'zh' ? '进一步探索：研究中的地图与比较' : 'Explore further: maps and comparisons from studies'}</summary>
         <div className="portal-section__heading"><span>04</span><div><small>{t('Research presets')}</small><h2>{t('Open a source-bound evidence inspection route')}</h2></div></div>
         <p className="research-preset-boundary">{t('These presets open the claims and occurrence context published by each package. They are not package-specific phylogenies or complete histories of the groups.')}</p>
         {researchPresetError
@@ -119,7 +130,6 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
                 <article className="research-preset-card" key={`${example.packageId}:${example.id}`}>
                   <div className="research-preset-card__meta">
                     <span>{example.packageId}</span>
-                    <code>{example.evidenceStatus}</code>
                   </div>
                   <h3>{language === 'zh' ? example.title.zh : example.title.en}</h3>
                   <p>{language === 'zh' ? example.description.zh : example.description.en}</p>
@@ -131,7 +141,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
                 </article>
               ))}
             </div>}
-      </section>
+      </details>
 
     </main>
   )

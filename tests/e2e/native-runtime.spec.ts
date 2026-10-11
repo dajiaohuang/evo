@@ -10,6 +10,8 @@ test('native app bundles the selected core and gates full-catalogue routes', asy
   await expect(page.locator('html')).toHaveAttribute('data-frontend-edition', 'native-core')
   await expect(page.locator('html')).toHaveAttribute('data-content-scope', 'selected-preview')
   await expect(page.locator('body')).not.toContainText('GitHub Pages preview edition')
+  await expect(page.getByRole('heading', { name: 'Read the branches and changes of life' })).toBeVisible()
+  await expect(page.locator('.reading-card')).toHaveCount(3)
 
   const bundle = await page.evaluate(async () => {
     const current = await (await fetch('./data/current.json')).json()
@@ -26,6 +28,12 @@ test('native app bundles the selected core and gates full-catalogue routes', asy
   expect(bundle.files.some((file) => file.url.includes('/downloads/'))).toBe(false)
   expect(bundle.files.some((file) => /catalogue\/(hierarchy|search|source-checklists)\//.test(file.url))).toBe(false)
   expect(bundle.files.some((file) => file.url.includes('catalogue/resource-packs/'))).toBe(false)
+
+  await page.getByRole('link', { name: /What can one chimpanzee community tell us about habitat/ }).click()
+  await expect(page.locator('.reading-prose')).toContainText('mature forest was the most selected habitat')
+  await expect(page.locator('.reading-sources a')).toHaveCount(1)
+  await page.getByRole('button', { name: 'Read the group or species details' }).click()
+  await expect(page.locator('.taxon-reader__sections article')).toHaveCount(7)
 
   await page.goto('./#/registry?release=COL26.8&id=5BSG3')
   await expect(page.locator('[data-pages-preview-gate]')).toBeVisible()

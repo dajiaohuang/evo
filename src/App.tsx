@@ -13,6 +13,10 @@ const datasetVersion = import.meta.env.VITE_DATASET_VERSION
 
 const ExplorerWorkspace = lazy(() => import('./components/explorer/ExplorerWorkspace')
   .then((module) => ({ default: module.ExplorerWorkspace })))
+const ReadingHome = lazy(() => import('./components/reading/ReadingPages')
+  .then((module) => ({ default: module.ReadingHome })))
+const ReadingArticle = lazy(() => import('./components/reading/ReadingPages')
+  .then((module) => ({ default: module.ReadingArticle })))
 const DataPage = lazy(() => import('./components/pages/InfoPages')
   .then((module) => ({ default: module.DataPage })))
 const MethodsPage = lazy(() => import('./components/pages/InfoPages')
@@ -51,7 +55,8 @@ export default function App() {
   const { language, t } = useI18n()
   const [routeState, setRouteState] = useState(() => parseRouteHash(window.location.hash))
   const route = routeState.route
-  const exploring = route === 'home' || route === 'explore'
+  // Existing shared home links carrying map state still open that saved state.
+  const exploring = route === 'explore' || (route === 'home' && routeState.params.size > 0)
   const [explorerRoute, setExplorerRoute] = useState(exploring ? routeState : null)
   if (exploring && explorerRoute !== routeState) setExplorerRoute(routeState)
   const previewLocked = isPreviewRouteLocked(
@@ -74,7 +79,7 @@ export default function App() {
 
   useEffect(() => {
     const labels: Record<AppRoute, string> = {
-      home: 'Evo Atlas — Deep-Time Evidence Explorer',
+      home: language === 'zh' ? '读懂生命的分支与变化 — Evo Atlas' : 'Read the branches and changes of life — Evo Atlas',
       catalog: 'Catalog — Evo Atlas',
       registry: 'Catalogue taxon — Evo Atlas',
       explore: 'Explore — Evo Atlas',
@@ -104,7 +109,13 @@ export default function App() {
     }
 
     const id = routeState.params.get('id')
-    if (id && (route === 'taxa' || route === 'events' || route === 'stories')) {
+    if (route === 'stories' && routeState.params.has('reading')) {
+      applyMetadata(null, fallbackDescription, '')
+      void import('../data/reading-guides.json').then(({ default: guides }) => {
+        const guide = guides.find(entry => entry.id === routeState.params.get('reading'))
+        if (guide) applyMetadata(guide.title[language], guide.dek[language], `read/${guide.id}/`)
+      })
+    } else if (id && (route === 'taxa' || route === 'events' || route === 'stories')) {
       applyMetadata(null, fallbackDescription, '')
       void import('./services/catalog').then(({ getEvolutionEvent, getEvolutionStory, getTaxonProfile }) => {
         const profile = route === 'taxa' ? getTaxonProfile(id) : null
@@ -117,7 +128,7 @@ export default function App() {
       })
     } else {
       const staticPath = route === 'methods' ? 'methods/' : route === 'data' && !isPagesPreview ? `datasets/${datasetVersion}/` : ''
-      applyMetadata(null, fallbackDescription, staticPath)
+      applyMetadata(null, route === 'home' && !routeState.params.size ? language === 'zh' ? '从鱼鳍与四肢、开花植物的起源和动物的生活出发，沿着问题理解生命的分支与变化。' : 'Follow questions about fins and limbs, flowering plant origins and animal lives to understand evolutionary branches and change.' : fallbackDescription, staticPath)
     }
     return () => { cancelled = true }
   }, [language, route, routeState.params, t])
@@ -130,7 +141,8 @@ export default function App() {
 
   let page
   if (previewLocked) page = <PagesPreviewGate />
-  else if (route === 'explore' || route === 'home') page = null
+  else if (exploring) page = null
+  else if (route === 'home') page = <ReadingHome onNavigate={navigate} />
   else if (route === 'catalog') page = <CatalogHubPage onNavigate={navigate} />
   else if (route === 'registry') page = isBackendConfigured()
     ? <BackendCatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
@@ -139,6 +151,7 @@ export default function App() {
   else if (route === 'about') page = <AboutPage onNavigate={navigate} />
   else if (route === 'taxa') page = <TaxonPage id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'events') page = <EventPage id={routeState.params.get('id')} onNavigate={navigate} />
+  else if (route === 'stories' && routeState.params.has('reading')) page = <ReadingArticle id={routeState.params.get('reading') ?? ''} onNavigate={navigate} />
   else if (route === 'stories') page = <StoriesPage id={routeState.params.get('id')} params={routeState.params} onNavigate={navigate} />
   else if (route === 'compare') page = <ComparePage params={routeState.params} onNavigate={navigate} />
   else if (route === 'lab') page = <LabPage params={routeState.params} onNavigate={navigate} />
@@ -148,7 +161,7 @@ export default function App() {
 
   return (
     <ErrorBoundary>
-      <AppShell route={route} onNavigate={navigate} immersive={route === 'explore' || route === 'home'} focused={route === 'home'}>
+      <AppShell route={route} onNavigate={navigate} immersive={exploring} focused={exploring && route === 'home'}>
         <Suspense fallback={<RouteLoading />}>
           {explorerRoute && <Activity mode={exploring && !previewLocked ? 'visible' : 'hidden'}>
             <ExplorerWorkspace dashboard={explorerRoute.route === 'home'} params={explorerRoute.params} />

@@ -1,0 +1,42 @@
+import { expect, test } from '@playwright/test'
+
+test('reading home opens a sourced chapter, explains a term and continues to its detail page', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+  await page.goto('./#/home')
+  await expect(page.getByRole('heading', { name: 'Read the branches and changes of life' })).toBeVisible()
+  await expect(page.locator('.reading-card')).toHaveCount(5)
+  await expect(page.locator('.explorer-stage')).toHaveCount(0)
+  await page.getByRole('link', { name: /What can a fossil tell us about fins and limbs/ }).click()
+  await expect(page.getByRole('heading', { name: 'Start with the body, not an ancestor label' })).toBeVisible()
+  await expect(page.locator('.reading-term')).toContainText('Mosaic of features')
+  await expect(page.locator('.reading-sources a')).toHaveCount(2)
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://dajiaohuang.github.io/evo/read/fins-and-limbs/')
+  await page.getByRole('button', { name: 'Read the group or species details' }).click()
+  await expect(page).toHaveURL(/#\/taxa\?id=tiktaalik$/)
+  await expect(page.locator('h1')).toContainText('Tiktaalik')
+})
+
+test('Chinese mobile reading keeps prose, sources and onward reading inside the viewport', async ({ page }) => {
+  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'zh'))
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.goto('./#/stories?reading=chimpanzees-in-place')
+  await expect(page.locator('h1')).toHaveText('一群黑猩猩，能告诉我们怎样的栖地故事？')
+  await expect(page.locator('.reading-prose')).toContainText('成熟林是这个群体选择比例最高的栖地')
+  await expect(page.locator('.reading-prose')).toContainText('200 米')
+  await expect(page.locator('.reading-term')).toContainText('重点观察个体')
+  await expect(page.locator('.reading-sources a')).toHaveCount(1)
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true)
+  await page.getByRole('button', { name: '阅读类群或物种详情' }).click()
+  await expect(page.locator('.taxon-reader')).toBeVisible()
+  await expect(page.locator('.taxon-query-details')).not.toHaveAttribute('open')
+})
+
+test('the static chapter retains the same prose and working detail and language links', async ({ page }) => {
+  await page.goto('./read/hoofed-branches/')
+  await expect(page.locator('h1')).toHaveText('Why read about horses, tapirs and rhinos together?')
+  await expect(page.locator('.reader-guide-prose')).toContainText('dental and cranial features')
+  await page.getByRole('link', { name: '中文', exact: true }).click()
+  await expect(page.locator('h1')).toHaveText('马、貘和犀牛，为什么要放在一起读？')
+  await page.getByRole('link', { name: /阅读类群或物种详情/ }).click()
+  await expect(page.locator('h1')).toContainText('Perissodactyla')
+})

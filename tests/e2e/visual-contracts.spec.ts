@@ -7,7 +7,7 @@ async function expectNoHorizontalOverflow(page: import('@playwright/test').Page)
 test('desktop home keeps the dashboard focused and places time-matched scenes on the map', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.removeItem('evo-explorer-guide-v2'))
   await page.setViewportSize({ width: 1440, height: 900 })
-  await page.goto('./#/home')
+  await page.goto('./#/home?age=66')
   const welcome = page.getByRole('dialog', { name: 'Start with the dashboard or take the quick tour?' })
   await expect(welcome).toBeVisible()
   await expect(welcome.getByRole('button')).toHaveCount(2)

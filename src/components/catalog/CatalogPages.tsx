@@ -23,6 +23,7 @@ import type { MediaAsset } from '../../types/catalog'
 import { useI18n } from '../../i18n'
 import { localizedProfileText } from '../../i18n/profileText'
 import { StoryBuilder, StoryLearningPanel } from './StoryStudio'
+import readingGuides from '../../../data/reading-guides.json'
 import './CatalogPages.css'
 
 const generatedClaimStatementsZh = claimStatementsZh as Record<string, string>
@@ -170,6 +171,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
   const media = runtimeMedia?.entityId === profile.id ? runtimeMedia.assets : getMediaForTaxon(profile.id)
   const claims = getClaimsForSubject(`taxon:${profile.id}`)
   const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
+  const readingGuide = readingGuides.find(guide => guide.taxonId === profile.id)
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
@@ -179,7 +181,6 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
       <header className="catalog-hero">
         <div className="catalog-hero__meta">
           <span>{t('Taxon / {rank}', { rank: t(profile.rank) })}</span>
-          <ConfidenceBadge level={profile.confidence} />
         </div>
         <div className="catalog-hero__title">
           <div>
@@ -202,9 +203,15 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
         </div>
       </header>
 
+      {readingGuide && <aside className="taxon-reading-entry">
+        <span>{language === 'zh' ? '相关主线文章' : 'Related chapter'}</span>
+        <a href={`#/stories?reading=${readingGuide.id}`}>{readingGuide.title[language]} →</a>
+        <p>{readingGuide.dek[language]}</p>
+      </aside>}
+
       {!!profile.readerSections?.length && <section id="reader" className="taxon-reader">
         <span className="section-label">{locale === 'zh' ? '物种介绍' : 'Species introduction'}</span>
-        <h2>{locale === 'zh' ? '从已有研究认识这个物种' : 'Reading the species through selected studies'}</h2>
+        <h2>{locale === 'zh' ? '身体、生活与研究中的发现' : 'Body, life and findings from studies'}</h2>
         <div className="taxon-reader__sections">
           {profile.readerSections.map((section) => (
             <article key={section.id}>
@@ -218,7 +225,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
           ))}
         </div>
         {!!profile.readerRelatedPages?.length && <nav className="taxon-reader__related" aria-label={locale === 'zh' ? '相关阅读' : 'Related reading'}>
-          <h3>{locale === 'zh' ? '继续阅读灵长类' : 'Continue reading about primates'}</h3>
+          <h3>{locale === 'zh' ? '继续阅读相关物种' : 'Continue with related species'}</h3>
           {profile.readerRelatedPages.map((page) => (
             <button key={page.targetId} type="button" onClick={() => onNavigate('taxa', { id: page.targetId })}>
               <span>{page.context[locale]}</span><strong>{page.label[locale]} →</strong>
@@ -234,6 +241,8 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
 
       {publication && <EvidenceIssueLink entityId={profile.id} />}
 
+      <details className="taxon-query-details">
+        <summary>{language === 'zh' ? '化石样本、分类标识与查询范围' : 'Fossil samples, identifiers and query scope'}</summary>
       <section className="catalog-facts">
         <div><span>{t('Status')}</span><strong className={profile.extinct ? 'is-extinct' : 'is-extant'}>{t(profile.extinct ? 'Extinct †' : 'Extant')}</strong></div>
         <div><span>{t('Bundled occurrences · represented descendants')}</span><strong>{taxonStatus === 'loading' || taxonStatus === 'idle' ? t('Loading…') : taxonStatus === 'error' ? t('Error') : number(occurrences?.length ?? 0)}</strong></div>
@@ -244,6 +253,8 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
       {taxonStatus === 'empty' && <p className="catalog-query-state">{t('No matching row occurs in the bounded local sample; this is not evidence of biological absence.')}</p>}
       {taxonStatus === 'error' && <p className="catalog-query-state catalog-query-state--error">{t('Local taxon query failed: {error}', { error: taxonError ?? t('Unknown') })}</p>}
       {taxonQuery && <p className="catalog-query-state">{t('Loaded {rows} rows from {periods} relevant period chunk(s). Scope: {scope}. Index: {index}. Source: {method}.', { rows: number(taxonQuery.rowsLoaded), periods: taxonQuery.loadedPeriods.length, scope: t(taxonQuery.effectiveScope), index: t(taxonQuery.indexStatus), method: t(taxonQuery.samplingMethod) })}{taxonQuery.fallbackApplied ? ` ${t('The descendant index was unavailable, so this result fell back to exact taxon matching.')}` : ''}</p>}
+
+      </details>
 
       <div className="catalog-body">
         <aside className="catalog-toc">
@@ -260,7 +271,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
           <section id="evolution" className="catalog-section">
             <span className="section-label">{t('01 / Evolution')}</span>
             <h2>{t('Time-calibrated evidence, kept separate from fossil ranges')}</h2>
-            <DivergenceLedger profileId={profile.id} />
+            <details><summary>{language === 'zh' ? '查看分支时间研究与方法' : 'Branching-time studies and methods'}</summary><DivergenceLedger profileId={profile.id} /></details>
             {profile.regionalRanges && profile.regionalRanges.length > 0 && (
               <>
                 <h2>{t('Regional and concept-specific ranges')}</h2>
@@ -302,7 +313,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             <span className="section-label">{t('04 / Evidence quality')}</span>
             <h2>{t('What supports this reconstruction?')}</h2>
             <p>{localizedProfileText(profile, profile.evidenceSummary, language, t)}</p>
-            <ClaimLedger claims={claims} />
+            <details><summary>{language === 'zh' ? '逐项查看研究结论与来源' : 'Read individual findings and their sources'}</summary><ClaimLedger claims={claims} /></details>
             <div className="evidence-note">
               <strong>{t('Interpretive boundary')}</strong>
               <span>{t('Age ranges summarize current catalog evidence and are not exact origination or extinction instants.')}</span>

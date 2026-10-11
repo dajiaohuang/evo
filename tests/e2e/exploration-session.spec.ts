@@ -21,7 +21,7 @@ test('@cross-browser tree selection and view switching preserve exploration stat
   await page.getByRole('button', { name: 'Map', exact: true }).click()
   await page.getByRole('button', { name: 'Tree', exact: true }).click()
   await expect(tree.locator('[role="treeitem"]')).toHaveCount(1)
-  await page.getByRole('navigation', { name: 'Primary navigation' }).getByRole('button', { name: 'Reference', exact: true }).click()
+  await page.getByRole('navigation', { name: 'Primary navigation' }).getByRole('button', { name: 'Groups & species', exact: true }).click()
   await expect(page).toHaveTitle('Catalog — Evo Atlas')
   await page.getByRole('navigation', { name: 'Primary navigation' }).getByRole('button', { name: 'Explore', exact: true }).click()
   await expect(tree.locator('[role="treeitem"]')).toHaveCount(1)

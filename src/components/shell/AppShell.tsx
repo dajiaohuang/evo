@@ -15,8 +15,9 @@ interface AppShellProps {
 }
 
 const navItems: Array<{ route: AppRoute; label: string; labelZh: string; activeRoutes: AppRoute[] }> = [
-  { route: 'home', label: 'Explore', labelZh: '探索', activeRoutes: ['home', 'explore'] },
-  { route: 'catalog', label: 'Reference', labelZh: '资料', activeRoutes: ['catalog', 'registry', 'taxa', 'events'] },
+  { route: 'home', label: 'Read', labelZh: '阅读', activeRoutes: ['home', 'stories'] },
+  { route: 'explore', label: 'Explore', labelZh: '探索', activeRoutes: ['explore'] },
+  { route: 'catalog', label: 'Groups & species', labelZh: '类群与物种', activeRoutes: ['catalog', 'registry', 'taxa', 'events'] },
   { route: 'research', label: 'Workspace', labelZh: '工作区', activeRoutes: ['research', 'compare', 'lab'] },
 ]
 const moreItems: Array<{ route: AppRoute; label: string; activeRoutes: AppRoute[] }> = [
@@ -62,9 +63,9 @@ export function AppShell({ route, onNavigate, children, immersive = false, focus
       data-frontend-edition={frontendContract.edition}
       data-content-scope={frontendContract.content.scope}
     >
-      <button className="skip-link" type="button" onClick={skipToContent}>{t('Skip to atlas content')}</button>
+      <button className="skip-link" type="button" onClick={skipToContent}>{language === 'zh' ? '跳到正文' : 'Skip to atlas content'}</button>
       <header className="topbar">
-        <button className="brand" onClick={() => onNavigate('home')} aria-label={t('Evo Atlas home')}>
+        <button className="brand" onClick={() => onNavigate('home')} aria-label={language === 'zh' ? 'Evo 阅读首页' : 'Evo Atlas home'}>
           <span className="brand__mark" aria-hidden="true">
             <span />
             <span />
@@ -89,13 +90,13 @@ export function AppShell({ route, onNavigate, children, immersive = false, focus
           ))}
           {(
             <button className="focused-tools-trigger" aria-expanded={showMoreTools} onClick={() => setShowMoreTools((open) => !open)}>
-              {t(showMoreTools ? 'Close more pages' : 'Open more pages')}
+              {language === 'zh' ? showMoreTools ? '收起更多页面' : '更多页面' : showMoreTools ? 'Close more pages' : 'Open more pages'}
             </button>
           )}
         </nav>
 
         {showMoreTools && (
-          <nav className="focused-tools-menu" aria-label={t('Detailed tools')}>
+          <nav className="focused-tools-menu" aria-label={language === 'zh' ? '更多页面' : 'Detailed tools'}>
             {moreItems.map((item) => (
               <button key={item.route} onClick={() => { setShowMoreTools(false); onNavigate(item.route) }}>{t(item.label)}<span>→</span></button>
             ))}

@@ -15,14 +15,15 @@ test.beforeEach(async ({ page }) => {
 test('@cross-browser public navigation reaches the catalog and evidence dossier', async ({ page }) => {
   await page.goto('./#/home')
   const navigation = page.getByRole('navigation', { name: 'Primary navigation' })
-  for (const label of ['Explore', 'Reference', 'Workspace']) {
+  for (const label of ['Read', 'Explore', 'Groups & species', 'Workspace']) {
     await expect(navigation.getByRole('button', { name: label, exact: true })).toBeVisible()
   }
 
-  await navigation.getByRole('button', { name: 'Reference', exact: true }).click()
+  await navigation.getByRole('button', { name: 'Groups & species', exact: true }).click()
   await expect(page).toHaveTitle('Catalog — Evo Atlas')
-  await expect(page.getByRole('heading', { name: 'Find a branch. Inspect its evidence boundary.' })).toBeVisible()
-  await page.getByRole('button', { name: /Open the flagship dossier/ }).click()
+  await expect(page.getByRole('heading', { name: 'Read along the branches of life' })).toBeVisible()
+  await page.getByRole('button', { name: 'Browse taxon dossiers' }).click()
+  await page.getByRole('button', { name: /Perissodactyla/ }).first().click()
   await expect(page).toHaveTitle('Perissodactyla — Evo Atlas')
   await expect(page.getByRole('link', { name: /Report an evidence issue/ }).first()).toBeVisible()
 })

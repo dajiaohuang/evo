@@ -7,6 +7,7 @@ import { readJson, rootDir } from './data-lib.mjs'
 import { generateReadingMaps, readingMapCss } from './generate-reading-maps.mjs'
 import { generateCatalogueChanges, catalogueChangesCss } from './generate-catalogue-changes.mjs'
 import { directoryTools, readingHome, readingDiscoveryCss } from './reading-discovery.mjs'
+import { generateReadingGuides, readingGuideCards, readingGuideCss } from './reading-guides.mjs'
 
 const staticPages = process.env.EVO_STATIC_PAGES === 'true'
 const distRoot = join(rootDir, staticPages ? 'dist-pages' : 'dist')
@@ -30,6 +31,7 @@ const entities = readJson('data/registry/entities/entities.json').filter((entity
 const sourceRegistry = readJson('data/registry/package-registry.json')
 const registry = { ...sourceRegistry, packages: sourceRegistry.packages.filter((entry) => !coreContentEdition || previewPackageIds.has(entry.id)) }
 const profiles = readJson('data/registry/taxon-profiles.json').filter((profile) => !coreContentEdition || previewTaxonIds.has(profile.id) || (profile.treeNodeId && previewTaxonIds.has(profile.treeNodeId)))
+const readingGuides = readJson('data/reading-guides.json').filter(guide => !coreContentEdition || previewTaxonIds.has(guide.taxonId))
 const events = readJson('data/events.json').filter((event) => !coreContentEdition || previewEventIds.has(event.id))
 const storyPriority = new Map(previewDefinition.storyIds.map((id, index) => [id, index]))
 const stories = readJson('data/stories.json')
@@ -276,7 +278,7 @@ const staticCss = baseStaticCss + `.reader-article{margin-top:42px;padding:34px;
 .reader-related a span,.reader-related a strong{display:block}
 .reader-related a span{color:var(--muted);font-size:11px}
 .reader-related a strong{margin-top:4px}
-@media(max-width:700px){.reader-article{padding:20px}.reader-article>h2{font-size:27px}}` + catalogueChangesCss + (staticPages ? readingDiscoveryCss : '')
+@media(max-width:700px){.reader-article{padding:20px}.reader-article>h2{font-size:27px}}` + catalogueChangesCss + readingGuideCss + (staticPages ? readingDiscoveryCss : '')
 
 function escapeHtml(value) {
   return String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;')
@@ -348,7 +350,7 @@ function renderReaderArticle(profile, language) {
   const relatedPages = (profile.readerRelatedPages ?? []).map((page) => '<a href="' + basePath + (language === 'zh' ? '/zh' : '') + '/taxa/' + escapeHtml(staticPathSegment(page.targetId)) + '/"><span>' + escapeHtml(page.context[language]) + '</span><strong>' + escapeHtml(page.label[language]) + ' →</strong></a>').join('')
   const relatedHtml = relatedPages ? '<nav class="reader-related" aria-label="' + (language === 'zh' ? '相关阅读' : 'Related reading') + '">' + relatedPages + '</nav>' : ''
   const sourceHtml = (profile.readerSources ?? []).map((source) => '<li><a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + escapeHtml(source.title[language]) + '</a> — ' + escapeHtml(source.scope[language]) + '</li>').join('')
-  return '<section class="reader-article" id="species-introduction"><span class="eyebrow">' + (language === 'zh' ? '物种介绍' : 'Species introduction') + '</span><h2>' + (language === 'zh' ? '从已有研究认识这个物种' : 'Reading the species through selected studies') + '</h2><div class="reader-sections">' + sectionHtml + '</div>' + relatedHtml + '<details class="reader-scope"><summary>' + (language === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions') + '</summary>' + limitations + '<ul>' + sourceHtml + '</ul></details></section>'
+  return '<section class="reader-article" id="species-introduction"><span class="eyebrow">' + (language === 'zh' ? '物种介绍' : 'Species introduction') + '</span><h2>' + (language === 'zh' ? '身体、生活与研究中的发现' : 'Body, life and findings from studies') + '</h2><div class="reader-sections">' + sectionHtml + '</div>' + relatedHtml + '<details class="reader-scope"><summary>' + (language === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions') + '</summary>' + limitations + '<ul>' + sourceHtml + '</ul></details></section>'
 }
 
 function loadChineseTranslations() {
@@ -503,6 +505,7 @@ function writeCollectionIndex({ kind, titleEn, titleZh, descriptionEn, descripti
 }
 
 const sitemapUrls = new Set([`${baseUrl}/`])
+const readingGuidePageCount = generateReadingGuides({ guides: readingGuides, references, write, pageHtml, basePath, baseUrl, sitemapUrls })
 let taxonPageCount = 0
 let eventPageCount = 0
 let storyPageCount = 0
@@ -542,7 +545,7 @@ for (const entity of entities) {
     const rangeLabel = entity.temporalRange.evidenceLevel === 'withheld-no-range-evidence'
       ? (language === 'zh' ? '区间暂无可发布证据' : 'Range unavailable')
       : `${entity.temporalRange.olderMa}–${entity.temporalRange.youngerMa || (language === 'zh' ? '现今' : 'Present')} Ma`
-    const body = `<span class="eyebrow">${text.catalog} / ${escapeHtml(localize(language, entity.rank))}</span><h1><em>${escapeHtml(entity.names.scientific)}</em></h1><p class="dek">${escapeHtml(summary)}</p>${renderReaderArticle(profile, language)}<div class="facts"><div><small>${text.range}</small><strong>${escapeHtml(rangeLabel)}</strong></div><div><small>${text.package}</small><strong>${escapeHtml(entity.packageId)}</strong></div><div><small>PBDB</small><strong>${escapeHtml(entity.externalIds.pbdb ?? (language === 'zh' ? '未关联' : 'Not linked'))}</strong></div></div><section><h2>${text.claims}</h2>${claimHtml}</section><section><h2>${text.limitations}</h2><ul>${entity.limitations.map((item) => `<li>${escapeHtml(localize(language, item))}</li>`).join('')}</ul></section><section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${openUrl}">${text.open} ↗</a><a class="button secondary" href="${escapeHtml(issueUrl({ entityId: entity.id, pageUrl: canonicalUrl }))}">${text.report} ↗</a></div>`
+    const body = `<span class="eyebrow">${text.catalog} / ${escapeHtml(localize(language, entity.rank))}</span><h1><em>${escapeHtml(entity.names.scientific)}</em></h1><p class="dek">${escapeHtml(summary)}</p>${renderReaderArticle(profile, language)}<details class="reader-scope"><summary>${language === 'zh' ? '时间范围与数据标识' : 'Time range and data identifiers'}</summary><div class="facts"><div><small>${text.range}</small><strong>${escapeHtml(rangeLabel)}</strong></div><div><small>${text.package}</small><strong>${escapeHtml(entity.packageId)}</strong></div><div><small>PBDB</small><strong>${escapeHtml(entity.externalIds.pbdb ?? (language === 'zh' ? '未关联' : 'Not linked'))}</strong></div></div></details><details class="reader-scope"><summary>${language === 'zh' ? '查看研究论点与依据' : 'Study claims and evidence'}</summary>${claimHtml}</details><section><h2>${text.limitations}</h2><ul>${entity.limitations.map((item) => `<li>${escapeHtml(localize(language, item))}</li>`).join('')}</ul></section><section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${openUrl}">${text.open} ↗</a><a class="button secondary" href="${escapeHtml(issueUrl({ entityId: entity.id, pageUrl: canonicalUrl }))}">${text.report} ↗</a></div>`
     write(`${path}index.html`, pageHtml({ language, title, description: summary, path, alternatePath, robots: indexable ? 'index,follow' : 'noindex,follow', jsonLd: { mainEntity: { '@type': 'DefinedTerm', name: entity.names.scientific, alternateName: [entity.names.en, entity.names.zh], identifier: entity.id }, citation: records.map((reference) => ({ '@type': 'CreativeWork', name: reference.title, url: reference.url, identifier: reference.doi ?? reference.id })) }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.catalog, url: `${basePath}/#/catalog` }, { label: commonName, url: `${baseUrl}/${path}` }], body }))
     taxonPageCount += 1
   }
@@ -793,11 +796,11 @@ if (staticPages) {
   for (const language of ['en', 'zh']) {
     const zh = language === 'zh'
     const prefix = zh ? 'zh/' : ''
-    const title = zh ? '从证据阅读生命演化' : 'Read evolution through its evidence'
+    const title = zh ? '读懂生命的分支与变化' : 'Read the branches and changes of life'
     const description = zh
-      ? 'Evo Atlas 精选核心静态预览：灵长目、恐龙、鲸类与奇蹄目等重点内容与原生核心使用同一清单。'
-      : 'The Evo Atlas selected-core reading preview: primates, dinosaurs, whales and perissodactyls use the same content selection as native core.'
-    const body = readingHome({ language, basePath, title, description, collections, stories, periods: periodUnits, mapFrame })
+      ? '从一种动物、一个分支和一项发现出发，认识身体结构怎样变化、不同谱系怎样分化，以及研究者怎样拼出这些历史。'
+      : 'Start with an animal, a branch and a discovery. Follow changes in bodies, the diversification of lineages and the research that reconstructs their histories.'
+    const body = readingHome({ language, basePath, title, description, collections, stories: stories.map(story => ({ ...story, dek: localize(language, story.dek) })), periods: periodUnits, mapFrame, guideCards: readingGuideCards(readingGuides, language, basePath) })
     write(`${prefix}index.html`, pageHtml({ language, title, description, path: prefix, alternatePath: zh ? '' : 'zh/', type: 'CollectionPage', body }))
     const appsTitle = zh ? '完整应用与原生版本' : 'Full and native applications'
     const appsDescription = zh
@@ -856,6 +859,7 @@ const pageCounts = {
   taxa: taxonPageCount,
   events: eventPageCount,
   stories: storyPageCount,
+  readingChapters: readingGuidePageCount,
   intervals: intervalPageCount,
   formations: formationPageCount,
   localities: localityPageCount,
