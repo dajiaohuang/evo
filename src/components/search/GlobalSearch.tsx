@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState } from 'react'
 import { searchCatalogue, searchStaticData } from '../../data-client/staticDataClient'
 import type { CatalogueRecord, CatalogueRuntimeManifest, CatalogueTargetRecord } from '../../data-client/types'
-import { parseRouteHash, type AppRoute } from '../../utils/routing'
+import { buildRouteHash, parseRouteHash, type AppRoute } from '../../utils/routing'
+import { isLocatedMapRoute, withSearchReturn } from '../../utils/searchMapNavigation'
+import { useAppStore } from '../../store'
+import manifest from '../../../data/manifest.json'
 import type { SearchResult } from '../../types'
 import { useI18n } from '../../i18n'
 import { isNativeCore, isPagesPreview, isPreviewRouteLocked } from '../../config/pagesPreview'
@@ -17,6 +20,7 @@ const kindLabels: Record<SearchResultKind, string> = {
   tree: 'Tree',
   interval: 'Time',
   place: 'Place',
+  occurrence: 'Fossil record',
 }
 
 interface GlobalSearchProps {
@@ -59,7 +63,8 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
           const parsed = parseRouteHash(entry.route)
           return !isPreviewRouteLocked(parsed.route, parsed.params, isPagesPreview, canSearchCompleteRegistry)
         }).map((entry) => {
-          const kind: SearchResultKind = entry.kind === 'event' ? 'event'
+          const kind: SearchResultKind = entry.kind === 'occurrence' ? 'occurrence'
+            : entry.kind === 'event' ? 'event'
             : entry.kind === 'story' ? 'story'
               : entry.kind === 'period' || entry.kind === 'interval' ? 'interval'
                 : entry.kind === 'place' ? 'place'
@@ -190,6 +195,18 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
     setComposing(false)
     setQuery('')
     resetResults()
+    if (isLocatedMapRoute(route)) {
+      const state = useAppStore.getState()
+      const current = parseRouteHash(window.location.hash)
+      const previous = buildRouteHash('home', {
+        ...(current.route === 'home' || current.route === 'explore' ? Object.fromEntries(current.params) : {}),
+        age: state.currentAge, lat: state.viewState.center[0], lng: state.viewState.center[1], zoom: state.viewState.zoom,
+        view: current.params.get('view') ?? 'map', dataset: manifest.datasetVersion,
+        projection: state.mapProjection, markers: state.markerMode, coords: state.coordinateMode,
+        treeMode: state.treeMode, taxon: state.selectedNodeId, occurrence: state.selectedOccurrence?.oid,
+      })
+      route = withSearchReturn(route, previous)
+    }
     const parsed = parseRouteHash(route)
     onNavigate(parsed.route, Object.fromEntries(parsed.params.entries()))
   }
@@ -236,7 +253,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
               {staticError && <p role="alert">{language === 'zh' ? '内容索引暂不可用，请重试。' : 'The content index is unavailable. Please retry.'}</p>}
               {results.map((result) => (
                 <button data-search-result key={`${result.kind}:${result.id}`} onClick={() => selectResult(result.route)}>
-                  <span className={`search-kind search-kind--${result.kind}`}>{t(kindLabels[result.kind])}</span>
+                  <span className={`search-kind search-kind--${result.kind}`}>{result.kind === 'occurrence' && language === 'zh' ? '化石记录' : t(kindLabels[result.kind])}</span>
                   <span className="search-result-copy">
                     <strong>{t(language === 'zh' ? result.titleZh ?? result.title : result.title)}</strong>
                     <small>{language === 'zh' && result.subtitleZh

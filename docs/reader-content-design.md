@@ -55,6 +55,15 @@ This is the agreed design direction; the complete dashboard redesign is pending.
   user's latest choice, replacing manual-only map location. Content without a
   supported location retains the map; a name or a broad range is not a point.
 
+The current search includes a bounded set of named fossil-record scenes (at
+most one sourced record per curated extinct genus or species). Selecting one
+locates its reconstructed coordinates, uses the midpoint of its recorded age
+interval and opens the occurrence inspector. A return link restores the map
+snapshot from before the search. These records are labelled separately from
+articles: a fossil occurrence is not assumed to locate a study's specimen or
+an organism's entire distribution. Article-linked scenes and the expanded
+dashboard reading windows remain part of the pending redesign.
+
 Page titles and subtitles introduce the science itself. Interactions reveal
 specimens, structures, comparisons and places; navigation instructions belong
 in controls rather than the narrative introduction.

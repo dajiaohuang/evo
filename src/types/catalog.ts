@@ -154,7 +154,7 @@ export interface EvolutionStory {
 
 export interface SearchResult {
   id: string
-  kind: 'taxon' | 'event' | 'story' | 'tree' | 'interval' | 'place'
+  kind: 'taxon' | 'event' | 'story' | 'tree' | 'interval' | 'place' | 'occurrence'
   title: string
   titleZh?: string
   subtitle: string

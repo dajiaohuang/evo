@@ -4,12 +4,14 @@ import { GlobalSearch } from './GlobalSearch'
 import { searchCatalogue, searchStaticData } from '../../data-client/staticDataClient'
 import { isBackendConfigured, loadBackendCapabilities, searchBackendNames } from '../../data-client/backendClient'
 import type { RuntimeSearchEntry } from '../../data-client/types'
+import { useAppStore } from '../../store'
 
 vi.mock('../../data-client/staticDataClient', () => ({ searchCatalogue: vi.fn(), searchStaticData: vi.fn() }))
 vi.mock('../../data-client/backendClient', () => ({ isBackendConfigured: vi.fn(), loadBackendCapabilities: vi.fn(), searchBackendNames: vi.fn() }))
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en', t: (value: string, params?: { count?: number }) => value.replace('{count}', String(params?.count)) }) }))
 vi.mock('../../services/publication', () => ({ getPackagePublication: () => null }))
 vi.mock('../../config/pagesPreview', () => ({ isPagesPreview: false, isPreviewRouteLocked: () => false }))
+vi.mock('../../store', () => ({ useAppStore: { getState: vi.fn() } }))
 
 const horse: RuntimeSearchEntry = { id: 'horse', kind: 'profile', title: 'Horse evidence', route: '#/explore?taxon=equus', terms: ['horse'] }
 const bird: RuntimeSearchEntry = { id: 'bird', kind: 'story', title: 'Bird story', route: '#/stories?id=birds', terms: ['bird'] }
@@ -25,6 +27,10 @@ async function openSearch() {
 describe('global discovery interaction', () => {
   beforeEach(() => {
     vi.useFakeTimers()
+    vi.mocked(useAppStore.getState).mockReturnValue({
+      currentAge: 66, viewState: { center: [12, 30], zoom: 3 }, mapProjection: 'equal-earth', markerMode: 'points',
+      coordinateMode: 'modern', treeMode: 'navigation', selectedNodeId: null, selectedOccurrence: null,
+    } as ReturnType<typeof useAppStore.getState>)
     vi.mocked(isBackendConfigured).mockReturnValue(false)
     vi.mocked(searchStaticData).mockResolvedValue([horse, bird])
     vi.mocked(searchCatalogue).mockResolvedValue({ manifest: { releaseAlias: 'COL26.8', releaseDate: '2026-08-20', classificationFields: [] }, records: [], totalMatches: 0, resolutionTargets: {} } as unknown as Awaited<ReturnType<typeof searchCatalogue>>)
@@ -127,5 +133,22 @@ describe('global discovery interaction', () => {
     expect(navigate).toHaveBeenCalledWith('registry', { release: 'COL26.8', id: 'accepted' })
     expect(signal.aborted).toBe(true)
     expect(searchCatalogue).not.toHaveBeenCalled()
+  })
+
+  it('opens a located record with a map return snapshot, including zero coordinates', async () => {
+    window.location.hash = '#/home?view=tree&age=66&returnTo=%23%2Fhome%3Fage%3D0%26lat%3D0%26lng%3D0'
+    vi.mocked(searchStaticData).mockResolvedValue([{ id: 'occ:1', kind: 'occurrence', title: 'Fram record', route: '#/home?view=map&age=375&lat=0&lng=0&occurrence=occ%3A1', terms: ['Fram'] }])
+    const navigate = vi.fn()
+    render(<GlobalSearch onNavigate={navigate} />)
+    const input = await openSearch()
+    fireEvent.change(input, { target: { value: 'Fram' } })
+    await advance()
+    fireEvent.keyDown(input, { key: 'Enter' })
+    const [route, params] = navigate.mock.calls[0]
+    expect(route).toBe('home')
+    expect(params).toMatchObject({ age: '375', lat: '0', lng: '0', occurrence: 'occ:1' })
+    const previous = new URLSearchParams(params.returnTo.split('?')[1])
+    expect(Object.fromEntries(previous)).toMatchObject({ age: '66', lat: '12', lng: '30', zoom: '3', view: 'tree', coords: 'modern', projection: 'equal-earth', markers: 'points' })
+    expect(previous.has('returnTo')).toBe(false)
   })
 })

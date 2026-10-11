@@ -10,6 +10,7 @@ import { useCatalogContext } from '../../hooks/useCatalogContext'
 import { getEntityPublication } from '../../services/publication'
 import { periods, timeScaleUnits } from '../../services/geology'
 import { buildRouteHash, explorationShareUrl, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
+import { searchReturnHash } from '../../utils/searchMapNavigation'
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
 import { loadPackageForEntity } from '../../data-client/staticDataClient'
 import { useI18n } from '../../i18n'
@@ -89,6 +90,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   const historySelection = useRef<string | null>(null)
   const appliedHash = useRef(window.location.hash)
   const routeView = initialRoute.params.get('view')
+  const returnToMap = searchReturnHash(initialRoute.params)
   const initialView: ExplorerView = routeView === 'tree' || routeView === 'diversity' ? routeView : 'map'
   const context = useMemo(() => ({
     profile: initialRoute.params.get('profile'),
@@ -261,13 +263,14 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
       coords: coordinateMode,
       treeMode,
       occurrence: selectedOccurrence?.oid,
+      returnTo: returnToMap,
     })
     const selection = `${view}:${selectedNodeId ?? ''}:${selectedOccurrence?.oid ?? ''}`
     const method = historySelection.current !== null && historySelection.current !== selection ? 'pushState' : 'replaceState'
     historySelection.current = selection
     if (window.location.hash !== hash) window.history[method](window.history.state, '', `${window.location.pathname}${window.location.search}${hash}`)
     appliedHash.current = hash
-  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, mapProjection, markerMode, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
+  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, mapProjection, markerMode, returnToMap, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
     if (isPagesPreview && !isPreviewTaxonAllowed(node.id)) return
@@ -520,6 +523,9 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
 
         <div className="dashboard-stage-body">
           <div className="stage-canvas">
+            {returnToMap && <a className="search-map-return" href={returnToMap}>
+              <span aria-hidden="true">↶</span> {language === 'zh' ? '返回搜索前地图' : 'Return to the previous map'}
+            </a>}
             <Suspense fallback={<ModuleLoading />}>
               {visitedViews.has('map') && <Activity mode={view === 'map' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Map" />}><PaleoMap /></ErrorBoundary></Activity>}
               {visitedViews.has('tree') && <Activity mode={view === 'tree' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree focusRequest={treeFocus} /></ErrorBoundary></Activity>}

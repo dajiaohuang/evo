@@ -11,6 +11,7 @@ export const coreScriptTests = [
   'scripts/data-checksum.test.mjs',
   'scripts/mobile-descriptor-pins.test.mjs',
   'scripts/reference-date-status.test.mjs',
+  'scripts/search-occurrence-scenes.test.mjs',
   'scripts/tree-path-content.test.mjs',
 ]
 

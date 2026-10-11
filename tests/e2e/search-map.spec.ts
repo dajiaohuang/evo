@@ -1,0 +1,45 @@
+import { expect, test } from '@playwright/test'
+
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem('evo-atlas-language', 'en')
+    localStorage.setItem('evo-explorer-guide-v2', 'dismissed')
+  })
+})
+
+for (const mobile of [false, true]) {
+  test(`a sourced search record synchronizes the map and restores the previous view (${mobile ? 'mobile' : 'desktop'})`, async ({ page }, testInfo) => {
+    if (mobile) await page.setViewportSize({ width: 390, height: 844 })
+    await page.goto('./#/home?age=66&lat=12&lng=30&zoom=3&coords=modern&markers=points&projection=equal-earth')
+    await expect(page.getByRole('spinbutton', { name: 'Age in millions of years' })).toHaveValue('66')
+    await expect(page.locator('.projected-map__vectors')).toBeVisible()
+    await expect.poll(() => new URL(page.url()).hash).toContain('lat=12.000')
+    const workspace = page.locator('main.explorer-workspace')
+    await workspace.evaluate(node => node.setAttribute('data-search-session', 'retained'))
+    await page.getByRole('button', { name: 'Search', exact: true }).click()
+    await page.getByRole('textbox', { name: 'Search taxa, intervals, events, places…' }).fill('Tiktaalik')
+    const result = page.getByRole('dialog').getByRole('button', { name: /Fossil record.*Fram.*occ:568160/ })
+    await expect(result).toBeVisible()
+    await result.click()
+    await expect(page.getByRole('spinbutton', { name: 'Age in millions of years' })).toHaveValue('377.2')
+    await expect.poll(() => new URLSearchParams(new URL(page.url()).hash.split('?')[1]).get('occurrence')).toBe('occ:568160')
+    const scene = new URLSearchParams(new URL(page.url()).hash.split('?')[1])
+    expect(Object.fromEntries(scene)).toMatchObject({ lat: '-0.250', lng: '-31.800', zoom: '4.00', coords: 'paleo', older: '382.31', younger: '372.15' })
+    await expect(page.getByRole('complementary', { name: 'Evidence inspector' })).toContainText('col:59674')
+    await expect(page.locator('[data-search-session="retained"]')).toHaveCount(1)
+    if (mobile) await page.getByRole('button', { name: 'Close evidence panel' }).click()
+    const restore = page.getByRole('link', { name: 'Return to the previous map' })
+    await expect(restore).toBeVisible()
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true)
+    await page.screenshot({ path: testInfo.outputPath('search-scene.png') })
+    await restore.click()
+    await expect(page.getByRole('spinbutton', { name: 'Age in millions of years' })).toHaveValue('66')
+    await expect.poll(() => new URLSearchParams(new URL(page.url()).hash.split('?')[1]).get('lat')).toBe('12.000')
+    const restored = new URLSearchParams(new URL(page.url()).hash.split('?')[1])
+    expect(Object.fromEntries(restored)).toMatchObject({ lng: '30.000', zoom: '3.00', coords: 'modern', markers: 'points', projection: 'equal-earth' })
+    expect(restored.has('returnTo')).toBe(false)
+    expect(restored.has('occurrence')).toBe(false)
+    await expect(restore).toHaveCount(0)
+    await expect(page.locator('[data-search-session="retained"]')).toHaveCount(1)
+  })
+}

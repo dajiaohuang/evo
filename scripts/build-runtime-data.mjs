@@ -10,6 +10,7 @@ import { partitionSanbiDescriptions } from './sanbi-description-shards.mjs'
 import { buildCatalogueKnowledge } from './catalogue-knowledge.mjs'
 import { readCatalogueDossiers } from './catalogue-dossier-store.mjs'
 import { buildContentProjections } from './build-content-projections.mjs'
+import { occurrenceSearchScenes } from './search-occurrence-scenes.mjs'
 
 buildContentProjections({ quiet: true })
 
@@ -897,7 +898,12 @@ function coreSearchEntries() {
   const storyEntries = publishedStories.map((story) => ({ id: story.id, kind: 'story', title: story.title, titleZh: story.titleZh, route: `#/stories?id=${story.id}`, terms: [story.title, story.titleZh, story.dek] }))
   const placeEntries = places.map((place) => ({ id: place.code, kind: 'place', title: place.name, titleZh: place.nameZh, route: `#/lab?country=${place.code}`, terms: [place.code, place.name, place.nameZh] }))
   const intervalEntries = timeScale.units.map((unit) => ({ id: unit.oid, kind: 'interval', title: unit.nam, titleZh: unit.namZh, route: `#/explore?age=${((unit.eag + unit.lag) / 2).toFixed(3)}&view=diversity`, terms: [unit.nam, unit.namZh, unit.itp, unit.abr] }))
-  return [...entityEntries, ...eventEntries, ...storyEntries, ...placeEntries, ...intervalEntries]
+  const snapshots = registry.packages.map((entry) => {
+    const ledger = readJson(`${entry.canonicalPath}/query-ledger.json`)
+    return ledger.occurrenceSnapshot ? readJson(ledger.occurrenceSnapshot) : null
+  })
+  const occurrenceEntries = occurrenceSearchScenes(profiles, snapshots)
+  return [...entityEntries, ...eventEntries, ...storyEntries, ...occurrenceEntries, ...placeEntries, ...intervalEntries]
 }
 
 const core = {}
