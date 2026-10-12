@@ -46,7 +46,8 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
   const paintCount = useRef(0)
   const latestInputTime = useRef(0)
   const projection = useMemo(() => createMapProjection(projectionId, camera, size), [projectionId, camera, size])
-  const movingShapes = useMemo(() => shapes.map((shape) => ({ ...shape, geometry: mapDisplayDetail(shape.geometry, Math.ceil(camera.zoom)) })), [shapes, camera.zoom])
+  const displayZoom = Math.ceil(camera.zoom)
+  const movingShapes = useMemo(() => shapes.map((shape) => ({ ...shape, geometry: mapDisplayDetail(shape.geometry, displayZoom) })), [shapes, displayZoom])
 
   const applyExternalView = useEffectEvent(() => {
     cameraRef.current = normalizeMapView(view, projectionId)

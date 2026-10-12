@@ -10,7 +10,8 @@ test('native app bundles the selected core and gates full-catalogue routes', asy
   await expect(page.locator('html')).toHaveAttribute('data-frontend-edition', 'native-core')
   await expect(page.locator('html')).toHaveAttribute('data-content-scope', 'selected-preview')
   await expect(page.locator('body')).not.toContainText('GitHub Pages preview edition')
-  await expect(page.getByRole('heading', { name: 'Read the branches and changes of life' })).toBeVisible()
+  await expect(page.locator('.projected-map__vectors')).toBeVisible()
+  await page.getByRole('button', {name: 'Read', exact: true}).click()
   await expect(page.locator('.reading-card')).toHaveCount(3)
 
   const bundle = await page.evaluate(async () => {

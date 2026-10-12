@@ -4,9 +4,7 @@ import { fileURLToPath } from 'node:url'
 import { brotliCompressSync, brotliDecompressSync, constants, gzipSync, gunzipSync } from 'node:zlib'
 import { attachContentReferences } from './content-references.mjs'
 import { createContentLinkMaps, restoreRuntimeContentLinks } from './content-path-links.mjs'
-import { CONTENT_PROJECTION_MAP, digest, jsonText, readNodeContent, readYaml, semanticJson, writeUtf8 } from './tree-path-content.mjs'
-
-let completedRoot = null
+import { CONTENT_PROJECTION_MAP, digest, jsonText, readNodeContent, readYaml, writeUtf8 } from './tree-path-content.mjs'
 
 function readJson(path) { return JSON.parse(readFileSync(path, 'utf8')) }
 
@@ -33,12 +31,14 @@ function fileFingerprint(paths, root) {
   }).join('\n'))
 }
 
-function shardManifest(files, root, emit) {
+function shardManifest(files, root, emit, previousHashes, fileStamps) {
   const buckets = new Map()
   for (const path of files) {
     const prefix = digest(path).slice(0, 2)
     const bucket = buckets.get(prefix) ?? []
-    bucket.push({ path, sha256: digest(readFileSync(join(root, path))) })
+    const stamp = fileStamps.get(path)
+    const previous = previousHashes?.[path]
+    bucket.push({ path, sha256: previous?.stamp === stamp ? previous.sha256 : digest(readFileSync(join(root, path))) })
     buckets.set(prefix, bucket)
   }
   const shards = [...buckets].sort(([left], [right]) => left.localeCompare(right)).map(([prefix, records]) => {
@@ -52,7 +52,6 @@ function shardManifest(files, root, emit) {
 
 export function buildContentProjections({ root = process.cwd(), quiet = false, force = false, check = false } = {}) {
   if (!existsSync(join(root, CONTENT_PROJECTION_MAP))) return null
-  if (completedRoot === root && !force && !check) return null
   const started = Date.now()
   function emit(path, text) {
     if (!check) return writeUtf8(path, text)
@@ -67,28 +66,38 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
     renameSync(temporary, path)
   }
   const contentFiles = filesBelow(join(root, 'content'), root).sort()
-  const sourceFingerprint = fileFingerprint([...contentFiles, 'data/references.json', 'scripts/tree-path-content.mjs', 'scripts/content-references.mjs', 'scripts/content-path-links.mjs', 'scripts/build-content-projections.mjs'], root)
+  const sharedFiles = [CONTENT_PROJECTION_MAP, 'data/references.json', 'scripts/tree-path-content.mjs', 'scripts/content-references.mjs', 'scripts/content-path-links.mjs', 'scripts/build-content-projections.mjs']
+  const sharedFingerprint = fileFingerprint(sharedFiles, root)
+  const fileStamps = new Map(contentFiles.map(path => {
+    const stat = statSync(join(root, path))
+    return [path, `${stat.size}:${stat.mtimeMs}`]
+  }))
+  const sourceFingerprint = digest(`${sharedFingerprint}\n${[...fileStamps].map(([path, stamp]) => `${path}:${stamp}`).join('\n')}`)
   const gitEntry = join(root, '.git')
   const gitDirectory = existsSync(gitEntry) ? statSync(gitEntry).isDirectory() ? gitEntry : resolvePath(root, readFileSync(gitEntry, 'utf8').replace(/^gitdir:\s*/, '').trim()) : null
-  const cachePath = join(gitDirectory ?? gitEntry, 'content-migration/projection-cache.json')
+  const cachePath = join(gitDirectory ?? gitEntry, 'evo-content/projection-cache.json')
   let previousCache = null
   if (existsSync(cachePath)) previousCache = readJson(cachePath)
   if (!force && previousCache?.sourceFingerprint === sourceFingerprint && previousCache.outputFingerprint === fileFingerprint(previousCache.outputPaths, root)) {
-    completedRoot = root
     if (!quiet) console.log(`Content projections are current (${contentFiles.length} source files).`)
     return null
   }
   const map = readYaml(join(root, CONTENT_PROJECTION_MAP))
-  if (map.schemaVersion !== 1) throw new Error('Unsupported content projection map')
+  if (map.schemaVersion !== 2 || map.canonicalLinks !== 'tree-paths') throw new Error('Unsupported content export registry. Only the current tree-path format is supported.')
   const linkMaps = createContentLinkMaps(map)
   const references = readJson(join(root, 'data/references.json'))
   const referencesById = new Map(references.map(reference => [reference.id, reference]))
   const cache = new Map()
   const visitedDirectories = new Set()
-  const initialImport = !existsSync(join(root, 'data/registry/content-build-summary.json'))
   function node(path) {
     visitedDirectories.add(path)
-    if (!cache.has(path)) cache.set(path, readNodeContent(path, root))
+    if (!cache.has(path)) {
+      // A single catalogue projection spans tens of thousands of nodes. Keeping
+      // all restored Markdown records until that projection finishes exhausts
+      // the default Node heap; only recently reused nodes need to stay cached.
+      if (cache.size >= 64) cache.delete(cache.keys().next().value)
+      cache.set(path, readNodeContent(path, root))
+    }
     return cache.get(path)
   }
   function resolve(value) {
@@ -100,23 +109,34 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
       let record = entry.records[descriptor.key]
       if (descriptor.index !== undefined) record = record?.[descriptor.index]
       if (record === undefined) throw new Error(`Missing canonical record ${descriptor.path}/${descriptor.key}/${descriptor.index ?? ''}`)
-      record = attachContentReferences(map.canonicalLinks === 'tree-paths' ? restoreRuntimeContentLinks(structuredClone(record), linkMaps) : structuredClone(record), referencesById)
+      record = attachContentReferences(restoreRuntimeContentLinks(structuredClone(record), linkMaps), referencesById)
       if (descriptor.inject) record = { ...descriptor.inject, ...record }
       if (descriptor.indexFields) {
         for (const field of descriptor.indexFields) record[field] = field === 'sourceDatasetId' ? entry.index.classification.sourceDatasetId : entry.index[field]
       }
-      if (descriptor.originalFields) record = Object.fromEntries(descriptor.originalFields.map(key => [key, record[key]]))
       for (const [key, child] of Object.entries(value)) if (key !== 'contentRecord') record[key] = resolve(child)
       return record
     }
     return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, resolve(child)]))
   }
   let changedOutputs = 0
-  const inputIndex = {}, shardResults = new Map()
+  const inputIndex = {}, shardResults = new Map(), projectionCache = {}
+  let rebuiltProjections = 0
   for (const [path, descriptor] of Object.entries(map.generatedInputs)) {
     if (!path.startsWith('data/') || path.split('/').includes('..') || path.includes('\\')) throw new Error(`Unsafe generated data path: ${path}`)
+    const directories = [...contentPointers(descriptor.template)].sort()
+    const dependencyFiles = directories.flatMap(directory => ['index.yaml', 'evidence.md', 'page.zh.md', 'page.en.md'].map(name => `${directory}/${name}`))
+    const dependencyFingerprint = digest(`${sharedFingerprint}\n${dependencyFiles.map(file => `${file}:${fileStamps.get(file) ?? 'missing'}`).join('\n')}`)
+    inputIndex[path] = { directories }
+    for (const directory of directories) visitedDirectories.add(directory)
+    const previous = previousCache?.projections?.[path]
+    if (!force && previous?.dependencyFingerprint === dependencyFingerprint && previous.outputFingerprint === fileFingerprint(previous.outputPaths, root)) {
+      projectionCache[path] = previous
+      if (previous.shard) shardResults.set(path, previous.shard)
+      continue
+    }
+    rebuiltProjections++
     const value = resolve(descriptor.template)
-    if (initialImport && digest(semanticJson(value)) !== descriptor.importSemanticSha256) throw new Error(`Migration changed an original record in ${path}; the original input is preserved under .git/content-migration/original-inputs/`)
     const absolute = join(root, path)
     if (descriptor.encoding === 'brotli-jsonl') {
       const decoded = Buffer.from(value.map(record => JSON.stringify(record)).join('\n') + '\n', 'utf8')
@@ -146,8 +166,12 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
       }
     } else if (descriptor.encoding === 'json') changedOutputs += Number(emit(absolute, jsonText(value)))
     else throw new Error(`Unsupported projection encoding: ${descriptor.encoding}`)
-    const directories = [...contentPointers(descriptor.template)].sort()
-    inputIndex[path] = { directories }
+    const projectionOutputs = [path]
+    if (descriptor.encoding === 'brotli-jsonl') {
+      const plain = path.slice(0, -3)
+      for (const candidate of [plain, `${plain}.manifest.json`]) if (existsSync(join(root, candidate))) projectionOutputs.push(candidate)
+    }
+    projectionCache[path] = { dependencyFingerprint, outputPaths: projectionOutputs, outputFingerprint: fileFingerprint(projectionOutputs, root), ...(shardResults.has(path) ? { shard: shardResults.get(path) } : {}) }
     // Inputs share paths, but retaining every restored node across all projections
     // exceeds the default Node heap on the full authoring tree.
     cache.clear()
@@ -168,15 +192,18 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
     topicAliases: map.topicAliases,
   }
   emit(join(root, 'data/registry/content-projection-files.json'), jsonText(projectionIndex))
-  const sourceManifest = shardManifest(contentFiles, root, emit)
+  const sourceManifest = shardManifest(contentFiles, root, emit, previousCache?.sourceHashes, fileStamps)
   emit(join(root, 'data/registry/content-source-manifest.json'), jsonText(sourceManifest))
   const summary = { contentDirectories: visitedDirectories.size, contentFiles: contentFiles.length, projectionFiles: Object.keys(map.generatedInputs).length, changedOutputs, durationSeconds: Number(((Date.now() - started) / 1000).toFixed(2)) }
   emit(join(root, 'data/registry/content-build-summary.json'), jsonText({ schemaVersion: 1, ...summary, durationSeconds: undefined, changedOutputs: undefined }))
   const outputPaths = [...projectionIndex.generatedFiles, 'data/registry/content-projection-files.json', 'data/registry/content-source-manifest.json', 'data/registry/content-build-summary.json', ...sourceManifest.shards.map(shard => shard.path)].sort()
-  if (!check && gitDirectory && existsSync(gitDirectory) && statSync(gitDirectory).isDirectory()) writeUtf8(cachePath, jsonText({ schemaVersion: 1, sourceFingerprint, outputPaths, outputFingerprint: fileFingerprint(outputPaths, root) }))
-  completedRoot = root
-  if (!quiet) console.log(`Built ${summary.projectionFiles} content projections from ${summary.contentDirectories} Markdown directories (${summary.durationSeconds}s).`)
-  return summary
+  if (!check && gitDirectory && existsSync(gitDirectory) && statSync(gitDirectory).isDirectory()) {
+    const sourceHashes = {}
+    for (const shard of sourceManifest.shards) for (const file of readJson(join(root, shard.path)).files) sourceHashes[file.path] = { stamp: fileStamps.get(file.path), sha256: file.sha256 }
+    writeUtf8(cachePath, jsonText({ schemaVersion: 2, sourceFingerprint, outputPaths, outputFingerprint: fileFingerprint(outputPaths, root), projections: projectionCache, sourceHashes }))
+  }
+  if (!quiet) console.log(`Built ${rebuiltProjections}/${summary.projectionFiles} content projections from ${summary.contentDirectories} Markdown directories (${summary.durationSeconds}s).`)
+  return { ...summary, rebuiltProjections }
 }
 
 export function canonicalContentInputs(paths, root = process.cwd()) {

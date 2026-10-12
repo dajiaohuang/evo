@@ -44,9 +44,7 @@ records:
       en: draft-ready
       zh: draft-ready
     readerSections:
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/0/id
+      - id: reading-introduction
         title:
           en:
             markdown: page.en.md
@@ -57,24 +55,17 @@ records:
             field: /records/atlas-profile/readerSections/0/title/zh
             format: heading
         text:
-          en:
-            markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/3
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/1/id
+          - druelle2017
+          - bailey2021
+          - kiffner2022
+      - id: identity-and-scope
         title:
           en:
             markdown: page.en.md
@@ -92,11 +83,11 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/2/id
+          - col
+          - druelle2017
+          - bailey2021
+          - kiffner2022
+      - id: captive-growth
         title:
           en:
             markdown: page.en.md
@@ -114,11 +105,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/2/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/3/id
+          - druelle2017
+      - id: gombe-reproduction
         title:
           en:
             markdown: page.en.md
@@ -136,11 +124,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/3/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/4/id
+          - bailey2021
+      - id: manyara-survey-method
         title:
           en:
             markdown: page.en.md
@@ -158,11 +143,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/4/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/4/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/5/id
+          - kiffner2022
+      - id: comparative-genomics
         title:
           en:
             markdown: page.en.md
@@ -180,16 +162,30 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/5/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/1
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/2
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/3
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/4
+          - jordan2018
+      - id: remaining-questions
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/text/zh
+        sourceIds:
+          - col
+          - druelle2017
+          - bailey2021
+          - kiffner2022
+          - jordan2018
     readerSources:
       referenceBindings:
         - referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
@@ -564,12 +560,6 @@ The selected studies sampled a captive cohort at the CNRS Primatology Station in
 Each cited primary study directly identifies its sampled location and captive or wild study status. The statement explicitly does not infer a geographic range.
 <!-- /evo:text -->
 
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/1/reviewedAgainstReferenceVersion -->
-Druelle et al. 2017 DOI 10.1111/joa.12602; Bailey et al. 2021 DOI 10.1038/s41598-021-83175-3; Kiffner et al. 2022 DOI 10.1371/journal.pone.0263314; study locations checked 2026-09-27
-<!-- /evo:text -->
-
 ## claims / statement
 
 <!-- evo:text /records/claims/2/statement -->
@@ -580,12 +570,6 @@ In a seven-year longitudinal study of 14 female and 16 male captive olive baboon
 
 <!-- evo:text /records/claims/2/confidenceRationale -->
 The source describes its captive cohort, seven-year longitudinal design, measured segment morphometrics, and age- and sex-related results directly. The conclusion is restricted to that cohort.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/2/reviewedAgainstReferenceVersion -->
-Druelle et al. 2017 DOI 10.1111/joa.12602; Abstract; Materials and methods; Results and Discussion checked against the source-linked article record 2026-09-27
 <!-- /evo:text -->
 
 ## claims / referenceLinks / pages
@@ -606,12 +590,6 @@ At Lake Manyara National Park, Tanzania, road-transect distance sampling from 20
 The paper reports the survey years, constrained road design, sleeping-site comparison, and possible road-use bias. It reports poor detection-model fit, so this selected result remains method- and site-specific.
 <!-- /evo:text -->
 
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/3/reviewedAgainstReferenceVersion -->
-Kiffner et al. 2022 DOI 10.1371/journal.pone.0263314; Abstract; Methods; Results and Discussion checked against the CC BY 4.0 version of record on 2026-09-27
-<!-- /evo:text -->
-
 ## claims / statement
 
 <!-- evo:text /records/claims/4/statement -->
@@ -622,12 +600,6 @@ In Gombe National Park, Tanzania, records from 1972–2002 covered 732 pregnanci
 
 <!-- evo:text /records/claims/4/confidenceRationale -->
 The primary study reports the Gombe observation period, pregnancy sample, rank and rainfall interaction, and difference between rapid-rising males and immigrant males overall. It is observational and conditional; it does not show a species-wide rate or prove deliberate causation.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/4/reviewedAgainstReferenceVersion -->
-Bailey et al. 2021 DOI 10.1038/s41598-021-83175-3; Abstract; Results; Methods, Study area and population and Miscarriage analyses checked against the CC BY 4.0 version of record on 2026-09-27
 <!-- /evo:text -->
 
 ## claims / referenceLinks / pages
@@ -646,12 +618,6 @@ The selected COL26.8 checklist and the cited living-population studies do not es
 
 <!-- evo:text /records/claims/5/confidenceRationale -->
 The checklist establishes identity and classification, while the selected biological papers concern living populations and do not estimate a complete geographic range or temporal fossil endpoints. Those ranges therefore remain withheld.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/5/reviewedAgainstReferenceVersion -->
-COL26.8 dataset 316115 usage 6TM9B; Druelle et al. 2017, Bailey et al. 2021, and Kiffner et al. 2022 study scopes checked 2026-09-27
 <!-- /evo:text -->
 
 ## claim-rationales.zh

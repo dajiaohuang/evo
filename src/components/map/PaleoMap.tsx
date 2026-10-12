@@ -12,6 +12,9 @@ import { TemporalPackageCards } from './TemporalPackageCards'
 import { useI18n } from '../../i18n'
 import { CAO_OBSERVATION_DATASET_IDS, type CaoObservationDatasetId, type CaoObservationRecord, type FossilOccurrence, type PaleogeographyLayerId } from '../../types'
 import type { RuntimeMapObservationDataset } from '../../data-client/types'
+import { taxonProfiles } from '../../services/catalogProfiles'
+
+const featuredTaxa = new Set(taxonProfiles.filter(profile => profile.readerSections?.length && profile.pbdbTaxonId).map(profile => profile.pbdbTaxonId))
 
 interface TrajectoryBin {
   ageMa: number
@@ -71,7 +74,7 @@ function formatObservationPositions(positions: CaoObservationRecord['sourcePosit
 }
 
 export function PaleoMap() {
-  const { number, t } = useI18n()
+  const { language, number, t } = useI18n()
   const [showTrajectory, setShowTrajectory] = useState(false)
   const [showMapPanels, setShowMapPanels] = useState(true)
   const [showPlatePolygons, setShowPlatePolygons] = useState(true)
@@ -85,6 +88,8 @@ export function PaleoMap() {
   const [enabledObservationDatasets, setEnabledObservationDatasets] = useState<Set<CaoObservationDatasetId>>(() => new Set())
   const [selectedObservation, setSelectedObservation] = useState<{ record: CaoObservationRecord; descriptor: RuntimeMapObservationDataset } | null>(null)
   const markerMode = useAppStore((s) => s.markerMode)
+  const mapContentMode = useAppStore((s) => s.mapContentMode)
+  const setMapContentMode = useAppStore((s) => s.setMapContentMode)
   const coordinateMode = useAppStore((s) => s.coordinateMode)
   const showContinents = useAppStore((s) => s.showContinents)
   const setMarkerMode = useAppStore((s) => s.setMarkerMode)
@@ -213,7 +218,20 @@ export function PaleoMap() {
     } satisfies MapShape)
     return result
   }, [layers, requestedPaleogeographyLayers, showTrajectory, trajectory, t])
-  const mapFossils = useMemo(() => fossilPoints(records, coordinateMode, highlightedOccurrenceIds, t), [records, coordinateMode, highlightedOccurrenceIds, t])
+  const displayRecords = useMemo(() => {
+    if (mapContentMode === 'all') return records
+    const selected = new Set(highlightedOccurrenceIds)
+    const places = new Set<string>()
+    return records.filter(record => {
+      if (selected.has(record.oid)) return true
+      if (!record.tid || !featuredTaxa.has(record.tid) || !hasSpatialPosition(record, coordinateMode)) return false
+      const place = `${record.tid}:${record.cid ?? record.oid}`
+      if (places.has(place) || places.size >= 24) return false
+      places.add(place)
+      return true
+    })
+  }, [records, mapContentMode, highlightedOccurrenceIds, coordinateMode])
+  const mapFossils = useMemo(() => fossilPoints(displayRecords, coordinateMode, highlightedOccurrenceIds, t), [displayRecords, coordinateMode, highlightedOccurrenceIds, t])
   const mapObservations = useMemo(() => observationPoints(visibleObservationRecords), [visibleObservationRecords])
 
   return (
@@ -229,6 +247,12 @@ export function PaleoMap() {
         terrain={showPaleotopography && paleotopographyCollection && paleotopographyFrame ? { collection: paleotopographyCollection, frame: paleotopographyFrame } : undefined}
         onTerrainStatus={handlePaleotopographyStatus}
       />
+
+      <div className="map-content-switch" role="group" aria-label={language === 'zh' ? '地图内容' : 'Map content'}>
+        <button type="button" aria-pressed={mapContentMode === 'featured'} onClick={() => setMapContentMode('featured')}>{language === 'zh' ? '精选发现' : 'Featured discoveries'}</button>
+        <button type="button" aria-pressed={mapContentMode === 'all'} onClick={() => setMapContentMode('all')}>{language === 'zh' ? '全部化石记录' : 'All fossil records'}</button>
+        {mapContentMode === 'featured' && !mapFossils.length && recordsLoaded && <small>{language === 'zh' ? '此场景暂无带正文的精选发现，可切换全部记录。' : 'No featured discovery with an account in this scene. Switch to all records.'}</small>}
+      </div>
 
       <div hidden={!showMapPanels}>
       <div style={{

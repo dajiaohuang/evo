@@ -1,4 +1,4 @@
-export type AppRoute = 'home' | 'catalog' | 'registry' | 'stories' | 'explore' | 'research' | 'about' | 'taxa' | 'events' | 'compare' | 'lab' | 'data' | 'methods'
+export type AppRoute = 'home' | 'catalog' | 'registry' | 'stories' | 'explore' | 'research' | 'info' | 'taxa' | 'events' | 'compare' | 'lab'
 
 export interface RouteState {
   route: AppRoute
@@ -6,14 +6,14 @@ export interface RouteState {
 }
 
 const ROUTES = new Set<AppRoute>([
-  'home', 'catalog', 'registry', 'stories', 'explore', 'research', 'about', 'taxa', 'events', 'compare', 'lab', 'data', 'methods',
+  'home', 'catalog', 'registry', 'stories', 'explore', 'research', 'info', 'taxa', 'events', 'compare', 'lab',
 ])
 
 export function parseRouteHash(hash: string): RouteState {
   const normalized = hash.replace(/^#\/?/, '')
   const [rawRoute = 'home', query = ''] = normalized.split('?')
   const route = ROUTES.has(rawRoute as AppRoute) ? rawRoute as AppRoute : 'home'
-  return { route, params: new URLSearchParams(query) }
+  return { route, params: new URLSearchParams(ROUTES.has(rawRoute as AppRoute) ? query : '') }
 }
 
 export function buildRouteHash(

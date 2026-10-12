@@ -1103,9 +1103,8 @@ for (const packageEntry of registry.packages) {
 }
 
 const occurrenceManifestFile = writeJson('occurrences/manifest.json', occurrenceManifest, true)
-const paleogeographyByPeriod = new Map(paleogeographyProvenance.snapshots.map((snapshot) => [snapshot.period, snapshot]))
 const paleogeographyLayerIds = ['coastlines', 'platePolygons', 'plateBoundaries', 'continentalPolygons', 'continentOceanBoundaries', 'staticPolygons']
-const hasPaleogeographySeries = paleogeographyProvenance.schemaVersion >= 3
+if (paleogeographyProvenance.schemaVersion !== 3) throw new Error('Only the current paleogeography series format (schema 3) is supported')
 const publishedMapFramePaths = new Set()
 
 const caoObservationDefinitions = {
@@ -1213,8 +1212,8 @@ function publishCanonicalMapFrame(layerId, frame) {
   }
 }
 
-let mapLayers = null
-if (hasPaleogeographySeries) {
+let mapLayers
+{
   const series = paleogeographyProvenance.series
   if (!series?.layers) throw new Error('Paleogeography provenance schema 3 requires series.layers')
   if (!Number.isFinite(series.ageRangeMa?.youngest) || !Number.isFinite(series.ageRangeMa?.oldest) || series.ageRangeMa.youngest >= series.ageRangeMa.oldest) {
@@ -1238,33 +1237,6 @@ if (hasPaleogeographySeries) {
     return [layerId, { role: sourceLayer.role, cadenceBands: sourceLayer.cadenceBands, frames }]
   }))
 }
-
-const mapSnapshots = periodMetadata.map((period) => {
-  const provenance = paleogeographyByPeriod.get(period.name)
-  if (period.mapLayerStatus === 'available' && !provenance) throw new Error(`${period.name}: available map is missing provenance`)
-  let layers = null
-  if (provenance && mapLayers) {
-    layers = Object.fromEntries(paleogeographyLayerIds.map((layerId) => {
-      const frame = mapLayers[layerId].frames.find((candidate) => candidate.ageMa === provenance.reconstructionAgeMa)
-      if (!frame) throw new Error(`${period.name}: ${layerId} series does not retain the period midpoint ${provenance.reconstructionAgeMa} Ma`)
-      return [layerId, frame]
-    }))
-  } else if (provenance) {
-    layers = Object.fromEntries(Object.entries(provenance.layers).map(([layerId, layer]) => [
-      layerId,
-      writeGzipJson(`maps/${period.name.toLowerCase()}-${layerId}.json.gz`, readJson(layer.geometryFile)),
-    ]))
-  }
-  return {
-    period: period.name,
-    status: period.mapLayerStatus,
-    description: period.description,
-    descriptionZh: period.descriptionZh,
-    reconstructionAgeMa: provenance?.reconstructionAgeMa ?? null,
-    model: provenance?.model ?? null,
-    layers,
-  }
-})
 
 function publishPaleotopographySeries() {
   const { frames, grid, selection, visualization, totals } = paleotopographySource
@@ -1380,7 +1352,7 @@ function publishPaleotopographySeries() {
 
 const paleotopography = publishPaleotopographySeries()
 const mapsManifestFile = writeJson('maps/manifest.json', {
-  schemaVersion: hasPaleogeographySeries ? 8 : 5,
+  schemaVersion: 9,
   version: sourceManifest.datasetVersion,
   source: {
     title: paleogeographyProvenance.dataset.title,
@@ -1392,7 +1364,6 @@ const mapsManifestFile = writeJson('maps/manifest.json', {
     retrievedAt: paleogeographyProvenance.retrievedAt,
   },
   scientificLimitations: paleogeographyProvenance.scientificLimitations,
-  ...(hasPaleogeographySeries ? {
     ageRangeMa: paleogeographyProvenance.series.ageRangeMa,
     selectionPolicy: paleogeographyProvenance.series.selectionPolicy,
     layers: mapLayers,
@@ -1407,8 +1378,6 @@ const mapsManifestFile = writeJson('maps/manifest.json', {
       scientificBoundary: caoObservationManifest.scientificBoundary,
     },
     paleotopography,
-  } : {}),
-  snapshots: mapSnapshots,
 }, true)
 
 let catalogueRuntimeManifest
@@ -1863,9 +1832,8 @@ const current = {
   },
   maps: {
     manifest: mapsManifestFile,
-    availableSnapshots: mapSnapshots.filter((snapshot) => snapshot.status === 'available').length,
-    frameCount: mapLayers ? Object.values(mapLayers).reduce((sum, layer) => sum + layer.frames.length, 0) : null,
-    geometryFrameCount: mapLayers ? Object.values(mapLayers).reduce((sum, layer) => sum + layer.frames.length, 0) : null,
+    frameCount: Object.values(mapLayers).reduce((sum, layer) => sum + layer.frames.length, 0),
+    geometryFrameCount: Object.values(mapLayers).reduce((sum, layer) => sum + layer.frames.length, 0),
     observationDatasetCount: Object.keys(caoObservationDatasets).length,
     observationRecordCount: caoObservationManifest.counts.total,
     paleotopographyFrameCount: paleotopography.frames.length,

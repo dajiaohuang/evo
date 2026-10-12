@@ -7,6 +7,7 @@ test('continuous drag reprojects the current view without a render backlog', asy
   })
   await page.goto('./#/explore?view=map&age=0&projection=equal-earth&zoom=2')
   await expect(page.getByText(/CAO2024 nearest frame 0 Ma/)).toBeVisible()
+  await page.getByRole('button', {name: 'Open detailed tools', exact: true}).click()
   await page.getByLabel('PALEOMAP elevation and bathymetry').check()
   await expect(page.locator('.projected-map__terrain')).toBeVisible()
   await page.getByRole('button', { name: 'Hide map panels', exact: true }).click()

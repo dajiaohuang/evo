@@ -32,7 +32,116 @@
       "wu-2026-angiosperm-timescale",
       "magallon-2015-angiosperms",
       "gomez-2015-montsechia"
-    ]
+    ],
+    "readerSources": [
+      {
+        "id": "gomez-2015-montsechia",
+        "title": {
+          "en": "Montsechia, an ancient aquatic angiosperm",
+          "zh": "Montsechia, an ancient aquatic angiosperm"
+        },
+        "url": "https://doi.org/10.1073/pnas.1509241112",
+        "scope": {
+          "en": "The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.",
+          "zh": "用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。"
+        }
+      },
+      {
+        "id": "wu-2026-angiosperm-timescale",
+        "title": {
+          "en": "Integrated analysis of fossils and molecular divergence time estimates a latest Jurassic origin of angiosperms",
+          "zh": "Integrated analysis of fossils and molecular divergence time estimates a latest Jurassic origin of angiosperms"
+        },
+        "url": "https://doi.org/10.1038/s41477-026-02311-x",
+        "scope": {
+          "en": "The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.",
+          "zh": "用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。"
+        }
+      },
+      {
+        "id": "magallon-2015-angiosperms",
+        "title": {
+          "en": "A metacalibrated time-tree documents the early rise of flowering plant phylogenetic diversity",
+          "zh": "A metacalibrated time-tree documents the early rise of flowering plant phylogenetic diversity"
+        },
+        "url": "https://doi.org/10.1111/nph.13264",
+        "scope": {
+          "en": "The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.",
+          "zh": "用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。"
+        }
+      }
+    ],
+    "readerSections": [
+      {
+        "id": "reading-introduction",
+        "title": {
+          "en": "Body, life and relationships",
+          "zh": "身体、生活与关系"
+        },
+        "text": {
+          "zh": "早白垩世的 Montsechia 化石保存了带叶枝轴和封闭的单种子果实。这些身体结构告诉我们当时已有怎样的植物，却没有记录整个类群诞生的瞬间。现生谱系的分子钟则在模型中估计分支时间，两类材料共同构成开花植物起源研究中的不同时间线。",
+          "en": "Early Cretaceous Montsechia fossils preserve leafy axes and closed, single-seeded fruits. Their bodies record plants that existed then, rather than the instant the entire group originated. Molecular clocks estimate branching times from living lineages within models: two different timelines in the study of flowering-plant origins."
+        },
+        "sourceIds": [
+          "gomez-2015-montsechia",
+          "wu-2026-angiosperm-timescale",
+          "magallon-2015-angiosperms"
+        ]
+      },
+      {
+        "id": "angiospermae-reading-0",
+        "title": {
+          "zh": "保存枝轴与果实的 Montsechia",
+          "en": "Montsechia axes and fruits"
+        },
+        "text": {
+          "zh": "早白垩世的 Montsechia 材料保存了柔软的带叶枝轴和封闭的单种子果实。这些是具体标本上的结构，可以用于讨论早期被子植物的形态与水生生活。它们没有记录下整个类群诞生的那一刻。",
+          "en": "Early Cretaceous Montsechia material preserves flexible leafy axes and closed single-seeded fruits. These specimen-level structures inform discussion of early angiosperm morphology and aquatic life. They do not record the moment the whole group originated."
+        },
+        "sourceIds": [
+          "gomez-2015-montsechia"
+        ]
+      },
+      {
+        "id": "angiospermae-reading-1",
+        "title": {
+          "zh": "分子钟里的冠群时间",
+          "en": "Crown ages in molecular-clock models"
+        },
+        "text": {
+          "zh": "分子钟研究把现生谱系的数据与化石校准结合，估计分支发生的时间。这里的“冠群”包括某个类群全部现生成员的最近共同祖先及其后代。不同校准和分析方法会影响估计，所以冠群年代不能直接写成最早化石年代。",
+          "en": "Molecular-clock studies combine data from living lineages with fossil calibrations to estimate branching times. A crown group includes the last common ancestor of all living members and its descendants. Calibration and analysis choices affect the estimate, so a crown age is not a first fossil occurrence."
+        },
+        "sourceIds": [
+          "wu-2026-angiosperm-timescale",
+          "magallon-2015-angiosperms"
+        ]
+      },
+      {
+        "id": "angiospermae-reading-2",
+        "title": {
+          "zh": "起源与生态扩张的不同记录",
+          "en": "Different records of origin and ecological expansion"
+        },
+        "text": {
+          "zh": "某个年代已经存在开花植物，不等于它们当时已占据各种生态系统。一个水生化石也不能代表所有早期被子植物的祖先生态。把具体标本、模型估计和生态扩张分开，能避免用一个数字讲完一段复杂历史。",
+          "en": "The presence of flowering plants at an age does not establish dominance across ecosystems. One aquatic fossil cannot represent the ancestral ecology of every early angiosperm. Keep specimens, model estimates and ecological expansion separate."
+        },
+        "sourceIds": [
+          "gomez-2015-montsechia",
+          "wu-2026-angiosperm-timescale",
+          "magallon-2015-angiosperms"
+        ]
+      }
+    ],
+    "readerLimitations": {
+      "en": "Anatomical observations, interpretations of behaviour and modelled branching times answer different questions. The selected material does not identify a direct ancestor or establish a complete distribution.",
+      "zh": "解剖观察、行为解释与模型中的分支时间回答不同问题。所选材料不指定直接祖先，也不建立完整分布范围。"
+    },
+    "readerLanguageStatus": {
+      "en": "draft-ready",
+      "zh": "draft-ready"
+    }
   },
   {
     "id": "monocotyledones",

@@ -12,7 +12,7 @@ import { ItisSourceBrowser } from './ItisSourceBrowser'
 import './InfoPages.css'
 
 interface PageProps {
-  onNavigate: (route: AppRoute) => void
+  onNavigate: (route: AppRoute, params?: Record<string, string>) => void
 }
 
 function formatBoundary(boundary: { valueMa: number; uncertaintyMa: number | null; approximate: boolean }): string {
@@ -318,33 +318,15 @@ export function DataPage({ onNavigate }: PageProps) {
 }
 
 export function MethodsPage({ onNavigate }: PageProps) {
-  const { t } = useI18n()
-  const steps = [
-    ['Acquire', 'Fetch bounded occurrence samples from public scientific sources.'],
-    ['Normalize', 'Preserve source identifiers while aligning age, taxon and coordinate fields.'],
-    ['Validate', 'Check identifiers, linked references, ranges, coordinates, record counts and SHA-256 checksums.'],
-    ['Partition', 'Bundle data by geological period for predictable static loading.'],
-    ['Explore', 'Synchronize time, geography and taxonomy entirely in the browser.'],
-  ]
-
+  const { language, t } = useI18n()
   return (
     <main className="info-page methods-page">
       <header className="info-hero">
-        <span className="section-label">{t('Methods / static-first architecture')}</span>
-        <h1>{t('The browser is the research workspace.')}</h1>
-        <p>{t('GitHub Actions prepares versioned evidence; GitHub Pages serves immutable files; the browser performs filtering, linking and visualization without a private backend.')}</p>
-        <button className="button button--ghost" onClick={() => onNavigate('data')}>{t('Open data registry')}</button>
+        <span className="section-label">{t('Interpretation')}</span>
+        <h1>{language === 'zh' ? '地图、年代和生命树告诉了我们什么？' : 'What do maps, ages and trees tell us?'}</h1>
+        <p>{language === 'zh' ? '化石保存的是具体材料，古地图和系统树则需要模型。理解它们各自的问题，才能把发现与解释联系起来。' : 'Fossils preserve specific material; paleomaps and trees also need models. Understanding the question each answers connects discoveries with their interpretation.'}</p>
+        <button className="button button--ghost" onClick={() => onNavigate('info', { tab: 'sources' })}>{t('Open data registry')}</button>
       </header>
-
-      <section className="pipeline" aria-label={t('Data pipeline')}>
-        {steps.map(([title, description], index) => (
-          <article key={title}>
-            <span>{String(index + 1).padStart(2, '0')}</span>
-            <h2>{t(title)}</h2>
-            <p>{t(description)}</p>
-          </article>
-        ))}
-      </section>
 
       <section className="method-principles">
         <article>

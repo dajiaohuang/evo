@@ -7,6 +7,15 @@ describe('route hash helpers', () => {
     expect(parseRouteHash('#/missing').route).toBe('home')
   })
 
+  it('does not translate retired page routes or apply their query state to the map', () => {
+    for (const route of ['data', 'methods', 'about']) {
+      const result = parseRouteHash(`#/${route}?age=900&tab=sources`)
+      expect(result.route).toBe('home')
+      expect(result.params.size).toBe(0)
+    }
+    expect(parseRouteHash('#/info?tab=sources').params.get('tab')).toBe('sources')
+  })
+
   it('parses explorer state', () => {
     const result = parseRouteHash('#/explore?age=66&view=map&taxon=mammalia')
     expect(result.route).toBe('explore')

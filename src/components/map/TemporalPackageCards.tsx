@@ -1,9 +1,9 @@
-import { useEffect, useMemo, useState } from 'react'
-import { loadPackageRanges, loadPackageRegistry, loadPackageResearchExamples } from '../../data-client/staticDataClient'
+import { useMemo, useState } from 'react'
 import { useI18n } from '../../i18n'
 import { frontendContract } from '../../platform/frontendContract'
-import { findTemporalPackageCards, type TemporalPackageSource } from './temporalPackageSceneMatcher'
 import './TemporalPackageCards.css'
+import { hasPublishedRange, taxonProfiles } from '../../services/catalogProfiles'
+import { localizedProfileText } from '../../i18n/profileText'
 
 const INITIAL_CARD_LIMIT = 3
 
@@ -13,48 +13,31 @@ interface TemporalPackageCardsProps {
 
 export function TemporalPackageCards({ ageMa }: TemporalPackageCardsProps) {
   const { language, t } = useI18n()
-  const [packages, setPackages] = useState<TemporalPackageSource[]>([])
-  const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
+  const zh = language === 'zh'
   const [expanded, setExpanded] = useState(false)
 
-  useEffect(() => {
-    let cancelled = false
-    loadPackageRegistry()
-      .then((registry) => Promise.all(registry.packages.map(async (entry) => {
-        const [research, ranges] = await Promise.all([loadPackageResearchExamples(entry.id), loadPackageRanges(entry.id)])
-        return { id: entry.id, title: entry.title, titleZh: entry.titleZh, examples: research.examples, ranges }
-      })))
-      .then((loaded) => {
-        if (!cancelled) {
-          setPackages(loaded)
-          setStatus('ready')
-        }
-      })
-      .catch(() => { if (!cancelled) setStatus('error') })
-    return () => { cancelled = true }
-  }, [])
-
-  const cards = useMemo(() => findTemporalPackageCards(packages, ageMa), [ageMa, packages])
+  const cards = useMemo(() => taxonProfiles.flatMap(profile => {
+    if (!profile.referenceIds.length) return []
+    const primary = hasPublishedRange(profile) && profile.lastAppearance <= ageMa && profile.firstAppearance >= ageMa
+    const regional = profile.regionalRanges?.find(range => range.youngerMa <= ageMa && range.olderMa >= ageMa)
+    if (!primary && !regional) return []
+    return [{profile, olderMa: primary ? profile.firstAppearance : regional!.olderMa, youngerMa: primary ? profile.lastAppearance : regional!.youngerMa, scope: primary ? null : regional!}]
+  }).sort((left, right) => Number(Boolean(right.profile.readerSections?.some(section => section.id === 'reading-introduction'))) - Number(Boolean(left.profile.readerSections?.some(section => section.id === 'reading-introduction')))), [ageMa])
   const visibleCards = expanded ? cards : cards.slice(0, INITIAL_CARD_LIMIT)
-  if (status === 'error' || (status === 'ready' && cards.length === 0)) return null
+  if (!cards.length) return null
 
-  return <section className="map-temporal-cards" aria-label={t('Time-matched evidence scenes')} aria-live="polite" data-scene-trigger="timeline" data-content-scope={frontendContract.content.scope}>
-    <header><div><span>{t('Evidence scenes at this time')}</span><small>{t('Published range and claim links only')}</small></div>{status === 'ready' && <strong>{cards.length}</strong>}</header>
-    {status === 'loading'
-      ? <p className="map-temporal-cards__loading" role="status">{t('Checking published range evidence…')}</p>
-      : <div className="map-temporal-cards__list">{visibleCards.map((card) => {
-        const title = language === 'zh' ? card.packageTitleZh : card.packageTitle
-        const exampleTitle = language === 'zh' ? card.example.title.zh : card.example.title.en
-        const exampleDescription = language === 'zh' ? card.example.description.zh : card.example.description.en
-        return <article className="map-temporal-card" key={`${card.packageId}:${card.example.id}`}>
-          <div className="map-temporal-card__meta"><span>{t(card.example.type === 'comparison' ? 'Comparison' : 'Research scene')}</span><code>{card.olderMa}–{card.youngerMa} Ma</code></div>
-          <h3>{title}</h3><strong>{exampleTitle}</strong><p>{exampleDescription}</p>
-          <dl><div><dt>{t('Range evidence')}</dt><dd>{card.range.taxonomicConcept}</dd></div><div><dt>{t('Geographic scope')}</dt><dd>{card.range.geographicScope}</dd></div></dl>
-          <p className="map-temporal-card__limitation"><b>{t('Limitations')}</b>{t(card.example.limitations[0] ?? 'The linked evidence keeps its stated boundary.')}</p>
-          <p className="map-temporal-card__boundary">{t('This contextual overlay is a temporal match, not a fossil locality, point or reconstructed distribution on the map.')}</p>
-          <a href={card.example.route}>{t('Open available scene')} →</a>
+  return <section className="map-temporal-cards" aria-label={zh ? '这个时代的阅读' : 'Reading for this time'} aria-live="polite" data-scene-trigger="timeline" data-content-scope={frontendContract.content.scope}>
+    <header><div><span>{zh ? '这个时代的生物与发现' : 'Organisms and discoveries in this time'}</span><small>{zh ? '按已有时间范围关联，具体地点以具名记录为准。' : 'Linked by recorded time ranges; localities require named records.'}</small></div></header>
+    <div className="map-temporal-cards__list">{visibleCards.map(({profile, olderMa, youngerMa, scope}) => {
+        const introduction = profile.readerSections?.find(section => section.id === 'reading-introduction')
+        return <article className="map-temporal-card" key={profile.id}>
+          <div className="map-temporal-card__meta"><span>{profile.scientificName}</span><code>{olderMa}–{youngerMa} Ma</code></div>
+          {scope && <small>{t(scope.label)} · {t(scope.region)}{scope.provisional ? ` · ${t('Provisional')}` : ''}</small>}
+          <h3>{zh ? profile.commonNameZh : profile.commonName}</h3>
+          <p>{introduction?.text[language] ?? localizedProfileText(profile, profile.overview, language, t)}</p>
+          <a href={`#/taxa?id=${encodeURIComponent(profile.id)}`}>{zh ? '继续阅读' : 'Continue reading'} →</a>
         </article>
-      })}</div>}
+      })}</div>
     {cards.length > INITIAL_CARD_LIMIT && <button type="button" className="map-temporal-cards__toggle" aria-expanded={expanded} onClick={() => setExpanded((current) => !current)}>{expanded ? t('Show fewer scenes') : t('Show {count} more scenes', { count: cards.length - INITIAL_CARD_LIMIT })}</button>}
   </section>
 }

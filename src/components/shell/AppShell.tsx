@@ -15,15 +15,13 @@ interface AppShellProps {
 }
 
 const navItems: Array<{ route: AppRoute; label: string; labelZh: string; activeRoutes: AppRoute[] }> = [
-  { route: 'home', label: 'Read', labelZh: '阅读', activeRoutes: ['home', 'stories'] },
-  { route: 'explore', label: 'Explore', labelZh: '探索', activeRoutes: ['explore'] },
+  { route: 'home', label: 'Paleomap', labelZh: '古地图', activeRoutes: ['home', 'explore'] },
+  { route: 'stories', label: 'Read', labelZh: '阅读', activeRoutes: ['stories'] },
   { route: 'catalog', label: 'Groups & species', labelZh: '类群与物种', activeRoutes: ['catalog', 'registry', 'taxa', 'events'] },
-  { route: 'research', label: 'Workspace', labelZh: '工作区', activeRoutes: ['research', 'compare', 'lab'] },
+  { route: 'research', label: 'Tools', labelZh: '工具', activeRoutes: ['research', 'compare', 'lab'] },
 ]
 const moreItems: Array<{ route: AppRoute; label: string; activeRoutes: AppRoute[] }> = [
-  { route: 'stories', label: 'Stories', activeRoutes: ['stories'] },
-  { route: 'data', label: 'Data', activeRoutes: ['data'] },
-  { route: 'about', label: 'About', activeRoutes: ['about', 'methods'] },
+  { route: 'info', label: 'Information and methods', activeRoutes: ['info'] },
 ]
 
 export function AppShell({ route, onNavigate, children, immersive = false, focused = false }: AppShellProps) {
@@ -65,7 +63,7 @@ export function AppShell({ route, onNavigate, children, immersive = false, focus
     >
       <button className="skip-link" type="button" onClick={skipToContent}>{language === 'zh' ? '跳到正文' : 'Skip to atlas content'}</button>
       <header className="topbar">
-        <button className="brand" onClick={() => onNavigate('home')} aria-label={language === 'zh' ? 'Evo 阅读首页' : 'Evo Atlas home'}>
+        <button className="brand" onClick={() => onNavigate('home')} aria-label={language === 'zh' ? 'Evo 古地图看板' : 'Evo paleomap dashboard'}>
           <span className="brand__mark" aria-hidden="true">
             <span />
             <span />

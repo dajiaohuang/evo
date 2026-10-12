@@ -69,25 +69,30 @@ ledgers remain in their existing structured stores. Shared events, stories
 and phylogenetic hypotheses have independent content directories and link to
 taxa; they are not duplicated beneath each related species.
 
-## Generated compatibility files
+## Current content exports
 
 Run `rtk npm run content:build` after an authored edit. Registry, runtime,
 manifest and species-queue builders also compile the content first.
 
-`content/projection-map.yaml` preserves legacy runtime keys and original
-record ordering. It is compatibility wiring, not a second taxonomy.
+`content/projection-map.yaml` is the schema 2 export registry. It binds
+canonical records to current delivery files and stable scientific identifiers;
+it is not a second taxonomy. The compiler requires tree-path links, exports
+all authored fields, and does not retain original-import equality gates or
+old field allowlists.
 `data/registry/content-projection-files.json` lists the generated input paths.
-Those JSON and Brotli files retain their legacy paths for existing consumers;
-edit the canonical Markdown instead. A build replaces edits made directly to
-these projections. Import scripts are one-time migration tools, not normal
-authoring commands.
+Edit the canonical Markdown instead of those generated JSON and Brotli files.
+A build replaces edits made directly to exports. Changed nodes rebuild only
+their dependent exports; changes to references or compiler contracts rebuild
+all exports. The local cache lives under `.git/evo-content/`; output drift
+invalidates it. `content:check` never overwrites an out-of-date export.
 
 `data/registry/content-source-manifest.json` and its hash shards record every
 canonical Markdown/YAML source. Package provenance includes
 the corresponding canonical files. Runtime delivery keeps its compressed
 JSON format; the full Markdown corpus is not bundled into the application.
 
-`docs/content-migration-receipt.json` records migration counts, exceptional
-placements and original input hashes. Local originals are also preserved in
-`.git/content-migration/original-inputs/`; that recovery directory is not a
-published source archive.
+Historical import receipts retain placement and source provenance. They do
+not participate in the current build or enable an older runtime format.
+Maps use manifest schema 9 and age-selected geometry layers; period snapshot
+loaders and older map manifests are unsupported. Scientific source snapshots,
+record identifiers and model versions remain provenance.

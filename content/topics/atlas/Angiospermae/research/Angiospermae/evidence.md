@@ -47,6 +47,135 @@ records:
       - wu-2026-angiosperm-timescale
       - magallon-2015-angiosperms
       - gomez-2015-montsechia
+    readerSources:
+      - id: gomez-2015-montsechia
+        title:
+          en: Montsechia, an ancient aquatic angiosperm
+          zh: Montsechia, an ancient aquatic angiosperm
+        url: https://doi.org/10.1073/pnas.1509241112
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/0/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/0/scope/zh
+      - id: wu-2026-angiosperm-timescale
+        title:
+          en: Integrated analysis of fossils and molecular divergence time estimates a latest Jurassic origin of angiosperms
+          zh: Integrated analysis of fossils and molecular divergence time estimates a latest Jurassic origin of angiosperms
+        url: https://doi.org/10.1038/s41477-026-02311-x
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/1/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/1/scope/zh
+      - id: magallon-2015-angiosperms
+        title:
+          en: A metacalibrated time-tree documents the early rise of flowering plant phylogenetic diversity
+          zh: A metacalibrated time-tree documents the early rise of flowering plant phylogenetic diversity
+        url: https://doi.org/10.1111/nph.13264
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/2/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/2/scope/zh
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/0/title/zh
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
+        sourceIds:
+          - gomez-2015-montsechia
+          - wu-2026-angiosperm-timescale
+          - magallon-2015-angiosperms
+      - id: angiospermae-reading-0
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/1/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/text/en
+        sourceIds:
+          - gomez-2015-montsechia
+      - id: angiospermae-reading-1
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/2/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/text/en
+        sourceIds:
+          - wu-2026-angiosperm-timescale
+          - magallon-2015-angiosperms
+      - id: angiospermae-reading-2
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/3/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/3/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/3/text/en
+        sourceIds:
+          - gomez-2015-montsechia
+          - wu-2026-angiosperm-timescale
+          - magallon-2015-angiosperms
+    readerLimitations:
+      en:
+        markdown: page.en.md
+        field: /records/atlas-profile/readerLimitations/en
+      zh:
+        markdown: page.zh.md
+        field: /records/atlas-profile/readerLimitations/zh
+    readerLanguageStatus:
+      en: draft-ready
+      zh: draft-ready
   claims:
     - subject:
         kind: taxon
@@ -190,6 +319,42 @@ records:
 ---
 
 # Angiospermae
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/0/scope/en -->
+The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/0/scope/zh -->
+用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/1/scope/en -->
+The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/1/scope/zh -->
+用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/2/scope/en -->
+The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/2/scope/zh -->
+用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+<!-- /evo:text -->
 
 ## claims / statement
 

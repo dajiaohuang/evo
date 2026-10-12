@@ -23,13 +23,14 @@ it('renders source-linked introductions after editorial source scopes are remove
   mocks.loadCatalogueKnowledge.mockResolvedValue(record)
   render(<CatalogueContent id="species" rank="species" manifest={manifest} zh={false} />)
   expect(await screen.findByText('Source-linked text.')).toBeInTheDocument()
-  expect(screen.getAllByRole('link', { name: 'Original source' })).toHaveLength(2)
+  expect(screen.getByRole('link', { name: 'Original source' })).toHaveAttribute('href', 'https://example.org/source')
 })
 
 it('checks one index and skips all description collections when content is absent', async () => {
   render(<CatalogueContent id="species" rank="species" manifest={manifest} zh={false} />)
-  expect(await screen.findByText(/does not mean the species is unstudied/)).toBeInTheDocument()
+  await waitFor(() => expect(screen.queryByRole('status')).not.toBeInTheDocument())
   expect(mocks.loadCatalogueKnowledge).toHaveBeenCalledTimes(1)
+  expect(screen.queryByText(/unstudied|no evidence/i)).not.toBeInTheDocument()
   Object.entries(mocks).filter(([name]) => name !== 'loadCatalogueKnowledge').forEach(([, mock]) => expect(mock).not.toHaveBeenCalled())
 })
 
@@ -47,18 +48,19 @@ it('loads only indexed Nicaragua text and preserves missing citation boundaries'
 it('does not turn a corrupt index into a claim that the taxon lacks content', async () => {
   mocks.loadCatalogueKnowledge.mockRejectedValue(new Error('checksum'))
   render(<CatalogueContent id="species" rank="species" manifest={manifest} zh={false} />)
-  expect(await screen.findByText(/Coverage is unknown/)).toBeInTheDocument()
+  expect(await screen.findByText(/The account could not be loaded/)).toBeInTheDocument()
   expect(screen.queryByText(/release has no imported/)).not.toBeInTheDocument()
   expect(mocks.loadCatalogueSanbiDescriptions).not.toHaveBeenCalled()
 })
 
-it('keeps higher-rank source-text coverage separate from a missing introduction', async () => {
+it('does not turn branch coverage statistics into reader prose or fabricated child biology', async () => {
   const record: CatalogueKnowledgeRecord = { colId: 'order', descriptionCollections: [], subtree: { acceptedSpecies: 100, describedSpecies: 9, profiledSpecies: 0 } }
   mocks.loadCatalogueKnowledge.mockResolvedValue(record)
   render(<CatalogueContent id="order" rank="order" manifest={manifest} zh={false} />)
-  expect(await screen.findByText('Coverage within this branch')).toBeInTheDocument()
-  expect(screen.getByText('100')).toBeInTheDocument()
-  expect(screen.getByText('9')).toBeInTheDocument()
+  await waitFor(() => expect(screen.queryByRole('status')).not.toBeInTheDocument())
+  expect(screen.queryByText('Coverage within this branch')).not.toBeInTheDocument()
+  expect(screen.queryByText('100')).not.toBeInTheDocument()
+  expect(screen.queryByText('9')).not.toBeInTheDocument()
   expect(mocks.loadCatalogueSanbiDescriptions).not.toHaveBeenCalled()
 })
 

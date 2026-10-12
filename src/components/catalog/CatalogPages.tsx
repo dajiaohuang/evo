@@ -13,12 +13,12 @@ import {
   taxonProfiles,
 } from '../../services/catalog'
 import { evidenceClaims, getClaimsForSubject } from '../../services/evidence'
-import { buildEvidenceIssueUrl, getEntityPublication } from '../../services/publication'
+import { getEntityPublication } from '../../services/publication'
 import { loadMediaForEntity, runtimeDataUrl } from '../../data-client/staticDataClient'
 import { EvidenceIssueLink } from '../common/EvidenceIssueLink'
 import { useAppStore } from '../../store'
 import type { AppRoute } from '../../utils/routing'
-import type { ConfidenceLevel, EvidenceClaim, ReferenceRecord } from '../../types'
+import type { ReferenceRecord } from '../../types'
 import type { MediaAsset } from '../../types/catalog'
 import { useI18n } from '../../i18n'
 import { localizedProfileText } from '../../i18n/profileText'
@@ -26,6 +26,8 @@ import { StoryBuilder, StoryLearningPanel } from './StoryStudio'
 import readingGuides from '../../../data/reading-guides.json'
 import './CatalogPages.css'
 import { LocalTreePanel } from '../tree/LocalTreePanel'
+import { NodeReadingSections } from '../reading/NodeReadingSections'
+import { ReadingCards } from '../reading/ReadingPages'
 
 const generatedClaimStatementsZh = claimStatementsZh as Record<string, string>
 
@@ -48,11 +50,6 @@ function explorerTaxonState(id: string | undefined): Record<string, string> {
   return profile ? { profile: profile.id } : { taxon: id }
 }
 
-function ConfidenceBadge({ level }: { level: ConfidenceLevel }) {
-  const { t } = useI18n()
-  return <span className={`confidence confidence--${level}`}>{t('{level} confidence', { level: t(level) })}</span>
-}
-
 function ReferenceList({ records }: { records: ReferenceRecord[] }) {
   const { t } = useI18n()
   return (
@@ -71,30 +68,12 @@ function ReferenceList({ records }: { records: ReferenceRecord[] }) {
   )
 }
 
-function ClaimLedger({ claims }: { claims: EvidenceClaim[] }) {
-  const { language, t } = useI18n()
-  if (!claims.length) return <p>{t('No claim-level evidence record is bundled for this subject.')}</p>
-  return (
-    <div className="statement-grid">
-      {claims.map((claim, index) => (
-        <article key={claim.id}>
-          <span>{String(index + 1).padStart(2, '0')}</span>
-          <p><strong>{t(claim.claimType.replace('-', ' '))}</strong><br />{language === 'zh' ? generatedClaimStatementsZh[claim.statement] ?? t(claim.statement) : claim.statement}</p>
-          <small>{t(claim.confidence)} · {claim.referenceLinks.map((link) => `${link.relation}: ${link.referenceId}`).join(' · ')}</small>
-          <small>{language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale}</small>
-          <a className="claim-report-link" href={buildEvidenceIssueUrl({ entityId: claim.subjectId.replace(/^[^:]+:/, ''), claimId: claim.id })} target="_blank" rel="noreferrer">{t('Report this claim')} ↗</a>
-        </article>
-      ))}
-    </div>
-  )
-}
-
 function DivergenceLedger({ profileId }: { profileId: string }) {
   const { t } = useI18n()
   const estimates = getCalibrationsForTaxon(profileId)
   const maximumAge = Math.max(1, ...estimates.map((estimate) => estimate.olderMa ?? estimate.medianMa)) * 1.08
   if (!estimates.length) {
-    return <div className="divergence-ledger"><aside><strong>{t('No compatible published node estimate is bundled for this profile.')}</strong><span>{t('The atlas does not substitute a fossil first appearance or an unrelated clade clock.')}</span></aside></div>
+    return null
   }
   return (
     <div className="divergence-ledger">
@@ -150,32 +129,39 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
     profile ? state.taxonOccurrenceErrors[`descendants:${profile.id}`] : null
   ))
   const [runtimeMedia, setRuntimeMedia] = useState<{ entityId: string; assets: MediaAsset[] } | null>(null)
+  const [materialsOpen, setMaterialsOpen] = useState(false)
 
   useEffect(() => {
-    if (profile) void loadOccurrences(profile.id)
-  }, [loadOccurrences, profile])
+    if (profile && materialsOpen) void loadOccurrences(profile.id)
+  }, [loadOccurrences, profile, materialsOpen])
 
   useEffect(() => {
     let active = true
-    if (id) void loadMediaForEntity(id).then((assets) => {
+    if (id && materialsOpen) void loadMediaForEntity(id).then((assets) => {
       if (active) setRuntimeMedia({ entityId: id, assets })
     }).catch(() => undefined)
     return () => { active = false }
-  }, [id])
+  }, [id, materialsOpen])
 
   if (!profile) return <TaxonDirectory onNavigate={onNavigate} />
   const rangeAvailable = hasPublishedRange(profile)
   const midpoint = (profile.firstAppearance + profile.lastAppearance) / 2
   const references = getReferences(profile.referenceIds)
   const locale = language === 'zh' ? 'zh' : 'en'
-  const readerSources = new Map((profile.readerSources ?? []).map((source) => [source.id, source]))
+  const readerSources = profile.readerSources ?? []
   const media = runtimeMedia?.entityId === profile.id ? runtimeMedia.assets : getMediaForTaxon(profile.id)
   const claims = getClaimsForSubject(`taxon:${profile.id}`)
+  const fallbackSections = claims.filter(claim => claim.claimKind === 'scientific').map(claim => ({
+    id: claim.id, topic: claim.claimType, text: { en: claim.statement, zh: generatedClaimStatementsZh[claim.statement] ?? t(claim.statement) },
+    sourceIds: claim.referenceLinks.map(link => link.referenceId),
+    context: [language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale].filter(Boolean),
+    contextLanguage: language,
+  }))
+  const proseSections = profile.readerSections ?? fallbackSections
+  const proseSources = profile.readerSections?.length ? readerSources : getReferences(claims.flatMap(claim => claim.referenceLinks.map(link => link.referenceId)))
+  const introduction = profile.readerSections?.find(section => section.id === 'reading-introduction')
   const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
   const readingGuide = readingGuides.find(guide => guide.taxonId === profile.id)
-  const scrollToSection = (sectionId: string) => {
-    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
 
   return (
     <main className="catalog-page taxon-page">
@@ -190,10 +176,10 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             <p>{t(profile.rank)} · <em>{profile.parentName}</em></p>
           </div>
           <div className="catalog-age-seal">
-            {rangeAvailable ? <><strong>{formatAge(profile.firstAppearance, t('Present'))}</strong><span>{t('to')}</span><strong>{formatAge(profile.lastAppearance, t('Present'))}</strong></> : <strong>{t('Unavailable')}</strong>}
+            {rangeAvailable && <><span>{language === 'zh' ? '对应资料的时间范围' : 'Time range of the represented material'}</span><strong>{formatAge(profile.firstAppearance, t('Present'))}</strong><span>{t('to')}</span><strong>{formatAge(profile.lastAppearance, t('Present'))}</strong></>}
           </div>
         </div>
-        <p className="catalog-dek">{localizedProfileText(profile, profile.overview, language, t)}</p>
+        <p className="catalog-dek">{introduction?.text[locale] ?? localizedProfileText(profile, profile.overview, language, t)}</p>
         <div className="catalog-actions">
           <button className="button button--primary" onClick={() => onNavigate('explore', {
             ...(rangeAvailable ? { age: midpoint.toFixed(1) } : {}),
@@ -210,40 +196,20 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
         <p>{readingGuide.dek[language]}</p>
       </aside>}
 
-      <LocalTreePanel nodeId={profile.treeNodeId ?? profile.id} />
-      {!!profile.readerSections?.length && <section id="reader" className="taxon-reader">
-        <span className="section-label">{locale === 'zh' ? '物种介绍' : 'Species introduction'}</span>
-        <h2>{locale === 'zh' ? '身体、生活与研究中的发现' : 'Body, life and findings from studies'}</h2>
-        <div className="taxon-reader__sections">
-          {profile.readerSections.map((section) => (
-            <article key={section.id}>
-              <h3>{section.title[locale]}</h3>
-              <p>{section.text[locale]}</p>
-              <small>{section.sourceIds.map((sourceId, index) => {
-                const source = readerSources.get(sourceId)
-                return source ? <span key={sourceId}>{index > 0 ? ' · ' : ''}<a href={source.url} target="_blank" rel="noreferrer">{source.title[locale]} ↗</a></span> : null
-              })}</small>
-            </article>
-          ))}
-        </div>
+      <section id="reader" className="taxon-reader">
+        <NodeReadingSections sections={proseSections.filter(section => section.id !== 'reading-introduction')} sources={proseSources} language={locale} />
+        <LocalTreePanel nodeId={profile.treeNodeId ?? profile.id} />
         {!!profile.readerRelatedPages?.length && <nav className="taxon-reader__related" aria-label={locale === 'zh' ? '相关阅读' : 'Related reading'}>
-          <h3>{locale === 'zh' ? '继续阅读相关物种' : 'Continue with related species'}</h3>
-          {profile.readerRelatedPages.map((page) => (
-            <button key={page.targetId} type="button" onClick={() => onNavigate('taxa', { id: page.targetId })}>
-              <span>{page.context[locale]}</span><strong>{page.label[locale]} →</strong>
-            </button>
-          ))}
+          {profile.readerRelatedPages.map(page => <button key={page.targetId} type="button" onClick={() => onNavigate('taxa', { id: page.targetId })}>
+            <span>{page.context[locale]}</span><strong>{page.label[locale]} →</strong>
+          </button>)}
         </nav>}
-        <details className="taxon-reader__scope">
-          <summary>{locale === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions'}</summary>
-          {profile.readerLimitations && <p>{profile.readerLimitations[locale]}</p>}
-          <ul>{(profile.readerSources ?? []).map((source) => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title[locale]}</a> — {source.scope[locale]}</li>)}</ul>
-        </details>
-      </section>}
+        {profile.readerLimitations && <aside className="taxon-reader__scope"><p>{profile.readerLimitations[locale]}</p></aside>}
+      </section>
 
       {publication && <EvidenceIssueLink entityId={profile.id} />}
 
-      <details className="taxon-query-details">
+      <details className="taxon-query-details" onToggle={event => setMaterialsOpen(event.currentTarget.open)}>
         <summary>{language === 'zh' ? '化石样本、分类标识与查询范围' : 'Fossil samples, identifiers and query scope'}</summary>
       <section className="catalog-facts">
         <div><span>{t('Status')}</span><strong className={profile.extinct ? 'is-extinct' : 'is-extant'}>{t(profile.extinct ? 'Extinct †' : 'Extant')}</strong></div>
@@ -258,95 +224,21 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
 
       </details>
 
-      <div className="catalog-body">
-        <aside className="catalog-toc">
-          <span>{t('On this page')}</span>
-          <button type="button" onClick={() => scrollToSection('evolution')}>{t('Evolution')}</button>
-          <button type="button" onClick={() => scrollToSection('ecology')}>{t('Ecology')}</button>
-          <button type="button" onClick={() => scrollToSection('traits')}>{t('Diagnostic context')}</button>
-          <button type="button" onClick={() => scrollToSection('evidence')}>{t('Evidence')}</button>
-          <button type="button" onClick={() => scrollToSection('media')}>{t('Media')}</button>
-          <button type="button" onClick={() => scrollToSection('references')}>{t('References')}</button>
-        </aside>
-
-        <div className="catalog-content">
-          <section id="evolution" className="catalog-section">
-            <span className="section-label">{t('01 / Evolution')}</span>
-            <h2>{t('Time-calibrated evidence, kept separate from fossil ranges')}</h2>
-            <details><summary>{language === 'zh' ? '查看分支时间研究与方法' : 'Branching-time studies and methods'}</summary><DivergenceLedger profileId={profile.id} /></details>
-            {profile.regionalRanges && profile.regionalRanges.length > 0 && (
-              <>
-                <h2>{t('Regional and concept-specific ranges')}</h2>
-                <div className="statement-grid">
-                  {profile.regionalRanges.map((range) => (
-                    <article key={`${range.label}-${range.region}`}>
-                      <span>{t(range.rangeKind)} · {t(range.evidenceLevel)}{range.provisional ? ` · ${t('Provisional')}` : ''}</span>
-                      <strong>{t(range.label)}</strong>
-                      <p>{t(range.region)} · {formatAge(range.olderMa, t('Present'))}—{formatAge(range.youngerMa, t('Present'))}</p>
-                      <p>{t(range.basis)}</p>
-                      <ConfidenceBadge level={range.confidence} />
-                    </article>
-                  ))}
-                </div>
-              </>
-            )}
-          </section>
-
-          <section id="ecology" className="catalog-section">
-            <span className="section-label">{t('02 / Ecology')}</span>
-            <h2>{t('Reconstructed way of life')}</h2>
-            <div className="ecology-grid">
-              {Object.entries(profile.ecology).map(([key, value]) => (
-                <article key={key}><span>{t(key.replace(/([A-Z])/g, ' $1'))}</span><strong>{t(value)}</strong></article>
-              ))}
-            </div>
-            <div className="region-line"><span>{t('Occurrences and inferred range')}</span><p>{profile.geography.map((item) => t(item)).join(' · ')}</p></div>
-          </section>
-
-          <section id="traits" className="catalog-section">
-            <span className="section-label">{t('03 / Morphology')}</span>
-            <h2>{t('Diagnostic context')}</h2>
-            <div className="trait-list">
-              {profile.traits.map((trait, index) => <div key={trait}><span>{String(index + 1).padStart(2, '0')}</span><strong>{t(trait)}</strong></div>)}
-            </div>
-          </section>
-
-          <section id="evidence" className="catalog-section evidence-callout">
-            <span className="section-label">{t('04 / Evidence quality')}</span>
-            <h2>{t('What supports this reconstruction?')}</h2>
-            <p>{localizedProfileText(profile, profile.evidenceSummary, language, t)}</p>
-            <details><summary>{language === 'zh' ? '逐项查看研究结论与来源' : 'Read individual findings and their sources'}</summary><ClaimLedger claims={claims} /></details>
-            <div className="evidence-note">
-              <strong>{t('Interpretive boundary')}</strong>
-              <span>{t('Age ranges summarize current catalog evidence and are not exact origination or extinction instants.')}</span>
-            </div>
-          </section>
-
-          <section id="media" className="catalog-section">
-            <span className="section-label">{t('05 / Media')}</span>
-            <h2>{t('Source media and interpretive reconstructions')}</h2>
-            <div className="media-ledger">
-              {media.map((asset) => asset.contentOrigin === 'ai-assisted-interpretive-reconstruction'
-                ? <article key={asset.id} className="media-card media-card--reconstruction">
-                    {asset.asset?.url && <img src={runtimeDataUrl(asset.asset.url)} width={asset.asset.width} height={asset.asset.height} loading="lazy" decoding="async" alt={language === 'zh' ? asset.altTextZh : asset.altText} />}
-                    <span className="media-card__badge">{language === 'zh' ? asset.interpretiveNoticeZh : asset.interpretiveNotice}</span>
-                    <strong>{language === 'zh' ? asset.titleZh : asset.title}</strong>
-                    <small>{asset.sourceName} · {asset.subjectScope}</small>
-                    <p>{language === 'zh' ? asset.captionZh : asset.caption}</p>
-                    <p className="media-card__uncertainty"><b>{language === 'zh' ? '不确定性' : 'Uncertainty'}</b>{language === 'zh' ? asset.uncertaintyZh : asset.uncertainty}</p>
-                    <a href={asset.sourceUrl} target="_blank" rel="noreferrer">{language === 'zh' ? '生成记录、许可与哈希' : 'Generation record, licence and hashes'} ↗</a>
-                  </article>
-                : <a className="media-card media-card--external" key={asset.id} href={asset.sourceUrl} target="_blank" rel="noreferrer"><span>{t(asset.type.replace('-', ' '))}</span><strong>{t(asset.title)}</strong><small>{asset.sourceName} · {asset.subjectScope}</small><p>{language === 'zh' ? asset.captionZh : asset.caption}</p><p>{t(asset.licenseNote)}</p><i>↗</i></a>)}
-            </div>
-          </section>
-
-          <section id="references" className="catalog-section">
-            <span className="section-label">{t('06 / Sources')}</span>
-            <h2>{t('Reference ledger')}</h2>
-            <ReferenceList records={references} />
-          </section>
-        </div>
-      </div>
+      <section className="catalog-section">
+        <DivergenceLedger profileId={profile.id} />
+      </section>
+      {!!media.length && <details className="taxon-materials">
+        <summary>{language === 'zh' ? '标本图像与复原材料' : 'Specimen images and reconstructions'}</summary>
+        <div className="media-ledger">{media.map(asset => <article key={asset.id} className={`media-card${asset.contentOrigin === 'ai-assisted-interpretive-reconstruction' ? ' media-card--reconstruction' : ' media-card--external'}`}>
+          {asset.asset?.url && <img src={runtimeDataUrl(asset.asset.url)} width={asset.asset.width} height={asset.asset.height} loading="lazy" decoding="async" alt={language === 'zh' ? asset.altTextZh : asset.altText} />}
+          <strong>{language === 'zh' ? asset.titleZh : asset.title}</strong>
+          <p>{language === 'zh' ? asset.captionZh : asset.caption}</p>
+          {asset.contentOrigin === 'ai-assisted-interpretive-reconstruction' && <><p className="media-card__badge">{language === 'zh' ? asset.interpretiveNoticeZh : asset.interpretiveNotice}</p><p className="media-card__uncertainty">{language === 'zh' ? asset.uncertaintyZh : asset.uncertainty}</p></>}
+          <p>{t(asset.licenseNote)}</p>
+          <a href={asset.sourceUrl} target="_blank" rel="noreferrer">{asset.sourceName} ↗</a>
+        </article>)}</div>
+      </details>}
+      <details className="taxon-materials"><summary>{language === 'zh' ? '文献与材料来源' : 'Bibliography and material sources'}</summary><ReferenceList records={references} /></details>
     </main>
   )
 }
@@ -366,7 +258,7 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
             <button key={profile.id} onClick={() => onNavigate('taxa', { id: profile.id })}>
               <span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span>
               <h2><em>{profile.scientificName}</em></h2>
-              <p>{localizedProfileText(profile, profile.overview, language, t)}</p>
+              <p>{profile.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? localizedProfileText(profile, profile.overview, language, t)}</p>
               <small>{t(profile.rank)} · {hasPublishedRange(profile) ? `${formatAge(profile.firstAppearance, t('Present'))}—${formatAge(profile.lastAppearance, t('Present'))}` : t('Unavailable')}</small>
             </button>
           )
@@ -389,7 +281,6 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
       <header className="catalog-hero event-hero">
         <div className="catalog-hero__meta">
           <span>{t('Event / {category}', { category: t(event.category) })}</span>
-          <ConfidenceBadge level={event.confidence} />
         </div>
         <h1>{language === 'zh' ? event.titleZh : event.title}</h1>
         <div className="event-range"><strong>{formatAge(event.startAge, t('Present'))}</strong><span>→</span><strong>{formatAge(event.endAge, t('Present'))}</strong></div>
@@ -416,16 +307,15 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
         <div className="catalog-content">
           <section className="catalog-section">
             <span className="section-label">{t('01 / Observations')}</span>
-            <h2>{t('Evidence in the record')}</h2>
+            <h2>{language === 'zh' ? '记录中保存了什么' : 'What the record preserves'}</h2>
             <div className="statement-grid">
               {event.evidenceItems.map((item, index) => <article key={item.statement}><span>{index + 1}</span><p>{t(item.statement)}</p></article>)}
             </div>
-            <h2>{t('Claim-level source links')}</h2>
-            <ClaimLedger claims={claims} />
+            <NodeReadingSections sections={claims.filter(claim => claim.claimKind === 'scientific').map(claim => ({id: claim.id, topic: claim.claimType, text: {en: claim.statement, zh: generatedClaimStatementsZh[claim.statement] ?? t(claim.statement)}, sourceIds: claim.referenceLinks.map(link => link.referenceId), context: [language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale].filter(Boolean), contextLanguage: language}))} sources={getReferences(claims.flatMap(claim => claim.referenceLinks.map(link => link.referenceId)))} language={language} />
           </section>
           <section className="catalog-section">
             <span className="section-label">{t('02 / Uncertainty')}</span>
-            <h2>{t('What remains unresolved')}</h2>
+            <h2>{language === 'zh' ? '这些变化怎样解释' : 'How are these changes explained?'}</h2>
             <div className="uncertainty-list">
               {event.uncertaintyItems.map((item) => <p key={item.statement}>{t(item.statement)}</p>)}
             </div>
@@ -448,7 +338,7 @@ function EventDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
       <header className="directory-hero">
         <span className="section-label">{t('Event catalog / 4.567 Ga—Present')}</span>
         <h1>{t('Turning points in Earth and life.')}</h1>
-        <p>{t('Events are bounded evidence objects: each separates observations, interpretation and unresolved questions.')}</p>
+        <p>{language === 'zh' ? '从环境变化、化石材料与新结构的出现，认识地球和生命历史中的转折。' : 'Follow environmental changes, fossil material and new structures through turning points in Earth and life.'}</p>
       </header>
       <div className="event-directory">
         {evolutionEvents.map((event, index) => (
@@ -489,7 +379,6 @@ export function StoriesPage({ id, params, onNavigate }: CatalogPageProps) {
         <span className="section-label">{t('Field story / {minutes} min', { minutes: story.durationMinutes })}</span>
         <h1>{language === 'zh' ? story.titleZh : story.title}</h1>
         <p>{t(story.dek)}</p>
-        <p className="catalog-query-state">{t('Available with limitations: every step links to a reviewed claim, but the story remains an editorial synthesis.')}</p>
       </header>
 
       <div className="story-sequence">
@@ -567,7 +456,8 @@ function StoryDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
         <h1>{t('Follow an argument through deep time.')}</h1>
         <p>{t('Every chapter is a real Explorer state with a time window, primary view, highlighted evidence and reference set.')}</p>
       </header>
-      <div className="story-builder-callout"><div><small>{t('Local teaching studio')}</small><h2>{t('Build from real Explorer states')}</h2><p>{t('Save in this browser, import or export JSON, derive citations and share an embeddable draft without a server.')}</p></div><button onClick={() => onNavigate('stories', { id: 'builder' })}>{t('Open Story Builder')} →</button></div>
+      <section className="reading-section"><ReadingCards /></section>
+      <details className="story-builder-callout"><summary>{language === 'zh' ? '高级工具：编写自己的章节' : 'Advanced tools: compose your own chapter'}</summary><button onClick={() => onNavigate('stories', { id: 'builder' })}>{t('Open Story Builder')} →</button></details>
       <section className="story-facets" aria-label={t('Group stories by era, taxon and theme')}>
         <div><small>{t('All')}</small><button className={facet === 'all' ? 'is-active' : ''} aria-pressed={facet === 'all'} onClick={() => setFacet('all')}>{t('All published stories')} · {publishedStories.length}</button></div>
         <div><small>{t('By era')}</small>{eras.map((era) => <button key={era} className={facet === `era:${era}` ? 'is-active' : ''} aria-pressed={facet === `era:${era}`} onClick={() => setFacet(`era:${era}`)}>{t(era)}</button>)}</div>

@@ -45,6 +45,7 @@ test('terrain follows projection and view changes without another grid download'
   const requests: string[] = []
   page.on('request', (request) => { if (/paleotopography.*\.i16\.gz/.test(request.url())) requests.push(request.url()) })
   await page.goto('./#/explore?view=map&age=65')
+  await page.getByRole('button', {name:'Open detailed tools', exact:true}).click()
   await page.getByLabel('PALEOMAP elevation and bathymetry').check()
   const terrain = page.locator('.projected-map__terrain')
   const vectors = page.locator('.projected-map__vectors')

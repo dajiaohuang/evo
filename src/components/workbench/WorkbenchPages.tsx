@@ -259,7 +259,7 @@ export function LabPage({ params }: WorkbenchProps) {
         <p>{t('Build a reproducible query against 13,600 bounded, non-random PBDB API-prefix rows. Filtering and export happen locally in your browser.')}</p>
       </header>
 
-      <DatasetVersionComparison />
+      <details className="query-advanced"><summary>{language === 'zh' ? '比较数据版本' : 'Compare dataset versions'}</summary><DatasetVersionComparison /></details>
 
       <div className="lab-layout">
         <form className="query-builder" onSubmit={execute}>
@@ -309,6 +309,7 @@ export function LabPage({ params }: WorkbenchProps) {
 
           <button className="run-query" type="submit" disabled={loading}>{t(loading ? 'Querying local chunks…' : 'Run query →')}</button>
           <p className="query-method-note">{t('Age filtering uses range intersection. This field is a name-text filter, not a descendant-inclusive classification query.')}</p>
+          <details className="query-advanced"><summary>{language === 'zh' ? '高级工具：查询记录与自带数据' : 'Advanced tools: query notes and your data'}</summary>
           <div className="query-history">
             <div><span>{t('Local workspace')}</span><small>{t('IndexedDB · latest {count}', { count: queryHistory.length })}</small></div>
             {queryHistory.slice(0, 4).map((saved) => (
@@ -340,6 +341,7 @@ export function LabPage({ params }: WorkbenchProps) {
               </section>
             )}
           </div>
+          </details>
         </form>
 
         <section className="lab-results">
@@ -377,7 +379,7 @@ export function LabPage({ params }: WorkbenchProps) {
                 {view === 'map' && <ResultMap records={result.records} coordinateMode={coordinateMode} />}
               </div>
               <div className="reproducibility-strip"><span>{t('Export contains')}</span><strong>query.json · CSV / JSON / GeoJSON · chart.svg · citations JSON / BibTeX · methods.md · dataset manifest · checksums.txt</strong></div>
-              <LocalResearchWorkspace result={result} query={query} userData={userData} onRestoreQuery={setQuery} />
+              <details className="query-advanced"><summary>{language === 'zh' ? '高级工具：SQL 与研究笔记' : 'Advanced tools: SQL and research notes'}</summary><LocalResearchWorkspace result={result} query={query} userData={userData} onRestoreQuery={setQuery} /></details>
             </>
           )}
         </section>
@@ -474,7 +476,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
           <div className="taxa-compare-grid">
             {[leftProfile, rightProfile].map((profile) => {
               const count = occurrencesByTaxonQuery[`descendants:${profile.id}`]?.length
-              return <article key={profile.id}><span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span><h2><em>{profile.scientificName}</em></h2><p>{localizedProfileText(profile, profile.overview, language, t)}</p><dl><div><dt>{t('Range')}</dt><dd>{profile.rangeEvidenceLevel === 'withheld-no-range-evidence' ? t('Unavailable') : `${profile.firstAppearance}—${profile.lastAppearance || t('Present')} Ma`}</dd></div><div><dt>{t('Guild')}</dt><dd>{t(profile.ecology.guild)}</dd></div><div><dt>{t('Body size')}</dt><dd>{t(profile.ecology.bodySize)}</dd></div><div><dt>{t('Bundled descendant rows')}</dt><dd>{count == null ? t('Loading…') : number(count)}</dd></div><div><dt>{t('Profile confidence')}</dt><dd>{t(profile.confidence)}</dd></div></dl><button onClick={() => onNavigate('taxa', { id: profile.id })}>{t('Open evidence page →')}</button></article>
+              return <article key={profile.id}><span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span><h2><em>{profile.scientificName}</em></h2><p>{localizedProfileText(profile, profile.overview, language, t)}</p><dl><div><dt>{t('Range')}</dt><dd>{profile.rangeEvidenceLevel === 'withheld-no-range-evidence' ? t('Unavailable') : `${profile.firstAppearance}—${profile.lastAppearance || t('Present')} Ma`}</dd></div><div><dt>{t('Guild')}</dt><dd>{t(profile.ecology.guild)}</dd></div><div><dt>{t('Body size')}</dt><dd>{t(profile.ecology.bodySize)}</dd></div><div><dt>{t('Bundled descendant rows')}</dt><dd>{count == null ? t('Loading…') : number(count)}</dd></div></dl><button onClick={() => onNavigate('taxa', { id: profile.id })}>{t('Open evidence page →')}</button></article>
             })}
           </div>
         </section>

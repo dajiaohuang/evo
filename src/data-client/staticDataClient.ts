@@ -21,7 +21,6 @@ import type {
   RuntimeMapManifest,
   RuntimeMapFrame,
   RuntimeMapFrameSelection,
-  RuntimeMapSnapshot,
   RuntimePaleotopographyCollection,
   RuntimePaleotopographyFrame,
   RuntimeMediaAsset,
@@ -641,6 +640,7 @@ export async function loadOccurrenceManifest(): Promise<OccurrenceRuntimeManifes
 export async function loadMapManifest(): Promise<RuntimeMapManifest> {
   const current = await loadCurrentManifest()
   const manifest = await loadRuntimeFile<RuntimeMapManifest>(current.maps.manifest)
+  if (manifest.schemaVersion !== 9) throw new Error('Unsupported map format. Update the atlas and its data together.')
   if (manifest.version !== current.datasetVersion) {
     throw new Error(`Map manifest does not belong to dataset ${current.datasetVersion}`)
   }
@@ -1378,25 +1378,6 @@ export async function searchCatalogue(query: string, limit = 12, signal?: AbortS
   return { manifest, records, totalMatches: shards.reduce((sum, shard) => sum + shard.totalMatches, 0), resolutionTargets }
 }
 
-export async function loadPaleogeographySnapshot(period: string): Promise<{
-  manifest: RuntimeMapManifest
-  snapshot: RuntimeMapSnapshot
-} | null> {
-  const manifest = await loadMapManifest()
-  const snapshot = manifest.snapshots.find((entry) => entry.period === period)
-  if (!snapshot || snapshot.status !== 'available' || !snapshot.layers) return null
-  return { manifest, snapshot }
-}
-
-export async function loadPaleogeographyLayer(
-  snapshot: RuntimeMapSnapshot,
-  layerId: import('../types').PaleogeographyLayerId,
-): Promise<import('../types').PaleogeographyFeatureCollection> {
-  const file = snapshot.layers?.[layerId]
-  if (!file) throw new Error(`${snapshot.period}: paleogeography layer ${layerId} is not published`)
-  return loadRuntimeFile<import('../types').PaleogeographyFeatureCollection>(file)
-}
-
 export function resolvePaleotopographyFrame(
   collection: RuntimePaleotopographyCollection,
   requestedAgeMa: number,
@@ -1464,19 +1445,6 @@ export async function loadPaleogeographyLayerAtAge(
   if (!selection) return null
   const collection = await loadMapRuntimeFile<import('../types').PaleogeographyFeatureCollection>(selection.frame)
   return { manifest, selection, collection }
-}
-
-/** Compatibility loader for callers that require the three default map layers. */
-export async function loadPaleogeography(period: string): Promise<{
-  manifest: RuntimeMapManifest
-  snapshot: RuntimeMapSnapshot
-  layers: import('../types').PaleogeographyLayers
-} | null> {
-  const result = await loadPaleogeographySnapshot(period)
-  if (!result) return null
-  const layerIds = ['coastlines', 'platePolygons', 'plateBoundaries'] as const
-  const loaded = await Promise.all(layerIds.map((layerId) => loadPaleogeographyLayer(result.snapshot, layerId)))
-  return { ...result, layers: Object.fromEntries(layerIds.map((layerId, index) => [layerId, loaded[index]])) }
 }
 
 export async function searchStaticData(query: string, limit = 16, signal?: AbortSignal): Promise<RuntimeSearchEntry[]> {

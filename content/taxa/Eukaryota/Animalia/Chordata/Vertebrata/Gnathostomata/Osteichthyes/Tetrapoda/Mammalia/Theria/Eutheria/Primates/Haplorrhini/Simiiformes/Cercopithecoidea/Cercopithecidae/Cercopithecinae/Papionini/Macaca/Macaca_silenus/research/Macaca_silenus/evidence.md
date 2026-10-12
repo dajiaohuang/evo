@@ -41,9 +41,7 @@ records:
       en: draft-ready
       zh: draft-ready
     readerSections:
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/0/id
+      - id: reading-introduction
         title:
           en:
             markdown: page.en.md
@@ -54,20 +52,16 @@ records:
             field: /records/atlas-profile/readerSections/0/title/zh
             format: heading
         text:
-          en:
-            markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/1
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/1/id
+          - dhawale2020
+          - ram2015
+      - id: western-ghats-samples
         title:
           en:
             markdown: page.en.md
@@ -85,11 +79,9 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/2/id
+          - col
+          - ram2015
+      - id: modified-habitats
         title:
           en:
             markdown: page.en.md
@@ -107,11 +99,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/2/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/3/id
+          - dhawale2020
+      - id: diet-across-sites
         title:
           en:
             markdown: page.en.md
@@ -129,11 +118,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/3/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/4/id
+          - dhawale2020
+      - id: seed-dispersal-preprint
         title:
           en:
             markdown: page.en.md
@@ -151,11 +137,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/4/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/4/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/5/id
+          - bindu2024preprint
+      - id: mitochondrial-structure
         title:
           en:
             markdown: page.en.md
@@ -173,11 +156,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/5/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/6/id
+          - ram2015
+      - id: forest-fragments
         title:
           en:
             markdown: page.en.md
@@ -195,12 +175,28 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/6/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/6/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/6/sourceIds/1
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/6/sourceIds/2
+          - ram2015
+      - id: remaining-questions
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/7/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/7/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/7/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/7/text/zh
+        sourceIds:
+          - ram2015
+          - dhawale2020
+          - bindu2024preprint
     readerSources:
       referenceBindings:
         - referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
@@ -530,12 +526,6 @@ The selected studies sampled wild lion-tailed macaques at 15 named Western Ghats
 Both primary studies identify their sampled locations directly. The statement retains study-site scope and makes no full-range inference.
 <!-- /evo:text -->
 
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/1/reviewedAgainstReferenceVersion -->
-Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; methods checked 2026-09-27
-<!-- /evo:text -->
-
 ## claims / statement
 
 <!-- evo:text /records/claims/2/statement -->
@@ -546,12 +536,6 @@ From February to May 2016, researchers followed one habituated, free-ranging tro
 
 <!-- evo:text /records/claims/2/confidenceRationale -->
 The article reports the study troop, dates, follow-hours, habitat classes and modelled behaviour comparisons directly. The observations concern one troop in one dry-season study and do not establish species-wide ecology or causal effects.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/2/reviewedAgainstReferenceVersion -->
-Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; Methods—Study area, Study troop and individuals, Field methods; Results—Ecological and behavioural responses, Figure 3 checked 2026-09-27
 <!-- /evo:text -->
 
 ## claims / statement
@@ -576,12 +560,6 @@ The selected COL26.8 identity record and the cited living-population studies do 
 
 <!-- evo:text /records/claims/4/confidenceRationale -->
 The checklist establishes accepted identity and the selected sources study living populations or regional genetic history; none provides a reviewed temporal fossil-range endpoint or complete distribution inventory.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/4/reviewedAgainstReferenceVersion -->
-COL26.8 usage 3WWP6; Ram et al. 2015 DOI 10.1371/journal.pone.0142597; Dhawale et al. 2020 DOI 10.1371/journal.pone.0238695; scope checked 2026-09-27
 <!-- /evo:text -->
 
 ## claim-rationales.zh

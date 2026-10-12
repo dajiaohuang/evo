@@ -63,9 +63,7 @@ records:
       en: draft-ready
       zh: draft-ready
     readerSections:
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/0/id
+      - id: reading-introduction
         title:
           en:
             markdown: page.en.md
@@ -76,18 +74,18 @@ records:
             field: /records/atlas-profile/readerSections/0/title/zh
             format: heading
         text:
-          en:
-            markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/1/id
+          - cabreira-2016-buriolestes
+          - xu-2012-yutyrannus
+          - baron-2017-dinosaur-relationships
+          - langer-2017-dinosaur-tree-reanalysis
+      - id: early-fossil-sample
         title:
           en:
             markdown: page.en.md
@@ -105,13 +103,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/1
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/2/id
+          - cabreira-2016-buriolestes
+      - id: early-relationships
         title:
           en:
             markdown: page.en.md
@@ -129,8 +122,27 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/2/sourceIds/0
+          - baron-2017-dinosaur-relationships
+          - langer-2017-dinosaur-tree-reanalysis
+      - id: later-fossil-example
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/3/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/3/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/3/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/3/text/zh
+        sourceIds:
+          - xu-2012-yutyrannus
     readerSources:
       - id: cabreira-2016-buriolestes
         title:
@@ -191,9 +203,13 @@ records:
     geography:
       status: not-assessed
     overview:
-      status: not-assessed
+      status:
+        markdown: page.en.md
+        field: /records/field-claim-overrides/overview/status
     evidenceSummary:
-      status: not-assessed
+      status:
+        markdown: evidence.md
+        field: /records/field-claim-overrides/evidenceSummary/status
     confidence:
       status: not-assessed
     ecology.diet:
@@ -272,55 +288,61 @@ records:
         - pbdb-api-2016
 ---
 
-## readerSources / scope / en
+# Dinosauria
+
+## atlas-profile / readerSources / scope
 
 <!-- evo:text /records/atlas-profile/readerSources/0/scope/en -->
 Primary description of the ULBRA-PVT280 holotype and Candelária Sequence assemblage; the local age context does not establish a global dinosaur first appearance.
 <!-- /evo:text -->
 
-## readerSources / scope / zh
+## atlas-profile / readerSources / scope
 
 <!-- evo:text /records/atlas-profile/readerSources/0/scope/zh -->
 对 ULBRA-PVT280 正模和 Candelária Sequence 生物组合的一手描述；局地年代背景不能确立全球恐龙首现。
 <!-- /evo:text -->
 
-## readerSources / scope / en
+## atlas-profile / readerSources / scope
 
 <!-- evo:text /records/atlas-profile/readerSources/1/scope/en -->
 The 74-taxon, 457-character analysis recovered Ornithoscelida; this is a matrix topology rather than observed ancestry.
 <!-- /evo:text -->
 
-## readerSources / scope / zh
+## atlas-profile / readerSources / scope
 
 <!-- evo:text /records/atlas-profile/readerSources/1/scope/zh -->
 这项包含 74 个分类单元、457 项性状的分析恢复 Ornithoscelida；这是矩阵拓扑结果，而非观察到的祖先关系。
 <!-- /evo:text -->
 
-## readerSources / scope / en
+## atlas-profile / readerSources / scope
 
 <!-- evo:text /records/atlas-profile/readerSources/2/scope/en -->
 Rescoring and adding taxa recovered the traditional ornithischian–saurischian split, illustrating sensitivity to matrix composition and coding.
 <!-- /evo:text -->
 
-## readerSources / scope / zh
+## atlas-profile / readerSources / scope
 
 <!-- evo:text /records/atlas-profile/readerSources/2/scope/zh -->
 重新编码并增加分类单元后，研究恢复传统的鸟臀类—蜥臀类分支，显示结果受矩阵组成与编码影响。
 <!-- /evo:text -->
 
-## readerSources / scope / en
+## atlas-profile / readerSources / scope
 
 <!-- evo:text /records/atlas-profile/readerSources/3/scope/en -->
 Three nearly complete Yixian Formation skeletons preserve filamentous integument; function and full-body coverage are not direct observations.
 <!-- /evo:text -->
 
-## readerSources / scope / zh
+## atlas-profile / readerSources / scope
 
 <!-- evo:text /records/atlas-profile/readerSources/3/scope/zh -->
 三件义县组近乎完整骨架保存了丝状体表结构；其功能与全身覆盖并非直接观察所得。
 <!-- /evo:text -->
 
-# Dinosauria
+## field-claim-overrides / evidenceSummary / status
+
+<!-- evo:text /records/field-claim-overrides/evidenceSummary/status -->
+not-assessed
+<!-- /evo:text -->
 
 ## claims / statement
 

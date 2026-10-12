@@ -515,16 +515,6 @@ export interface OccurrenceRuntimeManifest {
   packages: Record<string, Array<RuntimeFile & { records: number; period: string; packageId: string }>>
 }
 
-export interface RuntimeMapSnapshot {
-  period: string
-  status: 'available' | 'withheld-pending-provenance'
-  description: string
-  descriptionZh: string
-  reconstructionAgeMa: number | null
-  model: string | null
-  layers: Partial<Record<import('../types').PaleogeographyLayerId, RuntimeFile>> | null
-}
-
 export interface RuntimeMapCadenceBand {
   youngestMa: number
   oldestMa: number
@@ -572,7 +562,7 @@ export interface RuntimeMapFrameSelection {
 }
 
 export interface RuntimeMapManifest {
-  schemaVersion: number
+  schemaVersion: 9
   version: string
   source: {
     title: string
@@ -584,17 +574,15 @@ export interface RuntimeMapManifest {
     retrievedAt: string
   }
   scientificLimitations: string[]
-  ageRangeMa?: { youngest: number; oldest: number }
-  selectionPolicy?: {
+  ageRangeMa: { youngest: number; oldest: number }
+  selectionPolicy: {
     method: 'nearest'
     tieBreak: 'younger'
     outsideRange: 'unavailable'
   }
-  layers?: Record<import('../types').PaleogeographyLayerId, RuntimeMapLayer>
+  layers: Record<import('../types').PaleogeographyLayerId, RuntimeMapLayer>
   observations?: RuntimeMapObservations
   paleotopography?: RuntimePaleotopographyCollection
-  /** Compatibility metadata for period descriptions and older releases. */
-  snapshots: RuntimeMapSnapshot[]
 }
 
 export interface RuntimePaleotopographyFrame {
@@ -1902,7 +1890,6 @@ export interface CurrentRuntimeManifest {
   }
   maps: {
     manifest: RuntimeFile
-    availableSnapshots: number
     frameCount?: number | null
     geometryFrameCount?: number | null
     observationDatasetCount?: number

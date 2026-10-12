@@ -49,9 +49,7 @@ records:
           en: Continue with another featured primate introduction.
           zh: 继续阅读另一篇精选灵长类物种介绍。
     readerSections:
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/0/id
+      - id: reading-introduction
         title:
           en:
             markdown: page.en.md
@@ -62,18 +60,18 @@ records:
             field: /records/atlas-profile/readerSections/0/title/zh
             format: heading
         text:
-          en:
-            markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/1/id
+          - malukiewicz2024
+          - ziegler2017
+          - benavides2022
+          - malukiewicz2021
+      - id: appearance
         title:
           en:
             markdown: page.en.md
@@ -91,11 +89,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/2/id
+          - malukiewicz2024
+      - id: range
         title:
           en:
             markdown: page.en.md
@@ -113,11 +108,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/2/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/3/id
+          - benavides2022
+      - id: parental-care
         title:
           en:
             markdown: page.en.md
@@ -135,11 +127,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/3/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/4/id
+          - ziegler2017
+      - id: disease-monitoring
         title:
           en:
             markdown: page.en.md
@@ -157,11 +146,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/4/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/4/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/5/id
+          - benavides2022
+      - id: hybridization
         title:
           en:
             markdown: page.en.md
@@ -179,8 +165,26 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/5/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/0
+          - nogueira2022hybridization
+      - id: mitochondrial-lineages
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/text/zh
+        sourceIds:
+          - malukiewicz2021
     readerSources:
       referenceBindings:
         - referenceId: ref-9d23ee77-17ef-89aa-a87a-d45ae5864225

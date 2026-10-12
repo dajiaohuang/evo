@@ -204,11 +204,14 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
         view: current.params.get('view') ?? 'map', dataset: manifest.datasetVersion,
         projection: state.mapProjection, markers: state.markerMode, coords: state.coordinateMode,
         treeMode: state.treeMode, taxon: state.selectedNodeId, occurrence: state.selectedOccurrence?.oid,
+        mapContent: state.mapContentMode,
       })
       route = withSearchReturn(route, previous)
     }
     const parsed = parseRouteHash(route)
-    onNavigate(parsed.route, Object.fromEntries(parsed.params.entries()))
+    // A search chooses a destination; chapter scene controls update the map
+    // beside the current account through the in-place navigation callback.
+    onNavigate(parsed.route === 'explore' ? 'home' : parsed.route, Object.fromEntries(parsed.params.entries()))
   }
 
   return (

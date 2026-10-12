@@ -36,6 +36,8 @@ function LocalTree({ anchorId, onOpenFullTree }: { anchorId: string; onOpenFullT
       age: state.currentAge, dataset: manifest.datasetVersion,
       lat: state.viewState.center[0], lng: state.viewState.center[1], zoom: state.viewState.zoom,
       projection: state.mapProjection, markers: state.markerMode, coords: state.coordinateMode,
+      mapContent: state.mapContentMode,
+      returnReading: window.location.hash,
     })
   }
   return <details className="local-tree-panel" onToggle={event => {

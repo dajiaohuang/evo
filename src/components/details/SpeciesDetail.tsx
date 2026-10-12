@@ -14,6 +14,7 @@ import { getEntityPublication, getPackagePublication } from '../../services/publ
 import { loadEntityIndex } from '../../data-client/staticDataClient'
 import type { RuntimeEntity } from '../../data-client/types'
 import { LocalTreePanel, type OpenFullTree } from '../tree/LocalTreePanel'
+import { localizedProfileText } from '../../i18n/profileText'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -71,6 +72,7 @@ export function SpeciesDetail({ onOpenFullTree }: { onOpenFullTree?: OpenFullTre
     const paleoPosition = getSpatialPosition(selectedOccurrence, 'paleo')
     const modernPosition = getSpatialPosition(selectedOccurrence, 'modern')
     const occurrenceNode = selectedOccurrence.tid ? findNodeByTaxon([treeData as TreeNode], selectedOccurrence.tid) : null
+    const occurrenceProfile = getTaxonProfile(occurrenceNode?.id ?? null)
     return (
       <div style={{ padding: 16 }}>
         <button
@@ -90,6 +92,12 @@ export function SpeciesDetail({ onOpenFullTree }: { onOpenFullTree?: OpenFullTre
             {selectedOccurrence.idn}
           </p>
         )}
+        {(selectedOccurrence.formation || selectedOccurrence.specimenBasis) && <p className="node-preview-description">
+          {selectedOccurrence.formation && <>{language === 'zh' ? '地层记录：' : 'Recorded formation: '}{selectedOccurrence.formation}{selectedOccurrence.member ? ` · ${selectedOccurrence.member}` : ''}。 </>}
+          {selectedOccurrence.specimenBasis && <>{language === 'zh' ? '保存材料（来源用语）：' : 'Preserved material (source wording): '}{selectedOccurrence.specimenBasis}</>}
+        </p>}
+        {occurrenceProfile && <div className="node-preview-reading"><a href={`#/taxa?id=${encodeURIComponent(occurrenceProfile.id)}`}>{language === 'zh' ? '相关生物阅读' : 'Read about the related organism'} →</a></div>}
+        <details className="node-preview-data"><summary>{language === 'zh' ? '年代、地点与原始记录' : 'Age, place and original record'}</summary>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8, fontSize: 12 }}>
           <div style={{ padding: 10, background: 'var(--color-surface-alt)', borderRadius: 6 }}>
             <div style={{ color: 'var(--color-text-muted)' }}>{t('Identification')}</div>
@@ -147,15 +155,12 @@ export function SpeciesDetail({ onOpenFullTree }: { onOpenFullTree?: OpenFullTre
             </button>
           )}
           <div className="occurrence-quality-card">
-            <div>{t('Quality flags')}</div>
-            <span className={selectedOccurrence.eag - selectedOccurrence.lag > 10 ? 'is-warning' : ''}>{t(selectedOccurrence.eag - selectedOccurrence.lag > 10 ? 'Broad age range >10 Ma' : 'Age range ≤10 Ma')}</span>
-            <span className={selectedOccurrence.paleolat == null || selectedOccurrence.paleolng == null ? 'is-warning' : ''}>{t(selectedOccurrence.paleolat == null || selectedOccurrence.paleolng == null ? 'No reconstructed coordinate' : 'Reconstructed coordinate present')}</span>
-            <span className={!selectedOccurrence.tna ? 'is-warning' : ''}>{t(selectedOccurrence.tna ? 'Accepted name present' : 'Accepted name unresolved; original retained')}</span>
             <a href={`https://paleobiodb.org/classic/displayCollResults?collection_no=${selectedOccurrence.cid.replace('col:', '')}`} target="_blank" rel="noreferrer">{t('Open PBDB collection ↗')}</a>
           </div>
           {occurrenceNode && <LocalTreePanel nodeId={occurrenceNode.id} onOpenFullTree={onOpenFullTree} />}
           <EvidenceTrace entityId={occurrenceNode?.id ?? null} occurrence={selectedOccurrence} />
         </div>
+        </details>
       </div>
     )
   }
@@ -174,6 +179,10 @@ export function SpeciesDetail({ onOpenFullTree }: { onOpenFullTree?: OpenFullTre
           <p style={{ fontSize: 12, color: 'var(--color-text-muted)', marginBottom: 12 }}>
             {node.name}{node.rank ? ` · ${t(node.rank)}` : ''}
           </p>
+          {profile && <div className="node-preview-reading">
+            <p>{profile.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? localizedProfileText(profile, profile.overview, language, t)}</p>
+            <a href={`#/taxa?id=${encodeURIComponent(profile.id)}`}>{language === 'zh' ? '继续阅读' : 'Continue reading'} →</a>
+          </div>}
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8, fontSize: 12 }}>
             {entity && (

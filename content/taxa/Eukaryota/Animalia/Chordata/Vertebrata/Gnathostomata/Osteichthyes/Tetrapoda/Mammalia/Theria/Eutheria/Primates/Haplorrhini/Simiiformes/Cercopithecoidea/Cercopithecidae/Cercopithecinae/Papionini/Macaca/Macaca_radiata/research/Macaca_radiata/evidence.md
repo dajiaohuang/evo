@@ -43,7 +43,7 @@ records:
       en: draft-ready
       zh: draft-ready
     readerSections:
-      - id: study-scope
+      - id: reading-introduction
         title:
           en:
             markdown: page.en.md
@@ -54,17 +54,16 @@ records:
             field: /records/atlas-profile/readerSections/0/title/zh
             format: heading
         text:
-          en:
-            markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
         sourceIds:
-          - col
-          - erinjery2017
           - grunstra2018
-      - id: forest-occupancy
+          - erinjery2017
+      - id: study-scope
         title:
           en:
             markdown: page.en.md
@@ -82,8 +81,10 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
+          - col
           - erinjery2017
-      - id: road-counts
+          - grunstra2018
+      - id: forest-occupancy
         title:
           en:
             markdown: page.en.md
@@ -102,7 +103,7 @@ records:
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
           - erinjery2017
-      - id: human-use-sites
+      - id: road-counts
         title:
           en:
             markdown: page.en.md
@@ -121,7 +122,7 @@ records:
             field: /records/atlas-profile/readerSections/3/text/zh
         sourceIds:
           - erinjery2017
-      - id: craniodental-comparison
+      - id: human-use-sites
         title:
           en:
             markdown: page.en.md
@@ -139,8 +140,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/4/text/zh
         sourceIds:
-          - grunstra2018
-      - id: remaining-questions
+          - erinjery2017
+      - id: craniodental-comparison
         title:
           en:
             markdown: page.en.md
@@ -157,6 +158,25 @@ records:
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/5/text/zh
+        sourceIds:
+          - grunstra2018
+      - id: remaining-questions
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/text/zh
         sourceIds:
           - erinjery2017
     readerSources:
@@ -556,12 +576,6 @@ In a 2018 phylogeographic analysis of 82 fecal-derived Macaca radiata mitochondr
 
 <!-- evo:text /records/claims/6/confidenceRationale -->
 The peer-reviewed paper reports the host D-loop sampling frame and these population-structure results. Confidence is bounded to that mitochondrial marker and sample: it does not establish nuclear or genome-wide structure, a full range-wide pattern, or the authors' proposed human-mediated cause.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/6/reviewedAgainstReferenceVersion -->
-Dixit et al. 2018 DOI 10.1371/journal.pntd.0006801; PLOS full text inspected 2026-09-28; COL26.8 usage 3WWP2 checked against pinned dataset 316115.
 <!-- /evo:text -->
 
 ## claims / referenceLinks / quoteLocator

@@ -95,9 +95,9 @@ candidate in the captured trait sources: 947 Anura, 141 Caudata and four
 Gymnophiona. This is an input-corpus gap, not a claim that no biological
 literature exists. `priority-source-gaps.json` is the next research worklist.
 
-`scripts/wire-amphibia-content-projections.mjs` prepares the final compatibility
-wiring, including independent source-reader projections outside App delivery.
-It refuses to run while `progress.json` records incomplete authoring.
+Current exports use the schema 2 registry in `content/projection-map.yaml`
+and `npm run content:build`; the one-time compatibility wiring tool has been
+removed. Independent source-reader material remains outside App delivery.
 
 The current readers now include 19,694 explicitly historical AmphiBIO sections
 across 4,810 species and additional deposited caecilian, tadpole, morphology or thermal sections

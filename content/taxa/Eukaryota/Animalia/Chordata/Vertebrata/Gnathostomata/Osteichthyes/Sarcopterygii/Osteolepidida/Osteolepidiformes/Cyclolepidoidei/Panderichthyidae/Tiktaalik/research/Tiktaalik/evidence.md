@@ -48,6 +48,121 @@ records:
     referenceIds:
       - daeschler-2006-tiktaalik-body-plan
       - shubin-2006-tiktaalik-pectoral-fin
+    readerSources:
+      - id: daeschler-2006-tiktaalik-body-plan
+        title:
+          en: A Devonian tetrapod-like fish and the evolution of the tetrapod body plan
+          zh: A Devonian tetrapod-like fish and the evolution of the tetrapod body plan
+        url: https://doi.org/10.1038/nature04639
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/0/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/0/scope/zh
+      - id: shubin-2006-tiktaalik-pectoral-fin
+        title:
+          en: The pectoral fin of Tiktaalik roseae and the origin of the tetrapod limb
+          zh: The pectoral fin of Tiktaalik roseae and the origin of the tetrapod limb
+        url: https://doi.org/10.1038/nature04637
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/1/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/1/scope/zh
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/0/title/zh
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
+        sourceIds:
+          - daeschler-2006-tiktaalik-body-plan
+          - shubin-2006-tiktaalik-pectoral-fin
+      - id: tiktaalik-reading-0
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/1/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/text/en
+        sourceIds:
+          - daeschler-2006-tiktaalik-body-plan
+          - shubin-2006-tiktaalik-pectoral-fin
+      - id: tiktaalik-reading-1
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/2/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/text/en
+        sourceIds:
+          - daeschler-2006-tiktaalik-body-plan
+          - shubin-2006-tiktaalik-pectoral-fin
+      - id: tiktaalik-reading-2
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/3/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/3/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/3/text/en
+        sourceIds:
+          - shubin-2006-tiktaalik-pectoral-fin
+    readerLimitations:
+      en:
+        markdown: page.en.md
+        field: /records/atlas-profile/readerLimitations/en
+      zh:
+        markdown: page.zh.md
+        field: /records/atlas-profile/readerLimitations/zh
+    readerLanguageStatus:
+      en: draft-ready
+      zh: draft-ready
   claims:
     - subject:
         kind: taxon
@@ -211,6 +326,30 @@ records:
 ---
 
 # Tiktaalik
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/0/scope/en -->
+The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/0/scope/zh -->
+用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/1/scope/en -->
+The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/1/scope/zh -->
+用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+<!-- /evo:text -->
 
 ## claims / statement
 

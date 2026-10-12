@@ -506,7 +506,8 @@ releaseUrl(current.maps.manifest, 'map manifest')
 checkFile(current.maps.manifest, 'map manifest')
 const maps = readJson(current.maps.manifest.url)
 const mapLayerIds = ['coastlines', 'platePolygons', 'plateBoundaries', 'continentalPolygons', 'continentOceanBoundaries', 'staticPolygons']
-if (maps.schemaVersion >= 6) {
+if (maps.schemaVersion !== 9) failures.push('Only current map manifest schema 9 is supported')
+if (maps.schemaVersion === 9) {
   if (!Number.isFinite(maps.ageRangeMa?.youngest) || !Number.isFinite(maps.ageRangeMa?.oldest) || maps.ageRangeMa.youngest >= maps.ageRangeMa.oldest) {
     failures.push('layer-first map manifest has an invalid supported age range')
   }
@@ -534,7 +535,7 @@ if (maps.schemaVersion >= 6) {
     }
   }
 }
-if (maps.schemaVersion >= 7) {
+if (maps.schemaVersion === 9) {
   const expectedObservationIds = [
     'paleomagnetic-poles',
     'geochemistry',
@@ -578,7 +579,7 @@ if (maps.schemaVersion >= 7) {
     failures.push('current map summary does not expose all CAO2024 observation records')
   }
 }
-if (maps.schemaVersion >= 8) {
+if (maps.schemaVersion === 9) {
   const collection = maps.paleotopography
   if (collection?.id !== 'scotese-wright-2018-paleodem-v2'
     || collection?.source?.doi !== '10.5281/zenodo.5460860'
@@ -627,19 +628,6 @@ if (maps.schemaVersion >= 8) {
     }
   }
 }
-for (const snapshot of maps.snapshots) {
-  if (snapshot.status !== 'available') continue
-  for (const layerId of mapLayerIds) {
-    const layer = snapshot.layers?.[layerId]
-    if (!layer?.url || !layer?.sha256) {
-      failures.push(`${snapshot.period}: available map has no checksum-addressed ${layerId} layer`)
-      continue
-    }
-    releaseUrl(layer, `${snapshot.period} ${layerId} map layer`)
-    checkFile(layer, `${snapshot.period} ${layerId} map layer`)
-  }
-}
-
 releaseUrl(current.catalogue.manifest, 'Catalogue of Life manifest')
 checkFile(current.catalogue.manifest, 'Catalogue of Life manifest')
 const catalogue = readJson(current.catalogue.manifest.url)

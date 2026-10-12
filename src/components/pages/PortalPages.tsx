@@ -148,33 +148,18 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
 }
 
 export function ResearchHubPage({ onNavigate }: PortalPageProps) {
-  const { t } = useI18n()
-  const tools: Array<[AppRoute, string, string]> = [
-    ['explore', 'Explorer', 'Synchronize time, occurrence geography, tree context and evidence.'],
-    ['compare', 'Compare', 'Contrast taxa, time windows and representation assumptions.'],
-    ['lab', 'Data Lab', 'Run bounded local queries and export reproducible evidence bundles.'],
-    ['data', 'Data Registry', 'Inspect packages, query coverage, versions, checksums and offline scope.'],
+  const { language } = useI18n()
+  const zh = language === 'zh'
+  const tools: Array<{route: AppRoute; title: string; text: string}> = [
+    {route:'compare',title:zh ? '比较生物与时间' : 'Compare organisms and times',text:zh ? '把已有类群材料放在一起，比较形态描述、生活方式或不同年代的记录。' : 'Bring recorded group material together to compare descriptions of form, ways of life or records from different times.'},
+    {route:'lab',title:zh ? '筛选化石发现' : 'Filter fossil discoveries',text:zh ? '按鉴定名称、年代、地层或集合找到记录，查看它们实际保留了哪些地点和材料。' : 'Find records by identification, time, formation or collection, then inspect their retained places and material.'},
+    {route:'lab',title:zh ? '导出筛选结果' : 'Export your selection',text:zh ? '筛选后下载表格或带来源与查询条件的数据包，保留这次结果的范围。' : 'After filtering, download a table or a bundle with sources and query conditions to retain the scope of the result.'},
   ]
-  return (
-    <main className="portal-page">
-      <header className="portal-hero portal-hero--research">
-        <span className="section-label">{t('Research / inspect and reproduce')}</span>
-        <h1>{t('Move from a visual pattern to its data boundary.')}</h1>
-        <p>{t('Every analytical route stays local to the browser and carries the dataset version needed to reproduce what you saw.')}</p>
-        <button className="button button--primary" onClick={() => onNavigate('explore')}>{t('Open Explorer')}</button>
-      </header>
-      <section className="portal-section">
-        <div className="portal-section__heading"><span>01</span><div><small>{t('Research tools')}</small><h2>{t('Inspect, compare, query, verify')}</h2></div></div>
-        <div className="portal-card-grid">
-          {tools.map(([route, title, description], index) => <button key={route} onClick={() => onNavigate(route)}><small>{String(index + 1).padStart(2, '0')}</small><h3>{t(title)}</h3><p>{t(description)}</p><i>→</i></button>)}
-        </div>
-      </section>
-      <section className="portal-section portal-principle-grid">
-        <article><span>{t('Methods')}</span><h2>{t('Read the pipeline before interpreting a chart.')}</h2><p>{t('Sampling, age precision, coordinate models and topology semantics each impose different limits.')}</p><button className="text-action" onClick={() => onNavigate('methods')}>{t('Open methods')} →</button></article>
-        <article><span>{t('Versioning')}</span><h2>{manifest.datasetVersion}</h2><p>{t('Static artifacts are checksum-addressed and bound to an application release.')}</p><button className="text-action" onClick={() => onNavigate('data')}>{t('Inspect this release')} →</button></article>
-      </section>
-    </main>
-  )
+  return <main className="portal-page">
+    <header className="portal-hero"><h1>{zh ? '把发现放在一起看' : 'Look at discoveries together'}</h1><p>{zh ? '同一结构在不同生物上有什么差异？换一个时间窗口，记录又怎样变化？先选定对象与范围，再比较或导出。' : 'How does a structure differ between organisms? What changes in the records when the time window changes? Choose the material and scope before comparing or exporting.'}</p></header>
+    <div className="portal-card-grid">{tools.map((tool,index) => <button key={index} onClick={() => onNavigate(tool.route)}><h2>{tool.title}</h2><p>{tool.text}</p><i>→</i></button>)}</div>
+    <p>{zh ? 'SQL、自带数据与查询笔记保留在筛选窗的高级工具中。' : 'SQL, your own data and query notes are available in the filter window’s advanced tools.'}</p>
+  </main>
 }
 
 export function AboutPage({ onNavigate }: PortalPageProps) {
@@ -188,7 +173,7 @@ export function AboutPage({ onNavigate }: PortalPageProps) {
         <p>{t('Evo Atlas is a static, bilingual, source-aware learning and research interface. It does not claim to cover all life, and it never treats missing fossil rows as biological absence.')}</p>
         <div className="portal-actions">
           <a className="button button--primary" href="https://github.com/dajiaohuang/evo" target="_blank" rel="noreferrer">{t('View source on GitHub')} ↗</a>
-          <button className="button button--ghost" onClick={() => onNavigate('methods')}>{t('Read methods')}</button>
+          <button className="button button--ghost" onClick={() => onNavigate('info', { tab: 'science' })}>{t('Read methods')}</button>
         </div>
       </header>
       <section className="portal-section portal-promise">

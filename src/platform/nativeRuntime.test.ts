@@ -25,7 +25,7 @@ describe('native deep-link routing', () => {
     expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/taxa/bad~FF/')).toBeNull()
     expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/stories/rise-and-fall-perissodactyls/'))
       .toBe('#/stories?id=rise-and-fall-perissodactyls')
-    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/methods/')).toBe('#/methods')
+    expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/methods/')).toBe('#/info?tab=science')
     expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/zh/apps/')).toBeNull()
     expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/references/pbdb/')).toBeNull()
   })

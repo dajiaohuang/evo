@@ -34,7 +34,7 @@ describe('complete Atlas offline storage', () => {
       core: {},
       packages: { count: 0, registry: files[0], manifestTemplate: '', manifests: {} },
       occurrences: { manifest: files[0], totalRecords: 0, unresolvedPackageAssignmentCount: 0 },
-      maps: { manifest: files[0], availableSnapshots: 0 },
+      maps: { manifest: files[0] },
       catalogue: {},
       downloads: { template: '' },
       budgets: {},

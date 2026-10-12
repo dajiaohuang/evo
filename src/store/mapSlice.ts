@@ -5,6 +5,7 @@ import type { CoordinateMode } from '../utils/spatial'
 import { normalizeMapView, type MapProjectionId } from '../utils/mapProjection'
 
 export type FossilMarkerMode = 'clusters' | 'points' | 'density'
+export type MapContentMode = 'featured' | 'all'
 
 export interface MapSlice {
   viewState: MapViewState
@@ -14,12 +15,14 @@ export interface MapSlice {
   highlightedOccurrenceIds: string[]
   selectedOccurrenceId: string | null
   markerMode: FossilMarkerMode
+  mapContentMode: MapContentMode
   coordinateMode: CoordinateMode
   showContinents: boolean
   setViewState: (state: Partial<MapViewState>) => void
   highlightTaxon: (taxonId: string | null) => void
   selectOccurrence: (occId: string | null) => void
   setMarkerMode: (mode: FossilMarkerMode) => void
+  setMapContentMode: (mode: MapContentMode) => void
   setCoordinateMode: (mode: CoordinateMode) => void
   setShowContinents: (visible: boolean) => void
 }
@@ -35,6 +38,7 @@ export const createMapSlice = (
   highlightedOccurrenceIds: [],
   selectedOccurrenceId: null,
   markerMode: 'clusters',
+  mapContentMode: 'featured',
   coordinateMode: 'paleo',
   showContinents: true,
 
@@ -48,6 +52,7 @@ export const createMapSlice = (
   }),
   selectOccurrence: (occId) => set({ selectedOccurrenceId: occId }),
   setMarkerMode: (markerMode) => set({ markerMode }),
+  setMapContentMode: (mapContentMode) => set({ mapContentMode }),
   setCoordinateMode: (coordinateMode) => set({ coordinateMode }),
   setShowContinents: (showContinents) => set({ showContinents }),
 })

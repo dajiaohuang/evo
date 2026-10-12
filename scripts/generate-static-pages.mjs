@@ -3,6 +3,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { basename, dirname, join } from 'node:path'
 import ts from 'typescript'
 import { staticPathSegment } from '../src/utils/staticPath.mjs'
+import { orderReadingSections, paragraphParts } from '../src/utils/nodeReading.mjs'
 import { readJson, rootDir } from './data-lib.mjs'
 import { generateReadingMaps, readingMapCss } from './generate-reading-maps.mjs'
 import { generateCatalogueChanges, catalogueChangesCss } from './generate-catalogue-changes.mjs'
@@ -318,7 +319,7 @@ function pageHtml({ language, title, description, path, alternatePath, type = 'W
   }).join('')
   const navigation = staticPages
     ? `<a href="${languageRoot}">${text.home}</a><a href="${languageRoot}map/">${language === 'zh' ? '地图' : 'Map'}</a><a href="${languageRoot}taxa/">${text.catalog}</a><a href="${languageRoot}stories/">${text.stories}</a><a href="${languageRoot}methods/">${text.methods}</a><a href="${languageRoot}apps/">${language === 'zh' ? '应用' : 'Apps'}</a>`
-    : `<a href="${basePath}/">${text.atlas}</a><a href="${basePath}/#/catalog">${text.catalog}</a><a href="${basePath}/#/stories">${text.stories}</a><a href="${basePath}/#/explore">${text.explorer}</a><a href="${basePath}/#/research">${text.research}</a><a href="${basePath}/#/data">${text.data}</a><a href="${basePath}/#/about">${text.about}</a>`
+    : `<a href="${basePath}/">${text.atlas}</a><a href="${basePath}/#/catalog">${text.catalog}</a><a href="${basePath}/#/stories">${text.stories}</a><a href="${basePath}/#/explore">${text.explorer}</a><a href="${basePath}/#/research">${text.research}</a><a href="${basePath}/#/info?tab=sources">${text.data}</a><a href="${basePath}/#/info?tab=about">${text.about}</a>`
   // Read-only pages do not offer nonfunctional SPA actions. Scientific prose,
   // claims, citations and static cross-links remain the same generated content.
   const renderedBody = staticPages
@@ -334,7 +335,7 @@ function referenceRecords(ids) {
 }
 
 function renderReaderArticle(profile, language) {
-  const sections = profile?.readerSections ?? []
+  const sections = orderReadingSections((profile?.readerSections ?? []).filter(section => section.id !== 'reading-introduction'))
   if (!sections.length) return ''
   const sources = new Map((profile.readerSources ?? []).map((source) => [source.id, source]))
   const sectionHtml = sections.map((section) => {
@@ -342,7 +343,7 @@ function renderReaderArticle(profile, language) {
       const source = sources.get(sourceId)
       return source ? '<a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + escapeHtml(source.title[language]) + ' ↗</a>' : ''
     }).filter(Boolean).join(' · ')
-    return '<article class="reader-section" id="reader-' + escapeHtml(section.id) + '"><h3>' + escapeHtml(section.title[language]) + '</h3><p>' + escapeHtml(section.text[language]) + '</p>' + (citations ? '<p class="reader-citations">' + citations + '</p>' : '') + '</article>'
+    return '<article class="reader-section" id="reader-' + escapeHtml(section.id) + '"><h3>' + escapeHtml(section.title[language]) + '</h3><p>' + paragraphParts(section.text[language]).map(escapeHtml).join('</p><p>') + '</p>' + (citations ? '<details class="reader-citations"><summary>' + (language === 'zh' ? '本段的来源与材料' : 'Sources and material for this passage') + '</summary>' + citations + '</details>' : '') + '</article>'
   }).join('')
   const limitations = profile.readerLimitations?.[language]
     ? '<p class="reader-limitations">' + escapeHtml(profile.readerLimitations[language]) + '</p>'
@@ -350,7 +351,7 @@ function renderReaderArticle(profile, language) {
   const relatedPages = (profile.readerRelatedPages ?? []).map((page) => '<a href="' + basePath + (language === 'zh' ? '/zh' : '') + '/taxa/' + escapeHtml(staticPathSegment(page.targetId)) + '/"><span>' + escapeHtml(page.context[language]) + '</span><strong>' + escapeHtml(page.label[language]) + ' →</strong></a>').join('')
   const relatedHtml = relatedPages ? '<nav class="reader-related" aria-label="' + (language === 'zh' ? '相关阅读' : 'Related reading') + '">' + relatedPages + '</nav>' : ''
   const sourceHtml = (profile.readerSources ?? []).map((source) => '<li><a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + escapeHtml(source.title[language]) + '</a> — ' + escapeHtml(source.scope[language]) + '</li>').join('')
-  return '<section class="reader-article" id="species-introduction"><span class="eyebrow">' + (language === 'zh' ? '物种介绍' : 'Species introduction') + '</span><h2>' + (language === 'zh' ? '身体、生活与研究中的发现' : 'Body, life and findings from studies') + '</h2><div class="reader-sections">' + sectionHtml + '</div>' + relatedHtml + '<details class="reader-scope"><summary>' + (language === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions') + '</summary>' + limitations + '<ul>' + sourceHtml + '</ul></details></section>'
+  return '<section class="reader-article" id="species-introduction"><h2>' + (language === 'zh' ? '身体、生活与研究中的发现' : 'Body, life and findings from studies') + '</h2><div class="reader-sections">' + sectionHtml + '</div>' + relatedHtml + '<details class="reader-scope"><summary>' + (language === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions') + '</summary>' + limitations + '<ul>' + sourceHtml + '</ul></details></section>'
 }
 
 function loadChineseTranslations() {
@@ -534,7 +535,7 @@ for (const entity of entities) {
     const path = language === 'en' ? englishPath : chinesePath
     const alternatePath = language === 'en' ? chinesePath : englishPath
     const commonName = language === 'zh' ? entity.names.zh : entity.names.en
-    const summary = language === 'zh' ? entity.definition.zh : profile?.overview ?? entity.definition.en
+    const summary = profile?.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? (language === 'zh' ? entity.definition.zh : profile?.overview ?? entity.definition.en)
     const title = `${commonName} · ${entity.names.scientific}`
     const claimHtml = subjectClaims.length
       ? subjectClaims.map((claim) => `<article class="claim"><small>${escapeHtml(localize(language, claim.claimType))} · ${escapeHtml(localize(language, claim.confidence))}</small><p>${escapeHtml(localize(language, claim.statement))}</p><code>${escapeHtml(claim.id)}</code></article>`).join('')
@@ -768,7 +769,7 @@ for (const language of ['en', 'zh']) {
   const alternatePath = language === 'en' ? 'zh/methods/' : 'methods/'
   const title = language === 'zh' ? '方法与证据边界' : 'Methods and evidence boundaries'
   const description = language === 'zh' ? 'Evo Atlas 的静态优先数据流程、采样边界、坐标模型与来源限制。' : 'Evo Atlas static-first data workflow, sampling boundaries, coordinate models and source limitations.'
-  let body = `<span class="eyebrow">${text.methods}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p><section><h2>${language === 'zh' ? '浏览器即研究工作区' : 'The browser is the research workspace'}</h2><p>${language === 'zh' ? 'GitHub Actions 生成版本化证据，GitHub Pages 提供不可变文件，浏览器完成筛选、关联与可视化。' : 'GitHub Actions prepares versioned evidence, GitHub Pages serves immutable files, and the browser performs filtering, linking and visualization.'}</p></section><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${basePath}/#/methods">${text.open} ↗</a><a class="button secondary" href="${repositoryUrl}/blob/main/docs/data-methods.md">${language === 'zh' ? '查看完整方法文档' : 'Read full methods documentation'} ↗</a></div>`
+  let body = `<span class="eyebrow">${text.methods}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p><section><h2>${language === 'zh' ? '浏览器即研究工作区' : 'The browser is the research workspace'}</h2><p>${language === 'zh' ? 'GitHub Actions 生成版本化证据，GitHub Pages 提供不可变文件，浏览器完成筛选、关联与可视化。' : 'GitHub Actions prepares versioned evidence, GitHub Pages serves immutable files, and the browser performs filtering, linking and visualization.'}</p></section><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${basePath}/#/info?tab=science">${text.open} ↗</a><a class="button secondary" href="${repositoryUrl}/blob/main/docs/data-methods.md">${language === 'zh' ? '查看完整方法文档' : 'Read full methods documentation'} ↗</a></div>`
   if (staticPages) body = `<span class="eyebrow">${text.methods}</span><h1>${escapeHtml(title)}</h1><p class="dek">${language === 'zh' ? '本站在构建时从版本化来源生成可直接阅读的 HTML，保留原有主张、引用和局限。本站提供可切换年代的轻量地图；完整地形、多图层、数据查询与本地 SQL 属于完整应用，不在此静态阅读版运行。' : 'This site generates readable HTML from versioned sources at build time, preserving claims, citations and limitations. This edition includes an age-selectable lightweight map. Full terrain, additional layers, data queries and local SQL belong to the full application.'}</p><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${repositoryUrl}/blob/main/docs/data-methods.md">${language === 'zh' ? '完整方法文档' : 'Full methods documentation'}</a><a class="button secondary" href="${basePath}/${language === 'zh' ? 'zh/' : ''}apps/">${language === 'zh' ? '完整应用' : 'Full applications'}</a></div>`
   write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, jsonLd: { about: ['paleontology', 'data provenance', 'sampling', 'scientific review'] }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.methods, url: `${baseUrl}/${path}` }], body }))
 }
@@ -825,7 +826,7 @@ for (const language of ['en', 'zh']) {
   const alternatePath = language === 'en' ? `zh/datasets/${manifest.datasetVersion}/` : `datasets/${manifest.datasetVersion}/`
   const title = `${text.dataset} ${manifest.datasetVersion}`
   const description = language === 'zh' ? 'Evo Atlas 当前静态数据集的范围、记录数、局限与机器可读入口。' : 'Scope, record counts, limitations and machine-readable entry points for the current Evo Atlas static dataset.'
-  const body = `<span class="eyebrow">${text.dataset}</span><h1>${escapeHtml(manifest.datasetVersion)}</h1><p class="dek">${escapeHtml(localize(language, manifest.scopeStatement))}</p><div class="facts"><div><small>${language === 'zh' ? '化石记录' : 'Fossil records'}</small><strong>${manifest.records.fossilOccurrences.toLocaleString()}</strong></div><div><small>${language === 'zh' ? '注册实体' : 'Registry entities'}</small><strong>${manifest.records.registryEntities}</strong></div><div><small>${language === 'zh' ? '内容包' : 'Content packages'}</small><strong>${manifest.records.dataPackages}</strong></div></div><section><h2>${text.evidence}</h2><p>${language === 'zh' ? '奇蹄目保留完整分页查询账本；其余内容包来自非随机、有界的 PBDB 教学样本。查询完整性不等于化石记录完整性。' : 'Perissodactyla preserves a complete paginated query ledger; other packages derive from a non-random bounded PBDB teaching sample. Query completeness is not fossil-record completeness.'}</p></section><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${basePath}/#/data">${text.open} ↗</a><a class="button secondary" href="${basePath}/${datasetManifestPath}">JSON ↗</a></div>`
+  const body = `<span class="eyebrow">${text.dataset}</span><h1>${escapeHtml(manifest.datasetVersion)}</h1><p class="dek">${escapeHtml(localize(language, manifest.scopeStatement))}</p><div class="facts"><div><small>${language === 'zh' ? '化石记录' : 'Fossil records'}</small><strong>${manifest.records.fossilOccurrences.toLocaleString()}</strong></div><div><small>${language === 'zh' ? '注册实体' : 'Registry entities'}</small><strong>${manifest.records.registryEntities}</strong></div><div><small>${language === 'zh' ? '内容包' : 'Content packages'}</small><strong>${manifest.records.dataPackages}</strong></div></div><section><h2>${text.evidence}</h2><p>${language === 'zh' ? '奇蹄目保留完整分页查询账本；其余内容包来自非随机、有界的 PBDB 教学样本。查询完整性不等于化石记录完整性。' : 'Perissodactyla preserves a complete paginated query ledger; other packages derive from a non-random bounded PBDB teaching sample. Query completeness is not fossil-record completeness.'}</p></section><section><h2>${text.limitations}</h2><ol>${manifest.limitations.map((limitation) => `<li>${escapeHtml(localize(language, limitation))}</li>`).join('')}</ol></section><div class="actions"><a class="button" href="${basePath}/#/info?tab=sources">${text.open} ↗</a><a class="button secondary" href="${basePath}/${datasetManifestPath}">JSON ↗</a></div>`
   write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, type: 'Dataset', jsonLd: { version: manifest.datasetVersion, dateModified: manifest.generatedAt, creator: { '@type': 'Organization', name: 'Evo Atlas contributors', url: repositoryUrl }, license: `${repositoryUrl}/blob/main/DATA_LICENSES.md`, distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${baseUrl}/${datasetManifestPath}` }], temporalCoverage: '4567 Ma/Present', variableMeasured: Object.keys(manifest.records) }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.dataset, url: `${baseUrl}/${path}` }], body }))
   datasetPageCount += 1
 }

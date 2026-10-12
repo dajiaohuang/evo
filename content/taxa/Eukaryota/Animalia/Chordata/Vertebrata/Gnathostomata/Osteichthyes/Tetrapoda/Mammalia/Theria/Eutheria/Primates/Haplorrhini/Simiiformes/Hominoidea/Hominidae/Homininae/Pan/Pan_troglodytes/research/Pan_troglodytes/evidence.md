@@ -46,9 +46,7 @@ records:
           en: Continue with another featured primate introduction.
           zh: 继续阅读另一篇精选灵长类物种介绍。
     readerSections:
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/0/id
+      - id: reading-introduction
         title:
           en:
             markdown: page.en.md
@@ -59,18 +57,17 @@ records:
             field: /records/atlas-profile/readerSections/0/title/zh
             format: heading
         text:
-          en:
-            markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/1/id
+          - walker2018
+          - brysonMorrison2017
+          - curry2023
+      - id: range
         title:
           en:
             markdown: page.en.md
@@ -88,11 +85,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/2/id
+          - humle2016
+      - id: habitat
         title:
           en:
             markdown: page.en.md
@@ -110,11 +104,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/2/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/3/id
+          - brysonMorrison2017
+      - id: tool-use
         title:
           en:
             markdown: page.en.md
@@ -132,11 +123,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/3/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/4/id
+          - malherbe2024
+      - id: life-history
         title:
           en:
             markdown: page.en.md
@@ -154,11 +142,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/4/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/4/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/5/id
+          - walker2018
+      - id: body-mass
         title:
           en:
             markdown: page.en.md
@@ -176,11 +161,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/5/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/6/id
+          - curry2023
+      - id: population-history
         title:
           en:
             markdown: page.en.md
@@ -198,10 +180,27 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/6/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/6/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/6/sourceIds/1
+          - barrie2022
+      - id: conservation
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/7/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/7/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/7/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/7/text/zh
+        sourceIds:
+          - strindberg2018
+          - humle2016
     readerSources:
       referenceBindings:
         - referenceId: ref-20f9c4d4-1da8-8e60-a1d3-5810cbb0fa96
@@ -540,12 +539,6 @@ COL26.8 dataset 316115 records accepted species usage 4C92G as Pan troglodytes, 
 The pinned checklist usage and its accepted parent chain are explicit; this claim is limited to that release and makes no phylogenetic or biological inference.
 <!-- /evo:text -->
 
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/0/reviewedAgainstReferenceVersion -->
-COL26.8 dataset 316115, accepted usage 4C92G; cross-checked against the bundled MDD mammal sidecar and raw dossier on 2026-09-27
-<!-- /evo:text -->
-
 ## claims / statement
 
 <!-- evo:text /records/claims/1/statement -->
@@ -558,12 +551,6 @@ Bossou, Guinea, is the single locality represented by the selected ecology study
 The primary field study identifies Bossou as its site; the claim deliberately records only a sampled locality and not the species range.
 <!-- /evo:text -->
 
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/1/reviewedAgainstReferenceVersion -->
-Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; source dossier license and study-scope record checked 2026-09-27
-<!-- /evo:text -->
-
 ## claims / statement
 
 <!-- evo:text /records/claims/2/statement -->
@@ -574,12 +561,6 @@ At Bossou, Guinea, daily behavioral follows of the local wild P. t. verus commun
 
 <!-- evo:text /records/claims/2/confidenceRationale -->
 The study directly reports habitat selection and feeding-event distances for one Bossou community. The observations do not represent other sites or establish species-wide habitat use.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/2/reviewedAgainstReferenceVersion -->
-Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; Methods, Results and Table II checked against the item-level CC BY 4.0 dossier record on 2026-09-27
 <!-- /evo:text -->
 
 ## claims / referenceLinks / pages
@@ -598,12 +579,6 @@ The selected COL26.8 checklist and Bossou habitat-use study establish checklist 
 
 <!-- evo:text /records/claims/3/confidenceRationale -->
 The selected checklist is taxonomic and the cited field study is ecological; neither source estimates a fossil or species-duration range, so the numerical interval remains withheld.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/3/reviewedAgainstReferenceVersion -->
-COL26.8 dataset 316115, accepted usage 4C92G; Bryson-Morrison et al. 2017 DOI 10.1007/s10764-016-9947-4; source scopes checked 2026-09-27
 <!-- /evo:text -->
 
 ## claim-rationales.zh

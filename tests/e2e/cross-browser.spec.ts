@@ -15,7 +15,7 @@ test.beforeEach(async ({ page }) => {
 test('@cross-browser public navigation reaches the catalog and evidence dossier', async ({ page }) => {
   await page.goto('./#/home')
   const navigation = page.getByRole('navigation', { name: 'Primary navigation' })
-  for (const label of ['Read', 'Explore', 'Groups & species', 'Workspace']) {
+  for (const label of ['Paleomap', 'Read', 'Groups & species', 'Tools']) {
     await expect(navigation.getByRole('button', { name: label, exact: true })).toBeVisible()
   }
 
@@ -44,6 +44,6 @@ test('@cross-browser Explorer restores a versioned share state', async ({ page }
   await page.goto('./#/explore?age=34&view=tree&taxon=perissodactyla')
   const datasetVersion = await currentDatasetVersion(page)
   await expect(page.getByRole('button', { name: 'Tree', exact: true })).toHaveClass(/is-active/)
-  await expect(page.getByText('34.0', { exact: true })).toBeVisible()
+  await expect(page.getByRole('spinbutton', {name:'Age in millions of years'})).toHaveValue('34')
   await expect.poll(() => page.url()).toContain(`dataset=${datasetVersion}`)
 })

@@ -1,0 +1,16 @@
+.node-reading { max-width: 74ch; margin: 0 auto; color: var(--color-text); }
+.node-reading__contents { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 28px; }
+.node-reading__contents button { min-height: 44px; padding: 8px 12px; border: 1px solid var(--color-border); background: transparent; color: var(--color-text); border-radius: 8px; font: inherit; cursor: pointer; text-align: left; }
+.node-reading__section { padding: 16px 0 24px; scroll-margin-top: 24px; overflow-wrap: anywhere; }
+.node-reading__section + .node-reading__section { border-top: 1px solid var(--color-border); }
+.node-reading__section h3 { margin: 0 0 14px; color: var(--color-text); font-size: clamp(18px, 2vw, 23px); line-height: 1.5; }
+.node-reading__section p { margin: 0 0 14px; font-size: 16px; line-height: 1.95; }
+.node-reading__context { padding: 12px 16px; border-left: 2px solid var(--color-border); }
+.node-reading__context p, .node-reading__citation p, .node-reading__citation li { font-size: 13px; line-height: 1.8; color: var(--color-text-muted); }
+.node-reading__citation, .node-reading__methods { margin: 12px 0; }
+.node-reading summary { min-height: 44px; padding: 10px 0; cursor: pointer; font-size: 13px; color: var(--color-text-muted); }
+.node-reading__citation > div { margin: 12px 0; }
+.node-reading__citation a { color: var(--color-accent); }
+.node-reading__methods { border-top: 1px solid var(--color-border); }
+.node-reading .node-reading__language { font-size: 12px; color: var(--color-text-muted); }
+.node-reading button:focus-visible, .node-reading summary:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }

@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test'
 test('Web source browser remains closed, then exposes ITIS-only scope summaries without row requests', async ({ page }) => {
   const requests: string[] = []
   page.on('request', (request) => { if (request.url().includes('itis-') && request.url().endsWith('.jsonl.gz')) requests.push(request.url()) })
-  await page.goto('./#/data')
+  await page.goto('./#/info?tab=sources')
   const browser = page.locator('.itis-browser')
   await expect(browser.locator('summary')).toBeVisible()
   await expect(browser).not.toHaveAttribute('open')

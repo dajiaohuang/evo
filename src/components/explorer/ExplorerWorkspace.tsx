@@ -9,7 +9,7 @@ import { getTaxonProfile } from '../../services/catalogProfiles'
 import { useCatalogContext } from '../../hooks/useCatalogContext'
 import { getEntityPublication } from '../../services/publication'
 import { periods, timeScaleUnits } from '../../services/geology'
-import { buildRouteHash, explorationShareUrl, getFiniteRouteNumber, parseRouteHash } from '../../utils/routing'
+import { buildRouteHash, explorationShareUrl, getFiniteRouteNumber } from '../../utils/routing'
 import { searchReturnHash } from '../../utils/searchMapNavigation'
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
 import { loadPackageForEntity } from '../../data-client/staticDataClient'
@@ -23,12 +23,12 @@ import type { TreeFocusRequest } from '../tree/EvoTree'
 import type { OpenFullTree } from '../tree/LocalTreePanel'
 
 type ExplorerView = 'map' | 'tree' | 'diversity'
-type GuideMode = 'choice' | 'tour' | 'hidden'
+type GuideMode = 'tour' | 'hidden'
 type TutorialStepId = 'time' | 'map' | 'tree' | 'evidence'
 
 interface ExplorerWorkspaceProps {
-  dashboard?: boolean
-  params?: URLSearchParams
+  params: URLSearchParams
+  syncRoute?: boolean
 }
 
 const TUTORIAL_STEPS: Array<{ id: TutorialStepId; title: string; description: string }> = [
@@ -78,19 +78,18 @@ function ModuleLoading() {
   return <div className="explorer-module-loading">{t('Loading view…')}</div>
 }
 
-function initialGuideMode(): GuideMode {
-  try { return window.localStorage.getItem('evo-explorer-guide-v2') === 'dismissed' ? 'hidden' : 'choice' } catch { return 'choice' }
-}
-
-export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspaceProps) {
+export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspaceProps) {
+  const dashboard = true
   const { language, number, t } = useI18n()
-  const initialRoute = useMemo(() => params ? { params } : parseRouteHash(window.location.hash), [params])
+  const initialRoute = useMemo(() => ({ params }), [params])
   const [hydratedRoute, setHydratedRoute] = useState<typeof initialRoute | null>(null)
   const pendingOccurrence = useRef<string | null>(null)
   const historySelection = useRef<string | null>(null)
   const appliedHash = useRef(window.location.hash)
   const routeView = initialRoute.params.get('view')
   const returnToMap = searchReturnHash(initialRoute.params)
+  const readingReturn = initialRoute.params.get('returnReading')
+  const returnToReading = readingReturn?.startsWith('#/') && readingReturn.length <= 4000 ? readingReturn : null
   const initialView: ExplorerView = routeView === 'tree' || routeView === 'diversity' ? routeView : 'map'
   const context = useMemo(() => ({
     profile: initialRoute.params.get('profile'),
@@ -115,7 +114,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   const [query, setQuery] = useState('')
   const [shareStatus, setShareStatus] = useState<'idle' | 'copied' | 'ready'>('idle')
   const [shareUrl, setShareUrl] = useState('')
-  const [guideMode, setGuideMode] = useState<GuideMode>(() => dashboard ? initialGuideMode() : 'hidden')
+  const [guideMode, setGuideMode] = useState<GuideMode>('hidden')
   const [guideStep, setGuideStep] = useState(0)
   const [detailsOpen, setDetailsOpen] = useState(!dashboard)
 
@@ -134,12 +133,14 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   const setMapProjection = useAppStore((state) => state.setMapProjection)
   const markerMode = useAppStore((state) => state.markerMode)
   const coordinateMode = useAppStore((state) => state.coordinateMode)
+  const mapContentMode = useAppStore((state) => state.mapContentMode)
   const treeMode = useAppStore((state) => state.treeMode)
   const selectedOccurrence = useAppStore((state) => state.selectedOccurrence)
   const occurrencesByInterval = useAppStore((state) => state.occurrencesByInterval)
   const occurrencesByTaxonQuery = useAppStore((state) => state.occurrencesByTaxonQuery)
   const setViewState = useAppStore((state) => state.setViewState)
   const setMarkerMode = useAppStore((state) => state.setMarkerMode)
+  const setMapContentMode = useAppStore((state) => state.setMapContentMode)
   const setCoordinateMode = useAppStore((state) => state.setCoordinateMode)
   const setTreeMode = useAppStore((state) => state.setTreeMode)
   const selectFossilOccurrence = useAppStore((state) => state.selectFossilOccurrence)
@@ -196,6 +197,8 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
 
     const requestedMarkerMode = params.get('markers') as FossilMarkerMode | null
     if (requestedMarkerMode && MARKER_MODES.has(requestedMarkerMode)) setMarkerMode(requestedMarkerMode)
+    const requestedContent = params.get('mapContent')
+    if (requestedContent === 'all' || requestedContent === 'featured') setMapContentMode(requestedContent)
     const requestedCoordinateMode = params.get('coords') as CoordinateMode | null
     if (requestedCoordinateMode && COORDINATE_MODES.has(requestedCoordinateMode)) setCoordinateMode(requestedCoordinateMode)
     const requestedTreeMode = params.get('treeMode') as TreeDisplayMode | null
@@ -240,7 +243,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   }, [initialRoute.params, occurrencesByInterval, occurrencesByTaxonQuery, selectFossilOccurrence, selectedOccurrence?.oid])
 
   useEffect(() => {
-    if (!datasetAccepted || hydratedRoute !== initialRoute) return
+    if (!syncRoute || !datasetAccepted || hydratedRoute !== initialRoute) return
     // A navigation may have changed the URL before React receives hashchange.
     // Never let an asynchronous data update replace that pending navigation.
     if (window.location.hash !== appliedHash.current) return
@@ -261,16 +264,18 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
       projection: mapProjection,
       markers: markerMode,
       coords: coordinateMode,
+      mapContent: mapContentMode,
       treeMode,
       occurrence: selectedOccurrence?.oid,
       returnTo: returnToMap,
+      returnReading: returnToReading,
     })
     const selection = `${view}:${selectedNodeId ?? ''}:${selectedOccurrence?.oid ?? ''}`
     const method = historySelection.current !== null && historySelection.current !== selection ? 'pushState' : 'replaceState'
     historySelection.current = selection
     if (window.location.hash !== hash) window.history[method](window.history.state, '', `${window.location.pathname}${window.location.search}${hash}`)
     appliedHash.current = hash
-  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, mapProjection, markerMode, returnToMap, selectedNodeId, selectedOccurrence?.oid, treeMode, view, viewState])
+  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, mapProjection, mapContentMode, markerMode, returnToMap, returnToReading, selectedNodeId, selectedOccurrence?.oid, syncRoute, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
     if (isPagesPreview && !isPreviewTaxonAllowed(node.id)) return
@@ -313,7 +318,6 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
     setGuideMode('hidden')
     setMobilePanel(null)
     if (dashboard) setDetailsOpen(false)
-    try { window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed') } catch { /* Guide can still close for this session. */ }
   }
 
   const showTutorialStep = (nextStep: number) => {
@@ -350,7 +354,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   const canLocateTime = selectedNode && selectedNode.rangeEvidenceLevel !== 'withheld-no-range-evidence'
     && Number.isFinite(selectedNode.firstAppearance) && Number.isFinite(selectedNode.lastAppearance)
   const revealSelection = useEffectEvent(() => {
-    if ((!selectedNodeId && !selectedOccurrence) || guideMode !== 'hidden') return
+    if (!syncRoute || (!selectedNodeId && !selectedOccurrence) || guideMode !== 'hidden') return
     if (view === 'tree' && treeFocus?.nodeId === selectedNodeId) {
       setMobilePanel(null)
       return
@@ -363,7 +367,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
   useEffect(() => { revealSelection() }, [selectedNodeId, selectedOccurrence?.oid, treeFocus])
 
   return (
-    <main className={`explorer-workspace${dashboard ? ' explorer-workspace--dashboard' : ''}${detailsOpen ? ' is-details-open' : ''}`}>
+    <section aria-label={language === 'zh' ? '古地图看板' : 'Paleomap dashboard'} className={`explorer-workspace${dashboard ? ' explorer-workspace--dashboard' : ''}${detailsOpen ? ' is-details-open' : ''}`}>
       {datasetMismatch && !datasetAccepted && (
         <section className="dataset-mismatch" role="alertdialog" aria-modal="true" aria-labelledby="dataset-mismatch-title">
           <div>
@@ -455,20 +459,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
 
       <section className="explorer-stage">
         {contextError && <p role="alert">{language === 'zh' ? '无法加载所选故事或事件。' : 'The selected story or event could not be loaded.'}</p>}
-        {guideMode === 'choice' && (
-          <section className="dashboard-welcome" role="dialog" aria-modal="true" aria-labelledby="dashboard-welcome-title">
-            <div>
-              <span>{t('Evo Atlas dashboard')}</span>
-              <h1 id="dashboard-welcome-title">{t('Start with the dashboard or take the quick tour?')}</h1>
-              <p>{t('The map, tree, fossil sample and geological timeline share one time context. Detailed research tools stay folded until you ask for them.')}</p>
-              <div>
-                <button className="dashboard-welcome__primary" autoFocus onClick={startTutorial}>{t('Take the 3-minute tour')}</button>
-                <button onClick={dismissGuide}>{t('Use the dashboard now')}</button>
-              </div>
-            </div>
-          </section>
-        )}
-        {guideMode === 'tour' && (
+        {guideMode === 'tour' && syncRoute && (
           <aside className="explorer-first-run" aria-label={t('Explorer quick guide')}>
             <div className="explorer-first-run__heading">
               <strong>{t('Dashboard walkthrough')}</strong>
@@ -512,7 +503,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
             <button aria-expanded={mobilePanel === 'inspector'} onClick={() => { setDetailsOpen(true); setMobilePanel((panel) => panel === 'inspector' ? null : 'inspector') }}>{t('Evidence')}</button>
           </div>
           <div className="stage-actions">
-            <button className="stage-tutorial-trigger" onClick={dashboard ? () => setGuideMode('choice') : startTutorial}>{t('Tutorial')}</button>
+            <button className="stage-tutorial-trigger" onClick={startTutorial}>{t('Tutorial')}</button>
             {dashboard && <button className="stage-details-trigger" aria-expanded={detailsOpen} onClick={() => setDetailsOpen((open) => !open)}>{t(detailsOpen ? 'Fold detailed tools' : 'Open detailed tools')}</button>}
             <div className="stage-metric">
               <strong>{number(periodOccurrences?.length ?? 0)}</strong>
@@ -523,6 +514,7 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
 
         <div className="dashboard-stage-body">
           <div className="stage-canvas">
+            {returnToReading && <a className="search-map-return" href={returnToReading}>{language === 'zh' ? '返回刚才的阅读位置' : 'Return to your reading position'} ↶</a>}
             {returnToMap && <a className="search-map-return" href={returnToMap}>
               <span aria-hidden="true">↶</span> {language === 'zh' ? '返回搜索前地图' : 'Return to the previous map'}
             </a>}
@@ -586,6 +578,6 @@ export function ExplorerWorkspace({ dashboard = false, params }: ExplorerWorkspa
       <section className="explorer-timeline">
         <ErrorBoundary fallback={<ViewFallback label="Timeline" />}><GeoTimeline /></ErrorBoundary>
       </section>
-    </main>
+    </section>
   )
 }

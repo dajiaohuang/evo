@@ -15,17 +15,17 @@ test('language switch localizes the shell and scientific content, then persists'
     if (!window.localStorage.getItem('evo-atlas-language')) window.localStorage.setItem('evo-atlas-language', 'en')
   })
   await page.goto('./#/taxa?id=perissodactyla')
-  await expect(page.getByText('An early Eocene radiation whose initially similar branches', { exact: false })).toBeVisible()
+  await expect(page.locator('.catalog-dek')).toContainText('Horses, tapirs and rhinoceroses look strikingly different today')
 
   await page.getByRole('button', { name: '中文', exact: true }).click()
 
   await expect(page.locator('html')).toHaveAttribute('lang', 'zh-CN')
   await expect(page).toHaveTitle('Perissodactyla — Evo Atlas')
-  await expect(page.getByRole('button', { name: '探索', exact: true })).toBeVisible()
-  await expect(page.getByText('一次早始新世辐射；最初相近的分支后来分化为马、貘、犀牛', { exact: false })).toBeVisible()
+  await expect(page.getByRole('button', { name: '古地图', exact: true })).toBeVisible()
+  await expect(page.locator('.catalog-dek')).toContainText('马、貘和犀牛今天的外形差异明显')
 
   await page.reload()
-  await expect(page.getByRole('button', { name: '探索', exact: true })).toBeVisible()
+  await expect(page.getByRole('button', { name: '古地图', exact: true })).toBeVisible()
   await expect.poll(async () => {
     try {
       return await page.evaluate(() => window.localStorage.getItem('evo-atlas-language'))
@@ -63,9 +63,9 @@ test('global search lazily resolves accepted Catalogue of Life species without c
   await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=6MB3T$/)
   await expect(page.getByRole('heading', { name: /Homo sapiens/ })).toBeVisible()
   await expect(page.getByRole('heading', { name: 'Exclusive resource ownership' })).toBeVisible()
-  await expect(page.locator('.catalogue-owner-card')).toContainText('Primates')
-  await expect(page.locator('.catalogue-owner-card')).toContainText('530')
-  await expect(page.locator('.catalogue-owner-card')).toContainText('does not provide morphology, distribution or phylogenetic evidence')
+  await expect(page.locator('.reading-window main:visible .catalogue-owner-card')).toContainText('Primates')
+  await expect(page.locator('.reading-window main:visible .catalogue-owner-card')).toContainText('530')
+  await expect(page.locator('.reading-window main:visible .catalogue-owner-card')).toContainText('does not provide morphology, distribution or phylogenetic evidence')
   await expect(page.getByRole('link', { name: /Verify the upstream record/ })).toHaveAttribute('href', /checklistbank\.org\/dataset\/316115\/taxon\/6MB3T$/)
 
   await page.goto('./#/catalog')
@@ -85,13 +85,13 @@ test('global search lazily resolves accepted Catalogue of Life species without c
   await resolvingName.click()
   await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=9CF4V$/)
   await expect(page.getByRole('heading', { name: /Otoglyphis pubescens subsp\. pubescens/ })).toBeVisible()
-  await expect(page.locator('.catalogue-status')).toHaveText('Accepted')
-  await expect(page.locator('.catalogue-taxon-heading dl')).toContainText('subspecies')
-  await expect(page.locator('.catalogue-taxon-heading dl')).toContainText('Resolution target')
-  await expect(page.locator('.catalogue-lineage')).toContainText('outside the accepted-species ancestor closure')
-  await expect(page.locator('.catalogue-ownership-section')).toContainText('not forced into accepted-species resource partitions')
-  await expect(page.locator('.catalogue-owner-card')).toHaveCount(0)
-  await expect(page.locator('.catalogue-source-panel .catalogue-source-card')).toContainText('Synonymic Checklists of the Vascular Plants of the World')
+  await expect(page.locator('.reading-window main:visible .catalogue-status')).toHaveText('Accepted')
+  await expect(page.locator('.reading-window main:visible .catalogue-taxon-heading dl')).toContainText('subspecies')
+  await expect(page.locator('.reading-window main:visible .catalogue-taxon-heading dl')).toContainText('Resolution target')
+  await expect(page.locator('.reading-window main:visible .catalogue-lineage')).toContainText('outside the accepted-species ancestor closure')
+  await expect(page.locator('.reading-window main:visible .catalogue-ownership-section')).toContainText('not forced into accepted-species resource partitions')
+  await expect(page.locator('.reading-window main:visible .catalogue-owner-card')).toHaveCount(0)
+  await expect(page.locator('.reading-window main:visible .catalogue-source-panel .catalogue-source-card')).toContainText('Synonymic Checklists of the Vascular Plants of the World')
 
   await page.goto('./#/catalog')
   await page.locator('.global-search-trigger').click()
@@ -111,7 +111,8 @@ test('Catalog publishes every research preset with bilingual evidence limits and
   await expect(lifePreset).toContainText('Limitations')
   await expect(lifePreset).toContainText('does not establish an exact origin')
   await lifePreset.getByRole('link', { name: /Open research preset/ }).click()
-  await expect(page).toHaveURL(/#\/explore\?taxon=life&view=tree$/)
+  await expect.poll(() => new URLSearchParams(page.url().split('?')[1]).get('taxon')).toBe('life')
+  await expect(page.getByRole('button', {name:'Tree', exact:true})).toHaveClass(/is-active/)
   await expect(page.locator('.explorer-stage')).toBeVisible()
 
   await page.goto('./#/catalog')
@@ -135,6 +136,8 @@ test('interpretive reconstruction images are paired with visible AI and uncertai
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
   await page.goto('./#/taxa?id=lycophyta')
 
+  await page.getByText('Fossil samples, identifiers and query scope', {exact:true}).click()
+  await page.getByText('Specimen images and reconstructions', {exact:true}).click()
   const reconstruction = page.locator('.media-card--reconstruction')
   await expect(reconstruction.getByRole('img')).toHaveAttribute('alt', 'A small branching Asteroxylon exemplar with upright axes and a creeping root-bearing axis')
   await expect(reconstruction.locator('.media-card__badge')).toHaveText('AI-assisted interpretive reconstruction — not a specimen photograph, scale drawing or direct evidence.')
@@ -154,7 +157,7 @@ test('Catalogue search returns every usage in an exact-name homonym cluster larg
 test('Catalogue deep links browse exact parent-child hierarchy without silently switching releases', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
   await page.goto('./#/registry?release=COL26.8&id=636X2')
-  await expect(page.locator('.catalogue-taxon-heading h1')).toContainText('Homo')
+  await expect(page.locator('.reading-window main:visible .catalogue-taxon-heading h1')).toContainText('Homo')
   await expect(page.getByRole('button', { name: /Homo sapiens/ })).toBeVisible()
   await page.getByRole('button', { name: /Homo sapiens/ }).click()
   await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=6MB3T$/)
@@ -170,7 +173,7 @@ test('Archaea records expose their pinned LPSN source identifier without implyin
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
   await page.goto('./#/registry?release=COL26.8&id=354SW')
 
-  const lpsn = page.locator('.catalogue-lpsn-card')
+  const lpsn = page.locator('.reading-window main:visible .catalogue-lpsn-card')
   await expect(lpsn).toContainText('Pinned LPSN source record')
   await expect(lpsn).toContainText('LPSN 2026-07-26')
   await expect(lpsn).toContainText('not a name-based guess')
@@ -182,19 +185,19 @@ test('Archaea records expose their pinned LPSN source identifier without implyin
 test('switching Archaea records never retains the previous LPSN URL', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
   await page.goto('./#/registry?release=COL26.8&id=354SW')
-  await expect(page.locator('.catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775725"]')).toBeVisible()
+  await expect(page.locator('.reading-window main:visible .catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775725"]')).toBeVisible()
 
   await page.evaluate(() => { window.location.hash = '#/registry?release=COL26.8&id=354T2' })
   await expect(page).toHaveURL(/#\/registry\?release=COL26\.8&id=354T2$/)
-  await expect(page.locator('.catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775725"]')).toHaveCount(0)
-  await expect(page.locator('.catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775728"]')).toBeVisible()
+  await expect(page.locator('.reading-window main:visible .catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775725"]')).toHaveCount(0)
+  await expect(page.locator('.reading-window main:visible .catalogue-lpsn-card a[href="https://lpsn.dsmz.de/taxon/775728"]')).toBeVisible()
 })
 
 test('Virus records expose the exact pinned ICTV taxonomy and exemplar metadata', async ({ page }) => {
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
   await page.goto('./#/registry?release=COL26.8&id=__P2cHTzzJfvA8KpCMJQq0')
 
-  const ictv = page.locator('.catalogue-lpsn-card', { hasText: 'Current ICTV taxonomy and virus metadata' })
+  const ictv = page.locator('.reading-window main:visible .catalogue-lpsn-card', { hasText: 'Current ICTV taxonomy and virus metadata' })
   await expect(ictv).toContainText('MSL41.v1 · VMR 2026-07-29 · ICTV201907903')
   await expect(ictv).toContainText('All 17,554 current ICTV species ship with the pack; 2 do not yet have a COL26.8 accepted-species ID.')
   await expect(ictv).toContainText('Exemplar virus: Vibrio phage 1.188.A._10N.286.51.A6')
@@ -214,7 +217,7 @@ test('Plant records expose every exact WFO mapping outcome without routing WFO-o
   ] as const
   for (const [id, status, evidence] of cases) {
     await page.goto(`./#/registry?release=COL26.8&id=${id}`)
-    const wfo = page.locator('.catalogue-wfo-card')
+    const wfo = page.locator('.reading-window main:visible .catalogue-wfo-card')
     await expect(wfo).toContainText(`WFO 2026-06 · COL26.8 · ${status}`)
     await expect(wfo).toContainText(evidence)
     await expect(wfo).toContainText('All 382,438 WFO accepted species ship with the dataset; 60,751 without a provable COL26.8 ID remain in a separate non-COL partition.')
@@ -357,18 +360,19 @@ test('crocodylomorph and bird story separates specimens, functions, topologies a
 test('skip and catalog section controls do not corrupt the hash route', async ({ page }) => {
   await page.goto('./#/taxa?id=perissodactyla')
   const originalHash = await page.evaluate(() => window.location.hash)
-  await page.keyboard.press('Tab')
+  await page.getByRole('button', { name: 'Skip to atlas content' }).focus()
   await expect(page.getByRole('button', { name: 'Skip to atlas content' })).toBeFocused()
   await page.keyboard.press('Enter')
   await expect(page.locator('#main-content')).toBeFocused()
   expect(await page.evaluate(() => window.location.hash)).toBe(originalHash)
-  await page.getByRole('button', { name: 'Ecology', exact: true }).click()
-  await expect(page.locator('#ecology')).toBeVisible()
+  await page.locator('.node-reading__contents button').first().click()
+  await expect(page.locator('.node-reading__section').first()).toBeVisible()
   expect(await page.evaluate(() => window.location.hash)).toBe(originalHash)
 })
 
 test('Explorer restores state and removes the unsupported global model parameter', async ({ page }) => {
   await page.goto('./#/explore?age=12.3&older=20&younger=5&view=map&lat=10&lng=20&zoom=3&markers=points&coords=modern&land=0&treeMode=fossil-range&model=test-model')
+  await page.getByRole('button', {name:'Open detailed tools', exact:true}).click()
   const datasetVersion = await currentDatasetVersion(page)
   await expect(page.getByRole('button', { name: 'points' })).toHaveClass(/is-active/)
   await expect(page.getByRole('button', { name: 'modern' })).toHaveClass(/is-active/)
@@ -405,7 +409,7 @@ test('a service-worker upgrade removes dataset A caches and dataset B remains co
   })
   await expect.poll(() => page.evaluate(async () => (await caches.keys()).includes('evo-runtime-data-2026.08-static-v3'))).toBe(false)
 
-  await page.goto('./#/data')
+  await page.goto('./#/info?tab=sources')
   await expect(page.locator('.package-row')).toHaveCount(25)
   await expect(page.getByRole('heading', { name: 'One species, one resource partition' })).toBeVisible()
   await expect(page.locator('.ownership-row')).toHaveCount(33)
@@ -453,7 +457,7 @@ test('browser back and forward preserve hash navigation', async ({ page }) => {
   await page.getByRole('navigation', { name: 'Primary navigation' }).getByRole('button', { name: 'Groups & species', exact: true }).click()
   await expect(page).toHaveTitle('Catalog — Evo Atlas')
   await page.goBack()
-  await expect(page).toHaveTitle('Read the branches and changes of life — Evo Atlas')
+  await expect(page).toHaveTitle('Paleomap and stories of life — Evo Atlas')
   await page.goForward()
   await expect(page).toHaveTitle('Catalog — Evo Atlas')
 })
@@ -510,6 +514,7 @@ test('the complete PaleoDEM series loads one Web preview grid per selected age a
   })
 
   await page.goto('./#/explore?view=map&age=65')
+  await page.getByRole('button', {name:'Open detailed tools', exact:true}).click()
   const terrain = page.getByLabel('PALEOMAP elevation and bathymetry')
   await expect(terrain).toBeEnabled()
   await terrain.check()
@@ -549,6 +554,7 @@ test('ages beyond the CAO2024 range remain unavailable instead of clamping to 18
   })
 
   await page.goto('./#/explore?view=map&age=1800.1')
+  await page.getByRole('button', {name:'Open detailed tools', exact:true}).click()
   const ledger = page.locator('.map-model-ledger')
   await expect(ledger.locator('div', { has: page.getByText('Requested age', { exact: true }) })).toContainText('1,800.1 Ma')
   await expect(ledger.locator('div', { has: page.getByText('coastlines', { exact: true }) })).toContainText('unavailable')
@@ -565,6 +571,7 @@ test('a detailed CAO2024 layer reports its independently selected frame age', as
   await page.goto('./#/explore?view=map&age=107')
   await expect(page.getByText('CAO2024 nearest frame 105 Ma · requested 107 Ma · Δ 2 Myr', { exact: true })).toBeVisible()
 
+  await page.getByRole('button', {name:'Open detailed tools', exact:true}).click()
   const continentalCrust = page.getByLabel('continental-crust extent')
   await expect(continentalCrust).toBeEnabled()
   await continentalCrust.check()
@@ -577,6 +584,7 @@ test('CAO2024 point data loads separately from geometry and exposes source field
   await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
   await page.goto('./#/explore?view=map&age=1000')
 
+  await page.getByRole('button', {name:'Open detailed tools', exact:true}).click()
   await page.getByLabel('Palaeomagnetic poles and sample sites').check()
   await expect(page.getByText('Palaeomagnetic poles and sample sites · 15', { exact: true })).toBeVisible()
   await expect(page.getByText('Observation points are source data or model constraints, not geometry, terrain, elevation or bathymetry. Raw source positions never replace missing reconstructed positions.')).toBeVisible()

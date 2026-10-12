@@ -43,9 +43,7 @@ records:
       en: draft-ready
       zh: draft-ready
     readerSections:
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/0/id
+      - id: reading-introduction
         title:
           en:
             markdown: page.en.md
@@ -56,20 +54,17 @@ records:
             field: /records/atlas-profile/readerSections/0/title/zh
             format: heading
         text:
-          en:
-            markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/1
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/1/id
+          - kimock2019
+          - sengupta2015
+          - liu2018
+      - id: samples-and-identity
         title:
           en:
             markdown: page.en.md
@@ -87,11 +82,9 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/2/id
+          - col
+          - liu2018
+      - id: chinese-lineages
         title:
           en:
             markdown: page.en.md
@@ -109,11 +102,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/2/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/3/id
+          - liu2018
+      - id: seasonal-foraging
         title:
           en:
             markdown: page.en.md
@@ -131,11 +121,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/3/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/4/id
+          - sengupta2015
+      - id: morphology
         title:
           en:
             markdown: page.en.md
@@ -153,11 +140,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/4/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/4/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/5/id
+          - kimock2019
+      - id: reproductive-records
         title:
           en:
             markdown: page.en.md
@@ -175,8 +159,26 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/5/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/0
+          - sobral2024reproduction
+      - id: road-mortality
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/text/zh
+        sourceIds:
+          - pragatheesh2011
     readerSources:
       referenceBindings:
         - referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
@@ -563,12 +565,6 @@ Buxa Tiger Reserve, West Bengal, India, is the site of the selected ecology stud
 Both primary studies identify their sampled location directly. The statement retains study-site scope and makes no full-range inference.
 <!-- /evo:text -->
 
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/1/reviewedAgainstReferenceVersion -->
-Sengupta et al. 2015 DOI 10.1371/journal.pone.0140961; Kimock et al. 2019 DOI 10.1038/s41598-019-52633-4; methods checked 2026-09-27
-<!-- /evo:text -->
-
 ## claims / statement
 
 <!-- evo:text /records/claims/2/statement -->
@@ -579,12 +575,6 @@ At Buxa Tiger Reserve, West Bengal, one 64-individual troop was observed from Oc
 
 <!-- evo:text /records/claims/2/confidenceRationale -->
 The paper directly reports the troop size, study period, diet percentages and mean daily ranges. It is an observational one-troop study and does not establish a controlled causal effect or species-wide ecology.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/2/reviewedAgainstReferenceVersion -->
-Sengupta et al. 2015 DOI 10.1371/journal.pone.0140961; Methods, Results and Tables 1–3 checked against the CC BY 4.0 article on 2026-09-27
 <!-- /evo:text -->
 
 ## claims / referenceLinks / pages
@@ -605,12 +595,6 @@ On Cayo Santiago, researchers measured 125 adult males and 21 related females ca
 The source directly states its 2015 Cayo Santiago capture cohort, measured traits and pedigree-model results. The conclusion is bounded to the sampled population, pedigree and measured traits.
 <!-- /evo:text -->
 
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/3/reviewedAgainstReferenceVersion -->
-Kimock et al. 2019 DOI 10.1038/s41598-019-52633-4; Abstract, Morphometric Data Collection and Results checked against the CC BY 4.0 article on 2026-09-27
-<!-- /evo:text -->
-
 ## claims / statement
 
 <!-- evo:text /records/claims/4/statement -->
@@ -621,12 +605,6 @@ The selected COL26.8 checklist and the Buxa ecology and Cayo Santiago morphology
 
 <!-- evo:text /records/claims/4/confidenceRationale -->
 The checklist establishes classification and the cited papers study living populations; none supplies a temporal fossil-range endpoint. The numerical interval therefore remains withheld.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/4/reviewedAgainstReferenceVersion -->
-COL26.8 dataset 316115, usage 3WWNQ; Sengupta et al. 2015 DOI 10.1371/journal.pone.0140961; Kimock et al. 2019 DOI 10.1038/s41598-019-52633-4; source scopes checked 2026-09-27
 <!-- /evo:text -->
 
 ## claims / statement

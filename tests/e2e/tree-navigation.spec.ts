@@ -43,6 +43,7 @@ test('a local tree can be explored and reopened without changing its article or 
     })
   })).toBe(true)
   await panel.getByRole('button', { name: '放大树', exact: true }).click()
+  await tree.scrollIntoViewIfNeeded()
   const box = (await tree.boundingBox())!
   const beforeDrag = await tree.locator(':scope > g').getAttribute('transform')
   await page.mouse.move(box.x + box.width - 12, box.y + box.height - 12)
@@ -84,6 +85,9 @@ test('a local branch jumps into the full tree at its corresponding position', as
   })
   expect(centred).toBe(true)
   await page.locator('.stage-canvas').screenshot({ path: test.info().outputPath('full-tree.png') })
+  await page.getByRole('link', {name: '返回刚才的阅读位置'}).click()
+  await expect(page.locator('.reading-window')).toBeVisible()
+  await expect(panel.locator('svg[role="tree"]')).toBeVisible()
 })
 
 test('mobile readers can expand a local tree and reach the full tree without overflow', async ({ page }) => {

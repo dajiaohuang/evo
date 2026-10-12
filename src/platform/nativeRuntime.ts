@@ -43,7 +43,8 @@ export function routeHashFromAppUrl(rawUrl: string): string | null {
       }
     }
     if (path === 'taxa' || path === 'events') return '#/catalog'
-    if (path === 'stories' || path === 'methods') return `#/${path}`
+    if (path === 'stories') return '#/stories'
+    if (path === 'methods') return '#/info?tab=science'
     // Other static documents have no equivalent native route. Open them as
     // documents instead of silently replacing the user's destination with home.
     return null

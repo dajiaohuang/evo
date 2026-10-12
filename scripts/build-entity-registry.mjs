@@ -552,9 +552,9 @@ function writeJson(relativePath, value) {
   const absolutePath = join(outputRoot, relativePath)
   mkdirSync(dirname(absolutePath), { recursive: true })
   const text = `${JSON.stringify(value, null, 2)}\n`
+  generatedFiles.push(relativePath.replaceAll('\\', '/'))
   if (existsSync(absolutePath) && readFileSync(absolutePath).equals(Buffer.from(text))) return
   writeFileSync(absolutePath, text, 'utf8')
-  generatedFiles.push(relativePath.replaceAll('\\', '/'))
 }
 
 

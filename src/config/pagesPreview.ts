@@ -64,7 +64,7 @@ export function isPreviewRouteLocked(
     return eventId !== null && !isPreviewEventAllowed(eventId)
   }
   // Keep the release summary and methods transparent, but keep full directories and tools closed.
-  return route === 'registry' || route === 'research' || route === 'compare' || route === 'lab' || route === 'data'
+  return route === 'registry' || route === 'research' || route === 'compare' || route === 'lab' || (route === 'info' && params.get('tab') === 'sources')
 }
 
 export const pagesPreviewCopy = {

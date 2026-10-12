@@ -1,11 +1,12 @@
 import { expect, test } from '@playwright/test'
 
-test('reading home opens a sourced chapter, explains a term and continues to its detail page', async ({ page }) => {
-  await page.addInitScript(() => window.localStorage.setItem('evo-atlas-language', 'en'))
+test('the paleomap opens a sourced chapter beside the retained map and continues to its detail page', async ({ page }) => {
+  await page.addInitScript(() => { window.localStorage.setItem('evo-atlas-language', 'en'); window.localStorage.setItem('evo-explorer-guide-v2', 'dismissed') })
   await page.goto('./#/home')
-  await expect(page.getByRole('heading', { name: 'Read the branches and changes of life' })).toBeVisible()
+  await expect(page.locator('.projected-map__vectors')).toBeVisible()
+  await page.getByRole('button', {name: 'Read', exact: true}).click()
   await expect(page.locator('.reading-card')).toHaveCount(5)
-  await expect(page.locator('.explorer-stage')).toHaveCount(0)
+  await expect(page.locator('.explorer-stage')).toHaveCount(1)
   await page.getByRole('link', { name: /What can a fossil tell us about fins and limbs/ }).click()
   await expect(page.getByRole('heading', { name: 'Start with the body, not an ancestor label' })).toBeVisible()
   await expect(page.locator('.reading-term')).toContainText('Mosaic of features')
@@ -13,7 +14,9 @@ test('reading home opens a sourced chapter, explains a term and continues to its
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://dajiaohuang.github.io/evo/read/fins-and-limbs/')
   await page.getByRole('button', { name: 'Read the group or species details' }).click()
   await expect(page).toHaveURL(/#\/taxa\?id=tiktaalik$/)
-  await expect(page.locator('h1')).toContainText('Tiktaalik')
+  await expect(page.getByRole('heading', {name:'Tiktaalik', exact:true})).toBeVisible()
+  await expect(page.locator('.projected-map__vectors')).toBeVisible()
+  await expect(page.locator('.node-reading')).toContainText('fin rays')
 })
 
 test('Chinese mobile reading keeps prose, sources and onward reading inside the viewport', async ({ page }) => {

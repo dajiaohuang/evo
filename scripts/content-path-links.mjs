@@ -4,6 +4,8 @@ const taxonFields = {
   descendantEntityIds: 'descendantPaths',
 }
 const recordFields = { claimId: 'claimPath', claimIds: 'claimPaths', eventId: 'eventPath', eventIds: 'eventPaths', canonicalRangeId: 'canonicalRangePath' }
+const inverseTaxonFields = new Map(Object.entries(taxonFields).map(([key, pathKey]) => [pathKey, key]))
+const inverseRecordFields = new Map(Object.entries(recordFields).map(([key, pathKey]) => [pathKey, key]))
 
 export function createContentLinkMaps(projectionMap) {
   const taxa = new Map(projectionMap.navigationAliases.map(entry => [entry.runtimeKey, entry.path]))
@@ -58,8 +60,6 @@ export function canonicalizeContentLinks(value, maps) {
 export function restoreRuntimeContentLinks(value, maps) {
   if (Array.isArray(value)) return value.map(item => restoreRuntimeContentLinks(item, maps))
   if (!value || typeof value !== 'object') return value
-  const inverseTaxonFields = new Map(Object.entries(taxonFields).map(([key, pathKey]) => [pathKey, key]))
-  const inverseRecordFields = new Map(Object.entries(recordFields).map(([key, pathKey]) => [pathKey, key]))
   return Object.fromEntries(Object.entries(value).map(([key, child]) => {
     if (inverseTaxonFields.has(key)) {
       const mapped = mappedValue(child, maps.inverseTaxa)

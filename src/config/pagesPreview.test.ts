@@ -23,8 +23,8 @@ describe('Pages preview edition policy', () => {
     expect(isPreviewRouteLocked('events', new URLSearchParams('id=k-pg-extinction'), true)).toBe(false)
     expect(isPreviewRouteLocked('events', new URLSearchParams('id=great-oxidation'), true)).toBe(false)
     expect(isPreviewRouteLocked('explore', new URLSearchParams('taxon=dinosauria&story=whale-evidence-without-an-ancestor-ladder'), true)).toBe(true)
-    expect(isPreviewRouteLocked('methods', new URLSearchParams(), true)).toBe(false)
-    expect(isPreviewRouteLocked('data', new URLSearchParams(), true)).toBe(true)
+    expect(isPreviewRouteLocked('info', new URLSearchParams('tab=science'), true)).toBe(false)
+    expect(isPreviewRouteLocked('info', new URLSearchParams('tab=sources'), true)).toBe(true)
     expect(isPreviewRouteLocked('taxa', new URLSearchParams(), false)).toBe(false)
   })
 

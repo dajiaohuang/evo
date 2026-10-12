@@ -44,9 +44,7 @@ records:
       en: draft-ready
       zh: draft-ready
     readerSections:
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/0/id
+      - id: reading-introduction
         title:
           en:
             markdown: page.en.md
@@ -57,26 +55,18 @@ records:
             field: /records/atlas-profile/readerSections/0/title/zh
             format: heading
         text:
-          en:
-            markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/text/en
           zh:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/1
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/2
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/3
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/0/sourceIds/4
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/1/id
+          - freidline2023
+          - smith2024
+          - fu2014
+          - jakobsson2026
+      - id: scope-and-identity
         title:
           en:
             markdown: page.en.md
@@ -94,11 +84,12 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/1/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/1/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/2/id
+          - col
+          - freidline2023
+          - smith2024
+          - jakobsson2026
+          - fu2014
+      - id: tam-pa-ling
         title:
           en:
             markdown: page.en.md
@@ -116,11 +107,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/2/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/2/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/3/id
+          - freidline2023
+      - id: ranis-isotopes
         title:
           en:
             markdown: page.en.md
@@ -138,11 +126,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/3/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/3/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/4/id
+          - smith2024
+      - id: southern-african-genomes
         title:
           en:
             markdown: page.en.md
@@ -160,11 +145,8 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/4/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/4/sourceIds/0
-      - id:
-          markdown: page.en.md
-          field: /records/atlas-profile/readerSections/5/id
+          - jakobsson2026
+      - id: ust-ishim
         title:
           en:
             markdown: page.en.md
@@ -182,14 +164,29 @@ records:
             markdown: page.zh.md
             field: /records/atlas-profile/readerSections/5/text/zh
         sourceIds:
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/0
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/1
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/2
-          - markdown: page.en.md
-            field: /records/atlas-profile/readerSections/5/sourceIds/3
+          - fu2014
+      - id: different-questions
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/title/zh
+            format: heading
+        text:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/6/text/en
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/6/text/zh
+        sourceIds:
+          - freidline2023
+          - smith2024
+          - jakobsson2026
+          - fu2014
     readerSources:
       referenceBindings:
         - referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
@@ -633,12 +630,6 @@ The study sequenced 28 ancient individuals from archaeological sites south of th
 
 <!-- evo:text /records/claims/4/confidenceRationale -->
 The article explicitly describes its archaeological sampling south of the Limpopo River and across central and southern South Africa. These are study localities and cannot define a modern or complete species range.
-<!-- /evo:text -->
-
-## claims / reviewedAgainstReferenceVersion
-
-<!-- evo:text /records/claims/4/reviewedAgainstReferenceVersion -->
-Jakobsson et al., Nature 650(8100):156–163; DOI 10.1038/s41586-025-09811-4; sampling description and Figure 1 checked 2026-09-27
 <!-- /evo:text -->
 
 ## claims / statement

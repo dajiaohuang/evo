@@ -44,6 +44,136 @@ records:
       - pnas-2026-perissodactyls
       - prothero-2009-hoofed-transitions
       - amnh-perissodactyl-evolution
+    readerSources:
+      - id: pnas-2026-perissodactyls
+        title:
+          en: Earliest perissodactyls reveal large-scale dispersals during the PETM
+          zh: Earliest perissodactyls reveal large-scale dispersals during the PETM
+        url: https://doi.org/10.1073/pnas.2519690122
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/0/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/0/scope/zh
+      - id: prothero-2009-hoofed-transitions
+        title:
+          en: Evolutionary Transitions in the Fossil Record of Terrestrial Hoofed Mammals
+          zh: Evolutionary Transitions in the Fossil Record of Terrestrial Hoofed Mammals
+        url: https://doi.org/10.1007/s12052-009-0136-1
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/1/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/1/scope/zh
+      - id: amnh-perissodactyl-evolution
+        title:
+          en: Perissodactyl evolution
+          zh: Perissodactyl evolution
+        url: https://research.amnh.org/paleontology/perissodactyl/evolution/intro
+        scope:
+          en:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/2/scope/en
+          zh:
+            markdown: evidence.md
+            field: /records/atlas-profile/readerSources/2/scope/zh
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/title/en
+            format: heading
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/0/title/zh
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/0/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/0/text/en
+        sourceIds:
+          - pnas-2026-perissodactyls
+          - prothero-2009-hoofed-transitions
+          - amnh-perissodactyl-evolution
+      - id: perissodactyla-reading-0
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/1/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/1/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/1/text/en
+        sourceIds:
+          - pnas-2026-perissodactyls
+          - prothero-2009-hoofed-transitions
+          - amnh-perissodactyl-evolution
+      - id: perissodactyla-reading-1
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/2/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/2/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/2/text/en
+        sourceIds:
+          - prothero-2009-hoofed-transitions
+          - amnh-perissodactyl-evolution
+      - id: perissodactyla-reading-2
+        title:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/3/title/zh
+            format: heading
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/3/title/en
+            format: heading
+        text:
+          zh:
+            markdown: page.zh.md
+            field: /records/atlas-profile/readerSections/3/text/zh
+          en:
+            markdown: page.en.md
+            field: /records/atlas-profile/readerSections/3/text/en
+        sourceIds:
+          - pnas-2026-perissodactyls
+          - prothero-2009-hoofed-transitions
+    readerLimitations:
+      en:
+        markdown: page.en.md
+        field: /records/atlas-profile/readerLimitations/en
+      zh:
+        markdown: page.zh.md
+        field: /records/atlas-profile/readerLimitations/zh
+    readerLanguageStatus:
+      en: draft-ready
+      zh: draft-ready
   claims:
     - subject:
         kind: taxon
@@ -210,6 +340,42 @@ records:
 ---
 
 # Perissodactyla
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/0/scope/en -->
+The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/0/scope/zh -->
+用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/1/scope/en -->
+The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/1/scope/zh -->
+用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/2/scope/en -->
+The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+<!-- /evo:text -->
+
+## atlas-profile / readerSources / scope
+
+<!-- evo:text /records/atlas-profile/readerSources/2/scope/zh -->
+用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+<!-- /evo:text -->
 
 ## claims / statement
 

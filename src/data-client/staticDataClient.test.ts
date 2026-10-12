@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { readFileSync } from 'node:fs'
-import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeItisPackageScope, RuntimeMapManifest, RuntimeMapSnapshot, RuntimePaleotopographyCollection } from './types'
+import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, CatalogueLpsnIdentifierRecord, CatalogueNomenclaturalRecord, CatalogueRecord, CatalogueResourcePackManifest, CatalogueSourceChecklist, CatalogueSpeciesOwnership, CatalogueTargetRecord, RuntimeItisPackageScope, RuntimeMapManifest, RuntimePaleotopographyCollection } from './types'
 
 it('loads one knowledge shard, reuses it and rejects an incomplete route', async () => {
   const { loadCatalogueKnowledge } = await import('./staticDataClient')
@@ -219,9 +219,21 @@ afterEach(async () => {
 })
 
 describe('static runtime release coherence', () => {
+  it('rejects an older map manifest before requesting any snapshot geometry', async () => {
+    Object.defineProperty(globalThis, 'Worker', {configurable: true, value: undefined})
+    const oldMap = {schemaVersion: 8, version: 'old-map', snapshots: [{period: 'Cretaceous', layers: {coastlines: {url: 'obsolete.json'}}}]}
+    const file = {url: 'releases/old-map/maps/manifest.json', sha256: await sha256(oldMap)}
+    const current = {datasetVersion: 'old-map', releaseBase: 'releases/old-map/', maps: {manifest: file}}
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => responseFor(String(input).endsWith('/data/current.json') ? current : oldMap))
+    vi.stubGlobal('fetch', fetchMock)
+    const {loadPaleogeographyLayerAtAge} = await import('./staticDataClient')
+    await expect(loadPaleogeographyLayerAtAge(100, 'coastlines')).rejects.toThrow('Unsupported map format')
+    expect(fetchMock).toHaveBeenCalledTimes(2)
+  })
+
   it('selects the nearest layer frame with younger ties and rejects ages outside CAO2024', async () => {
     const manifest = {
-      schemaVersion: 6,
+      schemaVersion: 9,
       version: 'dense-test',
       source: { title: 'CAO2024', version: 'v2.4', doi: 'test', url: 'test', license: 'CC-BY-4.0', attribution: 'test', retrievedAt: '2026-08-29' },
       scientificLimitations: [],
@@ -230,7 +242,6 @@ describe('static runtime release coherence', () => {
       layers: {
         coastlines: { role: 'modelled-coastline', cadenceBands: [], frames: [0, 5, 10].map((ageMa) => ({ ageMa, featureCount: 1, url: `ma-${ageMa}.json.gz` })) },
       },
-      snapshots: [],
     } as unknown as RuntimeMapManifest
     const { resolvePaleogeographyFrame } = await import('./staticDataClient')
 
@@ -240,28 +251,24 @@ describe('static runtime release coherence', () => {
     expect(resolvePaleogeographyFrame(manifest, -0.1, 'coastlines')).toBeNull()
   })
 
-  it('loads a requested paleogeography layer independently and caches it', async () => {
+  it('loads a requested age-selected layer independently and caches it', async () => {
     Object.defineProperty(globalThis, 'Worker', { configurable: true, value: undefined })
-    const collection = { type: 'FeatureCollection' as const, features: [] }
-    const file = { url: 'releases/maps/continental.json', sha256: await sha256(collection) }
-    const snapshot: RuntimeMapSnapshot = {
-      period: 'Cretaceous',
-      status: 'available',
-      description: 'fixture',
-      descriptionZh: 'fixture',
-      reconstructionAgeMa: 100,
-      model: 'CAO2024',
-      layers: { continentalPolygons: file },
-    }
-    const fetchMock = vi.fn(async () => responseFor(collection))
+    const collection = {type: 'FeatureCollection', features: []}
+    const file = {url: 'releases/map-test/maps/continental.json', sha256: await sha256(collection), ageMa: 100, featureCount: 0}
+    const manifest = {schemaVersion: 9, version: 'map-test', ageRangeMa: {youngest: 0, oldest: 1800}, layers: {continentalPolygons: {frames: [file]}}}
+    const manifestFile = {url: 'releases/map-test/maps/manifest.json', sha256: await sha256(manifest)}
+    const current = {datasetVersion: 'map-test', releaseBase: 'releases/map-test/', maps: {manifest: manifestFile}}
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url=String(input)
+      return responseFor(url.endsWith('/data/current.json') ? current : url.endsWith(manifestFile.url) ? manifest : collection)
+    })
     vi.stubGlobal('fetch', fetchMock)
-    const { loadPaleogeographyLayer } = await import('./staticDataClient')
-
-    await expect(loadPaleogeographyLayer(snapshot, 'continentalPolygons')).resolves.toEqual(collection)
-    await expect(loadPaleogeographyLayer(snapshot, 'continentalPolygons')).resolves.toEqual(collection)
-    expect(fetchMock).toHaveBeenCalledTimes(1)
-    await expect(loadPaleogeographyLayer(snapshot, 'continentOceanBoundaries')).rejects.toThrow('is not published')
-    expect(fetchMock).toHaveBeenCalledTimes(1)
+    const {loadPaleogeographyLayerAtAge} = await import('./staticDataClient')
+    expect((await loadPaleogeographyLayerAtAge(100, 'continentalPolygons'))?.collection).toEqual(collection)
+    expect((await loadPaleogeographyLayerAtAge(100, 'continentalPolygons'))?.collection).toEqual(collection)
+    expect(fetchMock).toHaveBeenCalledTimes(3)
+    expect(await loadPaleogeographyLayerAtAge(100, 'continentOceanBoundaries')).toBeNull()
+    expect(fetchMock).toHaveBeenCalledTimes(3)
   })
 
   it('loads all observation shards in parallel, merges them, validates counts, and caches them', async () => {
@@ -304,7 +311,7 @@ describe('static runtime release coherence', () => {
       records: 1,
     })))
     const mapManifest = {
-      schemaVersion: 7,
+      schemaVersion: 9,
       version: 'dataset-observations',
       source: { title: 'CAO2024', version: 'v2.4', doi: 'test', url: 'test', license: 'CC-BY-4.0', attribution: 'test', retrievedAt: '2026-08-31' },
       scientificLimitations: [],
@@ -325,7 +332,6 @@ describe('static runtime release coherence', () => {
           },
         },
       },
-      snapshots: [],
     } as unknown as RuntimeMapManifest
     const manifestFile = {
       url: 'releases/dataset-observations/maps/manifest.json',
@@ -334,7 +340,7 @@ describe('static runtime release coherence', () => {
     const current = {
       datasetVersion: 'dataset-observations',
       releaseBase: 'releases/dataset-observations/',
-      maps: { manifest: manifestFile, availableSnapshots: 0 },
+      maps: { manifest: manifestFile },
     }
     const payloads = new Map<string, ReturnType<typeof responseFor>>([
       [manifestFile.url, responseFor(mapManifest)],
@@ -460,7 +466,7 @@ describe('static runtime release coherence', () => {
       core: {},
       packages: { count: 1, registry: manifestFile, manifestTemplate: 'releases/dataset-b/packages/{packageId}/manifest.json', manifests: { demo: manifestFile } },
       occurrences: { manifest: manifestFile, totalRecords: 0, unresolvedPackageAssignmentCount: 0 },
-      maps: { manifest: manifestFile, availableSnapshots: 0 },
+      maps: { manifest: manifestFile },
       downloads: { template: 'releases/dataset-b/downloads/{packageId}-dataset-b.zip' },
       budgets: { coreCompressedBytes: 0, coreLimitBytes: 0, shardLimitBytes: 0, pagesLimitBytes: 0 },
       evidenceBoundary: {},
