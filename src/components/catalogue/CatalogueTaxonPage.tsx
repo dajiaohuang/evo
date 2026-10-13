@@ -164,7 +164,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
     : null
   const nodeIntroduction = node ? deriveCatalogueNodeIntroduction({
     node,
-    parent: lineageStatus === 'ready' ? lineage.at(-2) : undefined,
+    parent: node.parentId !== null && lineageStatus === 'ready' ? lineage.at(-2) : undefined,
     source: sourcesStatus === 'ready' && node.sourceDatasetId && source
       ? { authority: 'ChecklistBank', sourceId: node.sourceDatasetId, title: source.title ?? source.shortName }
       : undefined,

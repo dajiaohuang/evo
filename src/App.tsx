@@ -49,6 +49,7 @@ function RouteLoading() {
 export default function App() {
   const { language, t } = useI18n()
   const [routeState, setRouteState] = useState(() => parseRouteHash(window.location.hash))
+  const [comparisonOrigin, setComparisonOrigin] = useState<ReturnType<typeof parseRouteHash> | null>(null)
   const route = routeState.route
   const exploring = route === 'explore' || route === 'home'
   const [explorerRoute, setExplorerRoute] = useState(exploring ? routeState : { route: 'home' as const, params: new URLSearchParams() })
@@ -66,7 +67,11 @@ export default function App() {
   }, [loadIntervals])
 
   useEffect(() => {
-    const handleHashChange = () => setRouteState(parseRouteHash(window.location.hash))
+    const handleHashChange = () => {
+      const next = parseRouteHash(window.location.hash)
+      if (next.route !== 'compare') setComparisonOrigin(null)
+      setRouteState(next)
+    }
     window.addEventListener('hashchange', handleHashChange)
     return () => window.removeEventListener('hashchange', handleHashChange)
   }, [])
@@ -135,6 +140,9 @@ export default function App() {
     }
     const nextHash = buildRouteHash(nextRoute, params)
     if (nextHash === window.location.hash) return
+    if (nextRoute === 'compare' && current.route !== 'compare') {
+      setComparisonOrigin(current.route === 'home' || current.route === 'explore' ? null : current)
+    }
     window.location.hash = nextHash
   }, [])
 
@@ -161,7 +169,11 @@ export default function App() {
       <AppShell route={route} onNavigate={navigate} immersive focused>
           <div className="atlas-reading-workspace">
             <div className="atlas-reading-map"><Suspense fallback={<RouteLoading />}>{!previewLocked && <ExplorerWorkspace params={explorerRoute.params} syncRoute={exploring} />}</Suspense></div>
-            <ReadingWindow routeKey={buildRouteHash(route, Object.fromEntries(routeState.params))} page={page} onClose={() => navigate('home')} />
+            <ReadingWindow routeKey={buildRouteHash(route, Object.fromEntries(routeState.params))} page={page}
+              closeLabel={route === 'compare' && comparisonOrigin ? language === 'zh' ? '关闭比较，回到原文' : 'Close comparison and return to the article' : undefined}
+              onClose={() => route === 'compare' && comparisonOrigin
+                ? navigate(comparisonOrigin.route, Object.fromEntries(comparisonOrigin.params))
+                : navigate('home')} />
           </div>
       </AppShell>
     </ErrorBoundary>

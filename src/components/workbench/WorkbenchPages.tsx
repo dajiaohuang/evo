@@ -1,10 +1,11 @@
-import { useEffect, useState, type ChangeEvent, type FormEvent } from 'react'
+import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from 'react'
 import { getEvolutionEvent, getTaxonProfile, taxonProfiles } from '../../services/catalog'
 import {
   downloadQueryPackage,
   diffLabQueries,
   LabQueryError,
   runLabQuery,
+  validateLabQuery,
   type LabQuery,
   type LabResult,
 } from '../../services/lab'
@@ -21,7 +22,6 @@ import { localizedProfileText } from '../../i18n/profileText'
 import { ReaderInlineText } from '../reading/ReaderInlineText'
 import manifest from '../../../data/manifest.json'
 import { LocalResearchWorkspace } from './LocalResearchWorkspace'
-import { DatasetVersionComparison } from './DatasetVersionComparison'
 
 interface WorkbenchProps {
   params: URLSearchParams
@@ -260,8 +260,6 @@ export function LabPage({ params }: WorkbenchProps) {
         <p>{t('Build a reproducible query against 13,600 bounded, non-random PBDB API-prefix rows. Filtering and export happen locally in your browser.')}</p>
       </header>
 
-      <details className="query-advanced"><summary>{language === 'zh' ? '比较数据版本' : 'Compare dataset versions'}</summary><DatasetVersionComparison /></details>
-
       <div className="lab-layout">
         <form className="query-builder" onSubmit={execute}>
           <div className="query-builder__heading"><span>{t('Query definition')}</span><small>{t('Static snapshot')}</small></div>
@@ -380,7 +378,7 @@ export function LabPage({ params }: WorkbenchProps) {
                 {view === 'map' && <ResultMap records={result.records} coordinateMode={coordinateMode} />}
               </div>
               <div className="reproducibility-strip"><span>{t('Export contains')}</span><strong>query.json · CSV / JSON / GeoJSON · chart.svg · citations JSON / BibTeX · methods.md · dataset manifest · checksums.txt</strong></div>
-              <details className="query-advanced"><summary>{language === 'zh' ? '高级工具：SQL 与研究笔记' : 'Advanced tools: SQL and research notes'}</summary><LocalResearchWorkspace result={result} query={query} userData={userData} onRestoreQuery={setQuery} /></details>
+              <details className="query-advanced"><summary>{language === 'zh' ? '高级工具：SQL 与研究笔记' : 'Advanced tools: SQL and research notes'}</summary><LocalResearchWorkspace result={result} userData={userData} onRestoreQuery={setQuery} /></details>
             </>
           )}
         </section>
@@ -420,14 +418,18 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
   const [youngerB, setYoungerB] = useState(initialEvent ? Math.max(0, initialEvent.endAge - 5) : 10)
   const [countryA, setCountryA] = useState('CN')
   const [countryB, setCountryB] = useState('US')
-  const [leftResult, setLeftResult] = useState<LabResult | null>(null)
-  const [rightResult, setRightResult] = useState<LabResult | null>(null)
+  const [comparison, setComparison] = useState<{ mode: CompareMode; left: LabResult; right: LabResult } | null>(null)
+  const [comparisonError, setComparisonError] = useState<string | null>(null)
+  const comparisonRequest = useRef<object | null>(null)
   const [loading, setLoading] = useState(false)
   const occurrencesByTaxonQuery = useAppStore((state) => state.occurrencesByTaxonQuery)
   const loadOccurrences = useAppStore((state) => state.loadOccurrencesForEntity)
   const leftProfile = getTaxonProfile(leftTaxon) ?? taxonProfiles[0]
   const rightProfile = getTaxonProfile(rightTaxon) ?? taxonProfiles[1]
-  const timeWindowsValid = olderA >= youngerA && olderB >= youngerB
+  useEffect(() => () => {
+    comparisonRequest.current = null
+    setLoading(false)
+  }, [mode])
 
   useEffect(() => {
     if (mode !== 'taxa') return
@@ -436,22 +438,24 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
   }, [leftProfile.id, loadOccurrences, mode, rightProfile.id])
 
   const runComparison = async () => {
+    const request = {}
+    comparisonRequest.current = request
     setLoading(true)
+    setComparisonError(null)
     try {
-      const common = { periods: [] as string[], taxon: '', country: '', olderMa: null, youngerMa: null, limit: 5000 }
-      const [left, right] = mode === 'time'
-        ? await Promise.all([
-          runLabQuery({ ...common, olderMa: olderA, youngerMa: youngerA }),
-          runLabQuery({ ...common, olderMa: olderB, youngerMa: youngerB }),
-        ])
-        : await Promise.all([
-          runLabQuery({ ...common, country: countryA }),
-          runLabQuery({ ...common, country: countryB }),
-        ])
-      setLeftResult(left)
-      setRightResult(right)
+      const common: LabQuery = { periods: [], taxon: '', country: '', olderMa: null, youngerMa: null, limit: 5000 }
+      const leftQuery = mode === 'time' ? { ...common, olderMa: olderA, youngerMa: youngerA } : { ...common, country: countryA }
+      const rightQuery = mode === 'time' ? { ...common, olderMa: olderB, youngerMa: youngerB } : { ...common, country: countryB }
+      validateLabQuery(leftQuery)
+      validateLabQuery(rightQuery)
+      const [left, right] = await Promise.all([runLabQuery(leftQuery), runLabQuery(rightQuery)])
+      if (comparisonRequest.current !== request) return
+      setComparison({ mode, left, right })
+    } catch (caught) {
+      if (comparisonRequest.current !== request) return
+      setComparisonError(labErrorMessage(caught, t))
     } finally {
-      setLoading(false)
+      if (comparisonRequest.current === request) setLoading(false)
     }
   }
 
@@ -464,7 +468,7 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
       </header>
 
       <div className="compare-mode-tabs">
-        {(['taxa', 'time', 'geography', 'hypotheses'] as CompareMode[]).map((item) => <button key={item} className={mode === item ? 'is-active' : ''} onClick={() => { setMode(item); setLeftResult(null); setRightResult(null) }}>{t(item)}</button>)}
+        {(['taxa', 'time', 'geography', 'hypotheses'] as CompareMode[]).map((item) => <button key={item} className={mode === item ? 'is-active' : ''} onClick={() => { comparisonRequest.current = null; setMode(item); setComparison(null); setComparisonError(null); setLoading(false) }}>{t(item)}</button>)}
       </div>
 
       {mode === 'taxa' && (
@@ -489,8 +493,8 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
           <div className="compare-input-grid">
             {mode === 'time' ? (
               <>
-                <div><span>{t('Window A')}</span><label>{t('Older')}<input type="number" value={olderA} onChange={(event) => setOlderA(Number(event.target.value))} /></label><label>{t('Younger')}<input type="number" value={youngerA} onChange={(event) => setYoungerA(Number(event.target.value))} /></label></div>
-                <div><span>{t('Window B')}</span><label>{t('Older')}<input type="number" value={olderB} onChange={(event) => setOlderB(Number(event.target.value))} /></label><label>{t('Younger')}<input type="number" value={youngerB} onChange={(event) => setYoungerB(Number(event.target.value))} /></label></div>
+                <div><span>{t('Window A')}</span><label>{t('Older')}<input type="number" min="0" max="4567" step="0.01" value={olderA} onChange={(event) => setOlderA(Number(event.target.value))} /></label><label>{t('Younger')}<input type="number" min="0" max="4567" step="0.01" value={youngerA} onChange={(event) => setYoungerA(Number(event.target.value))} /></label></div>
+                <div><span>{t('Window B')}</span><label>{t('Older')}<input type="number" min="0" max="4567" step="0.01" value={olderB} onChange={(event) => setOlderB(Number(event.target.value))} /></label><label>{t('Younger')}<input type="number" min="0" max="4567" step="0.01" value={youngerB} onChange={(event) => setYoungerB(Number(event.target.value))} /></label></div>
               </>
             ) : (
               <>
@@ -499,9 +503,9 @@ export function ComparePage({ params, onNavigate }: WorkbenchProps) {
               </>
             )}
           </div>
-          {mode === 'time' && !timeWindowsValid && <p className="lab-error" role="alert">{t('Older bounds must be greater than or equal to younger bounds.')}</p>}
-          <button className="run-comparison" onClick={runComparison} disabled={loading || (mode === 'time' && !timeWindowsValid)}>{t(loading ? 'Loading all period chunks…' : 'Run bounded comparison')}</button>
-          <CompareStats left={leftResult} right={rightResult} leftLabel={mode === 'time' ? `${olderA}–${youngerA} Ma` : countryA} rightLabel={mode === 'time' ? `${olderB}–${youngerB} Ma` : countryB} />
+          {comparisonError && <p className="lab-error" role="alert">{comparisonError}</p>}
+          <button className="run-comparison" onClick={runComparison} disabled={loading}>{t(loading ? 'Loading all period chunks…' : 'Run bounded comparison')}</button>
+          <CompareStats left={comparison?.left ?? null} right={comparison?.right ?? null} leftLabel={comparison ? (comparison.mode === 'time' ? `${comparison.left.query.olderMa}–${comparison.left.query.youngerMa} Ma` : comparison.left.query.country) : ''} rightLabel={comparison ? (comparison.mode === 'time' ? `${comparison.right.query.olderMa}–${comparison.right.query.youngerMa} Ma` : comparison.right.query.country) : ''} />
         </section>
       )}
 

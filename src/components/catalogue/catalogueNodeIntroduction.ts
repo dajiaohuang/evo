@@ -41,8 +41,8 @@ export function deriveCatalogueNodeIntroduction(input: CatalogueNodeIntroduction
   const statusZh = node.status === 'accepted' ? '接受' : node.status === 'provisionally accepted' ? '暂定接受' : node.status
   const rankEn = node.rank === 'species' ? 'species' : `${node.rank} taxon`
   const rankZh = node.rank === 'species' ? '物种' : `等级为 ${node.rank} 的分类单元`
-  const placementEn = parent && parent.id === node.parentId ? ` It is under ${name(parent)} (${parent.rank}).` : ' It is a root classification entry in this view.'
-  const placementZh = parent && parent.id === node.parentId ? ` 隶属于${name(parent)}（${parent.rank}）。` : ' 是此视图中的根分类条目。'
+  const placementEn = parent ? ` It is under ${name(parent)} (${parent.rank}).` : node.parentId === null ? ' It is a root classification entry in this view.' : ''
+  const placementZh = parent ? ` 隶属于${name(parent)}（${parent.rank}）。` : node.parentId === null ? ' 是此视图中的根分类条目。' : ''
   const sourceEn = source ? ` Source authority: ${source.authority}, source ID ${source.sourceId}${source.title ? ` (${source.title})` : ''}.` : ''
   const sourceZh = source ? ` 来源权威：${source.authority}，来源 ID 为 ${source.sourceId}${source.title ? `（${source.title}）` : ''}。` : ''
   const releaseEn = input.releaseAlias ? ` in release ${input.releaseAlias}` : ''

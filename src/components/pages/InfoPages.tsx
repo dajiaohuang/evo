@@ -9,6 +9,7 @@ import type { CatalogueRuntimeManifest, CatalogueSpeciesCoverageEntry, Catalogue
 import type { AppRoute } from '../../utils/routing'
 import { useI18n } from '../../i18n'
 import { ItisSourceBrowser } from './ItisSourceBrowser'
+import { DatasetVersionComparison } from '../workbench/DatasetVersionComparison'
 import './InfoPages.css'
 
 interface PageProps {
@@ -30,6 +31,7 @@ function ownershipKindLabel(kind: CatalogueSpeciesCoverageEntry['kind'], zh: boo
 export function DataPage({ onNavigate }: PageProps) {
   const { language, number, t } = useI18n()
   const bundledNativeData = import.meta.env.VITE_NATIVE_APP === 'true'
+  const [comparisonOpen, setComparisonOpen] = useState(false)
   const [release, setRelease] = useState(localReleaseMetadata)
   const [runtime, setRuntime] = useState<CurrentRuntimeManifest | null>(null)
   const [packageRegistry, setPackageRegistry] = useState<RuntimePackageRegistry | null>(null)
@@ -136,6 +138,11 @@ export function DataPage({ onNavigate }: PageProps) {
           </article>
         ))}
       </section>
+
+      <details className="info-section" onToggle={(event) => setComparisonOpen(event.currentTarget.open)}>
+        <summary>{language === 'zh' ? '比较数据版本' : 'Compare dataset versions'}</summary>
+        {comparisonOpen && <DatasetVersionComparison />}
+      </details>
 
       <section className="info-section">
         <div className="info-section__heading">

@@ -41,6 +41,7 @@ const dataRoot = configuredDataRoot
   : `${import.meta.env.BASE_URL}data/`.replace(/\/+/g, '/')
 const jsonCache = new Map<string, unknown>()
 const inFlight = new Map<string, Promise<unknown>>()
+const validatedPbdbIndexes = new Map<string, Promise<PbdbReaderIndexEntry[]>>()
 const windowJsonCache = new Map<string, unknown>()
 const windowInFlight = new Map<string, Promise<unknown>>()
 const loadedPackageSearch = new Map<string, RuntimeFile>()
@@ -259,35 +260,35 @@ async function loadMapRuntimeFile<T>(file: RuntimeFile): Promise<T> {
 }
 
 async function loadBootstrapManifest(): Promise<CurrentRuntimeManifest> {
-  const generation = cacheGeneration
-  const key = 'current.json#bootstrap'
-  const cached = jsonCache.get(key)
-  if (cached !== undefined) return cached as CurrentRuntimeManifest
-  const response = await fetchBootstrapResponse('current.json')
-  const data = await response.json() as CurrentRuntimeManifest
-  if (generation !== cacheGeneration) throw new DOMException('Runtime cache was cleared', 'AbortError')
-  const expectedReleaseBase = `releases/${data.datasetVersion}/`
-  if (data.releaseBase !== expectedReleaseBase) {
-    throw new Error(`Runtime bootstrap release mismatch: expected ${expectedReleaseBase}, received ${data.releaseBase}`)
-  }
-  jsonCache.set(key, data)
-  return data
+  return loadBootstrapJson<CurrentRuntimeManifest>('current.json', (data) => {
+    const expectedReleaseBase = `releases/${data.datasetVersion}/`
+    if (data.releaseBase !== expectedReleaseBase) {
+      throw new Error(`Runtime bootstrap release mismatch: expected ${expectedReleaseBase}, received ${data.releaseBase}`)
+    }
+  })
 }
 
 export function loadCurrentManifest(): Promise<CurrentRuntimeManifest> {
   return loadBootstrapManifest()
 }
 
-async function loadBootstrapJson<T>(relativeUrl: string): Promise<T> {
+async function loadBootstrapJson<T>(relativeUrl: string, validate?: (data: T) => void): Promise<T> {
   const generation = cacheGeneration
   const key = `${relativeUrl}#bootstrap`
   const cached = jsonCache.get(key)
   if (cached !== undefined) return cached as T
-  const response = await fetchBootstrapResponse(relativeUrl)
-  const data = await response.json() as T
-  if (generation !== cacheGeneration) throw new DOMException('Runtime cache was cleared', 'AbortError')
-  jsonCache.set(key, data)
-  return data
+  const pending = inFlight.get(key)
+  if (pending) return pending as Promise<T>
+  const request = fetchBootstrapResponse(relativeUrl).then(response => response.json()).then((data: T) => {
+    if (generation !== cacheGeneration) throw new DOMException('Runtime cache was cleared', 'AbortError')
+    validate?.(data)
+    jsonCache.set(key, data)
+    return data
+  }).finally(() => {
+    if (inFlight.get(key) === request) inFlight.delete(key)
+  })
+  inFlight.set(key, request)
+  return request
 }
 
 export async function loadCurrentReleaseFiles(): Promise<RuntimeReleaseFilesIndex> {
@@ -1214,11 +1215,22 @@ export async function loadPbdbReaderManifest(): Promise<PbdbReaderManifest | nul
 export async function loadPbdbReaderIndex(): Promise<PbdbReaderIndexEntry[]> {
   const manifest = await loadPbdbReaderManifest()
   if (!manifest) return []
-  const entries = await loadRuntimeFile<PbdbReaderIndexEntry[]>(manifest.index)
-  if (entries.length !== manifest.records || entries.some(entry => !isPbdbTaxonId(entry.pbdbTaxonId)
-    || pbdbClassificationId(entry.identity.classification) !== entry.pbdbTaxonId)
-    || new Set(entries.map(entry => entry.pbdbTaxonId)).size !== entries.length) throw new Error('Invalid PBDB reader index')
-  return entries
+  const key = `${cacheKey(manifest.index)}#records=${manifest.records}`
+  const cached = validatedPbdbIndexes.get(key)
+  if (cached) return cached
+  const generation = cacheGeneration
+  const request = loadRuntimeFile<PbdbReaderIndexEntry[]>(manifest.index).then(entries => {
+    if (generation !== cacheGeneration) throw new DOMException('Runtime cache was cleared', 'AbortError')
+    if (entries.length !== manifest.records || entries.some(entry => !isPbdbTaxonId(entry.pbdbTaxonId)
+      || pbdbClassificationId(entry.identity.classification) !== entry.pbdbTaxonId)
+      || new Set(entries.map(entry => entry.pbdbTaxonId)).size !== entries.length) throw new Error('Invalid PBDB reader index')
+    return entries
+  }).catch(error => {
+    if (validatedPbdbIndexes.get(key) === request) validatedPbdbIndexes.delete(key)
+    throw error
+  })
+  validatedPbdbIndexes.set(key, request)
+  return request
 }
 
 export async function loadPbdbReader(id: string): Promise<PbdbReaderRecord | null> {
@@ -1513,6 +1525,7 @@ export function clearRuntimeMemoryCache(): void {
   workerRequests.clear()
   jsonCache.clear()
   inFlight.clear()
+  validatedPbdbIndexes.clear()
   windowJsonCache.clear()
   windowInFlight.clear()
   mapJsonCache.clear()

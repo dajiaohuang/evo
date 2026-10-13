@@ -72,12 +72,12 @@ Current release versions, counts, and checksums are authoritative in [data/manif
 
 ## Web、Android 与 iOS
 
-Android/iOS 和交互式 Web 共享 `src/` 中的客户端与数据协议。GitHub Pages 从同一 canonical 内容生成独立静态文档；Android/iOS 从完整发布清单生成本地只读副本，科学源文件不因 Pages 缩减而删除。
+Android/iOS 和交互式 Web 共享 `src/` 中的客户端与数据协议。GitHub Pages 部署交互式地图工作区；独立静态文档仍可从同一 canonical 内容导出；Android/iOS 从完整发布清单生成本地只读副本，科学源文件不因 Pages 缩减而删除。
 
 | 平台 | 工程 | 运行形态 | 当前边界 |
 | --- | --- | --- | --- |
-| GitHub Pages | `npm run pages:build` → `dist-pages/` | 中英文 HTML、13 帧轻量地图、来源元数据；目录筛选与地图缩放为可选增强 | 无 JavaScript 可阅读和导航；研究工作区、完整地形与 PWA 属于完整应用 |
-| Interactive Web / PWA | `npm run build` → `dist/` | 完整客户端、Service Worker 与按需数据缓存 | 可独立托管；GitHub Pages 不部署此产物 |
+| GitHub Pages | `npm run build` → `dist/` | 交互式地图工作区、双语知识页面、Service Worker 与按需数据 | `deploy.yml` 在同一提交 CI 成功后重新构建并上传 `dist/` |
+| Interactive Web / PWA | `npm run build` → `dist/` | 完整客户端、Service Worker 与按需数据缓存 | 可独立托管；也是当前 GitHub Pages 部署产物 |
 | Android | `android/` + Capacitor 8 | API 24+，核心离线资料、系统返回键和深链 | 手动触发 CI 生成调试 APK；商店 AAB 签名与发布另行配置 |
 | iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+，核心离线资料、安全区和深链 | 手动触发 macOS CI 测试模拟器应用并生成未签名设备 Archive；安装到真机需 Apple 签名 |
 
@@ -95,7 +95,7 @@ npm run dev
 
 开发地址为 `http://localhost:5173/evo/`。
 
-静态站点独立运行 `npm run verify:pages`，检查链接、64 MiB 预算和禁用 JavaScript 的三浏览器阅读流程。Pages 部署只上传 `dist-pages/`。
+静态站点独立运行 `npm run verify:pages`，检查链接、64 MiB 预算和禁用 JavaScript 的三浏览器阅读流程。独立导出使用 `npm run pages:build` → `dist-pages/`；当前 Pages 部署上传 `npm run build` 的 `dist/` 地图工作区。
 
 阅读首页提供三条证据故事路线和 12 个纪的年代导航。10 类目录支持中文、英文、学名与编号混合搜索，以及名称排序；复制带 `q` / `sort` 的地址即可分享结果，语言切换保留筛选条件。增强脚本只搜索当前 HTML，不下载完整登记册。完整应用搜索支持方向键、Enter、Esc、中文输入法与失败重试。设计和验证边界见 [`docs/discovery-experience.md`](docs/discovery-experience.md)。
 
@@ -238,6 +238,6 @@ Evo Atlas 没有账号、广告、分析 SDK 或应用后端。笔记、收藏�
 
 ## English summary
 
-Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. It synchronizes geological time, CAO2024 geometry and typed observation layers, PaleoDEM surfaces, bounded fossil samples, a curated navigation tree and claim-level evidence without presenting model output as direct observation. The pinned COL26.8 registry routes every strictly accepted species to one resource owner; that is complete release-scoped nomenclature, not a claim that every species has a prose dossier, media, fossils or ecology. Android and iOS share the Capacitor client and ship only the selected `native-core` content; they never bundle the full catalogue or full-data packages. The complete catalogue and other static resources stay in the Web delivery, while the GitHub Pages reading edition remains `web-light`. No account, analytics SDK, private API key, database or application server is required. Current versions, counts and checksums are recorded in [`data/manifest.json`](data/manifest.json), and all release notes are kept in [`data/CHANGELOG.md`](data/CHANGELOG.md).
+Evo Atlas is a bilingual, static-first deep-time evidence explorer for Web, Android and iOS. It synchronizes geological time, CAO2024 geometry and typed observation layers, PaleoDEM surfaces, bounded fossil samples, a curated navigation tree and claim-level evidence without presenting model output as direct observation. The pinned COL26.8 registry routes every strictly accepted species to one resource owner; that is complete release-scoped nomenclature, not a claim that every species has a prose dossier, media, fossils or ecology. Android and iOS share the Capacitor client and ship only the selected `native-core` content; they never bundle the full catalogue or full-data packages. The complete catalogue and other static resources stay in the Web delivery, while the standalone static reading export remains separate. No account, analytics SDK, private API key, database or application server is required. Current versions, counts and checksums are recorded in [`data/manifest.json`](data/manifest.json), and all release notes are kept in [`data/CHANGELOG.md`](data/CHANGELOG.md).
 
-GitHub Pages is a separate bilingual reading edition with 13 lightweight paleogeography maps and optional zoom/pan controls built into dist-pages/. It retains evidence documents and source metadata without shipping the interactive runtime or scientific shards. Manually triggered Android CI produces a debug APK; manually triggered iOS CI runs hosted simulator tests and produces an unsigned device archive requiring Apple signing for installation. Both package the core offline edition. Canonical scientific data is preserved.
+GitHub Pages deploys the interactive map workspace from `dist/`, rebuilt by `.github/workflows/deploy.yml` after successful CI for the exact main revision. The supported standalone static export (`npm run pages:build` → `dist-pages/`) retains bilingual documents, 13 lightweight maps and source metadata without shipping the interactive runtime or scientific shards; `npm run verify:pages` checks that export. Manually triggered Android CI produces a debug APK; manually triggered iOS CI runs hosted simulator tests and produces an unsigned device archive requiring Apple signing for installation. Both package the core offline edition. Canonical scientific data is preserved.

@@ -1,7 +1,7 @@
 import { afterEach, expect, it, vi } from 'vitest'
 import { gzipSync, strToU8 } from 'fflate'
-import { clearRuntimeMemoryCache, loadPbdbReader, searchStaticData } from './staticDataClient'
-import type { PbdbReaderRecord } from './pbdbReaderTypes'
+import { clearRuntimeMemoryCache, loadPbdbReader, loadPbdbReaderIndex, loadPbdbReaderManifest, loadRuntimeFile, searchStaticData } from './staticDataClient'
+import type { PbdbReaderIndexEntry, PbdbReaderRecord } from './pbdbReaderTypes'
 
 afterEach(() => { clearRuntimeMemoryCache(); vi.unstubAllGlobals() })
 
@@ -55,4 +55,60 @@ it('finds the exact source ID and returns the public PBDB reader route without l
   const { fetchMock } = await installFixture()
   await expect(searchStaticData('txn:249478')).resolves.toMatchObject([{ id: 'txn:249478', route: '#/pbdb?id=txn%3A249478' }])
   expect(fetchMock.mock.calls.some(([url]) => String(url).endsWith('one-shard.json.gz'))).toBe(false)
+})
+
+it('validates the index once across public search and reader calls, and again after clear', async () => {
+  const { fetchMock } = await installFixture()
+  const manifest = (await loadPbdbReaderManifest())!
+  const entries = await loadRuntimeFile<unknown[]>(manifest.index)
+  const map = vi.spyOn(entries, 'map')
+  await Promise.all([loadPbdbReaderIndex(), loadPbdbReaderIndex()])
+  await searchStaticData('txn:249478')
+  await loadPbdbReader('txn:249478')
+  expect(map).toHaveBeenCalledOnce()
+  clearRuntimeMemoryCache()
+  await loadPbdbReaderIndex()
+  expect(fetchMock.mock.calls.filter(([url]) => String(url).endsWith('index.json.gz'))).toHaveLength(2)
+  const nextManifest = (await loadPbdbReaderManifest())!
+  const nextEntries = await loadRuntimeFile<unknown[]>(nextManifest.index)
+  expect(nextEntries).not.toBe(entries)
+})
+
+it('does not retain failed index validation or reuse validation for a changed descriptor/count', async () => {
+  await installFixture()
+  const manifest = (await loadPbdbReaderManifest())!
+  await loadPbdbReaderIndex()
+  manifest.index = { ...manifest.index, mediaType: 'application/json' }
+  const changedEntries = await loadRuntimeFile<PbdbReaderIndexEntry[]>(manifest.index)
+  const map = vi.spyOn(changedEntries, 'map')
+  await loadPbdbReaderIndex()
+  expect(map).toHaveBeenCalledOnce()
+  manifest.records = 2
+  // Keep the published count consistent so the index boundary owns this failure.
+  const { loadCurrentManifest } = await import('./staticDataClient')
+  ;(await loadCurrentManifest()).pbdbReader!.records = 2
+  await expect(loadPbdbReaderIndex()).rejects.toThrow('Invalid PBDB reader index')
+  changedEntries.push({ ...changedEntries[0] })
+  await expect(loadPbdbReaderIndex()).rejects.toThrow('Invalid PBDB reader index')
+  changedEntries[1] = { ...changedEntries[0], pbdbTaxonId: 'txn:1', identity: { ...changedEntries[0].identity, classification: { ...changedEntries[0].identity.classification, sourceUrl: 'https://paleobiodb.org/data1.2/taxa/single.json?id=1' } } }
+  await expect(loadPbdbReaderIndex()).resolves.toHaveLength(2)
+})
+
+it('rejects an index validation pending across clear and validates the fresh request', async () => {
+  const { fetchMock } = await installFixture()
+  await loadPbdbReaderManifest()
+  let finish!: () => void
+  const delayed = vi.fn(async (url: string) => {
+    const response = await fetchMock(url)
+    if (String(url).endsWith('index.json.gz')) await new Promise<void>(resolve => { finish = resolve })
+    return response
+  })
+  vi.stubGlobal('fetch', delayed)
+  const old = loadPbdbReaderIndex()
+  await vi.waitFor(() => expect(finish).toBeTypeOf('function'))
+  clearRuntimeMemoryCache()
+  finish()
+  await expect(old).rejects.toMatchObject({ name: 'AbortError' })
+  vi.stubGlobal('fetch', fetchMock)
+  await expect(loadPbdbReaderIndex()).resolves.toHaveLength(1)
 })

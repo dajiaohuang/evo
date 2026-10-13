@@ -3,6 +3,69 @@ import { gzipSync, strToU8 } from 'fflate'
 
 afterEach(() => { vi.unstubAllGlobals(); vi.resetModules() })
 
+it('coalesces the cold DataPage bootstrap consumers and parses current once', async () => {
+  vi.stubGlobal('Worker', undefined)
+  const current = { datasetVersion: 'fixture', releaseBase: 'releases/fixture/', packages: { registry: { url: 'registry.json' } }, core: { linkageCoverage: { url: 'coverage.json' } } }
+  const json = vi.fn(async () => current)
+  const fetchMock = vi.fn(async (url: string) => String(url).endsWith('current.json')
+    ? { ok: true, json } : new Response('{}'))
+  vi.stubGlobal('fetch', fetchMock)
+  const { loadCurrentManifest, loadPackageRegistry, loadEntityLinkageCoverage } = await import('./staticDataClient')
+  await Promise.all([loadCurrentManifest(), loadPackageRegistry(), loadEntityLinkageCoverage()])
+  expect(fetchMock.mock.calls.filter(([url]) => String(url).endsWith('current.json'))).toHaveLength(1)
+  expect(fetchMock).toHaveBeenCalledWith(expect.stringContaining('current.json'), { cache: 'no-store' })
+  expect(json).toHaveBeenCalledOnce()
+})
+
+it('keeps a new bootstrap pending after clear when the old request rejects', async () => {
+  const finishes: ((response: Response) => void)[] = []
+  const fetchMock = vi.fn(() => new Promise<Response>(resolve => { finishes.push(resolve) }))
+  vi.stubGlobal('fetch', fetchMock)
+  const { clearRuntimeMemoryCache, loadCurrentManifest } = await import('./staticDataClient')
+  const old = loadCurrentManifest()
+  clearRuntimeMemoryCache()
+  const fresh = loadCurrentManifest()
+  finishes[0](new Response('{"datasetVersion":"old","releaseBase":"releases/old/"}'))
+  await expect(old).rejects.toMatchObject({ name: 'AbortError' })
+  const concurrent = loadCurrentManifest()
+  expect(fetchMock).toHaveBeenCalledTimes(2)
+  finishes[1](new Response('{"datasetVersion":"new","releaseBase":"releases/new/"}'))
+  await expect(Promise.all([fresh, concurrent])).resolves.toHaveLength(2)
+})
+
+it('retries bootstrap parsing and release validation failures without caching them', async () => {
+  const fetchMock = vi.fn()
+    .mockResolvedValueOnce(new Response('invalid json'))
+    .mockResolvedValueOnce(new Response('{"datasetVersion":"new","releaseBase":"wrong/"}'))
+    .mockResolvedValueOnce(new Response('{"datasetVersion":"new","releaseBase":"releases/new/"}'))
+  vi.stubGlobal('fetch', fetchMock)
+  const { loadCurrentManifest } = await import('./staticDataClient')
+  await expect(loadCurrentManifest()).rejects.toThrow()
+  await expect(loadCurrentManifest()).rejects.toThrow('release mismatch')
+  await expect(loadCurrentManifest()).resolves.toMatchObject({ datasetVersion: 'new' })
+  expect(fetchMock).toHaveBeenCalledTimes(3)
+})
+
+it('coalesces release inventory bootstrap JSON through the public loader', async () => {
+  const payloads: Record<string, unknown> = {
+    'current.json': { datasetVersion: 'fixture', releaseBase: 'releases/fixture/' },
+    'releases.json': { releases: [{ datasetVersion: 'fixture', releaseBase: 'releases/fixture/', filesIndex: 'files.json' }] },
+    'files.json': { datasetVersion: 'fixture', files: [] },
+  }
+  const parses = new Map<string, ReturnType<typeof vi.fn>>()
+  const fetchMock = vi.fn(async (url: string) => {
+    const name = String(url).split('/').at(-1)!
+    const json = vi.fn(async () => payloads[name])
+    parses.set(name, json)
+    return { ok: true, json }
+  })
+  vi.stubGlobal('fetch', fetchMock)
+  const { loadCurrentReleaseFiles } = await import('./staticDataClient')
+  await Promise.all([loadCurrentReleaseFiles(), loadCurrentReleaseFiles()])
+  expect(fetchMock).toHaveBeenCalledTimes(3)
+  for (const parse of parses.values()) expect(parse).toHaveBeenCalledOnce()
+})
+
 it('checks the decompressed digest in the fallback as well as the compressed transport', async () => {
   const bytes = gzipSync(strToU8('{"value":1}'))
   const digest = await crypto.subtle.digest('SHA-256', Uint8Array.from(bytes).buffer)

@@ -289,7 +289,7 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
     const node = nodes.find(candidate => candidate.id === nodeId)
     if (!node) return
     setTreeMode(mode)
-    void selectSubject({ nodeId, taxonId: node.taxonId })
+    // Locating a local branch moves the tree camera, while the article keeps its subject.
     setTreeFocus({ nodeId, sequence: ++focusSequence.current })
     setView('tree')
     setMobilePanel(null)

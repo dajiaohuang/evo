@@ -19,9 +19,12 @@ describe('deriveCatalogueNodeIntroduction', () => {
     expect(result.en).not.toContain('Source authority')
   })
 
-  it('ignores a parent with a mismatched id', () => {
-    const result = deriveCatalogueNodeIntroduction({ node, parent: { id: 'other', scientificName: 'Wrong', rank: 'genus' } })
-    expect(result.en).toContain('root classification entry')
-    expect(result.en).not.toContain('Wrong')
+  it('omits placement while the recorded parent is unavailable', () => {
+    const result = deriveCatalogueNodeIntroduction({ node, releaseAlias: 'COL26.8' })
+    expect(result.en).not.toContain('root classification entry')
+    expect(result.en).not.toContain('It is under')
+    expect(result.zh).not.toContain('根分类条目')
+    expect(result.zh).not.toContain('隶属于')
+    expect(result.en).toContain('in release COL26.8')
   })
 })

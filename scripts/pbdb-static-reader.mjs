@@ -263,6 +263,20 @@ function renderTaxonomy(record, taxonomyIndex, options) {
   return `<details class="reader-scope pbdb-taxonomy"><summary>${language === 'zh' ? '来源分类与成员' : 'Source classification and members'}</summary><p>${note}</p>${parentRows ? `<ul class="pbdb-parents">${parentRows}</ul>` : `<p>${language === 'zh' ? '没有记录可用的 PBDB 上级标识符。' : 'No recorded PBDB parent identifier is available.'}</p>`}${members.length ? `<details><summary>${language === 'zh' ? `记录的直接分类成员（${members.length}）` : `Recorded direct classification members (${members.length})`}</summary><ul class="pbdb-members">${memberRows}</ul></details>` : `<p>${language === 'zh' ? '当前已发布记录中没有引用此上级标识符的成员页面。' : 'No published member page records this parent identifier.'}</p>`}</details>`
 }
 
+function renderRanges(ranges, { language }) {
+  if (!Array.isArray(ranges)) return ''
+  return ranges.filter(range => range.status === 'available' && range.claimIds.length > 0 && range.referenceLocators?.length
+    && Number.isFinite(range.olderMa) && Number.isFinite(range.youngerMa) && range.olderMa >= range.youngerMa && range.youngerMa >= 0)
+    .map(range => {
+      const claims = range.claimIds.map(id => `<li><code>${escapeHtml(id)}</code></li>`).join('')
+      const references = range.referenceLocators.map(({ referenceId, locator }) => `<li><code>${escapeHtml(referenceId)}</code>: ${escapeHtml(locator)}</li>`).join('')
+      const evidenceBasis = range.evidenceBasis ? `<p>${escapeHtml(localized(range.evidenceBasis, language))}</p>` : ''
+      const uncertainty = range.uncertainty?.note ? `<p>${escapeHtml(localized(range.uncertainty.note, language))}</p>` : ''
+      const confidence = range.confidence ? `<p>${language === 'zh' ? '置信度：' : 'Confidence: '}${escapeHtml(localized(range.confidence, language))}</p>` : ''
+      return `<section class="pbdb-range-evidence"><h3>${language === 'zh' ? '来源限定的年代区间' : 'Source-bounded age interval'}</h3><p>${escapeHtml(localized(range.taxonomicConcept, language))} · ${escapeHtml(localized(range.geographicScope, language))} · ${range.olderMa}–${range.youngerMa} Ma</p>${evidenceBasis}${uncertainty}${confidence}<details class="reader-citations"><summary>${language === 'zh' ? '支持断言与来源定位' : 'Supporting claims and reference locators'}</summary><ul>${claims}${references}</ul></details></section>`
+    }).join('')
+}
+
 function renderAccount(account, accountIndex, accountCount, options) {
   const profile = account?.profile
   const atlasProfile = account?.atlasProfile
@@ -281,7 +295,7 @@ function renderAccount(account, accountIndex, accountCount, options) {
   const noText = !catalogueSections && !atlasSections
     ? `<p class="notice">${options.language === 'zh' ? '此分类身份没有已记录的阅读正文；请使用上方的来源身份与原始来源。' : 'No reader prose is recorded for this classification identity; use the source identity and original source above.'}</p>`
     : ''
-  return `<section class="pbdb-account">${heading}${catalogueSections ? `<section class="pbdb-catalogue-account">${catalogueSections}</section>` : ''}${atlasSections ? `<section class="pbdb-atlas-account">${atlasSections}</section>` : ''}${limitations ? `<p class="reader-limitations">${escapeHtml(limitations)}</p>` : ''}${sources}${noText}</section>`
+  return `<section class="pbdb-account">${heading}${catalogueSections ? `<section class="pbdb-catalogue-account">${catalogueSections}</section>` : ''}${atlasSections ? `<section class="pbdb-atlas-account">${atlasSections}</section>` : ''}${renderRanges(account?.ranges, options)}${limitations ? `<p class="reader-limitations">${escapeHtml(limitations)}</p>` : ''}${sources}${noText}</section>`
 }
 
 export function renderPbdbReaderBody(record, { language = 'en', references = new Map(), supportedIds = new Set(), taxonomyIndex = new Map(), basePath = '/evo', staticEdition = true } = {}) {

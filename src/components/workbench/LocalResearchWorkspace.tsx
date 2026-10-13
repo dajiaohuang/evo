@@ -36,12 +36,11 @@ function downloadBytes(bytes: Uint8Array, filename: string) {
 
 interface LocalResearchWorkspaceProps {
   result: LabResult
-  query: LabQuery
   userData: UserDataPreview | null
   onRestoreQuery: (query: LabQuery) => void
 }
 
-export function LocalResearchWorkspace({ result, query, userData, onRestoreQuery }: LocalResearchWorkspaceProps) {
+export function LocalResearchWorkspace({ result, userData, onRestoreQuery }: LocalResearchWorkspaceProps) {
   const { language, number, t } = useI18n()
   const [draft] = useState(readWorkspaceDraft)
   const [sql, setSql] = useState(draft.sql ?? DEFAULT_SQL)
@@ -112,7 +111,7 @@ export function LocalResearchWorkspace({ result, query, userData, onRestoreQuery
       return
     }
     try {
-      await saveWorkspaceNote(noteTitle, noteText, query, favorite)
+      await saveWorkspaceNote(noteTitle, noteText, result.query, favorite)
       setNoteTitle('')
       setNoteText('')
       setFavorite(false)

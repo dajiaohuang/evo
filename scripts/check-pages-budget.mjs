@@ -2,13 +2,15 @@ import { createHash } from 'node:crypto'
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { rootDir } from './data-lib.mjs'
+import { pathToFileURL } from 'node:url'
+import { reportTaskMetrics } from './bundle-task-metrics.mjs'
 import { pagesDeploymentBudgetFailure } from './artifact-budget.mjs'
 
-const dist = join(rootDir, 'dist')
+export function checkArtifactBudget(dist = join(rootDir, 'dist')) {
 const failures = []
 if (!existsSync(dist)) {
   console.error('Pages budget failed: dist does not exist; run npm run build first.')
-  process.exit(1)
+  return false
 }
 
 function filesBelow(directory) {
@@ -18,6 +20,7 @@ function filesBelow(directory) {
   })
 }
 
+reportTaskMetrics(dist)
 const files = filesBelow(dist)
 const current = JSON.parse(readFileSync(join(dist, 'data/current.json'), 'utf8'))
 const releaseRoot = join(dist, 'data', ...current.releaseBase.split('/').filter(Boolean))
@@ -89,6 +92,9 @@ if (!existsSync(swPath)) {
   failures.push('service worker is missing')
 } else {
   const serviceWorker = readFileSync(swPath, 'utf8')
+  const fossilChunksPrecached = ['cambrian', 'ordovician', 'silurian', 'devonian', 'carboniferous', 'permian', 'triassic', 'jurassic', 'cretaceous', 'paleogene', 'neogene', 'quaternary']
+    .filter((name) => new RegExp(`assets/${name}-[^"']+\\.js`).test(serviceWorker))
+  if (fossilChunksPrecached.length) failures.push(`service worker precaches lazy fossil chunks: ${fossilChunksPrecached.join(', ')}`)
   if (!serviceWorker.includes('cache-lifecycle.js') || !existsSync(join(dist, 'cache-lifecycle.js'))) failures.push('service worker cache lifecycle hook is missing')
   else {
     const lifecycle = readFileSync(join(dist, 'cache-lifecycle.js'), 'utf8')
@@ -131,7 +137,14 @@ if (size(appFiles) > 20 * 1024 * 1024) failures.push(`application shell is ${(si
 if (failures.length) {
   console.error(`Pages budget failed with ${failures.length} issue(s):`)
   for (const failure of failures) console.error(`- ${failure}`)
-  process.exitCode = 1
+  return false
 } else {
   console.log(`Pages budget passed: ${(totalBytes / 1024 / 1024).toFixed(2)} MiB total, ${(mapFrameBytes / 1024 / 1024).toFixed(2)} MiB geometry frames, ${(observationBytes / 1024 / 1024).toFixed(2)} MiB CAO observations, ${(coreBytes / 1024).toFixed(1)} KiB core, ${(webQueryableNomenclatureBytes / mib).toFixed(2)} MiB web-queryable nomenclature rows, ${shards.length} data shards, ${packageIds.length} packages.`)
+}
+
+return true
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  if (!checkArtifactBudget()) process.exitCode = 1
 }

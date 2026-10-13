@@ -68,6 +68,45 @@ it('renders bilingual sections, shared inline markup, source citations, scope, l
   expect(chinese).toContain('有范围限定的 <code>txn:2</code> 记录。')
 })
 
+it('renders a real Brachiosauridae source-bounded range with its account and locators', () => {
+  const brachiosauridae = record('txn:38673', 'Brachiosauridae')
+  brachiosauridae.ranges = [{
+    entityId: 'brachiosauridae',
+    taxonomicConcept: 'Brachiosauridae — source-bounded sample window',
+    geographicScope: 'Morrison and Tendaguru type-material comparison in Taylor',
+    olderMa: 154.8,
+    youngerMa: 145,
+    status: 'available',
+    uncertainty: { olderMa: null, youngerMa: null, note: 'This display is limited to the Late Jurassic type-material comparison for Brachiosaurus and Giraffatitan, not the complete family range; numerical stage conversions follow ICS v2026/06 where applicable.' },
+    evidenceBasis: 'A re-evaluation of Brachiosaurus altithorax Riggs 1903 (Dinosauria, Sauropoda) and its generic separation from Giraffatitan brancai (Janensch 1914) directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.',
+    confidence: 'medium',
+    claimIds: ['claim:taxon:brachiosauridae:source-bounded-range-rc49'],
+    referenceLocators: [
+      { referenceId: 'taylor-2009-brachiosaurus-giraffatitan', locator: '787–806; Type-material review; comparative diagnosis; generic separation' },
+      { referenceId: 'ics-2026-06', locator: 'International Chronostratigraphic Chart v2026/06; numerical stage boundaries' },
+    ],
+  }]
+  const otherAccount = record('txn:38673', 'Brachiosauridae from another source')
+  const page = groupPbdbReaderPages([brachiosauridae, otherAccount])[0]
+  const english = renderPbdbReaderBody(page, { language: 'en' }).body
+  const chinese = renderPbdbReaderBody(page, { language: 'zh' }).body
+
+  expect(english).toContain('Brachiosauridae — source-bounded sample window')
+  expect(english).toContain('Morrison and Tendaguru type-material comparison in Taylor · 154.8–145 Ma')
+  expect(english).toContain('does not extrapolate it into a global taxon duration')
+  expect(english).toContain('not the complete family range')
+  expect(english).toContain('claim:taxon:brachiosauridae:source-bounded-range-rc49')
+  expect(english).toContain('taylor-2009-brachiosaurus-giraffatitan')
+  expect(english).toContain('787–806; Type-material review; comparative diagnosis; generic separation')
+  expect(english).toContain('ics-2026-06')
+  expect(english.match(/154\.8–145 Ma/g)).toHaveLength(1)
+  expect(chinese).toContain('Morrison and Tendaguru type-material comparison in Taylor · 154.8–145 Ma')
+  expect(chinese).toContain('not the complete family range')
+  const firstAccount = english.slice(english.indexOf('<section class="pbdb-account">'), english.indexOf('<section class="pbdb-account">', english.indexOf('<section class="pbdb-account">') + 1))
+  const secondAccount = english.slice(english.indexOf('<section class="pbdb-account">', english.indexOf('<section class="pbdb-account">') + 1))
+  expect([firstAccount, secondAccount].filter(account => account.includes('154.8–145 Ma'))).toHaveLength(1)
+})
+
 it('links only published exact target IDs and preserves source details for unavailable targets', () => {
   const account = record('txn:1', 'Test taxon')
   account.profile.sources[0].readingTargets.push({ name: 'Unpublished taxon', pbdbTaxonId: 'txn:99' })

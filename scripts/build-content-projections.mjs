@@ -197,7 +197,7 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
   let previousCache = null
   if (existsSync(cachePath)) {
     const candidate = readJson(cachePath)
-    if (candidate.schemaVersion === 3) previousCache = candidate
+    if (candidate.schemaVersion === 4) previousCache = candidate
   }
 
   if (!force && previousCache?.sourceFingerprint === sources.fingerprint
@@ -393,19 +393,20 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
     durationSeconds: undefined,
     changedOutputs: undefined,
   }))
-  const outputPaths = [
+  const outputPaths = [...new Set([
     ...projectionIndex.generatedFiles,
+    ...Object.values(projectionCache).flatMap(projection => projection.outputPaths),
     'data/registry/content-projection-files.json',
     'data/registry/content-source-manifest.json',
     'data/registry/content-build-summary.json',
     ...sourceManifest.shards.map(shard => shard.path),
-  ].sort()
+  ])].sort()
 
   // A successful byte-for-byte check certifies the same outputs as generation.
   // Cache that result only inside Git so later build steps can reuse it.
   if (gitDirectory && existsSync(gitDirectory) && statSync(gitDirectory).isDirectory()) {
     writeUtf8(cachePath, jsonText({
-      schemaVersion: 3,
+      schemaVersion: 4,
       sourceFingerprint: sources.fingerprint,
       outputPaths,
       outputFingerprint: fileFingerprint(outputPaths, root),

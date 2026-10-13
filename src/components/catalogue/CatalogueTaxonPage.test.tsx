@@ -1,7 +1,8 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { act, fireEvent, render, screen } from '@testing-library/react'
 import { beforeEach, expect, it, vi } from 'vitest'
 import { CatalogueTaxonPage } from './CatalogueTaxonPage'
-import { loadCatalogueFloraChinaDescriptions } from '../../data-client/staticDataClient'
+import { loadCatalogueFloraChinaDescriptions, loadCatalogueHierarchyNode, loadCatalogueLineage } from '../../data-client/staticDataClient'
+import type { CatalogueHierarchyNodeRecord, CatalogueTaxonRecord } from '../../data-client/types'
 import { loadCatalogueSanbiDescriptions, loadCataloguePlaziDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions, loadCatalogueFdacDescriptions, loadCatalogueMossDescriptions, loadCatalogueMossChinaDescriptions, loadCatalogueFnaDescriptions, loadCatalogueBrazilFloraDescriptions, loadCatalogueTurkeyDescriptions, loadCataloguePakistanDescriptions } from '../../data-client/staticDataClient'
 
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en' }) }))
@@ -57,6 +58,48 @@ beforeEach(() => {
   vi.mocked(loadCatalogueFoaDescriptions).mockResolvedValue(null)
   vi.mocked(loadCataloguePlaziDescriptions).mockResolvedValue(null)
   vi.mocked(loadCatalogueSanbiDescriptions).mockResolvedValue({ colId: '8MG5', wfoId: 'wfo-0000178691', packageId: 'angiospermae', descriptions: [{ type: 'Morphology', text: 'Leaves 2–3 mm.', sourceId: '11118.0', citation: 'Original botanical publication', rowNumber: 1 }] })
+})
+
+const chimpanzee: CatalogueTaxonRecord = {
+  id: '4C92G', parentId: '6D2G', scientificName: 'Pan troglodytes', authorship: null,
+  rank: 'species', status: 'accepted', sourceDatasetId: null, childCount: 0,
+  projection: 'accepted-species-hierarchy',
+}
+const pan: CatalogueHierarchyNodeRecord = {
+  id: '6D2G', parentId: null, scientificName: 'Pan', authorship: null,
+  rank: 'genus', status: 'accepted', sourceDatasetId: null, childCount: 1,
+}
+
+it('omits unresolved placement while lineage loads, then names the resolved parent', async () => {
+  vi.mocked(loadCatalogueHierarchyNode).mockResolvedValueOnce(chimpanzee)
+  let resolveLineage!: (records: CatalogueHierarchyNodeRecord[]) => void
+  vi.mocked(loadCatalogueLineage).mockReturnValueOnce(new Promise((resolve) => { resolveLineage = resolve }))
+  render(<CatalogueTaxonPage release="COL26.8" id="4C92G" onNavigate={vi.fn()} />)
+  expect(await screen.findByText('Loading lineage…')).toBeInTheDocument()
+  const introduction = screen.getByText(/Pan troglodytes is an accepted species in release COL26.8/)
+  expect(introduction).not.toHaveTextContent('root classification entry')
+  expect(introduction).not.toHaveTextContent('It is under')
+  await act(async () => { resolveLineage([pan, chimpanzee]) })
+  expect(introduction).toHaveTextContent('It is under Pan (genus).')
+  expect(introduction).not.toHaveTextContent('root classification entry')
+})
+
+it('omits placement after lineage failure without losing the pinned record identity', async () => {
+  vi.mocked(loadCatalogueHierarchyNode).mockResolvedValueOnce(chimpanzee)
+  vi.mocked(loadCatalogueLineage).mockRejectedValueOnce(new Error('offline'))
+  render(<CatalogueTaxonPage release="COL26.8" id="4C92G" onNavigate={vi.fn()} />)
+  expect(await screen.findByText('Lineage failed to load; this record remains available.')).toBeInTheDocument()
+  const introduction = screen.getByText(/Pan troglodytes is an accepted species in release COL26.8/)
+  expect(introduction).not.toHaveTextContent('root classification entry')
+  expect(introduction).not.toHaveTextContent('It is under')
+})
+
+it('describes a recorded root even while lineage is unavailable', async () => {
+  vi.mocked(loadCatalogueHierarchyNode).mockResolvedValueOnce({ ...pan, id: 'root-fixture', scientificName: 'Root fixture', projection: 'accepted-species-hierarchy' })
+  vi.mocked(loadCatalogueLineage).mockRejectedValueOnce(new Error('offline'))
+  render(<CatalogueTaxonPage release="COL26.8" id="root-fixture" onNavigate={vi.fn()} />)
+  expect(await screen.findByText('Lineage failed to load; this record remains available.')).toBeInTheDocument()
+  expect(screen.getByText(/Root fixture is an accepted genus taxon in release COL26.8/)).toHaveTextContent('It is a root classification entry in this view.')
 })
 
 it('preserves Flora of China plain text, subscripts, citation and record locators', async () => {

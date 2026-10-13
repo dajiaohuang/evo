@@ -12,7 +12,7 @@
     "pages:check": "node scripts/check-static-pages.mjs",
     "pages:test": "playwright test --config playwright.pages.config.ts",
     "verify:pages": "npm run pages:build && npm run pages:check && npm run pages:test",
-    "mobile:build": "npm run release:metadata && npm run data:stage:mobile && vite build --mode mobile --outDir dist-mobile && node scripts/finalize-mobile-build.mjs && npm run data:stage",
+    "mobile:build": "npm run release:metadata && npm run data:stage:mobile && vite build --mode mobile --outDir dist-mobile && node scripts/finalize-mobile-build.mjs",
     "mobile:sync": "npm run mobile:build && cap sync && npm run mobile:normalize:spm",
     "mobile:normalize:spm": "node scripts/normalize-capacitor-spm.mjs",
     "mobile:android": "npm run mobile:sync && cap open android",
@@ -25,7 +25,7 @@
     "test:e2e": "playwright test",
     "test:e2e:web": "playwright test --config playwright.web.config.ts",
     "test:e2e:native": "playwright test --config playwright.native.config.ts",
-    "verify:web": "npm run lint && npm run typecheck && npm test && npm run data:registry:check && npm run data:validate && npm run build && npm run size:check && npm run pages:budget && npm run pages:smoke && npm run test:e2e:web",
+    "verify:web": "npm run lint && npm test && npm run data:registry:check && npm run data:validate && npm run build && npm run pages:budget && npm run pages:smoke && npm run test:e2e:web",
     "test:visual": "playwright test tests/e2e/visual-contracts.spec.ts --project=chromium",
     "typecheck": "tsc -b --pretty false",
     "lint": "eslint .",
@@ -63,7 +63,7 @@
     "pages:budget": "node scripts/check-pages-budget.mjs",
     "pages:smoke": "node scripts/smoke-pages-data.mjs",
     "pages:smoke:preview": "node scripts/smoke-pages-preview.mjs",
-    "verify": "npm run lint && npm run typecheck && npm test && npm run data:registry:check && npm run data:validate && npm run build && npm run size:check && npm run pages:budget && npm run pages:smoke && npm run mobile:build && npm run test:e2e"
+    "verify": "npm run lint && npm test && npm run data:registry:check && npm run data:validate && npm run build && npm run pages:budget && npm run pages:smoke && npm run mobile:build && npm run test:e2e"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.0",

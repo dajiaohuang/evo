@@ -4,7 +4,7 @@ import './ReadingWindow.css'
 
 // Keep recent reading positions and local interactions while a map scene,
 // comparison or source window is opened. This is an in-session UI cache.
-export function ReadingWindow({ routeKey, page, onClose }: { routeKey: string; page: ReactNode; onClose: () => void }) {
+export function ReadingWindow({ routeKey, page, onClose, closeLabel }: { routeKey: string; page: ReactNode; onClose: () => void; closeLabel?: string }) {
   const { language } = useI18n()
   const zh = language === 'zh'
   const visible = Boolean(page)
@@ -37,7 +37,7 @@ export function ReadingWindow({ routeKey, page, onClose }: { routeKey: string; p
         <div>
           <button type="button" onClick={() => setExpanded(!expanded)} aria-pressed={expanded}>{zh ? expanded ? '地图并排' : '扩大阅读窗' : expanded ? 'Alongside the map' : 'Expand reading'}</button>
           <button type="button" onClick={() => setCollapsed(true)} aria-label={zh ? '收起阅读窗' : 'Fold reading window'}>⌄</button>
-          <button ref={closeButton} type="button" onClick={onClose} aria-label={zh ? '关闭阅读窗，回到地图' : 'Close reading and return to the map'}>×</button>
+          <button ref={closeButton} type="button" onClick={onClose} aria-label={closeLabel ?? (zh ? '关闭阅读窗，回到地图' : 'Close reading and return to the map')}>×</button>
         </div>
       </div>
       <div className="reading-window__scroll" ref={scroll} onScroll={event => positions.current.set(routeKey, event.currentTarget.scrollTop)}>
