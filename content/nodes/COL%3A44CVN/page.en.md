@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 21.6. It is a m
 ## A 2015 life-history row for this name {#s-3abf63f1db}
 COL26.8 records Morelia bredli as an accepted species. The August 2015 life-history table has a species-name and family match (Pythonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-61835ab9c9}
+## Adult and birth-or-hatching mass in the archive {#s-61835ab9c9}
 Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: median of 28 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 15926 g. The 2015 archive's field citation is Boback and Guyer, 2003; BC Reptiles - Stahlschmidt, Z.R. and D.F. DeNardo, 2009. The combined birth-or-hatching mass field is 25.9 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Greer, A.E, 1997; BC Reptiles - Slip, D.J. and R. Shine, 1988.
 
 ## Reproductive events in the life-history table {#s-a12419cfd3}

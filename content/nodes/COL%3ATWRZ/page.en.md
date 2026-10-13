@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 26.45. It is a 
 ## A 2015 life-history row for this name {#s-3d7677d224}
 COL26.8 records Chelydra serpentina as an accepted species. The August 2015 life-history table has a species-name and family match (Chelydridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-a528d1364b}
+## Adult body mass in the archive {#s-a528d1364b}
 Field-specific archive notes: adult body mass: median of 5 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 5170 g. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Ricklefs, 2010b; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-eeb580aa30}

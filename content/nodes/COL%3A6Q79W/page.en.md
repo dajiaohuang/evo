@@ -13,7 +13,7 @@ The recorded egg length is 74.3 mm. ReptTraits attributes this field to Greer 19
 ## A 2015 life-history row for this name {#s-c7951ee20b}
 COL26.8 records Liasis olivaceus as an accepted species. The August 2015 life-history table has a species-name and family match (Pythonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-4c7d9f38fe}
+## Adult and birth-or-hatching mass in the archive {#s-4c7d9f38fe}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 25252 g. The 2015 archive's field citation is Boback and Guyer, 2003. The combined birth-or-hatching mass field is 71.2 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Greer, A.E, 1997.
 
 ## Reproductive events in the life-history table {#s-b25877b0b0}

@@ -13,7 +13,7 @@ COL26.8 名录将 Basiliscus basiliscus 记录为接受种。ReptTraits v1-2 该
 ## 该名称对应的 2015 年生活史条目 {#s-89e86136b1}
 COL26.8 名录将 Basiliscus basiliscus 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Corytophanidae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-8f3e4a774d}
+## 档案中的成年及出生或孵化体重 {#s-8f3e4a774d}
 各字段的档案注记：成年体重：来源层级的均值，基于中位数输入；出生或孵化时体重：所引来源数值的均值。其中数量指档案表格输入记录，不是动物个体数量。档案报告的成年体重为 225 g。2015 年档案为该字段列出的引用为 Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Meyers et al., 2009。出生或孵化体重字段为 1.7 g；来源将出生与孵化合并在同一字段中。2015 年档案为该字段列出的引用为 Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Wilson, 2003。
 
 ## 生活史表中的繁殖事件 {#s-f16367c339}

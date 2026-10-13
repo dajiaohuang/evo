@@ -8,5 +8,5 @@ Quintero-Tapia and Carretero-Pinzón (2024) used scan sampling to compare two gr
 The study is useful for comparing activity budgets and feeding records at two sites. It cannot establish a species-wide causal effect of fragmentation or represent the full range, long-term population trend or current conservation status.
 
 ## Evidence limits {#s-f48f0a8526}
-The study compares only two Colombian Llanos groups; between-group differences do not by themselves prove a general causal effect of fragmentation. The MDD English label is an exact name join to the COL26.8 accepted ID; the Chinese name is editorial. This page is.
+The study compares only two Colombian Llanos groups; between-group differences do not by themselves prove a general causal effect of fragmentation. The MDD English label is an exact name join to the COL26.8 accepted ID; the Chinese name is editorial.
 

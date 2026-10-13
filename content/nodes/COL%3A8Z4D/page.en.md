@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 7.9. It is a me
 ## A 2015 life-history row for this name {#s-8497e94379}
 COL26.8 records Acanthophis antarcticus as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-1c70ee32a6}
+## Adult and birth-or-hatching mass in the archive {#s-1c70ee32a6}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: median of 12 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 384 g. The 2015 archive's field citation is Boback and Guyer, 2003. The combined birth-or-hatching mass field is 5.95 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Greer, A.E, 1997.
 
 ## Reproductive events in the life-history table {#s-2522f4e116}

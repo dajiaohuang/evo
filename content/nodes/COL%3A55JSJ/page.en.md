@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 5. It is a mean
 ## A 2015 life-history row for this name {#s-f342fc7a1f}
 COL26.8 records Testudo graeca as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-40399e6d80}
+## Adult and birth-or-hatching mass in the archive {#s-40399e6d80}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values; mass at birth or hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 1430 g. The 2015 archive's field citation is Ricklefs, 2010b; Werner and Griebeler, 2013; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993. The combined birth-or-hatching mass field is 10.8 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Diaz-Paniagua, C., Keller, C., and A.C. Andreu, 1997.
 
 ## Reproductive events in the life-history table {#s-46d35fbebd}

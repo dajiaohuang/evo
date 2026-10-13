@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 11.5. It is a m
 ## A 2015 life-history row for this name {#s-f95b720944}
 COL26.8 records Simalia amethistina as an accepted species. The August 2015 life-history table has a species-name and family match (Pythonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-fe465e8b78}
+## Adult and birth-or-hatching mass in the archive {#s-fe465e8b78}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: median of 9 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 245988 g. The 2015 archive's field citation is Boback and Guyer, 2003. The combined birth-or-hatching mass field is 52.9 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Greer, A.E, 1997.
 
 ## Reproductive events in the life-history table {#s-cbb4229e26}

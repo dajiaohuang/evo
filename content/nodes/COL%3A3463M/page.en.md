@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 5.6. It is a me
 ## A 2015 life-history row for this name {#s-5a26b3bd8d}
 COL26.8 records Darevskia valentini as an accepted species. The August 2015 life-history table has a species-name and family match (Lacertidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-abf58a813a}
+## Adult and birth-or-hatching mass in the archive {#s-abf58a813a}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: one direct source citation, with no median count stated. The archive reports adult body mass as 7.8 g. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 0.4 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-13e8e1c43f}

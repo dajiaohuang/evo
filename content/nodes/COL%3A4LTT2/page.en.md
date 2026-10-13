@@ -35,7 +35,7 @@ Available compilation fields are female maturity field (defined by the source as
 The archive’s maximum_longevity_y value is 60 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
 
 ## How to trace these values to sources {#s-3af1e9857c}
-Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Ricklefs, 2010b, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Ricklefs, 2010b, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 
 ## Read this historical record through food and foraging position {#s-1ab055e1d6}
 Pongo pygmaeus is accepted in pinned COL26.8 within Hominidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.

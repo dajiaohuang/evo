@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 11. It is a mea
 ## A 2015 life-history row for this name {#s-67d99e7683}
 COL26.8 records Varanus marmoratus as an accepted species. The August 2015 life-history table has a species-name and family match (Varanidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-e2e0ee6166}
+## Adult and birth-or-hatching mass in the archive {#s-e2e0ee6166}
 Field-specific archive notes: adult body mass: median of 5 recorded source-table values; mass at birth or hatching: a source-level mean based on median inputs. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 4345 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Prades, Lastica, and Acorda, 2013. The combined birth-or-hatching mass field is 35.91 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Thompsom and Pianka, 2001; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; De Lisle, H.F., 1996.
 
 ## Reproductive events in the life-history table {#s-9ff5f60c74}

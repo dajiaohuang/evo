@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 3.6. It is a me
 ## A 2015 life-history row for this name {#s-054420d2bb}
 COL26.8 records Sonora semiannulata as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-4f427cf1eb}
+## Adult body mass in the archive {#s-4f427cf1eb}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 42 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-a5e2758aff}

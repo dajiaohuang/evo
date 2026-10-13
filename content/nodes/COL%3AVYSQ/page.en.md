@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4.29. It is a m
 ## A 2015 life-history row for this name {#s-87057a73b1}
 COL26.8 records Clemmys guttata as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-31b2a253dd}
+## Adult body mass in the archive {#s-31b2a253dd}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 165.4 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-b366709809}

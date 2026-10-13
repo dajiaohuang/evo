@@ -34,5 +34,5 @@ Continue with Crocodylus suchus (COL ZKNT) to compare population structure with 
 The genetic result is bounded by sampled localities, marker types, and available sequences; it is not a range-wide census or abundance estimate.
 
 ## How to trace these values to sources {#s-06e53fa65e}
-Same-name sparse rows carry source labels including Seymour, 1979; Werner and Griebeler, 2013; Thorbjarnarson,  1996; IUCN, 1989, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Seymour, 1979; Werner and Griebeler, 2013; Thorbjarnarson,  1996; IUCN, 1989, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

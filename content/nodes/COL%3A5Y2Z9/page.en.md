@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 10. It is a mea
 ## A 2015 life-history row for this name {#s-be04747d1f}
 COL26.8 records Chelonoidis niger as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-96a655ec23}
+## Adult body mass in the archive {#s-96a655ec23}
 Field-specific archive notes: adult body mass: median of 6 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 175000 g. The 2015 archive's field citation is Seymour, 1979; Werner and Griebeler, 2013; BC Reptiles - Meyers et al., 2009.
 
 ## Reproductive events in the life-history table {#s-137e256447}

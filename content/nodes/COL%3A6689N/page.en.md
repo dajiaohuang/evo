@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 13.5. It is a m
 ## A 2015 life-history row for this name {#s-201c5b5142}
 COL26.8 records Aldabrachelys gigantea as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-7013c85257}
+## Adult body mass in the archive {#s-7013c85257}
 Field-specific archive notes: adult body mass: a source-level mean based on median inputs. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 117200 g. The 2015 archive's field citation is Werner and Griebeler, 2013; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Meyers et al., 2009.
 
 ## Reproductive events in the life-history table {#s-33a3a28e2f}

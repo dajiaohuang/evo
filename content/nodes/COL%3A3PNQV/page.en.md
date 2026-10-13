@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4. It is a mean
 ## A 2015 life-history row for this name {#s-88ca5d356f}
 COL26.8 records Indotestudo elongata as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-43986042fc}
+## Adult body mass in the archive {#s-43986042fc}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 1150 g. The 2015 archive's field citation is Werner and Griebeler, 2013; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-90c550cd4e}

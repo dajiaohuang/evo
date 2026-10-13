@@ -20,7 +20,7 @@ Available compilation fields are offspring per litter or eggs per clutch 1 offsp
 The archive’s maximum_longevity_y value is 25.45 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
 
 ## How to trace these values to sources {#s-4ee2d4285c}
-Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Carey, J.R. and D.S. Judge, 2002, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Carey, J.R. and D.S. Judge, 2002, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 
 ## Read this historical record through food and foraging position {#s-0718a22b05}
 Phaner pallescens is accepted in pinned COL26.8 within Cheirogaleidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
@@ -35,7 +35,7 @@ The entry is assigned Ar: arboreal; code A records compiler confidence in source
 The archive marks feeding activity during night as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
 
 ## Trace each field group to its source labels {#s-720421d673}
-The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
 ## Evidence limits {#s-ff826fcf10}
 The acoustic estimate applies to a modeled 150-m detection radius on one transect during one complete dry-season night at Kirindy. It is not a density estimate for all Kirindy Forest or the species’ full range. The separate playback result is limited to its recordings and experimental setting.

@@ -72,6 +72,31 @@ with the record. Preserve the original source field set and order where a
 projection must reconstruct an imported source row. Missing reference IDs fail
 closed; do not create per-node bibliographies.
 
+Raw `sources` and `readerSources` contain bindings, not hydrated bibliography
+rows. Use this shape with the actual registered ID and source-specific scope:
+
+```yaml
+sources:
+  - id: study
+    referenceId: <registered-reference-id>
+    fields: [id, title, url, scope, locator]
+    usage:
+      scope: {en: <recorded-study-scope>, zh: <corresponding-Chinese-scope>}
+      locator: <actual-page-table-figure-or-record-locator>
+```
+
+`fields` lists the emitted source fields and includes `id`; `usage` is an object
+of node-specific values. Bibliographic values come from the global reference.
+Use `metadataVariant` only for a recorded, nonnegative variant index. Preserve
+required provenance fields and reconcile missing reference metadata from the
+source. Do not replace missing values with invented dates or licences.
+
+Candidate record edits compare against raw YAML under `/records/`; resolved
+strings from `readNodeContent` are not the stored page-pointer objects. Check
+new bindings with a private codec write/readback before integration. A new
+reader record also needs an explicit projection descriptor and validation by
+its actual producer and reader; codec success alone does not publish a page.
+
 Use section `sourceIds` for recorded passage-specific attribution. A record's
 `referenceIds` identifies its whole-account bibliography; do not automatically
 assign all those works to each paragraph. Keep scientific limits in the prose

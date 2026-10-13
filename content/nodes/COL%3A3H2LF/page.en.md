@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 2.8. It is a me
 ## A 2015 life-history row for this name {#s-7e18c2f509}
 COL26.8 records Gopherus berlandieri as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-72d71aeaa0}
+## Adult and birth-or-hatching mass in the archive {#s-72d71aeaa0}
 Field-specific archive notes: adult body mass: a source-level mean based on median inputs; mass at birth or hatching: a mean of cited source values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 1792 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013. The combined birth-or-hatching mass field is 32.9 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Iverson, 1980.
 
 ## Reproductive events in the life-history table {#s-59e244bbe1}

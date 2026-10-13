@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4.5. It is a me
 ## A 2015 life-history row for this name {#s-fac8592a02}
 COL26.8 records Pseudemydura umbrina as an accepted species. The August 2015 life-history table has a species-name and family match (Chelidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-9e337a5b9b}
+## Adult body mass in the archive {#s-9e337a5b9b}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 324.1 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-874b996874}

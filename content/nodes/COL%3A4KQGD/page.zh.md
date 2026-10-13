@@ -10,7 +10,7 @@ COL26.8 名录将 Podocnemis sextuberculata 记录为接受种。ReptTraits v1-2
 ## 该名称对应的 2015 年生活史条目 {#s-255c6893ef}
 COL26.8 名录将 Podocnemis sextuberculata 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Podocnemididae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-6e7c2e0e2a}
+## 档案中的成年及出生或孵化体重 {#s-6e7c2e0e2a}
 各字段的档案注记：成年体重：档案注记为 7 条来源表格记录值的中位数；出生或孵化时体重：直接列出一项来源引用，未注明中位数数量。其中数量指档案表格输入记录，不是动物个体数量。档案报告的成年体重为 14.3 g。2015 年档案为该字段列出的引用为 Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Duncan, W.P. and J.L. Marcon, 2009; BC Reptiles - Oliveira, A.T., Cruz, W.R., Pantoja-Lima, J. et al., 2011。出生或孵化体重字段为 27.9 g；来源将出生与孵化合并在同一字段中。2015 年档案为该字段列出的引用为 Valenzuela, N., 2001。
 
 ## 生活史表中的繁殖事件 {#s-3fb59d6550}

@@ -38,5 +38,5 @@ The sampled cranium and mandible cluster near Lanthanotus borneensis and Varanus
 The models compare standardized shape and strain for one sampled skull; simulated strain is not measured live bite force or a species-wide performance ranking.
 
 ## How to trace these values to sources {#s-00740ed86a}
-Same-name sparse rows carry source labels including Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Meyers et al., 2009; Reptile Incubation book, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Meyers et al., 2009; Reptile Incubation book, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

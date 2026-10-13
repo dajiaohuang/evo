@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 9.5. It is a me
 ## A 2015 life-history row for this name {#s-c8089fe87e}
 COL26.8 records Drymarchon melanurus as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-7f805cb2ed}
+## Adult body mass in the archive {#s-7f805cb2ed}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 7118 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-3209d8fa36}

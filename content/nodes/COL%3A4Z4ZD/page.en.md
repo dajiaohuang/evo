@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 10.5. It is a m
 ## A 2015 life-history row for this name {#s-d5efed00a6}
 COL26.8 records Spilotes sulphureus as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-a73bbc2a21}
+## Adult body mass in the archive {#s-a73bbc2a21}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 1587 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-3ae493897d}

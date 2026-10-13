@@ -11,5 +11,5 @@ The 2016 description used an adult-female holotype with associated skin, skull, 
 The current MDD Simmons mouse lemur entry includes Boraha; COL26.8 retains two accepted species.
 
 ## Evidence limits {#s-bf7b289721}
-COL26.8 accepts this species, while the local MDD exact-name crosswalk has no matching name. This page follows the pinned COL identity and does not treat that as a resolution of global taxonomic disagreement. Current range, population trend and conservation status are not assessed; the common-name label is editorial and not externally reviewed. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments. The page is.
+COL26.8 accepts this species, while the local MDD exact-name crosswalk has no matching name. This page follows the pinned COL identity and does not treat that as a resolution of global taxonomic disagreement. Current range, population trend and conservation status are not assessed; the common-name label is an editorial translation. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments.
 

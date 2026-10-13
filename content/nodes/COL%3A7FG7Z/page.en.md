@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 23.380000000000
 ## A 2015 life-history row for this name {#s-08d1e3dd3d}
 COL26.8 records Varanus niloticus as an accepted species. The August 2015 life-history table has a species-name and family match (Varanidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-687e4e78ce}
+## Adult and birth-or-hatching mass in the archive {#s-687e4e78ce}
 Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: median of 4 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 2826.67 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 24.5 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Wilson, 2003.
 
 ## Reproductive events in the life-history table {#s-03cff0eb66}

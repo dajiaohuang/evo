@@ -5,5 +5,5 @@ A comparison of two Bolivian endemic titis found more frequent calling by groups
 The study examined daily, seasonal and habitat-related variation relevant to using territorial calls to locate groups in surveys. Its results provide context for acoustic monitoring, not an estimate of total abundance or long-term trend.
 
 ## Evidence limits {#s-8614d798e2}
-Results come from particular sites and groups; higher call rates do not mean higher density, and extrapolation requires accounting for season, habitat and detection differences. The Chinese name is editorial; this guide is.
+Results come from particular sites and groups; higher call rates do not mean higher density, and extrapolation requires accounting for season, habitat and detection differences. The Chinese name is editorial;
 

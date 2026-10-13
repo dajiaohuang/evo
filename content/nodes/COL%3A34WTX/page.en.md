@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 10. It is a mea
 ## A 2015 life-history row for this name {#s-e1f4b067c8}
 COL26.8 records Dermatemys mawii as an accepted species. The August 2015 life-history table has a species-name and family match (Dermatemydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-a233f27d13}
+## Adult and birth-or-hatching mass in the archive {#s-a233f27d13}
 Field-specific archive notes: adult body mass: median of 4 recorded source-table values; mass at birth or hatching: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 12500 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Meyers et al., 2009; BC Reptiles - Wilson, 2003. The combined birth-or-hatching mass field is 31.4 g; the source groups birth and hatching in this field. The 2015 archive's field citation is BC Reptiles - Vogt, R.C., Polisar, J.R. and D. Moll, 2011.
 
 ## Reproductive events in the life-history table {#s-c133a8055f}

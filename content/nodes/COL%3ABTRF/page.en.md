@@ -16,7 +16,7 @@ Available compilation fields are female maturity field (defined by the source as
 The archive’s maximum_longevity_y value is 70 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
 
 ## How to trace these values to sources {#s-53b7dbc557}
-Same-name sparse rows carry source labels including Ricklefs, 2010b; Werner and Griebeler, 2013; Thorbjarnarson,  1996; Thorbjarnarson, J.B., Wang, X. and L. He, 2001, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Ricklefs, 2010b; Werner and Griebeler, 2013; Thorbjarnarson,  1996; Thorbjarnarson, J.B., Wang, X. and L. He, 2001, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 
 ## Evidence limits {#s-afa4ad457f}
 This is a focused guide to the adult comparative biomechanics study, not a comprehensive species account. The hard-shelled-prey description synthesizes earlier literature; the experiment measured bite performance under its stated adult sample and settings.

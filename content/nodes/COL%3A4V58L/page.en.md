@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 9.1000000000000
 ## A 2015 life-history row for this name {#s-bdf1501b3d}
 COL26.8 records Sceloporus cowlesi as an accepted species. The August 2015 life-history table has a species-name and family match (Phrynosomatidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-044f7c2aa5}
+## Adult and birth-or-hatching mass in the archive {#s-044f7c2aa5}
 Field-specific archive notes: adult body mass: a source-level mean based on median inputs; mass at birth or hatching: a mean of cited source values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 8.255 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 0.585 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-f42d9b2a49}

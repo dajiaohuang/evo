@@ -8,5 +8,5 @@ The MDD record places holotype AMB5.39 in Montagne d'Ambre National Park and Spe
 The MDD page also lists Arnhold's Mouse Lemur as an English common name. This page follows its primary display name; the COL26.8 accepted identity remains keyed by `6RFN3`.
 
 ## Evidence limits {#s-6081af81e8}
-This account is limited to the 2008 northern revision, type material and locality names; it does not provide a current full range, population trend, ecological or conservation assessment. The Chinese name is editorial. The page is.
+This account is limited to the 2008 northern revision, type material and locality names; it does not provide a current full range, population trend, ecological or conservation assessment. The Chinese name is editorial.
 

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 2.73. It is a m
 ## A 2015 life-history row for this name {#s-8b0500d623}
 COL26.8 records Sternotherus depressus as an accepted species. The August 2015 life-history table has a species-name and family match (Kinosternidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-1454f4d425}
+## Adult and birth-or-hatching mass in the archive {#s-1454f4d425}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values; mass at birth or hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 144 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993. The combined birth-or-hatching mass field is 3 g; the source groups birth and hatching in this field. The 2015 archive's field citation is IUCN, 2011.
 
 ## Reproductive events in the life-history table {#s-d1f0d2fe0a}

@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 12. It is a mea
 ## A 2015 life-history row for this name {#s-41ab7d5c42}
 COL26.8 records Trachemys decorata as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-0ac45b3633}
+## Adult body mass in the archive {#s-0ac45b3633}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 2522 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-4d0a249055}

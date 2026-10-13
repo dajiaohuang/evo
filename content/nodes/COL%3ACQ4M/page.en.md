@@ -53,6 +53,6 @@ Twenty-two newly generated Ambystoma mexicanum samples in the 2023 analysis came
 ## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-acea24ab83}
 The study defined sampling habitat by the location and time of collection, explicitly distinguishing it from species life history. Its climatic covariates came from gridded WorldClim data: long-term averages covered 1970–2000, while monthly series covered 1960–2018. For 193 pooled samples collected in 2019–2021 the authors substituted the latest available 2018 climate values. This is a dataset-wide limitation, not evidence that all axolotl samples belonged to that subset. Gridded climate and lake-sourced mesocosm water do not provide measured individual body temperatures, aquatic thermal limits, water-quality thresholds or current habitat conditions.
 
-## Research text pending {#s-1de5b295cb}
+## Material and scope {#s-1de5b295cb}
 The studies summarized here answer different questions with different animals and methods. A genome from one laboratory-bred male, telemetry of released captive-bred animals and historical database entries cannot be combined as measurements of one wild population.
 

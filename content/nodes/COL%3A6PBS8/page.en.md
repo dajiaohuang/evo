@@ -5,5 +5,5 @@ The paper estimated Wright's sportive lemur at about 0.95 kg, with a reddish- to
 The type locality is Befarara in Kalambatritra Special Reserve. The paper then knew the species from the reserve area west of the Mananara River and north of the Mandrare River; it called for additional range surveys and verification of the coat-color difference. These local records do not provide a current population estimate.
 
 ## Evidence limits {#s-49eff6b0cc}
-The sexual-coloration observation came from five animals, and the distribution reflects the 2006 sample. This guide retains those uncertainties and does not generalize the claim. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is.
+The sexual-coloration observation came from five animals, and the distribution reflects the 2006 sample. This guide retains those uncertainties and does not generalize the claim. The COL26.8 accepted name is retained. The Chinese common name is editorial;
 

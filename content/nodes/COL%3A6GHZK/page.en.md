@@ -40,5 +40,5 @@ The scan represents one identified head sample, and the authors state that their
 The compilation contains gestation_d, outside the class scopes declared in Supplemental Table 9. Original values and reference labels remain in the source archive; without underlying-source review they are not interpreted as the corresponding reproductive or developmental events for this species.
 
 ## How to trace these values to sources {#s-95e34bbc31}
-Same-name sparse rows carry source labels including Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Meyers et al., 2009; BC Reptiles - Wilson, 2003; IUCN, 2011, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Meyers et al., 2009; BC Reptiles - Wilson, 2003; IUCN, 2011, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

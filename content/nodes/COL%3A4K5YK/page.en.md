@@ -5,5 +5,5 @@ A Brazilian ICMBio species assessment records this titi in Mato Grosso and Pará
 The assessment lists only one diet study, of a group in an urban forest fragment; the animals were observed eating fruit, flowers, leaves and invertebrates. This documents observed food types, not species-wide dietary proportions or seasonal change.
 
 ## Evidence limits {#s-d256d62346}
-Diet evidence comes from one group in an urban fragment; the Brazilian assessment reports inconsistent range-area figures, which this page does not use to infer range size or population abundance. The Chinese name is editorial; this guide is.
+Diet evidence comes from one group in an urban fragment; the Brazilian assessment reports inconsistent range-area figures, which this page does not use to infer range size or population abundance. The Chinese name is editorial;
 

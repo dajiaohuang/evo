@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 15. It is a mea
 ## A 2015 life-history row for this name {#s-ab5ec551ae}
 COL26.8 records Furcifer campani as an accepted species. The August 2015 life-history table has a species-name and family match (Chamaeleonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-8a562f6d63}
+## Adult body mass in the archive {#s-8a562f6d63}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 6 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-cb3bf77838}

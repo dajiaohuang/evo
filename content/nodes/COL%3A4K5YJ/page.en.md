@@ -8,5 +8,5 @@ The original description distinguished it from a similar brown titi by its overa
 The species was described as Callicebus urubambensis in 2015; COL26.8 accepts Plecturocebus urubambensis. The accepted name follows the pinned catalogue, while biological statements remain limited to the localities and specimens covered by the description.
 
 ## Evidence limits {#s-9de1067350}
-The original field survey was brief, and part of the range is a hypothesis based on sparse records; rivers are not treated as proven biogeographic barriers. The Chinese name is editorial; this guide is.
+The original field survey was brief, and part of the range is a hypothesis based on sparse records; rivers are not treated as proven biogeographic barriers. The Chinese name is editorial;
 

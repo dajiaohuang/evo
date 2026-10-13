@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 18.5. It is a m
 ## A 2015 life-history row for this name {#s-118fedfc30}
 COL26.8 records Trimeresurus hageni as an accepted species. The August 2015 life-history table has a species-name and family match (Viperidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-302bf8fb0a}
+## Adult body mass in the archive {#s-302bf8fb0a}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 339 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-5f86c0bf50}

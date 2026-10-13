@@ -23,6 +23,6 @@ Deposited source concept: Latonia nigriventer, in Amphibian morphology. Matching
 ## catalogue-profile / limitations {#s-2c15be6b0a}
 These research summaries describe particular observations from the Hula Valley, with each claim limited to its reported place, period and life stage. Similar names in linked datasets do not establish that all records concern the current Latonia nigriventer concept. The tadpole comparison does not cover adult morphology, and detection of a pathogen does not establish disease or a present-day population condition.
 
-## Research text pending {#s-3e01046951}
+## Material and scope {#s-3e01046951}
 The linked collection snapshots are research aids, not verified observations of the current species concept. TadpoleTraits and Amphibian morphology retain records under this name, but name matches alone do not establish equivalence. Read those entries with their recorded life stage, sex, methods and taxonomy; a reference listing by itself does not verify a biological claim.
 

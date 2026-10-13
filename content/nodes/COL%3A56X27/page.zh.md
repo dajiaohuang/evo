@@ -13,7 +13,7 @@ COL26.8 名录将 Tiliqua scincoides 记录为接受种。ReptTraits v1-2 该行
 ## 该名称对应的 2015 年生活史条目 {#s-22fd88a7b7}
 COL26.8 名录将 Tiliqua scincoides 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Scincidae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-6ef3164e4c}
+## 档案中的成年及出生或孵化体重 {#s-6ef3164e4c}
 各字段的档案注记：成年体重：来源层级的均值，基于中位数输入；出生或孵化时体重：档案注记为 3 条来源表格记录值的中位数。其中数量指档案表格输入记录，不是动物个体数量。档案报告的成年体重为 496.4 g。2015 年档案为该字段列出的引用为 de Magalhaes and Costa, 2009; Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011。出生或孵化体重字段为 14 g；来源将出生与孵化合并在同一字段中。2015 年档案为该字段列出的引用为 de Magalhaes and Costa, 2009; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013。
 
 ## 生活史表中的繁殖事件 {#s-914827ac16}

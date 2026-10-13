@@ -8,5 +8,5 @@ The original type locality is a forest fragment near Ambarijeby, between Analala
 The study compared it with other northern reddish mouse lemurs rather than treating one pelage color as a species-level diagnosis. MDD currently displays Ambarijeby Mouse Lemur; the original study also uses Danfoss's Mouse Lemur.
 
 ## Evidence limits {#s-73844ecd52}
-This account is limited to the original northern/northwestern taxonomic study and type locality; current full range, ecology, abundance and conservation status are not assessed. The page is.
+This account is limited to the original northern/northwestern taxonomic study and type locality; current full range, ecology, abundance and conservation status are not assessed.
 

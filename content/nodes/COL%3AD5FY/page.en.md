@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 9.25. It is a m
 ## A 2015 life-history row for this name {#s-cbd36f2ab8}
 COL26.8 records Amphisbaena alba as an accepted species. The August 2015 life-history table has a species-name and family match (Amphisbaenidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-74512313af}
+## Adult body mass in the archive {#s-74512313af}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 210 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-2ededac27a}

@@ -8,5 +8,5 @@ The first census report combined presence surveys conducted from 2003 to 2006 wi
 A 2026 paper reported three standardized sweep censuses of the Ndundulu population between 2013 and 2024. Each census recorded four to six groups across a 10.42-km² range that includes opportunistic sightings; mean minimum group size was 17 ± 2, producing crude minimum-abundance values of 51 ± 6 to 102 ± 12. These are estimates for the Udzungwa population and survey periods, not for the species as a whole.
 
 ## Evidence limits {#s-b9597e39a7}
-Counts come from different years, regions and survey designs. The first census, the later Southern Highlands reassessment, and the Ndundulu sweep censuses are not pooled into a current species-wide total. The Chinese display name is editorial. This page is.
+Counts come from different years, regions and survey designs. The first census, the later Southern Highlands reassessment, and the Ndundulu sweep censuses are not pooled into a current species-wide total. The Chinese display name is editorial.
 

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 17. It is a mea
 ## A 2015 life-history row for this name {#s-1a3c314bdc}
 COL26.8 records Uromastyx dispar as an accepted species. The August 2015 life-history table has a species-name and family match (Agamidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-b48d5b65de}
+## Adult and birth-or-hatching mass in the archive {#s-b48d5b65de}
 Field-specific archive notes: adult body mass: median of 5 recorded source-table values; mass at birth or hatching: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 500 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Meyers et al., 2009. The combined birth-or-hatching mass field is 4 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Meyers et al., 2009.
 
 ## Reproductive events in the life-history table {#s-2b1f97ce20}

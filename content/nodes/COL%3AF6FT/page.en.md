@@ -14,7 +14,7 @@ The entry is assigned Ar: arboreal; code A records compiler confidence in source
 The archive marks feeding activity during night as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
 
 ## Trace each field group to its source labels {#s-9c7e32f426}
-The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
 ## Evidence limits {#s-0a3ec4cdd5}
 The abstract and methods describe 80 species, while main-text Table 2 occupancy classes sum to 81 and report the 46 single-interfluve species as 57%, unlike the 58% stated in the text. The named areas and counts here come from Supplementary Table S1. They are range-map overlaps, not point-level field confirmations, population counts or complete range assessments. Chinese common names are editorial translations.

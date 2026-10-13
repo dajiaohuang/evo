@@ -5,7 +5,7 @@ Metamynodon is recorded at rank genus in this batch’s PBDB path. This route of
 Start with Metamynodon mckinneyi, Metamynodon planifrons, Metamynodon chadronensis and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 8 selected occurrences from 8 collections; example stratum names are Devil's Graveyard, Byram, Brule, Chambers Tuff. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
 ## Evidence limits {#s-06bf86bd38}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+This route introduces occurrence records for species included in this route, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
 ## One species in a test of semi-aquatic movement {#s-43c260fd47}
 Metamynodon planifrons is the subject of a comparative test of semi-aquatic locomotion. Its anatomy and depositional setting inform that hypothesis for this species; they do not support a family-wide swamp-rhino label.

@@ -13,7 +13,7 @@ The lowest value among reported litter or clutch means is 1; the field does not 
 ## A 2015 life-history row for this name {#s-77b7c054d8}
 COL26.8 records Carlia fusca as an accepted species. The August 2015 life-history table has a species-name and family match (Scincidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-3441f197d0}
+## Adult body mass in the archive {#s-3441f197d0}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 3.5 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-cfa2af7f5b}

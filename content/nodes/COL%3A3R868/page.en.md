@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4.78. It is a m
 ## A 2015 life-history row for this name {#s-a5a3b7ee16}
 COL26.8 records Kinosternon durangoense as an accepted species. The August 2015 life-history table has a species-name and family match (Kinosternidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-4769cfa8af}
+## Adult body mass in the archive {#s-4769cfa8af}
 Field-specific archive notes: adult body mass: median of 4 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 331.15 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Meyers et al., 2009.
 
 ## Reproductive events in the life-history table {#s-73ad9e98ad}

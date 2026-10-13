@@ -20,7 +20,7 @@ Available compilation fields are female maturity field (defined by the source as
 The archive’s maximum_longevity_y value is 18.83 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
 
 ## How to trace these values to sources {#s-5ac5eb74a7}
-Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Ricklefs, 2010b, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Ricklefs, 2010b, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 
 ## Read this historical record through food and foraging position {#s-180f5a4c93}
 Otolemur garnettii is accepted in pinned COL26.8 within Galagidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
@@ -35,7 +35,7 @@ The entry is assigned Ar: arboreal; code A records compiler confidence in source
 The archive marks feeding activity during night as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
 
 ## Trace each field group to its source labels {#s-b865ac7d66}
-The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
 ## Evidence limits {#s-5a9b31daf1}
 The field evidence is from two Kenyan coastal-forest populations and older studies published under Galago names. It does not establish current range-wide social organization or diet. Taxonomy follows COL26.8; the Chinese display name is editorial.

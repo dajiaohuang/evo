@@ -13,7 +13,7 @@ The reproductive-mode field records egg-laying (oviparous); this is the source's
 ## A 2015 life-history row for this name {#s-ecbfa5f110}
 COL26.8 records Thelotornis capensis as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-d8cb8dfba6}
+## Adult body mass in the archive {#s-d8cb8dfba6}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 1359 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-cf7a7fbe5d}

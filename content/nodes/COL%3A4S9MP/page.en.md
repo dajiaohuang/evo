@@ -11,5 +11,5 @@ From 2019 to 2021, a 26-month survey in the Pianma border region accumulated 212
 The survey interpreted observations in Pianma as one cross-border group rather than several stable, separate groups, while noting that nearby areas and the Myanmar side still require investigation. This does not define the full species boundary or complete a transboundary census.
 
 ## Evidence limits {#s-8d44143250}
-The four specimens used in the 2010 description and the 2019–2021 Pianma survey address different questions. The 155–160 estimate concerns one local transboundary group; adjacent areas and groups on the Myanmar side remain incompletely surveyed.. This page is.
+The four specimens used in the 2010 description and the 2019–2021 Pianma survey address different questions. The 155–160 estimate concerns one local transboundary group; adjacent areas and groups on the Myanmar side remain incompletely surveyed..
 

@@ -1,7 +1,7 @@
 ## A 2015 life-history row for this name {#s-cbc83558d8}
 COL26.8 records Trachemys yaquia as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-c35c709580}
+## Adult body mass in the archive {#s-c35c709580}
 Field-specific archive notes: adult body mass: median of 7 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 1895 g. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Ricklefs, 2010b; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-2e50d0d70d}

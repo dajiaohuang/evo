@@ -17,7 +17,7 @@ Available compilation fields are offspring per litter or eggs per clutch 1 offsp
 The archive’s maximum_longevity_y value is 20.71 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
 
 ## How to trace these values to sources {#s-4466ee6abb}
-Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 
 ## Read this historical record through food and foraging position {#s-7f399a3274}
 Presbytis siamensis is accepted in pinned COL26.8 within Cercopithecidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
@@ -32,7 +32,7 @@ The entry is assigned Ar: arboreal; code A records compiler confidence in source
 The archive marks feeding activity during daytime as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
 
 ## Trace each field group to its source labels {#s-c197af1080}
-The used groups carry labels Ref_8, metadata:Nowak1999, Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+The used groups carry labels Ref_8, metadata:Nowak1999, Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
 ## Evidence limits {#s-745b6428c8}
 The sources concern different locations and taxonomic units: brief observations of Bintan rhionis and a single Sumatran cf. cana genetic sample cannot be combined into one species-wide range.

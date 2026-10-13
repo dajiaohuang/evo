@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4. It is a mean
 ## A 2015 life-history row for this name {#s-e44e0d2e4a}
 COL26.8 records Hydrophis platurus as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-13704e4dca}
+## Adult and birth-or-hatching mass in the archive {#s-13704e4dca}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: a mean of cited source values. The archive reports adult body mass as 384 g. The 2015 archive's field citation is Boback and Guyer, 2003. The combined birth-or-hatching mass field is 8 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Greer, A.E, 1997.
 
 ## Reproductive events in the life-history table {#s-37e5aa044f}

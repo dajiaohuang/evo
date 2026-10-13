@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 8. It is a mean
 ## A 2015 life-history row for this name {#s-ed57cc9312}
 COL26.8 records Crotalus ruber as an accepted species. The August 2015 life-history table has a species-name and family match (Viperidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-3ab49167b4}
+## Adult body mass in the archive {#s-3ab49167b4}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 3661 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-bfcbd7fb66}

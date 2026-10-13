@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 57.5. It is a m
 ## A 2015 life-history row for this name {#s-2b65da88a7}
 COL26.8 records Python molurus as an accepted species. The August 2015 life-history table has a species-name and family match (Pythonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-5b90866df5}
+## Adult and birth-or-hatching mass in the archive {#s-5b90866df5}
 Field-specific archive notes: adult body mass: median of 5 recorded source-table values; mass at birth or hatching: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 17100 g. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Boback and Guyer, 2003; BC Reptiles - Meyers et al., 2009. The combined birth-or-hatching mass field is 111.2 g; the source groups birth and hatching in this field. The 2015 archive's field citation is BC Reptiles - Ramesh and Bhupathy, 2010.
 
 ## Reproductive events in the life-history table {#s-f5dc9f0fce}

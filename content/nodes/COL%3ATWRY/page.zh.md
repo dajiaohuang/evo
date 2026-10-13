@@ -10,7 +10,7 @@ COL26.8 名录将 Chelydra rossignonii 记录为接受种。ReptTraits v1-2 该�
 ## 该名称对应的 2015 年生活史条目 {#s-e9f3eb40c2}
 COL26.8 名录将 Chelydra rossignonii 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Chelydridae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-de91f9f71b}
+## 档案中的成年体重 {#s-de91f9f71b}
 各字段的档案注记：成年体重：来源层级的均值，基于中位数输入。其中数量指档案表格输入记录，不是动物个体数量。档案报告的成年体重为 7710 g。2015 年档案为该字段列出的引用为 de Magalhaes and Costa, 2009; Ricklefs, 2010b; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993。
 
 ## 生活史表中的繁殖事件 {#s-9122a01ff9}

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 9.6. It is a me
 ## A 2015 life-history row for this name {#s-e32c5b82c6}
 COL26.8 records Lampropeltis holbrooki as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-f2c3854666}
+## Adult body mass in the archive {#s-f2c3854666}
 Field-specific archive notes: adult body mass: median of 4 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 2041 g. The 2015 archive's field citation is Boback and Guyer, 2003; BC Reptiles - Meyers et al., 2009.
 
 ## Reproductive events in the life-history table {#s-90f85bd2fc}

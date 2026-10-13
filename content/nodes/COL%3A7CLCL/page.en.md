@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 9.35. It is a m
 ## A 2015 life-history row for this name {#s-e2bf88d190}
 COL26.8 records Trachemys venusta as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-0e0fa459e5}
+## Adult body mass in the archive {#s-0e0fa459e5}
 Field-specific archive notes: adult body mass: median of 6 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 1854 g. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Ricklefs, 2010b; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-30fb449b7d}

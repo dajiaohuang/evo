@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 15. It is a mea
 ## A 2015 life-history row for this name {#s-baa101cc08}
 COL26.8 records Pseudemys gorzugi as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-3ba77353c9}
+## Adult body mass in the archive {#s-3ba77353c9}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 2992 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-40e956cc31}

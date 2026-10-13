@@ -11,7 +11,7 @@
 另一组 Mammalia 历史生态记录包含 3,755 条，例子有 Tachyglossus aculeatus、Zaglossus attenboroughi、Z. bartoni、Z. bruijni 和 Ornithorhynchus anatinus。3,229 条有食物类别权重，3,611 条有取食层位，3,527 条有哺乳类活动时段。各字段使用不同来源和编码方式；它们不是对食谱或每日时间分配直接且可互换的测量。
 
 ## PBDB 中的化石哺乳类记录路线 {#s-992d0aa8ee}
-另一条 PBDB 路径将 Mammalia 记为纲级，并连接到固定工作名录中 11,105 个物种的出现记录导读。数据库父级链用于整理这组资料；它既不是现生哺乳类的完整记述，也不是系统发育结果。路线列出的是所选非现生化石记录，不能据此说 Mammalia 整体已经灭绝。
+另一条 PBDB 路径将 Mammalia 记为纲级，并连接到此路线收录的工作名录中 11,105 个物种的出现记录导读。数据库父级链用于整理这组资料；它既不是现生哺乳类的完整记述，也不是系统发育结果。路线列出的是所选非现生化石记录，不能据此说 Mammalia 整体已经灭绝。
 
 ## 出现记录把具名类群连到采集记录与地层 {#s-f279c62179}
 所选出现记录页包括 Wirunodon chanku、Pilkipildra taylori、Djilgaringa gillespiei、Wanotherium xuanchengensis 和 Kryoryctes cadburyi。本路线汇总 15,274 个采集记录中的 54,367 条出现记录；Yahuarango、Etadunna、Ettadunna 和 Doumu 是地层名称示例。每条记录保留自己的年代区间与鉴定限定。这些数据库记录和采集编号不统计标本、个体或古代种群。

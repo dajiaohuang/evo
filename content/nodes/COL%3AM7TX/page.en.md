@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 23. It is a mea
 ## A 2015 life-history row for this name {#s-c2bcee91c6}
 COL26.8 records Boa constrictor as an accepted species. The August 2015 life-history table has a species-name and family match (Boidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-29abf0255b}
+## Adult body mass in the archive {#s-29abf0255b}
 Field-specific archive notes: adult body mass: median of 7 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 10592 g. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Ricklefs, 2010b; Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-d09412d6fb}

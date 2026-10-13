@@ -8,5 +8,5 @@ A later Popayato-Paguat study compared nest trees in agricultural areas and seco
 The authors revisited nest trees first recorded in 2018 and reported continued use of 42.9% in their site-fidelity survey. This percentage describes that local follow-up sample; it is not a species-wide fidelity rate.
 
 ## Evidence limits {#s-257fcd0559}
-Habitat and site-fidelity findings come from one landscape and a limited nest-tree sample; they do not establish species-wide habitat preferences. This page is.
+Habitat and site-fidelity findings come from one landscape and a limited nest-tree sample; they do not establish species-wide habitat preferences.
 

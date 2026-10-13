@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 50. It is a mea
 ## A 2015 life-history row for this name {#s-d1c8304d81}
 COL26.8 records Python natalensis as an accepted species. The August 2015 life-history table has a species-name and family match (Pythonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-f7aa3d29e8}
+## Adult body mass in the archive {#s-f7aa3d29e8}
 Field-specific archive notes: adult body mass: median of 4 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 73000 g. The 2015 archive's field citation is Boback and Guyer, 2003; BC Reptiles - Meyers et al., 2009.
 
 ## Reproductive events in the life-history table {#s-8cb50ba337}

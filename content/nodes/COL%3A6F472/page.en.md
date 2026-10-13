@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 5.4. It is a me
 ## A 2015 life-history row for this name {#s-e3fa40ec4f}
 COL26.8 records Elgaria coerulea as an accepted species. The August 2015 life-history table has a species-name and family match (Anguidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-1863e6f381}
+## Adult and birth-or-hatching mass in the archive {#s-1863e6f381}
 Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: one direct source citation, with no median count stated. The archive reports adult body mass as 25.1 g. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Graham, S.A., 2012. The combined birth-or-hatching mass field is 2.52 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-2f5b10c0e4}

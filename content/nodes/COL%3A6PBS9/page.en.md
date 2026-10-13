@@ -5,5 +5,5 @@ The type-series estimate for Petter's sportive lemur was about 0.63 kg, slightly
 The type locality and main records were around Beza-Mahafaly. The authors summarized the then-known region as south of the Onilahy River and west of the Linta and Menarandra rivers, while noting that the northern limit needed survey. These are the paper's sampling and range summary, not a complete distribution map.
 
 ## Evidence limits {#s-064de23a85}
-Mass and habitat details come from the 2006 description and its limited records; boundaries required further survey and cannot establish present abundance or trends. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is.
+Mass and habitat details come from the 2006 description and its limited records; boundaries required further survey and cannot establish present abundance or trends. The COL26.8 accepted name is retained. The Chinese common name is editorial;
 

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 2.15. It is a m
 ## A 2015 life-history row for this name {#s-3b0ce6b379}
 COL26.8 records Coleonyx brevis as an accepted species. The August 2015 life-history table has a species-name and family match (Eublepharidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-effab66e61}
+## Adult and birth-or-hatching mass in the archive {#s-effab66e61}
 Field-specific archive notes: adult body mass: median of 9 recorded source-table values; mass at birth or hatching: a mean of cited source values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 3.3 g. The 2015 archive's field citation is Meiri, 2010; Kratochvil and Frynta, 2006a; Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 0.265 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-949085b0c2}

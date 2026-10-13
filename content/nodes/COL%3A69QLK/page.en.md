@@ -38,5 +38,5 @@ This skink supplies another comparison outside Lacertidae. Its cervical vertebra
 These are observations of the listed museum specimens, not population estimates or a complete species account. Serial variation, skeletal maturity and sample size limit generalization. Distribution, behaviour, conservation status and a validated species diagnosis are not established by this source.
 
 ## How to trace these values to sources {#s-af411b7195}
-Same-name sparse rows carry source labels including Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

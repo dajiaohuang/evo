@@ -13,7 +13,7 @@ The reproductive-mode field records live-bearing (viviparous); this is the sourc
 ## A 2015 life-history row for this name {#s-9edd793957}
 COL26.8 records Corallus cookii as an accepted species. The August 2015 life-history table has a species-name and family match (Boidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-6fe0f6b8e1}
+## Adult body mass in the archive {#s-6fe0f6b8e1}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 1906 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-e9fab9af70}

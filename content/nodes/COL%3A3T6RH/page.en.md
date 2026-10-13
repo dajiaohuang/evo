@@ -8,5 +8,5 @@ GÃ¶bel and Heymann (2018) conducted the first systematic primate survey at Peruâ
 The local MDD v2.5 source row uses *Saguinus leucogenys* and places Leontocebus at subgenus rank; it has no exact join to the COL26.8 *Leontocebus leucogenys* ID. This page retains the pinned COL identity and does not infer a cross-list mapping from the shared epithet.
 
 ## Evidence limits {#s-7f3e166627}
-Panguana is a single-site ecological survey; its gap association is not a range-wide habitat-preference estimate. COL and MDD genus-level treatments and ID joins are recorded separately; this page does not resolve the taxonomic debate. Not externally reviewed. This page has not been. This page is.
+Panguana is a single-site ecological survey; its gap association is not a range-wide habitat-preference estimate. COL and MDD genus-level treatments and ID joins are recorded separately; this page does not resolve the taxonomic debate.
 

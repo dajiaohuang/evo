@@ -2,7 +2,7 @@
 COL26.8 名录将 Lycophidion pembanum 记录为接受种。ReptTraits v1-2 该行在 Reptile Database 2023 名称框架下将 Family 字段记为 Lamprophiidae。此处依据接受名称精确匹配且科相同关联；这不能证明历史与当前分类概念完全一致。
 
 ## 档案中的长度记录 {#s-6f551fd7f4}
-该行报告最大总长（TL）为 444 mm。 ReptTraits 为该字段列出的来源是 Feldman et al. 2016。
+该行报告最大总长（TL）为 444 mm。 ReptTraits 为该字段列出的来源是 Feldman et al. 2016。 这是该数据集行保留的最大总长记录，不是种群个体变异范围，也不代表已确立的物种生理上限。档案行未提供该长度记录的样本量或测量地点。
 
 ## 栖息位置与活动类别 {#s-11f02ae687}
 微生境字段将记录的位置归为 地栖（Terrestrial）。这是栖息位置类别，并非所有生活环境的完整描述。 ReptTraits 为该字段列出的来源是 Spawls et al. 2018。
@@ -13,7 +13,7 @@ COL26.8 名录将 Lycophidion pembanum 记录为接受种。ReptTraits v1-2 该�
 ## 该名称对应的 2015 年生活史条目 {#s-7032857eea}
 COL26.8 名录将 Lycophidion pembanum 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Lamprophiidae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-53e44dd776}
+## 档案中的成年体重 {#s-53e44dd776}
 各字段的档案注记：成年体重：直接列出一项来源引用，未注明中位数数量。档案报告的成年体重为 95 g。2015 年档案为该字段列出的引用为 Boback and Guyer, 2003。
 
 ## 生活史表中的繁殖事件 {#s-1f997f1b0d}

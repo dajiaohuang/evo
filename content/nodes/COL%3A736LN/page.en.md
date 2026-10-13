@@ -44,5 +44,5 @@ Deposited source concept: Mantella aurantiaca, in TadpoleTraits. Matching names 
 Deposited source concept: Mantella aurantiaca, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 2 rows and 13 populated trait columns for this source concept. Recorded sex codes are F, M: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
 
 ## catalogue-profile / limitations {#s-587481e7eb}
-Taxonomic reader with explicitly historical trait material. Current concept equivalence, underlying primary works and remaining biological facets require review. This is not a complete species dossier and is.
+Taxonomic reader with explicitly historical trait material. Current concept equivalence, underlying primary works and remaining biological facets require review. This is not a complete species dossier.
 

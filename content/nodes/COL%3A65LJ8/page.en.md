@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 7.5. It is a me
 ## A 2015 life-history row for this name {#s-65f46882db}
 COL26.8 records Agama turuensis as an accepted species. The August 2015 life-history table has a species-name and family match (Agamidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-1df72ff46f}
+## Adult and birth-or-hatching mass in the archive {#s-1df72ff46f}
 Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: one direct source citation, with no median count stated. The archive reports adult body mass as 74.65 g. The 2015 archive's field citation is Meiri, 2010. The combined birth-or-hatching mass field is 0.64 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-6d50d8c120}

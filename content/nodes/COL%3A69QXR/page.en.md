@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 28. It is a mea
 ## A 2015 life-history row for this name {#s-851a7a1382}
 COL26.8 records Chelodina expansa as an accepted species. The August 2015 life-history table has a species-name and family match (Chelidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-4e442e3e44}
+## Adult body mass in the archive {#s-4e442e3e44}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 4744 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-6b76609fb9}

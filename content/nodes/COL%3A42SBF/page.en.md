@@ -11,7 +11,7 @@ The entry is assigned Ar: arboreal; code A records compiler confidence in source
 The archive marks feeding activity during night as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
 
 ## Trace each field group to its source labels {#s-9fa86ec79d}
-The used groups carry labels metadata:Nowak1999, Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+The used groups carry labels metadata:Nowak1999, Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
 ## Evidence limits {#s-06979ed516}
 Source-linked introduction;. This guide covers one transect result from non-degraded Menabe Central forest in the dry season; negative spatial association is not direct proof of competition and does not generalize across habitats or seasons.

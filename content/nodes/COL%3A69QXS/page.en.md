@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 75. It is a mea
 ## A 2015 life-history row for this name {#s-e5f78d8805}
 COL26.8 records Chelodina novaeguineae as an accepted species. The August 2015 life-history table has a species-name and family match (Chelidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-4eccf6c395}
+## Adult body mass in the archive {#s-4eccf6c395}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 1006 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-72fb23e6c1}

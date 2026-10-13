@@ -5,5 +5,5 @@ A review of Paraguayan specimens, literature and reliable field records placed m
 The review distinguishes examined specimens, unexamined specimens, literature, photographs and reliable sightings; many museum specimens were collected decades ago. This summarizes evidence classes for Paraguay, not the species' complete transnational range or a current census.
 
 ## Evidence limits {#s-93497aeda5}
-The Paraguayan review notes a record base weighted toward older specimens and evidence of varying reliability; departmental occurrences do not replace surveys of neighboring countries or current distribution. The Chinese name is editorial; this guide is.
+The Paraguayan review notes a record base weighted toward older specimens and evidence of varying reliability; departmental occurrences do not replace surveys of neighboring countries or current distribution. The Chinese name is editorial;
 

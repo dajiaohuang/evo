@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 13.1. It is a m
 ## A 2015 life-history row for this name {#s-a8885e9ed5}
 COL26.8 records Epicrates cenchria as an accepted species. The August 2015 life-history table has a species-name and family match (Boidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-0778f07374}
+## Adult body mass in the archive {#s-0778f07374}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 1306 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-53c916b861}

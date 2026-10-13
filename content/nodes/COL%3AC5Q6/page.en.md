@@ -14,7 +14,7 @@ The entry is assigned Ar: arboreal; code A records compiler confidence in source
 The archive marks feeding activity during daytime as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
 
 ## Trace each field group to its source labels {#s-5e66cee0c1}
-The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
 ## Evidence limits {#s-7feee90231}
 The two Altamira and Anapu records come from surveys in 2015–2018; they are local occurrences, not a range-wide survey or abundance estimate. EltonTraits is a separate historical same-name, same-family foraging record: its percentages standardize literature descriptions, and ABC fields may include congeneric inference. Neither source establishes current population size or conservation status. The Chinese common name is editorial.

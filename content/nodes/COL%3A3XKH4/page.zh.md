@@ -13,7 +13,7 @@ COL26.8 名录将 Malacochersus tornieri 记录为接受种。ReptTraits v1-2 �
 ## 该名称对应的 2015 年生活史条目 {#s-e1399ececc}
 COL26.8 名录将 Malacochersus tornieri 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Testudinidae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-02a3f2a7c8}
+## 档案中的成年体重 {#s-02a3f2a7c8}
 各字段的档案注记：成年体重：所引来源数值的均值。档案报告的成年体重为 391.25 g。2015 年档案为该字段列出的引用为 Hofmeyr, M.D., Henen, B.T. and V.J.T. Loehr, 2005; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993。
 
 ## 生活史表中的繁殖事件 {#s-cfc8d4f6da}

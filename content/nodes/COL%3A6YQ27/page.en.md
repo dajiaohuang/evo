@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 14. It is a mea
 ## A 2015 life-history row for this name {#s-0d23a4ed7d}
 COL26.8 records Simalia boeleni as an accepted species. The August 2015 life-history table has a species-name and family match (Pythonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-fce174bb0a}
+## Adult body mass in the archive {#s-fce174bb0a}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 5675 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-8afbb11256}

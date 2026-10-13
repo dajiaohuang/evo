@@ -5,5 +5,5 @@ The 2005 description designated a live male captured and released at Bemaraha on
 A 2006 field report summarized telemetry and indirect observations of one local group in October 1991. During 85 hours 10 minutes of indirect observation, researchers recorded 105 loud “vou-hy” calls; the report also described whistles and growls. It listed detections at two localities within Tsingy de Bemaraha. These historical observations do not establish current occupancy.
 
 ## Evidence limits {#s-6d5846d4cf}
-Field and locality evidence is historical and concentrated at Bemaraha; no current range or abundance estimate is supplied here. This page. This page is.
+Field and locality evidence is historical and concentrated at Bemaraha; no current range or abundance estimate is supplied here. This page.
 

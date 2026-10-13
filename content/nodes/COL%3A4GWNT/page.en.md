@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 18. It is a mea
 ## A 2015 life-history row for this name {#s-23a88d2447}
 COL26.8 records Phrynops hilarii as an accepted species. The August 2015 life-history table has a species-name and family match (Chelidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-8a3ab5e279}
+## Adult body mass in the archive {#s-8a3ab5e279}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 2380 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-ad7a95aa5b}

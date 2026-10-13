@@ -12,3 +12,6 @@ Lepidosauria 是本批 PBDB 路径中的 superorder 分类名称。其下本批�
 
 所引分析把 Megachirella 和 Bellairsia 放在有鳞类干群，把 Taytalura 放在早期分出的鳞龙形类干群。干群位置表示化石位于通向现生类群的分支上、但在其冠群之外；这不等于认定直系祖先。这条路线记录的是解剖结构和依赖矩阵的系统关系，并未说明整个鳞龙类具有共同食性或生境。
 
+## 有鳞类干群中的早期位置 {#overview-zh}
+CT 成像解析的 Megachirella 与 Bellairsia 位于有鳞类干群；Taytalura 是早期干群鳞龙形类。它们的系统发育位置取决于所用矩阵。
+

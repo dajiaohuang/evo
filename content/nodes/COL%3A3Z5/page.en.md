@@ -26,7 +26,7 @@ In this second PanTHERIA route, the available sex-adjusted adult-mass medians ra
 The 472-entry set includes entries with at least one focal field and matching historical name and family under its route rules; it is not a complete descendant catalogue. Consolidated values are not individual extremes. Check the original variable definitions and each species’ source conditions.
 
 ## Ernest life-history archive route {#s-3425f3cb29}
-The Ernest mammal life-history table contributes 221 historical Rodentia accounts. The sample path includes Anomalurus beecrofti, A. derbianus, A. pelii, Bathyergus suillus, and B. janetta. The count covers authored same-name records in this batch and follows pinned COL26.8 navigation; it is not the complete accepted roster.
+The Ernest mammal life-history table contributes 221 historical Rodentia accounts. The sample path includes Anomalurus beecrofti, A. derbianus, A. pelii, Bathyergus suillus, and B. janetta. The count covers same-name records selected under this archive route and follows pinned COL26.8 navigation; it is not the complete accepted roster.
 
 ## Selected Ernest fields {#s-1f802a644c}
 Among the 221 Ernest accounts, gestation is recorded for 129, female age at first reproduction for 95, and maximum lifespan for 60. The archive also contains newborn mass (91), weaning age (101), weaning mass (48), litter size (208), and litters per year (91). First reproduction differs from first birth and sexual maturity; maximum lifespan is a longest record, not an average.

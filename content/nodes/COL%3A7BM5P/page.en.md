@@ -8,5 +8,5 @@ From October 2020 to January 2021, researchers located 13 sleeping nests across 
 The observations cover two nearby South Sulawesi sites and 13 nests, not the full range or a population trend. Morning vocalizations and visual encounters were used to locate nests; site and detection limits constrain comparisons between forest types.
 
 ## Evidence limits {#s-8a6668b0ba}
-This page summarizes cited observations from limited places, dates and methods; it is not a complete range-wide natural-history account. This page is.
+This page summarizes cited observations from limited places, dates and methods; it is not a complete range-wide natural-history account.
 

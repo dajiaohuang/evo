@@ -37,5 +37,5 @@ The following deposited records were selected through recorded accepted names or
 Deposited source concept: Atelopus franciscus, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 8 literature-derived rows and 0 image-derived rows for this source concept. Supplied stage entries are 25; 26; 27; 28; 29; 31; 34; 36. Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
 
 ## catalogue-profile / limitations {#s-f3095b8f91}
-Taxonomic reader with explicitly historical trait material. Current concept equivalence, underlying primary works and remaining biological facets require review. This is not a complete species dossier and is.
+Taxonomic reader with explicitly historical trait material. Current concept equivalence, underlying primary works and remaining biological facets require review. This is not a complete species dossier.
 

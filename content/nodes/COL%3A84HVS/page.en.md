@@ -5,5 +5,5 @@ Ang et al.'s 2020 study used the older combination P. femoralis robinsoni. The a
 This is a taxonomic comparison using one existing sequence, not new sampling across multiple Robinson's Banded Langur populations. Mitochondrial results can indicate lineage differences but do not alone describe species-wide genetic variation, admixture or boundaries.
 
 ## Evidence limits {#s-005229b2a0}
-The taxonomic account rests on one public mitochondrial sequence and comparative analysis; new multi-population sampling is lacking. This page. This page is.
+The taxonomic account rests on one public mitochondrial sequence and comparative analysis; new multi-population sampling is lacking. This page.
 

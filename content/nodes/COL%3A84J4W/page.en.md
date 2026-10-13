@@ -8,5 +8,5 @@ The paper describes a comparatively simple duet structure: a female call followe
 The authors proposed occurrence across the Togean Islands except Una Una. Because the available hypodigm was a single specimen, the proposed distribution should be read as a literature-based taxonomic range statement, not a systematic census of every island.
 
 ## Evidence limits {#s-8070ecfe11}
-The description had one available type specimen; genetic and vocal evidence rely partly on previously published material, and the mapped island distribution is not a census. This page is.
+The description had one available type specimen; genetic and vocal evidence rely partly on previously published material, and the mapped island distribution is not a census.
 

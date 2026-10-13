@@ -5,5 +5,5 @@ MDD currently uses Philippine Slow Loris and records Tawi-Tawi as the type local
 Timm and Birney examined the history of the name menagensis and its Tawi-Tawi material. Munds and colleagues used N. menagensis as part of their Bornean taxonomy in the 2013 study. Current MDD displays the same pinned COL26.8 name as Philippine Slow Loris; readers should distinguish the paper-era usage from the current checklist identity. A 2023 molecular study also reported limits in matching several Bornean pelage forms to genetic lineages.
 
 ## Evidence limits {#s-f818ba7726}
-This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation. This entry is.
+This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation.
 

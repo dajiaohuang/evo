@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 11.1. It is a m
 ## A 2015 life-history row for this name {#s-c78254e2db}
 COL26.8 records Pituophis catenifer as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-30840af42a}
+## Adult body mass in the archive {#s-30840af42a}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 7275.5 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-7aaeda0f42}

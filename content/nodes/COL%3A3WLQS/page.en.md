@@ -2,7 +2,7 @@
 COL26.8 records Lycophidion pembanum as an accepted species. The ReptTraits v1-2 row gives its Family field as Lamprophiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
 ## Length values in the archived records {#s-2ddf66d161}
-The row reports maximum total length (TL) of 444 mm. ReptTraits attributes this field to Feldman et al. 2016.
+The row reports maximum total length (TL) of 444 mm. ReptTraits attributes this field to Feldman et al. 2016. This is the maximum total length retained in this dataset row, not a population variation range or an established physiological upper limit for the species. The archived row supplies neither a sample size nor a measurement locality.
 
 ## Habitat use and activity labels {#s-99537ef086}
 The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Spawls et al. 2018.
@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 6.5. It is a me
 ## A 2015 life-history row for this name {#s-46cd0fdbb6}
 COL26.8 records Lycophidion pembanum as an accepted species. The August 2015 life-history table has a species-name and family match (Lamprophiidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-60f6d43767}
+## Adult body mass in the archive {#s-60f6d43767}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 95 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-e778f547f4}

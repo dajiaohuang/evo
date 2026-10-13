@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4. It is a mean
 ## A 2015 life-history row for this name {#s-3fdac91e5c}
 COL26.8 records Darevskia bithynica as an accepted species. The August 2015 life-history table has a species-name and family match (Lacertidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-1ac85e7286}
+## Adult and birth-or-hatching mass in the archive {#s-1ac85e7286}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values; mass at birth or hatching: a mean of cited source values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 7.93 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 0.325 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-8a3ae8f294}

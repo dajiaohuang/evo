@@ -5,5 +5,5 @@ MDD currently displays Bangka Slow Loris, gives Klabat Bay on Bangka, Indonesia,
 Munds and colleagues examined facial-mask variation in Bornean lorises and proposed recognizing N. bancanus, N. borneanus, N. kayan and N. menagensis as four species based on regional clustering; they explicitly called for further genetic work. Blair and colleagues' 2023 genetic tree did not place samples assigned to those four pelage forms in a one-to-one match with the major lineages. This page follows the pinned COL26.8 name while preserving the need to compare the taxonomic evidence.
 
 ## Evidence limits {#s-6d27e30542}
-This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation. This entry is.
+This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation.
 

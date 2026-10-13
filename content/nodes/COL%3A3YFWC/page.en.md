@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 6. It is a mean
 ## A 2015 life-history row for this name {#s-d4b9046412}
 COL26.8 records Mauremys japonica as an accepted species. The August 2015 life-history table has a species-name and family match (Geoemydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-328dd6c70f}
+## Adult body mass in the archive {#s-328dd6c70f}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 494.2 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-459ccad7f7}

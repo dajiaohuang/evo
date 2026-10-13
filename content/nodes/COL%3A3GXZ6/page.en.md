@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean
 ## A 2015 life-history row for this name {#s-90f81cd9ec}
 COL26.8 records Goniurosaurus yamashinae as an accepted species. The August 2015 life-history table has a species-name and family match (Eublepharidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-6546d2a38d}
+## Adult body mass in the archive {#s-6546d2a38d}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 10.7 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-90c8fd8eef}

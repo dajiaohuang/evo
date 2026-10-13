@@ -8,5 +8,5 @@ At ten locations in Gabon, Cameroon and Bioko, Ambrose compared morphology and l
 The study is a species-boundary and vocal-profile comparison, not a population census or a full account of diet, ranging or social life. Its broad starting name and the later checklist treatment of cameronensis should remain visible when connecting the paper to this COL ID.
 
 ## Evidence limits {#s-ad966e5582}
-The main evidence is one regional acoustic study using the historical broad name Galago alleni. It does not establish current abundance, population trend, range-wide ecology or a final taxonomic boundary for cameronensis. The Chinese name is editorial. This page is.
+The main evidence is one regional acoustic study using the historical broad name Galago alleni. It does not establish current abundance, population trend, range-wide ecology or a final taxonomic boundary for cameronensis. The Chinese name is editorial.
 

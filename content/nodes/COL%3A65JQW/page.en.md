@@ -13,7 +13,7 @@ The lowest value among reported litter or clutch means is 7; the field does not 
 ## A 2015 life-history row for this name {#s-c55bd263ca}
 COL26.8 records Agama caudospinosa as an accepted species. The August 2015 life-history table has a species-name and family match (Agamidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-0a71078d7f}
+## Adult and birth-or-hatching mass in the archive {#s-0a71078d7f}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values; mass at birth or hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 82.1 g. The 2015 archive's field citation is Meiri, 2010. The combined birth-or-hatching mass field is 0.64 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-93833603ca}

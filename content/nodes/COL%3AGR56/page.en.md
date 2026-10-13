@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 13. It is a mea
 ## A 2015 life-history row for this name {#s-8db0e93588}
 COL26.8 records Arizona elegans as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-574d4864aa}
+## Adult body mass in the archive {#s-574d4864aa}
 The archive reports adult body mass as 2189 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-573165cc3d}

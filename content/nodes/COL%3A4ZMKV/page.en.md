@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 5.36. It is a m
 ## A 2015 life-history row for this name {#s-ca32a9f0ef}
 COL26.8 records Staurotypus salvinii as an accepted species. The August 2015 life-history table has a species-name and family match (Kinosternidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-24295be7f0}
+## Adult body mass in the archive {#s-24295be7f0}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 900 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-96c4d087f9}

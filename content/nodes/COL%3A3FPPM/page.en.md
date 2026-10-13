@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 1. It is a mean
 ## A 2015 life-history row for this name {#s-3b3cd040a1}
 COL26.8 records Geoemyda japonica as an accepted species. The August 2015 life-history table has a species-name and family match (Geoemydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-648e6e75b3}
+## Adult body mass in the archive {#s-648e6e75b3}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 196 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-0563bdde2a}

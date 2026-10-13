@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 3.5. It is a me
 ## A 2015 life-history row for this name {#s-db224c26b2}
 COL26.8 records Psammobates geometricus as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-7a74657990}
+## Adult body mass in the archive {#s-7a74657990}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 443.75 g. The 2015 archive's field citation is Hofmeyr, M.D., Henen, B.T. and V.J.T. Loehr, 2005; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-97a45d449e}

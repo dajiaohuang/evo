@@ -38,5 +38,5 @@ MDHC 48 and 73 are skeletally immature. Both lack the posterior centrosynapophys
 The vertebral comparison found two skeletally immature specimens without a feature present in larger specimens; it did not experimentally separate age from size.
 
 ## How to trace these values to sources {#s-e5d493c9b9}
-Same-name sparse rows carry source labels including de Magalhaes and Costa, 2009; Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including de Magalhaes and Costa, 2009; Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

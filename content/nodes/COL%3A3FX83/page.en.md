@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 8. It is a mean
 ## A 2015 life-history row for this name {#s-2147023f83}
 COL26.8 records Gerrhosaurus multilineatus as an accepted species. The August 2015 life-history table has a species-name and family match (Gerrhosauridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-c4641ea2fd}
+## Adult body mass in the archive {#s-c4641ea2fd}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 62.9 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-27683750f8}

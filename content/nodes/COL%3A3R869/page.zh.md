@@ -10,7 +10,7 @@ COL26.8 名录将 Kinosternon flavescens 记录为接受种。ReptTraits v1-2 �
 ## 该名称对应的 2015 年生活史条目 {#s-d4850415aa}
 COL26.8 名录将 Kinosternon flavescens 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Kinosternidae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-517e012ea8}
+## 档案中的成年体重 {#s-517e012ea8}
 各字段的档案注记：成年体重：档案注记为 4 条来源表格记录值的中位数。其中数量指档案表格输入记录，不是动物个体数量。档案报告的成年体重为 331.15 g。2015 年档案为该字段列出的引用为 Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Meyers et al., 2009。
 
 ## 生活史表中的繁殖事件 {#s-cadf82764c}

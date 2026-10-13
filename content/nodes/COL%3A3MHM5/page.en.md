@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 2.87. It is a m
 ## A 2015 life-history row for this name {#s-cfc3b1c85b}
 COL26.8 records Homopus areolatus as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-4a95ce2e38}
+## Adult body mass in the archive {#s-4a95ce2e38}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 229.4 g. The 2015 archive's field citation is Werner and Griebeler, 2013; Hofmeyr, M.D., Henen, B.T. and V.J.T. Loehr, 2005; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-f44bd40186}

@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 37.5. It is a m
 ## A 2015 life-history row for this name {#s-3b7710dee9}
 COL26.8 records Podocnemis sextuberculata as an accepted species. The August 2015 life-history table has a species-name and family match (Podocnemididae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-ceeddf546a}
+## Adult and birth-or-hatching mass in the archive {#s-ceeddf546a}
 Field-specific archive notes: adult body mass: median of 7 recorded source-table values; mass at birth or hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 14.3 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Duncan, W.P. and J.L. Marcon, 2009; BC Reptiles - Oliveira, A.T., Cruz, W.R., Pantoja-Lima, J. et al., 2011. The combined birth-or-hatching mass field is 27.9 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Valenzuela, N., 2001.
 
 ## Reproductive events in the life-history table {#s-624487cd6f}

@@ -8,5 +8,5 @@ Holotype TiHo B34 came from community-protected forest near Ambavala, at about 3
 The paper's 25 captured individuals were recorded between 42 and 356 m; 14 were found in 2–4 m stands of Madagascar cardamom (Aframomum angustifolium), sometimes mixed with edge trees. The authors reported no sightings in treeless secondary vegetation except dense cardamom stands. These are local captures and observations, not a species-wide habitat-preference test.
 
 ## Evidence limits {#s-b0f033513c}
-This page summarizes only northeastern study sites, the type locality and capture observations; it does not infer island-wide distribution, population trend, complete habitat preference or current conservation status. The Chinese name is editorial. The page is.
+This page summarizes only northeastern study sites, the type locality and capture observations; it does not infer island-wide distribution, population trend, complete habitat preference or current conservation status. The Chinese name is editorial.
 

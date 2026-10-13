@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 7.75. It is a m
 ## A 2015 life-history row for this name {#s-898bf51ff6}
 COL26.8 records Hydrophis schistosus as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-8714c1c8ac}
+## Adult body mass in the archive {#s-8714c1c8ac}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 1294 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-d83c07f465}

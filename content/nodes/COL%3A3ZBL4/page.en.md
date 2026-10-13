@@ -34,5 +34,5 @@ Continue with Caiman crocodilus (COL PBBP) to compare the same experimental meas
 The bite-force estimate comes from three adults tested under the study protocol; it is a limited institutional sample, not a population range or field-performance constant.
 
 ## How to trace these values to sources {#s-c9ddcf0260}
-Same-name sparse rows carry source labels including Werner and Griebeler, 2013; Thorbjarnarson,  1996; Thorbjarnarson, 2010; Villamarin-Jurado, F. and E. Suarez, 2007, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Werner and Griebeler, 2013; Thorbjarnarson,  1996; Thorbjarnarson, 2010; Villamarin-Jurado, F. and E. Suarez, 2007, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

@@ -11,5 +11,5 @@ A 2026 study placed 27 arboreal cameras in two forest remnants and accumulated 9
 The foraging study followed one group for 83 days. The camera study monitored three groups and placed cameras around selected resources; feeding stations were fruit-baited during part of the study. Detection totals are therefore not population estimates, and neither design establishes species-wide seasonal diet or habitat use.
 
 ## Evidence limits {#s-8a3a68e1d8}
-The 2001 study is a short sample of one group; the 2026 camera study follows three groups at selected resources, including partly baited feeding stations. Camera detections are not an abundance estimate. The Chinese common name is editorial. This page is.
+The 2001 study is a short sample of one group; the 2026 camera study follows three groups at selected resources, including partly baited feeding stations. Camera detections are not an abundance estimate. The Chinese common name is editorial.
 

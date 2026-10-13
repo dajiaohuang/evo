@@ -8,5 +8,5 @@ The original study placed this lineage in a northwestern sampling frame and comp
 The study combined pelage categories, morphometrics and mitochondrial relationships to distinguish reddish lineages. Dorsal color alone does not diagnose an individual, and these taxonomic comparisons do not establish behavioral or ecological differences.
 
 ## Evidence limits {#s-17c3b17486}
-Evidence is limited to the 2007 northern/northwestern samples and taxonomic analysis; current full range, abundance, diet and conservation status are not assessed. Common-name wording is editorial. The page is.
+Evidence is limited to the 2007 northern/northwestern samples and taxonomic analysis; current full range, abundance, diet and conservation status are not assessed. Common-name wording is editorial.
 

@@ -8,5 +8,5 @@ The account describes family groups usually made up of a pair and their offsprin
 The 2024 account's title uses Callicebus oenanthe, while its text records the 2016 combination Plecturocebus oenanthe. COL26.8 currently accepts Plecturocebus oenanthe.
 
 ## Evidence limits {#s-fdae443719}
-Much of the evidence comes from local studies at different sites and times; the review title retains Callicebus while COL26.8 uses Plecturocebus. The Chinese name is editorial; this guide is.
+Much of the evidence comes from local studies at different sites and times; the review title retains Callicebus while COL26.8 uses Plecturocebus. The Chinese name is editorial;
 

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 7. It is a mean
 ## A 2015 life-history row for this name {#s-336269fd78}
 COL26.8 records Varanus cumingi as an accepted species. The August 2015 life-history table has a species-name and family match (Varanidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-224dd775ca}
+## Adult and birth-or-hatching mass in the archive {#s-224dd775ca}
 Field-specific archive notes: adult body mass: median of 5 recorded source-table values; mass at birth or hatching: median of 7 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 3127.49 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - King, D., Green, B., 1999. The combined birth-or-hatching mass field is 26.62 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Thompsom and Pianka, 2001; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; Koch, A., Gaulke, M., Bohme, W., 2010.
 
 ## Reproductive events in the life-history table {#s-72bdc5d292}

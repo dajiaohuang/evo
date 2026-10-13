@@ -11,5 +11,5 @@ A canopy study published in 2010 observed 27 tamarins for 32.25 hours at Agua Cl
 At Cerro Ancón Nature Reserve, a study surveyed a 1.75-km transect two days per week, in morning and afternoon periods, from August 2019 to March 2020. Researchers counted 54 individuals in nine groups and estimated a density of 4.5 individuals per km². This describes one urban reserve and a particular survey design, not Panama as a whole.
 
 ## Evidence limits {#s-2a954b06b2}
-The three studies concern a short multi-site survey, two canopy sites and Cerro Ancón alone; their densities, observation hours and canopy measures are not pooled into species-wide parameters. Field sources use Saguinus geoffroyi, while page identity follows the pinned COL26.8 ID.. This page is.
+The three studies concern a short multi-site survey, two canopy sites and Cerro Ancón alone; their densities, observation hours and canopy measures are not pooled into species-wide parameters. Field sources use Saguinus geoffroyi, while page identity follows the pinned COL26.8 ID..
 

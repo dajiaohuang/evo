@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 7.5. It is a me
 ## A 2015 life-history row for this name {#s-866932cfd9}
 COL26.8 records Vipera ammodytes as an accepted species. The August 2015 life-history table has a species-name and family match (Viperidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-4fb177ba2f}
+## Adult body mass in the archive {#s-4fb177ba2f}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 220 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-5e1d3d8f69}

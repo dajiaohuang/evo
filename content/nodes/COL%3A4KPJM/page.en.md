@@ -35,5 +35,5 @@ An interpostzygapophyseal lamina is recorded in posterior autotomic caudal verte
 Name correspondence is based on the accepted catalogue usage and synonym list, not specimen reidentification. The vertebral study does not cover every descendant, individual or life-history stage. Distribution, behaviour, conservation status and validated taxonomic diagnoses lie outside this page’s source scope.
 
 ## How to trace these values to sources {#s-f59408d6aa}
-Same-name sparse rows carry source labels including Meiri, S., Brown, J.H., and R.M. Sibly, 2011; Reptile Incubation book; IUCN, 2011. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Meiri, S., Brown, J.H., and R.M. Sibly, 2011; Reptile Incubation book; IUCN, 2011. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

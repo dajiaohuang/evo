@@ -5,5 +5,5 @@ The 2017 printed correction formally designated the Antafia material as the name
 The type locality, Antafia, lies northeast of the Mahavavy du Sud River. The 2006 study placed its records between the Betsiboka and Mahavavy du Sud rivers and explicitly left any extension south of the latter unknown. The accepted spelling follows the formal 2017 correction.
 
 ## Evidence limits {#s-32f874bb6d}
-The original description reports color variation with age and light; distribution reflects limited sampling, and the area south of the Mahavavy du Sud River was unresolved. Taxonomy follows COL26.8; the Chinese name is editorial, and this guide is.
+The original description reports color variation with age and light; distribution reflects limited sampling, and the area south of the Mahavavy du Sud River was unresolved. Taxonomy follows COL26.8; the Chinese name is editorial, and
 

@@ -11,5 +11,5 @@ Reproductive records collected at two Colombian field sites from 1994 to 2008 sh
 A Colombian survey in 2005 and 2012 used a tailored lure-strip transect method in 43 accessible forest parcels, which the authors estimated represented about 30% of the species’ range. The estimated population in the surveyed region changed from about 2,050 to about 1,900. If unsurveyed forests had similar densities, the authors projected about 6,946 tamarins in the wild in 2012; that figure depends on an assumption about unsurveyed areas and was not a direct range-wide count.
 
 ## Evidence limits {#s-e71a624dd7}
-Social observations, reproductive samples and forest surveys come from different sites, dates and designs; estimates for surveyed parcels remain distinct from extrapolation to the full range. Field papers use the combination Saguinus oedipus, while page identity follows the pinned COL26.8 ID.. This page is.
+Social observations, reproductive samples and forest surveys come from different sites, dates and designs; estimates for surveyed parcels remain distinct from extrapolation to the full range. Field papers use the combination Saguinus oedipus, while page identity follows the pinned COL26.8 ID..
 

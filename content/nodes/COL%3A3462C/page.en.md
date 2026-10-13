@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4. It is a mean
 ## A 2015 life-history row for this name {#s-3dec8e5b51}
 COL26.8 records Darevskia armeniaca as an accepted species. The August 2015 life-history table has a species-name and family match (Lacertidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-04f6f16a66}
+## Adult body mass in the archive {#s-04f6f16a66}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 2.1 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-f8d025de3d}

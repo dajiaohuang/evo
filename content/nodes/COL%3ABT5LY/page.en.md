@@ -5,5 +5,5 @@ MDD currently displays Hiller's Slow Loris, records the type locality as Batu Sa
 Stone and Rehn's 1902 paper placed hilleri under N. coucang; current MDD lists Nycticebus hilleri as an accepted species and retains Sumatran Slow Loris as another English name. The older name combination records taxonomic history, not field morphology or ecology. The evidence set used here contains no species-specific field-ecology study for this profile.
 
 ## Evidence limits {#s-620e0f5c18}
-This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation. This entry is.
+This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation.
 

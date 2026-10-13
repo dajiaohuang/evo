@@ -37,5 +37,5 @@ A satellite-tracking study in northern Australia moved five adult male saltwater
 The bite-force comparison and translocation study use separate samples: 83 adults across 23 living crocodilian species for the former, and five relocated adult males for the latter. Their findings do not define field bite performance or a species-wide movement rule.
 
 ## How to trace these values to sources {#s-ec4ed565f7}
-Same-name sparse rows carry source labels including Seymour, 1979; Werner and Griebeler, 2013; Thorbjarnarson,  1996; BC Reptiles - Meyers et al., 2009, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including Seymour, 1979; Werner and Griebeler, 2013; Thorbjarnarson,  1996; BC Reptiles - Meyers et al., 2009, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

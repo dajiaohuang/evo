@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 3. It is a mean
 ## A 2015 life-history row for this name {#s-ce8dabb8fc}
 COL26.8 records Acanthodactylus schreiberi as an accepted species. The August 2015 life-history table has a species-name and family match (Lacertidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-8f05e890d9}
+## Adult body mass in the archive {#s-8f05e890d9}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 18.15 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-31e3a21ae8}

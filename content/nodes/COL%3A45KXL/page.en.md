@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 14.5. It is a m
 ## A 2015 life-history row for this name {#s-76581a7b55}
 COL26.8 records Naja nigricincta as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-6caba0eb19}
+## Adult body mass in the archive {#s-6caba0eb19}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 8787 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-29e4f6ca62}

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 5.7. It is a me
 ## A 2015 life-history row for this name {#s-e0e9ef5c43}
 COL26.8 records Chelonoidis carbonarius as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-0c46c46899}
+## Adult and birth-or-hatching mass in the archive {#s-0c46c46899}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: a mean of cited source values. The archive reports adult body mass as 2000 g. The 2015 archive's field citation is Werner and Griebeler, 2013. The combined birth-or-hatching mass field is 26 g; the source groups birth and hatching in this field. The 2015 archive's field citation is BC Reptiles - Wilson, 2003.
 
 ## Reproductive events in the life-history table {#s-f8b8a7a486}

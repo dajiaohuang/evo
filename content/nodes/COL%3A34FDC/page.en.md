@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 8.5. It is a me
 ## A 2015 life-history row for this name {#s-af36cec721}
 COL26.8 records Deirochelys reticularia as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-080fad7ee8}
+## Adult and birth-or-hatching mass in the archive {#s-080fad7ee8}
 Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: a mean of cited source values. The archive reports adult body mass as 910.5 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993. The combined birth-or-hatching mass field is 8.55 g; the source groups birth and hatching in this field. The 2015 archive's field citation is BC Reptiles - Ernst and Lovich, 2009.
 
 ## Reproductive events in the life-history table {#s-364fac08d8}

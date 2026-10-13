@@ -13,7 +13,7 @@ COL26.8 名录将 Carettochelys insculpta 记录为接受种。ReptTraits v1-2 �
 ## 该名称对应的 2015 年生活史条目 {#s-abb844ba1f}
 COL26.8 名录将 Carettochelys insculpta 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Carettochelyidae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-94f1c32e85}
+## 档案中的成年及出生或孵化体重 {#s-94f1c32e85}
 各字段的档案注记：成年体重：所引来源数值的均值；出生或孵化时体重：所引来源数值的均值。档案报告的成年体重为 16275 g。2015 年档案为该字段列出的引用为 Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Meyers et al., 2009。出生或孵化体重字段为 31 g；来源将出生与孵化合并在同一字段中。2015 年档案为该字段列出的引用为 BC Reptiles - Eisemberg, C.C., Rose, M., Yaru, B. and A. Georges, 2011。
 
 ## 生活史表中的繁殖事件 {#s-a09b8d8c68}

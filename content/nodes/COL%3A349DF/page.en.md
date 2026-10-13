@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 10.5. It is a m
 ## A 2015 life-history row for this name {#s-80bd532041}
 COL26.8 records Dasypeltis atra as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-6ba1040c7e}
+## Adult body mass in the archive {#s-6ba1040c7e}
 Field-specific archive notes: adult body mass: a source-level mean based on median inputs. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 72.25 g. The 2015 archive's field citation is Boback and Guyer, 2003; BC Reptiles - Secor, 2009; BC Reptiles - Greene, S., McConnachie, S., Secor, S., and M. Perrin, 2013.
 
 ## Reproductive events in the life-history table {#s-ade513dff6}

@@ -5,5 +5,5 @@ The Mananara-Nord description reported a mean body mass of about 0.99 kg. The he
 The paper then knew the species only from the Ivontaka-Sud and Verezanantsoro lowland-rainforest parcels in Mananara-Nord Biosphere Reserve. The Fahambahy or Mananara River were possible northern limits; sparse sampling to the south left the southern limit unresolved.
 
 ## Evidence limits {#s-6fdd7a0601}
-Mass, morphology, and forest records reflect the 2009 sample; uncertainty about both limits is retained. The Chinese name is editorial, and this guide is.
+Mass, morphology, and forest records reflect the 2009 sample; uncertainty about both limits is retained. The Chinese name is editorial, and
 

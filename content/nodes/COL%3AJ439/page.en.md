@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 5. It is a mean
 ## A 2015 life-history row for this name {#s-ff4cc8e1dc}
 COL26.8 records Astrochelys radiata as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-5846d3f9a4}
+## Adult body mass in the archive {#s-5846d3f9a4}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 10217 g. The 2015 archive's field citation is Werner and Griebeler, 2013; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Meyers et al., 2009.
 
 ## Reproductive events in the life-history table {#s-5a3a86343f}

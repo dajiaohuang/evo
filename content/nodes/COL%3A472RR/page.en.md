@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 1.98. It is a m
 ## A 2015 life-history row for this name {#s-470f8a1896}
 COL26.8 records Nephrurus laevissimus as an accepted species. The August 2015 life-history table has a species-name and family match (Carphodactylidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-f4ad810d6a}
+## Adult body mass in the archive {#s-f4ad810d6a}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 7.3 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-970d8a6d7a}

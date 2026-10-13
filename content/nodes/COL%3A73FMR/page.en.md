@@ -8,5 +8,5 @@ The MDD record places holotype TAFO6.1 in Antafondro Classified Forest at about 
 This page uses MDD's primary English display name and retains Antafondro Mouse Lemur as another name listed by that database. The COL26.8 species entry is `73FMR`.
 
 ## Evidence limits {#s-f4b9e600f7}
-Evidence is limited to the 2008 revision, its descriptive material and the type locality; the type point is not treated as a present-day range survey, and no population trend or conservation category is inferred. The Chinese common name is editorial. The page is.
+Evidence is limited to the 2008 revision, its descriptive material and the type locality; the type point is not treated as a present-day range survey, and no population trend or conservation category is inferred. The Chinese common name is editorial.
 

@@ -13,7 +13,7 @@ The reproductive-mode field records egg-laying (oviparous); this is the source's
 ## A 2015 life-history row for this name {#s-774bb264cb}
 COL26.8 records Bungarus caeruleus as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-1159cc8ef5}
+## Adult body mass in the archive {#s-1159cc8ef5}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 1154 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-fc3fa138fe}

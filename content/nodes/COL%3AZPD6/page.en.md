@@ -13,7 +13,7 @@ The reproductive-mode field records live-bearing (viviparous); this is the sourc
 ## A 2015 life-history row for this name {#s-f2a2c8bb0f}
 COL26.8 records Crotalus stephensi as an accepted species. The August 2015 life-history table has a species-name and family match (Viperidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-bef98d8389}
+## Adult body mass in the archive {#s-bef98d8389}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 888 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-9dacb63323}

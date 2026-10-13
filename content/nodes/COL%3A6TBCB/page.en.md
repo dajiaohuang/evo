@@ -40,5 +40,5 @@ A multilocus analysis of African dwarf crocodiles from known localities supporte
 The cave-ecology comparison uses samples from Abanda and surrounding forest. Its results do not define the full range or ecology of the accepted COL26.8 concept.
 
 ## How to trace these values to sources {#s-f390a69970}
-Same-name sparse rows carry source labels including de Magalhaes and Costa, 2009; Werner and Griebeler, 2013; Thorbjarnarson,  1996; IUCN, 1989, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including de Magalhaes and Costa, 2009; Werner and Griebeler, 2013; Thorbjarnarson,  1996; IUCN, 1989, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 35. It is a mea
 ## A 2015 life-history row for this name {#s-79a0689530}
 COL26.8 records Chamaeleo calyptratus as an accepted species. The August 2015 life-history table has a species-name and family match (Chamaeleonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-fb67cbbd4d}
+## Adult and birth-or-hatching mass in the archive {#s-fb67cbbd4d}
 Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: one direct source citation, with no median count stated. The archive reports adult body mass as 200.215 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 0.56 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-f98ac69d98}

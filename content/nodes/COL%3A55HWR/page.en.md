@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4. It is a mean
 ## A 2015 life-history row for this name {#s-dfeef5c1bf}
 COL26.8 records Terrapene mexicana as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-7f03df89b1}
+## Adult body mass in the archive {#s-7f03df89b1}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 855.5 g. The 2015 archive's field citation is Ricklefs, 2010b; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-6a939897f8}

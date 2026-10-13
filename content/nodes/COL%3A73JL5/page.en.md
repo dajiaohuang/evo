@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 4.5. It is a me
 ## A 2015 life-history row for this name {#s-38e29bcbbc}
 COL26.8 records Micrurus altirostris as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-65255e6c91}
+## Adult body mass in the archive {#s-65255e6c91}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 724.5 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-79f450244f}

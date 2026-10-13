@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 5. It is a mean
 ## A 2015 life-history row for this name {#s-6760ad82b4}
 COL26.8 records Pelomedusa subrufa as an accepted species. The August 2015 life-history table has a species-name and family match (Pelomedusidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-d7466ec9b3}
+## Adult body mass in the archive {#s-d7466ec9b3}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 2273 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-8d2605c07f}

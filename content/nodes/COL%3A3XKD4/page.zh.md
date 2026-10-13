@@ -13,7 +13,7 @@ COL26.8 名录将 Malaclemys terrapin 记录为接受种。ReptTraits v1-2 该�
 ## 该名称对应的 2015 年生活史条目 {#s-13524f3cca}
 COL26.8 名录将 Malaclemys terrapin 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Emydidae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-eee7b0f190}
+## 档案中的成年及出生或孵化体重 {#s-eee7b0f190}
 各字段的档案注记：成年体重：所引来源数值的均值；出生或孵化时体重：直接列出一项来源引用，未注明中位数数量。档案报告的成年体重为 803 g。2015 年档案为该字段列出的引用为 Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013。出生或孵化体重字段为 5.8 g；来源将出生与孵化合并在同一字段中。2015 年档案为该字段列出的引用为 BC Reptiles - Wnek, 2010。
 
 ## 生活史表中的繁殖事件 {#s-8f1bb5174b}

@@ -1,7 +1,7 @@
 ## A 2015 life-history row for this name {#s-6a71869c00}
 COL26.8 records Chelodina canni as an accepted species. The August 2015 life-history table has a species-name and family match (Chelidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-1c54c80867}
+## Adult body mass in the archive {#s-1c54c80867}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 1006 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-f57b9b8490}

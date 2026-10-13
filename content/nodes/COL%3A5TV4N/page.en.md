@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 2.6. It is a me
 ## A 2015 life-history row for this name {#s-bc85787207}
 COL26.8 records Aipysurus laevis as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-ac0e0b7aea}
+## Adult body mass in the archive {#s-ac0e0b7aea}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 3113 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-e878248c4a}

@@ -45,5 +45,5 @@ The finite element models standardize volume and bite loading and use homogeneou
 These are observations of the listed museum specimens, not population estimates or a complete species account. Serial variation, skeletal maturity and sample size limit generalization. Distribution, behaviour, conservation status and a validated species diagnosis are not established by this source.
 
 ## How to trace these values to sources {#s-ec18acf86a}
-Same-name sparse rows carry source labels including de Magalhaes and Costa, 2009; Meiri, 2010; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013; BC Reptiles - Meyers et al., 2009, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+Same-name sparse rows carry source labels including de Magalhaes and Costa, 2009; Meiri, 2010; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013; BC Reptiles - Meyers et al., 2009, among others. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 

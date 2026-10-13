@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 10. It is a mea
 ## A 2015 life-history row for this name {#s-4870858af8}
 COL26.8 records Conolophus pallidus as an accepted species. The August 2015 life-history table has a species-name and family match (Iguanidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-591bfadff7}
+## Adult and birth-or-hatching mass in the archive {#s-591bfadff7}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values; mass at birth or hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 4200 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; BC Reptiles - Meiri, 2010. The combined birth-or-hatching mass field is 44.26 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-b24feaec5f}

@@ -13,7 +13,7 @@ The reproductive-mode field records egg-laying (oviparous); this is the source's
 ## A 2015 life-history row for this name {#s-ccfb4bf54c}
 COL26.8 records Dendroaspis jamesoni as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-32b9d98e5b}
+## Adult body mass in the archive {#s-32b9d98e5b}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 19310 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-c9cfdde5bd}

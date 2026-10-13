@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 10.25. It is a 
 ## A 2015 life-history row for this name {#s-9089358f65}
 COL26.8 records Graptemys ouachitensis as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-df2547d779}
+## Adult body mass in the archive {#s-df2547d779}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 1306.5 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-fc8067d053}

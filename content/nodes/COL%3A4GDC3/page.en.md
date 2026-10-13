@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 11. It is a mea
 ## A 2015 life-history row for this name {#s-019c76d11e}
 COL26.8 records Philothamnus ornatus as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-ce311ec51b}
+## Adult body mass in the archive {#s-ce311ec51b}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 471 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-548a91457f}

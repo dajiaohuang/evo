@@ -8,5 +8,5 @@ Ambrose examined populations at ten locations across Gabon, Cameroon and Bioko. 
 Charles-Dominique’s 1977 radio-tracking study followed a free-ranging population called Galago alleni at Makokou, Gabon, during three three-month study periods in 1972, 1973 and 1975. The later acoustic paper locates its Gabon form in northern Gabon and southern Cameroon, but the 1977 study did not identify call profiles; its territorial and urine-marking observations therefore remain historical evidence under the old name, not a confirmed species-specific result for S. gabonensis.
 
 ## Evidence limits {#s-95782aff27}
-The direct species-level evidence here is chiefly the 2003 regional call comparison. The detailed 1977 Gabon field study predates the acoustic split and cannot be assigned to this species from its name alone. Neither source gives a current population estimate or a range-wide ecological account. The Chinese name is editorial. This page is.
+The direct species-level evidence here is chiefly the 2003 regional call comparison. The detailed 1977 Gabon field study predates the acoustic split and cannot be assigned to this species from its name alone. Neither source gives a current population estimate or a range-wide ecological account. The Chinese name is editorial.
 

@@ -8,5 +8,5 @@ The type locality is at the southern end of Siau. The 2008 paper had one holotyp
 Behavioral observations and conservation concerns in the description are historical and geographically limited. The paper does not provide a current island-wide population count.
 
 ## Evidence limits {#s-e7e04d1f75}
-The taxonomic account is based on very few specimens and localized observations; it is not a current population or island-wide survey. This page is.
+The taxonomic account is based on very few specimens and localized observations; it is not a current population or island-wide survey.
 

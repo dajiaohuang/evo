@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 24.75. It is a 
 ## A 2015 life-history row for this name {#s-097177f17d}
 COL26.8 records Macrochelys temminckii as an accepted species. The August 2015 life-history table has a species-name and family match (Chelydridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-ac6181f857}
+## Adult body mass in the archive {#s-ac6181f857}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 78900 g. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Dobie, 1971.
 
 ## Reproductive events in the life-history table {#s-5abddd6fc3}

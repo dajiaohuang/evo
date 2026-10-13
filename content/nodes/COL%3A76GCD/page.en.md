@@ -10,7 +10,7 @@ The compiled mean for offspring per litter or eggs per clutch is 10.7. It is a m
 ## A 2015 life-history row for this name {#s-d5b3c294dd}
 COL26.8 records Peltocephalus dumerilianus as an accepted species. The August 2015 life-history table has a species-name and family match (Podocnemididae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-6b3f3f60e0}
+## Adult body mass in the archive {#s-6b3f3f60e0}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 3600 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
 ## Reproductive events in the life-history table {#s-35b0562952}

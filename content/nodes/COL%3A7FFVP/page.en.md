@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 11.850000000000
 ## A 2015 life-history row for this name {#s-9f0de51f0c}
 COL26.8 records Varanus mitchelli as an accepted species. The August 2015 life-history table has a species-name and family match (Varanidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-1a1575e2e9}
+## Adult and birth-or-hatching mass in the archive {#s-1a1575e2e9}
 Field-specific archive notes: adult body mass: median of 4 recorded source-table values; mass at birth or hatching: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 167.65 g. The 2015 archive's field citation is Meiri, 2010; BC Reptiles - Clemente, C.J., Withers, P.C., and G.G. Thompson, 2009. The combined birth-or-hatching mass field is 4.34 g; the source groups birth and hatching in this field. The 2015 archive's field citation is BC Reptiles - Gaikhorst, G., McLaughlin, J., Larkin, B. and M. McPharlin, 2009.
 
 ## Reproductive events in the life-history table {#s-eb67ce574f}

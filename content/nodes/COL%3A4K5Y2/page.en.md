@@ -8,5 +8,5 @@ Observations summarized in the account describe family groups commonly comprisin
 COL26.8 accepts Plecturocebus caquetensis. The 2021 account uses this genus and records the original combination in Callicebus.
 
 ## Evidence limits {#s-304880897e}
-The 104 localities are occurrence records, not a population estimate; the account notes gaps in habitat preference, reproduction and home-range knowledge. The Chinese name is editorial; this guide is.
+The 104 localities are occurrence records, not a population estimate; the account notes gaps in habitat preference, reproduction and home-range knowledge. The Chinese name is editorial;
 

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean
 ## A 2015 life-history row for this name {#s-7955ef769b}
 COL26.8 records Goniurosaurus lichtenfelderi as an accepted species. The August 2015 life-history table has a species-name and family match (Eublepharidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-e357307c03}
+## Adult body mass in the archive {#s-e357307c03}
 Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 12.42 g. The 2015 archive's field citation is Meiri, 2010; Kratochvil and Frynta, 2006a.
 
 ## Reproductive events in the life-history table {#s-43f06decce}

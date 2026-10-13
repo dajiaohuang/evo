@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 6. It is a mean
 ## A 2015 life-history row for this name {#s-5b98b6e77a}
 COL26.8 records Sceloporus zosteromus as an accepted species. The August 2015 life-history table has a species-name and family match (Phrynosomatidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-74bcfb83e7}
+## Adult and birth-or-hatching mass in the archive {#s-74bcfb83e7}
 Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: one direct source citation, with no median count stated. The archive reports adult body mass as 35.21 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 1.9 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
 ## Reproductive events in the life-history table {#s-0c74f59743}

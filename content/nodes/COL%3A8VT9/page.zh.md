@@ -13,7 +13,7 @@ COL26.8 名录将 Acanthodactylus schreiberi 记录为接受种。ReptTraits v1-
 ## 该名称对应的 2015 年生活史条目 {#s-e54a4f2acc}
 COL26.8 名录将 Acanthodactylus schreiberi 记录为接受种。2015 年 8 月生活史表格的历史档案中有名称与科相符的条目（Lacertidae）。档案注明数值可能从较早的种或亚种记录继承。
 
-## 档案中的长度记录 {#s-c7a864cdff}
+## 档案中的成年体重 {#s-c7a864cdff}
 各字段的档案注记：成年体重：所引来源数值的均值。档案报告的成年体重为 18.15 g。2015 年档案为该字段列出的引用为 Meiri, 2010。
 
 ## 生活史表中的繁殖事件 {#s-a3d3a277a9}

@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 1.5. It is a me
 ## A 2015 life-history row for this name {#s-e24d79692f}
 COL26.8 records Pachydactylus tigrinus as an accepted species. The August 2015 life-history table has a species-name and family match (Gekkonidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-678db95581}
+## Adult body mass in the archive {#s-678db95581}
 Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 4 g. The 2015 archive's field citation is Meiri, 2010.
 
 ## Reproductive events in the life-history table {#s-2ea8cec424}

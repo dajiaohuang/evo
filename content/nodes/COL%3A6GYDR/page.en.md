@@ -13,7 +13,7 @@ The compiled mean for offspring per litter or eggs per clutch is 30. It is a mea
 ## A 2015 life-history row for this name {#s-456e99d3e7}
 COL26.8 records Eunectes murinus as an accepted species. The August 2015 life-history table has a species-name and family match (Boidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Length values in the archived records {#s-8edc433618}
+## Adult body mass in the archive {#s-8edc433618}
 Field-specific archive notes: adult body mass: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 97500 g. The 2015 archive's field citation is Ricklefs, 2010b; Rivas, 2000; Boback and Guyer, 2003.
 
 ## Reproductive events in the life-history table {#s-66d82dd4d9}

@@ -1,5 +1,5 @@
 ## Mimolagus：PBDB 属级路径 {#s-6bd6328ef6}
-PBDB 在这条记录路径中将 *Mimolagus* 记为属级。固定工作名录包含 2 个物种的出现导读：*Mimolagus rodens* 和 *Mimolagus aurorae*。记录的数据库父级用于编排这些资料，不代表唯一系统发育方案，也不以条目数量衡量演化重要性。本批只列非现生化石种记录，不能据此断言整个类群已经灭绝。
+PBDB 在这条记录路径中将 *Mimolagus* 记为属级。此路线收录的工作名录包含 2 个物种的出现导读：*Mimolagus rodens* 和 *Mimolagus aurorae*。记录的数据库父级用于编排这些资料，不代表唯一系统发育方案，也不以条目数量衡量演化重要性。此路线只列非现生化石种记录，不能据此断言整个类群已经灭绝。
 
 ## 对读五个采集记录与各自年代 {#s-bbda9a0153}
 可从 *Mimolagus rodens* 和 *Mimolagus aurorae* 开始，对照具名采集记录和原始引文。本导读包含 5 条所选出现记录、来自 5 个采集记录；地层名称示例为 Irdin Manha、Huoshaogou 和 Ulan Shireh。比较地点前，应先查看各采集记录自己的年代区间和鉴定限定。出现、采集和物种数量不能混用为古种群规模。
