@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { beforeEach, expect, it, vi } from 'vitest'
 import { CatalogueContent } from './CatalogueContent'
 import type { CatalogueRuntimeManifest, CatalogueKnowledgeRecord } from '../../data-client/types'
@@ -32,6 +32,27 @@ it('checks one index and skips all description collections when content is absen
   expect(mocks.loadCatalogueKnowledge).toHaveBeenCalledTimes(1)
   expect(screen.queryByText(/unstudied|no evidence/i)).not.toBeInTheDocument()
   Object.entries(mocks).filter(([name]) => name !== 'loadCatalogueKnowledge').forEach(([, mock]) => expect(mock).not.toHaveBeenCalled())
+})
+
+it.each([true, false])('retains single-language bibliography in the opposite UI locale (zh=%s)', async zh => {
+  const available = zh ? 'en' : 'zh'
+  const title = zh ? 'Recorded source' : '所录来源'
+  const scope = zh ? 'This sample only.' : '仅限这一样本。'
+  const record: CatalogueKnowledgeRecord = {
+    colId: 'species', descriptionCollections: [],
+    profile: {
+      colId: 'species', scientificName: 'Example species', rank: 'species', sourceDatasetId: null,
+      name: { en: 'Example species', zh: '示例种' }, sections: [],
+      sources: [{ id: 'source', title: { [available]: title }, scope: { [available]: scope }, url: 'https://example.org/source' }],
+      limitations: { en: 'Names only.', zh: '仅名称。' },
+    },
+  }
+  mocks.loadCatalogueKnowledge.mockResolvedValue(record)
+  render(<CatalogueContent id="species" rank="species" manifest={manifest} zh={zh} />)
+  fireEvent.click(await screen.findByText(zh ? '研究来源与适用范围' : 'Study sources and scope'))
+  expect(screen.getByRole('link', { name: title })).toHaveAttribute('href', 'https://example.org/source')
+  expect(screen.getByText(scope)).toBeVisible()
+  expect(screen.getByRole('note')).toHaveTextContent(zh ? '部分来源信息以现有语言显示。' : 'Some source details are retained in their available language.')
 })
 
 it('loads only indexed Nicaragua text and preserves missing citation boundaries', async () => {

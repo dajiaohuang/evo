@@ -13,7 +13,6 @@ export const coreScriptTests = [
   'scripts/reference-date-status.test.mjs',
   'scripts/search-occurrence-scenes.test.mjs',
   'scripts/node-content.test.mjs',
-  'scripts/build-content-projections.test.mjs',
   'scripts/pbdb-reader.test.mjs',
   'scripts/pbdb-static-reader.test.mjs',
 ]

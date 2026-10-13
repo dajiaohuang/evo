@@ -31,6 +31,9 @@ export function CatalogueKnowledge({ record, status, zh, release, onNavigate }: 
     ...[...studySources.values()].map(source => ({ ...source, id: `study:${source.id}` })),
     ...(atlas?.readerSources ?? []).map(source => ({ ...source, id: `atlas:${source.id}` })),
   ]
+  const sourceText = (value: NodeReadingSource['title'] | undefined) => typeof value === 'string' ? value : value?.[language] || value?.en || value?.zh || ''
+  const sourceLanguageFallback = sources.some(source => [source.title, source.scope]
+    .some(value => typeof value === 'object' && value !== null && !value[language] && !!(value.en || value.zh)))
   return <section className="catalogue-source-card catalogue-knowledge" aria-label={zh ? '生物与研究' : 'The organism and its studies'}>
     {profile && <h2>{profile.name[language]}</h2>}
     <NodeReadingSections sections={sections} sources={sources} language={language} />
@@ -39,9 +42,10 @@ export function CatalogueKnowledge({ record, status, zh, release, onNavigate }: 
       <summary>{zh ? '研究来源与适用范围' : 'Study sources and scope'}</summary>
       {profile?.limitations && <p>{profile.limitations[language]}</p>}
       {atlas?.readerLimitations && <p>{atlas.readerLimitations[language]}</p>}
+      {sourceLanguageFallback && <p className="node-reading__language" role="note">{zh ? '部分来源信息以现有语言显示。' : 'Some source details are retained in their available language.'}</p>}
       <ul>{sources.map(source => <li key={source.id}>{source.url
-        ? <a href={source.url} target="_blank" rel="noreferrer">{typeof source.title === 'string' ? source.title : source.title[language]}</a>
-        : <strong>{typeof source.title === 'string' ? source.title : source.title[language]}</strong>}{source.scope && <p>{typeof source.scope === 'string' ? source.scope : source.scope[language]}</p>}
+        ? <a href={source.url} target="_blank" rel="noreferrer">{sourceText(source.title)}</a>
+        : <strong>{sourceText(source.title)}</strong>}{source.scope && <p>{sourceText(source.scope)}</p>}
         {source.locator && <p>{zh ? '来源定位：' : 'Source locator: '}{source.locator}</p>}
         {source.version && <p>{source.version}</p>}
         {source.publishedAt && <p>{zh ? '发布日期：' : 'Published: '}{source.publishedAt}</p>}
